@@ -1,0 +1,163 @@
+{
+  "video": {
+    "videoId": "piORpJO4lDU",
+    "title": "해변가 파티 이상혁 The Red Sea Ep.1",
+    "channelTitle": "T1",
+    "thumbnailUrl": "https://i.ytimg.com/vi/piORpJO4lDU/maxresdefault.jpg",
+    "publishedAt": "2025-12-30",
+    "viewCount": 522672,
+    "likeCount": 15487,
+    "analyzedComments": 939,
+    "languageRatio": {
+      "ko": 88,
+      "en": 5,
+      "other": 7
+    },
+    "weightedSentiment": 81
+  },
+  "topics": [
+    {
+      "label": "페이커의 매력",
+      "labelEn": "Faker's Charm",
+      "labelZh": "Faker的魅力",
+      "labelJa": "フェイカーの魅力",
+      "mentionCount": 336,
+      "sentiment": {
+        "positive": 76,
+        "neutral": 21,
+        "negative": 3
+      }
+    },
+    {
+      "label": "선수들의 즐거움",
+      "labelEn": "Players' Enjoyment",
+      "labelZh": "球员的乐趣",
+      "labelJa": "選手の楽しみ",
+      "mentionCount": 293,
+      "sentiment": {
+        "positive": 73,
+        "neutral": 23,
+        "negative": 4
+      }
+    },
+    {
+      "label": "팀워크",
+      "labelEn": "Teamwork",
+      "labelZh": "团队合作",
+      "labelJa": "チームワーク",
+      "mentionCount": 183,
+      "sentiment": {
+        "positive": 51,
+        "neutral": 44,
+        "negative": 5
+      }
+    },
+    {
+      "label": "편집 스타일",
+      "labelEn": "Editing Style",
+      "labelZh": "编辑风格",
+      "labelJa": "編集スタイル",
+      "mentionCount": 95,
+      "sentiment": {
+        "positive": 45,
+        "neutral": 48,
+        "negative": 6
+      }
+    },
+    {
+      "label": "게임과 휴식의 균형",
+      "labelEn": "Balance of Gaming and Relaxation",
+      "labelZh": "游戏与休息的平衡",
+      "labelJa": "ゲームと休息のバランス",
+      "mentionCount": 32,
+      "sentiment": {
+        "positive": 72,
+        "neutral": 19,
+        "negative": 9
+      }
+    }
+  ],
+  "reactionTimeline": [
+    {
+      "label": "0–1h",
+      "positive": 150,
+      "neutral": 83,
+      "negative": 11
+    },
+    {
+      "label": "1–24h",
+      "positive": 403,
+      "neutral": 137,
+      "negative": 26
+    },
+    {
+      "label": "1–7d",
+      "positive": 49,
+      "neutral": 19,
+      "negative": 4
+    },
+    {
+      "label": "7–30d",
+      "positive": 14,
+      "neutral": 24,
+      "negative": 1
+    },
+    {
+      "label": "30d+",
+      "positive": 11,
+      "neutral": 7,
+      "negative": 0
+    }
+  ],
+  "keyInsights": [
+    {
+      "type": "positive",
+      "topic": "게임과 휴식의 균형",
+      "topicEn": "Balance of Gaming and Relaxation",
+      "topicZh": "游戏与休息的平衡",
+      "topicJa": "ゲームと休息のバランス",
+      "comment": "드디어 기어나왔구나 ㅠ",
+      "commentLang": "ko",
+      "likes": 3050
+    },
+    {
+      "type": "negative",
+      "topic": "페이커의 매력",
+      "topicEn": "Faker's Charm",
+      "topicZh": "Faker的魅力",
+      "topicJa": "フェイカーの魅力",
+      "comment": "티원이 만들수 있는 영상퀄이 아닌데?",
+      "commentLang": "ko",
+      "likes": 167
+    },
+    {
+      "type": "positive",
+      "topic": "팀워크",
+      "topicEn": "Teamwork",
+      "topicZh": "团队合作",
+      "topicJa": "チームワーク",
+      "comment": "페이커 보니까 은근 멤버 다 챙겨주려고 하고 엄청 적극적이네ㅋㅋㅋㅋㅋ 리더맞다",
+      "commentLang": "ko",
+      "likes": 1760
+    },
+    {
+      "type": "negative",
+      "topic": "팀워크",
+      "topicEn": "Teamwork",
+      "topicZh": "团队合作",
+      "topicJa": "チームワーク",
+      "comment": "t1영상팀들은 사우디갔다왔을때 부터 지금까지 출근해서 뭐했는지 진술서 써내라 얘들이야 말로 진짜 대기업에서 한다는 마우스 15분이상 안움직이면 사유서 내고 이런걸 해야됨 개인 메신저 사용금지에",
+      "commentLang": "ko",
+      "likes": 15
+    }
+  ],
+  "analyzedAt": "2026-07-02T15:57:07.438250+00:00",
+  "analysisDuration": 160.3,
+  "tokenUsage": {
+    "input": 42870,
+    "output": 11315,
+    "embedding": 29844,
+    "total": 84029,
+    "estimatedCostUsd": 0.013816
+  }
+}

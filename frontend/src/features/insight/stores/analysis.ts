@@ -63,7 +63,6 @@ export const useAnalysisStore = defineStore('analysis', () => {
               result.value       = msg.data
               resultSource.value = 'analysis'
               justFinished.value = true
-              setTimeout(() => { justFinished.value = false }, 6000)
               const videoId = msg.data?.video?.videoId
               if (videoId && onSave) onSave(videoId, msg.data)
             } else if (msg.step === 'error') {

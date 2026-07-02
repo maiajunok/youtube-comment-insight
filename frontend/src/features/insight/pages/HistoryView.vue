@@ -83,7 +83,8 @@ const onView = async (item: HistoryItem) => {
   try {
     const data = await insightApi.getByVideoId(item.videoId)
     analysisStore.setResult(data)
-    await router.push({ name: 'history-view' })
+    // videoId를 쿼리에 남겨서 새로고침해도 같은 영상을 다시 불러올 수 있게 함
+    await router.push({ name: 'history-view', query: { id: item.videoId } })
   } catch (e) {
     console.error('[onView]', e)
     error.value = '영상 데이터를 불러오지 못했습니다.'
@@ -110,10 +111,10 @@ async function confirmDelete() {
 </script>
 
 <template>
-  <div class="overflow-y-auto flex-1" style="position:relative;z-index:2; padding: 36px 40px; display:flex; flex-direction:column; gap:24px;">
+  <div class="history-wrap overflow-y-auto flex-1" style="position:relative;z-index:2; display:flex; flex-direction:column;">
 
     <!-- 헤더 -->
-    <div style="display:flex; align-items:flex-end; justify-content:space-between;">
+    <div class="history-header" style="display:flex; align-items:flex-end; justify-content:space-between;">
       <div>
         <h1 style="font-size:18px; font-weight:700; color:var(--text); letter-spacing:-.02em;">{{ M.historyTitle }}</h1>
         <p style="font-size:13px; color:var(--subtext); margin-top:4px;">
@@ -145,6 +146,8 @@ async function confirmDelete() {
       </div>
     </div>
 
+    <div class="history-body">
+
     <p v-if="error" class="text-sm" style="color: #f87171">{{ error }}</p>
 
     <!-- 로딩 -->
@@ -161,7 +164,7 @@ async function confirmDelete() {
       <p class="text-sm" style="color: var(--subtext)">{{ M.emptyHistory }}</p>
       <button @click="router.push({ name: 'home' })"
         class="mt-2 text-sm px-4 py-2 rounded-lg font-semibold"
-        style="background: var(--accent); color: #0b0c1e">
+        style="background: var(--accent); color: var(--cta-text)">
         {{ M.goAnalyze }}
       </button>
     </div>
@@ -188,14 +191,14 @@ async function confirmDelete() {
 
           <!-- 제목 + 채널 -->
           <div>
-            <p class="text-[14px] font-semibold line-clamp-2" style="color: var(--text); line-height: 1.6;">
+            <p class="text-[14px] font-semibold line-clamp-2" style="color: var(--text); line-height: 1.6; min-height: 44.8px;">
               {{ item.title }}
             </p>
             <p class="text-[13px] mt-1.5 font-medium" style="color: var(--subtext)">{{ item.channelTitle }}</p>
           </div>
 
           <!-- 분석 날짜 + 댓글 수 -->
-          <div class="flex items-center justify-between text-[12px] font-medium" style="color: var(--subtext)">
+          <div class="flex items-center justify-between text-[12px] font-medium" style="color: var(--subtext); margin-top: auto;">
             <span>{{ fmtDate(item.analyzedAt) }}</span>
             <span>{{ fmtComments(fmtNum(item.analyzedComments)) }}</span>
           </div>
@@ -228,8 +231,7 @@ async function confirmDelete() {
         <div class="card-footer">
           <button
             @click="onView(item)"
-            class="flex-1 py-2 rounded-lg text-[13px] font-semibold transition-opacity hover:opacity-85 cursor-pointer"
-            style="background: var(--accent); color: #fff"
+            class="view-btn flex-1 py-2 rounded-lg text-[13px] font-semibold cursor-pointer"
           >{{ M.viewBtn }}</button>
           <button
             @click="requestDelete(item.videoId)"
@@ -244,6 +246,8 @@ async function confirmDelete() {
           </button>
         </div>
       </div>
+    </div>
+
     </div>
 
     <!-- 삭제 확인 모달 -->
@@ -283,15 +287,24 @@ async function confirmDelete() {
   padding: 6px 12px;
   border-radius: 8px;
   border: 0.5px solid var(--border);
-  background: var(--card);
+  background: transparent;
   color: var(--subtext);
   cursor: pointer;
-  transition: border-color .15s, color .15s;
+  transition: border-color .15s, color .15s, background .15s;
   white-space: nowrap;
 }
+.sort-trigger:hover { background: var(--card-hover); }
+.view-btn {
+  background: transparent;
+  border: 0.5px solid var(--border);
+  color: var(--text);
+  transition: border-color .15s, background .15s;
+}
+.view-btn:hover { border-color: rgb(from var(--accent) r g b / 0.4); background: rgb(from var(--accent) r g b / 0.06); }
+
 .sort-trigger:hover {
   color: var(--text);
-  border-color: rgba(123, 94, 248, 0.4);
+  border-color: rgb(from var(--accent) r g b / 0.4);
 }
 .sort-menu {
   position: absolute;
@@ -323,7 +336,7 @@ async function confirmDelete() {
   transition: background .12s, color .12s;
 }
 .sort-option:hover {
-  background: rgba(123, 94, 248, 0.07);
+  background: rgb(from var(--accent) r g b / 0.07);
   color: var(--text);
 }
 .sort-option.active {
@@ -349,9 +362,9 @@ async function confirmDelete() {
   font-weight: 500;
   padding: 3px 10px;
   border-radius: 999px;
-  background: rgba(123, 94, 248, 0.08);
+  background: rgb(from var(--accent) r g b / 0.08);
   color: var(--accent);
-  border: 0.5px solid rgba(123, 94, 248, 0.22);
+  border: 0.5px solid rgb(from var(--accent) r g b / 0.22);
   white-space: nowrap;
   letter-spacing: 0.01em;
 }
@@ -432,4 +445,42 @@ async function confirmDelete() {
   box-shadow: 0 6px 18px rgba(225,29,72,0.3);
 }
 .confirm-btn.danger:hover { opacity: 0.88; box-shadow: 0 8px 22px rgba(225,29,72,0.42); }
+
+.history-header {
+  position: sticky;
+  top: 0;
+  padding: 36px 40px 16px;
+  z-index: 100;
+  isolation: isolate;
+  background: color-mix(in srgb, var(--bg) 65%, transparent);
+  backdrop-filter: blur(20px) saturate(1.4);
+  -webkit-backdrop-filter: blur(20px) saturate(1.4);
+  border-bottom: 0.5px solid var(--border);
+}
+
+.history-body {
+  padding: 24px 40px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+@media (max-width: 768px) {
+  .history-wrap { padding-top: 112px; }
+  .history-header {
+    position: fixed;
+    top: 60px;
+    left: 0;
+    right: 0;
+    padding: 16px 16px 14px;
+    background: color-mix(in srgb, var(--bg) 65%, transparent);
+    backdrop-filter: blur(20px) saturate(1.4);
+    -webkit-backdrop-filter: blur(20px) saturate(1.4);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    flex-wrap: wrap;
+    align-items: flex-start !important;
+    gap: 10px;
+  }
+  .history-body { padding: 18px 16px 32px; gap: 18px; }
+}
 </style>

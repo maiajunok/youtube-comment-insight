@@ -1,0 +1,163 @@
+{
+  "video": {
+    "videoId": "JTpAN6fcils",
+    "title": "사막에서 보드 타면서 양궁하고 낙타도 보다가 테니스까지 친 사람들 The Red Sea Ep.2",
+    "channelTitle": "T1",
+    "thumbnailUrl": "https://i.ytimg.com/vi/JTpAN6fcils/maxresdefault.jpg",
+    "publishedAt": "2026-01-17",
+    "viewCount": 252619,
+    "likeCount": 8254,
+    "analyzedComments": 476,
+    "languageRatio": {
+      "ko": 86,
+      "en": 7,
+      "other": 7
+    },
+    "weightedSentiment": 80
+  },
+  "topics": [
+    {
+      "label": "영상팀 칭찬",
+      "labelEn": "Praise for the Video Team",
+      "labelZh": "对视频团队的赞美",
+      "labelJa": "ビデオチームへの称賛",
+      "mentionCount": 247,
+      "sentiment": {
+        "positive": 71,
+        "neutral": 23,
+        "negative": 6
+      }
+    },
+    {
+      "label": "페이커",
+      "labelEn": "Faker",
+      "labelZh": "Faker",
+      "labelJa": "フェイカー",
+      "mentionCount": 99,
+      "sentiment": {
+        "positive": 62,
+        "neutral": 34,
+        "negative": 4
+      }
+    },
+    {
+      "label": "유머",
+      "labelEn": "Humor",
+      "labelZh": "幽默",
+      "labelJa": "ユーモア",
+      "mentionCount": 65,
+      "sentiment": {
+        "positive": 51,
+        "neutral": 46,
+        "negative": 3
+      }
+    },
+    {
+      "label": "팀워크",
+      "labelEn": "Teamwork",
+      "labelZh": "团队合作",
+      "labelJa": "チームワーク",
+      "mentionCount": 33,
+      "sentiment": {
+        "positive": 55,
+        "neutral": 45,
+        "negative": 0
+      }
+    },
+    {
+      "label": "사우디 경험",
+      "labelEn": "Saudi Experience",
+      "labelZh": "沙特经历",
+      "labelJa": "サウジ体験",
+      "mentionCount": 32,
+      "sentiment": {
+        "positive": 69,
+        "neutral": 31,
+        "negative": 0
+      }
+    }
+  ],
+  "reactionTimeline": [
+    {
+      "label": "0–1h",
+      "positive": 124,
+      "neutral": 67,
+      "negative": 10
+    },
+    {
+      "label": "1–24h",
+      "positive": 167,
+      "neutral": 59,
+      "negative": 9
+    },
+    {
+      "label": "1–7d",
+      "positive": 13,
+      "neutral": 10,
+      "negative": 0
+    },
+    {
+      "label": "7–30d",
+      "positive": 5,
+      "neutral": 9,
+      "negative": 0
+    },
+    {
+      "label": "30d+",
+      "positive": 0,
+      "neutral": 2,
+      "negative": 1
+    }
+  ],
+  "keyInsights": [
+    {
+      "type": "positive",
+      "topic": "팀워크",
+      "topicEn": "Teamwork",
+      "topicZh": "团队合作",
+      "topicJa": "チームワーク",
+      "comment": "영상팀 칭찬합니다 잘한건 칭찬을 해조야대 그래야 계속 올리지👍👍",
+      "commentLang": "ko",
+      "likes": 1842
+    },
+    {
+      "type": "negative",
+      "topic": "영상팀 칭찬",
+      "topicEn": "Praise for the Video Team",
+      "topicZh": "对视频团队的赞美",
+      "topicJa": "ビデオチームへの称賛",
+      "comment": "9:53  설명하고 만족해하는 표정 킹받네",
+      "commentLang": "ko",
+      "likes": 75
+    },
+    {
+      "type": "positive",
+      "topic": "유머",
+      "topicEn": "Humor",
+      "topicZh": "幽默",
+      "topicJa": "ユーモア",
+      "comment": "23:00 알파카 아니야? 군대 간거 아니였어? ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+      "commentLang": "ko",
+      "likes": 1310
+    },
+    {
+      "type": "negative",
+      "topic": "페이커",
+      "topicEn": "Faker",
+      "topicZh": "Faker",
+      "topicJa": "フェイカー",
+      "comment": "진짜 뭐냐",
+      "commentLang": "ko",
+      "likes": 2
+    }
+  ],
+  "analyzedAt": "2026-07-02T16:01:02.212588+00:00",
+  "analysisDuration": 94.4,
+  "tokenUsage": {
+    "input": 25177,
+    "output": 5721,
+    "embedding": 13563,
+    "total": 44461,
+    "estimatedCostUsd": 0.00748
+  }
+}

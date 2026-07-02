@@ -1,0 +1,163 @@
+{
+  "video": {
+    "videoId": "MPcUGG8zvrc",
+    "title": "새로운 왕조의 탄생 [T1scord 2024 Ep.18]",
+    "channelTitle": "T1",
+    "thumbnailUrl": "https://i.ytimg.com/vi/MPcUGG8zvrc/maxresdefault.jpg",
+    "publishedAt": "2024-11-10",
+    "viewCount": 3631198,
+    "likeCount": 72213,
+    "analyzedComments": 1179,
+    "languageRatio": {
+      "ko": 90,
+      "en": 6,
+      "other": 4
+    },
+    "weightedSentiment": 75
+  },
+  "topics": [
+    {
+      "label": "감동적인 순간",
+      "labelEn": "Touching Moments",
+      "labelZh": "感人的时刻",
+      "labelJa": "感動的な瞬間",
+      "mentionCount": 614,
+      "sentiment": {
+        "positive": 66,
+        "neutral": 25,
+        "negative": 10
+      }
+    },
+    {
+      "label": "오너와 페이커의 조화",
+      "labelEn": "Harmony of Owner and Faker",
+      "labelZh": "小老板和Faker的和谐",
+      "labelJa": "オーナーとフェイカーの調和",
+      "mentionCount": 260,
+      "sentiment": {
+        "positive": 68,
+        "neutral": 22,
+        "negative": 10
+      }
+    },
+    {
+      "label": "팀워크",
+      "labelEn": "Teamwork",
+      "labelZh": "团队合作",
+      "labelJa": "チームワーク",
+      "mentionCount": 133,
+      "sentiment": {
+        "positive": 57,
+        "neutral": 34,
+        "negative": 9
+      }
+    },
+    {
+      "label": "페이커의 플레이",
+      "labelEn": "Faker's Play",
+      "labelZh": "Faker的表现",
+      "labelJa": "フェイカーのプレイ",
+      "mentionCount": 105,
+      "sentiment": {
+        "positive": 72,
+        "neutral": 21,
+        "negative": 7
+      }
+    },
+    {
+      "label": "재계약과 이별",
+      "labelEn": "Recontract and Farewell",
+      "labelZh": "续约与告别",
+      "labelJa": "再契約と別れ",
+      "mentionCount": 67,
+      "sentiment": {
+        "positive": 48,
+        "neutral": 39,
+        "negative": 13
+      }
+    }
+  ],
+  "reactionTimeline": [
+    {
+      "label": "0–1h",
+      "positive": 66,
+      "neutral": 26,
+      "negative": 0
+    },
+    {
+      "label": "1–24h",
+      "positive": 109,
+      "neutral": 24,
+      "negative": 3
+    },
+    {
+      "label": "1–7d",
+      "positive": 170,
+      "neutral": 55,
+      "negative": 18
+    },
+    {
+      "label": "7–30d",
+      "positive": 31,
+      "neutral": 18,
+      "negative": 19
+    },
+    {
+      "label": "30d+",
+      "positive": 387,
+      "neutral": 179,
+      "negative": 74
+    }
+  ],
+  "keyInsights": [
+    {
+      "type": "positive",
+      "topic": "팀워크",
+      "topicEn": "Teamwork",
+      "topicZh": "团队合作",
+      "topicJa": "チームワーク",
+      "comment": "진짜 이것만 기다린 티붕이들은 개추 ㅋㅋㅋㅋㅋ 이제 제오페구케 재계약 영상만 기다리면 된다",
+      "commentLang": "ko",
+      "likes": 8645
+    },
+    {
+      "type": "negative",
+      "topic": "감동적인 순간",
+      "topicEn": "Touching Moments",
+      "topicZh": "感人的时刻",
+      "topicJa": "感動的な瞬間",
+      "comment": "7:18 여기서 좋다는 각은 롤 10년해도 안보이네..\n이후에 미카엘까지 생각하고 갈리오랑 딜교하는거까지 그냥 벽이다",
+      "commentLang": "ko",
+      "likes": 428
+    },
+    {
+      "type": "positive",
+      "topic": "감동적인 순간",
+      "topicEn": "Touching Moments",
+      "topicZh": "感人的时刻",
+      "topicJa": "感動的な瞬間",
+      "comment": "24:15 우승 확정 짓고 하나 둘 페이커 화면에 다 모이는거 너무 울컥한다",
+      "commentLang": "ko",
+      "likes": 7664
+    },
+    {
+      "type": "negative",
+      "topic": "오너와 페이커의 조화",
+      "topicEn": "Harmony of Owner and Faker",
+      "topicZh": "小老板和Faker的和谐",
+      "topicJa": "オーナーとフェイカーの調和",
+      "comment": "오랜만에 다시 보는데, 진짜 도란이가 너무 좋아서 잊고 있다가 우제 보니까 또 맘이 아프네.. 저렇게 행복했는데 어딜 나갔니 이놈아..",
+      "commentLang": "ko",
+      "likes": 244
+    }
+  ],
+  "analyzedAt": "2026-07-02T15:06:43.046480+00:00",
+  "analysisDuration": 228.8,
+  "tokenUsage": {
+    "input": 62155,
+    "output": 13803,
+    "embedding": 46922,
+    "total": 122880,
+    "estimatedCostUsd": 0.018543
+  }
+}

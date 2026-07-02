@@ -5,59 +5,75 @@
     "channelTitle": "T1",
     "thumbnailUrl": "https://i.ytimg.com/vi/h5lb_v34CwI/maxresdefault.jpg",
     "publishedAt": "2026-05-03",
-    "viewCount": 850434,
-    "likeCount": 30696,
-    "analyzedComments": 1144,
+    "viewCount": 868422,
+    "likeCount": 30805,
+    "analyzedComments": 1142,
     "languageRatio": {
       "ko": 77,
       "en": 11,
       "other": 12
-    }
+    },
+    "weightedSentiment": 82
   },
   "topics": [
     {
-      "label": "응원과 감사",
-      "mentionCount": 434,
+      "label": "팬의 응원과 사랑",
+      "labelEn": "Fans' Support and Love",
+      "labelZh": "粉丝的支持和爱",
+      "labelJa": "ファンのサポートと愛",
+      "mentionCount": 326,
+      "sentiment": {
+        "positive": 81,
+        "neutral": 13,
+        "negative": 5
+      }
+    },
+    {
+      "label": "케리아의 성장",
+      "labelEn": "Keria's Growth",
+      "labelZh": "Keria的成长",
+      "labelJa": "ケリアの成長",
+      "mentionCount": 280,
+      "sentiment": {
+        "positive": 85,
+        "neutral": 10,
+        "negative": 5
+      }
+    },
+    {
+      "label": "팀워크",
+      "labelEn": "Teamwork",
+      "labelZh": "团队合作",
+      "labelJa": "チームワーク",
+      "mentionCount": 245,
+      "sentiment": {
+        "positive": 47,
+        "neutral": 44,
+        "negative": 9
+      }
+    },
+    {
+      "label": "2022 월즈의 비극",
+      "labelEn": "Tragedy of 2022 Worlds",
+      "labelZh": "2022年世界赛的悲剧",
+      "labelJa": "2022年ワールドの悲劇",
+      "mentionCount": 212,
+      "sentiment": {
+        "positive": 51,
+        "neutral": 30,
+        "negative": 19
+      }
+    },
+    {
+      "label": "프로 정신과 승부욕",
+      "labelEn": "Professional Spirit and Competitive Desire",
+      "labelZh": "职业精神和竞争欲望",
+      "labelJa": "プロの精神と競争心",
+      "mentionCount": 79,
       "sentiment": {
         "positive": 59,
-        "neutral": 31,
-        "negative": 11
-      }
-    },
-    {
-      "label": "케리아 선수의 여정과 성장",
-      "mentionCount": 297,
-      "sentiment": {
-        "positive": 74,
-        "neutral": 20,
-        "negative": 6
-      }
-    },
-    {
-      "label": "22년도 월즈 결승의 영향",
-      "mentionCount": 171,
-      "sentiment": {
-        "positive": 48,
-        "neutral": 32,
-        "negative": 20
-      }
-    },
-    {
-      "label": "서포터 역할의 중요성",
-      "mentionCount": 122,
-      "sentiment": {
-        "positive": 60,
-        "neutral": 34,
-        "negative": 7
-      }
-    },
-    {
-      "label": "팬과의 유대감",
-      "mentionCount": 120,
-      "sentiment": {
-        "positive": 61,
-        "neutral": 32,
-        "negative": 7
+        "neutral": 30,
+        "negative": 10
       }
     }
   ],
@@ -69,61 +85,79 @@
       "negative": 1
     },
     {
-      "label": "1–6h",
-      "positive": 47,
-      "neutral": 12,
+      "label": "1–24h",
+      "positive": 437,
+      "neutral": 137,
+      "negative": 52
+    },
+    {
+      "label": "1–7d",
+      "positive": 230,
+      "neutral": 94,
+      "negative": 33
+    },
+    {
+      "label": "7–30d",
+      "positive": 81,
+      "neutral": 27,
+      "negative": 12
+    },
+    {
+      "label": "30d+",
+      "positive": 11,
+      "neutral": 8,
       "negative": 3
-    },
-    {
-      "label": "6–12h",
-      "positive": 113,
-      "neutral": 48,
-      "negative": 17
-    },
-    {
-      "label": "12–24h",
-      "positive": 238,
-      "neutral": 109,
-      "negative": 42
-    },
-    {
-      "label": "1–3d",
-      "positive": 132,
-      "neutral": 83,
-      "negative": 29
-    },
-    {
-      "label": "3–7d",
-      "positive": 156,
-      "neutral": 73,
-      "negative": 25
     }
   ],
   "keyInsights": [
     {
       "type": "positive",
-      "topic": "팬과의 유대감",
+      "topic": "팀워크",
+      "topicEn": "Teamwork",
+      "topicZh": "团队合作",
+      "topicJa": "チームワーク",
       "comment": "진짜 양대인 시기는 암흑기가 맞다.\n케리아 2년차에 배우러 왔는데 부담감이 진짜\n심했네,,, 영상 분위기만 봐도 알겠음 \n그럼에도 있어줘서 고마울뿐 ㅜㅜㅜ",
-      "likes": 3027
+      "commentLang": "ko",
+      "likes": 3041
     },
     {
       "type": "negative",
-      "topic": "22년도 월즈 결승의 영향",
+      "topic": "2022 월즈의 비극",
+      "topicEn": "Tragedy of 2022 Worlds",
+      "topicZh": "2022年世界赛的悲剧",
+      "topicJa": "2022年ワールドの悲劇",
       "comment": "우승 3번 너무 후루룩 지나가는거 아니냐고 22월즈 분량 30분 동안 고통스러웠는데...",
-      "likes": 366
+      "commentLang": "ko",
+      "likes": 367
     },
     {
       "type": "positive",
-      "topic": "케리아 선수의 여정과 성장",
+      "topic": "케리아의 성장",
+      "topicEn": "Keria's Growth",
+      "topicZh": "Keria的成长",
+      "topicJa": "ケリアの成長",
       "comment": "케리아 선수의 여정을 오랫동안 함께해왔던 팬으로서, 또 3년이란 시간 동안 케리아 선수와 함께 걷게 되어 너무 행복합니다. 케리아 선수 없는 T1은 이제 더 이상 상상되지 않습니다. 앞으로도 오래오래 T1과 함께해 주세요.",
-      "likes": 2389
+      "commentLang": "ko",
+      "likes": 2400
     },
     {
       "type": "negative",
-      "topic": "서포터 역할의 중요성",
+      "topic": "팀워크",
+      "topicEn": "Teamwork",
+      "topicZh": "团队合作",
+      "topicJa": "チームワーク",
       "comment": "T1 역사상 최악의 감독 소소소 그립지도 않으니 돌아올 생각조차 하지마십시오",
-      "likes": 244
+      "commentLang": "ko",
+      "likes": 248
     }
   ],
-  "analyzedAt": "2026-06-25T09:25:45.536957+00:00"
+  "analyzedAt": "2026-07-02T15:32:18.811068+00:00",
+  "analysisDuration": 219.9,
+  "tokenUsage": {
+    "input": 69542,
+    "output": 13186,
+    "embedding": 54272,
+    "total": 137000,
+    "estimatedCostUsd": 0.019428
+  }
 }

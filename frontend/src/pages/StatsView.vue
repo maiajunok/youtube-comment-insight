@@ -168,7 +168,7 @@ const avgPer100 = computed(() => {
   padding: 20px 20px 16px;
   display: flex; flex-direction: column; gap: 8px;
 }
-.s-card.accent { border-color: rgba(123,94,248,0.35); background: rgba(123,94,248,0.06); }
+.s-card.accent { border-color: rgb(from var(--accent) r g b / 0.35); background: rgb(from var(--accent) r g b / 0.06); }
 .s-val { font-size: 28px; font-weight: 700; color: var(--accent); letter-spacing: -.03em; line-height: 1; }
 .s-lbl { font-size: 11px; color: var(--dim); text-transform: uppercase; letter-spacing: .07em; font-weight: 600; }
 
@@ -223,4 +223,10 @@ const avgPer100 = computed(() => {
 
 .rec-date    { font-size: 12px; color: var(--subtext); }
 .rec-per100  { font-size: 13px; font-weight: 600; color: var(--subtext); }
+
+@media (max-width: 768px) {
+  .stats-page { padding: 24px 18px; gap: 28px; }
+  .records-table { overflow-x: auto; }
+  .rec-head, .rec-row { min-width: 620px; }
+}
 </style>

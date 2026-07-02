@@ -76,4 +76,18 @@ const M = computed(() => messages[settings.lang])
 }
 
 .footer-copyright { font-size: 10px; color: var(--dim); white-space: nowrap; }
+
+@media (max-width: 768px) {
+  .app-footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 4px;
+    padding-top: 16px;
+  }
+  /* 브랜드명/설명은 상단 바에 이미 나오므로 모바일 히어로 하단에서는 생략 */
+  .footer-main { display: none; }
+  .footer-side { align-items: center; }
+  .footer-disclaimer { white-space: normal; }
+}
 </style>

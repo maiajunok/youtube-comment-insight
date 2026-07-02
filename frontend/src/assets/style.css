@@ -2,14 +2,18 @@
 
 /* ── Dark (default) ── */
 :root {
-  --bg:              #0f0f13;
-  --sidebar-bg:      #13131e;
-  --card:            #1a1a24;
-  --border:          #333348;
-  --text:            #e8e8f0;
-  --subtext:         #aaaabc;
-  --dim:             #888899;
-  --accent:          #7b5ef8;
+  --bg:              #121110;
+  --sidebar-bg:      #171614;
+  --card:            #1e1c1a;
+  --border:          #3a3532;
+  --text:            #eeece9;
+  --subtext:         #adaaa5;
+  --dim:             #8a8783;
+  --accent:          var(--t1-gold);
+  --cta-text:        #1a1305;
+  --t1-gold:         #C0AB7E;
+  --t1-gold-dark:    #9F8655;
+  --t1-gold-light:   #D8C690;
   --positive:        #22c55e;
   --neutral:         #64748b;
   --negative:        #f43f5e;
@@ -29,20 +33,24 @@
   --outline-stroke:  rgba(255, 255, 255, 0.14);
   --divider-line:    rgba(255, 255, 255, 0.06);
   --card-hover:      rgba(255, 255, 255, 0.02);
-  --door-bg:         #1a1a24;
+  --door-bg:         #1e1c1a;
 }
 
 /* ── Light ── */
 [data-theme="light"] {
-  --bg:              #f4f4f8;
-  --sidebar-bg:      #ecedf6;
+  --bg:              #f7f6f4;
+  --sidebar-bg:      #efece8;
   --card:            #ffffff;
-  --border:          #c7c7d6;
-  --text:            #1a1a2e;
-  --subtext:         #666680;
-  --dim:             #999aaa;
-  --accent:          #7b5ef8;
-  --positive:        #16a34a;
+  --border:          #d6d2cb;
+  --text:            #1e1b18;
+  --subtext:         #6b6560;
+  --dim:             #9c9791;
+  --accent:          #E4002B;
+  --cta-text:        #ffffff;
+  --t1-gold:         #C0AB7E;
+  --t1-gold-dark:    #9F8655;
+  --t1-gold-light:   #D8C690;
+  --positive:        #22c55e;
   --neutral:         #94a3b8;
   --negative:        #dc2626;
   /* ui helpers */
@@ -50,15 +58,15 @@
   --topbar-border:   rgba(0, 0, 0, 0.16);
   --search-bg:       rgba(0, 0, 0, 0.04);
   --search-border:   rgba(0, 0, 0, 0.18);
-  --chip-color:      rgba(26, 26, 46, 0.35);
+  --chip-color:      rgba(30, 27, 24, 0.35);
   --chip-border:     rgba(0, 0, 0, 0.18);
-  --chip-active:     rgba(26, 26, 46, 0.75);
+  --chip-active:     rgba(30, 27, 24, 0.75);
   --chip-active-bd:  rgba(0, 0, 0, 0.28);
   --deco-stroke:     rgba(0, 0, 0, 0.04);
-  --outline-stroke:  rgba(26, 26, 46, 0.22);
+  --outline-stroke:  rgba(30, 27, 24, 0.22);
   --divider-line:    rgba(0, 0, 0, 0.16);
   --card-hover:      rgba(0, 0, 0, 0.035);
-  --door-bg:         #ecedf6;
+  --door-bg:         #efece8;
 }
 
 html { scrollbar-gutter: stable; }

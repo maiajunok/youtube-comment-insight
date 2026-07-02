@@ -1,0 +1,163 @@
+{
+  "video": {
+    "videoId": "qEIdFfbJC-E",
+    "title": "#T1 win, 만개(滿開)  [T1scord Ep.19]",
+    "channelTitle": "T1",
+    "thumbnailUrl": "https://i.ytimg.com/vi/qEIdFfbJC-E/maxresdefault.jpg",
+    "publishedAt": "2023-12-03",
+    "viewCount": 1927315,
+    "likeCount": 39089,
+    "analyzedComments": 1106,
+    "languageRatio": {
+      "ko": 83,
+      "en": 12,
+      "other": 5
+    },
+    "weightedSentiment": 55
+  },
+  "topics": [
+    {
+      "label": "영상팀 비판",
+      "labelEn": "Critique of Video Team",
+      "labelZh": "视频团队的批评",
+      "labelJa": "ビデオチームの批判",
+      "mentionCount": 487,
+      "sentiment": {
+        "positive": 39,
+        "neutral": 24,
+        "negative": 37
+      }
+    },
+    {
+      "label": "우승 기념",
+      "labelEn": "Championship Celebration",
+      "labelZh": "冠军庆祝",
+      "labelJa": "優勝のお祝い",
+      "mentionCount": 198,
+      "sentiment": {
+        "positive": 66,
+        "neutral": 19,
+        "negative": 15
+      }
+    },
+    {
+      "label": "팀워크",
+      "labelEn": "Teamwork",
+      "labelZh": "团队合作",
+      "labelJa": "チームワーク",
+      "mentionCount": 187,
+      "sentiment": {
+        "positive": 64,
+        "neutral": 31,
+        "negative": 5
+      }
+    },
+    {
+      "label": "감정 표현",
+      "labelEn": "Emotional Expression",
+      "labelZh": "情感的表达",
+      "labelJa": "感情の表現",
+      "mentionCount": 121,
+      "sentiment": {
+        "positive": 63,
+        "neutral": 24,
+        "negative": 13
+      }
+    },
+    {
+      "label": "기대감",
+      "labelEn": "Expectations",
+      "labelZh": "期待",
+      "labelJa": "期待感",
+      "mentionCount": 113,
+      "sentiment": {
+        "positive": 70,
+        "neutral": 18,
+        "negative": 12
+      }
+    }
+  ],
+  "reactionTimeline": [
+    {
+      "label": "0–1h",
+      "positive": 56,
+      "neutral": 11,
+      "negative": 41
+    },
+    {
+      "label": "1–24h",
+      "positive": 400,
+      "neutral": 170,
+      "negative": 181
+    },
+    {
+      "label": "1–7d",
+      "positive": 54,
+      "neutral": 31,
+      "negative": 22
+    },
+    {
+      "label": "7–30d",
+      "positive": 11,
+      "neutral": 3,
+      "negative": 3
+    },
+    {
+      "label": "30d+",
+      "positive": 73,
+      "neutral": 46,
+      "negative": 4
+    }
+  ],
+  "keyInsights": [
+    {
+      "type": "positive",
+      "topic": "영상팀 비판",
+      "topicEn": "Critique of Video Team",
+      "topicZh": "视频团队的批评",
+      "topicJa": "ビデオチームの批判",
+      "comment": "라이브로 볼 땐 뭔가 싱겁게 끝났는데 이렇게 보니 정말 선수들에게 그런 생각한 게 미안해질 정도로 끝까지 긴장을 놓지 않았네요",
+      "commentLang": "ko",
+      "likes": 1182
+    },
+    {
+      "type": "negative",
+      "topic": "영상팀 비판",
+      "topicEn": "Critique of Video Team",
+      "topicZh": "视频团队的批评",
+      "topicJa": "ビデオチームの批判",
+      "comment": "우승 진심으로 축하합니다!!\n영상팀은.. 다른 건 몰라도 10주년 영상을 약속한지 반년이 다 되어가는데 안 올린 건 진짜 ㄹㅈㄷ..",
+      "commentLang": "ko",
+      "likes": 302
+    },
+    {
+      "type": "positive",
+      "topic": "감정 표현",
+      "topicEn": "Emotional Expression",
+      "topicZh": "情感的表达",
+      "topicJa": "感情の表現",
+      "comment": "우제는 여태 승리해도 감정변화가 잘 없길래 우승해도 덤덤할 줄 알았는데 많이 벅찼나보다. 손 떠는 거 보니 정말 많이 우승하고 싶었고 그만큼 노력 많이 했구나. 우승해줘서 정말 고마워 축하해 티원 ❤",
+      "commentLang": "ko",
+      "likes": 1137
+    },
+    {
+      "type": "negative",
+      "topic": "우승 기념",
+      "topicEn": "Championship Celebration",
+      "topicZh": "冠军庆祝",
+      "topicJa": "優勝のお祝い",
+      "comment": "잘모르네 무지성 쉴드충들이ㅋㅋㅋ\n우승한 지금이 채널 성장과 함께 마케팅하기 최고의 타이밍인데 2주동안 감감무소식이었던게 이해가 안가는거임",
+      "commentLang": "ko",
+      "likes": 47
+    }
+  ],
+  "analyzedAt": "2026-07-02T15:02:22.836110+00:00",
+  "analysisDuration": 210.5,
+  "tokenUsage": {
+    "input": 70235,
+    "output": 12803,
+    "embedding": 55127,
+    "total": 138165,
+    "estimatedCostUsd": 0.01932
+  }
+}

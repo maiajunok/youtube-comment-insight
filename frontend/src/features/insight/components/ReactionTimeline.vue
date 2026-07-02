@@ -175,37 +175,37 @@ const M = computed(() => messages[props.lang])
       @mouseleave="hoveredIdx = null"
     >
       <defs>
-        <!-- 긍정: 위에서 0선 방향으로 파란색 페이드 -->
+        <!-- 긍정: 위에서 0선 방향으로 페이드 -->
         <linearGradient id="grad-pos" x1="0" y1="30" x2="0" y2="135" gradientUnits="userSpaceOnUse">
-          <stop offset="0%"   stop-color="#4361ee" stop-opacity="0.55"/>
-          <stop offset="100%" stop-color="#4361ee" stop-opacity="0.03"/>
+          <stop offset="0%"   stop-color="var(--positive)" stop-opacity="0.14"/>
+          <stop offset="100%" stop-color="var(--positive)" stop-opacity="0"/>
         </linearGradient>
-        <!-- 부정: 아래에서 0선 방향으로 빨간색 페이드 -->
+        <!-- 부정: 아래에서 0선 방향으로 페이드 -->
         <linearGradient id="grad-neg" x1="0" y1="240" x2="0" y2="135" gradientUnits="userSpaceOnUse">
-          <stop offset="0%"   stop-color="#e63965" stop-opacity="0.55"/>
-          <stop offset="100%" stop-color="#e63965" stop-opacity="0.03"/>
+          <stop offset="0%"   stop-color="var(--negative)" stop-opacity="0.14"/>
+          <stop offset="100%" stop-color="var(--negative)" stop-opacity="0"/>
         </linearGradient>
       </defs>
 
       <!-- 상단 격자선 + y축 레이블 -->
       <g v-for="tick in yTicks" :key="tick.label">
         <line :x1="PL" :y1="tick.y" :x2="W - PR" :y2="tick.y"
-          stroke="rgba(255,255,255,0.04)" stroke-width="1"/>
-        <text :x="PL - 8" :y="tick.y + 4" text-anchor="end" font-size="12" fill="#8899cc">
+          stroke="var(--divider-line)" stroke-width="1"/>
+        <text :x="PL - 8" :y="tick.y + 4" text-anchor="end" font-size="12" fill="var(--dim)">
           {{ tick.label }}
         </text>
       </g>
 
       <!-- 0 기준선 (두껍게, 더 밝게) -->
       <line :x1="PL" :y1="zeroY" :x2="W - PR" :y2="zeroY"
-        stroke="rgba(255,255,255,0.12)" stroke-width="1.5"/>
-      <text :x="PL - 8" :y="zeroY + 4" text-anchor="end" font-size="12" fill="#8899bb">0</text>
+        stroke="var(--outline-stroke)" stroke-width="1.5"/>
+      <text :x="PL - 8" :y="zeroY + 4" text-anchor="end" font-size="12" fill="var(--dim)">0</text>
 
       <!-- 부정 레이블 -->
       <g v-for="tick in yTicks" :key="`neg-${tick.label}`">
         <line :x1="PL" :y1="zeroY + (zeroY - tick.y)" :x2="W - PR" :y2="zeroY + (zeroY - tick.y)"
-          stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
-        <text :x="PL - 8" :y="zeroY + (zeroY - tick.y) + 4" text-anchor="end" font-size="12" fill="#8899cc">
+          stroke="var(--divider-line)" stroke-width="1"/>
+        <text :x="PL - 8" :y="zeroY + (zeroY - tick.y) + 4" text-anchor="end" font-size="12" fill="var(--dim)">
           -{{ tick.label }}
         </text>
       </g>
@@ -215,22 +215,22 @@ const M = computed(() => messages[props.lang])
       <path :d="negArea" fill="url(#grad-neg)"/>
 
       <!-- 꺾은선 -->
-      <path :d="posLine" fill="none" stroke="#4361ee" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-      <path :d="negLine" fill="none" stroke="#e63965" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <path :d="posLine" fill="none" stroke="var(--positive)" stroke-width="2" stroke-opacity="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+      <path :d="negLine" fill="none" stroke="var(--negative)" stroke-width="2" stroke-opacity="0.8" stroke-linecap="round" stroke-linejoin="round"/>
 
       <!-- 데이터 포인트 dot (긍정) -->
       <circle
         v-for="(pt, i) in posPoints"
         :key="`pdot-${i}`"
         :cx="pt.x" :cy="pt.y" r="3.5"
-        fill="#0f1128" stroke="#4361ee" stroke-width="1.5"
+        fill="var(--card)" stroke="var(--positive)" stroke-width="1.5"
       />
       <!-- 데이터 포인트 dot (부정) -->
       <circle
         v-for="(pt, i) in negPoints"
         :key="`ndot-${i}`"
         :cx="pt.x" :cy="pt.y" r="3"
-        fill="#0f1128" stroke="#e63965" stroke-width="1.5"
+        fill="var(--card)" stroke="var(--negative)" stroke-width="1.5"
       />
 
       <!-- x축 레이블 -->
@@ -240,7 +240,7 @@ const M = computed(() => messages[props.lang])
         :x="xs[i]" :y="H - 14"
         text-anchor="middle"
         font-size="13"
-        fill="#8899cc"
+        fill="var(--dim)"
       >{{ point.label }}</text>
 
       <!-- 호버 수직선 (x축 레이블까지) -->
@@ -248,7 +248,7 @@ const M = computed(() => messages[props.lang])
         v-if="hoveredIdx != null"
         :x1="xs[hoveredIdx]" :y1="PT"
         :x2="xs[hoveredIdx]" :y2="H - 8"
-        stroke="rgba(255,255,255,0.2)" stroke-width="1" stroke-dasharray="5 4"
+        stroke="var(--outline-stroke)" stroke-width="1" stroke-dasharray="5 4"
       />
 
       <!-- 히트 영역 (투명 rect — 버킷별 클릭/호버 영역) -->
@@ -317,9 +317,9 @@ const M = computed(() => messages[props.lang])
   border-radius: 50%;
   flex-shrink: 0;
 }
-.tt-dot.pos { background: #4361ee; }
-.tt-dot.neu { background: #64748b; }
-.tt-dot.neg { background: #e63965; }
+.tt-dot.pos { background: var(--positive); }
+.tt-dot.neu { background: var(--neutral); }
+.tt-dot.neg { background: var(--negative); }
 .tt-key { color: var(--subtext); flex: 1; }
 .tt-val { font-weight: 700; color: var(--text); }
 </style>

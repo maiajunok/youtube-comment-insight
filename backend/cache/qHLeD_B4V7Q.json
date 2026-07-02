@@ -1,0 +1,163 @@
+{
+  "video": {
+    "videoId": "qHLeD_B4V7Q",
+    "title": "문현준, 소년지화(少年之花) | CARVED : FLOWER",
+    "channelTitle": "T1",
+    "thumbnailUrl": "https://i.ytimg.com/vi/qHLeD_B4V7Q/maxresdefault.jpg",
+    "publishedAt": "2024-10-14",
+    "viewCount": 1883698,
+    "likeCount": 48227,
+    "analyzedComments": 1183,
+    "languageRatio": {
+      "ko": 91,
+      "en": 5,
+      "other": 4
+    },
+    "weightedSentiment": 82
+  },
+  "topics": [
+    {
+      "label": "팀에 대한 사랑",
+      "labelEn": "Love for the Team",
+      "labelZh": "对团队的爱",
+      "labelJa": "チームへの愛",
+      "mentionCount": 504,
+      "sentiment": {
+        "positive": 85,
+        "neutral": 12,
+        "negative": 3
+      }
+    },
+    {
+      "label": "감정 표현과 인간적인 면",
+      "labelEn": "Emotional Expression and Humanity",
+      "labelZh": "情感表达与人性",
+      "labelJa": "感情表現と人間性",
+      "mentionCount": 226,
+      "sentiment": {
+        "positive": 76,
+        "neutral": 21,
+        "negative": 4
+      }
+    },
+    {
+      "label": "문현준의 성장 스토리",
+      "labelEn": "Oner's Growth Story",
+      "labelZh": "文贤俊的成长故事",
+      "labelJa": "オナーの成長ストーリー",
+      "mentionCount": 223,
+      "sentiment": {
+        "positive": 88,
+        "neutral": 11,
+        "negative": 1
+      }
+    },
+    {
+      "label": "가정 배경과 어려움",
+      "labelEn": "Family Background and Struggles",
+      "labelZh": "家庭背景与挣扎",
+      "labelJa": "家庭環境と苦労",
+      "mentionCount": 119,
+      "sentiment": {
+        "positive": 66,
+        "neutral": 28,
+        "negative": 7
+      }
+    },
+    {
+      "label": "프로게이머로서의 헌신",
+      "labelEn": "Dedication as a Pro Gamer",
+      "labelZh": "作为职业玩家的奉献",
+      "labelJa": "プロゲーマーとしての献身",
+      "mentionCount": 111,
+      "sentiment": {
+        "positive": 80,
+        "neutral": 14,
+        "negative": 5
+      }
+    }
+  ],
+  "reactionTimeline": [
+    {
+      "label": "0–1h",
+      "positive": 48,
+      "neutral": 6,
+      "negative": 0
+    },
+    {
+      "label": "1–24h",
+      "positive": 120,
+      "neutral": 6,
+      "negative": 5
+    },
+    {
+      "label": "1–7d",
+      "positive": 29,
+      "neutral": 4,
+      "negative": 0
+    },
+    {
+      "label": "7–30d",
+      "positive": 389,
+      "neutral": 84,
+      "negative": 14
+    },
+    {
+      "label": "30d+",
+      "positive": 375,
+      "neutral": 83,
+      "negative": 20
+    }
+  ],
+  "keyInsights": [
+    {
+      "type": "positive",
+      "topic": "팀에 대한 사랑",
+      "topicEn": "Love for the Team",
+      "topicZh": "对团队的爱",
+      "topicJa": "チームへの愛",
+      "comment": "\" *가장 예쁜 꽃은 우여곡절 끝에 피는 꽃* \"\n\n이 말이 ㅈㄴ 멋있으면 개추",
+      "commentLang": "ko",
+      "likes": 7380
+    },
+    {
+      "type": "negative",
+      "topic": "가정 배경과 어려움",
+      "topicEn": "Family Background and Struggles",
+      "topicZh": "家庭背景与挣扎",
+      "topicJa": "家庭環境と苦労",
+      "comment": "\"내가 더 간절해 \"\n바로 4세트 스카너로 마지막 한타에서 온몸 비틀기 시전",
+      "commentLang": "ko",
+      "likes": 913
+    },
+    {
+      "type": "positive",
+      "topic": "문현준의 성장 스토리",
+      "topicEn": "Oner's Growth Story",
+      "topicZh": "文贤俊的成长故事",
+      "topicJa": "オナーの成長ストーリー",
+      "comment": "팀내 서열이 낮다고 하지만 사실 배려가 많은 사람이었음 조화를 위해 호구를 자처하고 내 슬픔보다 친구의 슬픔을 먼저 위로해 줄줄 아는 따뜻하고 착한 사람.. 문현준 참 멋진 사람이네",
+      "commentLang": "ko",
+      "likes": 4532
+    },
+    {
+      "type": "negative",
+      "topic": "팀에 대한 사랑",
+      "topicEn": "Love for the Team",
+      "topicZh": "对团队的爱",
+      "topicJa": "チームへの愛",
+      "comment": "1:07:50  와 싯팡.. 어릴때 제일 싫어했던게 누나였는데....와 미친 결말 감동 ㅠㅠㅠ 넘 슬프다 진짜 ㅠㅠㅠㅠㅠ",
+      "commentLang": "ko",
+      "likes": 332
+    }
+  ],
+  "analyzedAt": "2026-07-02T15:22:41.957188+00:00",
+  "analysisDuration": 220.4,
+  "tokenUsage": {
+    "input": 83574,
+    "output": 13779,
+    "embedding": 63825,
+    "total": 161178,
+    "estimatedCostUsd": 0.02208
+  }
+}

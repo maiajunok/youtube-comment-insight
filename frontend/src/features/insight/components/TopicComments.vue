@@ -214,7 +214,7 @@ const sentimentLabel = (s: string) => {
   flex-shrink: 0;
   color: var(--subtext);
 
-  &:hover { color: var(--text); border-color: rgba(123, 94, 248, 0.35); }
+  &:hover { color: var(--text); border-color: rgb(from var(--accent) r g b / 0.35); }
 }
 
 .filter-row {
@@ -260,7 +260,7 @@ const sentimentLabel = (s: string) => {
   border: 0.5px solid var(--border);
   transition: border-color $transition-fast, transform $transition-fast;
 
-  &:hover { border-color: rgba(123, 94, 248, 0.25); }
+  &:hover { border-color: rgb(from var(--accent) r g b / 0.25); }
 }
 
 .sentiment-bar {
@@ -340,11 +340,10 @@ const sentimentLabel = (s: string) => {
   background: var(--card-hover);
 }
 .filter-tab.active {
-  background: linear-gradient(135deg, #9b7bff 0%, var(--accent) 100%);
-  border-color: transparent;
-  color: #fff;
+  background: rgb(from var(--accent) r g b / 0.12);
+  border-color: rgb(from var(--accent) r g b / 0.35);
+  color: var(--accent);
   font-weight: 600;
-  box-shadow: 0 4px 14px rgba(123, 94, 248, 0.35);
 }
 
 .tab-badge {
@@ -363,8 +362,15 @@ const sentimentLabel = (s: string) => {
   line-height: 1;
 }
 .tab-badge.badge-active {
-  background: rgba(255, 255, 255, 0.22);
-  color: rgba(255, 255, 255, 0.9);
+  background: rgb(from var(--accent) r g b / 0.18);
+  color: var(--accent);
   border-color: transparent;
+}
+
+@media (max-width: 768px) {
+  .drawer { width: 100%; }
+  .drawer-header { padding: 20px 18px 16px; }
+  .filter-row { padding: 12px 18px; overflow-x: auto; }
+  .comment-list { padding: 16px 18px 20px; }
 }
 </style>

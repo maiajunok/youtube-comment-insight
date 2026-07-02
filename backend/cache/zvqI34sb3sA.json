@@ -5,80 +5,90 @@
     "channelTitle": "T1",
     "thumbnailUrl": "https://i.ytimg.com/vi/zvqI34sb3sA/maxresdefault.jpg",
     "publishedAt": "2026-07-02",
-    "viewCount": 26890,
-    "likeCount": 2040,
-    "analyzedComments": 113,
+    "viewCount": 42478,
+    "likeCount": 2618,
+    "analyzedComments": 135,
     "languageRatio": {
-      "ko": 77,
+      "ko": 76,
       "en": 9,
-      "other": 14
+      "other": 15
     },
-    "weightedSentiment": 71
+    "weightedSentiment": 77
   },
   "topics": [
     {
-      "label": "응원",
-      "labelEn": "Support for T1",
-      "mentionCount": 31,
+      "label": "승리 기대",
+      "labelEn": "Victory Expectation",
+      "labelZh": "胜利期待",
+      "labelJa": "勝利の期待",
+      "mentionCount": 33,
       "sentiment": {
-        "positive": 68,
-        "neutral": 26,
-        "negative": 6
+        "positive": 79,
+        "neutral": 12,
+        "negative": 9
       }
     },
     {
       "label": "도란 재계약",
-      "labelEn": "Doran Resigning",
-      "mentionCount": 29,
+      "labelEn": "Doran Re-sign",
+      "labelZh": "多兰续约",
+      "labelJa": "ドラン再契約",
+      "mentionCount": 30,
       "sentiment": {
-        "positive": 45,
-        "neutral": 31,
-        "negative": 24
+        "positive": 57,
+        "neutral": 33,
+        "negative": 10
       }
     },
     {
       "label": "티켓팅",
       "labelEn": "Ticketing",
-      "mentionCount": 29,
+      "labelZh": "购票",
+      "labelJa": "チケット取得",
+      "mentionCount": 30,
       "sentiment": {
-        "positive": 55,
-        "neutral": 31,
-        "negative": 14
+        "positive": 53,
+        "neutral": 33,
+        "negative": 13
       }
     },
     {
-      "label": "경기 일정",
-      "labelEn": "Match Schedule",
-      "mentionCount": 13,
+      "label": "팀 응원",
+      "labelEn": "Team Support",
+      "labelZh": "团队支持",
+      "labelJa": "チームサポート",
+      "mentionCount": 26,
       "sentiment": {
-        "positive": 77,
-        "neutral": 23,
-        "negative": 0
+        "positive": 65,
+        "neutral": 27,
+        "negative": 8
       }
     },
     {
-      "label": "머시우승",
-      "labelEn": "Msi Championship",
-      "mentionCount": 11,
+      "label": "홈그라운드",
+      "labelEn": "Home Ground",
+      "labelZh": "主场",
+      "labelJa": "ホームグラウンド",
+      "mentionCount": 16,
       "sentiment": {
-        "positive": 64,
-        "neutral": 0,
-        "negative": 36
+        "positive": 56,
+        "neutral": 25,
+        "negative": 19
       }
     }
   ],
   "reactionTimeline": [
     {
       "label": "0–1h",
-      "positive": 42,
-      "neutral": 15,
+      "positive": 44,
+      "neutral": 13,
       "negative": 9
     },
     {
       "label": "1–24h",
-      "positive": 25,
-      "neutral": 14,
-      "negative": 8
+      "positive": 41,
+      "neutral": 22,
+      "negative": 6
     },
     {
       "label": "1–7d",
@@ -102,36 +112,52 @@
   "keyInsights": [
     {
       "type": "positive",
-      "topic": "머시우승",
+      "topic": "승리 기대",
+      "topicEn": "Victory Expectation",
+      "topicZh": "胜利期待",
+      "topicJa": "勝利の期待",
       "comment": "BLG잡고 므시우승부터 가자!!!",
-      "likes": 255
+      "commentLang": "ko",
+      "likes": 335
     },
     {
       "type": "negative",
-      "topic": "도란 재계약",
-      "comment": "도란 재계약 기대하고 있습니다. 제발 리사인 해줘.",
+      "topic": "홈그라운드",
+      "topicEn": "Home Ground",
+      "topicZh": "主场",
+      "topicJa": "ホームグラウンド",
+      "comment": "이번엔 나도 가고싶다 홈그 ㅠㅠ",
+      "commentLang": "ko",
       "likes": 11
     },
     {
       "type": "positive",
       "topic": "티켓팅",
+      "topicEn": "Ticketing",
+      "topicZh": "购票",
+      "topicJa": "チケット取得",
       "comment": "저 이번에 드디어 갈 수 있게 되었어요!!!! 꼭 티켓팅 성공하길!!!",
-      "likes": 95
+      "commentLang": "ko",
+      "likes": 121
     },
     {
       "type": "negative",
-      "topic": "응원",
-      "comment": "DORAN ✍️🙏😭",
-      "likes": 5
+      "topic": "티켓팅",
+      "topicEn": "Ticketing",
+      "topicZh": "购票",
+      "topicJa": "チケット取得",
+      "comment": "그래 55만원 쓸게",
+      "commentLang": "ko",
+      "likes": 8
     }
   ],
-  "analyzedAt": "2026-07-02T08:52:00.975775+00:00",
-  "analysisDuration": 35.6,
+  "analyzedAt": "2026-07-02T16:33:30.807451+00:00",
+  "analysisDuration": 35.1,
   "tokenUsage": {
-    "input": 6579,
-    "output": 1875,
-    "embedding": 1979,
-    "total": 10433,
-    "estimatedCostUsd": 0.002151
+    "input": 8133,
+    "output": 2192,
+    "embedding": 2525,
+    "total": 12850,
+    "estimatedCostUsd": 0.002586
   }
 }

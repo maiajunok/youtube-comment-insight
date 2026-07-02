@@ -1,11 +1,14 @@
 <script setup lang="ts">
 import { ref, onMounted, watch, computed } from 'vue'
+import { useRouter, useRoute } from 'vue-router'
 import { insightApi } from '@/features/insight/api/insightApi'
 import type { HistoryItem, InsightData } from '@/features/insight/types/insight'
 import { useSettingsStore } from '@/features/settings/stores/settings'
 import { messages } from '@/locales/messages'
 import { fillTopicLabels, displayLabel } from '@/features/insight/composables/useLabelTranslation'
 
+const router = useRouter()
+const route = useRoute()
 const settings = useSettingsStore()
 const M = computed(() => messages[settings.lang])
 
@@ -27,6 +30,13 @@ onMounted(async () => {
   } finally {
     isLoadingHistory.value = false
   }
+
+  // 새로고침해도 비교 결과 화면이 유지되도록 URL의 ids로 다시 비교함
+  const idsParam = route.query.ids
+  if (typeof idsParam === 'string' && idsParam) {
+    selected.value = idsParam.split(',').slice(0, 3)
+    doCompare()
+  }
 })
 
 const toggle = (id: string) => {
@@ -38,6 +48,8 @@ const toggle = (id: string) => {
 const isSelected = (id: string) => selected.value.includes(id)
 const selIndex = (id: string) => selected.value.indexOf(id) + 1
 
+const commonTopicLabels = ref<string[]>([])
+
 const doCompare = async () => {
   if (selected.value.length < 2) return
   isComparing.value = true
@@ -48,6 +60,11 @@ const doCompare = async () => {
     )
     await fillTopicLabels(comparisons.value.flatMap(d => d.topics), settings.lang)
     phase.value = 'compare'
+    router.replace({ query: { ids: selected.value.join(',') } })
+    // 의미상 비슷한 토픽까지 묶어서 "공통 주제" 판별 (완전 일치 대신 임베딩 유사도)
+    insightApi.getCommonTopics(comparisons.value.map(d => d.topics.map(t => t.label)))
+      .then(labels => { commonTopicLabels.value = labels })
+      .catch(() => { commonTopicLabels.value = [] })
   } catch {
     compareError.value = '데이터를 불러오지 못했습니다.'
   } finally {
@@ -62,11 +79,17 @@ watch(() => settings.lang, (lang) => {
 const reset = () => {
   phase.value = 'select'
   comparisons.value = []
+  commonTopicLabels.value = []
   headerCollapsed.value = false
+  router.replace({ query: {} })
 }
 
 const onPageScroll = (e: Event) => {
-  headerCollapsed.value = (e.target as HTMLElement).scrollTop > 60
+  // 히스테리시스를 넉넉하게 둬서 경계값 근처에서 왔다갔다 하지 않게 함.
+  // 애니메이션 없이 즉시 껐다 켜서(트랜지션 중 리플로우로 인한 떨림 방지) 썸네일을 통째로 뺌.
+  const top = (e.target as HTMLElement).scrollTop
+  if (top > 120) headerCollapsed.value = true
+  else if (top < 20) headerCollapsed.value = false
 }
 
 const overallSentiment = (data: InsightData) => {
@@ -87,9 +110,9 @@ const overallSentiment = (data: InsightData) => {
 
 const commonTopics = computed(() => {
   if (comparisons.value.length < 2) return []
-  const sets = comparisons.value.map(d => new Set(d.topics.map(t => t.label)))
-  const commonLabels = [...sets[0]].filter(label => sets.slice(1).every(s => s.has(label)))
-  return commonLabels.map(label => comparisons.value[0].topics.find(t => t.label === label)!)
+  return commonTopicLabels.value
+    .map(label => comparisons.value[0].topics.find(t => t.label === label))
+    .filter((t): t is InsightData['topics'][number] => !!t)
 })
 
 const langRatio = (data: InsightData, key: string): number =>
@@ -100,7 +123,7 @@ const fmtNum = (n: number) =>
   n >= 1_000     ? (n / 1_000).toFixed(1) + 'K'     :
   String(n)
 
-const COL = ['#7b5ef8', '#22c55e', '#f59e0b']
+const COL = ['#C0AB7E', '#22c55e', '#f59e0b']
 
 const cCommentRate = (d: InsightData) => {
   if (!d.video.viewCount) return '—'
@@ -119,7 +142,7 @@ const cControversyScore = (d: InsightData) => {
 
 <template>
   <!-- ── 선택 단계 ── -->
-  <div v-if="phase === 'select'" class="cpage">
+  <div v-if="phase === 'select'" class="cpage cpage--select">
 
     <div class="cpage-header">
       <div>
@@ -131,6 +154,9 @@ const cControversyScore = (d: InsightData) => {
           <span v-for="(_, i) in selected" :key="i" class="sel-pip" :style="`background:${COL[i]}`" />
           <span class="sel-count-txt">{{ settings.lang === 'ko' ? `${selected.length}개 선택됨` : settings.lang === 'zh' ? `已选${selected.length}个` : settings.lang === 'ja' ? `${selected.length}件選択中` : `${selected.length} selected` }}</span>
         </div>
+        <button v-if="selected.length" class="clear-sel-btn" @click="selected = []">
+          {{ settings.lang === 'ko' ? '선택 해제' : settings.lang === 'zh' ? '取消选择' : settings.lang === 'ja' ? '選択解除' : 'Clear' }}
+        </button>
         <p v-if="compareError" class="err-inline">{{ compareError }}</p>
         <button class="do-compare-btn" :disabled="selected.length < 2 || isComparing" @click="doCompare">
           <svg v-if="isComparing" class="spin" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -141,48 +167,50 @@ const cControversyScore = (d: InsightData) => {
       </div>
     </div>
 
-    <p v-if="historyError" class="err-msg">{{ historyError }}</p>
+    <div class="cpage-body">
+      <p v-if="historyError" class="err-msg">{{ historyError }}</p>
 
-    <div v-if="isLoadingHistory" class="state-center"><p>{{ M.loading }}</p></div>
+      <div v-if="isLoadingHistory" class="state-center"><p>{{ M.loading }}</p></div>
 
-    <div v-else-if="!history.length" class="state-center">
-      <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" style="color:var(--subtext)">
-        <rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/>
-        <rect x="14" y="14" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/>
-      </svg>
-      <p>{{ M.compareNone }}</p>
-    </div>
+      <div v-else-if="!history.length" class="state-center">
+        <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" style="color:var(--subtext)">
+          <rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/>
+          <rect x="14" y="14" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/>
+        </svg>
+        <p>{{ M.compareNone }}</p>
+      </div>
 
-    <div v-else class="sel-grid">
-      <div
-        v-for="item in history"
-        :key="item.videoId"
-        class="sel-card"
-        :class="{
-          'sel-card--on': isSelected(item.videoId),
-          'sel-card--dim': !isSelected(item.videoId) && selected.length >= 3
-        }"
-        @click="toggle(item.videoId)"
-      >
-        <div v-if="isSelected(item.videoId)" class="sel-badge" :style="`background:${COL[selIndex(item.videoId)-1]}`">
-          {{ selIndex(item.videoId) }}
-        </div>
-        <div class="sc-thumb">
-          <img :src="item.thumbnailUrl" :alt="item.title"
-            @error="($event.target as HTMLImageElement).style.opacity='0'" />
-          <div v-if="isSelected(item.videoId)" class="sc-overlay">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5">
-              <polyline points="20 6 9 17 4 12"/>
-            </svg>
+      <div v-else class="sel-grid">
+        <div
+          v-for="item in history"
+          :key="item.videoId"
+          class="sel-card"
+          :class="{
+            'sel-card--on': isSelected(item.videoId),
+            'sel-card--dim': !isSelected(item.videoId) && selected.length >= 3
+          }"
+          @click="toggle(item.videoId)"
+        >
+          <div v-if="isSelected(item.videoId)" class="sel-badge" :style="`background:${COL[selIndex(item.videoId)-1]}`">
+            {{ selIndex(item.videoId) }}
           </div>
-        </div>
-        <div class="sc-body">
-          <p class="sc-title">{{ item.title }}</p>
-          <p class="sc-channel">{{ item.channelTitle }}</p>
-          <div class="sc-stats">
-            <span>{{ M.colCommentCount }} {{ fmtNum(item.analyzedComments) }}</span>
-            <span>·</span>
-            <span style="color:var(--positive)">{{ M.positive }} {{ item.overallSentiment.positive }}%</span>
+          <div class="sc-thumb">
+            <img :src="item.thumbnailUrl" :alt="item.title"
+              @error="($event.target as HTMLImageElement).style.opacity='0'" />
+            <div v-if="isSelected(item.videoId)" class="sc-overlay">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5">
+                <polyline points="20 6 9 17 4 12"/>
+              </svg>
+            </div>
+          </div>
+          <div class="sc-body">
+            <p class="sc-title">{{ item.title }}</p>
+            <p class="sc-channel">{{ item.channelTitle }}</p>
+            <div class="sc-stats">
+              <span>{{ M.colCommentCount }} {{ fmtNum(item.analyzedComments) }}</span>
+              <span>·</span>
+              <span style="color:var(--positive)">{{ M.positive }} {{ item.overallSentiment.positive }}%</span>
+            </div>
           </div>
         </div>
       </div>
@@ -190,7 +218,7 @@ const cControversyScore = (d: InsightData) => {
   </div>
 
   <!-- ── 비교 결과 ── -->
-  <div v-else class="cpage" @scroll="onPageScroll">
+  <div v-else class="cpage cpage--select">
 
     <div class="res-nav">
       <button class="back-btn" @click="reset">
@@ -208,14 +236,15 @@ const cControversyScore = (d: InsightData) => {
     </div>
 
     <!-- 비교 테이블 -->
+    <div class="cpage-body">
     <div class="ct-wrap">
 
       <!-- ── 영상 헤더 행 (sticky) ── -->
-      <div class="ct-row ct-header-row" :class="{ 'ct-header-row--collapsed': headerCollapsed }">
+      <div class="ct-row ct-header-row">
         <div class="ct-corner" />
         <div v-for="(d, i) in comparisons" :key="d.video.videoId" class="ct-vh">
           <div class="ct-vh-accent" :style="`background:${COL[i]}`" />
-          <div class="ct-vh-thumb">
+          <div v-if="!headerCollapsed" class="ct-vh-thumb">
             <img :src="d.video.thumbnailUrl" :alt="d.video.title"
               @error="($event.target as HTMLImageElement).style.opacity='0'" />
           </div>
@@ -347,6 +376,7 @@ const cControversyScore = (d: InsightData) => {
       </div>
 
     </div>
+    </div>
   </div>
 </template>
 
@@ -363,17 +393,48 @@ const cControversyScore = (d: InsightData) => {
   gap: 24px;
 }
 
+/* 선택 단계는 sticky 헤더가 부모 패딩을 완전히 덮어야 해서 패딩을 헤더/바디로 옮김 */
+.cpage--select { padding: 0; gap: 0; }
+.cpage-body {
+  padding: 24px 40px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
 /* ── 선택 헤더 ── */
 .cpage-header {
   display: flex; align-items: center; justify-content: space-between;
   gap: 16px; flex-wrap: wrap;
+  position: sticky;
+  top: 0;
+  padding: 36px 40px 16px;
+  z-index: 100;
+  isolation: isolate;
+  background: color-mix(in srgb, var(--bg) 65%, transparent);
+  backdrop-filter: blur(20px) saturate(1.4);
+  -webkit-backdrop-filter: blur(20px) saturate(1.4);
+  border-bottom: 0.5px solid var(--border);
 }
 .cpage-title { font-size: 18px; font-weight: 700; color: var(--text); letter-spacing: -.02em; }
 .cpage-sub { font-size: 13px; color: var(--subtext); margin-top: 4px; }
-.header-actions { display: flex; align-items: center; gap: 12px; flex-shrink: 0; }
+.header-actions { display: flex; align-items: center; gap: 12px; flex-shrink: 0; margin-left: auto; }
 .sel-pips { display: flex; align-items: center; gap: 6px; }
 .sel-pip { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
 .sel-count-txt { font-size: 12px; color: var(--subtext); }
+.clear-sel-btn {
+  font-size: 12px;
+  color: var(--subtext);
+  background: transparent;
+  border: 0.5px solid var(--border);
+  border-radius: 8px;
+  padding: 7px 12px;
+  cursor: pointer;
+  font-family: 'Inter', sans-serif;
+  white-space: nowrap;
+  transition: color .15s, border-color .15s, background .15s;
+}
+.clear-sel-btn:hover { color: var(--text); background: var(--card-hover); }
 .err-inline { font-size: 12px; color: #f87171; }
 .err-msg { font-size: 13px; color: #f87171; }
 
@@ -381,11 +442,13 @@ const cControversyScore = (d: InsightData) => {
   display: flex; align-items: center; gap: 6px;
   padding: 9px 20px; border-radius: 8px;
   font-size: 13px; font-weight: 600; font-family: 'Inter', sans-serif;
-  cursor: pointer; background: var(--accent); color: #fff; border: none;
+  cursor: pointer;
+  background: var(--accent);
+  color: var(--cta-text); border: none;
   transition: opacity 0.15s;
 }
 .do-compare-btn:disabled { opacity: 0.35; cursor: default; }
-.do-compare-btn:not(:disabled):hover { opacity: 0.85; }
+.do-compare-btn:not(:disabled):hover { opacity: 0.88; }
 
 @keyframes spin { to { transform: rotate(360deg); } }
 .spin { animation: spin 0.8s linear infinite; }
@@ -411,8 +474,8 @@ const cControversyScore = (d: InsightData) => {
   transition: border-color 0.15s, box-shadow 0.15s, transform 0.12s;
   user-select: none;
 }
-.sel-card:hover:not(.sel-card--dim) { border-color: rgba(123,94,248,0.45); transform: translateY(-1px); }
-.sel-card--on { border-color: var(--accent); box-shadow: 0 0 0 2px rgba(123,94,248,0.18); }
+.sel-card:hover:not(.sel-card--dim) { border-color: rgb(from var(--accent) r g b / 0.45); transform: translateY(-1px); }
+.sel-card--on { border-color: var(--accent); box-shadow: 0 0 0 2px rgb(from var(--accent) r g b / 0.18); }
 .sel-card--dim { opacity: 0.38; cursor: default; pointer-events: none; }
 
 .sel-badge {
@@ -425,7 +488,7 @@ const cControversyScore = (d: InsightData) => {
 .sc-thumb { position: relative; aspect-ratio: 16/9; background: rgba(0,0,0,0.18); overflow: hidden; }
 .sc-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
 .sc-overlay {
-  position: absolute; inset: 0; background: rgba(123,94,248,0.38);
+  position: absolute; inset: 0; background: rgb(from var(--accent) r g b / 0.38);
   display: flex; align-items: center; justify-content: center;
 }
 .sc-body { padding: 12px 14px; display: flex; flex-direction: column; gap: 4px; }
@@ -437,7 +500,18 @@ const cControversyScore = (d: InsightData) => {
 .sc-stats { display: flex; align-items: center; gap: 5px; font-size: 11px; color: var(--dim); margin-top: 4px; }
 
 /* ── 비교 결과 내비 ── */
-.res-nav { display: flex; align-items: center; gap: 20px; flex-wrap: wrap; }
+.res-nav {
+  display: flex; align-items: center; gap: 20px; flex-wrap: wrap;
+  position: sticky;
+  top: 0;
+  padding: 36px 40px 16px;
+  z-index: 100;
+  isolation: isolate;
+  background: color-mix(in srgb, var(--bg) 65%, transparent);
+  backdrop-filter: blur(20px) saturate(1.4);
+  -webkit-backdrop-filter: blur(20px) saturate(1.4);
+  border-bottom: 0.5px solid var(--border);
+}
 .back-btn {
   display: flex; align-items: center; gap: 6px;
   font-size: 12px; color: var(--dim);
@@ -446,7 +520,7 @@ const cControversyScore = (d: InsightData) => {
   cursor: pointer; font-family: 'Inter', sans-serif;
   transition: color 0.15s, border-color 0.15s;
 }
-.back-btn:hover { color: var(--accent); border-color: rgba(123,94,248,0.35); }
+.back-btn:hover { color: var(--accent); border-color: rgb(from var(--accent) r g b / 0.35); }
 .legend { display: flex; align-items: center; gap: 18px; }
 .legend-item { display: flex; align-items: center; gap: 6px; }
 .legend-dot { width: 8px; height: 8px; border-radius: 50%; }
@@ -474,7 +548,7 @@ const cControversyScore = (d: InsightData) => {
 /* sticky 영상 헤더 행 */
 .ct-header-row {
   position: sticky;
-  top: 0;
+  top: 80px;
   z-index: 5;
   background: var(--card);
   border-bottom: 0.5px solid var(--border) !important;
@@ -495,19 +569,13 @@ const cControversyScore = (d: InsightData) => {
 .ct-vh:last-child { border-right: none; }
 .ct-vh-accent { height: 3px; flex-shrink: 0; }
 
-/* 썸네일: 스크롤 시 접힘 */
+/* 썸네일: 고정 높이 (스크롤에 따라 크기가 변하지 않도록 — 떨림 방지) */
 .ct-vh-thumb {
   overflow: hidden;
   background: rgba(0,0,0,0.12);
-  max-height: 300px;
-  opacity: 1;
-  transition: max-height 0.3s ease, opacity 0.25s ease;
+  height: 160px;
 }
-.ct-vh-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; aspect-ratio: 16/9; }
-.ct-header-row--collapsed .ct-vh-thumb {
-  max-height: 0;
-  opacity: 0;
-}
+.ct-vh-thumb img { width: 100%; height: 100%; object-fit: contain; display: block; }
 
 .ct-vh-body { padding: 12px 14px; }
 .ct-vh-title {
@@ -562,9 +630,9 @@ const cControversyScore = (d: InsightData) => {
 .topic-pill-sm {
   font-size: 11px; font-weight: 500;
   padding: 3px 9px; border-radius: 999px;
-  background: rgba(123, 94, 248, 0.08);
+  background: rgb(from var(--accent) r g b / 0.08);
   color: var(--accent);
-  border: 0.5px solid rgba(123, 94, 248, 0.22);
+  border: 0.5px solid rgb(from var(--accent) r g b / 0.22);
   white-space: nowrap;
 }
 
@@ -573,4 +641,31 @@ const cControversyScore = (d: InsightData) => {
 .lbar-track { flex: 1; height: 5px; border-radius: 999px; background: var(--card-hover); overflow: hidden; }
 .lbar-fill { height: 100%; border-radius: 999px; opacity: 0.85; transition: width 0.4s; }
 .lbar-pct { font-size: 11px; color: var(--subtext); min-width: 30px; text-align: right; flex-shrink: 0; }
+
+@media (max-width: 768px) {
+  .cpage { padding: 20px 16px; }
+  .cpage-header, .res-nav {
+    position: fixed;
+    top: 60px;
+    left: 0;
+    right: 0;
+    padding: 16px 16px 14px;
+    background: color-mix(in srgb, var(--bg) 65%, transparent);
+    backdrop-filter: blur(20px) saturate(1.4);
+    -webkit-backdrop-filter: blur(20px) saturate(1.4);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  }
+  .cpage-body { padding: 18px 16px 32px; }
+  .cpage--select { padding-top: 112px; }
+  .ct-header-row { top: 60px; }
+  .do-compare-btn { white-space: nowrap; }
+
+  .ct-wrap { overflow-x: auto; }
+  .ct-row, .ct-header-row { min-width: 460px; }
+  .ct-corner, .ct-lbl { width: 90px; font-size: 12px; }
+  .ct-vh-thumb { display: none; }
+  .ct-vh-body { padding: 10px 10px; }
+  .ct-vh-title { font-size: 11px; }
+  .ct-vh-ch { font-size: 10px; }
+}
 </style>

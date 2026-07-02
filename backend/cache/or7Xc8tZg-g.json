@@ -1,0 +1,163 @@
+{
+  "video": {
+    "videoId": "or7Xc8tZg-g",
+    "title": "여섯 개의 별을 새기며｜2025 Worlds Behind",
+    "channelTitle": "T1",
+    "thumbnailUrl": "https://i.ytimg.com/vi/or7Xc8tZg-g/maxresdefault.jpg",
+    "publishedAt": "2026-01-04",
+    "viewCount": 1272785,
+    "likeCount": 24325,
+    "analyzedComments": 1140,
+    "languageRatio": {
+      "ko": 83,
+      "en": 10,
+      "other": 7
+    },
+    "weightedSentiment": 76
+  },
+  "topics": [
+    {
+      "label": "팀워크",
+      "labelEn": "Teamwork",
+      "labelZh": "团队合作",
+      "labelJa": "チームワーク",
+      "mentionCount": 494,
+      "sentiment": {
+        "positive": 57,
+        "neutral": 33,
+        "negative": 10
+      }
+    },
+    {
+      "label": "도란의 역할",
+      "labelEn": "Doran's Role",
+      "labelZh": "Doran的角色",
+      "labelJa": "ドランの役割",
+      "mentionCount": 297,
+      "sentiment": {
+        "positive": 63,
+        "neutral": 22,
+        "negative": 15
+      }
+    },
+    {
+      "label": "페이커의 영향력",
+      "labelEn": "Faker's Influence",
+      "labelZh": "Faker的影响力",
+      "labelJa": "フェイカーの影響力",
+      "mentionCount": 153,
+      "sentiment": {
+        "positive": 61,
+        "neutral": 22,
+        "negative": 17
+      }
+    },
+    {
+      "label": "피드백과 통찰",
+      "labelEn": "Feedback and Insight",
+      "labelZh": "反馈与洞察",
+      "labelJa": "フィードバックと洞察",
+      "mentionCount": 138,
+      "sentiment": {
+        "positive": 48,
+        "neutral": 33,
+        "negative": 19
+      }
+    },
+    {
+      "label": "코칭 스태프의 영향",
+      "labelEn": "Coaching Staff's Influence",
+      "labelZh": "教练团队的影响",
+      "labelJa": "コーチングスタッフの影響",
+      "mentionCount": 58,
+      "sentiment": {
+        "positive": 53,
+        "neutral": 38,
+        "negative": 9
+      }
+    }
+  ],
+  "reactionTimeline": [
+    {
+      "label": "0–1h",
+      "positive": 52,
+      "neutral": 25,
+      "negative": 14
+    },
+    {
+      "label": "1–24h",
+      "positive": 417,
+      "neutral": 203,
+      "negative": 92
+    },
+    {
+      "label": "1–7d",
+      "positive": 129,
+      "neutral": 63,
+      "negative": 35
+    },
+    {
+      "label": "7–30d",
+      "positive": 25,
+      "neutral": 13,
+      "negative": 4
+    },
+    {
+      "label": "30d+",
+      "positive": 38,
+      "neutral": 25,
+      "negative": 5
+    }
+  ],
+  "keyInsights": [
+    {
+      "type": "positive",
+      "topic": "팀워크",
+      "topicEn": "Teamwork",
+      "topicZh": "团队合作",
+      "topicJa": "チームワーク",
+      "comment": "아ㅣ 니ㅋㅋㅋ 적당히 늦게줘야지 이건 너무 늦잖아요ㅋㅋㅋ",
+      "commentLang": "ko",
+      "likes": 4828
+    },
+    {
+      "type": "negative",
+      "topic": "페이커의 영향력",
+      "topicEn": "Faker's Influence",
+      "topicZh": "Faker的影响力",
+      "topicJa": "フェイカーの影響力",
+      "comment": "14:13 오너가 그러니까 게임이힘들지 하고 페이커눈치본이유 = 티원이 부정적인콜을 금기시함 ex)상대 누구 너무잘컸다",
+      "commentLang": "ko",
+      "likes": 2146
+    },
+    {
+      "type": "positive",
+      "topic": "피드백과 통찰",
+      "topicEn": "Feedback and Insight",
+      "topicZh": "反馈与洞察",
+      "topicJa": "フィードバックと洞察",
+      "comment": "44:05 사진찍자마자 피드백ㅋㅋㅋㅋ",
+      "commentLang": "ko",
+      "likes": 1856
+    },
+    {
+      "type": "negative",
+      "topic": "도란의 역할",
+      "topicEn": "Doran's Role",
+      "topicZh": "Doran的角色",
+      "topicJa": "ドランの役割",
+      "comment": "세주 문도 구도 얘기는 오너가 준비가 안돼서 오너랑 마타, 둘 다 문도 관련 얘기 피하고 싶은거같은데 페이커 송곳처럼 후벼파는거보소 ㄷㄷ 저거 페이커가 끝까지 안물고 늘어졌으면 결국 타잔한테 문도주고 세주했을거같음",
+      "commentLang": "ko",
+      "likes": 428
+    }
+  ],
+  "analyzedAt": "2026-07-02T15:10:52.283414+00:00",
+  "analysisDuration": 211.3,
+  "tokenUsage": {
+    "input": 65161,
+    "output": 13498,
+    "embedding": 51671,
+    "total": 130330,
+    "estimatedCostUsd": 0.018906
+  }
+}

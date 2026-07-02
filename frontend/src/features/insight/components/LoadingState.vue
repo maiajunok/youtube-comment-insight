@@ -21,7 +21,7 @@ const STEPS = computed(() => [
     <!-- 상단 스피너 + 타이틀 -->
     <div class="flex flex-col items-center gap-4">
       <div class="w-10 h-10 rounded-full border-[3px] animate-spin"
-        style="border-color: rgba(67,97,238,0.2); border-top-color: var(--accent)" />
+        style="border-color: var(--border); border-top-color: var(--accent)" />
       <p class="text-sm font-medium" style="color: var(--subtext)">{{ M.loadingTitle }}</p>
     </div>
 
@@ -42,7 +42,7 @@ const STEPS = computed(() => [
         <!-- 진행 중 -->
         <div v-else-if="progress === s.n"
           class="w-6 h-6 rounded-full border-2 animate-spin shrink-0 mt-0.5"
-          style="border-color: rgba(67,97,238,0.25); border-top-color: var(--accent)" />
+          style="border-color: var(--border); border-top-color: var(--accent)" />
 
         <!-- 대기 -->
         <div v-else

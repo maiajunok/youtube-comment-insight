@@ -119,7 +119,7 @@ const notes       = computed(() => C.value.notes)
 
 .step-num {
   width: 32px; height: 32px; border-radius: 50%;
-  background: rgba(123,94,248,0.12); border: 0.5px solid rgba(123,94,248,0.3);
+  background: rgb(from var(--accent) r g b / 0.12); border: 0.5px solid rgb(from var(--accent) r g b / 0.3);
   color: var(--accent); font-size: 13px; font-weight: 700;
   display: flex; align-items: center; justify-content: center;
   flex-shrink: 0; margin-top: 2px;
@@ -146,8 +146,8 @@ const notes       = computed(() => C.value.notes)
 .future-note {
   display: flex; align-items: flex-start; gap: 8px;
   font-size: 12px; color: var(--accent); line-height: 1.6; opacity: 0.8;
-  background: rgba(123,94,248,0.07);
-  border: 0.5px solid rgba(123,94,248,0.2);
+  background: rgb(from var(--accent) r g b / 0.07);
+  border: 0.5px solid rgb(from var(--accent) r g b / 0.2);
   border-radius: 8px; padding: 10px 14px;
 }
 
@@ -178,10 +178,15 @@ const notes       = computed(() => C.value.notes)
 .notes-grid { display: flex; flex-direction: column; gap: var(--gap); }
 .note-card {
   display: flex; gap: 14px; align-items: flex-start;
-  background: rgba(123,94,248,0.05);
-  border: 0.5px solid rgba(123,94,248,0.15);
+  background: rgb(from var(--accent) r g b / 0.05);
+  border: 0.5px solid rgb(from var(--accent) r g b / 0.15);
   border-radius: var(--radius); padding: 16px 20px;
 }
 .note-title { font-size: 14px; font-weight: 600; color: var(--text); margin-bottom: 4px; }
 .note-desc  { font-size: 13px; color: var(--subtext); line-height: 1.65; }
+
+@media (max-width: 768px) {
+  .howto { padding: 24px 18px; gap: 32px; }
+  .flow-step { padding: 16px 16px; gap: 14px; }
+}
 </style>

@@ -1,0 +1,163 @@
+{
+  "video": {
+    "videoId": "af62R-2gLsQ",
+    "title": "2026 T1 Home Ground Opening Show(With. Chrissy Costanza)",
+    "channelTitle": "T1",
+    "thumbnailUrl": "https://i.ytimg.com/vi/af62R-2gLsQ/maxresdefault.jpg",
+    "publishedAt": "2026-05-29",
+    "viewCount": 1213340,
+    "likeCount": 36149,
+    "analyzedComments": 812,
+    "languageRatio": {
+      "ko": 30,
+      "en": 47,
+      "other": 23
+    },
+    "weightedSentiment": 90
+  },
+  "topics": [
+    {
+      "label": "라이브 공연",
+      "labelEn": "Live Performance",
+      "labelZh": "现场表演",
+      "labelJa": "ライブパフォーマンス",
+      "mentionCount": 202,
+      "sentiment": {
+        "positive": 70,
+        "neutral": 20,
+        "negative": 10
+      }
+    },
+    {
+      "label": "음악의 감동",
+      "labelEn": "Emotional Impact of Music",
+      "labelZh": "音乐的情感影响",
+      "labelJa": "音楽の感情的影響",
+      "mentionCount": 200,
+      "sentiment": {
+        "positive": 68,
+        "neutral": 20,
+        "negative": 12
+      }
+    },
+    {
+      "label": "T1 팀",
+      "labelEn": "T1 Team",
+      "labelZh": "T1战队",
+      "labelJa": "T1チーム",
+      "mentionCount": 176,
+      "sentiment": {
+        "positive": 59,
+        "neutral": 39,
+        "negative": 2
+      }
+    },
+    {
+      "label": "틈새 공연",
+      "labelEn": "Special Performance",
+      "labelZh": "特别表演",
+      "labelJa": "特別パフォーマンス",
+      "mentionCount": 168,
+      "sentiment": {
+        "positive": 73,
+        "neutral": 19,
+        "negative": 8
+      }
+    },
+    {
+      "label": "크리시 코탄자",
+      "labelEn": "Chrissy Costanza",
+      "labelZh": "克里西・科坦扎",
+      "labelJa": "クリッシー・コスタンザ",
+      "mentionCount": 66,
+      "sentiment": {
+        "positive": 83,
+        "neutral": 15,
+        "negative": 2
+      }
+    }
+  ],
+  "reactionTimeline": [
+    {
+      "label": "0–1h",
+      "positive": 39,
+      "neutral": 15,
+      "negative": 2
+    },
+    {
+      "label": "1–24h",
+      "positive": 107,
+      "neutral": 35,
+      "negative": 11
+    },
+    {
+      "label": "1–7d",
+      "positive": 296,
+      "neutral": 98,
+      "negative": 34
+    },
+    {
+      "label": "7–30d",
+      "positive": 110,
+      "neutral": 36,
+      "negative": 15
+    },
+    {
+      "label": "30d+",
+      "positive": 8,
+      "neutral": 5,
+      "negative": 1
+    }
+  ],
+  "keyInsights": [
+    {
+      "type": "positive",
+      "topic": "T1 팀",
+      "topicEn": "T1 Team",
+      "topicZh": "T1战队",
+      "topicJa": "T1チーム",
+      "comment": "Thank you for having me, it was an honor to perform for the T1 fans and for DOFPK's walkout! T1 Fighting! <3",
+      "commentLang": "en",
+      "likes": 7446
+    },
+    {
+      "type": "negative",
+      "topic": "음악의 감동",
+      "topicEn": "Emotional Impact of Music",
+      "topicZh": "音乐的情感影响",
+      "topicJa": "音楽の感情的影響",
+      "comment": "8:47 음악 잠깐 멈추면서 페이커 쉿 등장으로 전환될 때 함성 어마어마했는데 그거 날린 건 좀 아쉽네",
+      "commentLang": "ko",
+      "likes": 436
+    },
+    {
+      "type": "positive",
+      "topic": "라이브 공연",
+      "topicEn": "Live Performance",
+      "topicZh": "现场表演",
+      "topicJa": "ライブパフォーマンス",
+      "comment": "Seriously, 9 years later and i still get chills every time Chrissy sings Legends never die live.",
+      "commentLang": "en",
+      "likes": 3392
+    },
+    {
+      "type": "negative",
+      "topic": "라이브 공연",
+      "topicEn": "Live Performance",
+      "topicZh": "现场表演",
+      "topicJa": "ライブパフォーマンス",
+      "comment": "glad she actually sang it this time and not lip sync like she did in worlds 2025",
+      "commentLang": "en",
+      "likes": 7
+    }
+  ],
+  "analyzedAt": "2026-07-02T16:27:21.685360+00:00",
+  "analysisDuration": 148.3,
+  "tokenUsage": {
+    "input": 31225,
+    "output": 9597,
+    "embedding": 13612,
+    "total": 54434,
+    "estimatedCostUsd": 0.010714
+  }
+}

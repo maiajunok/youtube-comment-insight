@@ -1,7 +1,7 @@
 <template>
   <div class="shell">
     <!-- 사이드바 -->
-    <aside class="sidebar">
+    <aside class="sidebar" ref="sidebarRef" :class="{ 'mobile-open': mobileNavOpen }">
       <div class="logo">
         <span class="logo-text">FindComments</span>
       </div>
@@ -13,14 +13,14 @@
           :key="item.name"
           class="nav-item"
           :class="{ active: route.name === item.name || (item.name === 'history' && route.name === 'history-view') }"
-          @click="item.name === 'home' ? goHome() : router.push({ name: item.name })"
+          @click="item.name === 'home' ? goHome() : router.push({ name: item.name }); closeMobileNav()"
         >
           <component :is="item.icon" class="nav-icon" />
           {{ messages[settings.lang][item.msgKey as keyof typeof messages['ko']] }}
-          <!-- 분석 진행 중 인디케이터 -->
+          <!-- 분석 진행 중 인디케이터 (홈) -->
           <span v-if="item.name === 'home' && analysisStore.isAnalyzing" class="analyzing-dot" />
-          <!-- 분석 완료 인디케이터 -->
-          <span v-else-if="item.name === 'home' && analysisStore.justFinished" class="done-dot" />
+          <!-- 분석 완료 인디케이터 (분석 기록) -->
+          <span v-if="item.name === 'history' && analysisStore.justFinished" class="done-dot" />
         </div>
       </nav>
 
@@ -29,7 +29,7 @@
       <div
         class="nav-item"
         :class="{ active: route.name === 'howto' }"
-        @click="router.push({ name: 'howto' })"
+        @click="router.push({ name: 'howto' }); closeMobileNav()"
       >
         <IconFileDescription class="nav-icon" />
         {{ messages[settings.lang].navHowto }}
@@ -37,7 +37,7 @@
       <div
         class="nav-item"
         :class="{ active: route.name === 'stats' }"
-        @click="router.push({ name: 'stats' })"
+        @click="router.push({ name: 'stats' }); closeMobileNav()"
       >
         <IconActivity class="nav-icon" />
         {{ messages[settings.lang].navStats }}
@@ -49,6 +49,7 @@
           target="_blank"
           rel="noopener"
           class="nav-item github-link"
+          @click="closeMobileNav()"
         >
           <IconBrandGithub class="nav-icon" />
           maiajunok
@@ -56,7 +57,7 @@
         <div
           class="nav-item"
           :class="{ active: route.name === 'settings' }"
-          @click="router.push({ name: 'settings' })"
+          @click="router.push({ name: 'settings' }); closeMobileNav()"
         >
           <IconSettings class="nav-icon" />
           {{ messages[settings.lang].navSettings }}
@@ -64,14 +65,27 @@
       </div>
     </aside>
 
+    <!-- 모바일 메뉴 배경 오버레이 -->
+    <div v-if="mobileNavOpen" class="mobile-nav-backdrop" @click="closeMobileNav" />
+
     <!-- 메인 영역 -->
     <main class="main">
-      <div class="orb orb-1" />
-      <div class="orb orb-2" />
-      <div class="orb orb-3" />
+      <template v-if="route.name === 'home'">
+        <div class="orb orb-1" />
+        <div class="orb orb-2" />
+        <div class="orb orb-3" />
+      </template>
 
       <!-- 상단 바 -->
       <header class="topbar">
+        <button class="hamburger-btn" ref="hamburgerRef" @click="toggleMobileNav" :aria-expanded="mobileNavOpen">
+          <svg v-if="!mobileNavOpen" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+            <line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/>
+          </svg>
+          <svg v-else width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+            <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+          </svg>
+        </button>
         <span class="tb-title">{{ topbarTitle }}</span>
         <div class="tb-right">
           <div class="lang-dropdown" ref="langDropdownRef">
@@ -119,7 +133,7 @@
 </template>
 
 <script setup lang="ts">
-import { computed, ref, onMounted, onBeforeUnmount } from 'vue'
+import { computed, ref, watch, onMounted, onBeforeUnmount } from 'vue'
 import { useRouter, useRoute } from 'vue-router'
 import {
   IconHome, IconClock, IconLayoutColumns,
@@ -138,6 +152,22 @@ function goHome() {
   if (!analysisStore.isAnalyzing) analysisStore.clearResult()
   router.push({ name: 'home' })
 }
+
+const mobileNavOpen = ref(false)
+const sidebarRef = ref<HTMLElement | null>(null)
+const hamburgerRef = ref<HTMLElement | null>(null)
+
+function toggleMobileNav() { mobileNavOpen.value = !mobileNavOpen.value }
+function closeMobileNav() { mobileNavOpen.value = false }
+
+function onClickOutsideMobileNav(e: MouseEvent) {
+  const t = e.target as Node
+  const insideSidebar = sidebarRef.value?.contains(t)
+  const insideHamburger = hamburgerRef.value?.contains(t)
+  if (!insideSidebar && !insideHamburger) closeMobileNav()
+}
+onMounted(() => document.addEventListener('mousedown', onClickOutsideMobileNav))
+onBeforeUnmount(() => document.removeEventListener('mousedown', onClickOutsideMobileNav))
 
 const langOpen = ref(false)
 const langDropdownRef = ref<HTMLElement | null>(null)
@@ -174,6 +204,11 @@ function onClickOutsideLang(e: MouseEvent) {
 onMounted(() => document.addEventListener('mousedown', onClickOutsideLang))
 onBeforeUnmount(() => document.removeEventListener('mousedown', onClickOutsideLang))
 
+
+// 분석 기록 화면을 실제로 보면 "완료" 표시를 지움 (타이머가 아니라 확인 시점 기준)
+watch(() => route.name, (name) => {
+  if (name === 'history' || name === 'history-view') analysisStore.justFinished = false
+})
 
 const mainNav = [
   { name: 'home',    msgKey: 'navHome',    icon: IconHome },

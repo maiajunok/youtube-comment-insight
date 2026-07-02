@@ -14,7 +14,7 @@ from pydantic import BaseModel
 from openai import OpenAI
 
 from sentiment import analyze_sentiment
-from topic import classify_topics
+from topic import classify_topics, _cosine_sim, _embed
 from youtube import extract_video_id, fetch_comments
 
 load_dotenv(override=True)
@@ -26,6 +26,7 @@ _extra_origins = [o.strip() for o in os.getenv("ALLOWED_ORIGINS", "").split(",")
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["http://localhost:5173", *_extra_origins],
+    allow_origin_regex=r"http://localhost:\d+",
     allow_methods=["*"],
     allow_headers=["*"],
 )
@@ -487,6 +488,63 @@ async def translate_comments(req: TranslateCommentsRequest, x_openai_key: str | 
         return {"translations": json.loads(raw)}
     except Exception:
         return {"translations": req.texts}
+
+
+class CommonTopicsRequest(BaseModel):
+    groups: List[List[str]]  # 영상별 토픽 라벨(한국어) 목록
+    threshold: float = 0.75
+
+
+def _label_match(a: str, b: str) -> bool:
+    """완전 일치 또는 포함 관계("T1의 팀워크" ⊃ "팀워크")면 API 없이 바로 매칭."""
+    a_norm, b_norm = a.strip(), b.strip()
+    if a_norm == b_norm:
+        return True
+    if len(a_norm) >= 2 and len(b_norm) >= 2 and (a_norm in b_norm or b_norm in a_norm):
+        return True
+    return False
+
+
+@app.post("/api/common-topics")
+async def common_topics(req: CommonTopicsRequest, x_openai_key: str | None = Header(default=None)):
+    groups = [g for g in req.groups if g]
+    if len(groups) < 2:
+        return {"commonLabels": []}
+
+    # 임베딩은 문자열 매칭으로 못 잡은 경우에만 필요하므로, 키가 있을 때만 미리 계산
+    api_key = x_openai_key or os.getenv("OPENAI_API_KEY")
+    group_embeddings: list[list[list[float]]] | None = None
+    if api_key:
+        try:
+            client = OpenAI(api_key=api_key)
+            all_labels = [label for g in groups for label in g]
+            embeddings, _tokens = _embed(client, all_labels)
+            group_embeddings = []
+            idx = 0
+            for g in groups:
+                group_embeddings.append(embeddings[idx : idx + len(g)])
+                idx += len(g)
+        except Exception:
+            group_embeddings = None
+
+    common = []
+    for i, label in enumerate(groups[0]):
+        matched_all = True
+        for gi, other_labels in enumerate(groups[1:], start=1):
+            # 1) 문자열 일치/포함 여부부터 확인 (API 호출 없이 즉시 판단)
+            if any(_label_match(label, other) for other in other_labels):
+                continue
+            # 2) 못 잡았고 임베딩을 쓸 수 있으면 의미 유사도로 재확인
+            if group_embeddings:
+                sims = [_cosine_sim(group_embeddings[0][i], oe) for oe in group_embeddings[gi]]
+                if sims and max(sims) >= req.threshold:
+                    continue
+            matched_all = False
+            break
+        if matched_all:
+            common.append(label)
+
+    return {"commonLabels": common}
 
 
 @app.get("/api/comments/{video_id}")

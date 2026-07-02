@@ -49,13 +49,13 @@ const getTopic = (insight: KeyInsight) => {
     </h2>
 
     <!-- 댓글 카드 -->
-    <div class="grid grid-cols-2 gap-4">
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
       <div
         v-for="insight in insights"
         :key="insight.comment"
         class="rounded-xl border flex flex-col gap-3"
         :style="`background: var(--card); padding: var(--card-padding); border-color: ${
-          insight.type === 'positive' ? 'rgba(67,97,238,0.22)' : 'rgba(230,57,101,0.22)'
+          insight.type === 'positive' ? 'rgb(from var(--positive) r g b / 0.3)' : 'rgb(from var(--negative) r g b / 0.3)'
         }`"
       >
         <div class="flex items-center justify-between">
@@ -65,8 +65,8 @@ const getTopic = (insight: KeyInsight) => {
           >
             {{ insight.type === 'positive' ? messages[lang].positiveLabel : messages[lang].negativeLabel }}
           </span>
-          <span class="text-[11px] px-2 py-0.5 rounded-full border"
-            style="color: var(--subtext); border-color: var(--border)">
+          <span class="text-[11px] rounded-full border"
+            style="color: var(--subtext); border-color: var(--border); padding: 3px 10px">
             {{ getTopic(insight) }}
           </span>
         </div>
@@ -91,7 +91,7 @@ const getTopic = (insight: KeyInsight) => {
       <h3 class="text-[11px] font-bold uppercase tracking-widest mb-4" style="color: var(--subtext)">
         {{ messages[lang].langBreakdown }}
       </h3>
-      <div class="grid grid-cols-3 gap-4 text-center">
+      <div class="grid grid-cols-3 gap-2 sm:gap-4 text-center">
         <div
           v-for="l in [
             { label: '한국어', pct: props.languageRatio.ko,    color: 'var(--accent)'   },

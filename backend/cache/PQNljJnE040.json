@@ -1,128 +1,163 @@
 {
   "video": {
+    "videoId": "PQNljJnE040",
     "title": "케리아 X 크리시 코스탄자 역대급 노래방 듀엣",
     "channelTitle": "T1",
     "thumbnailUrl": "https://i.ytimg.com/vi/PQNljJnE040/maxresdefault.jpg",
     "publishedAt": "2026-06-01",
-    "viewCount": 343621,
-    "likeCount": 15921,
+    "viewCount": 356286,
+    "likeCount": 16331,
     "analyzedComments": 1006,
     "languageRatio": {
       "ko": 55,
-      "en": 23,
-      "other": 22
-    }
+      "en": 22,
+      "other": 23
+    },
+    "weightedSentiment": 60
   },
   "topics": [
     {
-      "label": "팬들의 예상 밖 반응",
-      "mentionCount": 378,
+      "label": "팬들의 기쁨과 놀람",
+      "labelEn": "Fans' Joy and Surprise",
+      "labelZh": "粉丝的快乐和惊讶",
+      "labelJa": "ファンの喜びと驚き",
+      "mentionCount": 327,
       "sentiment": {
-        "positive": 54,
-        "neutral": 42,
-        "negative": 3
+        "positive": 65,
+        "neutral": 29,
+        "negative": 6
       }
     },
     {
       "label": "케리아의 노래 실력",
-      "mentionCount": 225,
+      "labelEn": "Keria's Singing Ability",
+      "labelZh": "Keria的歌唱能力",
+      "labelJa": "ケリアの歌唱力",
+      "mentionCount": 266,
       "sentiment": {
-        "positive": 67,
+        "positive": 66,
         "neutral": 27,
         "negative": 7
       }
     },
     {
-      "label": "노래방에서의 상황",
-      "mentionCount": 205,
+      "label": "예상치 못한 콜라보",
+      "labelEn": "Unexpected Collaboration",
+      "labelZh": "意想不到的合作",
+      "labelJa": "予想外のコラボレーション",
+      "mentionCount": 164,
       "sentiment": {
-        "positive": 50,
+        "positive": 52,
         "neutral": 40,
-        "negative": 9
+        "negative": 8
       }
     },
     {
       "label": "크리시의 매력",
-      "mentionCount": 145,
+      "labelEn": "Chrissy's Charm",
+      "labelZh": "克里西的魅力",
+      "labelJa": "クリッシーの魅力",
+      "mentionCount": 127,
       "sentiment": {
-        "positive": 72,
-        "neutral": 26,
+        "positive": 75,
+        "neutral": 23,
         "negative": 2
       }
     },
     {
-      "label": "콜라보레이션의 신기함",
-      "mentionCount": 53,
+      "label": "컨텐츠의 참신함",
+      "labelEn": "Freshness of Content",
+      "labelZh": "内容的新颖性",
+      "labelJa": "コンテンツの新しさ",
+      "mentionCount": 122,
       "sentiment": {
-        "positive": 47,
+        "positive": 46,
         "neutral": 45,
-        "negative": 8
+        "negative": 9
       }
     }
   ],
   "reactionTimeline": [
     {
       "label": "0–1h",
-      "positive": 151,
-      "neutral": 110,
-      "negative": 7
+      "positive": 155,
+      "neutral": 98,
+      "negative": 11
     },
     {
-      "label": "1–6h",
-      "positive": 195,
-      "neutral": 119,
-      "negative": 19
+      "label": "1–24h",
+      "positive": 316,
+      "neutral": 163,
+      "negative": 33
     },
     {
-      "label": "6–12h",
-      "positive": 60,
-      "neutral": 32,
-      "negative": 2
+      "label": "1–7d",
+      "positive": 129,
+      "neutral": 47,
+      "negative": 17
     },
     {
-      "label": "12–24h",
-      "positive": 38,
-      "neutral": 42,
-      "negative": 5
+      "label": "7–30d",
+      "positive": 25,
+      "neutral": 7,
+      "negative": 3
     },
     {
-      "label": "1–3d",
-      "positive": 81,
-      "neutral": 43,
-      "negative": 12
-    },
-    {
-      "label": "3–7d",
-      "positive": 63,
-      "neutral": 17,
-      "negative": 9
+      "label": "30d+",
+      "positive": 0,
+      "neutral": 2,
+      "negative": 0
     }
   ],
   "keyInsights": [
     {
       "type": "positive",
-      "topic": "콜라보레이션의 신기함",
+      "topic": "예상치 못한 콜라보",
+      "topicEn": "Unexpected Collaboration",
+      "topicZh": "意想不到的合作",
+      "topicJa": "予想外のコラボレーション",
       "comment": "ㄹㅇ 상상도 못한 콜라보ㅋㅋㅋㅋㅋㅋㅋ",
-      "likes": 2569
+      "commentLang": "ko",
+      "likes": 2628
     },
     {
       "type": "negative",
-      "topic": "노래방에서의 상황",
-      "comment": "아니 이건먼뎈ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
-      "likes": 2
+      "topic": "팬들의 기쁨과 놀람",
+      "topicEn": "Fans' Joy and Surprise",
+      "topicZh": "粉丝的快乐和惊讶",
+      "topicJa": "ファンの喜びと驚き",
+      "comment": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ 나 이거 볼 자신이없어ㅠㅠ",
+      "commentLang": "ko",
+      "likes": 423
     },
     {
       "type": "positive",
-      "topic": "노래방에서의 상황",
-      "comment": "아니 이건 또 뭐야ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
-      "likes": 1683
+      "topic": "케리아의 노래 실력",
+      "topicEn": "Keria's Singing Ability",
+      "topicZh": "Keria的歌唱能力",
+      "topicJa": "ケリアの歌唱力",
+      "comment": "케리아 노래 안부른다고 했는데 ㅋㅋㅋ 큰 결심했나보네",
+      "commentLang": "ko",
+      "likes": 1476
     },
     {
       "type": "negative",
-      "topic": "팬들의 예상 밖 반응",
-      "comment": "얼마나 성공하려고 하는지 감도 안오네",
-      "likes": 1
+      "topic": "케리아의 노래 실력",
+      "topicEn": "Keria's Singing Ability",
+      "topicZh": "Keria的歌唱能力",
+      "topicJa": "ケリアの歌唱力",
+      "comment": "케리아는 엔터계가 게임계에 뺏긴 인재가 맞구나",
+      "commentLang": "ko",
+      "likes": 300
     }
   ],
-  "analyzedAt": "2026-06-23T16:49:18.526781+00:00"
+  "analyzedAt": "2026-07-02T16:31:07.222693+00:00",
+  "analysisDuration": 180.6,
+  "tokenUsage": {
+    "input": 38389,
+    "output": 12118,
+    "embedding": 23007,
+    "total": 73514,
+    "estimatedCostUsd": 0.013489
+  }
 }

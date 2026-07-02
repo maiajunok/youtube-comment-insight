@@ -1,0 +1,163 @@
+{
+  "video": {
+    "videoId": "lYuOgLnqZ40",
+    "title": "사우디 생존기 마지막 날 The Red Sea Ep.3",
+    "channelTitle": "T1",
+    "thumbnailUrl": "https://i.ytimg.com/vi/lYuOgLnqZ40/maxresdefault.jpg",
+    "publishedAt": "2026-02-10",
+    "viewCount": 183399,
+    "likeCount": 6277,
+    "analyzedComments": 287,
+    "languageRatio": {
+      "ko": 85,
+      "en": 6,
+      "other": 9
+    },
+    "weightedSentiment": 67
+  },
+  "topics": [
+    {
+      "label": "행복한 모습",
+      "labelEn": "Happy Moments",
+      "labelZh": "快乐时刻",
+      "labelJa": "幸せな瞬間",
+      "mentionCount": 147,
+      "sentiment": {
+        "positive": 71,
+        "neutral": 24,
+        "negative": 5
+      }
+    },
+    {
+      "label": "영상팀 칭찬",
+      "labelEn": "Praise for Video Team",
+      "labelZh": "对视频团队的赞美",
+      "labelJa": "動画チームへの称賛",
+      "mentionCount": 61,
+      "sentiment": {
+        "positive": 57,
+        "neutral": 38,
+        "negative": 5
+      }
+    },
+    {
+      "label": "팬심",
+      "labelEn": "Fan Love",
+      "labelZh": "粉丝之爱",
+      "labelJa": "ファン愛",
+      "mentionCount": 32,
+      "sentiment": {
+        "positive": 75,
+        "neutral": 22,
+        "negative": 3
+      }
+    },
+    {
+      "label": "유머",
+      "labelEn": "Humor",
+      "labelZh": "幽默",
+      "labelJa": "ユーモア",
+      "mentionCount": 30,
+      "sentiment": {
+        "positive": 57,
+        "neutral": 27,
+        "negative": 17
+      }
+    },
+    {
+      "label": "팀워크",
+      "labelEn": "Teamwork",
+      "labelZh": "团队合作",
+      "labelJa": "チームワーク",
+      "mentionCount": 17,
+      "sentiment": {
+        "positive": 18,
+        "neutral": 82,
+        "negative": 0
+      }
+    }
+  ],
+  "reactionTimeline": [
+    {
+      "label": "0–1h",
+      "positive": 105,
+      "neutral": 47,
+      "negative": 7
+    },
+    {
+      "label": "1–24h",
+      "positive": 71,
+      "neutral": 37,
+      "negative": 7
+    },
+    {
+      "label": "1–7d",
+      "positive": 6,
+      "neutral": 4,
+      "negative": 2
+    },
+    {
+      "label": "7–30d",
+      "positive": 1,
+      "neutral": 0,
+      "negative": 0
+    },
+    {
+      "label": "30d+",
+      "positive": 0,
+      "neutral": 0,
+      "negative": 0
+    }
+  ],
+  "keyInsights": [
+    {
+      "type": "positive",
+      "topic": "행복한 모습",
+      "topicEn": "Happy Moments",
+      "topicZh": "快乐时刻",
+      "topicJa": "幸せな瞬間",
+      "comment": "이게 아직 안 끝난거였구나?ㅋㅋㅋㅋㅋㅋ",
+      "commentLang": "ko",
+      "likes": 697
+    },
+    {
+      "type": "negative",
+      "topic": "유머",
+      "topicEn": "Humor",
+      "topicZh": "幽默",
+      "topicJa": "ユーモア",
+      "comment": "진짜 울프 요즘 쇼츠에 계속 떠서 꼴보기 싫은데 그냥 빨리 끌어내려주세요",
+      "commentLang": "ko",
+      "likes": 10
+    },
+    {
+      "type": "positive",
+      "topic": "유머",
+      "topicEn": "Humor",
+      "topicZh": "幽默",
+      "topicJa": "ユーモア",
+      "comment": "0:56 쭉 엎어져서 떠다니는 도련님 보고 개웃겨서 물 뿜음",
+      "commentLang": "ko",
+      "likes": 537
+    },
+    {
+      "type": "negative",
+      "topic": "행복한 모습",
+      "topicEn": "Happy Moments",
+      "topicZh": "快乐时刻",
+      "topicJa": "幸せな瞬間",
+      "comment": "울프퇴출기원 4일차",
+      "commentLang": "ko",
+      "likes": 4
+    }
+  ],
+  "analyzedAt": "2026-07-02T16:06:01.134926+00:00",
+  "analysisDuration": 57.6,
+  "tokenUsage": {
+    "input": 17445,
+    "output": 3734,
+    "embedding": 7400,
+    "total": 28579,
+    "estimatedCostUsd": 0.005005
+  }
+}

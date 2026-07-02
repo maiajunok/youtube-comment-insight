@@ -1,0 +1,163 @@
+{
+  "video": {
+    "videoId": "ADaZLxI3uWg",
+    "title": "KT vs T1 | WORLDS 2025 | Finals",
+    "channelTitle": "LoL Esports",
+    "thumbnailUrl": "https://i.ytimg.com/vi/ADaZLxI3uWg/maxresdefault.jpg",
+    "publishedAt": "2025-11-09",
+    "viewCount": 9398908,
+    "likeCount": 110009,
+    "analyzedComments": 805,
+    "languageRatio": {
+      "ko": 3,
+      "en": 75,
+      "other": 23
+    },
+    "weightedSentiment": 60
+  },
+  "topics": [
+    {
+      "label": "부상 선수",
+      "labelEn": "Injured Players",
+      "labelZh": "受伤的选手",
+      "labelJa": "負傷選手",
+      "mentionCount": 290,
+      "sentiment": {
+        "positive": 48,
+        "neutral": 36,
+        "negative": 16
+      }
+    },
+    {
+      "label": "경기 내용",
+      "labelEn": "Game Content",
+      "labelZh": "比赛内容",
+      "labelJa": "試合内容",
+      "mentionCount": 243,
+      "sentiment": {
+        "positive": 38,
+        "neutral": 39,
+        "negative": 23
+      }
+    },
+    {
+      "label": "팀워크",
+      "labelEn": "Teamwork",
+      "labelZh": "团队合作",
+      "labelJa": "チームワーク",
+      "mentionCount": 188,
+      "sentiment": {
+        "positive": 51,
+        "neutral": 35,
+        "negative": 14
+      }
+    },
+    {
+      "label": "페이커의 업적",
+      "labelEn": "Faker's Achievements",
+      "labelZh": "Faker的成就",
+      "labelJa": "フェイカーの業績",
+      "mentionCount": 59,
+      "sentiment": {
+        "positive": 58,
+        "neutral": 19,
+        "negative": 24
+      }
+    },
+    {
+      "label": "도란에 대한 찬사",
+      "labelEn": "Praise for Doran",
+      "labelZh": "对Doran的赞美",
+      "labelJa": "ドランへの称賛",
+      "mentionCount": 25,
+      "sentiment": {
+        "positive": 32,
+        "neutral": 48,
+        "negative": 20
+      }
+    }
+  ],
+  "reactionTimeline": [
+    {
+      "label": "0–1h",
+      "positive": 113,
+      "neutral": 50,
+      "negative": 21
+    },
+    {
+      "label": "1–24h",
+      "positive": 159,
+      "neutral": 117,
+      "negative": 80
+    },
+    {
+      "label": "1–7d",
+      "positive": 66,
+      "neutral": 60,
+      "negative": 30
+    },
+    {
+      "label": "7–30d",
+      "positive": 10,
+      "neutral": 24,
+      "negative": 11
+    },
+    {
+      "label": "30d+",
+      "positive": 22,
+      "neutral": 37,
+      "negative": 5
+    }
+  ],
+  "keyInsights": [
+    {
+      "type": "positive",
+      "topic": "부상 선수",
+      "topicEn": "Injured Players",
+      "topicZh": "受伤的选手",
+      "topicJa": "負傷選手",
+      "comment": "Nobody talking about Keria,he is the best support that ever played the game",
+      "commentLang": "en",
+      "likes": 2836
+    },
+    {
+      "type": "negative",
+      "topic": "페이커의 업적",
+      "topicEn": "Faker's Achievements",
+      "topicZh": "Faker的成就",
+      "topicJa": "フェイカーの業績",
+      "comment": "theScore are licking their lips at the revenue from their next T1/Faker video.",
+      "commentLang": "en",
+      "likes": 750
+    },
+    {
+      "type": "positive",
+      "topic": "페이커의 업적",
+      "topicEn": "Faker's Achievements",
+      "topicZh": "Faker的成就",
+      "topicJa": "フェイカーの業績",
+      "comment": "Faker’s passive: Creates World Champions.\nDoran winning Worlds just proved it😌",
+      "commentLang": "en",
+      "likes": 2443
+    },
+    {
+      "type": "negative",
+      "topic": "경기 내용",
+      "topicEn": "Game Content",
+      "topicZh": "比赛内容",
+      "topicJa": "試合内容",
+      "comment": "If you are complaining about Doran inting. Go watch the replay on those crucial teamfights where he choked Bdd and Ddam like a daddy. Don’t act like pro players can’t fumble, Chovy is the prime example, especially in this such important series.",
+      "commentLang": "en",
+      "likes": 351
+    }
+  ],
+  "analyzedAt": "2026-07-02T15:40:01.322380+00:00",
+  "analysisDuration": 137.8,
+  "tokenUsage": {
+    "input": 38031,
+    "output": 8766,
+    "embedding": 16043,
+    "total": 62840,
+    "estimatedCostUsd": 0.011285
+  }
+}

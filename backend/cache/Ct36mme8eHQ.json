@@ -1,0 +1,163 @@
+{
+  "video": {
+    "videoId": "Ct36mme8eHQ",
+    "title": "이민형, 증명의 여정 | CARVED:PROVE",
+    "channelTitle": "T1",
+    "thumbnailUrl": "https://i.ytimg.com/vi/Ct36mme8eHQ/maxresdefault.jpg",
+    "publishedAt": "2023-11-01",
+    "viewCount": 3172442,
+    "likeCount": 60712,
+    "analyzedComments": 1219,
+    "languageRatio": {
+      "ko": 88,
+      "en": 7,
+      "other": 5
+    },
+    "weightedSentiment": 79
+  },
+  "topics": [
+    {
+      "label": "팀에 대한 애정",
+      "labelEn": "Love for the Team",
+      "labelZh": "对团队的热爱",
+      "labelJa": "チームへの愛",
+      "mentionCount": 427,
+      "sentiment": {
+        "positive": 69,
+        "neutral": 19,
+        "negative": 12
+      }
+    },
+    {
+      "label": "구마유시의 노력과 성장",
+      "labelEn": "Gumayusi's Efforts and Growth",
+      "labelZh": "Gumayusi的努力与成长",
+      "labelJa": "グマユシの努力と成長",
+      "mentionCount": 358,
+      "sentiment": {
+        "positive": 87,
+        "neutral": 10,
+        "negative": 3
+      }
+    },
+    {
+      "label": "월드컵 우승과 스트레스",
+      "labelEn": "World Championship Win and Stress",
+      "labelZh": "世界杯冠军与压力",
+      "labelJa": "ワールドチャンピオンシップの勝利とストレス",
+      "mentionCount": 211,
+      "sentiment": {
+        "positive": 78,
+        "neutral": 13,
+        "negative": 9
+      }
+    },
+    {
+      "label": "팬과의 소통",
+      "labelEn": "Communication with Fans",
+      "labelZh": "与粉丝的沟通",
+      "labelJa": "ファンとのコミュニケーション",
+      "mentionCount": 119,
+      "sentiment": {
+        "positive": 75,
+        "neutral": 18,
+        "negative": 8
+      }
+    },
+    {
+      "label": "과거의 좌절과 극복",
+      "labelEn": "Overcoming Past Struggles",
+      "labelZh": "克服过去的挫折",
+      "labelJa": "過去の挫折を克服する",
+      "mentionCount": 104,
+      "sentiment": {
+        "positive": 65,
+        "neutral": 23,
+        "negative": 12
+      }
+    }
+  ],
+  "reactionTimeline": [
+    {
+      "label": "0–1h",
+      "positive": 27,
+      "neutral": 0,
+      "negative": 0
+    },
+    {
+      "label": "1–24h",
+      "positive": 54,
+      "neutral": 0,
+      "negative": 1
+    },
+    {
+      "label": "1–7d",
+      "positive": 22,
+      "neutral": 3,
+      "negative": 1
+    },
+    {
+      "label": "7–30d",
+      "positive": 72,
+      "neutral": 5,
+      "negative": 5
+    },
+    {
+      "label": "30d+",
+      "positive": 754,
+      "neutral": 179,
+      "negative": 96
+    }
+  ],
+  "keyInsights": [
+    {
+      "type": "positive",
+      "topic": "월드컵 우승과 스트레스",
+      "topicEn": "World Championship Win and Stress",
+      "topicZh": "世界杯冠军与压力",
+      "topicJa": "ワールドチャンピオンシップの勝利とストレス",
+      "comment": "이 다큐는 비로소 구마유시가 월즈까지 우승해버리면서 더 완벽해졌다... 해낼 줄 알았어! 수고했어ㅠ",
+      "commentLang": "ko",
+      "likes": 5784
+    },
+    {
+      "type": "negative",
+      "topic": "팀에 대한 애정",
+      "topicEn": "Love for the Team",
+      "topicZh": "对团队的热爱",
+      "topicJa": "チームへの愛",
+      "comment": "야 제발 힘들지 마 그만 힘들어 제발",
+      "commentLang": "ko",
+      "likes": 1087
+    },
+    {
+      "type": "positive",
+      "topic": "팬과의 소통",
+      "topicEn": "Communication with Fans",
+      "topicZh": "与粉丝的沟通",
+      "topicJa": "ファンとのコミュニケーション",
+      "comment": "오늘 경기이긴김에 예배온 티원팬들 개추 ㅋㅋㅋㅋㅋ",
+      "commentLang": "ko",
+      "likes": 4838
+    },
+    {
+      "type": "negative",
+      "topic": "월드컵 우승과 스트레스",
+      "topicEn": "World Championship Win and Stress",
+      "topicZh": "世界杯冠军与压力",
+      "topicJa": "ワールドチャンピオンシップの勝利とストレス",
+      "comment": "참 내가 구마유시면 정신병 걸렸을텐데 대단하다 난 아직도 월즈에서 보여준 구마유시가 잊혀지지 않는데 사람들은 벌써 잊었나보다.",
+      "commentLang": "ko",
+      "likes": 604
+    }
+  ],
+  "analyzedAt": "2026-07-02T15:17:13.471669+00:00",
+  "analysisDuration": 247.8,
+  "tokenUsage": {
+    "input": 95568,
+    "output": 14601,
+    "embedding": 80645,
+    "total": 190814,
+    "estimatedCostUsd": 0.024709
+  }
+}

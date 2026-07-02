@@ -1,12 +1,13 @@
 <script setup lang="ts">
-import { ref, watch, computed } from 'vue'
+import { ref, watch, computed, onMounted } from 'vue'
 import { messages } from '@/locales/messages'
 import { storeToRefs } from 'pinia'
 import { useHistory } from '@/features/insight/composables/useHistory'
 import { fillTopicLabels, displayLabel } from '@/features/insight/composables/useLabelTranslation'
 import { useSettingsStore } from '@/features/settings/stores/settings'
 import { useAnalysisStore } from '@/features/insight/stores/analysis'
-import { useRouter } from 'vue-router'
+import { useRouter, useRoute } from 'vue-router'
+import { insightApi } from '@/features/insight/api/insightApi'
 import VideoInfoCard     from '@/features/insight/components/VideoInfoCard.vue'
 import TopReactionTopics from '@/features/insight/components/TopReactionTopics.vue'
 import ReactionTimeline  from '@/features/insight/components/ReactionTimeline.vue'
@@ -16,6 +17,7 @@ import TopicComments     from '@/features/insight/components/TopicComments.vue'
 import AppFooter         from '@/layouts/AppFooter.vue'
 
 const router        = useRouter()
+const route         = useRoute()
 const settings      = useSettingsStore()
 const analysisStore = useAnalysisStore()
 
@@ -41,6 +43,19 @@ function goToHistory() {
   analysisStore.closeMissingKeyModal()
   router.push({ name: 'history' })
 }
+
+// 새로고침해도 히스토리에서 보던 영상이 유지되도록 URL의 id로 다시 불러옴
+onMounted(async () => {
+  const id = route.query.id
+  if (route.name === 'history-view' && typeof id === 'string' && !data.value) {
+    try {
+      const result = await insightApi.getByVideoId(id)
+      analysisStore.setResult(result)
+    } catch {
+      router.push({ name: 'history' })
+    }
+  }
+})
 
 watch(() => settings.lang, (lang) => {
   if (data.value) fillTopicLabels(data.value.topics, lang)
@@ -154,20 +169,22 @@ const reportInsightComment = (ins: { comment: string; commentEn?: string; commen
     </h1>
     <p class="sub-line">community.</p>
 
-    <div class="search-wrap" :class="{ focused: isFocused }">
-      <svg class="yt-icon" viewBox="0 0 24 24" fill="currentColor" width="18" height="18">
-        <path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2C0 8.1 0 12 0 12s0 3.9.5 5.8a3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1C24 15.9 24 12 24 12s0-3.9-.5-5.8zM9.75 15.5v-7l6.25 3.5-6.25 3.5z"/>
-      </svg>
-      <input
-        v-model="url"
-        type="text"
-        :placeholder="messages[settings.lang].urlPlaceholder"
-        class="url-input"
-        @focus="isFocused = true"
-        @blur="isFocused = false"
-        @keyup.enter="analyze"
-        autofocus
-      />
+    <div class="search-row">
+      <div class="search-wrap" :class="{ focused: isFocused }">
+        <svg class="yt-icon" viewBox="0 0 24 24" fill="currentColor" width="18" height="18">
+          <path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2C0 8.1 0 12 0 12s0 3.9.5 5.8a3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1C24 15.9 24 12 24 12s0-3.9-.5-5.8zM9.75 15.5v-7l6.25 3.5-6.25 3.5z"/>
+        </svg>
+        <input
+          v-model="url"
+          type="text"
+          :placeholder="messages[settings.lang].urlPlaceholder"
+          class="url-input"
+          @focus="isFocused = true"
+          @blur="isFocused = false"
+          @keyup.enter="analyze"
+          autofocus
+        />
+      </div>
       <button class="btn-go" @click="analyze" :disabled="!url.trim()">
         {{ messages[settings.lang].analyzeBtn }}
       </button>
@@ -442,7 +459,7 @@ const reportInsightComment = (ins: { comment: string; commentEn?: string; commen
   position: absolute;
   top: 0; left: 0; right: 0;
   height: 4px;
-  background: #7b5ef8;
+  background: #E4002B;
 }
 
 .rpt-header {
@@ -462,7 +479,7 @@ const reportInsightComment = (ins: { comment: string; commentEn?: string; commen
   border: 0.5px solid #e0e0eb;
 }
 .rpt-header-info { flex: 1; min-width: 0; }
-.rpt-brand { font-size: 8pt; color: #7b5ef8; font-weight: 700; letter-spacing: .08em; margin-bottom: 5px; }
+.rpt-brand { font-size: 8pt; color: #E4002B; font-weight: 700; letter-spacing: .08em; margin-bottom: 5px; }
 .rpt-title { font-size: 14pt; font-weight: 700; color: #1a1a2e; margin: 0 0 3px; line-height: 1.3; }
 .rpt-channel { font-size: 9pt; color: #666680; }
 .rpt-meta { text-align: right; font-size: 8pt; color: #999aaa; line-height: 1.8; flex-shrink: 0; margin-left: 4px; white-space: nowrap; }
@@ -550,7 +567,7 @@ const reportInsightComment = (ins: { comment: string; commentEn?: string; commen
   border-bottom: 0.5px solid #e0e0eb;
 }
 .rpt-topic-row:last-child { border-bottom: none; }
-.rpt-topic-num { font-size: 9pt; font-weight: 700; color: #7b5ef8; width: 12px; flex-shrink: 0; }
+.rpt-topic-num { font-size: 9pt; font-weight: 700; color: #E4002B; width: 12px; flex-shrink: 0; }
 .rpt-topic-name { font-size: 9pt; font-weight: 600; color: #1a1a2e; width: 80px; flex-shrink: 0; }
 .rpt-topic-bar { flex: 1; display: flex; height: 6px; border-radius: 2px; overflow: hidden; }
 .rpt-topic-bar div { height: 100%; }
@@ -583,7 +600,7 @@ const reportInsightComment = (ins: { comment: string; commentEn?: string; commen
 }
 .rpt-lang-stat { display: flex; flex-direction: column; align-items: center; gap: 2px; }
 .rpt-lang-val { font-size: 15pt; font-weight: 800; }
-.rpt-lang-val.ko { color: #7b5ef8; }
+.rpt-lang-val.ko { color: #E4002B; }
 .rpt-lang-val.en { color: #16a34a; }
 .rpt-lang-val.other { color: #94a3b8; }
 .rpt-lang-lbl { font-size: 7.5pt; color: #999aaa; }
@@ -662,48 +679,59 @@ const reportInsightComment = (ins: { comment: string; commentEn?: string; commen
   margin-bottom: 28px;
 }
 
+.search-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  max-width: 620px;
+  margin-bottom: 10px;
+  position: relative; z-index: 1;
+}
+
 .search-wrap {
+  flex: 1;
+  min-width: 0;
   display: flex;
   align-items: center;
   background: var(--search-bg);
   border: 0.5px solid var(--search-border);
   border-radius: var(--radius);
-  padding: 6px 6px 6px 18px;
-  max-width: 520px;
-  margin-bottom: 10px;
+  padding: 12px 16px;
   transition: border-color .2s;
-  position: relative; z-index: 1;
 }
-.search-wrap.focused { border-color: rgba(123, 94, 248, 0.5); }
+.search-wrap.focused { border-color: rgb(from var(--accent) r g b / 0.5); }
 
 .yt-icon { color: #e03; flex-shrink: 0; margin-right: 10px; }
 
 .url-input {
   flex: 1;
+  min-width: 0;
   background: transparent;
   border: none;
   outline: none;
   font-size: 13px;
   color: var(--text);
   font-family: 'Inter', sans-serif;
-  padding: 10px 0;
 }
 .url-input::placeholder { color: var(--dim); }
 
 .btn-go {
+  flex-shrink: 0;
   background: var(--accent);
-  color: #fff;
+  color: var(--cta-text);
   font-size: 13px;
-  font-weight: 600;
+  font-weight: 700;
+  letter-spacing: .01em;
   border: none;
-  padding: 11px 24px;
-  border-radius: 8px;
+  padding: 13px 26px;
+  border-radius: var(--radius);
   cursor: pointer;
   font-family: 'Inter', sans-serif;
   white-space: nowrap;
   transition: opacity .15s;
 }
-.btn-go:disabled { opacity: .4; cursor: not-allowed; }
+.btn-go:hover:not(:disabled) { opacity: 0.88; }
+.btn-go:disabled { opacity: .4; cursor: not-allowed; box-shadow: none; }
 
 .url-hint  { font-size: 12px; color: var(--dim); margin-bottom: 32px; position: relative; z-index: 1; }
 .url-error { font-size: 12px; color: var(--negative); margin-bottom: 32px; position: relative; z-index: 1; }
@@ -723,7 +751,7 @@ const reportInsightComment = (ins: { comment: string; commentEn?: string; commen
 .chip-live   { color: var(--positive); font-size: 10px; }
 .chip-badge  {
   font-size: 9px;
-  background: rgba(123, 94, 248, 0.15);
+  background: rgb(from var(--accent) r g b / 0.15);
   color: var(--accent);
   padding: 2px 6px;
   border-radius: 10px;
@@ -754,9 +782,9 @@ const reportInsightComment = (ins: { comment: string; commentEn?: string; commen
 .export-btn {
   display: flex; align-items: center; gap: 6px;
   font-size: 11px;
-  color: var(--accent);
-  background: rgba(123, 94, 248, 0.08);
-  border: 0.5px solid rgba(123, 94, 248, 0.35);
+  color: var(--text);
+  background: transparent;
+  border: 0.5px solid var(--border);
   border-radius: 8px;
   padding: 5px 12px;
   cursor: pointer;
@@ -764,7 +792,7 @@ const reportInsightComment = (ins: { comment: string; commentEn?: string; commen
   transition: background .15s, border-color .15s;
   margin-left: auto;
 }
-.export-btn:hover { background: rgba(123, 94, 248, 0.14); border-color: rgba(123, 94, 248, 0.55); }
+.export-btn:hover { background: rgb(from var(--accent) r g b / 0.06); border-color: rgb(from var(--accent) r g b / 0.4); }
 
 .dash-grid {
   display: grid;
@@ -821,7 +849,7 @@ const reportInsightComment = (ins: { comment: string; commentEn?: string; commen
 /* ── API 키 필요 모달 ── */
 .key-modal-overlay {
   position: fixed; inset: 0; z-index: 50;
-  background: radial-gradient(circle at 50% 40%, rgba(123,94,248,0.10), rgba(8, 6, 16, 0.72) 60%);
+  background: radial-gradient(circle at 50% 40%, rgb(from var(--accent) r g b / 0.10), rgba(8, 6, 16, 0.72) 60%);
   backdrop-filter: blur(6px);
   display: flex; align-items: center; justify-content: center;
   padding: 24px;
@@ -834,7 +862,7 @@ const reportInsightComment = (ins: { comment: string; commentEn?: string; commen
 .key-modal {
   position: relative;
   background: linear-gradient(180deg, var(--card-hover) 0%, var(--card) 60%);
-  border: 0.5px solid rgba(123, 94, 248, 0.28);
+  border: 0.5px solid rgb(from var(--accent) r g b / 0.28);
   border-radius: 20px;
   padding: 36px 34px 30px;
   max-width: 430px;
@@ -843,7 +871,7 @@ const reportInsightComment = (ins: { comment: string; commentEn?: string; commen
   box-shadow:
     0 24px 70px rgba(0,0,0,0.45),
     0 0 0 1px rgba(255,255,255,0.02) inset,
-    0 0 60px rgba(123,94,248,0.10);
+    0 0 60px rgb(from var(--accent) r g b / 0.10);
   animation: key-modal-pop 0.25s cubic-bezier(0.16, 1, 0.3, 1);
 }
 @keyframes key-modal-pop {
@@ -855,8 +883,8 @@ const reportInsightComment = (ins: { comment: string; commentEn?: string; commen
   width: 52px; height: 52px;
   border-radius: 14px;
   display: flex; align-items: center; justify-content: center;
-  background: linear-gradient(135deg, #9b7bff 0%, var(--accent) 55%, #5b3fd6 100%);
-  box-shadow: 0 8px 24px rgba(123,94,248,0.45), 0 0 0 1px rgba(255,255,255,0.08) inset;
+  background: linear-gradient(135deg, color-mix(in srgb, var(--accent), white 35%) 0%, var(--accent) 55%, color-mix(in srgb, var(--accent), black 40%) 100%);
+  box-shadow: 0 8px 24px rgb(from var(--accent) r g b / 0.45), 0 0 0 1px rgba(255,255,255,0.08) inset;
   margin-bottom: 18px;
 }
 
@@ -879,14 +907,13 @@ const reportInsightComment = (ins: { comment: string; commentEn?: string; commen
   cursor: pointer; font-family: 'Inter', sans-serif;
   transition: transform 0.15s, border-color 0.15s, background 0.15s, box-shadow 0.15s;
 }
-.key-modal-btn:hover { transform: translateY(-1px); border-color: rgba(123,94,248,0.4); }
+.key-modal-btn:hover { transform: translateY(-1px); border-color: rgba(192,171,126,0.45); }
 .key-modal-btn.primary {
-  background: linear-gradient(135deg, #9b7bff 0%, var(--accent) 100%);
+  background: var(--accent);
   border-color: transparent;
-  color: #fff;
-  box-shadow: 0 6px 18px rgba(123,94,248,0.35);
+  color: var(--cta-text);
 }
-.key-modal-btn.primary:hover { box-shadow: 0 8px 22px rgba(123,94,248,0.5); }
+.key-modal-btn.primary:hover { opacity: 0.88; }
 
 .key-modal-close {
   margin-top: 16px;
@@ -899,4 +926,24 @@ const reportInsightComment = (ins: { comment: string; commentEn?: string; commen
   transition: color 0.15s;
 }
 .key-modal-close:hover { color: var(--subtext); }
+
+/* ── 모바일 ── */
+@media (max-width: 768px) {
+  .home-view { padding: 28px 20px; }
+  .dashboard-mode { padding: 18px 16px; }
+
+  .big-word { font-size: clamp(48px, 15vw, 72px); }
+  .sub-line { font-size: clamp(24px, 7vw, 36px); margin-bottom: 20px; }
+
+  .search-row { flex-direction: column; align-items: stretch; max-width: 100%; gap: 10px; }
+  .search-wrap { padding: 12px 14px; }
+  .btn-go { width: 100%; padding: 13px; }
+
+  .dash-topbar { flex-wrap: wrap; gap: 8px; }
+  .export-btn { margin-left: 0; }
+
+  .dash-grid { grid-template-columns: 1fr; }
+
+  .metrics-row { grid-template-columns: repeat(2, 1fr); }
+}
 </style>

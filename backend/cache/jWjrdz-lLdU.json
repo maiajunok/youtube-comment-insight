@@ -1,0 +1,163 @@
+{
+  "video": {
+    "videoId": "jWjrdz-lLdU",
+    "title": "Worlds 2024 - T1 vs BLG - Grand Final",
+    "channelTitle": "LoL Esports",
+    "thumbnailUrl": "https://i.ytimg.com/vi/jWjrdz-lLdU/maxresdefault.jpg",
+    "publishedAt": "2024-11-02",
+    "viewCount": 10646160,
+    "likeCount": 123553,
+    "analyzedComments": 1072,
+    "languageRatio": {
+      "ko": 3,
+      "en": 74,
+      "other": 23
+    },
+    "weightedSentiment": 84
+  },
+  "topics": [
+    {
+      "label": "REKKLES의 첫 우승",
+      "labelEn": "Rekkles' First Championship",
+      "labelZh": "REKKLES的首次冠军",
+      "labelJa": "REKKLESの初優勝",
+      "mentionCount": 556,
+      "sentiment": {
+        "positive": 57,
+        "neutral": 28,
+        "negative": 15
+      }
+    },
+    {
+      "label": "우승의 쾌감",
+      "labelEn": "The Thrill of Victory",
+      "labelZh": "胜利的快感",
+      "labelJa": "勝利の喜び",
+      "mentionCount": 206,
+      "sentiment": {
+        "positive": 42,
+        "neutral": 51,
+        "negative": 7
+      }
+    },
+    {
+      "label": "팀의 역사",
+      "labelEn": "Team's History",
+      "labelZh": "团队的历史",
+      "labelJa": "チームの歴史",
+      "mentionCount": 137,
+      "sentiment": {
+        "positive": 71,
+        "neutral": 23,
+        "negative": 7
+      }
+    },
+    {
+      "label": "페이커의 성과",
+      "labelEn": "Faker's Achievements",
+      "labelZh": "Faker的成就",
+      "labelJa": "フェイカーの業績",
+      "mentionCount": 99,
+      "sentiment": {
+        "positive": 68,
+        "neutral": 27,
+        "negative": 5
+      }
+    },
+    {
+      "label": "케리아의 플레이",
+      "labelEn": "Keria's Plays",
+      "labelZh": "Keria的表现",
+      "labelJa": "ケリアのプレイ",
+      "mentionCount": 74,
+      "sentiment": {
+        "positive": 55,
+        "neutral": 35,
+        "negative": 9
+      }
+    }
+  ],
+  "reactionTimeline": [
+    {
+      "label": "0–1h",
+      "positive": 126,
+      "neutral": 37,
+      "negative": 6
+    },
+    {
+      "label": "1–24h",
+      "positive": 284,
+      "neutral": 121,
+      "negative": 58
+    },
+    {
+      "label": "1–7d",
+      "positive": 74,
+      "neutral": 50,
+      "negative": 16
+    },
+    {
+      "label": "7–30d",
+      "positive": 27,
+      "neutral": 30,
+      "negative": 12
+    },
+    {
+      "label": "30d+",
+      "positive": 98,
+      "neutral": 109,
+      "negative": 24
+    }
+  ],
+  "keyInsights": [
+    {
+      "type": "positive",
+      "topic": "페이커의 성과",
+      "topicEn": "Faker's Achievements",
+      "topicZh": "Faker的成就",
+      "topicJa": "フェイカーの業績",
+      "comment": "Faker showed us some glimpse of His old self on Game 4 and 5, you can feel his thirst and aggression, undisputed GOAT ❤",
+      "commentLang": "en",
+      "likes": 4763
+    },
+    {
+      "type": "negative",
+      "topic": "REKKLES의 첫 우승",
+      "topicEn": "Rekkles' First Championship",
+      "topicZh": "REKKLES的首次冠军",
+      "topicJa": "REKKLESの初優勝",
+      "comment": "the despair in Knights face after seeing his teammates lose the fight because Keria cancelled his TP 6:24:05",
+      "commentLang": "en",
+      "likes": 31
+    },
+    {
+      "type": "positive",
+      "topic": "우승의 쾌감",
+      "topicEn": "The Thrill of Victory",
+      "topicZh": "胜利的快感",
+      "topicJa": "勝利の喜び",
+      "comment": "After 6 heart attacks and 5 strokes, I can finally sleep happily.",
+      "commentLang": "en",
+      "likes": 4498
+    },
+    {
+      "type": "negative",
+      "topic": "팀의 역사",
+      "topicEn": "Team's History",
+      "topicZh": "团队的历史",
+      "topicJa": "チームの歴史",
+      "comment": "It's ironic that T1 is the LPL slayer. Because T1's color is red and they now have 5 stars, and you know what else is red and has 5 stars? They've defeated so many LPL teams that they became LPL itself.",
+      "commentLang": "en",
+      "likes": 27
+    }
+  ],
+  "analyzedAt": "2026-07-02T15:43:36.297095+00:00",
+  "analysisDuration": 178.1,
+  "tokenUsage": {
+    "input": 49845,
+    "output": 12172,
+    "embedding": 23483,
+    "total": 85500,
+    "estimatedCostUsd": 0.01525
+  }
+}

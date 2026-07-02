@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { computed } from 'vue'
 import type { VideoInfo, Lang } from '@/features/insight/types/insight'
 import { messages } from '@/locales/messages'
 
@@ -8,6 +9,8 @@ const fmt = (n: number) =>
   n >= 1_000_000 ? (n / 1_000_000).toFixed(1) + 'M' :
   n >= 1_000     ? (n / 1_000).toFixed(1) + 'K'     :
   String(n)
+
+const youtubeUrl = computed(() => `https://www.youtube.com/watch?v=${props.video.videoId}`)
 </script>
 
 <template>
@@ -15,20 +18,54 @@ const fmt = (n: number) =>
     style="background: var(--card); border-color: var(--border); padding: var(--card-padding)">
 
     <!-- Thumbnail -->
-    <div class="rounded-lg overflow-hidden aspect-video bg-slate-800/60 relative">
+    <a
+      :href="youtubeUrl"
+      target="_blank"
+      rel="noopener"
+      class="rounded-lg overflow-hidden aspect-video bg-slate-800/60 relative block group"
+    >
       <img
         :src="video.thumbnailUrl"
         :alt="video.title"
-        class="w-full h-full object-cover"
+        class="w-full h-full object-cover transition-transform duration-300 ease-out group-hover:scale-[1.04]"
         @error="($event.target as HTMLImageElement).style.opacity = '0'"
       />
+      <div class="absolute inset-0 bg-gradient-to-t from-black/55 via-black/0 to-black/5 transition-opacity duration-300 pointer-events-none"></div>
+
       <!-- 영상 길이 배지 -->
       <div class="absolute bottom-2 right-2 px-1.5 py-0.5 rounded text-[10px] font-bold"
         style="background: rgba(0,0,0,0.75); color: #fff">
         18:42
       </div>
-      <div class="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent pointer-events-none"></div>
-    </div>
+
+      <!-- 중앙 재생 버튼 (글래스모피즘, 호버 시 등장) -->
+      <div class="absolute inset-0 flex items-center justify-center pointer-events-none">
+        <div
+          class="flex items-center justify-center w-12 h-12 rounded-full scale-75 opacity-0 group-hover:scale-100 group-hover:opacity-100 transition-all duration-300 ease-out"
+          style="background: rgba(255,255,255,0.14); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.35); box-shadow: 0 4px 20px rgba(0,0,0,0.35);"
+        >
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="#fff" style="margin-left: 2px">
+            <path d="M8 5v14l11-7z"/>
+          </svg>
+        </div>
+      </div>
+
+      <!-- 유튜브에서 보기 칩 (좌하단, 호버 시 등장) -->
+      <div
+        class="absolute bottom-2 left-2 flex items-center gap-1.5 px-3 py-2 rounded-full text-[11px] font-semibold opacity-0 translate-y-1 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 ease-out"
+        style="background: rgba(0,0,0,0.55); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); color: #fff; border: 0.5px solid rgba(255,255,255,0.18)"
+      >
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="#ff3b30">
+          <path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2C0 8.1 0 12 0 12s0 3.9.5 5.8a3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1C24 15.9 24 12 24 12s0-3.9-.5-5.8zM9.75 15.5v-7l6.25 3.5-6.25 3.5z"/>
+        </svg>
+        {{ lang === 'en' ? 'Watch on YouTube' : '유튜브에서 보기' }}
+      </div>
+    </a>
+
+    <p class="flex items-center gap-1 text-[11px] -mt-4" style="color: var(--dim)">
+      <svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor" class="shrink-0"><path d="M8 5v14l11-7z"/></svg>
+      {{ lang === 'en' ? 'Click the thumbnail to watch on YouTube' : '썸네일을 클릭하면 유튜브 영상으로 이동해요' }}
+    </p>
 
     <!-- Title & Channel -->
     <div class="flex flex-col gap-2.5">
@@ -75,10 +112,10 @@ const fmt = (n: number) =>
       <p class="text-[11px] font-semibold uppercase tracking-widest mb-2" style="color: var(--subtext)">
         {{ messages[lang].languageRatio }}
       </p>
-      <div class="flex rounded-sm overflow-hidden h-2">
-        <div :style="`width: ${video.languageRatio.ko}%; background: var(--accent)`"></div>
-        <div :style="`width: ${video.languageRatio.en}%; background: var(--positive)`"></div>
-        <div :style="`width: ${video.languageRatio.other}%; background: var(--neutral)`"></div>
+      <div class="flex rounded-full overflow-hidden h-2">
+        <div :style="`flex: ${video.languageRatio.ko} 1 0%; background: var(--accent)`"></div>
+        <div :style="`flex: ${video.languageRatio.en} 1 0%; background: var(--positive)`"></div>
+        <div :style="`flex: ${video.languageRatio.other} 1 0%; background: var(--neutral)`"></div>
       </div>
       <div class="flex gap-4 mt-2 text-[11px]" style="color: var(--subtext)">
         <span class="flex items-center gap-1">

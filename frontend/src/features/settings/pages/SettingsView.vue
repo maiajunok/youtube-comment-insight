@@ -185,8 +185,8 @@ function deleteYoutube() {
   display: flex;
   gap: $space-md;
   align-items: flex-start;
-  background: rgba(123, 94, 248, 0.07);
-  border: 0.5px solid rgba(123, 94, 248, 0.2);
+  background: rgb(from var(--accent) r g b / 0.07);
+  border: 0.5px solid rgb(from var(--accent) r g b / 0.2);
   border-radius: var(--radius);
   padding: 16px 18px;
   color: var(--accent);
@@ -255,7 +255,7 @@ function deleteYoutube() {
   font-family: 'Inter', sans-serif;
   outline: none;
 
-  &:focus { border-color: rgba(123, 94, 248, 0.5); }
+  &:focus { border-color: rgb(from var(--accent) r g b / 0.5); }
   &::placeholder { color: var(--dim); }
 }
 
@@ -295,4 +295,9 @@ function deleteYoutube() {
 }
 
 .stored-note { grid-column: 1 / -1; font-size: 11px; color: var(--dim); }
+
+@media (max-width: 768px) {
+  .settings-page { padding: 24px 18px; }
+  .key-form { grid-template-columns: 1fr; }
+}
 </style>

@@ -46,6 +46,10 @@ export const insightApi = {
     const { data } = await instance.post<{ translations: string[] }>('/translate-comments', { texts, target_lang: targetLang })
     return data.translations
   },
+  async getCommonTopics(groups: string[][]): Promise<string[]> {
+    const { data } = await instance.post<{ commonLabels: string[] }>('/common-topics', { groups })
+    return data.commonLabels
+  },
   async getTopicComments(
     videoId: string,
     topic: string,
