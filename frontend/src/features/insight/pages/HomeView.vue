@@ -23,8 +23,17 @@ const isFocused     = ref(false)
 const selectedTopic = ref<string | null>(null)
 
 // 분석 상태는 store에서 직접 읽음 — storeToRefs로 반응성 보장
-const { result: data, isAnalyzing: isLoading, loadingStep, loadingProgress, analysisError: error, resultSource } =
+const { result: data, isAnalyzing: isLoading, loadingStep, loadingProgress, analysisError: error, missingKeyModal, resultSource } =
   storeToRefs(analysisStore)
+
+function goToSettings() {
+  analysisStore.closeMissingKeyModal()
+  router.push({ name: 'settings' })
+}
+function goToHistory() {
+  analysisStore.closeMissingKeyModal()
+  router.push({ name: 'history' })
+}
 
 async function fillEnglishLabels() {
   if (!data.value) return
@@ -343,6 +352,24 @@ const controversyScore = computed(() => {
     :topic="selectedTopic"
     @close="selectedTopic = null"
   />
+
+  <!-- API 키 필요 모달 -->
+  <div v-if="missingKeyModal" class="key-modal-overlay" @click.self="analysisStore.closeMissingKeyModal()">
+    <div class="key-modal">
+      <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.6" class="key-modal-icon">
+        <rect x="3" y="11" width="18" height="10" rx="2"/>
+        <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+      </svg>
+      <h2 class="key-modal-title">{{ messages[settings.lang].keyModalTitle }}</h2>
+      <p class="key-modal-body">{{ messages[settings.lang].keyModalBody1 }}</p>
+      <p class="key-modal-body dim">{{ messages[settings.lang].keyModalBody2 }}</p>
+      <div class="key-modal-actions">
+        <button class="key-modal-btn primary" @click="goToSettings">{{ messages[settings.lang].keyModalSettingsBtn }}</button>
+        <button class="key-modal-btn" @click="goToHistory">{{ messages[settings.lang].keyModalHistoryBtn }}</button>
+      </div>
+      <button class="key-modal-close" @click="analysisStore.closeMissingKeyModal()">{{ messages[settings.lang].keyModalClose }}</button>
+    </div>
+  </div>
 </template>
 
 <style>
@@ -672,5 +699,52 @@ const controversyScore = computed(() => {
 .metric-desc {
   font-size: 10px;
   color: var(--dim);
+}
+
+/* ── API 키 필요 모달 ── */
+.key-modal-overlay {
+  position: fixed; inset: 0; z-index: 50;
+  background: rgba(10, 8, 20, 0.6);
+  backdrop-filter: blur(4px);
+  display: flex; align-items: center; justify-content: center;
+  padding: 24px;
+}
+.key-modal {
+  background: var(--card);
+  border: 0.5px solid var(--border);
+  border-radius: var(--radius);
+  padding: 32px;
+  max-width: 420px;
+  width: 100%;
+  display: flex; flex-direction: column; align-items: flex-start; gap: 4px;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.4);
+}
+.key-modal-icon { margin-bottom: 10px; }
+.key-modal-title { font-size: 18px; font-weight: 700; color: var(--text); margin-bottom: 6px; }
+.key-modal-body { font-size: 13px; color: var(--subtext); line-height: 1.65; margin-bottom: 4px; }
+.key-modal-body.dim { color: var(--dim); }
+.key-modal-actions { display: flex; gap: 10px; margin-top: 18px; width: 100%; }
+.key-modal-btn {
+  flex: 1;
+  font-size: 13px; font-weight: 600;
+  border: 0.5px solid var(--border);
+  background: var(--card-hover);
+  color: var(--subtext);
+  padding: 10px 16px; border-radius: 8px;
+  cursor: pointer; font-family: 'Inter', sans-serif;
+}
+.key-modal-btn.primary {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+.key-modal-close {
+  margin-top: 14px;
+  font-size: 12px; color: var(--dim);
+  background: transparent; border: none;
+  cursor: pointer; font-family: 'Inter', sans-serif;
+  align-self: center;
+  width: 100%;
+  text-align: center;
 }
 </style>

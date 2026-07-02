@@ -11,6 +11,7 @@ export const useAnalysisStore = defineStore('analysis', () => {
   const loadingProgress = ref(0)
   const result          = ref<InsightData | null>(null)
   const analysisError   = ref('')
+  const missingKeyModal = ref<'youtube' | 'openai' | null>(null)
   const resultSource    = ref<'analysis' | 'history' | null>(null)
   const justFinished    = ref(false)
 
@@ -23,6 +24,7 @@ export const useAnalysisStore = defineStore('analysis', () => {
     loadingProgress.value = 0
     result.value          = null
     analysisError.value   = ''
+    missingKeyModal.value = null
 
     const settings = useSettingsStore()
     const openaiKey  = localStorage.getItem('openai_key')  ?? ''
@@ -66,10 +68,15 @@ export const useAnalysisStore = defineStore('analysis', () => {
               if (videoId && onSave) onSave(videoId, msg.data)
             } else if (msg.step === 'error') {
               const M = messages[settings.lang]
-              analysisError.value =
-                msg.code === 'MISSING_YOUTUBE_KEY' ? M.missingYoutubeKey :
-                msg.code === 'MISSING_OPENAI_KEY'  ? M.missingOpenaiKey  :
-                msg.detail ?? M.analysisFailed
+              if (msg.code === 'MISSING_YOUTUBE_KEY') {
+                missingKeyModal.value = 'youtube'
+                analysisError.value   = M.missingYoutubeKey
+              } else if (msg.code === 'MISSING_OPENAI_KEY') {
+                missingKeyModal.value = 'openai'
+                analysisError.value   = M.missingOpenaiKey
+              } else {
+                analysisError.value = msg.detail ?? M.analysisFailed
+              }
             } else {
               loadingStep.value     = msg.step
               loadingProgress.value = msg.progress ?? 0
@@ -99,16 +106,22 @@ export const useAnalysisStore = defineStore('analysis', () => {
     justFinished.value  = false
   }
 
+  function closeMissingKeyModal() {
+    missingKeyModal.value = null
+  }
+
   return {
     isAnalyzing,
     loadingStep,
     loadingProgress,
     result,
     analysisError,
+    missingKeyModal,
     resultSource,
     justFinished,
     startAnalysis,
     setResult,
     clearResult,
+    closeMissingKeyModal,
   }
 })

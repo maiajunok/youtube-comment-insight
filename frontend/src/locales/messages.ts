@@ -127,6 +127,17 @@ export interface UIMessages {
   missingYoutubeKey: string
   missingOpenaiKey: string
   analysisFailed: string
+  fieldSaved: string
+  fieldDeleted: string
+  currentlySaved: string
+  notSaved: string
+  // Missing-key modal
+  keyModalTitle: string
+  keyModalBody1: string
+  keyModalBody2: string
+  keyModalSettingsBtn: string
+  keyModalHistoryBtn: string
+  keyModalClose: string
 }
 
 export const messages: Record<Lang, UIMessages> = {
@@ -244,6 +255,16 @@ export const messages: Record<Lang, UIMessages> = {
     missingYoutubeKey: 'YouTube API 키가 필요합니다. 설정 페이지에서 본인의 키를 입력해주세요.',
     missingOpenaiKey: 'OpenAI API 키가 필요합니다. 설정 페이지에서 본인의 키를 입력해주세요.',
     analysisFailed: '분석 중 오류가 발생했습니다.',
+    fieldSaved: '저장됨',
+    fieldDeleted: '삭제됨',
+    currentlySaved: '이 브라우저에 저장되어 있음',
+    notSaved: '저장된 키 없음',
+    keyModalTitle: 'API 키가 필요해요',
+    keyModalBody1: '새 영상을 분석하려면 본인의 YouTube Data API 키와 OpenAI API 키(유료)가 필요합니다. 설정 페이지에서 입력하면 이 브라우저에만 저장됩니다.',
+    keyModalBody2: '키가 없어도 이미 분석된 영상의 기록·통계·비교는 자유롭게 볼 수 있어요.',
+    keyModalSettingsBtn: '설정으로 이동',
+    keyModalHistoryBtn: '분석 기록 보기',
+    keyModalClose: '닫기',
   },
 
   en: {
@@ -360,6 +381,16 @@ export const messages: Record<Lang, UIMessages> = {
     missingYoutubeKey: 'A YouTube API key is required. Please enter your own key on the Settings page.',
     missingOpenaiKey: 'An OpenAI API key is required. Please enter your own key on the Settings page.',
     analysisFailed: 'An error occurred during analysis.',
+    fieldSaved: 'Saved',
+    fieldDeleted: 'Deleted',
+    currentlySaved: 'Saved in this browser',
+    notSaved: 'No key saved',
+    keyModalTitle: 'API Keys Required',
+    keyModalBody1: 'Analyzing a new video requires your own YouTube Data API key and OpenAI API key (paid). Enter them on the Settings page — they\'re stored only in this browser.',
+    keyModalBody2: 'You can still freely browse existing analysis history, stats, and comparisons without any key.',
+    keyModalSettingsBtn: 'Go to Settings',
+    keyModalHistoryBtn: 'View History',
+    keyModalClose: 'Close',
   },
 
   zh: {
@@ -476,6 +507,16 @@ export const messages: Record<Lang, UIMessages> = {
     missingYoutubeKey: '需要YouTube API密钥。请在设置页面输入您自己的密钥。',
     missingOpenaiKey: '需要OpenAI API密钥。请在设置页面输入您自己的密钥。',
     analysisFailed: '分析过程中发生错误。',
+    fieldSaved: '已保存',
+    fieldDeleted: '已删除',
+    currentlySaved: '已保存在此浏览器中',
+    notSaved: '未保存密钥',
+    keyModalTitle: '需要API密钥',
+    keyModalBody1: '分析新视频需要您自己的YouTube Data API密钥和OpenAI API密钥（付费）。在设置页面输入后，仅保存在此浏览器中。',
+    keyModalBody2: '即使没有密钥，您仍可以自由查看已有视频的分析记录、统计和对比。',
+    keyModalSettingsBtn: '前往设置',
+    keyModalHistoryBtn: '查看分析记录',
+    keyModalClose: '关闭',
   },
 
   ja: {
@@ -592,5 +633,15 @@ export const messages: Record<Lang, UIMessages> = {
     missingYoutubeKey: 'YouTube APIキーが必要です。設定ページでご自身のキーを入力してください。',
     missingOpenaiKey: 'OpenAI APIキーが必要です。設定ページでご自身のキーを入力してください。',
     analysisFailed: '分析中にエラーが発生しました。',
+    fieldSaved: '保存済み',
+    fieldDeleted: '削除済み',
+    currentlySaved: 'このブラウザに保存されています',
+    notSaved: '保存されたキーはありません',
+    keyModalTitle: 'APIキーが必要です',
+    keyModalBody1: '新しい動画を分析するには、ご自身のYouTube Data APIキーとOpenAI APIキー（有料）が必要です。設定ページで入力すると、このブラウザにのみ保存されます。',
+    keyModalBody2: 'キーがなくても、既存の動画の分析履歴・統計・比較は自由に閲覧できます。',
+    keyModalSettingsBtn: '設定へ移動',
+    keyModalHistoryBtn: '分析履歴を見る',
+    keyModalClose: '閉じる',
   },
 }

@@ -84,22 +84,29 @@ Paste any YouTube URL and instantly get a structured breakdown of what the audie
 
 ---
 
+## API Key Policy (BYOK)
+
+This app does not ship with a shared OpenAI/YouTube API key. Each visitor brings their own keys, entered on the **Settings** page:
+
+- Keys are stored **only in the browser** (`localStorage`) and sent to the backend **only as request headers** (`X-OpenAI-Key`, `X-YouTube-Key`) for that one request. The server never persists or logs them.
+- Analyzing a **new** video requires both keys. Browsing **existing** analysis results (History / Stats / Compare) requires no key at all, since those endpoints only read the server's cached JSON.
+- For local development, you may optionally set `OPENAI_API_KEY` / `YOUTUBE_API_KEY` in `backend/.env` as a fallback — the header value always takes priority when present.
+
 ## Getting Started
 
 ### Prerequisites
 - Node.js `>=20`
 - Python `3.10+`
-- OpenAI API Key
-- YouTube Data API v3 Key
+- OpenAI API Key ([get one](https://platform.openai.com/api-keys)) and YouTube Data API v3 Key ([enable it](https://console.cloud.google.com/apis/library/youtube.googleapis.com)) — only needed to analyze *new* videos; can also be entered later in the app's Settings page instead of `.env`
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/maiajunok/T1A.git
-cd T1A
+git clone https://github.com/maiajunok/youtube-comment-insight.git
+cd youtube-comment-insight
 ```
 
-### 2. Set up environment variables
-Create `backend/.env`:
+### 2. (Optional) Set up environment variables
+Only needed if you don't want to enter keys in the Settings page every time during local development. Create `backend/.env`:
 ```
 OPENAI_API_KEY=your_openai_api_key
 YOUTUBE_API_KEY=your_youtube_api_key
@@ -128,17 +135,33 @@ npm run dev
 
 ---
 
+## Deployment
+
+Deployed as two separate services:
+
+| Layer | Platform | Notes |
+|-------|----------|-------|
+| Frontend | [Vercel](https://vercel.com) | Root directory: `frontend`. Build command: `vite build` (skips the strict type-check step). Env var: `VITE_API_URL` = the backend's public URL + `/api` |
+| Backend | [Render](https://render.com) | Root directory: `backend`. Uses `render.yaml` at the repo root. Env var: `ALLOWED_ORIGINS` = the frontend's deployed URL (comma-separated if multiple) |
+
+`OPENAI_API_KEY` / `YOUTUBE_API_KEY` are intentionally **not** set on the deployed backend — visitors supply their own via the Settings page (see BYOK policy above). The `backend/cache/` directory ships with the repo so History/Stats/Compare work immediately on a fresh deploy with zero keys.
+
+**Live demo:** _add your deployed URL here_
+
+---
+
 ## Project Structure
 
 ```
-T1A/
+youtube-comment-insight/
+├── render.yaml              # Render blueprint (backend deploy config)
 ├── backend/
-│   ├── main.py              # FastAPI app, SSE streaming endpoint
+│   ├── main.py              # FastAPI app, SSE streaming endpoint, BYOK header handling
 │   ├── sentiment.py         # GPT-4o-mini sentiment analysis
 │   ├── topic.py             # Topic classification + clustering
 │   ├── youtube.py           # YouTube Data API integration
 │   ├── requirements.txt
-│   └── cache/               # Analysis result cache (JSON)
+│   └── cache/               # Analysis result cache (JSON) — shipped with the repo as seed data
 │       └── comments/        # Per-topic comment cache
 │
 └── frontend/
@@ -150,11 +173,12 @@ T1A/
         │   │   ├── pages/       # HomeView, HistoryView, CompareView
         │   │   ├── stores/      # Pinia analysis store
         │   │   └── types/       # TypeScript interfaces
-        │   └── settings/        # Language / theme settings
+        │   └── settings/        # BYOK API key input, theme, language
         ├── pages/               # StatsView, HowToView
         ├── layouts/             # AppLayout
         ├── router/              # Vue Router
-        └── locales/             # i18n (ko / en)
+        ├── shared/api/          # axios client, base URL config
+        └── locales/             # i18n (ko / en / zh / ja) + How It Works content
 ```
 
 ---
@@ -162,7 +186,13 @@ T1A/
 ## API Overview
 
 ### `POST /api/insight`
-Analyzes a YouTube video. Streams progress via **Server-Sent Events (SSE)**.
+Analyzes a YouTube video. Streams progress via **Server-Sent Events (SSE)**. Cache hits need no headers; analyzing a new video requires both.
+
+Headers (BYOK, both optional — fall back to the server's own `.env` if set):
+```
+X-OpenAI-Key: sk-...
+X-YouTube-Key: AIza...
+```
 
 ```json
 { "url": "https://www.youtube.com/watch?v=VIDEO_ID" }
@@ -174,22 +204,27 @@ data: {"step": "댓글 수집 중", "progress": 1}
 data: {"step": "감정 분석 중", "progress": 2}
 data: {"step": "토픽 분류 중", "progress": 3}
 data: {"step": "done", "data": { ... }}
+data: {"step": "error", "code": "MISSING_YOUTUBE_KEY" | "MISSING_OPENAI_KEY"}
+data: {"step": "error", "detail": "..."}
 ```
 
 ### `GET /api/history`
-Returns list of all previously analyzed videos.
+Returns list of all previously analyzed videos. No key required — reads only the server cache.
 
 ### `GET /api/history/{video_id}`
-Returns cached analysis for a specific video.
+Returns cached analysis for a specific video. No key required.
 
 ### `GET /api/comments/{video_id}?topic=&sentiment=`
-Returns filtered comments by topic and sentiment.
+Returns filtered comments by topic and sentiment. No key required.
 
 ### `POST /api/refresh/{video_id}`
 Clears cache and forces re-analysis.
 
 ### `GET /api/stats`
-Returns token usage and cost statistics.
+Returns token usage and cost statistics. No key required.
+
+### `POST /api/translate-labels`
+Translates topic labels to English. Accepts the same `X-OpenAI-Key` header; silently returns the original labels if no key is available.
 
 ---
 
@@ -270,22 +305,29 @@ YouTube URL을 붙여넣으면 AI가 댓글을 수집하고 감정 분석 · 토
 
 ---
 
+## API 키 정책 (BYOK)
+
+이 앱은 공용 OpenAI/YouTube API 키를 내장하지 않습니다. 방문자가 **설정** 페이지에서 본인의 키를 직접 입력합니다:
+
+- 키는 **브라우저(localStorage)에만** 저장되며, 분석 요청 시 헤더(`X-OpenAI-Key`, `X-YouTube-Key`)로만 전송됩니다. 서버는 키를 저장하거나 로그로 남기지 않습니다.
+- **새 영상**을 분석하려면 두 키가 모두 필요합니다. 이미 분석된 영상의 기록·통계·비교(History/Stats/Compare)는 서버 캐시만 읽으므로 키 없이 자유롭게 볼 수 있습니다.
+- 로컬 개발 시에는 편의를 위해 `backend/.env`에 `OPENAI_API_KEY`/`YOUTUBE_API_KEY`를 fallback으로 설정할 수 있습니다 — 헤더 값이 있으면 항상 헤더가 우선합니다.
+
 ## 시작하기
 
 ### 사전 준비
 - Node.js `>=20`
 - Python `3.10+`
-- OpenAI API 키
-- YouTube Data API v3 키
+- OpenAI API 키([발급](https://platform.openai.com/api-keys)), YouTube Data API v3 키([발급](https://console.cloud.google.com/apis/library/youtube.googleapis.com)) — 새 영상 분석에만 필요하며, `.env` 대신 앱의 설정 페이지에서 나중에 입력해도 됩니다
 
 ### 1. 저장소 클론
 ```bash
-git clone https://github.com/maiajunok/T1A.git
-cd T1A
+git clone https://github.com/maiajunok/youtube-comment-insight.git
+cd youtube-comment-insight
 ```
 
-### 2. 환경 변수 설정
-`backend/.env` 파일 생성:
+### 2. (선택) 환경 변수 설정
+로컬 개발 중 매번 설정 페이지에 키를 입력하기 번거로울 때만 필요합니다. `backend/.env` 파일 생성:
 ```
 OPENAI_API_KEY=your_openai_api_key
 YOUTUBE_API_KEY=your_youtube_api_key
@@ -311,6 +353,21 @@ npm run dev
 | 프론트엔드 | http://localhost:5173 |
 | 백엔드 API | http://localhost:8000 |
 | API 문서 (Swagger) | http://localhost:8000/docs |
+
+---
+
+## 배포
+
+프론트엔드와 백엔드를 별도 서비스로 배포합니다:
+
+| 계층 | 플랫폼 | 비고 |
+|------|--------|------|
+| 프론트엔드 | [Vercel](https://vercel.com) | Root Directory: `frontend`. 빌드 명령: `vite build` (엄격한 타입체크 단계 생략). 환경변수: `VITE_API_URL` = 백엔드 공개 URL + `/api` |
+| 백엔드 | [Render](https://render.com) | Root Directory: `backend`. 저장소 루트의 `render.yaml` 사용. 환경변수: `ALLOWED_ORIGINS` = 배포된 프론트엔드 URL (여러 개면 콤마로 구분) |
+
+배포된 백엔드에는 의도적으로 `OPENAI_API_KEY`/`YOUTUBE_API_KEY`를 설정하지 않습니다 — 방문자가 설정 페이지에서 본인 키를 입력합니다(위 BYOK 정책 참고). `backend/cache/` 디렉터리가 저장소에 함께 포함되어 있어 키 없이도 배포 직후 History/Stats/Compare가 바로 동작합니다.
+
+**배포 주소:** _배포 후 URL을 여기에 추가하세요_
 
 ---
 
