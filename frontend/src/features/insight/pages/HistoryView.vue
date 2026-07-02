@@ -90,12 +90,21 @@ const onView = async (item: HistoryItem) => {
   }
 }
 
-const onDelete = async (videoId: string) => {
+const pendingDeleteId = ref<string | null>(null)
+
+function requestDelete(videoId: string) {
+  pendingDeleteId.value = videoId
+}
+
+async function confirmDelete() {
+  const videoId = pendingDeleteId.value
+  if (!videoId) return
+  pendingDeleteId.value = null
   try {
     await insightApi.deleteCache(videoId)
     items.value = items.value.filter(i => i.videoId !== videoId)
   } catch {
-    error.value = '삭제에 실패했습니다.'
+    error.value = M.value.deleteFailed
   }
 }
 </script>
@@ -223,7 +232,7 @@ const onDelete = async (videoId: string) => {
             style="background: var(--accent); color: #fff"
           >{{ M.viewBtn }}</button>
           <button
-            @click="onDelete(item.videoId)"
+            @click="requestDelete(item.videoId)"
             class="delete-btn"
           >
             <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
@@ -233,6 +242,25 @@ const onDelete = async (videoId: string) => {
             </svg>
             {{ M.deleteBtn }}
           </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- 삭제 확인 모달 -->
+    <div v-if="pendingDeleteId" class="confirm-overlay" @click.self="pendingDeleteId = null">
+      <div class="confirm-modal">
+        <div class="confirm-icon-badge">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2">
+            <polyline points="3 6 5 6 21 6"/>
+            <path d="M19 6l-1 14H6L5 6"/>
+            <path d="M10 11v6M14 11v6"/>
+          </svg>
+        </div>
+        <h3 class="confirm-title">{{ M.confirmDeleteTitle }}</h3>
+        <p class="confirm-body">{{ M.confirmDeleteBody }}</p>
+        <div class="confirm-actions">
+          <button class="confirm-btn cancel" @click="pendingDeleteId = null">{{ M.cancelBtn }}</button>
+          <button class="confirm-btn danger" @click="confirmDelete">{{ M.confirmDeleteBtn }}</button>
         </div>
       </div>
     </div>
@@ -347,4 +375,61 @@ const onDelete = async (videoId: string) => {
   background: rgba(239, 68, 68, 0.12);
   border-color: rgba(239, 68, 68, 0.5);
 }
+
+/* ── 삭제 확인 모달 ── */
+.confirm-overlay {
+  position: fixed; inset: 0; z-index: 60;
+  background: radial-gradient(circle at 50% 40%, rgba(244,63,94,0.08), rgba(8, 6, 16, 0.72) 60%);
+  backdrop-filter: blur(6px);
+  display: flex; align-items: center; justify-content: center;
+  padding: 24px;
+  animation: confirm-fade-in 0.2s ease-out;
+}
+@keyframes confirm-fade-in {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+.confirm-modal {
+  background: linear-gradient(180deg, var(--card-hover) 0%, var(--card) 60%);
+  border: 0.5px solid rgba(244, 63, 94, 0.25);
+  border-radius: 20px;
+  padding: 32px 32px 28px;
+  max-width: 400px;
+  width: 100%;
+  display: flex; flex-direction: column; align-items: flex-start;
+  box-shadow: 0 24px 70px rgba(0,0,0,0.45), 0 0 60px rgba(244,63,94,0.08);
+  animation: confirm-pop 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+@keyframes confirm-pop {
+  from { opacity: 0; transform: translateY(10px) scale(0.98); }
+  to   { opacity: 1; transform: translateY(0) scale(1); }
+}
+.confirm-icon-badge {
+  width: 46px; height: 46px;
+  border-radius: 13px;
+  display: flex; align-items: center; justify-content: center;
+  background: var(--negative);
+  box-shadow: 0 8px 22px rgba(225,29,72,0.35), 0 0 0 1px rgba(255,255,255,0.08) inset;
+  margin-bottom: 16px;
+}
+.confirm-title { font-size: 17px; font-weight: 700; color: var(--text); margin-bottom: 8px; letter-spacing: -.01em; }
+.confirm-body { font-size: 13px; color: var(--subtext); line-height: 1.65; }
+.confirm-actions { display: flex; gap: 10px; margin-top: 22px; width: 100%; }
+.confirm-btn {
+  flex: 1;
+  font-size: 13px; font-weight: 600;
+  padding: 11px 16px; border-radius: 10px;
+  border: 0.5px solid var(--border);
+  cursor: pointer; font-family: 'Inter', sans-serif;
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+.confirm-btn:hover { transform: translateY(-1px); }
+.confirm-btn.cancel { background: var(--card-hover); color: var(--subtext); }
+.confirm-btn.danger {
+  background: var(--negative);
+  border-color: transparent;
+  color: #fff;
+  box-shadow: 0 6px 18px rgba(225,29,72,0.3);
+}
+.confirm-btn.danger:hover { opacity: 0.88; box-shadow: 0 8px 22px rgba(225,29,72,0.42); }
 </style>

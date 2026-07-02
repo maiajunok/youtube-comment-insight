@@ -146,6 +146,17 @@ export interface UIMessages {
   totalCommentsFooter: string
   commentsLoadFailed: string
   originalCommentLabel: string
+  // Delete confirmation
+  confirmDeleteTitle: string
+  confirmDeleteBody: string
+  confirmDeleteBtn: string
+  cancelBtn: string
+  deleteFailed: string
+  // PDF Report
+  reportBrandTagline: string
+  reportGeneratedOn: string
+  overallSentimentDistribution: string
+  reportFooterNote: string
 }
 
 export const messages: Record<Lang, UIMessages> = {
@@ -280,6 +291,15 @@ export const messages: Record<Lang, UIMessages> = {
     totalCommentsFooter: '총 {n}개 댓글 · 좋아요 순 정렬',
     commentsLoadFailed: '댓글을 불러오지 못했습니다.',
     originalCommentLabel: '원문',
+    confirmDeleteTitle: '분석 기록을 삭제할까요?',
+    confirmDeleteBody: '삭제하면 캐시된 분석 결과가 서버에서 완전히 지워지고 되돌릴 수 없습니다. 다시 보려면 처음부터 재분석해야 합니다.',
+    confirmDeleteBtn: '삭제',
+    cancelBtn: '취소',
+    deleteFailed: '삭제에 실패했습니다.',
+    reportBrandTagline: 'Community Reaction Analysis',
+    reportGeneratedOn: '생성일',
+    overallSentimentDistribution: '전체 감정 분포',
+    reportFooterNote: '유튜브 공개 댓글 API 기반 분석',
   },
 
   en: {
@@ -413,6 +433,15 @@ export const messages: Record<Lang, UIMessages> = {
     totalCommentsFooter: '{n} comments total · sorted by likes',
     commentsLoadFailed: 'Failed to load comments.',
     originalCommentLabel: 'Original',
+    confirmDeleteTitle: 'Delete this analysis?',
+    confirmDeleteBody: 'This permanently removes the cached analysis from the server and cannot be undone. You\'ll need to re-analyze from scratch to see it again.',
+    confirmDeleteBtn: 'Delete',
+    cancelBtn: 'Cancel',
+    deleteFailed: 'Failed to delete.',
+    reportBrandTagline: 'Community Reaction Analysis',
+    reportGeneratedOn: 'Generated',
+    overallSentimentDistribution: 'Overall Sentiment Distribution',
+    reportFooterNote: 'Based on public YouTube comments via API',
   },
 
   zh: {
@@ -546,6 +575,15 @@ export const messages: Record<Lang, UIMessages> = {
     totalCommentsFooter: '共 {n} 条评论 · 按点赞数排序',
     commentsLoadFailed: '无法加载评论。',
     originalCommentLabel: '原文',
+    confirmDeleteTitle: '要删除此分析记录吗？',
+    confirmDeleteBody: '删除后，服务器上缓存的分析结果将被永久清除且无法恢复。如需再次查看，需要重新分析。',
+    confirmDeleteBtn: '删除',
+    cancelBtn: '取消',
+    deleteFailed: '删除失败。',
+    reportBrandTagline: 'Community Reaction Analysis',
+    reportGeneratedOn: '生成日期',
+    overallSentimentDistribution: '整体情感分布',
+    reportFooterNote: '基于YouTube公开评论API的分析',
   },
 
   ja: {
@@ -679,5 +717,14 @@ export const messages: Record<Lang, UIMessages> = {
     totalCommentsFooter: '合計 {n} 件のコメント · いいね順',
     commentsLoadFailed: 'コメントを読み込めませんでした。',
     originalCommentLabel: '原文',
+    confirmDeleteTitle: 'この分析記録を削除しますか？',
+    confirmDeleteBody: '削除すると、サーバーにキャッシュされた分析結果が完全に削除され、元に戻せません。再度見るには最初から再分析が必要です。',
+    confirmDeleteBtn: '削除',
+    cancelBtn: 'キャンセル',
+    deleteFailed: '削除に失敗しました。',
+    reportBrandTagline: 'Community Reaction Analysis',
+    reportGeneratedOn: '生成日',
+    overallSentimentDistribution: '全体の感情分布',
+    reportFooterNote: 'YouTube公開コメントAPIに基づく分析',
   },
 }

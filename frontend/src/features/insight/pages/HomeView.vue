@@ -115,6 +115,31 @@ const controversyScore = computed(() => {
   const s = overallSentiment.value
   return Math.min(s.positive, s.negative) * 2
 })
+
+// ── PDF 리포트 ──
+const donutGradient = computed(() => {
+  const s = overallSentiment.value
+  const posEnd = s.positive
+  const neuEnd = s.positive + s.neutral
+  return `conic-gradient(#16a34a 0% ${posEnd}%, #94a3b8 ${posEnd}% ${neuEnd}%, #dc2626 ${neuEnd}% 100%)`
+})
+
+const reportTopicLabel = (t: { label: string; labelEn?: string; labelZh?: string; labelJa?: string }) =>
+  displayLabel(t, settings.lang)
+
+const reportInsightTopic = (ins: { topic: string; topicEn?: string; topicZh?: string; topicJa?: string }) => {
+  if (settings.lang === 'en') return ins.topicEn || ins.topic
+  if (settings.lang === 'zh') return ins.topicZh || ins.topic
+  if (settings.lang === 'ja') return ins.topicJa || ins.topic
+  return ins.topic
+}
+
+const reportInsightComment = (ins: { comment: string; commentEn?: string; commentZh?: string; commentJa?: string }) => {
+  if (settings.lang === 'en') return ins.commentEn || ins.comment
+  if (settings.lang === 'zh') return ins.commentZh || ins.comment
+  if (settings.lang === 'ja') return ins.commentJa || ins.comment
+  return ins.comment
+}
 </script>
 
 <template>
@@ -266,76 +291,79 @@ const controversyScore = computed(() => {
   <!-- Print 보고서 (화면에는 숨겨져 있고 인쇄 시에만 표시) -->
   <div v-if="data" class="print-report">
     <div class="rpt-page">
+      <div class="rpt-topbar" />
 
       <div class="rpt-header">
         <img :src="data.video.thumbnailUrl" class="rpt-thumb" />
         <div class="rpt-header-info">
-          <div class="rpt-brand">미정 · Community Reaction Analysis</div>
+          <div class="rpt-brand">FindComments · {{ messages[settings.lang].reportBrandTagline }}</div>
           <h1 class="rpt-title">{{ data.video.title }}</h1>
           <div class="rpt-channel">{{ data.video.channelTitle }}</div>
         </div>
         <div class="rpt-meta">
-          <div>업로드 {{ data.video.publishedAt.slice(0, 10) }}</div>
-          <div>생성일 {{ new Date().toLocaleDateString('ko-KR') }}</div>
+          <div>{{ messages[settings.lang].uploadDate }} {{ data.video.publishedAt.slice(0, 10) }}</div>
+          <div>{{ messages[settings.lang].reportGeneratedOn }} {{ new Date().toLocaleDateString() }}</div>
         </div>
       </div>
 
-      <div class="rpt-stats-row">
-        <div class="rpt-stat"><span class="rpt-stat-val">{{ fmtNum(data.video.viewCount) }}</span><span class="rpt-stat-lbl">조회수</span></div>
-        <div class="rpt-stat"><span class="rpt-stat-val">{{ fmtNum(data.video.likeCount) }}</span><span class="rpt-stat-lbl">좋아요</span></div>
-        <div class="rpt-stat"><span class="rpt-stat-val">{{ fmtNum(data.video.analyzedComments) }}</span><span class="rpt-stat-lbl">분석 댓글</span></div>
-        <div class="rpt-stat"><span class="rpt-stat-val">{{ data.video.languageRatio.ko }}%</span><span class="rpt-stat-lbl">한국어 비율</span></div>
+      <div class="rpt-hero">
+        <div class="rpt-donut-block">
+          <div class="rpt-donut" :style="`background:${donutGradient}`">
+            <div class="rpt-donut-hole">
+              <span class="rpt-donut-score" :class="sentimentScore > 0 ? 'pos' : sentimentScore < 0 ? 'neg' : ''">{{ sentimentScore > 0 ? '+' : '' }}{{ sentimentScore }}</span>
+              <span class="rpt-donut-score-lbl">{{ messages[settings.lang].sentimentScore }}</span>
+            </div>
+          </div>
+          <div class="rpt-donut-legend">
+            <div class="rpt-legend-row"><span class="rpt-dot pos" />{{ messages[settings.lang].positive }}<b>{{ overallSentiment.positive }}%</b></div>
+            <div class="rpt-legend-row"><span class="rpt-dot neu" />{{ messages[settings.lang].neutral }}<b>{{ overallSentiment.neutral }}%</b></div>
+            <div class="rpt-legend-row"><span class="rpt-dot neg" />{{ messages[settings.lang].negative }}<b>{{ overallSentiment.negative }}%</b></div>
+          </div>
+        </div>
+
+        <div class="rpt-stats-grid">
+          <div class="rpt-stat"><span class="rpt-stat-val">{{ fmtNum(data.video.viewCount) }}</span><span class="rpt-stat-lbl">{{ messages[settings.lang].views }}</span></div>
+          <div class="rpt-stat"><span class="rpt-stat-val">{{ fmtNum(data.video.likeCount) }}</span><span class="rpt-stat-lbl">{{ messages[settings.lang].likes }}</span></div>
+          <div class="rpt-stat"><span class="rpt-stat-val">{{ fmtNum(data.video.analyzedComments) }}</span><span class="rpt-stat-lbl">{{ messages[settings.lang].analyzedComments }}</span></div>
+          <div class="rpt-stat"><span class="rpt-stat-val">{{ commentRate !== null ? commentRate + '%' : '—' }}</span><span class="rpt-stat-lbl">{{ messages[settings.lang].commentRate }}</span></div>
+        </div>
       </div>
 
       <div class="rpt-section">
-        <h2 class="rpt-sec-title">전체 감정 분포</h2>
-        <div class="rpt-sent-bar">
-          <div class="rpt-bar-pos" :style="`width:${overallSentiment.positive}%`"></div>
-          <div class="rpt-bar-neu" :style="`width:${overallSentiment.neutral}%`"></div>
-          <div class="rpt-bar-neg" :style="`width:${overallSentiment.negative}%`"></div>
-        </div>
-        <div class="rpt-sent-labels">
-          <span class="rpt-pos-txt">긍정 {{ overallSentiment.positive }}%</span>
-          <span class="rpt-neu-txt">중립 {{ overallSentiment.neutral }}%</span>
-          <span class="rpt-neg-txt">부정 {{ overallSentiment.negative }}%</span>
-        </div>
-      </div>
-
-      <div class="rpt-section">
-        <h2 class="rpt-sec-title">상위 반응 토픽</h2>
+        <h2 class="rpt-sec-title">{{ messages[settings.lang].topReactionTopics }}</h2>
         <div class="rpt-topics">
           <div v-for="(t, i) in data.topics" :key="t.label" class="rpt-topic-row">
             <span class="rpt-topic-num">{{ i + 1 }}</span>
-            <span class="rpt-topic-name">{{ t.label }}</span>
+            <span class="rpt-topic-name">{{ reportTopicLabel(t) }}</span>
             <div class="rpt-topic-bar">
-              <div :style="`width:${t.sentiment.positive}%; background:#22c55e`"></div>
+              <div :style="`width:${t.sentiment.positive}%; background:#16a34a`"></div>
               <div :style="`width:${t.sentiment.neutral}%; background:#94a3b8`"></div>
-              <div :style="`width:${t.sentiment.negative}%; background:#f43f5e`"></div>
+              <div :style="`width:${t.sentiment.negative}%; background:#dc2626`"></div>
             </div>
-            <span class="rpt-topic-pcts">긍정 {{ t.sentiment.positive }}% · 부정 {{ t.sentiment.negative }}%</span>
-            <span class="rpt-topic-count">{{ t.mentionCount }}건</span>
+            <span class="rpt-topic-pcts">{{ messages[settings.lang].positive }} {{ t.sentiment.positive }}% · {{ messages[settings.lang].negative }} {{ t.sentiment.negative }}%</span>
+            <span class="rpt-topic-count">{{ t.mentionCount }}</span>
           </div>
         </div>
       </div>
 
       <div class="rpt-section">
-        <h2 class="rpt-sec-title">주요 인사이트</h2>
+        <h2 class="rpt-sec-title">{{ messages[settings.lang].keyInsights }}</h2>
         <div class="rpt-insights">
           <div v-for="ins in data.keyInsights" :key="ins.comment"
             class="rpt-insight" :class="ins.type">
             <div class="rpt-ins-meta">
-              <span class="rpt-ins-badge">{{ ins.type === 'positive' ? '↑ 긍정' : '↓ 부정' }}</span>
-              <span class="rpt-ins-topic">{{ ins.topic }}</span>
+              <span class="rpt-ins-badge">{{ ins.type === 'positive' ? messages[settings.lang].positiveLabel : messages[settings.lang].negativeLabel }}</span>
+              <span class="rpt-ins-topic">{{ reportInsightTopic(ins) }}</span>
               <span class="rpt-ins-likes">♥ {{ fmtNum(ins.likes) }}</span>
             </div>
-            <p class="rpt-ins-text">"{{ ins.comment }}"</p>
+            <p class="rpt-ins-text">"{{ reportInsightComment(ins) }}"</p>
           </div>
         </div>
       </div>
 
       <div class="rpt-footer">
-        <span>언어 분포 — 한국어 {{ data.video.languageRatio.ko }}%  ·  English {{ data.video.languageRatio.en }}%  ·  Other {{ data.video.languageRatio.other }}%</span>
-        <span>유튜브 공개 댓글 API 기반 분석 · 미정 Analytics</span>
+        <span>{{ messages[settings.lang].languageRatio }} — Korean {{ data.video.languageRatio.ko }}%  ·  English {{ data.video.languageRatio.en }}%  ·  Other {{ data.video.languageRatio.other }}%</span>
+        <span>{{ messages[settings.lang].reportFooterNote }} · FindComments</span>
       </div>
 
     </div>
@@ -378,55 +406,115 @@ const controversyScore = computed(() => {
 }
 
 .rpt-page {
+  position: relative;
   font-family: 'Inter', 'Apple SD Gothic Neo', sans-serif;
   color: #1a1a2e;
-  padding: 14mm 16mm;
+  background: #ffffff;
+  padding: 12mm 16mm 14mm;
   max-width: 180mm;
   margin: 0 auto;
   font-size: 10pt;
   line-height: 1.5;
 }
 
+.rpt-topbar {
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 5px;
+  background: linear-gradient(90deg, #7b5ef8 0%, #a78bfa 50%, #7b5ef8 100%);
+}
+
 .rpt-header {
   display: flex;
   align-items: flex-start;
   gap: 14px;
-  border-bottom: 2px solid #7b5ef8;
-  padding-bottom: 10px;
-  margin-bottom: 12px;
+  border-bottom: 1px solid #e0e0eb;
+  padding-bottom: 12px;
+  margin-bottom: 16px;
 }
 .rpt-thumb {
-  width: 80px;
-  height: 45px;
+  width: 84px;
+  height: 47px;
   object-fit: cover;
-  border-radius: 4px;
+  border-radius: 5px;
   flex-shrink: 0;
+  border: 0.5px solid #e0e0eb;
 }
 .rpt-header-info { flex: 1; min-width: 0; }
-.rpt-brand { font-size: 8pt; color: #7b5ef8; font-weight: 600; letter-spacing: .08em; margin-bottom: 4px; }
+.rpt-brand { font-size: 8pt; color: #7b5ef8; font-weight: 700; letter-spacing: .08em; margin-bottom: 5px; }
 .rpt-title { font-size: 14pt; font-weight: 700; color: #1a1a2e; margin: 0 0 3px; line-height: 1.3; }
 .rpt-channel { font-size: 9pt; color: #666680; }
 .rpt-meta { text-align: right; font-size: 8pt; color: #999aaa; line-height: 1.8; flex-shrink: 0; margin-left: 4px; white-space: nowrap; }
 
-.rpt-stats-row {
+/* ── 히어로: 도넛 차트 + 통계 ── */
+.rpt-hero {
   display: flex;
-  gap: 0;
-  margin-bottom: 14px;
-  border: 1px solid #e0e0eb;
-  border-radius: 6px;
-  overflow: hidden;
+  gap: 20px;
+  align-items: stretch;
+  margin-bottom: 16px;
+  padding: 14px 16px;
+  background: #f8f8fc;
+  border: 0.5px solid #e0e0eb;
+  border-radius: 8px;
 }
-.rpt-stat {
-  flex: 1;
+
+.rpt-donut-block {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-shrink: 0;
+  padding-right: 20px;
+  border-right: 0.5px solid #e0e0eb;
+}
+.rpt-donut {
+  position: relative;
+  width: 78px;
+  height: 78px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.rpt-donut-hole {
+  position: absolute;
+  inset: 12px;
+  background: #ffffff;
+  border-radius: 50%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 8px 4px;
-  border-right: 1px solid #e0e0eb;
+  justify-content: center;
+  box-shadow: inset 0 0 0 0.5px #e0e0eb;
 }
-.rpt-stat:last-child { border-right: none; }
-.rpt-stat-val { font-size: 14pt; font-weight: 700; color: #1a1a2e; }
-.rpt-stat-lbl { font-size: 7pt; color: #999aaa; margin-top: 1px; }
+.rpt-donut-score { font-size: 13pt; font-weight: 800; color: #1a1a2e; line-height: 1; }
+.rpt-donut-score.pos { color: #16a34a; }
+.rpt-donut-score.neg { color: #dc2626; }
+.rpt-donut-score-lbl { font-size: 6pt; color: #999aaa; text-transform: uppercase; letter-spacing: .06em; margin-top: 2px; }
+
+.rpt-donut-legend { display: flex; flex-direction: column; gap: 5px; }
+.rpt-legend-row {
+  display: flex; align-items: center; gap: 6px;
+  font-size: 8pt; color: #666680; white-space: nowrap;
+}
+.rpt-legend-row b { color: #1a1a2e; margin-left: auto; padding-left: 10px; }
+.rpt-dot { width: 7px; height: 7px; border-radius: 50%; flex-shrink: 0; }
+.rpt-dot.pos { background: #16a34a; }
+.rpt-dot.neu { background: #94a3b8; }
+.rpt-dot.neg { background: #dc2626; }
+
+.rpt-stats-grid {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+}
+.rpt-stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 4px;
+}
+.rpt-stat-val { font-size: 13pt; font-weight: 700; color: #1a1a2e; }
+.rpt-stat-lbl { font-size: 7pt; color: #999aaa; margin-top: 2px; text-align: center; }
 
 .rpt-section { margin-bottom: 14px; }
 .rpt-sec-title {
@@ -435,15 +523,6 @@ const controversyScore = computed(() => {
   color: #666680; margin: 0 0 6px;
   padding-bottom: 3px; border-bottom: 0.5px solid #e0e0eb;
 }
-
-.rpt-sent-bar { display: flex; height: 10px; border-radius: 4px; overflow: hidden; margin-bottom: 4px; }
-.rpt-bar-pos { background: #22c55e; }
-.rpt-bar-neu { background: #94a3b8; }
-.rpt-bar-neg { background: #f43f5e; }
-.rpt-sent-labels { display: flex; gap: 14px; font-size: 8pt; }
-.rpt-pos-txt { color: #16a34a; font-weight: 600; }
-.rpt-neu-txt { color: #64748b; font-weight: 600; }
-.rpt-neg-txt { color: #dc2626; font-weight: 600; }
 
 .rpt-topics { display: flex; flex-direction: column; gap: 5px; }
 .rpt-topic-row {
@@ -462,8 +541,8 @@ const controversyScore = computed(() => {
 .rpt-insight {
   padding: 7px 10px; border-radius: 4px; border-left: 3px solid;
 }
-.rpt-insight.positive { background: #f0fdf4; border-left-color: #22c55e; }
-.rpt-insight.negative { background: #fff1f2; border-left-color: #f43f5e; }
+.rpt-insight.positive { background: #f0fdf4; border-left-color: #16a34a; }
+.rpt-insight.negative { background: #fff1f2; border-left-color: #dc2626; }
 .rpt-ins-meta { display: flex; align-items: center; gap: 8px; margin-bottom: 3px; }
 .rpt-ins-badge { font-size: 7pt; font-weight: 700; }
 .rpt-insight.positive .rpt-ins-badge { color: #16a34a; }
