@@ -1,0 +1,137 @@
+{
+  "video": {
+    "videoId": "ujebRlFF1mo",
+    "title": "상혁이 형 제발 그만 와",
+    "channelTitle": "T1",
+    "thumbnailUrl": "https://i.ytimg.com/vi/ujebRlFF1mo/maxresdefault.jpg",
+    "publishedAt": "2026-06-29",
+    "viewCount": 167155,
+    "likeCount": 3687,
+    "analyzedComments": 231,
+    "languageRatio": {
+      "ko": 87,
+      "en": 6,
+      "other": 6
+    },
+    "weightedSentiment": 91
+  },
+  "topics": [
+    {
+      "label": "도란의 플레이에 대한 평가",
+      "labelEn": "Evaluation of Doran's Play",
+      "mentionCount": 86,
+      "sentiment": {
+        "positive": 77,
+        "neutral": 12,
+        "negative": 12
+      }
+    },
+    {
+      "label": "대황란에 대한 기대와 응원",
+      "labelEn": "Expectations and Support for Dae-hwang-ran",
+      "mentionCount": 66,
+      "sentiment": {
+        "positive": 88,
+        "neutral": 9,
+        "negative": 3
+      }
+    },
+    {
+      "label": "멘탈과 자신감",
+      "labelEn": "Mentality and Confidence",
+      "mentionCount": 33,
+      "sentiment": {
+        "positive": 76,
+        "neutral": 15,
+        "negative": 9
+      }
+    },
+    {
+      "label": "MSI와 관련된 기대감",
+      "labelEn": "Expectations for MSI",
+      "mentionCount": 33,
+      "sentiment": {
+        "positive": 67,
+        "neutral": 24,
+        "negative": 9
+      }
+    },
+    {
+      "label": "악성 댓글과 비난에 대한 반응",
+      "labelEn": "Responses to Negative Comments and Criticism",
+      "mentionCount": 13,
+      "sentiment": {
+        "positive": 69,
+        "neutral": 31,
+        "negative": 0
+      }
+    }
+  ],
+  "reactionTimeline": [
+    {
+      "label": "0–1h",
+      "positive": 67,
+      "neutral": 7,
+      "negative": 2
+    },
+    {
+      "label": "1–24h",
+      "positive": 101,
+      "neutral": 22,
+      "negative": 12
+    },
+    {
+      "label": "1–7d",
+      "positive": 12,
+      "neutral": 4,
+      "negative": 4
+    },
+    {
+      "label": "7–30d",
+      "positive": 0,
+      "neutral": 0,
+      "negative": 0
+    },
+    {
+      "label": "30d+",
+      "positive": 0,
+      "neutral": 0,
+      "negative": 0
+    }
+  ],
+  "keyInsights": [
+    {
+      "type": "positive",
+      "topic": "대황란에 대한 기대와 응원",
+      "comment": "대황란 msi 기간동안 파이팅이여\n힘내자",
+      "likes": 621
+    },
+    {
+      "type": "negative",
+      "topic": "도란의 플레이에 대한 평가",
+      "comment": "3세트 솔킬 따인거 빼고 개잘했는데 도란 욕 개처먹는거 화난다 도란 파이팅",
+      "likes": 150
+    },
+    {
+      "type": "positive",
+      "topic": "MSI와 관련된 기대감",
+      "comment": "팬이 할 수 있는 거라곤 응원뿐이네\n우리보다 란도가 스스로에게 더 엄격하고 아쉬워하는 거 알고 있어 팬들은 우탑도가 잘하리라 믿고 있으니까 너무 기죽진 말기를!(그리고 마형이 탑은 자신만만할 때 더 폼이 오른다더라!)\nT1, 도란 Msi 파이팅!!!!!",
+      "likes": 526
+    },
+    {
+      "type": "negative",
+      "topic": "대황란에 대한 기대와 응원",
+      "comment": "재계약 불발 기원",
+      "likes": 4
+    }
+  ],
+  "analyzedAt": "2026-07-02T09:00:04.519255+00:00",
+  "analysisDuration": 41.3,
+  "tokenUsage": {
+    "input": 15137,
+    "output": 2652,
+    "embedding": 5657,
+    "total": 23446,
+    "estimatedCostUsd": 0.003975
+  }
+}

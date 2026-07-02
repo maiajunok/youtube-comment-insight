@@ -1,0 +1,142 @@
+{
+  "video": {
+    "videoId": "nSuji2u5lt8",
+    "title": "[3분 하이라이트] F조 조별리그 2차전 튀니지 VS 일본｜2026 FIFA 북중미 월드컵",
+    "channelTitle": "JTBC Sports",
+    "thumbnailUrl": "https://i.ytimg.com/vi/nSuji2u5lt8/maxresdefault.jpg",
+    "publishedAt": "2026-06-21",
+    "viewCount": 377012,
+    "likeCount": 3175,
+    "analyzedComments": 1056,
+    "languageRatio": {
+      "ko": 100,
+      "en": 0,
+      "other": 0
+    }
+  },
+  "topics": [
+    {
+      "label": "일본 축구의 발전",
+      "labelEn": "Development of Japanese Football",
+      "mentionCount": 314,
+      "sentiment": {
+        "positive": 53,
+        "neutral": 11,
+        "negative": 36
+      }
+    },
+    {
+      "label": "한국 축구의 현 상황",
+      "labelEn": "Current State of Korean Football",
+      "mentionCount": 256,
+      "sentiment": {
+        "positive": 33,
+        "neutral": 12,
+        "negative": 55
+      }
+    },
+    {
+      "label": "팀워크",
+      "labelEn": "Teamwork",
+      "mentionCount": 215,
+      "sentiment": {
+        "positive": 59,
+        "neutral": 16,
+        "negative": 26
+      }
+    },
+    {
+      "label": "감독과 전술",
+      "labelEn": "Coaching and Tactics",
+      "mentionCount": 141,
+      "sentiment": {
+        "positive": 43,
+        "neutral": 18,
+        "negative": 38
+      }
+    },
+    {
+      "label": "경기력 차이",
+      "labelEn": "Gap in Performance",
+      "mentionCount": 130,
+      "sentiment": {
+        "positive": 33,
+        "neutral": 22,
+        "negative": 45
+      }
+    }
+  ],
+  "reactionTimeline": [
+    {
+      "label": "0–1h",
+      "positive": 51,
+      "neutral": 9,
+      "negative": 21
+    },
+    {
+      "label": "1–6h",
+      "positive": 200,
+      "neutral": 57,
+      "negative": 189
+    },
+    {
+      "label": "6–12h",
+      "positive": 52,
+      "neutral": 26,
+      "negative": 66
+    },
+    {
+      "label": "12–24h",
+      "positive": 104,
+      "neutral": 32,
+      "negative": 86
+    },
+    {
+      "label": "1–3d",
+      "positive": 47,
+      "neutral": 21,
+      "negative": 32
+    },
+    {
+      "label": "3–7d",
+      "positive": 25,
+      "neutral": 10,
+      "negative": 28
+    }
+  ],
+  "keyInsights": [
+    {
+      "type": "positive",
+      "topic": "팀워크",
+      "comment": "슈퍼스타 한두명이 캐리 하는게 아닌 한 팀으로 축구를 하는구나",
+      "likes": 2100
+    },
+    {
+      "type": "negative",
+      "topic": "한국 축구의 현 상황",
+      "comment": "한국이랑 레벨차이 겁나 나네 ㄷㄷ",
+      "likes": 931
+    },
+    {
+      "type": "positive",
+      "topic": "일본 축구의 발전",
+      "comment": "진짜 아시아 최강축구는 일본이다.. 부럽다 너무잘한다",
+      "likes": 1831
+    },
+    {
+      "type": "negative",
+      "topic": "감독과 전술",
+      "comment": "한준희: 축협에 일침 가하다가 축협 부회장으로 채용되고 연봉 1억씩 받으니까 축협 비판 아예 안함\r\n현영민: 골때녀 감독, 축협 전력강화위원장이며 이민성을 U23 대표팀 감독에 꽂음 (U23 이민성호는 키르기스스탄, 베트남한테도 패배함)\r\n이근호: 골때녀 감독, 쿠플 해설위원, 선수협 회장을 맡고 있는데 해설하면서 축협, 홍명보 비판 한번 안함\r\n예능이나 출연하고 무능하지만 축구계에서 한자리씩 차지하는게 목적인 사람들이 모여서 정몽규, 홍명보 같은 괴물이 탄생하고 한국축구는 후퇴하게 된거",
+      "likes": 229
+    }
+  ],
+  "analyzedAt": "2026-06-26T10:10:49.752035+00:00",
+  "analysisDuration": 237.7,
+  "tokenUsage": {
+    "input": 54662,
+    "output": 12086,
+    "embedding": 42337,
+    "total": 109085,
+    "estimatedCostUsd": 0.016298
+  }
+}

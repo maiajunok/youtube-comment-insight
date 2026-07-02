@@ -1,0 +1,137 @@
+{
+  "video": {
+    "videoId": "7kBIJybD14Q",
+    "title": "'경우의 수' 따지다 32강 탈락…지켜본 박지성 \"비참하다\" / JTBC 이 시각 월드컵",
+    "channelTitle": "JTBC News",
+    "thumbnailUrl": "https://i.ytimg.com/vi/7kBIJybD14Q/maxresdefault.jpg",
+    "publishedAt": "2026-06-28",
+    "viewCount": 33483,
+    "likeCount": 422,
+    "analyzedComments": 351,
+    "languageRatio": {
+      "ko": 99,
+      "en": 0,
+      "other": 1
+    },
+    "weightedSentiment": -83
+  },
+  "topics": [
+    {
+      "label": "홍명보 감독 비난",
+      "labelEn": "Criticism of Coach Hong",
+      "mentionCount": 115,
+      "sentiment": {
+        "positive": 13,
+        "neutral": 12,
+        "negative": 75
+      }
+    },
+    {
+      "label": "축구협회 개혁",
+      "labelEn": "Reform of the Football Association",
+      "mentionCount": 81,
+      "sentiment": {
+        "positive": 11,
+        "neutral": 7,
+        "negative": 81
+      }
+    },
+    {
+      "label": "비참한 상황",
+      "labelEn": "Pitiful Situation",
+      "mentionCount": 79,
+      "sentiment": {
+        "positive": 24,
+        "neutral": 18,
+        "negative": 58
+      }
+    },
+    {
+      "label": "세금 낭비",
+      "labelEn": "Wasting Tax Money",
+      "mentionCount": 47,
+      "sentiment": {
+        "positive": 21,
+        "neutral": 11,
+        "negative": 68
+      }
+    },
+    {
+      "label": "선수들의 책임",
+      "labelEn": "Responsibility of Players",
+      "mentionCount": 29,
+      "sentiment": {
+        "positive": 14,
+        "neutral": 14,
+        "negative": 72
+      }
+    }
+  ],
+  "reactionTimeline": [
+    {
+      "label": "0–1h",
+      "positive": 35,
+      "neutral": 24,
+      "negative": 176
+    },
+    {
+      "label": "1–24h",
+      "positive": 22,
+      "neutral": 19,
+      "negative": 75
+    },
+    {
+      "label": "1–7d",
+      "positive": 0,
+      "neutral": 0,
+      "negative": 0
+    },
+    {
+      "label": "7–30d",
+      "positive": 0,
+      "neutral": 0,
+      "negative": 0
+    },
+    {
+      "label": "30d+",
+      "positive": 0,
+      "neutral": 0,
+      "negative": 0
+    }
+  ],
+  "keyInsights": [
+    {
+      "type": "positive",
+      "topic": "홍명보 감독 비난",
+      "comment": "ㅋㅋㅋㅋ 홍명보 이정도면 신변보호 요청해야 할것 같은데...ㅋㅋㅋㅋ",
+      "likes": 25
+    },
+    {
+      "type": "negative",
+      "topic": "축구협회 개혁",
+      "comment": "국민 혈세  환수하고 홍명보   사법처리해라",
+      "likes": 268
+    },
+    {
+      "type": "positive",
+      "topic": "선수들의 책임",
+      "comment": "우리대표선수들 고생하셨어요.   침체된 기분 갖지 마시고 준비하시고 기다리세요.  변화된 조직과 시스템에서 다시 출전하시도록 몸도 마음도 만들고 기다리시길...   어느 방송에서 손흥민선수가 \" 내가 이번 월드컵이 마지막이라고 한 적 없습니다 \" 라고 하는 것 봤습니다.  그래요.  기다리세요.  때가 될 그때까지 손흥민선수 를 포함 이번 출전 모든 선수분들  기다리세요 ! \r\n- 70세를 목전에 둔 축구팬으로 부터... !!!",
+      "likes": 2
+    },
+    {
+      "type": "negative",
+      "topic": "홍명보 감독 비난",
+      "comment": "조별리그 탈락한 감독을 또 선임한 죄",
+      "likes": 154
+    }
+  ],
+  "analyzedAt": "2026-06-28T07:13:32.966000+00:00",
+  "analysisDuration": 90.5,
+  "tokenUsage": {
+    "input": 37884,
+    "output": 4660,
+    "embedding": 21206,
+    "total": 63750,
+    "estimatedCostUsd": 0.008903
+  }
+}

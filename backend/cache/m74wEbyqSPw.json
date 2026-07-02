@@ -1,0 +1,136 @@
+{
+  "video": {
+    "videoId": "m74wEbyqSPw",
+    "title": "[뉴스A다!] 기적만 남았다? 경우의 수 '설움' / 채널A / 뉴스A",
+    "channelTitle": "채널A News",
+    "thumbnailUrl": "https://i.ytimg.com/vi/m74wEbyqSPw/maxresdefault.jpg",
+    "publishedAt": "2026-06-27",
+    "viewCount": 41707,
+    "likeCount": 610,
+    "analyzedComments": 753,
+    "languageRatio": {
+      "ko": 100,
+      "en": 0,
+      "other": 0
+    }
+  },
+  "topics": [
+    {
+      "label": "홍명보 감독 비판",
+      "labelEn": "Criticism of Coach Hong Myung-bo",
+      "mentionCount": 205,
+      "sentiment": {
+        "positive": 15,
+        "neutral": 13,
+        "negative": 73
+      }
+    },
+    {
+      "label": "팬들의 실망감",
+      "labelEn": "Fans' Disappointment",
+      "mentionCount": 193,
+      "sentiment": {
+        "positive": 18,
+        "neutral": 11,
+        "negative": 71
+      }
+    },
+    {
+      "label": "축구협회 문제",
+      "labelEn": "Issues with the Football Association",
+      "mentionCount": 144,
+      "sentiment": {
+        "positive": 12,
+        "neutral": 8,
+        "negative": 79
+      }
+    },
+    {
+      "label": "경우의 수와 탈락 가능성",
+      "labelEn": "Possibilities and Likelihood of Elimination",
+      "mentionCount": 116,
+      "sentiment": {
+        "positive": 9,
+        "neutral": 21,
+        "negative": 71
+      }
+    },
+    {
+      "label": "국가대표팀 상황",
+      "labelEn": "National Team Situation",
+      "mentionCount": 95,
+      "sentiment": {
+        "positive": 17,
+        "neutral": 18,
+        "negative": 65
+      }
+    }
+  ],
+  "reactionTimeline": [
+    {
+      "label": "0–1h",
+      "positive": 11,
+      "neutral": 12,
+      "negative": 46
+    },
+    {
+      "label": "1–24h",
+      "positive": 98,
+      "neutral": 88,
+      "negative": 498
+    },
+    {
+      "label": "1–7d",
+      "positive": 0,
+      "neutral": 0,
+      "negative": 0
+    },
+    {
+      "label": "7–30d",
+      "positive": 0,
+      "neutral": 0,
+      "negative": 0
+    },
+    {
+      "label": "30d+",
+      "positive": 0,
+      "neutral": 0,
+      "negative": 0
+    }
+  ],
+  "keyInsights": [
+    {
+      "type": "positive",
+      "topic": "팬들의 실망감",
+      "comment": "그냥 와 ㅋㅋㅋㅋㅋ 이유도 모른데자나욬ㅌㅌㅋ",
+      "likes": 91
+    },
+    {
+      "type": "negative",
+      "topic": "팬들의 실망감",
+      "comment": "아 그냥 와라 굴욕적이다",
+      "likes": 441
+    },
+    {
+      "type": "positive",
+      "topic": "국가대표팀 상황",
+      "comment": "아직 33%인게 개놀랍다ㅎ",
+      "likes": 52
+    },
+    {
+      "type": "negative",
+      "topic": "홍명보 감독 비판",
+      "comment": "올라가도 감독이홍명보다",
+      "likes": 204
+    }
+  ],
+  "analyzedAt": "2026-06-27T14:35:51.086814+00:00",
+  "analysisDuration": 170.4,
+  "tokenUsage": {
+    "input": 46360,
+    "output": 8787,
+    "embedding": 34920,
+    "total": 90067,
+    "estimatedCostUsd": 0.012925
+  }
+}

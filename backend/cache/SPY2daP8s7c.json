@@ -1,0 +1,129 @@
+{
+  "video": {
+    "videoId": "SPY2daP8s7c",
+    "title": "[3분 하이라이트] I조 조별리그 2차전 노르웨이 VS 세네갈｜2026 FIFA 북중미 월드컵",
+    "channelTitle": "JTBC Sports",
+    "thumbnailUrl": "https://i.ytimg.com/vi/SPY2daP8s7c/maxresdefault.jpg",
+    "publishedAt": "2026-06-23",
+    "viewCount": 298849,
+    "likeCount": 1940,
+    "analyzedComments": 172,
+    "languageRatio": {
+      "ko": 100,
+      "en": 0,
+      "other": 0
+    }
+  },
+  "topics": [
+    {
+      "label": "홀란의 퍼포먼스",
+      "mentionCount": 64,
+      "sentiment": {
+        "positive": 47,
+        "neutral": 47,
+        "negative": 6
+      }
+    },
+    {
+      "label": "월드컵 경기 재미",
+      "mentionCount": 44,
+      "sentiment": {
+        "positive": 52,
+        "neutral": 32,
+        "negative": 16
+      }
+    },
+    {
+      "label": "노르웨이 팀 전략 및 경기력",
+      "mentionCount": 30,
+      "sentiment": {
+        "positive": 27,
+        "neutral": 60,
+        "negative": 13
+      }
+    },
+    {
+      "label": "세네갈 수비 문제",
+      "mentionCount": 20,
+      "sentiment": {
+        "positive": 25,
+        "neutral": 45,
+        "negative": 30
+      }
+    },
+    {
+      "label": "한국 축구에 대한 비교",
+      "mentionCount": 14,
+      "sentiment": {
+        "positive": 43,
+        "neutral": 29,
+        "negative": 29
+      }
+    }
+  ],
+  "reactionTimeline": [
+    {
+      "label": "0–1h",
+      "positive": 28,
+      "neutral": 28,
+      "negative": 10
+    },
+    {
+      "label": "1–6h",
+      "positive": 22,
+      "neutral": 24,
+      "negative": 7
+    },
+    {
+      "label": "6–12h",
+      "positive": 4,
+      "neutral": 2,
+      "negative": 1
+    },
+    {
+      "label": "12–24h",
+      "positive": 14,
+      "neutral": 18,
+      "negative": 3
+    },
+    {
+      "label": "1–3d",
+      "positive": 4,
+      "neutral": 3,
+      "negative": 4
+    },
+    {
+      "label": "3–7d",
+      "positive": 0,
+      "neutral": 0,
+      "negative": 0
+    }
+  ],
+  "keyInsights": [
+    {
+      "type": "positive",
+      "topic": "월드컵 경기 재미",
+      "comment": "두팀다 잘한다 진짜 ㅋㅋㅋ 우리나라랑은 다르게 시원하게 경기하네 ㅋㅋㅋ",
+      "likes": 297
+    },
+    {
+      "type": "negative",
+      "topic": "세네갈 수비 문제",
+      "comment": "멘디 프랑스전부터 선방 하나는 진짜 개잘했는데 부상 아쉽다",
+      "likes": 5
+    },
+    {
+      "type": "positive",
+      "topic": "홀란의 퍼포먼스",
+      "comment": "1:48 외데고르 쇠를로트쪽 다 비었는데 굳이굳이 홀란주는거 개웃기네 ㅋㅋㅋㅋㅋ",
+      "likes": 110
+    },
+    {
+      "type": "negative",
+      "topic": "월드컵 경기 재미",
+      "comment": "우리나라가 세계에서 제일 재미없다",
+      "likes": 3
+    }
+  ],
+  "analyzedAt": "2026-06-25T03:46:03.646319+00:00"
+}

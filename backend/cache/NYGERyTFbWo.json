@@ -1,0 +1,129 @@
+{
+  "video": {
+    "videoId": "NYGERyTFbWo",
+    "title": "[스픽 x T1] 그럼, 우리랑 영어 공부하는 건 어때?",
+    "channelTitle": "스픽 - Speak",
+    "thumbnailUrl": "https://i.ytimg.com/vi/NYGERyTFbWo/maxresdefault.jpg",
+    "publishedAt": "2025-09-19",
+    "viewCount": 953268,
+    "likeCount": 6828,
+    "analyzedComments": 428,
+    "languageRatio": {
+      "ko": 87,
+      "en": 5,
+      "other": 9
+    }
+  },
+  "topics": [
+    {
+      "label": "팬들의 기대감",
+      "mentionCount": 163,
+      "sentiment": {
+        "positive": 69,
+        "neutral": 21,
+        "negative": 10
+      }
+    },
+    {
+      "label": "광고 컨셉",
+      "mentionCount": 134,
+      "sentiment": {
+        "positive": 63,
+        "neutral": 25,
+        "negative": 13
+      }
+    },
+    {
+      "label": "팀워크",
+      "mentionCount": 64,
+      "sentiment": {
+        "positive": 59,
+        "neutral": 28,
+        "negative": 12
+      }
+    },
+    {
+      "label": "선수들의 외모",
+      "mentionCount": 37,
+      "sentiment": {
+        "positive": 59,
+        "neutral": 19,
+        "negative": 22
+      }
+    },
+    {
+      "label": "연기력",
+      "mentionCount": 30,
+      "sentiment": {
+        "positive": 53,
+        "neutral": 33,
+        "negative": 13
+      }
+    }
+  ],
+  "reactionTimeline": [
+    {
+      "label": "0–1h",
+      "positive": 24,
+      "neutral": 13,
+      "negative": 5
+    },
+    {
+      "label": "1–6h",
+      "positive": 150,
+      "neutral": 48,
+      "negative": 26
+    },
+    {
+      "label": "6–12h",
+      "positive": 52,
+      "neutral": 16,
+      "negative": 8
+    },
+    {
+      "label": "12–24h",
+      "positive": 9,
+      "neutral": 7,
+      "negative": 6
+    },
+    {
+      "label": "1–3d",
+      "positive": 22,
+      "neutral": 7,
+      "negative": 2
+    },
+    {
+      "label": "3–7d",
+      "positive": 16,
+      "neutral": 11,
+      "negative": 6
+    }
+  ],
+  "keyInsights": [
+    {
+      "type": "positive",
+      "topic": "팀워크",
+      "comment": "왜 단체로 잘자요아가씨 코어인거임ㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+      "likes": 1772
+    },
+    {
+      "type": "negative",
+      "topic": "팬들의 기대감",
+      "comment": "와 진짜 개킹받는거 가져왔네ㅋㅋㅋㅋ",
+      "likes": 907
+    },
+    {
+      "type": "positive",
+      "topic": "선수들의 외모",
+      "comment": "담당자 얼마나 떨렸을까 월즈 못갈까봐ㅠㅜㅋㅋㅋㅋㅋ 근데 저도요😂 이제야 웃음이 나네요😂😂",
+      "likes": 1435
+    },
+    {
+      "type": "negative",
+      "topic": "연기력",
+      "comment": "치명적인 표정이 너무 폭력적이다…\n역대급… 킹받는 광고…\n#t1win",
+      "likes": 265
+    }
+  ],
+  "analyzedAt": "2026-06-24T03:45:44.049070+00:00"
+}

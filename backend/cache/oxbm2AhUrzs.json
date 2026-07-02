@@ -1,0 +1,128 @@
+{
+  "video": {
+    "title": "도끼보다 망치",
+    "channelTitle": "T1",
+    "thumbnailUrl": "https://i.ytimg.com/vi/oxbm2AhUrzs/maxresdefault.jpg",
+    "publishedAt": "2026-06-12",
+    "viewCount": 107267,
+    "likeCount": 2237,
+    "analyzedComments": 452,
+    "languageRatio": {
+      "ko": 89,
+      "en": 6,
+      "other": 5
+    }
+  },
+  "topics": [
+    {
+      "label": "도란 선수에 대한 불만",
+      "mentionCount": 178,
+      "sentiment": {
+        "positive": 27,
+        "neutral": 33,
+        "negative": 40
+      }
+    },
+    {
+      "label": "영상 업데이트 타이밍",
+      "mentionCount": 143,
+      "sentiment": {
+        "positive": 22,
+        "neutral": 38,
+        "negative": 39
+      }
+    },
+    {
+      "label": "팀워크",
+      "mentionCount": 45,
+      "sentiment": {
+        "positive": 38,
+        "neutral": 40,
+        "negative": 22
+      }
+    },
+    {
+      "label": "밴픽 문제",
+      "mentionCount": 44,
+      "sentiment": {
+        "positive": 11,
+        "neutral": 36,
+        "negative": 52
+      }
+    },
+    {
+      "label": "선수 성과 비판",
+      "mentionCount": 42,
+      "sentiment": {
+        "positive": 14,
+        "neutral": 45,
+        "negative": 40
+      }
+    }
+  ],
+  "reactionTimeline": [
+    {
+      "label": "0–1h",
+      "positive": 21,
+      "neutral": 23,
+      "negative": 17
+    },
+    {
+      "label": "1–6h",
+      "positive": 30,
+      "neutral": 66,
+      "negative": 96
+    },
+    {
+      "label": "6–12h",
+      "positive": 4,
+      "neutral": 16,
+      "negative": 17
+    },
+    {
+      "label": "12–24h",
+      "positive": 7,
+      "neutral": 12,
+      "negative": 17
+    },
+    {
+      "label": "1–3d",
+      "positive": 33,
+      "neutral": 44,
+      "negative": 31
+    },
+    {
+      "label": "3–7d",
+      "positive": 13,
+      "neutral": 5,
+      "negative": 0
+    }
+  ],
+  "keyInsights": [
+    {
+      "type": "positive",
+      "topic": "도란 선수에 대한 불만",
+      "comment": "지금 올리는거 참ㅋㅋㅋㅋㅋ 도란 또 댓글에 욕 ㅈ나 먹겠넼ㅋㅋㅋ",
+      "likes": 80
+    },
+    {
+      "type": "negative",
+      "topic": "영상 업데이트 타이밍",
+      "comment": "역전하다가 귀신같이 영상 올리니깐 지노..",
+      "likes": 286
+    },
+    {
+      "type": "positive",
+      "topic": "영상 업데이트 타이밍",
+      "comment": "군대 탑 군대 정글 쌍으로 시위하네 ㅋㅋ",
+      "likes": 63
+    },
+    {
+      "type": "negative",
+      "topic": "팀워크",
+      "comment": "솔직히 애들이 뭔 죄냐 돈독올라서 애들 광고 돌리고 팬들한테 굿즈 팔 생각밖에 없는 티원이 문제지ㅋㅋ 애들 이미지 소비 시키면서 막상 경기력 논란 생겨서 비난 받을 수밖에 없는 상황 반복하는게 진짜 대단한 부분. 우린 어떤 방식으로라도 응원하고 싶으니까 별별 마케팅 캠페인에 다 당해주고 팬들이 받아주니까 아주 그냥 끝을 모르고 돌판사업에 뛰어듬… 보니까 아예 팬 관리 담당자도 채용하는것 같은데 제발 본분을 잊지말길…",
+      "likes": 200
+    }
+  ],
+  "analyzedAt": "2026-06-23T16:35:18.860024+00:00"
+}

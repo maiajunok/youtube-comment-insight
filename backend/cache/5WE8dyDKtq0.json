@@ -1,0 +1,129 @@
+{
+  "video": {
+    "videoId": "5WE8dyDKtq0",
+    "title": "스웨덴, 일본과 무승부…더 멀어진 대한민국 32강 가능성 / JTBC 이 시각 월드컵",
+    "channelTitle": "JTBC News",
+    "thumbnailUrl": "https://i.ytimg.com/vi/5WE8dyDKtq0/maxresdefault.jpg",
+    "publishedAt": "2026-06-26",
+    "viewCount": 254083,
+    "likeCount": 1357,
+    "analyzedComments": 968,
+    "languageRatio": {
+      "ko": 99,
+      "en": 0,
+      "other": 1
+    }
+  },
+  "topics": [
+    {
+      "label": "32강 진출에 대한 회의감",
+      "mentionCount": 276,
+      "sentiment": {
+        "positive": 10,
+        "neutral": 23,
+        "negative": 67
+      }
+    },
+    {
+      "label": "홍명보 감독 문제",
+      "mentionCount": 259,
+      "sentiment": {
+        "positive": 12,
+        "neutral": 25,
+        "negative": 63
+      }
+    },
+    {
+      "label": "일본과의 격차",
+      "mentionCount": 202,
+      "sentiment": {
+        "positive": 37,
+        "neutral": 20,
+        "negative": 43
+      }
+    },
+    {
+      "label": "축구협회 개혁 필요성",
+      "mentionCount": 168,
+      "sentiment": {
+        "positive": 12,
+        "neutral": 17,
+        "negative": 71
+      }
+    },
+    {
+      "label": "팀 전략과 전술",
+      "mentionCount": 63,
+      "sentiment": {
+        "positive": 21,
+        "neutral": 29,
+        "negative": 51
+      }
+    }
+  ],
+  "reactionTimeline": [
+    {
+      "label": "0–1h",
+      "positive": 5,
+      "neutral": 7,
+      "negative": 27
+    },
+    {
+      "label": "1–6h",
+      "positive": 138,
+      "neutral": 191,
+      "negative": 509
+    },
+    {
+      "label": "6–12h",
+      "positive": 24,
+      "neutral": 18,
+      "negative": 49
+    },
+    {
+      "label": "12–24h",
+      "positive": 0,
+      "neutral": 0,
+      "negative": 0
+    },
+    {
+      "label": "1–3d",
+      "positive": 0,
+      "neutral": 0,
+      "negative": 0
+    },
+    {
+      "label": "3–7d",
+      "positive": 0,
+      "neutral": 0,
+      "negative": 0
+    }
+  ],
+  "keyInsights": [
+    {
+      "type": "positive",
+      "topic": "팀 전략과 전술",
+      "comment": "0:46 와...패스 지린다",
+      "likes": 363
+    },
+    {
+      "type": "negative",
+      "topic": "홍명보 감독 문제",
+      "comment": "홍명보 감독으로 32강 올라가면 그게 더 수모 아니야..",
+      "likes": 1018
+    },
+    {
+      "type": "positive",
+      "topic": "일본과의 격차",
+      "comment": "일본은 득점이 대부분 확률 높은 패스를 통한 득점이 많네. 그냥 운빨 슛 득점이 별로 없다. 대단하네",
+      "likes": 127
+    },
+    {
+      "type": "negative",
+      "topic": "32강 진출에 대한 회의감",
+      "comment": "우리가 32강 올라가는게 축구에 대한 모독이다. 빨리 돌아와라",
+      "likes": 949
+    }
+  ],
+  "analyzedAt": "2026-06-26T09:31:49.574867+00:00"
+}

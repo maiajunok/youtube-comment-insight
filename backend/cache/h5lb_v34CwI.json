@@ -1,0 +1,129 @@
+{
+  "video": {
+    "videoId": "h5lb_v34CwI",
+    "title": "Cry, Monster. Smile, Genius. | CARVED : GENIUS",
+    "channelTitle": "T1",
+    "thumbnailUrl": "https://i.ytimg.com/vi/h5lb_v34CwI/maxresdefault.jpg",
+    "publishedAt": "2026-05-03",
+    "viewCount": 850434,
+    "likeCount": 30696,
+    "analyzedComments": 1144,
+    "languageRatio": {
+      "ko": 77,
+      "en": 11,
+      "other": 12
+    }
+  },
+  "topics": [
+    {
+      "label": "응원과 감사",
+      "mentionCount": 434,
+      "sentiment": {
+        "positive": 59,
+        "neutral": 31,
+        "negative": 11
+      }
+    },
+    {
+      "label": "케리아 선수의 여정과 성장",
+      "mentionCount": 297,
+      "sentiment": {
+        "positive": 74,
+        "neutral": 20,
+        "negative": 6
+      }
+    },
+    {
+      "label": "22년도 월즈 결승의 영향",
+      "mentionCount": 171,
+      "sentiment": {
+        "positive": 48,
+        "neutral": 32,
+        "negative": 20
+      }
+    },
+    {
+      "label": "서포터 역할의 중요성",
+      "mentionCount": 122,
+      "sentiment": {
+        "positive": 60,
+        "neutral": 34,
+        "negative": 7
+      }
+    },
+    {
+      "label": "팬과의 유대감",
+      "mentionCount": 120,
+      "sentiment": {
+        "positive": 61,
+        "neutral": 32,
+        "negative": 7
+      }
+    }
+  ],
+  "reactionTimeline": [
+    {
+      "label": "0–1h",
+      "positive": 15,
+      "neutral": 1,
+      "negative": 1
+    },
+    {
+      "label": "1–6h",
+      "positive": 47,
+      "neutral": 12,
+      "negative": 3
+    },
+    {
+      "label": "6–12h",
+      "positive": 113,
+      "neutral": 48,
+      "negative": 17
+    },
+    {
+      "label": "12–24h",
+      "positive": 238,
+      "neutral": 109,
+      "negative": 42
+    },
+    {
+      "label": "1–3d",
+      "positive": 132,
+      "neutral": 83,
+      "negative": 29
+    },
+    {
+      "label": "3–7d",
+      "positive": 156,
+      "neutral": 73,
+      "negative": 25
+    }
+  ],
+  "keyInsights": [
+    {
+      "type": "positive",
+      "topic": "팬과의 유대감",
+      "comment": "진짜 양대인 시기는 암흑기가 맞다.\n케리아 2년차에 배우러 왔는데 부담감이 진짜\n심했네,,, 영상 분위기만 봐도 알겠음 \n그럼에도 있어줘서 고마울뿐 ㅜㅜㅜ",
+      "likes": 3027
+    },
+    {
+      "type": "negative",
+      "topic": "22년도 월즈 결승의 영향",
+      "comment": "우승 3번 너무 후루룩 지나가는거 아니냐고 22월즈 분량 30분 동안 고통스러웠는데...",
+      "likes": 366
+    },
+    {
+      "type": "positive",
+      "topic": "케리아 선수의 여정과 성장",
+      "comment": "케리아 선수의 여정을 오랫동안 함께해왔던 팬으로서, 또 3년이란 시간 동안 케리아 선수와 함께 걷게 되어 너무 행복합니다. 케리아 선수 없는 T1은 이제 더 이상 상상되지 않습니다. 앞으로도 오래오래 T1과 함께해 주세요.",
+      "likes": 2389
+    },
+    {
+      "type": "negative",
+      "topic": "서포터 역할의 중요성",
+      "comment": "T1 역사상 최악의 감독 소소소 그립지도 않으니 돌아올 생각조차 하지마십시오",
+      "likes": 244
+    }
+  ],
+  "analyzedAt": "2026-06-25T09:25:45.536957+00:00"
+}

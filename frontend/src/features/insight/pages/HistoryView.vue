@@ -1,0 +1,344 @@
+<script setup lang="ts">
+import { ref, onMounted, computed, onBeforeUnmount } from 'vue'
+import { useRouter } from 'vue-router'
+import { insightApi } from '@/features/insight/api/insightApi'
+import { useAnalysisStore } from '@/features/insight/stores/analysis'
+import { useSettingsStore } from '@/features/settings/stores/settings'
+import type { HistoryItem } from '@/features/insight/types/insight'
+import { messages } from '@/locales/messages'
+
+const router        = useRouter()
+const analysisStore = useAnalysisStore()
+const settings      = useSettingsStore()
+
+const items = ref<HistoryItem[]>([])
+const isLoading = ref(true)
+const error = ref('')
+
+type SortKey = 'date' | 'positive' | 'negative' | 'published'
+const sortKey = ref<SortKey>('date')
+
+const M = computed(() => messages[settings.lang])
+
+const fmtComments = (n: string) => {
+  const l = settings.lang
+  if (l === 'en') return `${n} comments`
+  if (l === 'zh') return `${n} 条评论`
+  if (l === 'ja') return `${n} 件のコメント`
+  return `댓글 ${n}개`
+}
+
+const SORT_OPTIONS = computed(() => [
+  { key: 'date'      as SortKey, label: M.value.sortDate },
+  { key: 'positive'  as SortKey, label: M.value.sortPos  },
+  { key: 'negative'  as SortKey, label: M.value.sortNeg  },
+  { key: 'published' as SortKey, label: M.value.sortPub  },
+])
+
+const dropdownOpen = ref(false)
+
+function onClickOutside(e: MouseEvent) {
+  const el = document.querySelector('.sort-dropdown')
+  if (el && !el.contains(e.target as Node)) dropdownOpen.value = false
+}
+onMounted(() => document.addEventListener('mousedown', onClickOutside))
+onBeforeUnmount(() => document.removeEventListener('mousedown', onClickOutside))
+
+const sortedItems = computed(() => {
+  const arr = [...items.value]
+  if (sortKey.value === 'positive')  return arr.sort((a, b) => b.overallSentiment.positive  - a.overallSentiment.positive)
+  if (sortKey.value === 'negative')  return arr.sort((a, b) => b.overallSentiment.negative  - a.overallSentiment.negative)
+  if (sortKey.value === 'published') return arr.sort((a, b) => b.publishedAt.localeCompare(a.publishedAt))
+  return arr.sort((a, b) => b.analyzedAt.localeCompare(a.analyzedAt))
+})
+
+onMounted(async () => {
+  try {
+    items.value = await insightApi.getHistory()
+  } catch {
+    error.value = '기록을 불러오지 못했습니다. 백엔드 서버가 실행 중인지 확인해주세요.'
+  } finally {
+    isLoading.value = false
+  }
+})
+
+const fmtDate = (iso: string) => {
+  if (!iso) return ''
+  const d = new Date(iso)
+  return `${d.getFullYear()}.${String(d.getMonth() + 1).padStart(2, '0')}.${String(d.getDate()).padStart(2, '0')}  ${String(d.getHours()).padStart(2, '0')}:${String(d.getMinutes()).padStart(2, '0')}`
+}
+
+const fmtNum = (n: number) =>
+  n >= 1_000_000 ? (n / 1_000_000).toFixed(1) + 'M' :
+  n >= 1_000     ? (n / 1_000).toFixed(1) + 'K'     :
+  String(n)
+
+const onView = async (item: HistoryItem) => {
+  try {
+    const data = await insightApi.getByVideoId(item.videoId)
+    analysisStore.setResult(data)
+    await router.push({ name: 'history-view' })
+  } catch (e) {
+    console.error('[onView]', e)
+    error.value = '영상 데이터를 불러오지 못했습니다.'
+  }
+}
+
+const onDelete = async (videoId: string) => {
+  try {
+    await insightApi.deleteCache(videoId)
+    items.value = items.value.filter(i => i.videoId !== videoId)
+  } catch {
+    error.value = '삭제에 실패했습니다.'
+  }
+}
+</script>
+
+<template>
+  <div class="overflow-y-auto flex-1" style="position:relative;z-index:2; padding: 36px 40px; display:flex; flex-direction:column; gap:24px;">
+
+    <!-- 헤더 -->
+    <div style="display:flex; align-items:flex-end; justify-content:space-between;">
+      <div>
+        <h1 style="font-size:18px; font-weight:700; color:var(--text); letter-spacing:-.02em;">{{ M.historyTitle }}</h1>
+        <p style="font-size:13px; color:var(--subtext); margin-top:4px;">
+          {{ M.historySub }}
+        </p>
+      </div>
+
+      <!-- 정렬 드롭다운 -->
+      <div class="sort-dropdown">
+        <button class="sort-trigger" @click="dropdownOpen = !dropdownOpen">
+          {{ SORT_OPTIONS.find(o => o.key === sortKey)?.label }}
+          <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+            :style="{ transform: dropdownOpen ? 'rotate(180deg)' : 'none', transition: 'transform .18s' }">
+            <polyline points="6 9 12 15 18 9"/>
+          </svg>
+        </button>
+        <div v-if="dropdownOpen" class="sort-menu">
+          <button
+            v-for="opt in SORT_OPTIONS"
+            :key="opt.key"
+            class="sort-option"
+            :class="{ active: sortKey === opt.key }"
+            @click="sortKey = opt.key; dropdownOpen = false"
+          >
+            <span class="sort-option-dot" v-if="sortKey === opt.key" />
+            {{ opt.label }}
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <p v-if="error" class="text-sm" style="color: #f87171">{{ error }}</p>
+
+    <!-- 로딩 -->
+    <div v-if="isLoading" class="flex items-center justify-center py-32">
+      <p class="text-sm" style="color: var(--subtext)">{{ M.loading }}</p>
+    </div>
+
+    <!-- 빈 상태 -->
+    <div v-else-if="!items.length" class="flex flex-col items-center justify-center py-32 gap-3">
+      <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+        style="color: var(--subtext)">
+        <circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>
+      </svg>
+      <p class="text-sm" style="color: var(--subtext)">{{ M.emptyHistory }}</p>
+      <button @click="router.push({ name: 'home' })"
+        class="mt-2 text-sm px-4 py-2 rounded-lg font-semibold"
+        style="background: var(--accent); color: #0b0c1e">
+        {{ M.goAnalyze }}
+      </button>
+    </div>
+
+    <!-- 카드 그리드 -->
+    <div v-else class="grid" style="grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px;">
+      <div
+        v-for="item in sortedItems"
+        :key="item.videoId"
+        class="rounded-xl border flex flex-col overflow-hidden"
+        style="background: var(--card); border-color: var(--border)"
+      >
+        <!-- 썸네일 -->
+        <div class="aspect-video bg-slate-800/60 overflow-hidden shrink-0">
+          <img
+            :src="item.thumbnailUrl"
+            :alt="item.title"
+            class="w-full h-full object-cover"
+            @error="($event.target as HTMLImageElement).style.opacity = '0'"
+          />
+        </div>
+
+        <div class="flex flex-col gap-3 flex-1" style="padding: 18px 20px 16px;">
+
+          <!-- 제목 + 채널 -->
+          <div>
+            <p class="text-[14px] font-semibold line-clamp-2" style="color: var(--text); line-height: 1.6;">
+              {{ item.title }}
+            </p>
+            <p class="text-[13px] mt-1.5 font-medium" style="color: var(--subtext)">{{ item.channelTitle }}</p>
+          </div>
+
+          <!-- 분석 날짜 + 댓글 수 -->
+          <div class="flex items-center justify-between text-[12px] font-medium" style="color: var(--subtext)">
+            <span>{{ fmtDate(item.analyzedAt) }}</span>
+            <span>{{ fmtComments(fmtNum(item.analyzedComments)) }}</span>
+          </div>
+
+          <!-- 전체 감정 미니바 -->
+          <div>
+            <div class="flex rounded overflow-hidden h-[6px]">
+              <div :style="`width: ${item.overallSentiment.positive}%; background: var(--positive)`"></div>
+              <div :style="`width: ${100 - item.overallSentiment.positive - item.overallSentiment.negative}%; background: var(--neutral)`"></div>
+              <div :style="`width: ${item.overallSentiment.negative}%; background: var(--negative)`"></div>
+            </div>
+            <div class="flex justify-between mt-2 text-[11px] font-medium">
+              <span style="color: var(--positive)">{{ M.positive }} {{ item.overallSentiment.positive }}%</span>
+              <span style="color: var(--negative)">{{ M.negative }} {{ item.overallSentiment.negative }}%</span>
+            </div>
+          </div>
+
+          <!-- 상위 토픽 -->
+          <div class="flex flex-wrap gap-1.5">
+            <span
+              v-for="topic in item.topTopics"
+              :key="topic"
+              class="topic-pill"
+            >{{ topic }}</span>
+          </div>
+
+        </div>
+
+        <!-- 버튼 (카드 하단에 고정) -->
+        <div class="card-footer">
+          <button
+            @click="onView(item)"
+            class="flex-1 py-2 rounded-lg text-[13px] font-semibold transition-opacity hover:opacity-85 cursor-pointer"
+            style="background: var(--accent); color: #fff"
+          >{{ M.viewBtn }}</button>
+          <button
+            @click="onDelete(item.videoId)"
+            class="delete-btn"
+          >
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+              <polyline points="3 6 5 6 21 6"/>
+              <path d="M19 6l-1 14H6L5 6"/>
+              <path d="M10 11v6M14 11v6"/>
+            </svg>
+            {{ M.deleteBtn }}
+          </button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</template>
+
+<style scoped>
+.sort-dropdown {
+  position: relative;
+  flex-shrink: 0;
+}
+.sort-trigger {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: 'Inter', sans-serif;
+  padding: 6px 12px;
+  border-radius: 8px;
+  border: 0.5px solid var(--border);
+  background: var(--card);
+  color: var(--subtext);
+  cursor: pointer;
+  transition: border-color .15s, color .15s;
+  white-space: nowrap;
+}
+.sort-trigger:hover {
+  color: var(--text);
+  border-color: rgba(123, 94, 248, 0.4);
+}
+.sort-menu {
+  position: absolute;
+  top: calc(100% + 6px);
+  right: 0;
+  min-width: 130px;
+  background: var(--card);
+  border: 0.5px solid var(--border);
+  border-radius: 10px;
+  padding: 4px;
+  z-index: 50;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+}
+.sort-option {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  padding: 7px 10px;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: 'Inter', sans-serif;
+  color: var(--subtext);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  transition: background .12s, color .12s;
+}
+.sort-option:hover {
+  background: rgba(123, 94, 248, 0.07);
+  color: var(--text);
+}
+.sort-option.active {
+  color: var(--accent);
+  font-weight: 600;
+}
+.sort-option-dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--accent);
+  flex-shrink: 0;
+}
+
+.card-footer {
+  display: flex;
+  gap: 8px;
+  padding: 12px 20px 16px;
+}
+
+.topic-pill {
+  font-size: 11px;
+  font-weight: 500;
+  padding: 3px 10px;
+  border-radius: 999px;
+  background: rgba(123, 94, 248, 0.08);
+  color: var(--accent);
+  border: 0.5px solid rgba(123, 94, 248, 0.22);
+  white-space: nowrap;
+  letter-spacing: 0.01em;
+}
+
+.delete-btn {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 7px 14px;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: 'Inter', sans-serif;
+  cursor: pointer;
+  border: 0.5px solid rgba(239, 68, 68, 0.3);
+  background: rgba(239, 68, 68, 0.06);
+  color: #f87171;
+  transition: background 0.15s, border-color 0.15s;
+}
+.delete-btn:hover {
+  background: rgba(239, 68, 68, 0.12);
+  border-color: rgba(239, 68, 68, 0.5);
+}
+</style>

@@ -1,0 +1,136 @@
+{
+  "video": {
+    "videoId": "9sdX516nkEw",
+    "title": "[3분 하이라이트] J조 조별리그 2차전 아르헨티나 VS 오스트리아｜2026 FIFA 북중미 월드컵",
+    "channelTitle": "JTBC Sports",
+    "thumbnailUrl": "https://i.ytimg.com/vi/9sdX516nkEw/maxresdefault.jpg",
+    "publishedAt": "2026-06-23",
+    "viewCount": 449617,
+    "likeCount": 4004,
+    "analyzedComments": 717,
+    "languageRatio": {
+      "ko": 98,
+      "en": 0,
+      "other": 2
+    }
+  },
+  "topics": [
+    {
+      "label": "메시의 위대함",
+      "labelEn": "Messi's Greatness",
+      "mentionCount": 345,
+      "sentiment": {
+        "positive": 66,
+        "neutral": 18,
+        "negative": 16
+      }
+    },
+    {
+      "label": "메시와 호날두의 비교",
+      "labelEn": "Comparison with Ronaldo",
+      "mentionCount": 150,
+      "sentiment": {
+        "positive": 47,
+        "neutral": 24,
+        "negative": 29
+      }
+    },
+    {
+      "label": "해설 및 중계",
+      "labelEn": "Commentary and Broadcasting",
+      "mentionCount": 117,
+      "sentiment": {
+        "positive": 52,
+        "neutral": 21,
+        "negative": 27
+      }
+    },
+    {
+      "label": "개인의 역량",
+      "labelEn": "Individual Skill",
+      "mentionCount": 74,
+      "sentiment": {
+        "positive": 48,
+        "neutral": 22,
+        "negative": 30
+      }
+    },
+    {
+      "label": "미래의 가능성",
+      "labelEn": "Future Potential",
+      "mentionCount": 31,
+      "sentiment": {
+        "positive": 42,
+        "neutral": 39,
+        "negative": 19
+      }
+    }
+  ],
+  "reactionTimeline": [
+    {
+      "label": "0–1h",
+      "positive": 77,
+      "neutral": 37,
+      "negative": 32
+    },
+    {
+      "label": "1–24h",
+      "positive": 301,
+      "neutral": 103,
+      "negative": 118
+    },
+    {
+      "label": "1–7d",
+      "positive": 28,
+      "neutral": 10,
+      "negative": 9
+    },
+    {
+      "label": "7–30d",
+      "positive": 0,
+      "neutral": 0,
+      "negative": 0
+    },
+    {
+      "label": "30d+",
+      "positive": 0,
+      "neutral": 0,
+      "negative": 0
+    }
+  ],
+  "keyInsights": [
+    {
+      "type": "positive",
+      "topic": "메시의 위대함",
+      "comment": "해트트릭하면 호날두 오열할까봐 PK 놓쳐주는 메시의 정(뭉클)",
+      "likes": 1295
+    },
+    {
+      "type": "negative",
+      "topic": "메시의 위대함",
+      "comment": "하 이런 말도안되는 선수의 경기를 직관 한번 못했다는게 한이다.",
+      "likes": 53
+    },
+    {
+      "type": "positive",
+      "topic": "해설 및 중계",
+      "comment": "성캐 해설하니 개재밌네 목소리톤부터 즐겁네",
+      "likes": 494
+    },
+    {
+      "type": "negative",
+      "topic": "메시와 호날두의 비교",
+      "comment": "ㅈㄴ늦네",
+      "likes": 25
+    }
+  ],
+  "analyzedAt": "2026-06-26T10:51:23.034900+00:00",
+  "analysisDuration": 157.6,
+  "tokenUsage": {
+    "input": 33254,
+    "output": 9530,
+    "embedding": 20616,
+    "total": 63400,
+    "estimatedCostUsd": 0.011118
+  }
+}

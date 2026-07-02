@@ -1,0 +1,137 @@
+{
+  "video": {
+    "videoId": "zvqI34sb3sA",
+    "title": "T1 Home Ground - See you at KSPO DOME!",
+    "channelTitle": "T1",
+    "thumbnailUrl": "https://i.ytimg.com/vi/zvqI34sb3sA/maxresdefault.jpg",
+    "publishedAt": "2026-07-02",
+    "viewCount": 26890,
+    "likeCount": 2040,
+    "analyzedComments": 113,
+    "languageRatio": {
+      "ko": 77,
+      "en": 9,
+      "other": 14
+    },
+    "weightedSentiment": 71
+  },
+  "topics": [
+    {
+      "label": "응원",
+      "labelEn": "Support for T1",
+      "mentionCount": 31,
+      "sentiment": {
+        "positive": 68,
+        "neutral": 26,
+        "negative": 6
+      }
+    },
+    {
+      "label": "도란 재계약",
+      "labelEn": "Doran Resigning",
+      "mentionCount": 29,
+      "sentiment": {
+        "positive": 45,
+        "neutral": 31,
+        "negative": 24
+      }
+    },
+    {
+      "label": "티켓팅",
+      "labelEn": "Ticketing",
+      "mentionCount": 29,
+      "sentiment": {
+        "positive": 55,
+        "neutral": 31,
+        "negative": 14
+      }
+    },
+    {
+      "label": "경기 일정",
+      "labelEn": "Match Schedule",
+      "mentionCount": 13,
+      "sentiment": {
+        "positive": 77,
+        "neutral": 23,
+        "negative": 0
+      }
+    },
+    {
+      "label": "머시우승",
+      "labelEn": "Msi Championship",
+      "mentionCount": 11,
+      "sentiment": {
+        "positive": 64,
+        "neutral": 0,
+        "negative": 36
+      }
+    }
+  ],
+  "reactionTimeline": [
+    {
+      "label": "0–1h",
+      "positive": 42,
+      "neutral": 15,
+      "negative": 9
+    },
+    {
+      "label": "1–24h",
+      "positive": 25,
+      "neutral": 14,
+      "negative": 8
+    },
+    {
+      "label": "1–7d",
+      "positive": 0,
+      "neutral": 0,
+      "negative": 0
+    },
+    {
+      "label": "7–30d",
+      "positive": 0,
+      "neutral": 0,
+      "negative": 0
+    },
+    {
+      "label": "30d+",
+      "positive": 0,
+      "neutral": 0,
+      "negative": 0
+    }
+  ],
+  "keyInsights": [
+    {
+      "type": "positive",
+      "topic": "머시우승",
+      "comment": "BLG잡고 므시우승부터 가자!!!",
+      "likes": 255
+    },
+    {
+      "type": "negative",
+      "topic": "도란 재계약",
+      "comment": "도란 재계약 기대하고 있습니다. 제발 리사인 해줘.",
+      "likes": 11
+    },
+    {
+      "type": "positive",
+      "topic": "티켓팅",
+      "comment": "저 이번에 드디어 갈 수 있게 되었어요!!!! 꼭 티켓팅 성공하길!!!",
+      "likes": 95
+    },
+    {
+      "type": "negative",
+      "topic": "응원",
+      "comment": "DORAN ✍️🙏😭",
+      "likes": 5
+    }
+  ],
+  "analyzedAt": "2026-07-02T08:52:00.975775+00:00",
+  "analysisDuration": 35.6,
+  "tokenUsage": {
+    "input": 6579,
+    "output": 1875,
+    "embedding": 1979,
+    "total": 10433,
+    "estimatedCostUsd": 0.002151
+  }
+}

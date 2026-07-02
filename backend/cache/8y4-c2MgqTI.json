@@ -1,0 +1,129 @@
+{
+  "video": {
+    "videoId": "8y4-c2MgqTI",
+    "title": "고수는 빼주기 (that's red, red) | 2026 베트남 팬페스트 비하인드 1부",
+    "channelTitle": "Hanwha Life Esports",
+    "thumbnailUrl": "https://i.ytimg.com/vi/8y4-c2MgqTI/sddefault.jpg",
+    "publishedAt": "2026-06-23",
+    "viewCount": 83266,
+    "likeCount": 4113,
+    "analyzedComments": 491,
+    "languageRatio": {
+      "ko": 92,
+      "en": 2,
+      "other": 6
+    }
+  },
+  "topics": [
+    {
+      "label": "먹방 콘텐츠",
+      "mentionCount": 206,
+      "sentiment": {
+        "positive": 64,
+        "neutral": 33,
+        "negative": 3
+      }
+    },
+    {
+      "label": "밥친구 탄생",
+      "mentionCount": 133,
+      "sentiment": {
+        "positive": 67,
+        "neutral": 31,
+        "negative": 2
+      }
+    },
+    {
+      "label": "구마유시와 제카의 관계",
+      "mentionCount": 64,
+      "sentiment": {
+        "positive": 73,
+        "neutral": 25,
+        "negative": 2
+      }
+    },
+    {
+      "label": "노피디와의 케미",
+      "mentionCount": 57,
+      "sentiment": {
+        "positive": 74,
+        "neutral": 23,
+        "negative": 4
+      }
+    },
+    {
+      "label": "훈련 및 운동",
+      "mentionCount": 31,
+      "sentiment": {
+        "positive": 74,
+        "neutral": 23,
+        "negative": 3
+      }
+    }
+  ],
+  "reactionTimeline": [
+    {
+      "label": "0–1h",
+      "positive": 167,
+      "neutral": 66,
+      "negative": 7
+    },
+    {
+      "label": "1–6h",
+      "positive": 119,
+      "neutral": 57,
+      "negative": 5
+    },
+    {
+      "label": "6–12h",
+      "positive": 22,
+      "neutral": 5,
+      "negative": 0
+    },
+    {
+      "label": "12–24h",
+      "positive": 12,
+      "neutral": 4,
+      "negative": 0
+    },
+    {
+      "label": "1–3d",
+      "positive": 13,
+      "neutral": 13,
+      "negative": 1
+    },
+    {
+      "label": "3–7d",
+      "positive": 0,
+      "neutral": 0,
+      "negative": 0
+    }
+  ],
+  "keyInsights": [
+    {
+      "type": "positive",
+      "topic": "먹방 콘텐츠",
+      "comment": "8:44 새벽 5시에 같이 성심당 줄 서자는 카나비 ... 얼마나 먹고 싶은지 감도 안 옴 ㅋㅋㅋㅋㅋ",
+      "likes": 769
+    },
+    {
+      "type": "negative",
+      "topic": "훈련 및 운동",
+      "comment": "나 정말 한화생명 경기 얼른 보고싶어서 미치겠다.. 그 어떤 경기도 내 도파민에 충족이 안돼",
+      "likes": 80
+    },
+    {
+      "type": "positive",
+      "topic": "구마유시와 제카의 관계",
+      "comment": "거의 구마유시 브이로그임 ㅋㅋㅋㅋㅋㅋ",
+      "likes": 733
+    },
+    {
+      "type": "negative",
+      "topic": "밥친구 탄생",
+      "comment": "14:36 그놈의 느억맘 ㅠㅠ",
+      "likes": 70
+    }
+  ],
+  "analyzedAt": "2026-06-25T09:09:32.937516+00:00"
+}

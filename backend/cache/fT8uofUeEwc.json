@@ -1,0 +1,129 @@
+{
+  "video": {
+    "videoId": "fT8uofUeEwc",
+    "title": "월즈를 우승했으니 공약을 지키러 왔습니다.",
+    "channelTitle": "T1",
+    "thumbnailUrl": "https://i.ytimg.com/vi/fT8uofUeEwc/maxresdefault.jpg",
+    "publishedAt": "2026-01-03",
+    "viewCount": 1030350,
+    "likeCount": 18229,
+    "analyzedComments": 611,
+    "languageRatio": {
+      "ko": 79,
+      "en": 6,
+      "other": 15
+    }
+  },
+  "topics": [
+    {
+      "label": "도란의 귀여움",
+      "mentionCount": 199,
+      "sentiment": {
+        "positive": 73,
+        "neutral": 22,
+        "negative": 5
+      }
+    },
+    {
+      "label": "푸파 실패에 대한 웃음",
+      "mentionCount": 149,
+      "sentiment": {
+        "positive": 60,
+        "neutral": 26,
+        "negative": 14
+      }
+    },
+    {
+      "label": "팬들의 기대감",
+      "mentionCount": 130,
+      "sentiment": {
+        "positive": 58,
+        "neutral": 34,
+        "negative": 8
+      }
+    },
+    {
+      "label": "영상 편집 및 구성",
+      "mentionCount": 79,
+      "sentiment": {
+        "positive": 43,
+        "neutral": 46,
+        "negative": 11
+      }
+    },
+    {
+      "label": "도란의 자신감",
+      "mentionCount": 54,
+      "sentiment": {
+        "positive": 54,
+        "neutral": 33,
+        "negative": 13
+      }
+    }
+  ],
+  "reactionTimeline": [
+    {
+      "label": "0–1h",
+      "positive": 118,
+      "neutral": 53,
+      "negative": 16
+    },
+    {
+      "label": "1–6h",
+      "positive": 95,
+      "neutral": 49,
+      "negative": 12
+    },
+    {
+      "label": "6–12h",
+      "positive": 36,
+      "neutral": 17,
+      "negative": 5
+    },
+    {
+      "label": "12–24h",
+      "positive": 37,
+      "neutral": 21,
+      "negative": 5
+    },
+    {
+      "label": "1–3d",
+      "positive": 33,
+      "neutral": 14,
+      "negative": 9
+    },
+    {
+      "label": "3–7d",
+      "positive": 54,
+      "neutral": 27,
+      "negative": 10
+    }
+  ],
+  "keyInsights": [
+    {
+      "type": "positive",
+      "topic": "푸파 실패에 대한 웃음",
+      "comment": "푸파 실패한 본인한테 실망해서 잠깐 기분 안 좋아진 게 존니 웃김",
+      "likes": 3530
+    },
+    {
+      "type": "negative",
+      "topic": "도란의 귀여움",
+      "comment": "진짜 개어이없는점은 아직도 짜파게티처럼 뜨거운거 아니고 비빔면이었으면 할 수 있었을거라 생각하는거같아서 황당함 ㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+      "likes": 6605
+    },
+    {
+      "type": "positive",
+      "topic": "도란의 자신감",
+      "comment": "도대체 어디서 먹방 자신감을 얻어온거야ㅋㅋㅋㅋㅋ",
+      "likes": 2800
+    },
+    {
+      "type": "negative",
+      "topic": "팬들의 기대감",
+      "comment": "6:14 저 얇은 몸통에 들어가겠냐고...",
+      "likes": 321
+    }
+  ],
+  "analyzedAt": "2026-06-25T09:13:36.455643+00:00"
+}

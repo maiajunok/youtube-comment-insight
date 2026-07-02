@@ -1,0 +1,84 @@
+@import "tailwindcss";
+
+/* ── Dark (default) ── */
+:root {
+  --bg:              #0f0f13;
+  --sidebar-bg:      #13131e;
+  --card:            #1a1a24;
+  --border:          #333348;
+  --text:            #e8e8f0;
+  --subtext:         #aaaabc;
+  --dim:             #888899;
+  --accent:          #7b5ef8;
+  --positive:        #22c55e;
+  --neutral:         #64748b;
+  --negative:        #f43f5e;
+  --card-padding:    22px;
+  --gap:             16px;
+  --radius:          12px;
+  /* ui helpers */
+  --sidebar-border:  rgba(255, 255, 255, 0.06);
+  --topbar-border:   rgba(255, 255, 255, 0.06);
+  --search-bg:       rgba(255, 255, 255, 0.04);
+  --search-border:   rgba(255, 255, 255, 0.1);
+  --chip-color:      rgba(255, 255, 255, 0.38);
+  --chip-border:     rgba(255, 255, 255, 0.08);
+  --chip-active:     rgba(255, 255, 255, 0.75);
+  --chip-active-bd:  rgba(255, 255, 255, 0.2);
+  --deco-stroke:     rgba(255, 255, 255, 0.04);
+  --outline-stroke:  rgba(255, 255, 255, 0.14);
+  --divider-line:    rgba(255, 255, 255, 0.06);
+  --card-hover:      rgba(255, 255, 255, 0.02);
+  --door-bg:         #1a1a24;
+}
+
+/* ── Light ── */
+[data-theme="light"] {
+  --bg:              #f4f4f8;
+  --sidebar-bg:      #ecedf6;
+  --card:            #ffffff;
+  --border:          #e0e0eb;
+  --text:            #1a1a2e;
+  --subtext:         #666680;
+  --dim:             #999aaa;
+  --accent:          #7b5ef8;
+  --positive:        #16a34a;
+  --neutral:         #94a3b8;
+  --negative:        #dc2626;
+  /* ui helpers */
+  --sidebar-border:  rgba(0, 0, 0, 0.07);
+  --topbar-border:   rgba(0, 0, 0, 0.07);
+  --search-bg:       rgba(0, 0, 0, 0.04);
+  --search-border:   rgba(0, 0, 0, 0.1);
+  --chip-color:      rgba(26, 26, 46, 0.35);
+  --chip-border:     rgba(0, 0, 0, 0.1);
+  --chip-active:     rgba(26, 26, 46, 0.75);
+  --chip-active-bd:  rgba(0, 0, 0, 0.18);
+  --deco-stroke:     rgba(0, 0, 0, 0.04);
+  --outline-stroke:  rgba(26, 26, 46, 0.14);
+  --divider-line:    rgba(0, 0, 0, 0.07);
+  --card-hover:      rgba(0, 0, 0, 0.02);
+  --door-bg:         #ecedf6;
+}
+
+html { scrollbar-gutter: stable; }
+
+/* 0.5px hairline borders — override Tailwind's 1px default */
+.border   { border-width: 0.5px; }
+.border-b { border-bottom-width: 0.5px; }
+.border-t { border-top-width: 0.5px; }
+.border-l { border-left-width: 0.5px; }
+.border-r { border-right-width: 0.5px; }
+.border-x { border-left-width: 0.5px; border-right-width: 0.5px; }
+.border-y { border-top-width: 0.5px; border-bottom-width: 0.5px; }
+
+@layer base {
+  html, body {
+    background: var(--bg);
+    color: var(--text);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.55;
+    transition: background 0.2s, color 0.2s;
+  }
+}

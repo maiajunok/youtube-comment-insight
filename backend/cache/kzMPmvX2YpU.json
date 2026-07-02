@@ -1,0 +1,137 @@
+{
+  "video": {
+    "videoId": "kzMPmvX2YpU",
+    "title": "한국, 북중미월드컵 32강 탈락 확정...콩고, 우즈벡에 역전승 / YTN",
+    "channelTitle": " YTN",
+    "thumbnailUrl": "https://i.ytimg.com/vi/kzMPmvX2YpU/maxresdefault.jpg",
+    "publishedAt": "2026-06-28",
+    "viewCount": 12758,
+    "likeCount": 142,
+    "analyzedComments": 196,
+    "languageRatio": {
+      "ko": 95,
+      "en": 1,
+      "other": 4
+    },
+    "weightedSentiment": -32
+  },
+  "topics": [
+    {
+      "label": "홍명보 감독 비판",
+      "labelEn": "Criticism of Hong Myung-bo",
+      "mentionCount": 77,
+      "sentiment": {
+        "positive": 12,
+        "neutral": 6,
+        "negative": 82
+      }
+    },
+    {
+      "label": "32강 탈락에 대한 불만",
+      "labelEn": "Discontent with 32nd Round Elimination",
+      "mentionCount": 47,
+      "sentiment": {
+        "positive": 15,
+        "neutral": 21,
+        "negative": 64
+      }
+    },
+    {
+      "label": "축구협회 문제",
+      "labelEn": "Football Association Issues",
+      "mentionCount": 37,
+      "sentiment": {
+        "positive": 22,
+        "neutral": 27,
+        "negative": 51
+      }
+    },
+    {
+      "label": "한국 축구 발전 문제",
+      "labelEn": "Korean Football Development Issues",
+      "mentionCount": 21,
+      "sentiment": {
+        "positive": 14,
+        "neutral": 14,
+        "negative": 71
+      }
+    },
+    {
+      "label": "선수들에 대한 지적",
+      "labelEn": "Critique of Players",
+      "mentionCount": 14,
+      "sentiment": {
+        "positive": 14,
+        "neutral": 21,
+        "negative": 64
+      }
+    }
+  ],
+  "reactionTimeline": [
+    {
+      "label": "0–1h",
+      "positive": 29,
+      "neutral": 31,
+      "negative": 136
+    },
+    {
+      "label": "1–24h",
+      "positive": 0,
+      "neutral": 0,
+      "negative": 0
+    },
+    {
+      "label": "1–7d",
+      "positive": 0,
+      "neutral": 0,
+      "negative": 0
+    },
+    {
+      "label": "7–30d",
+      "positive": 0,
+      "neutral": 0,
+      "negative": 0
+    },
+    {
+      "label": "30d+",
+      "positive": 0,
+      "neutral": 0,
+      "negative": 0
+    }
+  ],
+  "keyInsights": [
+    {
+      "type": "positive",
+      "topic": "32강 탈락에 대한 불만",
+      "comment": "손흥민, 이강인, 김민재 데리고 그 어려운걸 해냈네.",
+      "likes": 57
+    },
+    {
+      "type": "negative",
+      "topic": "한국 축구 발전 문제",
+      "comment": "안정환: 4년전 해설은퇴, 예능 줄이고 지도자 과정 밟겠다 했으나 예능에 더 집중함. 홍명보 비판하면 되지도 않는 것들이 떠든다며 쉴드쳐줌\r\n한준희: 축협 부회장으로 채용되고 연봉 1억 가까이 받으니까 축협 비판 아예 안함\r\n현영민: 골때녀 감독, 축협 전강위원장이며 이민성을 U23 대표팀 감독에 발탁 (U23 이민성호는 키르기스스탄, 베트남한테도 패배함)\r\n이근호: 골때녀 감독, 쿠플 해설위원, 선수협 회장인데 해설하면서 축협, 홍명보 비판 절대 안함\r\n이운재, 김형범: \"차기 국대 감독 해외파 선임? 웃기지마!\", \"국내 감독이어도 벤투만큼 했을 것\"\r\n축구계: 1500억 세금으로 호의호식하며 K리그에서 승승장구 하던 포옛 사단이 자신들과 비교되니 합심해서 인종차별 프레임 씌워 쫒아냄\r\n예능과 유튜버가 본업, 축구는 부업이고, 한국 축구 발전보다 자기들 밥그릇 지키는게 더 중요함. 자기 객관화도 안됨. 이런 인간들이 모여서 참사를 만든거.",
+      "likes": 105
+    },
+    {
+      "type": "positive",
+      "topic": "홍명보 감독 비판",
+      "comment": "에라이~ 오히려 잘됐다. 간신히 붙어 수치를 당하느니\n그냥 집에 오는게 정신건강에 더 이로울듯",
+      "likes": 10
+    },
+    {
+      "type": "negative",
+      "topic": "축구협회 문제",
+      "comment": "축협 세금 다 토해내라...",
+      "likes": 71
+    }
+  ],
+  "analyzedAt": "2026-06-28T02:48:53.579782+00:00",
+  "analysisDuration": 41.2,
+  "tokenUsage": {
+    "input": 17193,
+    "output": 2278,
+    "embedding": 7731,
+    "total": 27202,
+    "estimatedCostUsd": 0.0041
+  }
+}

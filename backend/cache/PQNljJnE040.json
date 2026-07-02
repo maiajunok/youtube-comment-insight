@@ -1,0 +1,128 @@
+{
+  "video": {
+    "title": "케리아 X 크리시 코스탄자 역대급 노래방 듀엣",
+    "channelTitle": "T1",
+    "thumbnailUrl": "https://i.ytimg.com/vi/PQNljJnE040/maxresdefault.jpg",
+    "publishedAt": "2026-06-01",
+    "viewCount": 343621,
+    "likeCount": 15921,
+    "analyzedComments": 1006,
+    "languageRatio": {
+      "ko": 55,
+      "en": 23,
+      "other": 22
+    }
+  },
+  "topics": [
+    {
+      "label": "팬들의 예상 밖 반응",
+      "mentionCount": 378,
+      "sentiment": {
+        "positive": 54,
+        "neutral": 42,
+        "negative": 3
+      }
+    },
+    {
+      "label": "케리아의 노래 실력",
+      "mentionCount": 225,
+      "sentiment": {
+        "positive": 67,
+        "neutral": 27,
+        "negative": 7
+      }
+    },
+    {
+      "label": "노래방에서의 상황",
+      "mentionCount": 205,
+      "sentiment": {
+        "positive": 50,
+        "neutral": 40,
+        "negative": 9
+      }
+    },
+    {
+      "label": "크리시의 매력",
+      "mentionCount": 145,
+      "sentiment": {
+        "positive": 72,
+        "neutral": 26,
+        "negative": 2
+      }
+    },
+    {
+      "label": "콜라보레이션의 신기함",
+      "mentionCount": 53,
+      "sentiment": {
+        "positive": 47,
+        "neutral": 45,
+        "negative": 8
+      }
+    }
+  ],
+  "reactionTimeline": [
+    {
+      "label": "0–1h",
+      "positive": 151,
+      "neutral": 110,
+      "negative": 7
+    },
+    {
+      "label": "1–6h",
+      "positive": 195,
+      "neutral": 119,
+      "negative": 19
+    },
+    {
+      "label": "6–12h",
+      "positive": 60,
+      "neutral": 32,
+      "negative": 2
+    },
+    {
+      "label": "12–24h",
+      "positive": 38,
+      "neutral": 42,
+      "negative": 5
+    },
+    {
+      "label": "1–3d",
+      "positive": 81,
+      "neutral": 43,
+      "negative": 12
+    },
+    {
+      "label": "3–7d",
+      "positive": 63,
+      "neutral": 17,
+      "negative": 9
+    }
+  ],
+  "keyInsights": [
+    {
+      "type": "positive",
+      "topic": "콜라보레이션의 신기함",
+      "comment": "ㄹㅇ 상상도 못한 콜라보ㅋㅋㅋㅋㅋㅋㅋ",
+      "likes": 2569
+    },
+    {
+      "type": "negative",
+      "topic": "노래방에서의 상황",
+      "comment": "아니 이건먼뎈ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+      "likes": 2
+    },
+    {
+      "type": "positive",
+      "topic": "노래방에서의 상황",
+      "comment": "아니 이건 또 뭐야ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+      "likes": 1683
+    },
+    {
+      "type": "negative",
+      "topic": "팬들의 예상 밖 반응",
+      "comment": "얼마나 성공하려고 하는지 감도 안오네",
+      "likes": 1
+    }
+  ],
+  "analyzedAt": "2026-06-23T16:49:18.526781+00:00"
+}

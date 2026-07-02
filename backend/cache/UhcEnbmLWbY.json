@@ -1,0 +1,142 @@
+{
+  "video": {
+    "videoId": "UhcEnbmLWbY",
+    "title": "32강부터 월드컵 못 본다고?..\"JTBC 중계권료 못 냈다\" 실체는? (자막뉴스) / SBS",
+    "channelTitle": "SBS 뉴스",
+    "thumbnailUrl": "https://i.ytimg.com/vi/UhcEnbmLWbY/maxresdefault.jpg",
+    "publishedAt": "2026-06-24",
+    "viewCount": 368533,
+    "likeCount": 1693,
+    "analyzedComments": 869,
+    "languageRatio": {
+      "ko": 98,
+      "en": 0,
+      "other": 2
+    }
+  },
+  "topics": [
+    {
+      "label": "JTBC 비판",
+      "labelEn": "Criticism of JTBC",
+      "mentionCount": 367,
+      "sentiment": {
+        "positive": 16,
+        "neutral": 43,
+        "negative": 41
+      }
+    },
+    {
+      "label": "방송사 폐국 요청",
+      "labelEn": "Request for Broadcasting Station Shutdown",
+      "mentionCount": 214,
+      "sentiment": {
+        "positive": 16,
+        "neutral": 40,
+        "negative": 44
+      }
+    },
+    {
+      "label": "중계권 문제",
+      "labelEn": "Broadcast Rights Issues",
+      "mentionCount": 141,
+      "sentiment": {
+        "positive": 11,
+        "neutral": 43,
+        "negative": 46
+      }
+    },
+    {
+      "label": "축구에 대한 무관심",
+      "labelEn": "Indifference to Football",
+      "mentionCount": 100,
+      "sentiment": {
+        "positive": 7,
+        "neutral": 38,
+        "negative": 55
+      }
+    },
+    {
+      "label": "국민의 시청권",
+      "labelEn": "Public Viewing Rights",
+      "mentionCount": 47,
+      "sentiment": {
+        "positive": 21,
+        "neutral": 36,
+        "negative": 43
+      }
+    }
+  ],
+  "reactionTimeline": [
+    {
+      "label": "0–1h",
+      "positive": 3,
+      "neutral": 15,
+      "negative": 6
+    },
+    {
+      "label": "1–6h",
+      "positive": 36,
+      "neutral": 128,
+      "negative": 140
+    },
+    {
+      "label": "6–12h",
+      "positive": 51,
+      "neutral": 135,
+      "negative": 160
+    },
+    {
+      "label": "12–24h",
+      "positive": 10,
+      "neutral": 30,
+      "negative": 33
+    },
+    {
+      "label": "1–3d",
+      "positive": 24,
+      "neutral": 51,
+      "negative": 47
+    },
+    {
+      "label": "3–7d",
+      "positive": 0,
+      "neutral": 0,
+      "negative": 0
+    }
+  ],
+  "keyInsights": [
+    {
+      "type": "positive",
+      "topic": "국민의 시청권",
+      "comment": "의도하진 않았지만 이런 식으로 중계를 중단하는 것도 국민 정서에는 큰 도움이 될 듯. 어차피 16강에도 못 올라갈텐데 미리부터 예방주사를 맞는거지.",
+      "likes": 78
+    },
+    {
+      "type": "negative",
+      "topic": "축구에 대한 무관심",
+      "comment": "올림픽부터 욕심부리더니 ㅉㅉ",
+      "likes": 134
+    },
+    {
+      "type": "positive",
+      "topic": "JTBC 비판",
+      "comment": "투표용지 부족에 월컵도 저대로 못봐 대단한 나라다 😂😂",
+      "likes": 47
+    },
+    {
+      "type": "negative",
+      "topic": "방송사 폐국 요청",
+      "comment": "그냥 안볼테니까 세금지원은 꿈도 꾸지마라",
+      "likes": 117
+    }
+  ],
+  "analyzedAt": "2026-06-26T10:02:10.869230+00:00",
+  "analysisDuration": 195.4,
+  "tokenUsage": {
+    "input": 42774,
+    "output": 10241,
+    "embedding": 29899,
+    "total": 82914,
+    "estimatedCostUsd": 0.013159
+  }
+}

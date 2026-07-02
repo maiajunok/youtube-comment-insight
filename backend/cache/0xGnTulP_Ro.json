@@ -1,0 +1,136 @@
+{
+  "video": {
+    "videoId": "0xGnTulP_Ro",
+    "title": "한국, 조 3위 순위서 8위까지 하락…가물가물 32강행 / KBS 2026 북중미 월드컵 2026.06.27.",
+    "channelTitle": "KBS News",
+    "thumbnailUrl": "https://i.ytimg.com/vi/0xGnTulP_Ro/maxresdefault.jpg",
+    "publishedAt": "2026-06-27",
+    "viewCount": 104544,
+    "likeCount": 579,
+    "analyzedComments": 811,
+    "languageRatio": {
+      "ko": 99,
+      "en": 0,
+      "other": 1
+    }
+  },
+  "topics": [
+    {
+      "label": "기대와 실망",
+      "labelEn": "Expectations and Disappointments",
+      "mentionCount": 218,
+      "sentiment": {
+        "positive": 11,
+        "neutral": 13,
+        "negative": 76
+      }
+    },
+    {
+      "label": "탈락 희망",
+      "labelEn": "Hope for Elimination",
+      "mentionCount": 164,
+      "sentiment": {
+        "positive": 7,
+        "neutral": 9,
+        "negative": 84
+      }
+    },
+    {
+      "label": "대표팀 성적 부진",
+      "labelEn": "Poor Performance of the National Team",
+      "mentionCount": 154,
+      "sentiment": {
+        "positive": 12,
+        "neutral": 10,
+        "negative": 78
+      }
+    },
+    {
+      "label": "축구팬의 분노",
+      "labelEn": "Anger of Football Fans",
+      "mentionCount": 145,
+      "sentiment": {
+        "positive": 8,
+        "neutral": 12,
+        "negative": 81
+      }
+    },
+    {
+      "label": "감독 비판",
+      "labelEn": "Criticism of the Coach",
+      "mentionCount": 130,
+      "sentiment": {
+        "positive": 10,
+        "neutral": 15,
+        "negative": 75
+      }
+    }
+  ],
+  "reactionTimeline": [
+    {
+      "label": "0–1h",
+      "positive": 15,
+      "neutral": 20,
+      "negative": 121
+    },
+    {
+      "label": "1–24h",
+      "positive": 63,
+      "neutral": 74,
+      "negative": 518
+    },
+    {
+      "label": "1–7d",
+      "positive": 0,
+      "neutral": 0,
+      "negative": 0
+    },
+    {
+      "label": "7–30d",
+      "positive": 0,
+      "neutral": 0,
+      "negative": 0
+    },
+    {
+      "label": "30d+",
+      "positive": 0,
+      "neutral": 0,
+      "negative": 0
+    }
+  ],
+  "keyInsights": [
+    {
+      "type": "positive",
+      "topic": "대표팀 성적 부진",
+      "comment": "..... 다들 너무 열심히하는게 느껴저서 부럽더라",
+      "likes": 108
+    },
+    {
+      "type": "negative",
+      "topic": "기대와 실망",
+      "comment": "32강을 기대하느니\n오늘 로또를 사라 ㅋㅋㅋ",
+      "likes": 535
+    },
+    {
+      "type": "positive",
+      "topic": "기대와 실망",
+      "comment": "오늘 이란은 ㅈㄴ 잘했고 멋졌다",
+      "likes": 51
+    },
+    {
+      "type": "negative",
+      "topic": "감독 비판",
+      "comment": "우리 진짜 양심적으로 이러지 말자 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+      "likes": 404
+    }
+  ],
+  "analyzedAt": "2026-06-27T14:27:35.717165+00:00",
+  "analysisDuration": 177.9,
+  "tokenUsage": {
+    "input": 45123,
+    "output": 9148,
+    "embedding": 33592,
+    "total": 87863,
+    "estimatedCostUsd": 0.012929
+  }
+}

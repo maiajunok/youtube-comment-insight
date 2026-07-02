@@ -1,0 +1,129 @@
+{
+  "video": {
+    "videoId": "70AEk7u1MF0",
+    "title": "페이슨 청소기",
+    "channelTitle": "T1",
+    "thumbnailUrl": "https://i.ytimg.com/vi/70AEk7u1MF0/maxresdefault.jpg",
+    "publishedAt": "2026-06-16",
+    "viewCount": 240433,
+    "likeCount": 4312,
+    "analyzedComments": 214,
+    "languageRatio": {
+      "ko": 83,
+      "en": 8,
+      "other": 8
+    }
+  },
+  "topics": [
+    {
+      "label": "우원페(선수) 칭찬",
+      "mentionCount": 93,
+      "sentiment": {
+        "positive": 74,
+        "neutral": 24,
+        "negative": 2
+      }
+    },
+    {
+      "label": "페이즈 팀에 대한 긍정적 의견",
+      "mentionCount": 44,
+      "sentiment": {
+        "positive": 77,
+        "neutral": 23,
+        "negative": 0
+      }
+    },
+    {
+      "label": "MSI(미드 시즌 인비테이셔널) 기대",
+      "mentionCount": 34,
+      "sentiment": {
+        "positive": 62,
+        "neutral": 32,
+        "negative": 6
+      }
+    },
+    {
+      "label": "팀워크",
+      "mentionCount": 27,
+      "sentiment": {
+        "positive": 56,
+        "neutral": 41,
+        "negative": 4
+      }
+    },
+    {
+      "label": "선수의 외모",
+      "mentionCount": 16,
+      "sentiment": {
+        "positive": 62,
+        "neutral": 31,
+        "negative": 6
+      }
+    }
+  ],
+  "reactionTimeline": [
+    {
+      "label": "0–1h",
+      "positive": 54,
+      "neutral": 13,
+      "negative": 1
+    },
+    {
+      "label": "1–6h",
+      "positive": 55,
+      "neutral": 22,
+      "negative": 2
+    },
+    {
+      "label": "6–12h",
+      "positive": 15,
+      "neutral": 11,
+      "negative": 0
+    },
+    {
+      "label": "12–24h",
+      "positive": 14,
+      "neutral": 6,
+      "negative": 2
+    },
+    {
+      "label": "1–3d",
+      "positive": 7,
+      "neutral": 6,
+      "negative": 1
+    },
+    {
+      "label": "3–7d",
+      "positive": 4,
+      "neutral": 1,
+      "negative": 0
+    }
+  ],
+  "keyInsights": [
+    {
+      "type": "positive",
+      "topic": "팀워크",
+      "comment": "이번에 진짜 폼 완전 미쳤었습니다. 대전에서 만나요!!!! 므시 우승 가즈아!!!!",
+      "likes": 382
+    },
+    {
+      "type": "negative",
+      "topic": "우원페(선수) 칭찬",
+      "comment": "Q골카씹는거 진짜 벽느꼈습니다",
+      "likes": 13
+    },
+    {
+      "type": "positive",
+      "topic": "페이즈 팀에 대한 긍정적 의견",
+      "comment": "페이즈는 진짜 보물이다",
+      "likes": 274
+    },
+    {
+      "type": "negative",
+      "topic": "MSI(미드 시즌 인비테이셔널) 기대",
+      "comment": "노잼 청소기 시비르를 저렇게 맛있게 할수있는거구나..젠지전 시비르 스펠쉴드 쓰는거 진짜 경이롭던데 \n어떻게 저렇게 다양하게 다 잘하지.;;\n청소기 시비르 ,똥챔 아펠 , 노딜 애쉬 , 유통기한 칼리스타 , 주식같은 케틀 내가 하면 다 븅시같은데 하나같이 최상위 프로씬에서 캐리를하다니...",
+      "likes": 3
+    }
+  ],
+  "analyzedAt": "2026-06-25T03:26:54.333503+00:00"
+}
