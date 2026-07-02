@@ -1,10 +1,12 @@
 # YouTube Comment Insight Analyzer
 **AI-powered YouTube comment sentiment analysis dashboard**
-<img width="2878" height="1452" alt="image" src="https://github.com/user-attachments/assets/2d28a4b4-38f3-484a-bf84-c64d23cd9392" />
+
 [![Vue](https://img.shields.io/badge/Vue-3.5-42b883?logo=vue.js)](https://vuejs.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-Python-009688?logo=fastapi)](https://fastapi.tiangolo.com/)
 [![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4o--mini-412991?logo=openai)](https://openai.com/)
 [![License](https://img.shields.io/badge/license-Private-red)](/)
+
+<img width="2878" height="1452" alt="FindComments dashboard screenshot" src="https://github.com/user-attachments/assets/2d28a4b4-38f3-484a-bf84-c64d23cd9392" />
 
 ---
 
@@ -145,7 +147,7 @@ Deployed as two separate services:
 
 `OPENAI_API_KEY` / `YOUTUBE_API_KEY` are intentionally **not** set on the deployed backend — visitors supply their own via the Settings page (see BYOK policy above). The `backend/cache/` directory ships with the repo so History/Stats/Compare work immediately on a fresh deploy with zero keys.
 
-**Live demo:** _add your deployed URL here_
+**Live demo:** https://youtube-comment-insight-orcin.vercel.app
 
 ---
 
@@ -366,7 +368,7 @@ npm run dev
 
 배포된 백엔드에는 의도적으로 `OPENAI_API_KEY`/`YOUTUBE_API_KEY`를 설정하지 않습니다 — 방문자가 설정 페이지에서 본인 키를 입력합니다(위 BYOK 정책 참고). `backend/cache/` 디렉터리가 저장소에 함께 포함되어 있어 키 없이도 배포 직후 History/Stats/Compare가 바로 동작합니다.
 
-**배포 주소:** _배포 후 URL을 여기에 추가하세요_
+**배포 주소:** https://youtube-comment-insight-orcin.vercel.app
 
 ---
 
