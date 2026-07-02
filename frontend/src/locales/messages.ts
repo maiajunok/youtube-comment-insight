@@ -157,6 +157,9 @@ export interface UIMessages {
   reportGeneratedOn: string
   overallSentimentDistribution: string
   reportFooterNote: string
+  // App footer
+  footerDescription: string
+  footerDisclaimer: string
 }
 
 export const messages: Record<Lang, UIMessages> = {
@@ -300,6 +303,8 @@ export const messages: Record<Lang, UIMessages> = {
     reportGeneratedOn: '생성일',
     overallSentimentDistribution: '전체 감정 분포',
     reportFooterNote: '유튜브 공개 댓글 API 기반 분석',
+    footerDescription: '유튜브 댓글을 AI로 분석해 감정과 반응을 한눈에 보여주는 대시보드입니다. 서초구청 × T1 e스포츠 개발자 아카데미 과정에서 제작했습니다.',
+    footerDisclaimer: '현재 분석 결과의 정확도는 검증되지 않았습니다. GPT 기반 분류이므로 실제와 다를 수 있습니다.',
   },
 
   en: {
@@ -442,6 +447,8 @@ export const messages: Record<Lang, UIMessages> = {
     reportGeneratedOn: 'Generated',
     overallSentimentDistribution: 'Overall Sentiment Distribution',
     reportFooterNote: 'Based on public YouTube comments via API',
+    footerDescription: 'An AI-powered dashboard that analyzes YouTube comments to surface sentiment and reactions at a glance. Built during the Seocho e-Sports Developer Academy (Seocho District Office × T1 Esports).',
+    footerDisclaimer: 'The accuracy of current analysis results has not been independently validated. Since classification is GPT-based, it may differ from the ground truth.',
   },
 
   zh: {
@@ -584,6 +591,8 @@ export const messages: Record<Lang, UIMessages> = {
     reportGeneratedOn: '生成日期',
     overallSentimentDistribution: '整体情感分布',
     reportFooterNote: '基于YouTube公开评论API的分析',
+    footerDescription: '一个用AI分析YouTube评论、一目了然展示情感与反应的仪表盘。制作于首尔瑞草区电竞开发者学院（瑞草区厅 × T1 Esports）课程期间。',
+    footerDisclaimer: '当前分析结果的准确性尚未经过独立验证。由于是基于GPT的分类，可能与实际情况有所出入。',
   },
 
   ja: {
@@ -726,5 +735,7 @@ export const messages: Record<Lang, UIMessages> = {
     reportGeneratedOn: '生成日',
     overallSentimentDistribution: '全体の感情分布',
     reportFooterNote: 'YouTube公開コメントAPIに基づく分析',
+    footerDescription: 'YouTubeコメントをAIで分析し、感情と反応を一目で見せるダッシュボードです。瑞草eスポーツ開発者アカデミー（瑞草区庁 × T1 Esports）の課程で制作しました。',
+    footerDisclaimer: '現在の分析結果の正確性はまだ検証されていません。GPTベースの分類のため、実際とは異なる場合があります。',
   },
 }

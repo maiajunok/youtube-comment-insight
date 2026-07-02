@@ -8,6 +8,8 @@
 
 <img width="2878" height="1452" alt="FindComments dashboard screenshot" src="https://github.com/user-attachments/assets/2d28a4b4-38f3-484a-bf84-c64d23cd9392" />
 
+> Built as part of the **Seocho e-Sports Developer Academy** (Seocho District Office × T1 Esports), a frontend/full-stack developer training program.
+
 ---
 
 ## Overview
@@ -241,6 +243,8 @@ Translates topic labels to English. Accepts the same `X-OpenAI-Key` header; sile
 # YouTube 댓글 인사이트 분석기
 
 **AI 기반 YouTube 댓글 감정 분석 대시보드**
+
+> 서초구청과 T1이 함께하는 **서초 e스포츠 개발자 아카데미** 프론트엔드/풀스택 개발자 양성 과정의 일환으로 제작한 프로젝트입니다.
 
 ---
 

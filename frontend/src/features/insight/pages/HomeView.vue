@@ -13,6 +13,7 @@ import ReactionTimeline  from '@/features/insight/components/ReactionTimeline.vu
 import KeyInsights       from '@/features/insight/components/KeyInsights.vue'
 import LoadingState      from '@/features/insight/components/LoadingState.vue'
 import TopicComments     from '@/features/insight/components/TopicComments.vue'
+import AppFooter         from '@/layouts/AppFooter.vue'
 
 const router        = useRouter()
 const settings      = useSettingsStore()
@@ -198,6 +199,8 @@ const reportInsightComment = (ins: { comment: string; commentEn?: string; commen
         <span class="chip-badge">{{ settings.lang === 'en' ? 'Coming Soon' : '출시 예정' }}</span>
       </span>
     </div>
+
+    <AppFooter />
   </div>
 
   <!-- 로딩 상태 (data 없을 때만) -->
