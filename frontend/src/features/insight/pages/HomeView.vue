@@ -361,9 +361,27 @@ const reportInsightComment = (ins: { comment: string; commentEn?: string; commen
         </div>
       </div>
 
+      <div class="rpt-section">
+        <h2 class="rpt-sec-title">{{ messages[settings.lang].langBreakdown }}</h2>
+        <div class="rpt-lang-grid">
+          <div class="rpt-lang-stat">
+            <span class="rpt-lang-val ko">{{ data.video.languageRatio.ko }}%</span>
+            <span class="rpt-lang-lbl">한국어</span>
+          </div>
+          <div class="rpt-lang-stat">
+            <span class="rpt-lang-val en">{{ data.video.languageRatio.en }}%</span>
+            <span class="rpt-lang-lbl">English</span>
+          </div>
+          <div class="rpt-lang-stat">
+            <span class="rpt-lang-val other">{{ data.video.languageRatio.other }}%</span>
+            <span class="rpt-lang-lbl">Other</span>
+          </div>
+        </div>
+      </div>
+
       <div class="rpt-footer">
-        <span>{{ messages[settings.lang].languageRatio }} — Korean {{ data.video.languageRatio.ko }}%  ·  English {{ data.video.languageRatio.en }}%  ·  Other {{ data.video.languageRatio.other }}%</span>
-        <span>{{ messages[settings.lang].reportFooterNote }} · FindComments</span>
+        <span>{{ messages[settings.lang].reportFooterNote }}</span>
+        <span>FindComments by github.com/maiajunok</span>
       </div>
 
     </div>
@@ -420,8 +438,8 @@ const reportInsightComment = (ins: { comment: string; commentEn?: string; commen
 .rpt-topbar {
   position: absolute;
   top: 0; left: 0; right: 0;
-  height: 5px;
-  background: linear-gradient(90deg, #7b5ef8 0%, #a78bfa 50%, #7b5ef8 100%);
+  height: 4px;
+  background: #7b5ef8;
 }
 
 .rpt-header {
@@ -452,10 +470,8 @@ const reportInsightComment = (ins: { comment: string; commentEn?: string; commen
   gap: 20px;
   align-items: stretch;
   margin-bottom: 16px;
-  padding: 14px 16px;
-  background: #f8f8fc;
-  border: 0.5px solid #e0e0eb;
-  border-radius: 8px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #e0e0eb;
 }
 
 .rpt-donut-block {
@@ -464,7 +480,7 @@ const reportInsightComment = (ins: { comment: string; commentEn?: string; commen
   gap: 16px;
   flex-shrink: 0;
   padding-right: 20px;
-  border-right: 0.5px solid #e0e0eb;
+  border-right: 1px solid #e0e0eb;
 }
 .rpt-donut {
   position: relative;
@@ -516,7 +532,7 @@ const reportInsightComment = (ins: { comment: string; commentEn?: string; commen
 .rpt-stat-val { font-size: 13pt; font-weight: 700; color: #1a1a2e; }
 .rpt-stat-lbl { font-size: 7pt; color: #999aaa; margin-top: 2px; text-align: center; }
 
-.rpt-section { margin-bottom: 14px; }
+.rpt-section { margin-bottom: 12px; }
 .rpt-sec-title {
   font-size: 8pt; font-weight: 700;
   text-transform: uppercase; letter-spacing: .1em;
@@ -524,12 +540,13 @@ const reportInsightComment = (ins: { comment: string; commentEn?: string; commen
   padding-bottom: 3px; border-bottom: 0.5px solid #e0e0eb;
 }
 
-.rpt-topics { display: flex; flex-direction: column; gap: 5px; }
+.rpt-topics { display: flex; flex-direction: column; }
 .rpt-topic-row {
   display: flex; align-items: center; gap: 8px;
-  padding: 5px 8px; background: #f8f8fc;
-  border-radius: 4px; border: 0.5px solid #e0e0eb;
+  padding: 6px 2px;
+  border-bottom: 0.5px solid #e0e0eb;
 }
+.rpt-topic-row:last-child { border-bottom: none; }
 .rpt-topic-num { font-size: 9pt; font-weight: 700; color: #7b5ef8; width: 12px; flex-shrink: 0; }
 .rpt-topic-name { font-size: 9pt; font-weight: 600; color: #1a1a2e; width: 80px; flex-shrink: 0; }
 .rpt-topic-bar { flex: 1; display: flex; height: 6px; border-radius: 2px; overflow: hidden; }
@@ -537,19 +554,36 @@ const reportInsightComment = (ins: { comment: string; commentEn?: string; commen
 .rpt-topic-pcts { font-size: 7pt; color: #666680; white-space: nowrap; width: 90px; flex-shrink: 0; }
 .rpt-topic-count { font-size: 9pt; font-weight: 700; color: #1a1a2e; width: 30px; text-align: right; flex-shrink: 0; }
 
-.rpt-insights { display: flex; flex-direction: column; gap: 6px; }
-.rpt-insight {
-  padding: 7px 10px; border-radius: 4px; border-left: 3px solid;
+.rpt-insights {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px 14px;
 }
-.rpt-insight.positive { background: #f0fdf4; border-left-color: #16a34a; }
-.rpt-insight.negative { background: #fff1f2; border-left-color: #dc2626; }
+.rpt-insight {
+  padding: 2px 0 2px 10px; border-left: 2px solid;
+}
+.rpt-insight.positive { border-left-color: #16a34a; }
+.rpt-insight.negative { border-left-color: #dc2626; }
 .rpt-ins-meta { display: flex; align-items: center; gap: 8px; margin-bottom: 3px; }
 .rpt-ins-badge { font-size: 7pt; font-weight: 700; }
 .rpt-insight.positive .rpt-ins-badge { color: #16a34a; }
 .rpt-insight.negative .rpt-ins-badge { color: #dc2626; }
 .rpt-ins-topic { font-size: 7pt; color: #666680; }
 .rpt-ins-likes { font-size: 7pt; color: #999aaa; margin-left: auto; }
-.rpt-ins-text { font-size: 9pt; color: #1a1a2e; margin: 0; line-height: 1.5; }
+.rpt-ins-text { font-size: 8.5pt; color: #1a1a2e; margin: 0; line-height: 1.5; }
+
+.rpt-lang-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  text-align: center;
+}
+.rpt-lang-stat { display: flex; flex-direction: column; align-items: center; gap: 2px; }
+.rpt-lang-val { font-size: 15pt; font-weight: 800; }
+.rpt-lang-val.ko { color: #7b5ef8; }
+.rpt-lang-val.en { color: #16a34a; }
+.rpt-lang-val.other { color: #94a3b8; }
+.rpt-lang-lbl { font-size: 7.5pt; color: #999aaa; }
 
 .rpt-footer {
   margin-top: 14px; padding-top: 6px;

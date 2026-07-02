@@ -44,6 +44,15 @@
       </div>
 
       <div class="nav-bottom">
+        <a
+          href="https://github.com/maiajunok/youtube-comment-insight"
+          target="_blank"
+          rel="noopener"
+          class="nav-item github-link"
+        >
+          <IconBrandGithub class="nav-icon" />
+          maiajunok
+        </a>
         <div
           class="nav-item"
           :class="{ active: route.name === 'settings' }"
@@ -114,7 +123,7 @@ import { computed, ref, onMounted, onBeforeUnmount } from 'vue'
 import { useRouter, useRoute } from 'vue-router'
 import {
   IconHome, IconClock, IconLayoutColumns,
-  IconSettings, IconFileDescription, IconActivity,
+  IconSettings, IconFileDescription, IconActivity, IconBrandGithub,
 } from '@tabler/icons-vue'
 import { useSettingsStore } from '@/features/settings/stores/settings'
 import { useAnalysisStore } from '@/features/insight/stores/analysis'

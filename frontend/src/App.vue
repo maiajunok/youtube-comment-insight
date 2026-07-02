@@ -80,6 +80,8 @@ body {
 }
 .nav-icon { width: 16px; height: 16px; flex-shrink: 0; }
 
+.github-link { text-decoration: none; }
+
 .analyzing-dot {
   width: 6px; height: 6px;
   border-radius: 50%;
@@ -280,9 +282,12 @@ body {
 
   .sidebar, .topbar, .orb { display: none !important; }
 
-  .shell { display: block !important; height: auto !important; overflow: visible !important; }
-  .main  { overflow: visible !important; height: auto !important; }
-  body   { height: auto !important; }
+  html, body, .shell, .main {
+    background: #ffffff !important;
+    height: auto !important;
+  }
+  .shell { display: block !important; overflow: visible !important; }
+  .main  { overflow: visible !important; }
 
   /* 대시보드는 숨기고, 한 페이지짜리 요약 리포트만 출력 */
   .home-view { display: none !important; }
