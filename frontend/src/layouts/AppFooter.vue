@@ -42,47 +42,53 @@ const M = computed(() => messages[settings.lang])
 .app-footer {
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
-  gap: 40px;
-  margin-top: 40px;
-  padding-top: 24px;
+  align-items: center;
+  gap: 24px;
+  margin-top: auto;
+  padding-top: 14px;
   padding-right: 4px;
   border-top: 0.5px solid var(--border);
   width: 100%;
 }
 
-.footer-main { flex: 1; min-width: 0; }
+.footer-main {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+}
 
 .footer-brand {
   display: flex;
   align-items: baseline;
-  gap: 10px;
-  margin-bottom: 8px;
+  gap: 8px;
+  flex-shrink: 0;
 }
-.footer-logo { font-size: 14px; font-weight: 700; color: var(--text); }
-.footer-tagline { font-size: 11px; color: var(--dim); }
+.footer-logo { font-size: 11px; font-weight: 700; color: var(--text); }
+.footer-tagline { font-size: 10px; color: var(--dim); }
 
 .footer-desc {
-  font-size: 12px;
+  font-size: 10px;
   color: var(--subtext);
-  line-height: 1.6;
-  max-width: 420px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .footer-side {
   flex-shrink: 0;
   display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  gap: 10px;
-  text-align: right;
+  align-items: center;
+  gap: 20px;
+  white-space: nowrap;
 }
 
 .footer-disclaimer {
-  font-size: 11px;
+  font-size: 10px;
   color: var(--dim);
-  line-height: 1.6;
-  max-width: 340px;
 }
 
 .footer-bottom {
@@ -90,13 +96,13 @@ const M = computed(() => messages[settings.lang])
   align-items: center;
   gap: 14px;
 }
-.footer-copyright { font-size: 11px; color: var(--dim); white-space: nowrap; }
+.footer-copyright { font-size: 10px; color: var(--dim); white-space: nowrap; }
 
 .footer-gh {
   display: flex;
   align-items: center;
   gap: 6px;
-  font-size: 11px;
+  font-size: 10px;
   color: var(--subtext);
   text-decoration: none;
   white-space: nowrap;
