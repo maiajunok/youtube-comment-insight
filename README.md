@@ -6,7 +6,8 @@
 [![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4o--mini-412991?logo=openai)](https://openai.com/)
 [![License](https://img.shields.io/badge/license-Private-red)](/)
 
-<img width="2878" height="1452" alt="FindComments dashboard screenshot" src="https://github.com/user-attachments/assets/2d28a4b4-38f3-484a-bf84-c64d23cd9392" />
+<img width="2880" height="1452" alt="image" src="https://github.com/user-attachments/assets/421541ae-ec0e-447c-a765-e96d87faf1d0" />
+
 
 > Built as part of the **Seocho e-Sports Developer Academy** (Seocho District Office × T1 Esports), a frontend/full-stack developer training program.
 
