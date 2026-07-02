@@ -1,9 +1,6 @@
 # YouTube Comment Insight Analyzer
-
-<img width="2878" height="1452" alt="image" src="https://github.com/user-attachments/assets/2d28a4b4-38f3-484a-bf84-c64d23cd9392" />
-
 **AI-powered YouTube comment sentiment analysis dashboard**
-
+<img width="2878" height="1452" alt="image" src="https://github.com/user-attachments/assets/2d28a4b4-38f3-484a-bf84-c64d23cd9392" />
 [![Vue](https://img.shields.io/badge/Vue-3.5-42b883?logo=vue.js)](https://vuejs.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-Python-009688?logo=fastapi)](https://fastapi.tiangolo.com/)
 [![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4o--mini-412991?logo=openai)](https://openai.com/)
