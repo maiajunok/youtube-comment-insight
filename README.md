@@ -7,8 +7,6 @@
 [![License](https://img.shields.io/badge/license-Private-red)](/)
 
 <img width="2880" height="1452" alt="image" src="https://github.com/user-attachments/assets/421541ae-ec0e-447c-a765-e96d87faf1d0" />
-<img width="920" height="1286" alt="image" src="https://github.com/user-attachments/assets/e234b119-54dc-481d-95d3-95f51d9d00f1" />
-
 
 > Built as part of the **Seocho e-Sports Developer Academy** (Seocho District Office × T1 Esports), a frontend/full-stack developer training program.
 
