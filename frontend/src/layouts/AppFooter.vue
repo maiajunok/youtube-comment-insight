@@ -42,11 +42,13 @@ const M = computed(() => messages[settings.lang])
 .app-footer {
   display: flex;
   justify-content: space-between;
+  align-items: flex-end;
   gap: 40px;
   margin-top: 40px;
   padding-top: 24px;
+  padding-right: 4px;
   border-top: 0.5px solid var(--border);
-  max-width: 680px;
+  width: 100%;
 }
 
 .footer-main { flex: 1; min-width: 0; }
@@ -80,7 +82,7 @@ const M = computed(() => messages[settings.lang])
   font-size: 11px;
   color: var(--dim);
   line-height: 1.6;
-  max-width: 220px;
+  max-width: 340px;
 }
 
 .footer-bottom {
