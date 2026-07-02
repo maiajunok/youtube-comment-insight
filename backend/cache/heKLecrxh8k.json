@@ -1,0 +1,137 @@
+{
+  "video": {
+    "videoId": "heKLecrxh8k",
+    "title": "G2 League Bootcamps At T1 Facility",
+    "channelTitle": "G2 League of Legends",
+    "thumbnailUrl": "https://i.ytimg.com/vi/heKLecrxh8k/maxresdefault.jpg",
+    "publishedAt": "2026-06-30",
+    "viewCount": 58435,
+    "likeCount": 1762,
+    "analyzedComments": 67,
+    "languageRatio": {
+      "ko": 9,
+      "en": 70,
+      "other": 21
+    },
+    "weightedSentiment": 63
+  },
+  "topics": [
+    {
+      "label": "BB의 OPTCG 플레이",
+      "labelEn": "BB Playing OPTCG",
+      "mentionCount": 28,
+      "sentiment": {
+        "positive": 39,
+        "neutral": 54,
+        "negative": 7
+      }
+    },
+    {
+      "label": "Labrov의 유머",
+      "labelEn": "Labrov's Humor",
+      "mentionCount": 15,
+      "sentiment": {
+        "positive": 40,
+        "neutral": 47,
+        "negative": 13
+      }
+    },
+    {
+      "label": "Perkz의 복귀",
+      "labelEn": "Perkz's Return",
+      "mentionCount": 11,
+      "sentiment": {
+        "positive": 36,
+        "neutral": 64,
+        "negative": 0
+      }
+    },
+    {
+      "label": "G2 팀에 대한 사랑",
+      "labelEn": "Love for G2 Team",
+      "mentionCount": 10,
+      "sentiment": {
+        "positive": 60,
+        "neutral": 20,
+        "negative": 20
+      }
+    },
+    {
+      "label": "T1 시설",
+      "labelEn": "T1 Facility",
+      "mentionCount": 3,
+      "sentiment": {
+        "positive": 33,
+        "neutral": 67,
+        "negative": 0
+      }
+    }
+  ],
+  "reactionTimeline": [
+    {
+      "label": "0–1h",
+      "positive": 9,
+      "neutral": 6,
+      "negative": 0
+    },
+    {
+      "label": "1–24h",
+      "positive": 14,
+      "neutral": 23,
+      "negative": 5
+    },
+    {
+      "label": "1–7d",
+      "positive": 5,
+      "neutral": 4,
+      "negative": 1
+    },
+    {
+      "label": "7–30d",
+      "positive": 0,
+      "neutral": 0,
+      "negative": 0
+    },
+    {
+      "label": "30d+",
+      "positive": 0,
+      "neutral": 0,
+      "negative": 0
+    }
+  ],
+  "keyInsights": [
+    {
+      "type": "positive",
+      "topic": "Labrov의 유머",
+      "comment": "Labrov's laugh is incredible",
+      "likes": 529
+    },
+    {
+      "type": "negative",
+      "topic": "G2 팀에 대한 사랑",
+      "comment": "You should be glad you didn't end up signing Caliste, or you would have ruined G2",
+      "likes": 2
+    },
+    {
+      "type": "positive",
+      "topic": "Perkz의 복귀",
+      "comment": "Just hearing Perkz voice heals my soul",
+      "likes": 134
+    },
+    {
+      "type": "negative",
+      "topic": "Labrov의 유머",
+      "comment": "Labrov laugh is like a cry for help lol.",
+      "likes": 1
+    }
+  ],
+  "analyzedAt": "2026-07-02T09:24:13.402345+00:00",
+  "analysisDuration": 17.7,
+  "tokenUsage": {
+    "input": 3555,
+    "output": 952,
+    "embedding": 645,
+    "total": 5152,
+    "estimatedCostUsd": 0.001117
+  }
+}

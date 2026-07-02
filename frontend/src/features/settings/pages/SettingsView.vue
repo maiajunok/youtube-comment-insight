@@ -139,7 +139,9 @@ function deleteYoutube() {
   </div>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
+@use '@/assets/variables' as *;
+
 .settings-page {
   position: relative;
   z-index: 2;
@@ -148,96 +150,149 @@ function deleteYoutube() {
   padding: 48px 56px;
   display: flex;
   flex-direction: column;
-  gap: 28px;
+  gap: $space-xl - 4px;
 }
 
-.settings-header { display: flex; flex-direction: column; gap: 8px; }
+.settings-header {
+  display: flex;
+  flex-direction: column;
+  gap: $space-sm;
+}
 
 .eyebrow {
-  font-size: 10px; letter-spacing: .14em; color: var(--accent);
-  text-transform: uppercase; font-weight: 600; opacity: 0.7;
-  display: flex; align-items: center; gap: 8px;
+  font-size: 10px;
+  letter-spacing: .14em;
+  color: var(--accent);
+  text-transform: uppercase;
+  font-weight: 600;
+  opacity: 0.7;
+  display: flex;
+  align-items: center;
+  gap: $space-sm;
+
+  &::before {
+    content: '';
+    width: 20px;
+    height: 1px;
+    background: var(--accent);
+  }
 }
-.eyebrow::before { content: ''; width: 20px; height: 1px; background: var(--accent); }
 
 .settings-title { font-size: 26px; font-weight: 700; color: var(--text); letter-spacing: -.02em; }
 .settings-sub   { font-size: 14px; color: var(--subtext); line-height: 1.6; }
 
 .notice-card {
-  display: flex; gap: 12px; align-items: flex-start;
-  background: rgba(123,94,248,0.07);
-  border: 0.5px solid rgba(123,94,248,0.2);
-  border-radius: var(--radius); padding: 16px 18px;
+  display: flex;
+  gap: $space-md;
+  align-items: flex-start;
+  background: rgba(123, 94, 248, 0.07);
+  border: 0.5px solid rgba(123, 94, 248, 0.2);
+  border-radius: var(--radius);
+  padding: 16px 18px;
   color: var(--accent);
+
+  p { font-size: 12.5px; line-height: 1.65; color: var(--subtext); }
 }
-.notice-card p { font-size: 12.5px; line-height: 1.65; color: var(--subtext); }
 
 .key-form {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
-  gap: 24px 28px;
+  gap: $space-lg 28px;
   background: var(--card);
   border: 0.5px solid var(--border);
   border-radius: var(--radius);
   padding: 24px;
 }
 
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
 
-.field { display: flex; flex-direction: column; gap: 7px; }
-
-.field-top { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.field-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: $space-sm;
+}
 .field-label { font-size: 12px; font-weight: 600; color: var(--text); }
 
 .field-status {
-  display: flex; align-items: center; gap: 5px;
-  font-size: 10.5px; color: var(--dim);
-}
-.field-status .status-dot {
-  width: 6px; height: 6px; border-radius: 50%;
-  background: var(--dim);
-}
-.field-status.on { color: var(--positive); }
-.field-status.on .status-dot { background: var(--positive); }
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 10.5px;
+  color: var(--dim);
 
-.field-row { display: flex; align-items: center; gap: 6px; }
+  .status-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--dim);
+  }
+
+  &.on {
+    color: var(--positive);
+    .status-dot { background: var(--positive); }
+  }
+}
+
+.field-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
 
 .key-input {
   flex: 1;
   background: var(--card-hover);
   border: 0.5px solid var(--border);
-  border-radius: 8px;
-  padding: 10px 12px;
+  border-radius: $radius-sm;
+  padding: 10px $space-md;
   font-size: 13px;
   color: var(--text);
   font-family: 'Inter', sans-serif;
   outline: none;
+
+  &:focus { border-color: rgba(123, 94, 248, 0.5); }
+  &::placeholder { color: var(--dim); }
 }
-.key-input:focus { border-color: rgba(123,94,248,0.5); }
-.key-input::placeholder { color: var(--dim); }
 
 .icon-btn {
-  display: flex; align-items: center; justify-content: center;
-  width: 34px; height: 34px; flex-shrink: 0;
-  border-radius: 8px; border: 0.5px solid var(--border);
-  background: var(--card-hover);
-  cursor: pointer;
-  transition: background .15s, border-color .15s, opacity .15s;
-}
-.icon-btn:disabled { opacity: .35; cursor: not-allowed; }
-.icon-btn.save { color: var(--positive); }
-.icon-btn.save:hover:not(:disabled) { background: rgba(34,197,94,0.12); border-color: rgba(34,197,94,0.4); }
-.icon-btn.delete { color: var(--negative); }
-.icon-btn.delete:hover:not(:disabled) { background: rgba(244,63,94,0.12); border-color: rgba(244,63,94,0.4); }
+  @include icon-button;
+  width: 34px;
+  height: 34px;
+  flex-shrink: 0;
 
-.field-bottom { display: flex; align-items: center; justify-content: space-between; gap: 8px; min-height: 14px; }
+  &.save {
+    color: var(--positive);
+    &:hover:not(:disabled) { background: rgba(34, 197, 94, 0.12); border-color: rgba(34, 197, 94, 0.4); }
+  }
+  &.delete {
+    color: var(--negative);
+    &:hover:not(:disabled) { background: rgba(244, 63, 94, 0.12); border-color: rgba(244, 63, 94, 0.4); }
+  }
+}
+
+.field-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: $space-sm;
+  min-height: 14px;
+}
 .field-hint { font-size: 11px; color: var(--dim); }
 
-.inline-flash { font-size: 11px; font-weight: 600; white-space: nowrap; }
-.inline-flash.saved { color: var(--positive); }
-.inline-flash.deleted { color: var(--negative); }
+.inline-flash {
+  font-size: 11px;
+  font-weight: 600;
+  white-space: nowrap;
+  @include fade-transition;
 
-.fade-enter-active, .fade-leave-active { transition: opacity .2s; }
-.fade-enter-from, .fade-leave-to { opacity: 0; }
+  &.saved   { color: var(--positive); }
+  &.deleted { color: var(--negative); }
+}
 
 .stored-note { grid-column: 1 / -1; font-size: 11px; color: var(--dim); }
 </style>

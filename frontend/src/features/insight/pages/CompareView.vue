@@ -1,9 +1,10 @@
 <script setup lang="ts">
-import { ref, onMounted, computed } from 'vue'
+import { ref, onMounted, watch, computed } from 'vue'
 import { insightApi } from '@/features/insight/api/insightApi'
 import type { HistoryItem, InsightData } from '@/features/insight/types/insight'
 import { useSettingsStore } from '@/features/settings/stores/settings'
 import { messages } from '@/locales/messages'
+import { fillTopicLabels, displayLabel } from '@/features/insight/composables/useLabelTranslation'
 
 const settings = useSettingsStore()
 const M = computed(() => messages[settings.lang])
@@ -45,6 +46,7 @@ const doCompare = async () => {
     comparisons.value = await Promise.all(
       selected.value.map(id => insightApi.getByVideoId(id))
     )
+    await fillTopicLabels(comparisons.value.flatMap(d => d.topics), settings.lang)
     phase.value = 'compare'
   } catch {
     compareError.value = '데이터를 불러오지 못했습니다.'
@@ -52,6 +54,10 @@ const doCompare = async () => {
     isComparing.value = false
   }
 }
+
+watch(() => settings.lang, (lang) => {
+  if (comparisons.value.length) fillTopicLabels(comparisons.value.flatMap(d => d.topics), lang)
+})
 
 const reset = () => {
   phase.value = 'select'
@@ -82,7 +88,8 @@ const overallSentiment = (data: InsightData) => {
 const commonTopics = computed(() => {
   if (comparisons.value.length < 2) return []
   const sets = comparisons.value.map(d => new Set(d.topics.map(t => t.label)))
-  return [...sets[0]].filter(label => sets.slice(1).every(s => s.has(label)))
+  const commonLabels = [...sets[0]].filter(label => sets.slice(1).every(s => s.has(label)))
+  return commonLabels.map(label => comparisons.value[0].topics.find(t => t.label === label)!)
 })
 
 const langRatio = (data: InsightData, key: string): number =>
@@ -307,7 +314,7 @@ const cControversyScore = (d: InsightData) => {
         <div v-for="d in comparisons" :key="d.video.videoId" class="ct-cell ct-cell--col" style="align-items:flex-start">
           <div class="topic-pills">
             <span v-for="t in d.topics.slice(0, 5)" :key="t.label" class="topic-pill-sm">
-              {{ t.label }}
+              {{ displayLabel(t, settings.lang) }}
             </span>
           </div>
         </div>
@@ -319,7 +326,7 @@ const cControversyScore = (d: InsightData) => {
         <div class="ct-row">
           <div class="ct-lbl">{{ M.colCommon }}</div>
           <div class="ct-cell" style="flex:1; flex-wrap:wrap; gap:6px; align-items:center;">
-            <span v-for="t in commonTopics" :key="t" class="topic-pill-sm">{{ t }}</span>
+            <span v-for="t in commonTopics" :key="t.label" class="topic-pill-sm">{{ displayLabel(t, settings.lang) }}</span>
           </div>
         </div>
       </template>

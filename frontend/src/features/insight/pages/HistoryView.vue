@@ -1,11 +1,12 @@
 <script setup lang="ts">
-import { ref, onMounted, computed, onBeforeUnmount } from 'vue'
+import { ref, onMounted, watch, computed, onBeforeUnmount } from 'vue'
 import { useRouter } from 'vue-router'
 import { insightApi } from '@/features/insight/api/insightApi'
 import { useAnalysisStore } from '@/features/insight/stores/analysis'
 import { useSettingsStore } from '@/features/settings/stores/settings'
 import type { HistoryItem } from '@/features/insight/types/insight'
 import { messages } from '@/locales/messages'
+import { fillTopicLabels, displayLabel } from '@/features/insight/composables/useLabelTranslation'
 
 const router        = useRouter()
 const analysisStore = useAnalysisStore()
@@ -55,11 +56,16 @@ const sortedItems = computed(() => {
 onMounted(async () => {
   try {
     items.value = await insightApi.getHistory()
+    fillTopicLabels(items.value.flatMap(i => i.topTopics), settings.lang)
   } catch {
     error.value = '기록을 불러오지 못했습니다. 백엔드 서버가 실행 중인지 확인해주세요.'
   } finally {
     isLoading.value = false
   }
+})
+
+watch(() => settings.lang, (lang) => {
+  fillTopicLabels(items.value.flatMap(i => i.topTopics), lang)
 })
 
 const fmtDate = (iso: string) => {
@@ -202,9 +208,9 @@ const onDelete = async (videoId: string) => {
           <div class="flex flex-wrap gap-1.5">
             <span
               v-for="topic in item.topTopics"
-              :key="topic"
+              :key="topic.label"
               class="topic-pill"
-            >{{ topic }}</span>
+            >{{ displayLabel(topic, settings.lang) }}</span>
           </div>
 
         </div>

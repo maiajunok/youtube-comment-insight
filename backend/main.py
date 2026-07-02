@@ -120,14 +120,39 @@ def _weighted_sentiment(comments: list[dict]) -> int:
     return round(weighted_sum / weight_total * 100)
 
 
+def _topic_translations(t: dict) -> dict:
+    return {
+        **({"topicEn": t["labelEn"]} if t.get("labelEn") else {}),
+        **({"topicZh": t["labelZh"]} if t.get("labelZh") else {}),
+        **({"topicJa": t["labelJa"]} if t.get("labelJa") else {}),
+    }
+
+
+def _detect_lang(text: str) -> str | None:
+    try:
+        from langdetect import detect
+        code = detect(text)
+        if code.startswith("zh"):
+            return "zh"
+        if code in ("ko", "en", "ja"):
+            return code
+        return None
+    except Exception:
+        return None
+
+
 def _key_insights(topics: list[dict]) -> list[dict]:
     positives = sorted(
-        ({"type": "positive", "topic": t["label"], "comment": t["topPositiveComment"]["text"], "likes": t["topPositiveComment"]["likes"]}
+        ({"type": "positive", "topic": t["label"], **_topic_translations(t),
+          "comment": t["topPositiveComment"]["text"], "commentLang": _detect_lang(t["topPositiveComment"]["text"]),
+          "likes": t["topPositiveComment"]["likes"]}
          for t in topics if t.get("topPositiveComment")),
         key=lambda x: x["likes"], reverse=True,
     )
     negatives = sorted(
-        ({"type": "negative", "topic": t["label"], "comment": t["topNegativeComment"]["text"], "likes": t["topNegativeComment"]["likes"]}
+        ({"type": "negative", "topic": t["label"], **_topic_translations(t),
+          "comment": t["topNegativeComment"]["text"], "commentLang": _detect_lang(t["topNegativeComment"]["text"]),
+          "likes": t["topNegativeComment"]["likes"]}
          for t in topics if t.get("topNegativeComment")),
         key=lambda x: x["likes"], reverse=True,
     )
@@ -144,6 +169,8 @@ def _build_response(video_id: str, video: dict, comments: list[dict], topics: li
         {
             "label": t["label"],
             **({"labelEn": t["labelEn"]} if t.get("labelEn") else {}),
+            **({"labelZh": t["labelZh"]} if t.get("labelZh") else {}),
+            **({"labelJa": t["labelJa"]} if t.get("labelJa") else {}),
             "mentionCount": t["mentionCount"],
             "sentiment": t["sentiment"],
         }
@@ -315,7 +342,15 @@ def get_history():
                 "publishedAt": v["publishedAt"],
                 "analyzedComments": v["analyzedComments"],
                 "analyzedAt": data.get("analyzedAt", ""),
-                "topTopics": [t["label"] for t in topics[:3]],
+                "topTopics": [
+                    {
+                        "label": t["label"],
+                        **({"labelEn": t["labelEn"]} if t.get("labelEn") else {}),
+                        **({"labelZh": t["labelZh"]} if t.get("labelZh") else {}),
+                        **({"labelJa": t["labelJa"]} if t.get("labelJa") else {}),
+                    }
+                    for t in topics[:3]
+                ],
                 "overallSentiment": {"positive": overall_pos, "negative": overall_neg},
             })
         except Exception:
@@ -373,6 +408,14 @@ def get_stats():
 
 class TranslateRequest(BaseModel):
     labels: List[str]
+    target_lang: str = "en"
+
+
+_TARGET_LANG_NAMES = {
+    "en": "concise English (2-4 words each)",
+    "zh": "concise Simplified Chinese (2-4 characters/words each)",
+    "ja": "concise Japanese (2-4 words each)",
+}
 
 
 @app.post("/api/translate-labels")
@@ -383,8 +426,9 @@ async def translate_labels(req: TranslateRequest, x_openai_key: str | None = Hea
     if not api_key:
         return {"translations": req.labels}
     client = OpenAI(api_key=api_key)
+    target_desc = _TARGET_LANG_NAMES.get(req.target_lang, _TARGET_LANG_NAMES["en"])
     prompt = (
-        "Translate these Korean topic labels to concise English (2-4 words each). "
+        f"Translate these Korean topic labels to {target_desc}. "
         "Return ONLY a JSON array of strings in the same order. No explanation.\n"
         f"Input: {json.dumps(req.labels, ensure_ascii=False)}"
     )
@@ -401,6 +445,48 @@ async def translate_labels(req: TranslateRequest, x_openai_key: str | None = Hea
         return {"translations": json.loads(raw)}
     except Exception:
         return {"translations": req.labels}
+
+
+_TARGET_LANG_NAMES_FULL = {
+    "en": "English",
+    "zh": "Simplified Chinese",
+    "ja": "Japanese",
+    "ko": "Korean",
+}
+
+
+class TranslateCommentsRequest(BaseModel):
+    texts: List[str]
+    target_lang: str = "en"
+
+
+@app.post("/api/translate-comments")
+async def translate_comments(req: TranslateCommentsRequest, x_openai_key: str | None = Header(default=None)):
+    if not req.texts:
+        return {"translations": []}
+    api_key = x_openai_key or os.getenv("OPENAI_API_KEY")
+    if not api_key:
+        return {"translations": req.texts}
+    client = OpenAI(api_key=api_key)
+    target_desc = _TARGET_LANG_NAMES_FULL.get(req.target_lang, "English")
+    prompt = (
+        f"Translate these YouTube comments to natural, casual {target_desc}, preserving tone, meaning, and any emojis. "
+        "Return ONLY a JSON array of strings in the same order. No explanation.\n"
+        f"Input: {json.dumps(req.texts, ensure_ascii=False)}"
+    )
+    try:
+        response = client.chat.completions.create(
+            model="gpt-4o-mini",
+            messages=[{"role": "user", "content": prompt}],
+            max_tokens=1024,
+        )
+        raw = response.choices[0].message.content.strip()
+        if raw.startswith("```"):
+            raw = raw.split("```")[1].lstrip("json").strip()
+            raw = raw.rsplit("```", 1)[0].strip()
+        return {"translations": json.loads(raw)}
+    except Exception:
+        return {"translations": req.texts}
 
 
 @app.get("/api/comments/{video_id}")

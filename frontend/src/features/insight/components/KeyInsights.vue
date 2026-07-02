@@ -1,6 +1,8 @@
 <script setup lang="ts">
+import { watch } from 'vue'
 import type { KeyInsight, Lang } from '@/features/insight/types/insight'
 import { messages } from '@/locales/messages'
+import { insightApi } from '@/features/insight/api/insightApi'
 
 const props = defineProps<{
   insights: KeyInsight[]
@@ -10,8 +12,33 @@ const props = defineProps<{
 
 const fmt = (n: number) => n >= 1000 ? (n / 1000).toFixed(1) + 'K' : String(n)
 
-const getComment = (insight: KeyInsight) =>
-  props.lang === 'en' && insight.commentEn ? insight.commentEn : insight.comment
+const COMMENT_FIELD = { ko: null, en: 'commentEn', zh: 'commentZh', ja: 'commentJa' } as const
+
+// 댓글이 이미 화면 언어와 같으면 번역 API를 호출하지 않는다 (BYOK 비용 절약)
+async function fillComments() {
+  const field = COMMENT_FIELD[props.lang]
+  if (!field) return
+  const missing = props.insights.filter(i => i.commentLang && i.commentLang !== props.lang && !i[field])
+  if (!missing.length) return
+  try {
+    const translations = await insightApi.translateComments(missing.map(i => i.comment), props.lang)
+    missing.forEach((i, idx) => { i[field] = translations[idx] || i.comment })
+  } catch { /* 실패 시 원문 유지 */ }
+}
+watch(() => [props.insights, props.lang], fillComments, { immediate: true })
+
+const getComment = (insight: KeyInsight) => {
+  const field = COMMENT_FIELD[props.lang]
+  return (field && insight[field]) || insight.comment
+}
+const isTranslated = (insight: KeyInsight) => getComment(insight) !== insight.comment
+
+const getTopic = (insight: KeyInsight) => {
+  if (props.lang === 'en') return insight.topicEn || insight.topic
+  if (props.lang === 'zh') return insight.topicZh || insight.topic
+  if (props.lang === 'ja') return insight.topicJa || insight.topic
+  return insight.topic
+}
 </script>
 
 <template>
@@ -40,12 +67,17 @@ const getComment = (insight: KeyInsight) =>
           </span>
           <span class="text-[11px] px-2 py-0.5 rounded-full border"
             style="color: var(--subtext); border-color: var(--border)">
-            {{ insight.topic }}
+            {{ getTopic(insight) }}
           </span>
         </div>
 
         <p class="text-[14px] leading-relaxed" style="color: var(--text); line-height: 1.7; font-weight: 500;">
           {{ getComment(insight) }}
+        </p>
+
+        <p v-if="isTranslated(insight)" class="text-[11.5px] leading-relaxed" style="color: var(--dim); line-height: 1.6;">
+          <span class="font-semibold uppercase tracking-wide" style="font-size: 9px; opacity: 0.8;">{{ messages[lang].originalCommentLabel }}</span>
+          {{ insight.comment }}
         </p>
 
         <p class="text-[12px] font-medium" style="color: var(--subtext)">

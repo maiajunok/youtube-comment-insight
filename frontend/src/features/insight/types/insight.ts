@@ -9,8 +9,17 @@ export type SentimentRatio = {
 export type Topic = {
   label: string
   labelEn?: string
+  labelZh?: string
+  labelJa?: string
   mentionCount: number
   sentiment: SentimentRatio
+}
+
+export type TopicLabel = {
+  label: string
+  labelEn?: string
+  labelZh?: string
+  labelJa?: string
 }
 
 export type TimelinePoint = {
@@ -23,8 +32,14 @@ export type TimelinePoint = {
 export type KeyInsight = {
   type: 'positive' | 'negative'
   topic: string
+  topicEn?: string
+  topicZh?: string
+  topicJa?: string
   comment: string
+  commentLang?: 'ko' | 'en' | 'zh' | 'ja' | null
   commentEn?: string
+  commentZh?: string
+  commentJa?: string
   likes: number
 }
 
@@ -56,7 +71,7 @@ export type HistoryItem = {
   publishedAt: string
   analyzedComments: number
   analyzedAt: string
-  topTopics: string[]
+  topTopics: TopicLabel[]
   overallSentiment: { positive: number; negative: number }
 }
 

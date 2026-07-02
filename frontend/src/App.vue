@@ -274,7 +274,7 @@ body {
 
 /* ── Print / Export PDF ── */
 @media print {
-  @page { size: A4 landscape; margin: 10mm 14mm; }
+  @page { size: A4 portrait; margin: 0; }
 
   * { -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; }
 
@@ -284,16 +284,14 @@ body {
   .main  { overflow: visible !important; height: auto !important; }
   body   { height: auto !important; }
 
-  /* 대시보드 그대로 출력 */
-  .home-view {
-    overflow: visible !important;
-    height: auto !important;
-    padding: 16px 20px !important;
-  }
-  .print-report { display: none !important; }
+  /* 대시보드는 숨기고, 한 페이지짜리 요약 리포트만 출력 */
+  .home-view { display: none !important; }
 
-  /* 출력 시 불필요한 버튼 숨김 */
-  .dash-topbar { display: none !important; }
-  .dash-divider { display: none !important; }
+  .print-report {
+    display: block !important;
+    width: 210mm;
+    height: 297mm;
+    overflow: hidden;
+  }
 }
 </style>

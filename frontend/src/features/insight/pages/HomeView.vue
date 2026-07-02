@@ -2,8 +2,8 @@
 import { ref, watch, computed } from 'vue'
 import { messages } from '@/locales/messages'
 import { storeToRefs } from 'pinia'
-import { insightApi } from '@/features/insight/api/insightApi'
 import { useHistory } from '@/features/insight/composables/useHistory'
+import { fillTopicLabels, displayLabel } from '@/features/insight/composables/useLabelTranslation'
 import { useSettingsStore } from '@/features/settings/stores/settings'
 import { useAnalysisStore } from '@/features/insight/stores/analysis'
 import { useRouter } from 'vue-router'
@@ -26,6 +26,12 @@ const selectedTopic = ref<string | null>(null)
 const { result: data, isAnalyzing: isLoading, loadingStep, loadingProgress, analysisError: error, missingKeyModal, resultSource } =
   storeToRefs(analysisStore)
 
+const selectedTopicDisplay = computed(() => {
+  if (!selectedTopic.value || !data.value) return selectedTopic.value ?? undefined
+  const t = data.value.topics.find(t => t.label === selectedTopic.value)
+  return t ? displayLabel(t, settings.lang) : selectedTopic.value
+})
+
 function goToSettings() {
   analysisStore.closeMissingKeyModal()
   router.push({ name: 'settings' })
@@ -35,22 +41,12 @@ function goToHistory() {
   router.push({ name: 'history' })
 }
 
-async function fillEnglishLabels() {
-  if (!data.value) return
-  const missing = data.value.topics.filter(t => !t.labelEn)
-  if (!missing.length) return
-  try {
-    const translations = await insightApi.translateLabels(missing.map(t => t.label))
-    missing.forEach((t, i) => { t.labelEn = translations[i] || t.label })
-  } catch { /* 실패 시 한국어 유지 */ }
-}
-
 watch(() => settings.lang, (lang) => {
-  if (lang === 'en') fillEnglishLabels()
+  if (data.value) fillTopicLabels(data.value.topics, lang)
 })
 
 watch(data, (d) => {
-  if (d && settings.lang === 'en') fillEnglishLabels()
+  if (d) fillTopicLabels(d.topics, settings.lang)
 })
 
 const fmtNum = (n: number) =>
@@ -350,16 +346,19 @@ const controversyScore = computed(() => {
     v-if="selectedTopic && data"
     :video-id="data.video.videoId"
     :topic="selectedTopic"
+    :display-topic="selectedTopicDisplay"
     @close="selectedTopic = null"
   />
 
   <!-- API 키 필요 모달 -->
   <div v-if="missingKeyModal" class="key-modal-overlay" @click.self="analysisStore.closeMissingKeyModal()">
     <div class="key-modal">
-      <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.6" class="key-modal-icon">
-        <rect x="3" y="11" width="18" height="10" rx="2"/>
-        <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
-      </svg>
+      <div class="key-modal-icon-badge">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8">
+          <rect x="3" y="11" width="18" height="10" rx="2"/>
+          <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+        </svg>
+      </div>
       <h2 class="key-modal-title">{{ messages[settings.lang].keyModalTitle }}</h2>
       <p class="key-modal-body">{{ messages[settings.lang].keyModalBody1 }}</p>
       <p class="key-modal-body dim">{{ messages[settings.lang].keyModalBody2 }}</p>
@@ -373,8 +372,10 @@ const controversyScore = computed(() => {
 </template>
 
 <style>
-/* ── Print Report (항상 숨김 — 화면 그대로 출력) ── */
-.print-report { display: none !important; }
+/* ── Print Report (화면에서는 숨김, 인쇄 시에만 App.vue의 @media print에서 표시) ── */
+@media screen {
+  .print-report { display: none; }
+}
 
 .rpt-page {
   font-family: 'Inter', 'Apple SD Gothic Neo', sans-serif;
@@ -704,47 +705,82 @@ const controversyScore = computed(() => {
 /* ── API 키 필요 모달 ── */
 .key-modal-overlay {
   position: fixed; inset: 0; z-index: 50;
-  background: rgba(10, 8, 20, 0.6);
-  backdrop-filter: blur(4px);
+  background: radial-gradient(circle at 50% 40%, rgba(123,94,248,0.10), rgba(8, 6, 16, 0.72) 60%);
+  backdrop-filter: blur(6px);
   display: flex; align-items: center; justify-content: center;
   padding: 24px;
+  animation: key-modal-fade-in 0.2s ease-out;
+}
+@keyframes key-modal-fade-in {
+  from { opacity: 0; }
+  to   { opacity: 1; }
 }
 .key-modal {
-  background: var(--card);
-  border: 0.5px solid var(--border);
-  border-radius: var(--radius);
-  padding: 32px;
-  max-width: 420px;
+  position: relative;
+  background: linear-gradient(180deg, var(--card-hover) 0%, var(--card) 60%);
+  border: 0.5px solid rgba(123, 94, 248, 0.28);
+  border-radius: 20px;
+  padding: 36px 34px 30px;
+  max-width: 430px;
   width: 100%;
   display: flex; flex-direction: column; align-items: flex-start; gap: 4px;
-  box-shadow: 0 20px 60px rgba(0,0,0,0.4);
+  box-shadow:
+    0 24px 70px rgba(0,0,0,0.45),
+    0 0 0 1px rgba(255,255,255,0.02) inset,
+    0 0 60px rgba(123,94,248,0.10);
+  animation: key-modal-pop 0.25s cubic-bezier(0.16, 1, 0.3, 1);
 }
-.key-modal-icon { margin-bottom: 10px; }
-.key-modal-title { font-size: 18px; font-weight: 700; color: var(--text); margin-bottom: 6px; }
-.key-modal-body { font-size: 13px; color: var(--subtext); line-height: 1.65; margin-bottom: 4px; }
+@keyframes key-modal-pop {
+  from { opacity: 0; transform: translateY(10px) scale(0.98); }
+  to   { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+.key-modal-icon-badge {
+  width: 52px; height: 52px;
+  border-radius: 14px;
+  display: flex; align-items: center; justify-content: center;
+  background: linear-gradient(135deg, #9b7bff 0%, var(--accent) 55%, #5b3fd6 100%);
+  box-shadow: 0 8px 24px rgba(123,94,248,0.45), 0 0 0 1px rgba(255,255,255,0.08) inset;
+  margin-bottom: 18px;
+}
+
+.key-modal-title {
+  font-size: 19px; font-weight: 700; color: var(--text);
+  letter-spacing: -.01em;
+  margin-bottom: 8px;
+}
+.key-modal-body { font-size: 13px; color: var(--subtext); line-height: 1.7; margin-bottom: 4px; }
 .key-modal-body.dim { color: var(--dim); }
-.key-modal-actions { display: flex; gap: 10px; margin-top: 18px; width: 100%; }
+
+.key-modal-actions { display: flex; gap: 10px; margin-top: 22px; width: 100%; }
 .key-modal-btn {
   flex: 1;
   font-size: 13px; font-weight: 600;
   border: 0.5px solid var(--border);
   background: var(--card-hover);
   color: var(--subtext);
-  padding: 10px 16px; border-radius: 8px;
+  padding: 11px 16px; border-radius: 10px;
   cursor: pointer; font-family: 'Inter', sans-serif;
+  transition: transform 0.15s, border-color 0.15s, background 0.15s, box-shadow 0.15s;
 }
+.key-modal-btn:hover { transform: translateY(-1px); border-color: rgba(123,94,248,0.4); }
 .key-modal-btn.primary {
-  background: var(--accent);
-  border-color: var(--accent);
+  background: linear-gradient(135deg, #9b7bff 0%, var(--accent) 100%);
+  border-color: transparent;
   color: #fff;
+  box-shadow: 0 6px 18px rgba(123,94,248,0.35);
 }
+.key-modal-btn.primary:hover { box-shadow: 0 8px 22px rgba(123,94,248,0.5); }
+
 .key-modal-close {
-  margin-top: 14px;
+  margin-top: 16px;
   font-size: 12px; color: var(--dim);
   background: transparent; border: none;
   cursor: pointer; font-family: 'Inter', sans-serif;
   align-self: center;
   width: 100%;
   text-align: center;
+  transition: color 0.15s;
 }
+.key-modal-close:hover { color: var(--subtext); }
 </style>

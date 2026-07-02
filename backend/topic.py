@@ -46,14 +46,14 @@ def classify_topics(comments: list[dict], api_key: str | None = None) -> tuple[l
 규칙:
 - 단순 응원("화이팅", 이모지만)은 토픽으로 뽑지 마
 - 각 토픽에 해당하는 댓글 인덱스 리스트 포함
-- 토픽명은 한국어(name_ko)와 영어(name_en) 둘 다 반환
+- 토픽명은 한국어(name_ko), 영어(name_en), 중국어 간체(name_zh), 일본어(name_ja) 네 가지 모두 반환
 
 댓글: {json.dumps(payload, ensure_ascii=False)}
 
 JSON만 반환:
 {{
   "topics": [
-    {{"name_ko": "팀워크", "name_en": "Teamwork", "comment_indices": [0, 3, 7]}},
+    {{"name_ko": "팀워크", "name_en": "Teamwork", "name_zh": "团队合作", "name_ja": "チームワーク", "comment_indices": [0, 3, 7]}},
     ...
   ]
 }}"""
@@ -80,6 +80,8 @@ JSON만 반환:
 
     topic_names_ko = [td.get("name_ko") or td.get("name", "일반") for td in topic_defs]
     topic_names_en = [td.get("name_en") or td.get("name_ko") or td.get("name", "General") for td in topic_defs]
+    topic_names_zh = [td.get("name_zh") or "" for td in topic_defs]
+    topic_names_ja = [td.get("name_ja") or "" for td in topic_defs]
 
     # GPT가 top 300에서 배정한 id → topic 맵 (한국어 이름 기준)
     idx_to_topic: dict[int, str] = {}
@@ -124,8 +126,10 @@ JSON만 반환:
             topic = fallback
         buckets[topic].append(comment)
 
-    # ko→en 매핑
+    # ko→en/zh/ja 매핑
     ko_to_en = dict(zip(topic_names_ko, topic_names_en))
+    ko_to_zh = dict(zip(topic_names_ko, topic_names_zh))
+    ko_to_ja = dict(zip(topic_names_ko, topic_names_ja))
 
     # 집계
     result = []
@@ -150,6 +154,8 @@ JSON만 반환:
         result.append({
             "label": name,
             "labelEn": ko_to_en.get(name, name),
+            "labelZh": ko_to_zh.get(name) or None,
+            "labelJa": ko_to_ja.get(name) or None,
             "mentionCount": len(tc),
             "sentiment": {
                 "positive": round(pos / total * 100),

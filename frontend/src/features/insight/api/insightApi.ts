@@ -38,8 +38,12 @@ export const insightApi = {
     const { data } = await instance.get('/stats')
     return data
   },
-  async translateLabels(labels: string[]): Promise<string[]> {
-    const { data } = await instance.post<{ translations: string[] }>('/translate-labels', { labels })
+  async translateLabels(labels: string[], targetLang: string = 'en'): Promise<string[]> {
+    const { data } = await instance.post<{ translations: string[] }>('/translate-labels', { labels, target_lang: targetLang })
+    return data.translations
+  },
+  async translateComments(texts: string[], targetLang: string = 'en'): Promise<string[]> {
+    const { data } = await instance.post<{ translations: string[] }>('/translate-comments', { texts, target_lang: targetLang })
     return data.translations
   },
   async getTopicComments(

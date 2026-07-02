@@ -1,0 +1,159 @@
+{
+  "video": {
+    "videoId": "hX0_lMgchMA",
+    "title": "Esports World Cup 2026 is Here With $75 Million & 24 Games",
+    "channelTitle": "TEGN",
+    "thumbnailUrl": "https://i.ytimg.com/vi/hX0_lMgchMA/maxresdefault.jpg",
+    "publishedAt": "2026-04-18",
+    "viewCount": 91882,
+    "likeCount": 2893,
+    "analyzedComments": 199,
+    "languageRatio": {
+      "ko": 0,
+      "en": 41,
+      "other": 59
+    },
+    "weightedSentiment": 87
+  },
+  "topics": [
+    {
+      "label": "Godlike 팀",
+      "labelEn": "Godlike Team",
+      "labelZh": "Godlike团队",
+      "labelJa": "Godlikeチーム",
+      "mentionCount": 70,
+      "sentiment": {
+        "positive": 64,
+        "neutral": 34,
+        "negative": 1
+      }
+    },
+    {
+      "label": "TEC 팀",
+      "labelEn": "TEC Team",
+      "labelZh": "TEC团队",
+      "labelJa": "TECチーム",
+      "mentionCount": 45,
+      "sentiment": {
+        "positive": 53,
+        "neutral": 47,
+        "negative": 0
+      }
+    },
+    {
+      "label": "RHK × TEC",
+      "labelEn": "RHK × TEC",
+      "labelZh": "RHK × TEC",
+      "labelJa": "RHK × TEC",
+      "mentionCount": 33,
+      "sentiment": {
+        "positive": 55,
+        "neutral": 45,
+        "negative": 0
+      }
+    },
+    {
+      "label": "S8UL 팀",
+      "labelEn": "S8UL Team",
+      "labelZh": "S8UL团队",
+      "labelJa": "S8ULチーム",
+      "mentionCount": 26,
+      "sentiment": {
+        "positive": 73,
+        "neutral": 23,
+        "negative": 4
+      }
+    },
+    {
+      "label": "4T 팀",
+      "labelEn": "4T Team",
+      "labelZh": "4T团队",
+      "labelJa": "4Tチーム",
+      "mentionCount": 25,
+      "sentiment": {
+        "positive": 20,
+        "neutral": 72,
+        "negative": 8
+      }
+    }
+  ],
+  "reactionTimeline": [
+    {
+      "label": "0–1h",
+      "positive": 4,
+      "neutral": 1,
+      "negative": 0
+    },
+    {
+      "label": "1–24h",
+      "positive": 23,
+      "neutral": 12,
+      "negative": 0
+    },
+    {
+      "label": "1–7d",
+      "positive": 15,
+      "neutral": 27,
+      "negative": 2
+    },
+    {
+      "label": "7–30d",
+      "positive": 41,
+      "neutral": 28,
+      "negative": 0
+    },
+    {
+      "label": "30d+",
+      "positive": 28,
+      "neutral": 16,
+      "negative": 2
+    }
+  ],
+  "keyInsights": [
+    {
+      "type": "positive",
+      "topic": "S8UL 팀",
+      "topicEn": "S8UL Team",
+      "topicZh": "S8UL团队",
+      "topicJa": "S8ULチーム",
+      "comment": "S8UL and GODL ❤🎉",
+      "likes": 146
+    },
+    {
+      "type": "negative",
+      "topic": "4T 팀",
+      "topicEn": "4T Team",
+      "topicZh": "4T团队",
+      "topicJa": "4Tチーム",
+      "comment": "4t missing in this video 😡",
+      "likes": 1
+    },
+    {
+      "type": "positive",
+      "topic": "RHK × TEC",
+      "topicEn": "RHK × TEC",
+      "topicZh": "RHK × TEC",
+      "topicJa": "RHK × TEC",
+      "comment": "RHK X TEC ☠️🇧🇩🗿",
+      "likes": 74
+    },
+    {
+      "type": "negative",
+      "topic": "Godlike 팀",
+      "topicEn": "Godlike Team",
+      "topicZh": "Godlike团队",
+      "topicJa": "Godlikeチーム",
+      "comment": "Jonny gaya godl khatam Ab😂😂😂😂",
+      "likes": 0
+    }
+  ],
+  "analyzedAt": "2026-07-02T09:44:49.324560+00:00",
+  "analysisDuration": 41.0,
+  "tokenUsage": {
+    "input": 9019,
+    "output": 2670,
+    "embedding": 2017,
+    "total": 13706,
+    "estimatedCostUsd": 0.002995
+  }
+}

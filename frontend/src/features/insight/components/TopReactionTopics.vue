@@ -1,14 +1,14 @@
 <script setup lang="ts">
 import type { Topic, Lang } from '@/features/insight/types/insight'
 import { messages } from '@/locales/messages'
+import { displayLabel } from '@/features/insight/composables/useLabelTranslation'
 
 const props = defineProps<{ topics: Topic[]; lang: Lang }>()
 const emit = defineEmits<{ (e: 'select-topic', label: string): void }>()
 
 const fmt = (n: number) => n >= 1000 ? (n / 1000).toFixed(1) + 'K' : String(n)
 
-const getLabel = (topic: Topic) =>
-  props.lang === 'en' && topic.labelEn ? topic.labelEn : topic.label
+const getLabel = (topic: Topic) => displayLabel(topic, props.lang)
 </script>
 
 <template>

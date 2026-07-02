@@ -138,6 +138,14 @@ export interface UIMessages {
   keyModalSettingsBtn: string
   keyModalHistoryBtn: string
   keyModalClose: string
+  // TopicComments
+  topicCommentsLabel: string
+  filterAll: string
+  anonymousAuthor: string
+  noCommentsFound: string
+  totalCommentsFooter: string
+  commentsLoadFailed: string
+  originalCommentLabel: string
 }
 
 export const messages: Record<Lang, UIMessages> = {
@@ -265,6 +273,13 @@ export const messages: Record<Lang, UIMessages> = {
     keyModalSettingsBtn: '설정으로 이동',
     keyModalHistoryBtn: '분석 기록 보기',
     keyModalClose: '닫기',
+    topicCommentsLabel: '토픽 댓글',
+    filterAll: '전체',
+    anonymousAuthor: '익명',
+    noCommentsFound: '해당 댓글이 없습니다',
+    totalCommentsFooter: '총 {n}개 댓글 · 좋아요 순 정렬',
+    commentsLoadFailed: '댓글을 불러오지 못했습니다.',
+    originalCommentLabel: '원문',
   },
 
   en: {
@@ -391,6 +406,13 @@ export const messages: Record<Lang, UIMessages> = {
     keyModalSettingsBtn: 'Go to Settings',
     keyModalHistoryBtn: 'View History',
     keyModalClose: 'Close',
+    topicCommentsLabel: 'Topic Comments',
+    filterAll: 'All',
+    anonymousAuthor: 'Anonymous',
+    noCommentsFound: 'No comments found',
+    totalCommentsFooter: '{n} comments total · sorted by likes',
+    commentsLoadFailed: 'Failed to load comments.',
+    originalCommentLabel: 'Original',
   },
 
   zh: {
@@ -517,6 +539,13 @@ export const messages: Record<Lang, UIMessages> = {
     keyModalSettingsBtn: '前往设置',
     keyModalHistoryBtn: '查看分析记录',
     keyModalClose: '关闭',
+    topicCommentsLabel: '话题评论',
+    filterAll: '全部',
+    anonymousAuthor: '匿名',
+    noCommentsFound: '没有相关评论',
+    totalCommentsFooter: '共 {n} 条评论 · 按点赞数排序',
+    commentsLoadFailed: '无法加载评论。',
+    originalCommentLabel: '原文',
   },
 
   ja: {
@@ -643,5 +672,12 @@ export const messages: Record<Lang, UIMessages> = {
     keyModalSettingsBtn: '設定へ移動',
     keyModalHistoryBtn: '分析履歴を見る',
     keyModalClose: '閉じる',
+    topicCommentsLabel: 'トピックコメント',
+    filterAll: 'すべて',
+    anonymousAuthor: '匿名',
+    noCommentsFound: '該当するコメントがありません',
+    totalCommentsFooter: '合計 {n} 件のコメント · いいね順',
+    commentsLoadFailed: 'コメントを読み込めませんでした。',
+    originalCommentLabel: '原文',
   },
 }

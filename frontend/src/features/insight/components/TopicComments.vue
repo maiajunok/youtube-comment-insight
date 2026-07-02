@@ -1,10 +1,15 @@
 <script setup lang="ts">
-import { ref, watch } from 'vue'
+import { ref, watch, computed } from 'vue'
 import { insightApi } from '@/features/insight/api/insightApi'
 import type { TopicComment } from '@/features/insight/types/insight'
+import { useSettingsStore } from '@/features/settings/stores/settings'
+import { messages } from '@/locales/messages'
 
-const props = defineProps<{ videoId: string; topic: string }>()
+const props = defineProps<{ videoId: string; topic: string; displayTopic?: string }>()
 const emit = defineEmits<{ (e: 'close'): void }>()
+
+const settings = useSettingsStore()
+const M = computed(() => messages[settings.lang])
 
 type Filter = 'all' | 'POSITIVE' | 'NEUTRAL' | 'NEGATIVE'
 
@@ -24,7 +29,7 @@ const load = async (sentiment: Filter) => {
     total.value = res.total
     if (sentiment === 'all') counts.value = res.counts as any
   } catch (e: any) {
-    error.value = e?.response?.data?.detail ?? '댓글을 불러오지 못했습니다.'
+    error.value = e?.response?.data?.detail ?? M.value.commentsLoadFailed
     comments.value = []
   } finally {
     isLoading.value = false
@@ -47,37 +52,25 @@ const sentimentColor = (s: string) => {
 }
 
 const sentimentLabel = (s: string) => {
-  if (s === 'POSITIVE') return '긍정'
-  if (s === 'NEGATIVE') return '부정'
-  return '중립'
+  if (s === 'POSITIVE') return M.value.positive
+  if (s === 'NEGATIVE') return M.value.negative
+  return M.value.neutral
 }
 </script>
 
 <template>
   <!-- backdrop -->
-  <div
-    class="fixed inset-0 z-40"
-    style="background: rgba(0,0,0,0.5)"
-    @click="emit('close')"
-  />
+  <div class="drawer-backdrop" @click="emit('close')" />
 
   <!-- drawer -->
-  <div
-    class="fixed right-0 top-0 h-screen z-50 flex flex-col border-l"
-    style="width: 480px; background: var(--card); border-color: var(--border)"
-  >
+  <div class="drawer">
     <!-- 헤더 -->
-    <div class="flex items-center gap-3 px-5 py-4 border-b shrink-0"
-      style="border-color: var(--border)">
-      <div class="flex-1 min-w-0">
-        <p class="text-[11px] uppercase tracking-widest mb-0.5" style="color: var(--subtext)">토픽 댓글</p>
-        <h3 class="text-base font-bold leading-snug" style="color: var(--text)">{{ topic }}</h3>
+    <div class="drawer-header">
+      <div class="header-text">
+        <p class="header-eyebrow">{{ M.topicCommentsLabel }}</p>
+        <h3 class="header-title">{{ displayTopic || topic }}</h3>
       </div>
-      <button
-        @click="emit('close')"
-        class="w-8 h-8 rounded-lg flex items-center justify-center border transition-all"
-        style="border-color: var(--border); color: var(--subtext)"
-      >
+      <button @click="emit('close')" class="close-btn">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
           <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
         </svg>
@@ -85,13 +78,13 @@ const sentimentLabel = (s: string) => {
     </div>
 
     <!-- 감정 필터 탭 -->
-    <div class="flex gap-1.5 px-5 py-3 shrink-0 border-b" style="border-color: var(--border)">
+    <div class="filter-row">
       <button
         v-for="[key, label, count] in [
-          ['all', '전체', counts.POSITIVE + counts.NEUTRAL + counts.NEGATIVE],
-          ['POSITIVE', '긍정', counts.POSITIVE],
-          ['NEUTRAL', '중립', counts.NEUTRAL],
-          ['NEGATIVE', '부정', counts.NEGATIVE],
+          ['all', M.filterAll, counts.POSITIVE + counts.NEUTRAL + counts.NEGATIVE],
+          ['POSITIVE', M.positive, counts.POSITIVE],
+          ['NEUTRAL', M.neutral, counts.NEUTRAL],
+          ['NEGATIVE', M.negative, counts.NEGATIVE],
         ]"
         :key="key"
         @click="filter = key as Filter"
@@ -104,46 +97,38 @@ const sentimentLabel = (s: string) => {
     </div>
 
     <!-- 댓글 목록 -->
-    <div class="flex-1 overflow-y-auto px-5 py-4 flex flex-col gap-3">
+    <div class="comment-list">
 
-      <div v-if="isLoading" class="flex-1 flex items-center justify-center py-16">
-        <p class="text-sm" style="color: var(--subtext)">불러오는 중...</p>
+      <div v-if="isLoading" class="state-msg">
+        <p>{{ M.loading }}</p>
       </div>
 
-      <p v-else-if="error" class="text-sm py-4 text-center" style="color: #f87171">{{ error }}</p>
+      <p v-else-if="error" class="state-msg error">{{ error }}</p>
 
-      <p v-else-if="!comments.length" class="text-sm py-8 text-center" style="color: var(--subtext)">
-        해당 댓글이 없습니다
+      <p v-else-if="!comments.length" class="state-msg">
+        {{ M.noCommentsFound }}
       </p>
 
-      <div
-        v-else
-        v-for="c in comments"
-        :key="c.id"
-        class="flex gap-3 rounded-xl border"
-        style="padding: var(--card-padding); background: var(--card-hover); border-color: var(--border)"
-      >
+      <div v-else v-for="c in comments" :key="c.id" class="comment-card">
         <!-- 감정 인디케이터 -->
-        <div class="mt-1 shrink-0 w-1.5 rounded-full self-stretch"
-          :style="`background: ${sentimentColor(c.sentiment)}`"
-        />
+        <div class="sentiment-bar" :style="`background: ${sentimentColor(c.sentiment)}`" />
 
-        <div class="flex-1 min-w-0 flex flex-col gap-2.5">
+        <div class="comment-body">
           <!-- 메타 -->
-          <div class="flex items-center gap-2 flex-wrap">
-            <span class="text-[12px] font-semibold" style="color: var(--text)">{{ c.authorName || '익명' }}</span>
-            <span class="text-[11px]" style="color: var(--subtext)">{{ fmtDate(c.publishedAt) }}</span>
+          <div class="comment-meta">
+            <span class="author">{{ c.authorName || M.anonymousAuthor }}</span>
+            <span class="date">{{ fmtDate(c.publishedAt) }}</span>
             <span
-              class="text-[10px] px-1.5 py-0.5 rounded-full ml-auto"
-              :style="`background: ${sentimentColor(c.sentiment)}22; color: ${sentimentColor(c.sentiment)}`"
+              class="sentiment-pill"
+              :style="`background: ${sentimentColor(c.sentiment)}1f; color: ${sentimentColor(c.sentiment)}`"
             >{{ sentimentLabel(c.sentiment) }}</span>
           </div>
 
           <!-- 텍스트 -->
-          <p class="text-[13px]" style="color: var(--text); line-height: 1.7; font-weight: 500;">{{ c.text }}</p>
+          <p class="comment-text">{{ c.text }}</p>
 
           <!-- 좋아요 -->
-          <div v-if="c.likeCount > 0" class="flex items-center gap-1 text-[11px]" style="color: var(--subtext)">
+          <div v-if="c.likeCount > 0" class="likes">
             <svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor">
               <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
             </svg>
@@ -155,13 +140,186 @@ const sentimentLabel = (s: string) => {
     </div>
 
     <!-- 푸터 -->
-    <div class="px-5 py-3 border-t text-[11px] shrink-0" style="border-color: var(--border); color: var(--subtext)">
-      총 {{ total.toLocaleString() }}개 댓글 · 좋아요 순 정렬
+    <div class="footer-bar">
+      {{ M.totalCommentsFooter.replace('{n}', total.toLocaleString()) }}
     </div>
   </div>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
+@use '@/assets/variables' as *;
+
+.drawer-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 40;
+  background: rgba(8, 6, 16, 0.55);
+  backdrop-filter: blur(2px);
+  animation: drawer-fade-in 0.2s ease-out;
+}
+@keyframes drawer-fade-in {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+.drawer {
+  position: fixed;
+  right: 0;
+  top: 0;
+  height: 100vh;
+  z-index: 50;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  background: var(--card);
+  border-left: 0.5px solid var(--border);
+  box-shadow: -24px 0 60px rgba(0, 0, 0, 0.35);
+  animation: drawer-slide-in 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+@keyframes drawer-slide-in {
+  from { transform: translateX(24px); opacity: 0; }
+  to   { transform: translateX(0); opacity: 1; }
+}
+
+.drawer-header {
+  display: flex;
+  align-items: flex-start;
+  gap: $space-md;
+  padding: 28px 28px 20px;
+  border-bottom: 0.5px solid var(--border);
+  flex-shrink: 0;
+}
+.header-text { flex: 1; min-width: 0; }
+.header-eyebrow {
+  font-size: 10px;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: var(--accent);
+  opacity: 0.75;
+  margin-bottom: 6px;
+}
+.header-title {
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--text);
+  line-height: 1.4;
+  letter-spacing: -.01em;
+}
+
+.close-btn {
+  @include icon-button;
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+  color: var(--subtext);
+
+  &:hover { color: var(--text); border-color: rgba(123, 94, 248, 0.35); }
+}
+
+.filter-row {
+  display: flex;
+  gap: 8px;
+  padding: 16px 28px;
+  flex-shrink: 0;
+  border-bottom: 0.5px solid var(--border);
+}
+
+.comment-list {
+  flex: 1;
+  overflow-y: auto;
+  padding: 20px 28px 28px;
+  display: flex;
+  flex-direction: column;
+  gap: $space-md;
+
+  &::-webkit-scrollbar { width: 6px; }
+  &::-webkit-scrollbar-track { background: transparent; }
+  &::-webkit-scrollbar-thumb { background: var(--border); border-radius: 999px; }
+}
+
+.state-msg {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 64px 0;
+  font-size: 13px;
+  text-align: center;
+  color: var(--subtext);
+
+  &.error { color: #f87171; }
+}
+
+.comment-card {
+  display: flex;
+  gap: $space-md;
+  border-radius: 14px;
+  padding: 16px 18px;
+  background: var(--card-hover);
+  border: 0.5px solid var(--border);
+  transition: border-color $transition-fast, transform $transition-fast;
+
+  &:hover { border-color: rgba(123, 94, 248, 0.25); }
+}
+
+.sentiment-bar {
+  margin-top: 2px;
+  flex-shrink: 0;
+  width: 3px;
+  border-radius: 999px;
+  align-self: stretch;
+}
+
+.comment-body {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.comment-meta {
+  display: flex;
+  align-items: center;
+  gap: $space-sm;
+  flex-wrap: wrap;
+
+  .author { font-size: 12px; font-weight: 600; color: var(--text); }
+  .date   { font-size: 11px; color: var(--dim); }
+}
+
+.sentiment-pill {
+  font-size: 10px;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 999px;
+  margin-left: auto;
+}
+
+.comment-text {
+  font-size: 13px;
+  color: var(--text);
+  line-height: 1.7;
+  font-weight: 500;
+}
+
+.likes {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 11px;
+  color: var(--dim);
+}
+
+.footer-bar {
+  flex-shrink: 0;
+  padding: 16px 28px;
+  border-top: 0.5px solid var(--border);
+  font-size: 11px;
+  color: var(--dim);
+  background: var(--card-hover);
+}
 .filter-tab {
   display: flex;
   align-items: center;
@@ -182,10 +340,11 @@ const sentimentLabel = (s: string) => {
   background: var(--card-hover);
 }
 .filter-tab.active {
-  background: var(--accent);
-  border-color: var(--accent);
+  background: linear-gradient(135deg, #9b7bff 0%, var(--accent) 100%);
+  border-color: transparent;
   color: #fff;
   font-weight: 600;
+  box-shadow: 0 4px 14px rgba(123, 94, 248, 0.35);
 }
 
 .tab-badge {
