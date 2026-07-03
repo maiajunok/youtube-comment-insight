@@ -1,6 +1,8 @@
 # YouTube Comment Insight Analyzer
 **AI-powered YouTube comment sentiment analysis dashboard**
 
+### 🌐 [**Live Demo →**](https://youtube-comment-insight-orcin.vercel.app)
+
 [![Vue](https://img.shields.io/badge/Vue-3.5-42b883?logo=vue.js)](https://vuejs.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-Python-009688?logo=fastapi)](https://fastapi.tiangolo.com/)
 [![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4o--mini-412991?logo=openai)](https://openai.com/)
@@ -9,6 +11,12 @@
 <img width="2880" height="1452" alt="image" src="https://github.com/user-attachments/assets/421541ae-ec0e-447c-a765-e96d87faf1d0" />
 
 > Built as part of the **Seocho e-Sports Developer Academy** (Seocho District Office × T1 Esports), a frontend/full-stack developer training program.
+
+## Highlights
+- Full-stack AI dashboard built with Vue 3, TypeScript, FastAPI, and GPT-4o-mini
+- Analyzes YouTube comments by sentiment, topic, timeline, and key reactions
+- Cached history, side-by-side video comparison, stats dashboard, and PDF export
+- BYOK — visitors bring their own OpenAI/YouTube API keys, nothing is stored server-side
 
 ---
 
@@ -244,7 +252,15 @@ Translates topic labels to English. Accepts the same `X-OpenAI-Key` header; sile
 
 **AI 기반 YouTube 댓글 감정 분석 대시보드**
 
+### 🌐 [**바로 써보기 →**](https://youtube-comment-insight-orcin.vercel.app)
+
 > 서초구청과 T1이 함께하는 **서초 e스포츠 개발자 아카데미** 프론트엔드/풀스택 개발자 양성 과정의 일환으로 제작한 프로젝트입니다.
+
+## 하이라이트
+- Vue 3, TypeScript, FastAPI, GPT-4o-mini로 만든 풀스택 AI 대시보드
+- 댓글을 감정 · 토픽 · 타임라인 · 핵심 반응 기준으로 분석
+- 분석 기록 캐시, 영상 비교, 통계 대시보드, PDF 내보내기 지원
+- BYOK 방식 — 방문자가 본인 API 키를 직접 입력, 서버엔 저장 안 함
 
 ---
 
