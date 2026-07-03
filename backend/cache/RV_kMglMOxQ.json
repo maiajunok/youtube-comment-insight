@@ -1,0 +1,295 @@
+{
+  "video": {
+    "videoId": "RV_kMglMOxQ",
+    "title": "우제와 우즈는 더 깊이 빠져 죽어도 되니까 | 우라우닝 | 2026 HLE Fan fest",
+    "channelTitle": "Hanwha Life Esports",
+    "thumbnailUrl": "https://i.ytimg.com/vi/RV_kMglMOxQ/maxresdefault.jpg",
+    "publishedAt": "2026-03-07",
+    "viewCount": 97677,
+    "likeCount": 3413,
+    "analyzedComments": 385,
+    "languageRatio": {
+      "ko": 77,
+      "en": 3,
+      "other": 19
+    },
+    "weightedSentiment": 10
+  },
+  "topics": [
+    {
+      "label": "팬들에게 주는 즐거움",
+      "labelEn": "Joy for Fans",
+      "labelZh": "给粉丝的快乐",
+      "labelJa": "ファンへの喜び",
+      "mentionCount": 131,
+      "sentiment": {
+        "positive": 63,
+        "neutral": 33,
+        "negative": 4
+      }
+    },
+    {
+      "label": "우제에 대한 팬들의 염려",
+      "labelEn": "Fans' Concern for Wooje",
+      "labelZh": "粉丝对宇哲的担忧",
+      "labelJa": "ウジェに対するファンの心配",
+      "mentionCount": 105,
+      "sentiment": {
+        "positive": 49,
+        "neutral": 33,
+        "negative": 18
+      }
+    },
+    {
+      "label": "우제의 노래 실력",
+      "labelEn": "Wooje's Singing Ability",
+      "labelZh": "宇哲的唱歌能力",
+      "labelJa": "ウジェの歌唱力",
+      "mentionCount": 88,
+      "sentiment": {
+        "positive": 66,
+        "neutral": 24,
+        "negative": 10
+      }
+    },
+    {
+      "label": "공식 영상 공개",
+      "labelEn": "Official Video Release",
+      "labelZh": "官方视频发布",
+      "labelJa": "公式動画の公開",
+      "mentionCount": 36,
+      "sentiment": {
+        "positive": 44,
+        "neutral": 33,
+        "negative": 22
+      }
+    },
+    {
+      "label": "치통 창법",
+      "labelEn": "Toothache Singing Method",
+      "labelZh": "牙痛唱法",
+      "labelJa": "歯痛の歌い方",
+      "mentionCount": 25,
+      "sentiment": {
+        "positive": 60,
+        "neutral": 36,
+        "negative": 4
+      }
+    }
+  ],
+  "reactionTimeline": [
+    {
+      "elapsedSeconds": 72.0,
+      "bucketStart": "2026-03-07T04:01:28+00:00",
+      "positive": 25,
+      "neutral": 12,
+      "negative": 3,
+      "netSentiment": 0.55,
+      "zScore": 0.845,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 266.0,
+      "bucketStart": "2026-03-07T04:04:42+00:00",
+      "positive": 22,
+      "neutral": 12,
+      "negative": 6,
+      "netSentiment": 0.4,
+      "zScore": -0.72,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 1387.0,
+      "bucketStart": "2026-03-07T04:23:23+00:00",
+      "positive": 25,
+      "neutral": 12,
+      "negative": 3,
+      "netSentiment": 0.55,
+      "zScore": 0.845,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 4208.0,
+      "bucketStart": "2026-03-07T05:10:24+00:00",
+      "positive": 25,
+      "neutral": 14,
+      "negative": 1,
+      "netSentiment": 0.6,
+      "zScore": 1.366,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 10881.0,
+      "bucketStart": "2026-03-07T07:01:37+00:00",
+      "positive": 26,
+      "neutral": 10,
+      "negative": 4,
+      "netSentiment": 0.55,
+      "zScore": 0.845,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 20942.0,
+      "bucketStart": "2026-03-07T09:49:18+00:00",
+      "positive": 18,
+      "neutral": 15,
+      "negative": 7,
+      "netSentiment": 0.275,
+      "zScore": -2.023,
+      "isBurst": true,
+      "direction": "NEGATIVE_SPIKE",
+      "topComments": [
+        {
+          "text": "우제와 우즈는 취향차이",
+          "likeCount": 183,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "끝까지 완창하는 우제가 너무 기특하긴 한데요.. 합의가 된거죠ㅋㅋㅋㅋㅋ",
+          "likeCount": 139,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "첫음부터 완벽하게 플랫시켜서 기대감을 줄인 후 오 의외로 잘 지르는데?!하게 만드는 운영 미쳤다 최고의 탑솔로가수",
+          "likeCount": 53,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "이게 탑이다 ㅋㅋ  빼지않는다",
+          "likeCount": 28,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Lost stars도 가성 잘부르더니ㅋㅋㅋㅋ",
+          "likeCount": 20,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "우라우닝으로 모닝콜 했는데 올해 단 한번도 지각 안했음 ^___^ 우제야 고마워🧡",
+          "likeCount": 16,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "이건 사회적매장 같아요",
+          "likeCount": 9,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "???: 아..안돼",
+          "likeCount": 8,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "유투브까지 올리는건 동의된건가..ㅠㅠ",
+          "likeCount": 8,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "우제... 잘했어.. 이 할미 귀에는 참 감미로웠단다... (빼놓은 보청기를 만지작거리며..)🤭",
+          "likeCount": 7,
+          "sentiment": "POSITIVE"
+        }
+      ]
+    },
+    {
+      "elapsedSeconds": 43124.0,
+      "bucketStart": "2026-03-07T15:59:00+00:00",
+      "positive": 24,
+      "neutral": 10,
+      "negative": 6,
+      "netSentiment": 0.45,
+      "zScore": -0.198,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 113386.0,
+      "bucketStart": "2026-03-08T11:30:02+00:00",
+      "positive": 23,
+      "neutral": 12,
+      "negative": 5,
+      "netSentiment": 0.45,
+      "zScore": -0.198,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 267519.0,
+      "bucketStart": "2026-03-10T06:18:55+00:00",
+      "positive": 21,
+      "neutral": 15,
+      "negative": 4,
+      "netSentiment": 0.425,
+      "zScore": -0.459,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 586690.0,
+      "bucketStart": "2026-03-13T22:58:26+00:00",
+      "positive": 14,
+      "neutral": 8,
+      "negative": 3,
+      "netSentiment": 0.44,
+      "zScore": -0.302,
+      "isBurst": false,
+      "direction": null
+    }
+  ],
+  "keyInsights": [
+    {
+      "type": "positive",
+      "topic": "우제에 대한 팬들의 염려",
+      "topicEn": "Fans' Concern for Wooje",
+      "topicZh": "粉丝对宇哲的担忧",
+      "topicJa": "ウジェに対するファンの心配",
+      "comment": "우제 울겄다ㅋㅋ",
+      "commentLang": "ko",
+      "likes": 559
+    },
+    {
+      "type": "negative",
+      "topic": "우제에 대한 팬들의 염려",
+      "topicEn": "Fans' Concern for Wooje",
+      "topicZh": "粉丝对宇哲的担忧",
+      "topicJa": "ウジェに対するファンの心配",
+      "comment": "제우스 재계약 안하면 이거 때문인줄 알아라",
+      "commentLang": "ko",
+      "likes": 2072
+    },
+    {
+      "type": "positive",
+      "topic": "공식 영상 공개",
+      "topicEn": "Official Video Release",
+      "topicZh": "官方视频发布",
+      "topicJa": "公式動画の公開",
+      "comment": "아,,,,,,,, 사고인데? 알고 계시면 안되는데..\n\n이걸 공개해주넼ㅋㅋ감다살ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+      "commentLang": "ko",
+      "likes": 459
+    },
+    {
+      "type": "negative",
+      "topic": "공식 영상 공개",
+      "topicEn": "Official Video Release",
+      "topicZh": "官方视频发布",
+      "topicJa": "公式動画の公開",
+      "comment": "1:07 진지하게 가성은 좀 잘해 여전히",
+      "commentLang": "ko",
+      "likes": 458
+    }
+  ],
+  "analyzedAt": "2026-07-03T14:32:51.698378+00:00",
+  "analysisDuration": 85.1,
+  "tokenUsage": {
+    "input": 19344,
+    "output": 4803,
+    "embedding": 9395,
+    "total": 33542,
+    "estimatedCostUsd": 0.005971
+  }
+}

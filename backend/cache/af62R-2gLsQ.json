@@ -79,34 +79,648 @@
   ],
   "reactionTimeline": [
     {
-      "label": "0–1h",
-      "positive": 39,
-      "neutral": 15,
-      "negative": 2
+      "elapsedSeconds": 10858.0,
+      "bucketStart": "2026-05-29T03:00:58+00:00",
+      "bucketEnd": "2026-05-29T03:32:03+00:00",
+      "positive": 29,
+      "neutral": 9,
+      "negative": 2,
+      "netSentiment": 0.675,
+      "zScore": 0.622,
+      "isBurst": false,
+      "direction": null
     },
     {
-      "label": "1–24h",
-      "positive": 107,
-      "neutral": 35,
-      "negative": 11
+      "elapsedSeconds": 12794.0,
+      "bucketStart": "2026-05-29T03:33:14+00:00",
+      "bucketEnd": "2026-05-29T04:54:53+00:00",
+      "positive": 29,
+      "neutral": 9,
+      "negative": 2,
+      "netSentiment": 0.675,
+      "zScore": 0.622,
+      "isBurst": false,
+      "direction": null
     },
     {
-      "label": "1–7d",
-      "positive": 296,
-      "neutral": 98,
-      "negative": 34
+      "elapsedSeconds": 18017.0,
+      "bucketStart": "2026-05-29T05:00:17+00:00",
+      "bucketEnd": "2026-05-29T10:56:45+00:00",
+      "positive": 29,
+      "neutral": 9,
+      "negative": 2,
+      "netSentiment": 0.675,
+      "zScore": 0.622,
+      "isBurst": false,
+      "direction": null
     },
     {
-      "label": "7–30d",
-      "positive": 110,
-      "neutral": 36,
-      "negative": 15
+      "elapsedSeconds": 39926.0,
+      "bucketStart": "2026-05-29T11:05:26+00:00",
+      "bucketEnd": "2026-05-29T18:39:36+00:00",
+      "positive": 30,
+      "neutral": 7,
+      "negative": 3,
+      "netSentiment": 0.675,
+      "zScore": 0.622,
+      "isBurst": false,
+      "direction": null
     },
     {
-      "label": "30d+",
-      "positive": 8,
-      "neutral": 5,
-      "negative": 1
+      "elapsedSeconds": 67960.0,
+      "bucketStart": "2026-05-29T18:52:40+00:00",
+      "bucketEnd": "2026-05-30T01:42:44+00:00",
+      "positive": 24,
+      "neutral": 12,
+      "negative": 4,
+      "netSentiment": 0.5,
+      "zScore": -1.155,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 92814.0,
+      "bucketStart": "2026-05-30T01:46:54+00:00",
+      "bucketEnd": "2026-05-30T09:36:03+00:00",
+      "positive": 22,
+      "neutral": 18,
+      "negative": 0,
+      "netSentiment": 0.55,
+      "zScore": -0.647,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 121839.0,
+      "bucketStart": "2026-05-30T09:50:39+00:00",
+      "bucketEnd": "2026-05-30T19:58:40+00:00",
+      "positive": 29,
+      "neutral": 9,
+      "negative": 2,
+      "netSentiment": 0.675,
+      "zScore": 0.622,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 159392.0,
+      "bucketStart": "2026-05-30T20:16:32+00:00",
+      "bucketEnd": "2026-05-31T01:21:48+00:00",
+      "positive": 31,
+      "neutral": 3,
+      "negative": 6,
+      "netSentiment": 0.625,
+      "zScore": 0.114,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 178146.0,
+      "bucketStart": "2026-05-31T01:29:06+00:00",
+      "bucketEnd": "2026-05-31T07:53:04+00:00",
+      "positive": 28,
+      "neutral": 8,
+      "negative": 4,
+      "netSentiment": 0.6,
+      "zScore": -0.14,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 201216.0,
+      "bucketStart": "2026-05-31T07:53:36+00:00",
+      "bucketEnd": "2026-05-31T14:23:03+00:00",
+      "positive": 33,
+      "neutral": 6,
+      "negative": 1,
+      "netSentiment": 0.8,
+      "zScore": 1.891,
+      "isBurst": true,
+      "direction": "POSITIVE_SPIKE",
+      "topComments": [
+        {
+          "text": "Chrissy is one of the rare artists where the live vocals is even better than the studio version lol",
+          "likeCount": 102,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "노래실력은 당연하고 진짜 너무 엘프같이 이쁘네;;;;;",
+          "likeCount": 24,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "The one and only voice of league of legends. Love her",
+          "likeCount": 16,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "This woman is so beautiful, unreal ❤",
+          "likeCount": 12,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Chrissy did the soundtrack for final fantasy 14’s wicked thunder fight. A true talent she is love that one too",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "I really hope she does the next worlds theme",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "better than 2025 worlds opening",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "한국식 화장이여서 그런건지 모르겠는데 레전드네ㄷㄷ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "This is amazing",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "I always cry when chrissy plays phoenix",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "음질 죽인다~",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "FIRE!!",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Love her from infinity album, still she is def my celebrity crush",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "I love Chrissy, unfortunately she's not very well-known compared to other bigger stars. I've followed her work long before I followed the League of Legends scene. I wanted to know what she is exactly to Koreans/Asians in general, if for them she's like Shakira or Lady Gaga to us.",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "소름이 쫙",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Chills, all these years later still 🔥🔥song",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "페이커를 상징하는 노래",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "이걸 현장에서 본게 아직도 설렌다",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Cháy",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Chrissy is so legendary for league lore",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "공연장 어디에요?!",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "so much aura! goosebumps!",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "I love this but id loved like a caster or announcer to like introduce them during the first song either way it was amazing",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Crizzy is the curse of T1 😂 phoenix is 2019 FPX won. legends never die is When IG won 2017. BLG time? Or HLE guma 4peat? 🤷",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "Faker’s aura is unbelievable.",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "RIOT is somehow better at producing music than most music production companies AND Legends Never Die is still their crowning jewel.",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Sister of George Costanza?",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "absolutely aura farming",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "最偉大的戰隊vs最有指標性的英雄聯盟歌手!!",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "비켜봐. 페이커보게",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "OMG It's LEGENDS NEVER DIE",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Yes!!!!!",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "What about nmixx? when is their performance gonna be uploaded?",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "지리네",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Beautiful vibes! ❤❤ T1 and Chrissy wow!",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "the k-pop style really fits her!",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "buena musica, lastima la cantante, desde la primera vez que aparecio constanza desafina, deberian exiguir que mejore mas tomando clases o bien contratar a otra cantante por favor, no puede pasar 8 años y seguir desafinando en el escenario",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "Singing wildfire after lec 6-0 korea is kinda funny banger song tho",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "what name of this song is ?",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "This girl is just perfect",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        }
+      ]
+    },
+    {
+      "elapsedSeconds": 225591.0,
+      "bucketStart": "2026-05-31T14:39:51+00:00",
+      "bucketEnd": "2026-05-31T22:42:38+00:00",
+      "positive": 25,
+      "neutral": 9,
+      "negative": 6,
+      "netSentiment": 0.475,
+      "zScore": -1.409,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 254850.0,
+      "bucketStart": "2026-05-31T22:47:30+00:00",
+      "bucketEnd": "2026-06-01T09:54:45+00:00",
+      "positive": 23,
+      "neutral": 11,
+      "negative": 6,
+      "netSentiment": 0.425,
+      "zScore": -1.916,
+      "isBurst": true,
+      "direction": "NEGATIVE_SPIKE",
+      "topComments": [
+        {
+          "text": "Chrissy's makeup is like k-pop style.",
+          "likeCount": 8,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "LEGENDS NEVER DIE ❤",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Legends never die.. she's amazing and she's a legend herself.",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "I couldn't find the song “Wildfire” anywhere",
+          "likeCount": 2,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "BRO and BFX experienced a Worlds Finals-like atmosphere.",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Chrissy, you're the best legend that will never die.",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "i love t1 but clicked for Chrissy. anything League + Chrissy is a must to click.",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "레전드 네버다이\n\n케리아 네버 싱잉",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "This was an incredible performance. Literally Legends never die and neither does this song.",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "8:48 嚇哭了，老李這裡進場超級神",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "At this point, Chrissy deserves a dedicated skin in-game to commemorate her constantza performance along the years. In 2017 perhaps (10 years is not a short time)",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "god i hope lol reimagines her band’s against the current song “jump” as a world song",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "Agaisnt the current fan here!",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "Chrissy really has become the voice of our game, hasn't she?",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "미쳤다ㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "THE KEY CHANGE",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "holyyyy, i love this live version",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "GENIA",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "It will be 2040 finals and we will have the same songs",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "Everytime I hear Legend Never Die, I remember about the most beautiful day in my life. When I was young and play LoL everyday with my brothers.",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Behold. The gamers.",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "Better than the lip sync concerts of the so called big stars.❤🔥",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Damn",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "Shivers everytime .....",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "Chrissy Costanza + Riot Games = 🔥🔥🔥🔥🔥",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "a real singer...",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "I never taught my childhood favourite song legend never die taught singer is looks like this , so gorgeous and well suited like miya in mllb ❤❤\n\nNow big fan ❤❤❤❤❤❤",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "one of my fvrt songs Phoenix🐦‍🔥 & Legends Never Die. However, it seems in this era wearing cut clothes here & there is the fashion, when no man would wear this kind of clothes. ppl's minds.. wlc to the stone age",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "I get goosebumps every time Chrissy sings Legend Never Die",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "all perfect",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "🤫❄️",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "미쳤네 오 ㅏ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Legends die",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "oh i thought its time for worlds already",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "What in the Chrissy Park Constanza? Did she undergo plastic surgery?",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "역시 가수는 라이브를 잘해야 가수다",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "This song is still awesome, but what happened with her face? Did she has some surgery?",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "such an angelic voice",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Ya se que esa es la forma de espectar de los asiaticos, pero esa forma no llena las vibras al cantante y un espectaculo de estos neceita establecer una conexion real como una retroalimentación, en LATAM le brillarian los ojos a la Chrissy de ver como el publico disfruta sus canciones",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "I know she is enough for stage presence, but mannn- bring her band there",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "elapsedSeconds": 300677.0,
+      "bucketStart": "2026-06-01T11:31:17+00:00",
+      "bucketEnd": "2026-06-01T23:52:04+00:00",
+      "positive": 30,
+      "neutral": 6,
+      "negative": 4,
+      "netSentiment": 0.65,
+      "zScore": 0.368,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 347706.0,
+      "bucketStart": "2026-06-02T00:35:06+00:00",
+      "bucketEnd": "2026-06-02T14:32:34+00:00",
+      "positive": 30,
+      "neutral": 7,
+      "negative": 3,
+      "netSentiment": 0.675,
+      "zScore": 0.622,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 398745.0,
+      "bucketStart": "2026-06-02T14:45:45+00:00",
+      "bucketEnd": "2026-06-03T13:43:57+00:00",
+      "positive": 26,
+      "neutral": 13,
+      "negative": 1,
+      "netSentiment": 0.625,
+      "zScore": 0.114,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 497354.0,
+      "bucketStart": "2026-06-03T18:09:14+00:00",
+      "bucketEnd": "2026-06-05T03:23:49+00:00",
+      "positive": 27,
+      "neutral": 12,
+      "negative": 1,
+      "netSentiment": 0.65,
+      "zScore": 0.368,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 618377.0,
+      "bucketStart": "2026-06-05T03:46:17+00:00",
+      "bucketEnd": "2026-06-07T08:26:49+00:00",
+      "positive": 24,
+      "neutral": 11,
+      "negative": 5,
+      "netSentiment": 0.475,
+      "zScore": -1.409,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 814728.0,
+      "bucketStart": "2026-06-07T10:18:48+00:00",
+      "bucketEnd": "2026-06-12T08:14:36+00:00",
+      "positive": 24,
+      "neutral": 11,
+      "negative": 5,
+      "netSentiment": 0.475,
+      "zScore": -1.409,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 1264221.0,
+      "bucketStart": "2026-06-12T15:10:21+00:00",
+      "bucketEnd": "2026-06-18T14:56:16+00:00",
+      "positive": 31,
+      "neutral": 7,
+      "negative": 2,
+      "netSentiment": 0.725,
+      "zScore": 1.129,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 1817870.0,
+      "bucketStart": "2026-06-19T00:57:50+00:00",
+      "bucketEnd": "2026-06-28T08:39:19+00:00",
+      "positive": 29,
+      "neutral": 8,
+      "negative": 3,
+      "netSentiment": 0.65,
+      "zScore": 0.368,
+      "isBurst": false,
+      "direction": null
     }
   ],
   "keyInsights": [

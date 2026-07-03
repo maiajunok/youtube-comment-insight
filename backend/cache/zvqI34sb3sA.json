@@ -79,34 +79,40 @@
   ],
   "reactionTimeline": [
     {
-      "label": "0–1h",
-      "positive": 44,
-      "neutral": 13,
-      "negative": 9
+      "elapsedSeconds": 10826.0,
+      "bucketStart": "2026-07-02T03:00:26+00:00",
+      "bucketEnd": "2026-07-02T03:14:32+00:00",
+      "positive": 25,
+      "neutral": 9,
+      "negative": 6,
+      "netSentiment": 0.475,
+      "zScore": -1.091,
+      "isBurst": false,
+      "direction": null
     },
     {
-      "label": "1–24h",
-      "positive": 41,
-      "neutral": 22,
-      "negative": 6
+      "elapsedSeconds": 11677.0,
+      "bucketStart": "2026-07-02T03:14:37+00:00",
+      "bucketEnd": "2026-07-02T04:40:29+00:00",
+      "positive": 27,
+      "neutral": 9,
+      "negative": 4,
+      "netSentiment": 0.575,
+      "zScore": 0.218,
+      "isBurst": false,
+      "direction": null
     },
     {
-      "label": "1–7d",
-      "positive": 0,
-      "neutral": 0,
-      "negative": 0
-    },
-    {
-      "label": "7–30d",
-      "positive": 0,
-      "neutral": 0,
-      "negative": 0
-    },
-    {
-      "label": "30d+",
-      "positive": 0,
-      "neutral": 0,
-      "negative": 0
+      "elapsedSeconds": 16964.0,
+      "bucketStart": "2026-07-02T04:42:44+00:00",
+      "bucketEnd": "2026-07-02T10:54:25+00:00",
+      "positive": 27,
+      "neutral": 11,
+      "negative": 2,
+      "netSentiment": 0.625,
+      "zScore": 0.873,
+      "isBurst": false,
+      "direction": null
     }
   ],
   "keyInsights": [

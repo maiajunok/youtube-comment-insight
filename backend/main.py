@@ -6,6 +6,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import List
 
+import pandas as pd
 from dotenv import load_dotenv
 from fastapi import FastAPI, Header, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
@@ -68,40 +69,87 @@ def _language_ratio(comments: list[dict]) -> dict:
     }
 
 
+# 등빈도 구간화 기준 버킷 크기 + z-score 이상치 임계값
+_TIMELINE_BUCKET_SIZE = 40
+_TIMELINE_Z_THRESHOLD = 1.5
+_TIMELINE_MIN_COMMENTS = 20  # 이보다 적으면 구간화 없이 통짜 1개 구간으로 반환
+
+
 def _reaction_timeline(comments: list[dict], video_published_at: str) -> list[dict]:
     try:
         video_dt = datetime.fromisoformat(video_published_at.replace("Z", "+00:00"))
+        if video_dt.tzinfo is None:
+            video_dt = video_dt.replace(tzinfo=timezone.utc)
     except Exception:
-        return [
-            {"label": lbl, "positive": 0, "neutral": 0, "negative": 0}
-            for lbl in ("0–1h", "1–6h", "6–12h", "12–24h", "1–3d", "3–7d")
-        ]
+        video_dt = None
 
-    buckets = [
-        {"label": "0–1h",  "min": 0,   "max": 1},
-        {"label": "1–24h", "min": 1,   "max": 24},
-        {"label": "1–7d",  "min": 24,  "max": 168},
-        {"label": "7–30d", "min": 168, "max": 720},
-        {"label": "30d+",  "min": 720, "max": float("inf")},
-    ]
-    timeline = [{"label": b["label"], "positive": 0, "neutral": 0, "negative": 0} for b in buckets]
+    df = pd.DataFrame([c for c in comments if c.get("publishedAt")])
+    if df.empty:
+        return []
 
-    for c in comments:
-        try:
-            comment_dt = datetime.fromisoformat(c["publishedAt"].replace("Z", "+00:00"))
-            hours = max((comment_dt - video_dt).total_seconds() / 3600, 0)
+    df["publishedAt"] = pd.to_datetime(df["publishedAt"], utc=True, errors="coerce")
+    df = df.dropna(subset=["publishedAt"]).sort_values("publishedAt").reset_index(drop=True)
+    if df.empty:
+        return []
 
-            idx = len(buckets) - 1
-            for i, b in enumerate(buckets):
-                if b["min"] <= hours < b["max"]:
-                    idx = i
-                    break
+    df["sentiment"] = df.get("sentiment", "NEUTRAL").fillna("NEUTRAL")
+    df["score"] = df["sentiment"].map({"POSITIVE": 1, "NEUTRAL": 0, "NEGATIVE": -1}).fillna(0)
 
-            s = c.get("sentiment", "NEUTRAL").lower()
-            if s in ("positive", "neutral", "negative"):
-                timeline[idx][s] += 1
-        except Exception:
-            pass
+    size = _TIMELINE_BUCKET_SIZE if len(df) >= _TIMELINE_MIN_COMMENTS else max(len(df), 1)
+    df["bucket_id"] = df.index // size
+
+    grouped = df.groupby("bucket_id").agg(
+        total=("score", "size"),
+        net_sentiment=("score", "mean"),
+        positive=("sentiment", lambda s: int((s == "POSITIVE").sum())),
+        neutral=("sentiment", lambda s: int((s == "NEUTRAL").sum())),
+        negative=("sentiment", lambda s: int((s == "NEGATIVE").sum())),
+        bucket_start=("publishedAt", "min"),
+        bucket_end=("publishedAt", "max"),
+    )
+    grouped = grouped[grouped["total"] >= max(size * 0.5, 1)]
+    if grouped.empty:
+        return []
+
+    mean, std = grouped["net_sentiment"].mean(), grouped["net_sentiment"].std()
+    if std and not pd.isna(std):
+        grouped["z_score"] = (grouped["net_sentiment"] - mean) / std
+    else:
+        grouped["z_score"] = 0.0
+    grouped["is_burst"] = grouped["z_score"].abs() >= _TIMELINE_Z_THRESHOLD
+
+    timeline = []
+    for bucket_id, row in grouped.iterrows():
+        elapsed_seconds = (
+            (row["bucket_start"] - pd.Timestamp(video_dt)).total_seconds()
+            if video_dt is not None else None
+        )
+
+        point = {
+            # 프론트에서 lang별로 포맷팅 (예: "3시간 후" / "3 hours later" / "3小时后")
+            "elapsedSeconds": elapsed_seconds,
+            "bucketStart": row["bucket_start"].isoformat(),
+            "bucketEnd": row["bucket_end"].isoformat(),
+            "positive": row["positive"],
+            "neutral": row["neutral"],
+            "negative": row["negative"],
+            "netSentiment": round(float(row["net_sentiment"]), 3),
+            "zScore": round(float(row["z_score"]), 3),
+            "isBurst": bool(row["is_burst"]),
+            "direction": ("POSITIVE_SPIKE" if row["z_score"] > 0 else "NEGATIVE_SPIKE") if row["is_burst"] else None,
+        }
+
+        if row["is_burst"]:
+            # 버킷 전체(등빈도라 ~40개 수준)를 다 보냄 — 드로어에서 감정별 필터링하려면 전체가 있어야 함
+            window = df[
+                (df["bucket_id"] == bucket_id)
+            ].sort_values("likeCount", ascending=False)
+            point["topComments"] = [
+                {"text": c["text"], "likeCount": int(c.get("likeCount", 0)), "sentiment": c["sentiment"]}
+                for _, c in window.iterrows()
+            ]
+
+        timeline.append(point)
 
     return timeline
 
@@ -260,6 +308,8 @@ async def analyze(
         except Exception as e:
             yield _sse(_error_payload("댓글 수집 실패", e))
             return
+        print(f"[insight] 댓글 {len(fetched['comments'])}개 수집됨, "
+              f"quotaExhausted={fetched.get('quotaExhausted')}", flush=True)
 
         # 감정 분석
         yield _sse({"step": "감정 분석 중", "progress": 2})

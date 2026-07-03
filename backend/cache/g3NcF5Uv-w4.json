@@ -79,34 +79,225 @@
   ],
   "reactionTimeline": [
     {
-      "label": "0–1h",
-      "positive": 64,
-      "neutral": 23,
-      "negative": 8
+      "elapsedSeconds": 44529.0,
+      "bucketStart": "2023-11-19T12:22:09+00:00",
+      "bucketEnd": "2023-11-19T12:33:16+00:00",
+      "positive": 25,
+      "neutral": 13,
+      "negative": 2,
+      "netSentiment": 0.575,
+      "zScore": 0.75,
+      "isBurst": false,
+      "direction": null
     },
     {
-      "label": "1–24h",
-      "positive": 90,
-      "neutral": 36,
-      "negative": 18
-    },
-    {
-      "label": "1–7d",
-      "positive": 12,
+      "elapsedSeconds": 45243.0,
+      "bucketStart": "2023-11-19T12:34:03+00:00",
+      "bucketEnd": "2023-11-19T13:03:40+00:00",
+      "positive": 27,
       "neutral": 7,
-      "negative": 3
+      "negative": 6,
+      "netSentiment": 0.525,
+      "zScore": 0.216,
+      "isBurst": false,
+      "direction": null
     },
     {
-      "label": "7–30d",
-      "positive": 0,
-      "neutral": 0,
-      "negative": 2
+      "elapsedSeconds": 47171.0,
+      "bucketStart": "2023-11-19T13:06:11+00:00",
+      "bucketEnd": "2023-11-19T14:50:38+00:00",
+      "positive": 27,
+      "neutral": 10,
+      "negative": 3,
+      "netSentiment": 0.6,
+      "zScore": 1.017,
+      "isBurst": false,
+      "direction": null
     },
     {
-      "label": "30d+",
-      "positive": 2,
-      "neutral": 2,
-      "negative": 0
+      "elapsedSeconds": 53477.0,
+      "bucketStart": "2023-11-19T14:51:17+00:00",
+      "bucketEnd": "2023-11-19T19:02:00+00:00",
+      "positive": 27,
+      "neutral": 9,
+      "negative": 4,
+      "netSentiment": 0.575,
+      "zScore": 0.75,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 68962.0,
+      "bucketStart": "2023-11-19T19:09:22+00:00",
+      "bucketEnd": "2023-11-20T01:47:41+00:00",
+      "positive": 23,
+      "neutral": 12,
+      "negative": 5,
+      "netSentiment": 0.45,
+      "zScore": -0.585,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 93279.0,
+      "bucketStart": "2023-11-20T01:54:39+00:00",
+      "bucketEnd": "2023-11-20T12:28:02+00:00",
+      "positive": 25,
+      "neutral": 9,
+      "negative": 6,
+      "netSentiment": 0.475,
+      "zScore": -0.318,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 131387.0,
+      "bucketStart": "2023-11-20T12:29:47+00:00",
+      "bucketEnd": "2024-12-04T23:08:45+00:00",
+      "positive": 14,
+      "neutral": 8,
+      "negative": 5,
+      "netSentiment": 0.333,
+      "zScore": -1.831,
+      "isBurst": true,
+      "direction": "NEGATIVE_SPIKE",
+      "topComments": [
+        {
+          "text": "Anyone rewatching this after they won 2024 worlds?",
+          "likeCount": 5,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "The level of Faker is so that the observers can't capture it. He creates so much space for his team, constantly making sure the enemy team can't really group up. Removing the enemy's advantage, making sure they can't function is so masterfully done. He was always way ahead of any competition and finally he have a team that can play around him! so good! props to all of T1 players but he is the GOAT for a reason. These 3 games is a solid proof.",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Now we can see faker as protagonist on the next music video for the worlds next year 🔥",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "How many players have risen rapidly, only to fall quickly?\r\nStaying in top for many years is the rarest thing.\r\nI hope young Zeus can create the next legend like Faker.",
+          "likeCount": 2,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "I've seen Faker play for many years now, One thing I certain is Faker get a lot more mature from when he start his career. Back in the day Faker love a good showdown, He always favor doing a solo kill than a team play. Faker now is a mature form of his old self he not waste a movement and not try to do a flashy play he used to do. He play like a big brother who support the entire team with much more calmer attitude. That some amazing character development if you ask me.",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "This 4th trophy definitely shows us Faker’s leadership after so many years of coming up short. No one can replicate that!",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "10:20\nZeus: Call an ambulance, but not for me.",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "The casting from the last parts of the game was immaculate and legendary!",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "We are getting azir faker skin",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ngl lowkey regret t1 going 3:0 because thats how my calculus grades came out today 💀",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "XiaoHuHu was very useful the whole game huh",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "lpl fans deserve it for trash talking weibo then come crawling back to them when t1 crushed jdg and tore up their golden road.",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "At 7:17 what is the music?",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "YES FAKER FINALY WE GOT THE CHAMP BACK !",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "С детства за Т1\nZ O F G K",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Faker\n\nLegends Never Die \n\nThank  you to fight",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "O q esse Zeus joga não tá escrito no papel",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "So happy for this roster to finally be crowned as the World Champions. The grind, The Glory. T1 Fighting.",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "wbg did theshy really wrong",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "zeus es jesus de nazaret",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Amazing how game 1 started so well for WBG. THEN it went downhill REALLY fast",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "riot neeeds to hire better editors.",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "乃",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "젠장 또 대상혁이야",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "'King of Thunders' Zeussss ❤‍🔥",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "KERIA. CHANGED. THE META. \n\nlet that sink in.",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Tobiwan is that you?",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        }
+      ]
     }
   ],
   "keyInsights": [

@@ -3,7 +3,14 @@ import { computed } from 'vue'
 import type { VideoInfo, Lang } from '@/features/insight/types/insight'
 import { messages } from '@/locales/messages'
 
-const props = defineProps<{ video: VideoInfo; lang: Lang }>()
+const props = defineProps<{
+  video: VideoInfo
+  lang: Lang
+  analyzedAt?: string
+  showReanalyze?: boolean
+  reanalyzing?: boolean
+}>()
+const emit = defineEmits<{ (e: 'reanalyze'): void }>()
 
 const fmt = (n: number) =>
   n >= 1_000_000 ? (n / 1_000_000).toFixed(1) + 'M' :
@@ -11,6 +18,14 @@ const fmt = (n: number) =>
   String(n)
 
 const youtubeUrl = computed(() => `https://www.youtube.com/watch?v=${props.video.videoId}`)
+
+const analyzedAtFmt = computed(() => {
+  if (!props.analyzedAt) return ''
+  const d = new Date(props.analyzedAt)
+  return d.toLocaleString(props.lang === 'ko' ? 'ko-KR' : props.lang === 'zh' ? 'zh-CN' : props.lang === 'ja' ? 'ja-JP' : 'en-US', {
+    year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit',
+  })
+})
 </script>
 
 <template>
@@ -66,6 +81,22 @@ const youtubeUrl = computed(() => `https://www.youtube.com/watch?v=${props.video
       <svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor" class="shrink-0"><path d="M8 5v14l11-7z"/></svg>
       {{ lang === 'en' ? 'Click the thumbnail to watch on YouTube' : '썸네일을 클릭하면 유튜브 영상으로 이동해요' }}
     </p>
+
+    <!-- 분석일자 + 다시 분석하기 (제목 위 작은 메타 정보) -->
+    <div v-if="analyzedAt" class="flex items-center justify-between text-[11px]" style="color: var(--dim)">
+      <span>{{ messages[lang].analyzedAtLabel }} · {{ analyzedAtFmt }}</span>
+      <button
+        v-if="showReanalyze"
+        class="reanalyze-btn"
+        :disabled="reanalyzing"
+        @click="emit('reanalyze')"
+      >
+        <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" :class="{ spinning: reanalyzing }">
+          <polyline points="23 4 23 10 17 10"/><path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"/>
+        </svg>
+        {{ messages[lang].reAnalyze }}
+      </button>
+    </div>
 
     <!-- Title & Channel -->
     <div class="flex flex-col gap-2.5">
@@ -140,3 +171,36 @@ const youtubeUrl = computed(() => `https://www.youtube.com/watch?v=${props.video
 
   </div>
 </template>
+
+<style scoped>
+.reanalyze-btn {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 8px;
+  border-radius: 6px;
+  font-size: 11px;
+  font-weight: 600;
+  border: 0.5px solid var(--border);
+  background: transparent;
+  color: var(--subtext);
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+}
+.reanalyze-btn:hover:not(:disabled) {
+  color: var(--accent);
+  border-color: rgb(from var(--accent) r g b / 0.35);
+  background: rgb(from var(--accent) r g b / 0.08);
+}
+.reanalyze-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.spinning {
+  animation: spin 1s linear infinite;
+}
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+</style>

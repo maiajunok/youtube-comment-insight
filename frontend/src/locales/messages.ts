@@ -15,6 +15,8 @@ export interface UIMessages {
   analyzedComments: string
   languageRatio: string
   analysisNote: string
+  analyzedAtLabel: string
+  reAnalyze: string
   // TopReactionTopics
   topReactionTopics: string
   totalMentions: string
@@ -27,6 +29,14 @@ export interface UIMessages {
   reactionSub: string
   byHour: string
   reactionFlow: string
+  anomalyDetected: string
+  positiveSpike: string
+  negativeSpike: string
+  netSentimentLabel: string
+  normalRangeLabel: string
+  netSentimentTrend: string
+  netSentimentAnomalyLabel: string
+  netSentimentSub: string
   // KeyInsights
   keyInsights: string
   positiveLabel: string
@@ -176,6 +186,8 @@ export const messages: Record<Lang, UIMessages> = {
     analyzedComments: '분석된 댓글',
     languageRatio: '언어 비율',
     analysisNote: '유튜브 공개 댓글 API 기반 분석',
+    analyzedAtLabel: '분석일자',
+    reAnalyze: '다시 분석하기',
     topReactionTopics: '상위 반응 토픽',
     totalMentions: '총 언급수',
     positive: '긍정',
@@ -186,6 +198,14 @@ export const messages: Record<Lang, UIMessages> = {
     reactionSub: '업로드 후 시간대별 댓글 반응',
     byHour: '시간별',
     reactionFlow: '반응 흐름',
+    anomalyDetected: '이상치 감지',
+    positiveSpike: '긍정 급상승',
+    negativeSpike: '부정 급상승',
+    netSentimentLabel: '순 감정 점수',
+    normalRangeLabel: '정상 범위',
+    netSentimentTrend: '순감정 지수',
+    netSentimentAnomalyLabel: '이상치 탐지',
+    netSentimentSub: '평균 ± 표준편차를 벗어나면 이상치로 표시 (z-score 기반)',
     keyInsights: '주요 인사이트',
     positiveLabel: '↑ 긍정',
     negativeLabel: '↓ 부정',
@@ -320,6 +340,8 @@ export const messages: Record<Lang, UIMessages> = {
     analyzedComments: 'Analyzed Comments',
     languageRatio: 'Language Ratio',
     analysisNote: 'Based on public YouTube comments available via API',
+    analyzedAtLabel: 'Analyzed At',
+    reAnalyze: 'Re-analyze',
     topReactionTopics: 'Top Reaction Topics',
     totalMentions: 'Total Mentions',
     positive: 'Positive',
@@ -330,6 +352,14 @@ export const messages: Record<Lang, UIMessages> = {
     reactionSub: 'Based on comment publish time after upload',
     byHour: 'By Hour',
     reactionFlow: 'Reaction Flow',
+    anomalyDetected: 'Anomaly Detected',
+    positiveSpike: 'Positive Spike',
+    negativeSpike: 'Negative Spike',
+    netSentimentLabel: 'Net Sentiment',
+    normalRangeLabel: 'Normal Range',
+    netSentimentTrend: 'Net Sentiment Index',
+    netSentimentAnomalyLabel: 'Anomaly Detection',
+    netSentimentSub: 'Flagged as anomaly when it moves outside mean ± std dev (z-score based)',
     keyInsights: 'Key Insights',
     positiveLabel: '↑ Positive',
     negativeLabel: '↓ Negative',
@@ -464,6 +494,8 @@ export const messages: Record<Lang, UIMessages> = {
     analyzedComments: '分析评论数',
     languageRatio: '语言比例',
     analysisNote: '基于YouTube公开评论API分析',
+    analyzedAtLabel: '分析日期',
+    reAnalyze: '重新分析',
     topReactionTopics: '热门反应话题',
     totalMentions: '总提及数',
     positive: '正面',
@@ -474,6 +506,14 @@ export const messages: Record<Lang, UIMessages> = {
     reactionSub: '按上传后时间段的评论反应',
     byHour: '按小时',
     reactionFlow: '反应流',
+    anomalyDetected: '检测到异常',
+    positiveSpike: '正面反应激增',
+    negativeSpike: '负面反应激增',
+    netSentimentLabel: '净情感分数',
+    normalRangeLabel: '正常范围',
+    netSentimentTrend: '净情感指数',
+    netSentimentAnomalyLabel: '异常检测',
+    netSentimentSub: '超出平均值 ± 标准差范围时标记为异常（基于z-score）',
     keyInsights: '主要洞察',
     positiveLabel: '↑ 正面',
     negativeLabel: '↓ 负面',
@@ -608,6 +648,8 @@ export const messages: Record<Lang, UIMessages> = {
     analyzedComments: '分析コメント数',
     languageRatio: '言語比率',
     analysisNote: 'YouTube公開コメントAPIに基づく分析',
+    analyzedAtLabel: '分析日',
+    reAnalyze: '再分析する',
     topReactionTopics: 'トップ反応トピック',
     totalMentions: '総言及数',
     positive: 'ポジティブ',
@@ -618,6 +660,14 @@ export const messages: Record<Lang, UIMessages> = {
     reactionSub: 'アップロード後の時間帯別コメント反応',
     byHour: '時間別',
     reactionFlow: '反応フロー',
+    anomalyDetected: '異常検知',
+    positiveSpike: 'ポジティブ急増',
+    negativeSpike: 'ネガティブ急増',
+    netSentimentLabel: '純感情スコア',
+    normalRangeLabel: '通常範囲',
+    netSentimentTrend: '純感情指数',
+    netSentimentAnomalyLabel: '異常検知',
+    netSentimentSub: '平均 ± 標準偏差の範囲を外れると異常として表示（z-score基準）',
     keyInsights: '主要インサイト',
     positiveLabel: '↑ ポジティブ',
     negativeLabel: '↓ ネガティブ',

@@ -5,27 +5,39 @@
     "channelTitle": "T1",
     "thumbnailUrl": "https://i.ytimg.com/vi/Ct36mme8eHQ/maxresdefault.jpg",
     "publishedAt": "2023-11-01",
-    "viewCount": 3172442,
-    "likeCount": 60712,
-    "analyzedComments": 1219,
+    "viewCount": 3172589,
+    "likeCount": 60710,
+    "analyzedComments": 1939,
     "languageRatio": {
-      "ko": 88,
-      "en": 7,
+      "ko": 90,
+      "en": 5,
       "other": 5
     },
-    "weightedSentiment": 79
+    "weightedSentiment": 76
   },
   "topics": [
     {
+      "label": "우승에 대한 기대",
+      "labelEn": "Expectations for Victory",
+      "labelZh": "对胜利的期待",
+      "labelJa": "勝利への期待",
+      "mentionCount": 660,
+      "sentiment": {
+        "positive": 71,
+        "neutral": 17,
+        "negative": 12
+      }
+    },
+    {
       "label": "팀에 대한 애정",
       "labelEn": "Love for the Team",
-      "labelZh": "对团队的热爱",
+      "labelZh": "对团队的爱",
       "labelJa": "チームへの愛",
-      "mentionCount": 427,
+      "mentionCount": 543,
       "sentiment": {
-        "positive": 69,
-        "neutral": 19,
-        "negative": 12
+        "positive": 45,
+        "neutral": 29,
+        "negative": 26
       }
     },
     {
@@ -33,89 +45,835 @@
       "labelEn": "Gumayusi's Efforts and Growth",
       "labelZh": "Gumayusi的努力与成长",
       "labelJa": "グマユシの努力と成長",
-      "mentionCount": 358,
-      "sentiment": {
-        "positive": 87,
-        "neutral": 10,
-        "negative": 3
-      }
-    },
-    {
-      "label": "월드컵 우승과 스트레스",
-      "labelEn": "World Championship Win and Stress",
-      "labelZh": "世界杯冠军与压力",
-      "labelJa": "ワールドチャンピオンシップの勝利とストレス",
-      "mentionCount": 211,
-      "sentiment": {
-        "positive": 78,
-        "neutral": 13,
-        "negative": 9
-      }
-    },
-    {
-      "label": "팬과의 소통",
-      "labelEn": "Communication with Fans",
-      "labelZh": "与粉丝的沟通",
-      "labelJa": "ファンとのコミュニケーション",
-      "mentionCount": 119,
+      "mentionCount": 412,
       "sentiment": {
         "positive": 75,
-        "neutral": 18,
-        "negative": 8
+        "neutral": 13,
+        "negative": 12
       }
     },
     {
-      "label": "과거의 좌절과 극복",
-      "labelEn": "Overcoming Past Struggles",
-      "labelZh": "克服过去的挫折",
-      "labelJa": "過去の挫折を克服する",
-      "mentionCount": 104,
+      "label": "팬들의 지지와 사랑",
+      "labelEn": "Fans' Support and Love",
+      "labelZh": "粉丝的支持与爱",
+      "labelJa": "ファンの支援と愛情",
+      "mentionCount": 199,
       "sentiment": {
-        "positive": 65,
+        "positive": 57,
         "neutral": 23,
-        "negative": 12
+        "negative": 20
+      }
+    },
+    {
+      "label": "시련과 극복",
+      "labelEn": "Trials and Overcoming",
+      "labelZh": "考验与克服",
+      "labelJa": "試練と克服",
+      "mentionCount": 125,
+      "sentiment": {
+        "positive": 41,
+        "neutral": 41,
+        "negative": 18
       }
     }
   ],
   "reactionTimeline": [
     {
-      "label": "0–1h",
-      "positive": 27,
-      "neutral": 0,
-      "negative": 0
+      "elapsedSeconds": -2980.0,
+      "bucketStart": "2023-11-01T12:10:29+00:00",
+      "positive": 35,
+      "neutral": 4,
+      "negative": 1,
+      "netSentiment": 0.85,
+      "zScore": 1.516,
+      "isBurst": true,
+      "direction": "POSITIVE_SPIKE",
+      "topComments": [
+        {
+          "text": "주인공에게 시련을... 그 말에 너무 감동을 받았다. 팬들조차 절망하는 무수한 좌절에도 굴하지않고 목표와 꿈을 관철하는 그 모습에 팬이 됐다. 얼마가 걸리든 좋고 결국은 고지에 도달하지 못해도 나는 팬으로 남을 것 같다. 구마유시 이민형 화이팅.",
+          "likeCount": 4439,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "작년 월즈 결승 이후에 너가 켜준 라방 덕분에 많은 팬들이 슬픔을 딛고 일어날수 있었다 민형아!\n이번 월즈에서 다시 한번 너의 가치를 증명할수 있기를 바라고 믿는다!\n'최고의 선수가 있는곳은 티원이니까'",
+          "likeCount": 3437,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "민형아 네가 어떤 길을 걸어왔던, 어떤 길을 걸어가던지간에 항상 응원하고 지지한다. 우원구 화이팅!",
+          "likeCount": 1179,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "진짜 팀에 대한 애정이랑 충심은 얘가 1등임ㅋㅋ 아직도 작년 월즈 바론 2연 스틸을 잊지 못하겠다. 다른애들 다 놓쳐도 얜 계속 델고 가이됨 ㄹㅇ",
+          "likeCount": 737,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "20 서머 21서머까지는 진짜 지옥 그자체였다 굼시야 행복하자 재계약했으면 좋겠다 롤드컵 결승 지고 라방해준건 진짜\n못 잊는다….",
+          "likeCount": 478,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "매번 티원팬들을 위해 생각하는 구마유시,,, 누구보다 티원 그 자체를 사랑하는 이 선수를 응원할 수 밖에,,,ㅜㅜ\n3:2 퍼포먼스부터 라이브까지 매번 팬 챙겨주셔서 감사합니다! 종신가쟈😮",
+          "likeCount": 387,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "티원에 오랜기간 머물면서 많은 시련이 있었고 솔직히 다른팀을 갈수있는 기회들이 많았지만 그러한 상황들을 이겨내고 끝까지 티원에남아 티원의 전성기를 이끌고 티원의 어려움을 이겨낼수있도록 해준 우원구 항상응원하고 월즈 우승두과자❤",
+          "likeCount": 264,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "자기도 많이 우울하고 아쉬웠을텐데 라방 켜준 거 지금 생각해도 너무 고맙고 정감가고 든든했음",
+          "likeCount": 263,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "제발 티원한테 행복한 마무리가 있었으면 좋겠어요ㅜㅜ 우승컵 앞에서 다들 행복하게 웃으면서 사진찍은거 보고싶다....",
+          "likeCount": 203,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "열심히 치열하게 걸어왔구나 우리 민형이\n누가 뭐래도 우리 원딜은 구마유시고 난 그게 참 자랑스럽고 좋다\n흔들리지 않고 피는 꽃은 없대\n너의 꽃은 세상 그 무엇보다도 아름답다는거 너도 알고 나도 알고 팬들도 아니까\n민형아 사랑한다 화이팅",
+          "likeCount": 179,
+          "sentiment": "POSITIVE"
+        }
+      ]
     },
     {
-      "label": "1–24h",
-      "positive": 54,
-      "neutral": 0,
-      "negative": 1
-    },
-    {
-      "label": "1–7d",
-      "positive": 22,
+      "elapsedSeconds": 4855.0,
+      "bucketStart": "2023-11-01T14:21:04+00:00",
+      "positive": 25,
       "neutral": 3,
-      "negative": 1
+      "negative": 12,
+      "netSentiment": 0.325,
+      "zScore": -0.453,
+      "isBurst": false,
+      "direction": null
     },
     {
-      "label": "7–30d",
-      "positive": 72,
+      "elapsedSeconds": 9046.0,
+      "bucketStart": "2023-11-01T15:30:55+00:00",
+      "positive": 19,
+      "neutral": 4,
+      "negative": 17,
+      "netSentiment": 0.05,
+      "zScore": -1.485,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 29760.0,
+      "bucketStart": "2023-11-01T21:16:09+00:00",
+      "positive": 23,
+      "neutral": 8,
+      "negative": 9,
+      "netSentiment": 0.35,
+      "zScore": -0.36,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 58276.0,
+      "bucketStart": "2023-11-02T05:11:25+00:00",
+      "positive": 12,
+      "neutral": 17,
+      "negative": 11,
+      "netSentiment": 0.025,
+      "zScore": -1.579,
+      "isBurst": true,
+      "direction": "NEGATIVE_SPIKE",
+      "topComments": [
+        {
+          "text": "와 진짜 이거 누가 기획함 상 줘야함..너무 잘 만들었다 진짜 그 순간의 희노애락이 다 느껴진다",
+          "likeCount": 2841,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "진짜 구마덕에 페이커 가더라도 티원팬일 수 있을 것 같다",
+          "likeCount": 531,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "과연 T1이 주는 마지막 선물일지 T1의 새로운 프랜차이즈 스타를 알리는 영상일지 궁금하네요….",
+          "likeCount": 471,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "페이커 다음 프차가 누가될수있을까 생각하면 구마유시가 적격이라는 생각이 듦. 멘탈 멘트 티원에 대한 자부심 등등 단순히 실력으로 논할 수 없는 부분들이 있음...",
+          "likeCount": 352,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "이때 민석이 울때 나도 ㅈㄴ 울었는데...\nT1선수들이 가지는 압박갑이 엄청난 것 같다",
+          "likeCount": 342,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "구마유시 이민형 선수.. 영상 보면서 정말 울컥했고, 다른 말 필요없이 정말 격하게 온 맘 다해 응원합니다. 열심히 해주어서 팬으로서 정말 고맙습니다.\n\nP.S. 티원 컨텐츠팀 이번에 정말 다시 봤습니다. 멋진 영상 만들어줘서 고맙습니다.",
+          "likeCount": 164,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "티원 너무 아쉬웠어 작년에... 마지막 한끗이 너무 아쉽고 다시봐도 눈물이 나네..올해 정말 힘들었는데 꼭 월즈 따내길 바란다..",
+          "likeCount": 77,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "원래 페이커 팬이었는데 구마유시 선수의 영상을 보고나니 너무 인상깊네요... \n앞으로도 티원에서 쭉 선수생활 했으면 좋겠습니다. \n멋있어요.",
+          "likeCount": 54,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "구마유시 내 세계관에선 세체원이야 ! 이번에 비교가 안될 정도로 큰 기쁨을 느껴볼 수 있길 진심으로 응원하고 기도하고 지켜볼게",
+          "likeCount": 49,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "티원팬인데 작년 월즈에서는 drx의 소년만화 기적도 멋질거같고...라는 생각도 햇엇는데 막상 지니까 참 아쉬웟던 월즈인듯...일욜에 일단 리닝 제발 잡아줫으면 좋겟다..",
+          "likeCount": 41,
+          "sentiment": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "elapsedSeconds": 93199.0,
+      "bucketStart": "2023-11-02T14:53:28+00:00",
+      "positive": 17,
+      "neutral": 10,
+      "negative": 13,
+      "netSentiment": 0.1,
+      "zScore": -1.297,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 226352.0,
+      "bucketStart": "2023-11-04T03:52:41+00:00",
+      "positive": 24,
+      "neutral": 8,
+      "negative": 8,
+      "netSentiment": 0.4,
+      "zScore": -0.172,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 439168.0,
+      "bucketStart": "2023-11-06T14:59:37+00:00",
+      "positive": 22,
+      "neutral": 10,
+      "negative": 8,
+      "netSentiment": 0.35,
+      "zScore": -0.36,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 922312.0,
+      "bucketStart": "2023-11-12T05:12:01+00:00",
+      "positive": 26,
+      "neutral": 8,
+      "negative": 6,
+      "netSentiment": 0.5,
+      "zScore": 0.203,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 1030058.0,
+      "bucketStart": "2023-11-13T11:07:47+00:00",
+      "positive": 26,
+      "neutral": 9,
+      "negative": 5,
+      "netSentiment": 0.525,
+      "zScore": 0.297,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 1388276.0,
+      "bucketStart": "2023-11-17T14:38:05+00:00",
+      "positive": 26,
+      "neutral": 11,
+      "negative": 3,
+      "netSentiment": 0.575,
+      "zScore": 0.485,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 1613002.0,
+      "bucketStart": "2023-11-20T05:03:31+00:00",
+      "positive": 32,
+      "neutral": 6,
+      "negative": 2,
+      "netSentiment": 0.75,
+      "zScore": 1.141,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 1825146.0,
+      "bucketStart": "2023-11-22T15:59:15+00:00",
+      "positive": 21,
+      "neutral": 10,
+      "negative": 9,
+      "netSentiment": 0.3,
+      "zScore": -0.547,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 2165931.0,
+      "bucketStart": "2023-11-26T14:39:00+00:00",
+      "positive": 25,
+      "neutral": 9,
+      "negative": 6,
+      "netSentiment": 0.475,
+      "zScore": 0.109,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 4988409.0,
+      "bucketStart": "2023-12-29T06:40:18+00:00",
+      "positive": 33,
+      "neutral": 4,
+      "negative": 3,
+      "netSentiment": 0.75,
+      "zScore": 1.141,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 30080534.0,
+      "bucketStart": "2024-10-14T16:42:23+00:00",
+      "positive": 21,
+      "neutral": 13,
+      "negative": 6,
+      "netSentiment": 0.375,
+      "zScore": -0.266,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 31888518.0,
+      "bucketStart": "2024-11-04T14:55:27+00:00",
+      "positive": 26,
+      "neutral": 9,
+      "negative": 5,
+      "netSentiment": 0.525,
+      "zScore": 0.297,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 38982107.0,
+      "bucketStart": "2025-01-25T17:21:56+00:00",
+      "positive": 18,
+      "neutral": 4,
+      "negative": 18,
+      "netSentiment": 0.0,
+      "zScore": -1.673,
+      "isBurst": true,
+      "direction": "NEGATIVE_SPIKE",
+      "topComments": [
+        {
+          "text": "페이커 좀 끌고 오지마라 진짜 같은 급이 아니야 페이커는",
+          "likeCount": 25,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "민형이는 도대체 어디까지 언제까지 증명해야 할까… 너 없는 경기 못보겠다… 빨리 돌아와줘 항상 응원하고 기다리고 있어 지치고 힘들겠지만 항상 그래왔듯이 …보여주자 구마유시 파이팅이다!!!!!!!!!",
+          "likeCount": 25,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "너네가 사람이냐 ㅋㅋ\n이런 다큐로 조회수 다뽑아먹고 결국은 다시 심판대에 올려놓는구나",
+          "likeCount": 24,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "유독 너한테만 차갑다고 느껴지는구나  잘 버티고 극복하고 이겨내고 다시 정상에 서길 바란다",
+          "likeCount": 24,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "민형아 너는 누군가를 덕질해 본 적이 없어서 우리가 신기하다고 했지. 우리가 너를 응원하는 그 신기한 이유는 네가 만들어낸 거 잊지 마. \n네가 지금까지 고생해서 이뤄낸 만큼 네가 행복하기를 바랐는데 세상이 유독 너한테만 각박한 것 같아... 그게 너무 마음이 아프네...\n너에게 정말 하고싶지 않은 말이지만 우리 또 이겨내보자. 마지막에 웃는 건 항상 우리야! 알지? 너를 응원하는 팬이 이렇게 많은 걸 절대 잊지 마. 구마유시 화이팅!",
+          "likeCount": 23,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "옆 자리 앉았다고 동급인줄아나 ㅋㅋㅋㅋ",
+          "likeCount": 20,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "안타깝다...이런 선수조차도 팀에사조차 보호되지않는다는게...\n티원도 구마유시도 다 잘됐으면 하는데 왜 난 둘다 놓치고 다 떠날것만같냐...\n구마도 사실 월즈2번우승했고 lck전승우승해서 새로운 동기부여가 필요한건 사실이지만, 이런식이면 과연 그게 구마유시한테 도움이될까? 같은 팀원들도 다 보고있는데 팀 사기에도 부정적일듯한데..\n\n이미 엎질러진 물이니 잘 해결했으면 좋겠다.",
+          "likeCount": 18,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "늘 열심히 해주고 증명하는 우리 구마유시,, 경기보는도중에 집중이 안돼,,계속 구마생각만 나더라 그냥 팬 입장에서는 맘이 너무 안좋았고, 구마유시가 얼마나 힘든 과정을 거쳐서 지금 이 자리에 있는건지도 다 알고있으니까\n더 맘이 아프다,, 우리 소중한 선수는 어디까지 증명해야하는걸까 \n슈퍼플레이도 많고, 보석같은 우리 구마유시,, 계속 응원할거고 얼마나 \n잘해왔는지도 우리도 잘 알고, \n얼마나 대단한 선수인지도 알기에\n이런일 있어서 더 마음이 아픈거 같아\n이 일있고 꿈에서 티원선수들 나왔는데 꿈 내용은 생각이 안나지만 \n계속 맘 쓰고 있어서 그런지 좋은 내용은 아니였던거 같아 그래서 일어나보니까 나 울고있더라고,, 다른사람들은 한번 안나온거 가지고 그렇게 힘들어 하냐 하지만 그냥 맘이 너무 아파\n구마랑 이야기가 잘 되어서 그렇다 해도 그냥 맘이 그랬어.. 늘 웃는모습만 보고싶고,행복했음 해\n우리는 늘 너를 응원할거야\n누가 뭐라해도 오뚜기 처럼 어떤 큰 타격이 있어도 잘 이겨내고 일어나는 우리 구마유시 ㅜ!! 항상 응원하고 \n항상 고맙고 화이팅!!!!",
+          "likeCount": 18,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "민형이가 행복만 하게 해주세요",
+          "likeCount": 17,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "마치 끝없는증명 포스트페이커는 구마유시 였던것일까?",
+          "likeCount": 15,
+          "sentiment": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "elapsedSeconds": 39120833.0,
+      "bucketStart": "2025-01-27T07:54:02+00:00",
+      "positive": 13,
+      "neutral": 11,
+      "negative": 16,
+      "netSentiment": -0.075,
+      "zScore": -1.954,
+      "isBurst": true,
+      "direction": "NEGATIVE_SPIKE",
+      "topComments": [
+        {
+          "text": "제목 바꿀 시간에 댓글 관리나 하세요",
+          "likeCount": 150,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "제목 바꿀 시간 있으면 악플관리좀 해라 진짜 못봐주겠네",
+          "likeCount": 120,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "여기다가도 쫀득하게 악플다시는분들은 왜 굳이 선수 다큐까지 오셔서 난리이신지 본인보다 잘 나가니깐 배 아프신건 알겠는데 굳이 여기까지 와서 댓글 다시는게 좋아보이지는 않네요~ 여기 대댓으로도 또 난리치실거 같은데 그냥 각자 길 가세요 시간 많으시면 새해인데 부모님한테 효도도 좀 하시고",
+          "likeCount": 27,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "다큐 원래 제목 '세계 최고의 원딜, 구마유시가 걸어온 길' 이었는데 왜 바꾼거예요?? 😢",
+          "likeCount": 20,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "대체 언제까지 증명해야돼요? 월즈 리핏 하고 제이카 좀 부족해서 열심히 깍아서 피오지 받고 결진전때도 보여주고 그리고 이번에도 2경기 딱 했는데 대체 뭐가 커리어 부족한 2군 콜업 할만큼 문제인거죠....\n스매쉬 선수 싫어하는거 아닌데 저는 계속 이해가 안되네요..",
+          "likeCount": 20,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "제목 바꿀 시간은 있고 댓글 관리 할 시간은 없고",
+          "likeCount": 17,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "제목바꿀시간에 김정균 사임이나 시켜라",
+          "likeCount": 15,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "이런 길을 겪은 아이한테 다시 스크림도 안끼워주고 혼자만 휴가를 보내냐고..나쁜사람들아",
+          "likeCount": 13,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "얼마나 더 증명하라는거야",
+          "likeCount": 11,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "민형아, 우리 시각을 조금 바꿔보자, 사실 모든 일이 그렇게 절망적이진 않잖아? 이번 팀 변화가 마치 칼을 가는 것과 같다고 생각해. 우리가 날카로운 칼이 될 수도 있고, 아니면 남을 위한 숫돌이 될 수도 있어. 만약 우리가 참을성을 갖고, 끈기 있게 적절한 방향과 방법을 찾는다면, 반드시 성공할 거야. 민혀이 걸어온 길을 지켜봐왔고, 네가 가장 날카로운 검이라고 믿어. 너도 그 사실을 믿어야 해\n예전에 말했듯이, 적절한 휴식은 힘을 되찾게 해준다고 했잖아. 그러니, 럭키빅키, 스스로에게 힘을 충전하고, 자신을 돌아보고 미래를 계획할 기회를 줘. 그리고 다시 한 번 우리 함께 앞으로 나아가자",
+          "likeCount": 10,
+          "sentiment": "POSITIVE"
+        }
+      ]
+    },
+    {
+      "elapsedSeconds": 39207597.0,
+      "bucketStart": "2025-01-28T08:00:06+00:00",
+      "positive": 18,
+      "neutral": 11,
+      "negative": 11,
+      "netSentiment": 0.175,
+      "zScore": -1.016,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 39358642.0,
+      "bucketStart": "2025-01-30T01:57:31+00:00",
+      "positive": 16,
+      "neutral": 10,
+      "negative": 14,
+      "netSentiment": 0.05,
+      "zScore": -1.485,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 39758741.0,
+      "bucketStart": "2025-02-03T17:05:50+00:00",
+      "positive": 13,
+      "neutral": 10,
+      "negative": 17,
+      "netSentiment": -0.1,
+      "zScore": -2.048,
+      "isBurst": true,
+      "direction": "NEGATIVE_SPIKE",
+      "topComments": [
+        {
+          "text": "구마유시는 얼마나 증명을해야되나 ㅋㅋ월즈리핏을해도 증명을하라는건 ㅋㅋㅋ",
+          "likeCount": 19,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "여기 사람들은 왤케 까기 바쁘냐 프로가 증명의 연속 맞고, 잘하는 모습 계속 보여줘야되는거 맞는데 이미 구마 솔랭 돌리면서 지 나름대로 노력하고 있을거잖아 구마유시 실력 안된다고 생각하는 사람 있을 수 있어 근데 그걸 굳이 댓글로 적어야됌? 제발 이런데서라도 응원이나 좀 하자 응원 못해줄 거 같으면 그냥 적지말고",
+          "likeCount": 17,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "ㅜㅜ 구마선수 농심 2군가서도 열심히 하시길",
+          "likeCount": 13,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "@ 구마유시가 연습생일 때 테디를 꺾고 주전 자리를 차지했듯, 어쩌면 주전경쟁은 자연스러운 현상인 것 같아요. \n\n프로라는 자리 특성 상 증명은 필연적으로 따라오는 꼬리표 같습니다.\n\n확실한건 구마유시는 항상 증명해왔으니 이번에도 당당하고 멋진 모습으로 팬들 앞으로 돌아올겁니다\n\n그 때를 기다리며 두 팔 벌려 안아줄 준비를 합시다",
+          "likeCount": 12,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "다시 보니 어지럽네 뭔 그가 걸어온 고난과 역경의 길을 따라가 난 우리 오페케 가 그동안 걸어온 고난의 길 때문에 눈물이 다나네 \n원래 티원은 대대로 후반 밸류 쌍포로 유명했던 후반가면 이긴다 전통적인 팀인데 원거리 하나가 후반 딜링을 못해서 3년째 폭사 당하니까\n그동안 전기의자 앉은것 마냥 필사적으로 후반 가는거 막은거였지 프로가 몇년차 인데 제이카 3개를 아직도 못한다는게 말도안되고\n이커형님이 인성질한거 세탁 해준것도 모르고 마냥 버르장머리 없이 행동 하는데 누가 좋아함 \n이제라도 정상화 되서 다행이다",
+          "likeCount": 11,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "구맘들은 팩트만 말해주면 분탕이다,응갤에서 왔냐 이말밖에 못함?ㅋㅋㅋ  그럼 스매쉬 관련영상에 민형아 보고싶다~ 이러면서 관련없는 구마얘기 하는 애들도 싹다 분탕맞죠??",
+          "likeCount": 10,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "민형아 언젠가 마음을 다 잡으면서 이 영상을 다시 보다가 댓글을 볼 수도 있겠지\r\n긴 말 안 한다 낙담해도 그대로 주저앉을 사람 아닌거 아니까\n여태 이겨내 온 거처럼 다시 돌아와 우승컵 들며 세레머니 하는 날까지 응원하고 기다릴게",
+          "likeCount": 10,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "아 화난다. 증명의 여정 같은 소리나 하지말지... 이미 증명하고 또 했어...",
+          "likeCount": 10,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "@youtuve3615 댓글 달면 안되는 이유 있음?\n뭐 구마유시 마킹 유니폼 인증하고 팬덤만 댓글 달 수 있는거야? \n너무 심한 욕설을 하면 피디엪따서 제보를 해.",
+          "likeCount": 9,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "구마 팬들때매 선수 더 안좋게 보임",
+          "likeCount": 7,
+          "sentiment": "NEGATIVE"
+        }
+      ]
+    },
+    {
+      "elapsedSeconds": 40001797.0,
+      "bucketStart": "2025-02-06T12:36:46+00:00",
+      "positive": 20,
+      "neutral": 14,
+      "negative": 6,
+      "netSentiment": 0.35,
+      "zScore": -0.36,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 40981291.0,
+      "bucketStart": "2025-02-17T20:41:40+00:00",
+      "positive": 17,
+      "neutral": 14,
+      "negative": 9,
+      "netSentiment": 0.2,
+      "zScore": -0.922,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 45378860.0,
+      "bucketStart": "2025-04-09T18:14:29+00:00",
+      "positive": 21,
+      "neutral": 11,
+      "negative": 8,
+      "netSentiment": 0.325,
+      "zScore": -0.453,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 46049386.0,
+      "bucketStart": "2025-04-17T12:29:55+00:00",
+      "positive": 22,
+      "neutral": 7,
+      "negative": 11,
+      "netSentiment": 0.275,
+      "zScore": -0.641,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 47962314.0,
+      "bucketStart": "2025-05-09T15:52:03+00:00",
+      "positive": 29,
+      "neutral": 9,
+      "negative": 2,
+      "netSentiment": 0.675,
+      "zScore": 0.86,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 51391830.0,
+      "bucketStart": "2025-06-18T08:30:39+00:00",
+      "positive": 33,
+      "neutral": 4,
+      "negative": 3,
+      "netSentiment": 0.75,
+      "zScore": 1.141,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 54161198.0,
+      "bucketStart": "2025-07-20T09:46:47+00:00",
+      "positive": 19,
+      "neutral": 13,
+      "negative": 8,
+      "netSentiment": 0.275,
+      "zScore": -0.641,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 59015830.0,
+      "bucketStart": "2025-09-14T14:17:19+00:00",
+      "positive": 31,
+      "neutral": 8,
+      "negative": 1,
+      "netSentiment": 0.75,
+      "zScore": 1.141,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 61474828.0,
+      "bucketStart": "2025-10-13T01:20:37+00:00",
+      "positive": 34,
+      "neutral": 3,
+      "negative": 3,
+      "netSentiment": 0.775,
+      "zScore": 1.235,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 63176820.0,
+      "bucketStart": "2025-11-01T18:07:09+00:00",
+      "positive": 31,
+      "neutral": 8,
+      "negative": 1,
+      "netSentiment": 0.75,
+      "zScore": 1.141,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 63422295.0,
+      "bucketStart": "2025-11-04T14:18:24+00:00",
+      "positive": 31,
       "neutral": 5,
-      "negative": 5
+      "negative": 4,
+      "netSentiment": 0.675,
+      "zScore": 0.86,
+      "isBurst": false,
+      "direction": null
     },
     {
-      "label": "30d+",
-      "positive": 754,
-      "neutral": 179,
-      "negative": 96
+      "elapsedSeconds": 63764213.0,
+      "bucketStart": "2025-11-08T13:17:02+00:00",
+      "positive": 33,
+      "neutral": 6,
+      "negative": 1,
+      "netSentiment": 0.8,
+      "zScore": 1.329,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 63848913.0,
+      "bucketStart": "2025-11-09T12:48:42+00:00",
+      "positive": 33,
+      "neutral": 6,
+      "negative": 1,
+      "netSentiment": 0.8,
+      "zScore": 1.329,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 63855048.0,
+      "bucketStart": "2025-11-09T14:30:57+00:00",
+      "positive": 28,
+      "neutral": 12,
+      "negative": 0,
+      "netSentiment": 0.7,
+      "zScore": 0.954,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 63860902.0,
+      "bucketStart": "2025-11-09T16:08:31+00:00",
+      "positive": 32,
+      "neutral": 7,
+      "negative": 1,
+      "netSentiment": 0.775,
+      "zScore": 1.235,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 63885391.0,
+      "bucketStart": "2025-11-09T22:56:40+00:00",
+      "positive": 35,
+      "neutral": 3,
+      "negative": 2,
+      "netSentiment": 0.825,
+      "zScore": 1.423,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 63918940.0,
+      "bucketStart": "2025-11-10T08:15:49+00:00",
+      "positive": 30,
+      "neutral": 9,
+      "negative": 1,
+      "netSentiment": 0.725,
+      "zScore": 1.047,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 64026801.0,
+      "bucketStart": "2025-11-11T14:13:30+00:00",
+      "positive": 25,
+      "neutral": 7,
+      "negative": 8,
+      "netSentiment": 0.425,
+      "zScore": -0.078,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 64190335.0,
+      "bucketStart": "2025-11-13T11:39:04+00:00",
+      "positive": 24,
+      "neutral": 11,
+      "negative": 5,
+      "netSentiment": 0.475,
+      "zScore": 0.109,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 64538970.0,
+      "bucketStart": "2025-11-17T12:29:39+00:00",
+      "positive": 26,
+      "neutral": 9,
+      "negative": 5,
+      "netSentiment": 0.525,
+      "zScore": 0.297,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 64544766.0,
+      "bucketStart": "2025-11-17T14:06:15+00:00",
+      "positive": 26,
+      "neutral": 8,
+      "negative": 6,
+      "netSentiment": 0.5,
+      "zScore": 0.203,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 64555910.0,
+      "bucketStart": "2025-11-17T17:11:59+00:00",
+      "positive": 15,
+      "neutral": 13,
+      "negative": 12,
+      "netSentiment": 0.075,
+      "zScore": -1.391,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 64603139.0,
+      "bucketStart": "2025-11-18T06:19:08+00:00",
+      "positive": 26,
+      "neutral": 7,
+      "negative": 7,
+      "netSentiment": 0.475,
+      "zScore": 0.109,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 64710759.0,
+      "bucketStart": "2025-11-19T12:12:48+00:00",
+      "positive": 22,
+      "neutral": 10,
+      "negative": 8,
+      "netSentiment": 0.35,
+      "zScore": -0.36,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 64986859.0,
+      "bucketStart": "2025-11-22T16:54:28+00:00",
+      "positive": 23,
+      "neutral": 9,
+      "negative": 8,
+      "netSentiment": 0.375,
+      "zScore": -0.266,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 74706594.0,
+      "bucketStart": "2026-03-15T04:50:03+00:00",
+      "positive": 24,
+      "neutral": 12,
+      "negative": 4,
+      "netSentiment": 0.5,
+      "zScore": 0.203,
+      "isBurst": false,
+      "direction": null
     }
   ],
   "keyInsights": [
     {
       "type": "positive",
-      "topic": "월드컵 우승과 스트레스",
-      "topicEn": "World Championship Win and Stress",
-      "topicZh": "世界杯冠军与压力",
-      "topicJa": "ワールドチャンピオンシップの勝利とストレス",
+      "topic": "구마유시의 노력과 성장",
+      "topicEn": "Gumayusi's Efforts and Growth",
+      "topicZh": "Gumayusi的努力与成长",
+      "topicJa": "グマユシの努力と成長",
       "comment": "이 다큐는 비로소 구마유시가 월즈까지 우승해버리면서 더 완벽해졌다... 해낼 줄 알았어! 수고했어ㅠ",
       "commentLang": "ko",
       "likes": 5784
@@ -124,7 +882,7 @@
       "type": "negative",
       "topic": "팀에 대한 애정",
       "topicEn": "Love for the Team",
-      "topicZh": "对团队的热爱",
+      "topicZh": "对团队的爱",
       "topicJa": "チームへの愛",
       "comment": "야 제발 힘들지 마 그만 힘들어 제발",
       "commentLang": "ko",
@@ -132,32 +890,32 @@
     },
     {
       "type": "positive",
-      "topic": "팬과의 소통",
-      "topicEn": "Communication with Fans",
-      "topicZh": "与粉丝的沟通",
-      "topicJa": "ファンとのコミュニケーション",
+      "topic": "팬들의 지지와 사랑",
+      "topicEn": "Fans' Support and Love",
+      "topicZh": "粉丝的支持与爱",
+      "topicJa": "ファンの支援と愛情",
       "comment": "오늘 경기이긴김에 예배온 티원팬들 개추 ㅋㅋㅋㅋㅋ",
       "commentLang": "ko",
       "likes": 4838
     },
     {
       "type": "negative",
-      "topic": "월드컵 우승과 스트레스",
-      "topicEn": "World Championship Win and Stress",
-      "topicZh": "世界杯冠军与压力",
-      "topicJa": "ワールドチャンピオンシップの勝利とストレス",
-      "comment": "참 내가 구마유시면 정신병 걸렸을텐데 대단하다 난 아직도 월즈에서 보여준 구마유시가 잊혀지지 않는데 사람들은 벌써 잊었나보다.",
+      "topic": "시련과 극복",
+      "topicEn": "Trials and Overcoming",
+      "topicZh": "考验与克服",
+      "topicJa": "試練と克服",
+      "comment": "자꾸눈물이 고이네.. 데뷔할줄 알고 ..처음으로\n롤파크까지 데려가놓고 \n..  아이고 꽉 안아주고싶다 그때의 민형이..",
       "commentLang": "ko",
-      "likes": 604
+      "likes": 847
     }
   ],
-  "analyzedAt": "2026-07-02T15:17:13.471669+00:00",
-  "analysisDuration": 247.8,
+  "analyzedAt": "2026-07-03T11:09:43.437284+00:00",
+  "analysisDuration": 408.4,
   "tokenUsage": {
-    "input": 95568,
-    "output": 14601,
-    "embedding": 80645,
-    "total": 190814,
-    "estimatedCostUsd": 0.024709
+    "input": 125791,
+    "output": 23916,
+    "embedding": 116601,
+    "total": 266308,
+    "estimatedCostUsd": 0.03555
   }
 }

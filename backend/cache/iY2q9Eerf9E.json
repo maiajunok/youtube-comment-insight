@@ -1,0 +1,556 @@
+{
+  "video": {
+    "videoId": "iY2q9Eerf9E",
+    "title": "너는 이미 도며들었다. 단지 아직 깨닫지 못했을 뿐 | Gen.G Verse Doran Ver.",
+    "channelTitle": "젠지 이스포츠 Gen.G Esports",
+    "thumbnailUrl": "https://i.ytimg.com/vi/iY2q9Eerf9E/maxresdefault.jpg",
+    "publishedAt": "2022-05-14",
+    "viewCount": 474031,
+    "likeCount": 15551,
+    "analyzedComments": 1178,
+    "languageRatio": {
+      "ko": 79,
+      "en": 6,
+      "other": 15
+    },
+    "weightedSentiment": 62
+  },
+  "topics": [
+    {
+      "label": "도란의 노래 실력",
+      "labelEn": "Doran's Singing Ability",
+      "labelZh": "道然的歌唱能力",
+      "labelJa": "ドランの歌唱力",
+      "mentionCount": 382,
+      "sentiment": {
+        "positive": 63,
+        "neutral": 29,
+        "negative": 8
+      }
+    },
+    {
+      "label": "귀여움",
+      "labelEn": "Cutness",
+      "labelZh": "可爱",
+      "labelJa": "かわいさ",
+      "mentionCount": 376,
+      "sentiment": {
+        "positive": 73,
+        "neutral": 23,
+        "negative": 4
+      }
+    },
+    {
+      "label": "팀워크",
+      "labelEn": "Teamwork",
+      "labelZh": "团队合作",
+      "labelJa": "チームワーク",
+      "mentionCount": 163,
+      "sentiment": {
+        "positive": 55,
+        "neutral": 40,
+        "negative": 5
+      }
+    },
+    {
+      "label": "기대감",
+      "labelEn": "Anticipation",
+      "labelZh": "期待感",
+      "labelJa": "期待感",
+      "mentionCount": 138,
+      "sentiment": {
+        "positive": 44,
+        "neutral": 46,
+        "negative": 10
+      }
+    },
+    {
+      "label": "팬 서비스",
+      "labelEn": "Fan Service",
+      "labelZh": "粉丝服务",
+      "labelJa": "ファンサービス",
+      "mentionCount": 119,
+      "sentiment": {
+        "positive": 58,
+        "neutral": 38,
+        "negative": 4
+      }
+    }
+  ],
+  "reactionTimeline": [
+    {
+      "elapsedSeconds": 62.0,
+      "bucketStart": "2022-05-14T14:01:18+00:00",
+      "positive": 28,
+      "neutral": 11,
+      "negative": 1,
+      "netSentiment": 0.675,
+      "zScore": 1.17,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 905.0,
+      "bucketStart": "2022-05-14T14:15:21+00:00",
+      "positive": 28,
+      "neutral": 9,
+      "negative": 3,
+      "netSentiment": 0.625,
+      "zScore": 0.648,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 1915.0,
+      "bucketStart": "2022-05-14T14:32:11+00:00",
+      "positive": 24,
+      "neutral": 12,
+      "negative": 4,
+      "netSentiment": 0.5,
+      "zScore": -0.657,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 3481.0,
+      "bucketStart": "2022-05-14T14:58:17+00:00",
+      "positive": 24,
+      "neutral": 14,
+      "negative": 2,
+      "netSentiment": 0.55,
+      "zScore": -0.135,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 5685.0,
+      "bucketStart": "2022-05-14T15:35:01+00:00",
+      "positive": 23,
+      "neutral": 11,
+      "negative": 6,
+      "netSentiment": 0.425,
+      "zScore": -1.44,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 9373.0,
+      "bucketStart": "2022-05-14T16:36:29+00:00",
+      "positive": 25,
+      "neutral": 13,
+      "negative": 2,
+      "netSentiment": 0.575,
+      "zScore": 0.126,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 21844.0,
+      "bucketStart": "2022-05-14T20:04:20+00:00",
+      "positive": 28,
+      "neutral": 11,
+      "negative": 1,
+      "netSentiment": 0.675,
+      "zScore": 1.17,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 48197.0,
+      "bucketStart": "2022-05-15T03:23:33+00:00",
+      "positive": 26,
+      "neutral": 10,
+      "negative": 4,
+      "netSentiment": 0.55,
+      "zScore": -0.135,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 129538.0,
+      "bucketStart": "2022-05-16T01:59:14+00:00",
+      "positive": 21,
+      "neutral": 14,
+      "negative": 5,
+      "netSentiment": 0.4,
+      "zScore": -1.701,
+      "isBurst": true,
+      "direction": "NEGATIVE_SPIKE",
+      "topComments": [
+        {
+          "text": "어 구범준님 안녕하세요\nGen ‘G D’ oran 입니다",
+          "likeCount": 1165,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "음정 잘맞는 편이고 박치아니고 고음잘올라가고 그냥 많이 안불러봤을뿐이지 잘 하는구만",
+          "likeCount": 43,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋ 겸손한 실력 ㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 12,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "얘는 세상의 중심이 티원인듯 ㅋㅋㅋ",
+          "likeCount": 11,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "팬을 사랑하는 마음이 느껴지네요ㅋㅋ 그저 일류란!!\n킹받는 카메라 무빙8:14",
+          "likeCount": 7,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "와 진짜 악질들이네 너무 흑역사잖아 ㅋㅋㅋㅋ",
+          "likeCount": 6,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "팀다큐는 스포츠팀 다큐포맷에서 벗어난게 없고... 킬링벌스야 원래 딩고껀데 그걸 롤팀에서 한건 브리온이고 룩북도 브리온이 시작했고 그담에 케이티롤스터가 하고 그랬는데 본인이 티원만 보시면 그렇게 생각할 수 있지만 둘다 티원만의 무엇이다 주장하기엔 원류가 있는것들이네요",
+          "likeCount": 6,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "브리온 케이티 티원 젠지 순으로 했음",
+          "likeCount": 5,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "우리집 달팽이가 이 노래를 좋아해요",
+          "likeCount": 4,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "나였으면 잡플래닛에 바로 평썼을듯ㅋㅋㅋㅋㅋㅋㅋㅋㅋ넘 웃경ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ하.......야근하고 보니까 삶의 애환을 공감해주는 느낌이라 위로가 되네ㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        }
+      ]
+    },
+    {
+      "elapsedSeconds": 395975.0,
+      "bucketStart": "2022-05-19T03:59:51+00:00",
+      "positive": 27,
+      "neutral": 8,
+      "negative": 5,
+      "netSentiment": 0.55,
+      "zScore": -0.135,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 6534317.0,
+      "bucketStart": "2022-07-29T05:05:33+00:00",
+      "positive": 26,
+      "neutral": 11,
+      "negative": 3,
+      "netSentiment": 0.575,
+      "zScore": 0.126,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 41519403.0,
+      "bucketStart": "2023-09-07T03:10:19+00:00",
+      "positive": 24,
+      "neutral": 15,
+      "negative": 1,
+      "netSentiment": 0.575,
+      "zScore": 0.126,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 78614260.0,
+      "bucketStart": "2024-11-09T11:17:56+00:00",
+      "positive": 20,
+      "neutral": 18,
+      "negative": 2,
+      "netSentiment": 0.45,
+      "zScore": -1.179,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 79569308.0,
+      "bucketStart": "2024-11-20T12:35:24+00:00",
+      "positive": 26,
+      "neutral": 12,
+      "negative": 2,
+      "netSentiment": 0.6,
+      "zScore": 0.387,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 79681236.0,
+      "bucketStart": "2024-11-21T19:40:52+00:00",
+      "positive": 27,
+      "neutral": 13,
+      "negative": 0,
+      "netSentiment": 0.675,
+      "zScore": 1.17,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 79827663.0,
+      "bucketStart": "2024-11-23T12:21:19+00:00",
+      "positive": 27,
+      "neutral": 11,
+      "negative": 2,
+      "netSentiment": 0.625,
+      "zScore": 0.648,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 79939087.0,
+      "bucketStart": "2024-11-24T19:18:23+00:00",
+      "positive": 28,
+      "neutral": 12,
+      "negative": 0,
+      "netSentiment": 0.7,
+      "zScore": 1.431,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 80690461.0,
+      "bucketStart": "2024-12-03T12:01:17+00:00",
+      "positive": 29,
+      "neutral": 9,
+      "negative": 2,
+      "netSentiment": 0.675,
+      "zScore": 1.17,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 82509825.0,
+      "bucketStart": "2024-12-24T13:24:01+00:00",
+      "positive": 22,
+      "neutral": 17,
+      "negative": 1,
+      "netSentiment": 0.525,
+      "zScore": -0.396,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 85065609.0,
+      "bucketStart": "2025-01-23T03:20:25+00:00",
+      "positive": 29,
+      "neutral": 9,
+      "negative": 2,
+      "netSentiment": 0.675,
+      "zScore": 1.17,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 86782359.0,
+      "bucketStart": "2025-02-12T00:12:55+00:00",
+      "positive": 25,
+      "neutral": 12,
+      "negative": 3,
+      "netSentiment": 0.55,
+      "zScore": -0.135,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 97615931.0,
+      "bucketStart": "2025-06-17T09:32:27+00:00",
+      "positive": 23,
+      "neutral": 14,
+      "negative": 3,
+      "netSentiment": 0.5,
+      "zScore": -0.657,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 99499742.0,
+      "bucketStart": "2025-07-09T04:49:18+00:00",
+      "positive": 27,
+      "neutral": 10,
+      "negative": 3,
+      "netSentiment": 0.6,
+      "zScore": 0.387,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 105755109.0,
+      "bucketStart": "2025-09-19T14:25:25+00:00",
+      "positive": 27,
+      "neutral": 9,
+      "negative": 4,
+      "netSentiment": 0.575,
+      "zScore": 0.126,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 110193793.0,
+      "bucketStart": "2025-11-09T23:23:29+00:00",
+      "positive": 22,
+      "neutral": 18,
+      "negative": 0,
+      "netSentiment": 0.55,
+      "zScore": -0.135,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 110373058.0,
+      "bucketStart": "2025-11-12T01:11:14+00:00",
+      "positive": 28,
+      "neutral": 11,
+      "negative": 1,
+      "netSentiment": 0.675,
+      "zScore": 1.17,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 110610470.0,
+      "bucketStart": "2025-11-14T19:08:06+00:00",
+      "positive": 16,
+      "neutral": 20,
+      "negative": 4,
+      "netSentiment": 0.3,
+      "zScore": -2.744,
+      "isBurst": true,
+      "direction": "NEGATIVE_SPIKE",
+      "topComments": [
+        {
+          "text": "Doran is a tone deaf but surprisingly I can listen to his singing until the end. He is adorable ngl. My happy pill",
+          "likeCount": 18,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "me too...",
+          "likeCount": 6,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "도대체 어떤 연유로 하게된걸까? 악마에게 뭔가를 팔았나?",
+          "likeCount": 5,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "이 귀한 걸 우리 안 보여주고 젠지만 봤다 이거지?!!! 서운해 👀",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "민형이 소식 듣고 너무 힘들어서 보러왔다 현준아 제발 부탁한다",
+          "likeCount": 2,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "계속해 재능있어",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "모자쓰고 선글라스끼고 열창하는 짤?\n나 이거 지금까지 ai 이미지 인줄 알았는데 이게 진짜 였었네...\n도란 열심히 살았구나...",
+          "likeCount": 2,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "냥냥거리거는거 상남자같아서 너무 테토미 흐르네요",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Main vocal 🙂‍↔️",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "Doran main vocal 100%",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        }
+      ]
+    },
+    {
+      "elapsedSeconds": 111029757.0,
+      "bucketStart": "2025-11-19T15:36:13+00:00",
+      "positive": 22,
+      "neutral": 14,
+      "negative": 4,
+      "netSentiment": 0.45,
+      "zScore": -1.179,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 113443752.0,
+      "bucketStart": "2025-12-17T14:09:28+00:00",
+      "positive": 23,
+      "neutral": 15,
+      "negative": 2,
+      "netSentiment": 0.525,
+      "zScore": -0.396,
+      "isBurst": false,
+      "direction": null
+    }
+  ],
+  "keyInsights": [
+    {
+      "type": "positive",
+      "topic": "도란의 노래 실력",
+      "topicEn": "Doran's Singing Ability",
+      "topicZh": "道然的歌唱能力",
+      "topicJa": "ドランの歌唱力",
+      "comment": "찾았다 케리아의 최고의 파트너",
+      "commentLang": "ko",
+      "likes": 4210
+    },
+    {
+      "type": "negative",
+      "topic": "기대감",
+      "topicEn": "Anticipation",
+      "topicZh": "期待感",
+      "topicJa": "期待感",
+      "comment": "이건 걍 흑역사잖아 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ 너무한거 아니냐고",
+      "commentLang": "ko",
+      "likes": 1055
+    },
+    {
+      "type": "positive",
+      "topic": "기대감",
+      "topicEn": "Anticipation",
+      "topicZh": "期待感",
+      "topicJa": "期待感",
+      "comment": "이 노래를 듣고 난청이 완치되었어요. 두번째 앨범도 기대할게요",
+      "commentLang": "ko",
+      "likes": 3845
+    },
+    {
+      "type": "negative",
+      "topic": "도란의 노래 실력",
+      "topicEn": "Doran's Singing Ability",
+      "topicZh": "道然的歌唱能力",
+      "topicJa": "ドランの歌唱力",
+      "comment": "앞에 마이크 있는데 저 의미없는 마이크 꽉 쥐고 노래 부르는거 보라구요.. 이게 우리탑이라고 ㅠ",
+      "commentLang": "ko",
+      "likes": 182
+    }
+  ],
+  "analyzedAt": "2026-07-03T14:26:39.012904+00:00",
+  "analysisDuration": 254.7,
+  "tokenUsage": {
+    "input": 47861,
+    "output": 14297,
+    "embedding": 34927,
+    "total": 97085,
+    "estimatedCostUsd": 0.016456
+  }
+}

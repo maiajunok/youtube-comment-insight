@@ -7,6 +7,9 @@ __pycache__/
 .env
 backend/.env
 
+# Analysis scripts — regenerable output artifacts, not source
+analysis/output/
+
 # Node
 node_modules/
 frontend/node_modules/

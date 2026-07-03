@@ -79,34 +79,708 @@
   ],
   "reactionTimeline": [
     {
-      "label": "0–1h",
-      "positive": 155,
-      "neutral": 98,
-      "negative": 11
-    },
-    {
-      "label": "1–24h",
-      "positive": 316,
-      "neutral": 163,
-      "negative": 33
-    },
-    {
-      "label": "1–7d",
-      "positive": 129,
-      "neutral": 47,
-      "negative": 17
-    },
-    {
-      "label": "7–30d",
+      "elapsedSeconds": 32470.0,
+      "bucketStart": "2026-06-01T09:01:10+00:00",
+      "bucketEnd": "2026-06-01T09:07:37+00:00",
       "positive": 25,
-      "neutral": 7,
-      "negative": 3
+      "neutral": 14,
+      "negative": 1,
+      "netSentiment": 0.6,
+      "zScore": 0.412,
+      "isBurst": false,
+      "direction": null
     },
     {
-      "label": "30d+",
-      "positive": 0,
-      "neutral": 2,
-      "negative": 0
+      "elapsedSeconds": 32881.0,
+      "bucketStart": "2026-06-01T09:08:01+00:00",
+      "bucketEnd": "2026-06-01T09:12:25+00:00",
+      "positive": 19,
+      "neutral": 19,
+      "negative": 2,
+      "netSentiment": 0.425,
+      "zScore": -1.437,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 33155.0,
+      "bucketStart": "2026-06-01T09:12:35+00:00",
+      "bucketEnd": "2026-06-01T09:20:26+00:00",
+      "positive": 26,
+      "neutral": 13,
+      "negative": 1,
+      "netSentiment": 0.625,
+      "zScore": 0.676,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 33629.0,
+      "bucketStart": "2026-06-01T09:20:29+00:00",
+      "bucketEnd": "2026-06-01T09:30:37+00:00",
+      "positive": 26,
+      "neutral": 13,
+      "negative": 1,
+      "netSentiment": 0.625,
+      "zScore": 0.676,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 34273.0,
+      "bucketStart": "2026-06-01T09:31:13+00:00",
+      "bucketEnd": "2026-06-01T09:39:57+00:00",
+      "positive": 26,
+      "neutral": 11,
+      "negative": 3,
+      "netSentiment": 0.575,
+      "zScore": 0.148,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 34815.0,
+      "bucketStart": "2026-06-01T09:40:15+00:00",
+      "bucketEnd": "2026-06-01T09:53:24+00:00",
+      "positive": 20,
+      "neutral": 18,
+      "negative": 2,
+      "netSentiment": 0.45,
+      "zScore": -1.172,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 35616.0,
+      "bucketStart": "2026-06-01T09:53:36+00:00",
+      "bucketEnd": "2026-06-01T10:05:35+00:00",
+      "positive": 20,
+      "neutral": 19,
+      "negative": 1,
+      "netSentiment": 0.475,
+      "zScore": -0.908,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 36354.0,
+      "bucketStart": "2026-06-01T10:05:54+00:00",
+      "bucketEnd": "2026-06-01T10:29:49+00:00",
+      "positive": 27,
+      "neutral": 13,
+      "negative": 0,
+      "netSentiment": 0.675,
+      "zScore": 1.204,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 37814.0,
+      "bucketStart": "2026-06-01T10:30:14+00:00",
+      "bucketEnd": "2026-06-01T10:47:33+00:00",
+      "positive": 26,
+      "neutral": 12,
+      "negative": 2,
+      "netSentiment": 0.6,
+      "zScore": 0.412,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 38884.0,
+      "bucketStart": "2026-06-01T10:48:04+00:00",
+      "bucketEnd": "2026-06-01T11:18:11+00:00",
+      "positive": 24,
+      "neutral": 15,
+      "negative": 1,
+      "netSentiment": 0.575,
+      "zScore": 0.148,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 40700.0,
+      "bucketStart": "2026-06-01T11:18:20+00:00",
+      "bucketEnd": "2026-06-01T11:34:47+00:00",
+      "positive": 22,
+      "neutral": 15,
+      "negative": 3,
+      "netSentiment": 0.475,
+      "zScore": -0.908,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 41697.0,
+      "bucketStart": "2026-06-01T11:34:57+00:00",
+      "bucketEnd": "2026-06-01T12:12:27+00:00",
+      "positive": 25,
+      "neutral": 5,
+      "negative": 10,
+      "netSentiment": 0.375,
+      "zScore": -1.965,
+      "isBurst": true,
+      "direction": "NEGATIVE_SPIKE",
+      "topComments": [
+        {
+          "text": "미안해 민석아 1:30 에 참지 못하고 화면을 멈춰버렸어.............",
+          "likeCount": 17,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "이제는 서커스도 모자라서 노래까지 부르시는 겁니까...",
+          "likeCount": 13,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "케리아한테 레네다 고음파트 주는거 개웃기네ㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 8,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "아니 노래 개잘하는 사람이랑 둘만 가둬두면 어떡해요 기죽는단 말이야",
+          "likeCount": 5,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "7:48 뭔가 왜 실루엣이 익숙하지 ㅋㅋㅋ 모모모~인줄",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "5:24 ฉันหัวเราะในที่ทำงาน เมื่อได้ฟังเพลง Legends Never Die อืมม ฉันขอโทษ  ยากเกินไปที่จะไม่หัวเราะ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "She is beautiful and so cute. But he is my 😘",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "얼마나 성공하려고 하는지 감도 안오네",
+          "likeCount": 1,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "케리아 700😍",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Omgg 👏👏",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "IM SO JEALOUS I WANNA SING WITH KERIA TOO 😢\nChrizzy is so talented ❤",
+          "likeCount": 1,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "Good voice ❤",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "예? ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ꿀잼영상왔네",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "이건 또 뭔 콘텐츠냐 ㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "민석아 미안ㅠㅠ \n끝까지 못 듣겠어😂😂😂",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "so cool :))))))))))))))))",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "❤❤❤❤",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Hot damn- Keria 2026 ❤",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "거지같은 월요일에 유일하게 달콤한 영상…",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "어이구야ㅋㅋㅋㅋㅋㅋㅋㄱ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "상상도 못한 조합의 레전드 네버 다이 ㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "예?😂😂😂😂😂",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "이게 무슨 그림이야 ㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ아니이게무슨콜라보얔ㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "아니...이러시면...케리아 더 사랑할수 밖에...ㅠㅠㅠㅠㅠㅠㅠㅠㅠ다음엔 댄스도 같이 부탁드려용:)",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "게임만 잘하면 되는게 아니구나 해야할게 많은 직업군이라는걸 새삼..... 8월 홈그라운드는 꼭 가야겠....",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "와 실화냐;;;",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "오... 진짜 무리한다 ....",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "뭐….뭐옄ㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "아닠ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Congratulations to Keria 🥳🥳🥳",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "케리아 아이돌 도전기…(?)",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "Love it 🎉🎉🎉🎉🎉 I am sure both of them enjoyed the Karaoke session and we did, too. Yeah, a song with Doran would storm the LoL charts 😂",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "얼만큼 스스로 망가지길 결심했는지 가늠조차 안됨 ㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "이거 결혼 전 영상인가요?",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "700❤",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "도대체 왜 만든건지 이해안가지만 응원합니다 세라핀 스킨의 주인과 롤 고트의 노래 고트의 가수 고트",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "혼자 부르는건 나까지 부끄럽지는 않아서 힘들지 않았는데 이건 보는 내가 힘들다",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "티원님덜.. 룩업 좀 씌워주십셔.. 색깔 누가 다 먹었어",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "이게무슨 ???? ㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        }
+      ]
+    },
+    {
+      "elapsedSeconds": 44012.0,
+      "bucketStart": "2026-06-01T12:13:32+00:00",
+      "bucketEnd": "2026-06-01T12:57:28+00:00",
+      "positive": 23,
+      "neutral": 15,
+      "negative": 2,
+      "netSentiment": 0.525,
+      "zScore": -0.38,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 46682.0,
+      "bucketStart": "2026-06-01T12:58:02+00:00",
+      "bucketEnd": "2026-06-01T13:56:02+00:00",
+      "positive": 29,
+      "neutral": 8,
+      "negative": 3,
+      "netSentiment": 0.65,
+      "zScore": 0.94,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 50225.0,
+      "bucketStart": "2026-06-01T13:57:05+00:00",
+      "bucketEnd": "2026-06-01T15:07:35+00:00",
+      "positive": 27,
+      "neutral": 10,
+      "negative": 3,
+      "netSentiment": 0.6,
+      "zScore": 0.412,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 54607.0,
+      "bucketStart": "2026-06-01T15:10:07+00:00",
+      "bucketEnd": "2026-06-01T16:26:28+00:00",
+      "positive": 22,
+      "neutral": 16,
+      "negative": 2,
+      "netSentiment": 0.5,
+      "zScore": -0.644,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 59703.0,
+      "bucketStart": "2026-06-01T16:35:03+00:00",
+      "bucketEnd": "2026-06-01T19:57:08+00:00",
+      "positive": 28,
+      "neutral": 12,
+      "negative": 0,
+      "netSentiment": 0.7,
+      "zScore": 1.468,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 72132.0,
+      "bucketStart": "2026-06-01T20:02:12+00:00",
+      "bucketEnd": "2026-06-02T00:14:36+00:00",
+      "positive": 26,
+      "neutral": 12,
+      "negative": 2,
+      "netSentiment": 0.6,
+      "zScore": 0.412,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 87400.0,
+      "bucketStart": "2026-06-02T00:16:40+00:00",
+      "bucketEnd": "2026-06-02T05:46:48+00:00",
+      "positive": 23,
+      "neutral": 13,
+      "negative": 4,
+      "netSentiment": 0.475,
+      "zScore": -0.908,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 107242.0,
+      "bucketStart": "2026-06-02T05:47:22+00:00",
+      "bucketEnd": "2026-06-02T13:11:07+00:00",
+      "positive": 20,
+      "neutral": 18,
+      "negative": 2,
+      "netSentiment": 0.45,
+      "zScore": -1.172,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 134284.0,
+      "bucketStart": "2026-06-02T13:18:04+00:00",
+      "bucketEnd": "2026-06-02T22:04:21+00:00",
+      "positive": 29,
+      "neutral": 9,
+      "negative": 2,
+      "netSentiment": 0.675,
+      "zScore": 1.204,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 165892.0,
+      "bucketStart": "2026-06-02T22:04:52+00:00",
+      "bucketEnd": "2026-06-03T08:45:34+00:00",
+      "positive": 27,
+      "neutral": 10,
+      "negative": 3,
+      "netSentiment": 0.6,
+      "zScore": 0.412,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 208679.0,
+      "bucketStart": "2026-06-03T09:57:59+00:00",
+      "bucketEnd": "2026-06-04T14:20:53+00:00",
+      "positive": 26,
+      "neutral": 9,
+      "negative": 5,
+      "netSentiment": 0.525,
+      "zScore": -0.38,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 313671.0,
+      "bucketStart": "2026-06-04T15:07:51+00:00",
+      "bucketEnd": "2026-06-06T17:03:40+00:00",
+      "positive": 26,
+      "neutral": 8,
+      "negative": 6,
+      "netSentiment": 0.5,
+      "zScore": -0.644,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 498039.0,
+      "bucketStart": "2026-06-06T18:20:39+00:00",
+      "bucketEnd": "2026-06-23T01:51:39+00:00",
+      "positive": 32,
+      "neutral": 6,
+      "negative": 2,
+      "netSentiment": 0.75,
+      "zScore": 1.996,
+      "isBurst": true,
+      "direction": "POSITIVE_SPIKE",
+      "topComments": [
+        {
+          "text": "irgendwo in den Kommentaren wird Stegi lauern",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "Keriaoké !! <3",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Hey chrissy i also want to sing with you, should I get a chance to sing with you in this life❤",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "awesome!",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "와 옛날에 급식때 듣던 폴링스타 노래 커버 영상에서 봤던 여자 닮았네 생각했는데 진짜 그사람이었네 ㅅㅂ;; 레전드 레전드 레전드!!",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "<3",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "the best song is legends never die",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "와ㅜ 베르사체를 부르다니 감동",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "he's so bad I love it. And she has a amazing voice",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "KERIAOKE",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "damn Chrissy is so pretty",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Its like im third wheeling this relationship 😂",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "\"Hot Damn\" HAHAHAHA",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Chrissy Costanza is GOAT for the entire LCK.",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋㅋ 크레시랑 레네다 듀엣이면 솔직히 못 참긴 하쥐.",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "MORE KERIA SINGING PLSSS, loved it 🫍🫍🫍",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Chrissy is the true legend wow",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "keria is bad as me, but hella fun and hella courage 💪",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "5:24 Ela no Tom e ele no Jerry kkkkkkkkkk",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "God Bless T1 !!",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "I sound exactly like Keria while I'm singing at home",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "So iconic",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Chrissy is awesome 🤩 great voice 🔥🔥🔥🔥🔥🔥🔥🔥 ahhhh legends never die 😭😭😭😭",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Her laugh is cute 😭",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Keria is just like me when I sing... I mean we sound just perfect and etheral 😏😏😏🤧🤧🤧",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Chrissy with Autotune ✅\r\n Chrissy without Autotune ❌",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "Legends never die was awesome... Keria's got it's own treatment haha, this is how it looks like when Keria plays against other supports haha",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "im sorry keria i laughted too hard at this. thank you for this content 🙏",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "WHAT DID I JUST WATCH",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "Damn Keria is really the goat, in English this guys voice actually sounds beautiful.🫡❤️🙏🏼",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "아 귀여워…하 케리아..든든하다",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "what a goat...",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "This is amazing. The bravery it takes to sing in front of anyone is respectable, nontheless doing karaoke in front of hundreds of thousands. Inspiring.",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "keriaoke! hahahaaaa",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Chrissy keria ❤❤❤❤ i Hope marry lol😊",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Có thể hát tý nữa ổng thều thào hết hơi",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "I want to see Keria singing Gods with NewJeans in the future😢",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "when Keria started singing the legends did in fact die",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "she is the real one that sings legends never die?",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "whole enemy team at drake \n\nmy support:",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        }
+      ]
     }
   ],
   "keyInsights": [

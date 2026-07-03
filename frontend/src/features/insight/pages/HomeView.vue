@@ -114,6 +114,19 @@ const backLabel = computed(() =>
 
 function exportPDF() { window.print() }
 
+// 다시 분석하기 — 캐시 삭제 후 같은 URL로 재분석. analysisStore가 전역 상태라
+// 이 함수 실행 중에 다른 페이지로 이동해도 백그라운드에서 계속 진행됨
+async function reAnalyze() {
+  if (!data.value || analysisStore.isAnalyzing) return
+  const videoId = data.value.video.videoId
+  const rebuiltUrl = `https://www.youtube.com/watch?v=${videoId}`
+  await insightApi.deleteCache(videoId)
+  await analysisStore.startAnalysis(rebuiltUrl, (id, d) => {
+    useHistory().save(id, d)
+  })
+  if (analysisStore.result) analysisStore.resultSource = 'history'
+}
+
 // ── 분석 지표 ──
 const sentimentScore = computed(() => {
   const s = overallSentiment.value
@@ -235,7 +248,7 @@ const reportInsightComment = (ins: { comment: string; commentEn?: string; commen
         {{ backLabel }}
       </button>
 
-      <!-- 분석기록에서 열었을 때만 PDF 내보내기 표시 -->
+      <!-- 분석기록에서 열었을 때만 PDF 내보내기 표시 (다시 분석하기는 VideoInfoCard의 분석일자 옆에) -->
       <button v-if="resultSource === 'history'" class="export-btn" @click="exportPDF">
         <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
           <polyline points="8 17 12 21 16 17"/>
@@ -248,7 +261,14 @@ const reportInsightComment = (ins: { comment: string; commentEn?: string; commen
 
     <div class="dash-grid">
       <div class="dash-col-1">
-        <VideoInfoCard :video="data.video" :lang="settings.lang" />
+        <VideoInfoCard
+          :video="data.video"
+          :lang="settings.lang"
+          :analyzed-at="data.analyzedAt"
+          :show-reanalyze="resultSource === 'history'"
+          :reanalyzing="analysisStore.isAnalyzing"
+          @reanalyze="reAnalyze"
+        />
       </div>
       <div class="dash-col-2">
         <TopReactionTopics

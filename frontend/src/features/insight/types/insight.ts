@@ -23,10 +23,18 @@ export type TopicLabel = {
 }
 
 export type TimelinePoint = {
-  label: string
+  label?: string
+  elapsedSeconds?: number | null
+  bucketStart?: string
+  bucketEnd?: string
   positive: number
   neutral: number
   negative: number
+  netSentiment?: number
+  zScore?: number
+  isBurst?: boolean
+  direction?: 'POSITIVE_SPIKE' | 'NEGATIVE_SPIKE' | null
+  topComments?: { text: string; likeCount: number; sentiment: string }[]
 }
 
 export type KeyInsight = {
@@ -61,6 +69,7 @@ export type InsightData = {
   topics: Topic[]
   reactionTimeline: TimelinePoint[]
   keyInsights: KeyInsight[]
+  analyzedAt?: string
 }
 
 export type HistoryItem = {

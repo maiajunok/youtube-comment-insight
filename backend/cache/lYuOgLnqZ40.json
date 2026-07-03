@@ -79,34 +79,290 @@
   ],
   "reactionTimeline": [
     {
-      "label": "0–1h",
-      "positive": 105,
-      "neutral": 47,
-      "negative": 7
+      "elapsedSeconds": 39699.0,
+      "bucketStart": "2026-02-10T11:01:39+00:00",
+      "bucketEnd": "2026-02-10T11:05:34+00:00",
+      "positive": 23,
+      "neutral": 14,
+      "negative": 3,
+      "netSentiment": 0.5,
+      "zScore": -0.749,
+      "isBurst": false,
+      "direction": null
     },
     {
-      "label": "1–24h",
-      "positive": 71,
-      "neutral": 37,
-      "negative": 7
+      "elapsedSeconds": 39950.0,
+      "bucketStart": "2026-02-10T11:05:50+00:00",
+      "bucketEnd": "2026-02-10T11:18:21+00:00",
+      "positive": 28,
+      "neutral": 12,
+      "negative": 0,
+      "netSentiment": 0.7,
+      "zScore": 1.075,
+      "isBurst": false,
+      "direction": null
     },
     {
-      "label": "1–7d",
-      "positive": 6,
-      "neutral": 4,
-      "negative": 2
+      "elapsedSeconds": 40702.0,
+      "bucketStart": "2026-02-10T11:18:22+00:00",
+      "bucketEnd": "2026-02-10T11:35:14+00:00",
+      "positive": 28,
+      "neutral": 9,
+      "negative": 3,
+      "netSentiment": 0.625,
+      "zScore": 0.391,
+      "isBurst": false,
+      "direction": null
     },
     {
-      "label": "7–30d",
-      "positive": 1,
-      "neutral": 0,
-      "negative": 0
+      "elapsedSeconds": 41719.0,
+      "bucketStart": "2026-02-10T11:35:19+00:00",
+      "bucketEnd": "2026-02-10T12:01:24+00:00",
+      "positive": 27,
+      "neutral": 12,
+      "negative": 1,
+      "netSentiment": 0.65,
+      "zScore": 0.619,
+      "isBurst": false,
+      "direction": null
     },
     {
-      "label": "30d+",
-      "positive": 0,
-      "neutral": 0,
-      "negative": 0
+      "elapsedSeconds": 43291.0,
+      "bucketStart": "2026-02-10T12:01:31+00:00",
+      "bucketEnd": "2026-02-10T13:04:22+00:00",
+      "positive": 29,
+      "neutral": 9,
+      "negative": 2,
+      "netSentiment": 0.675,
+      "zScore": 0.847,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 47420.0,
+      "bucketStart": "2026-02-10T13:10:20+00:00",
+      "bucketEnd": "2026-02-10T17:27:25+00:00",
+      "positive": 22,
+      "neutral": 17,
+      "negative": 1,
+      "netSentiment": 0.525,
+      "zScore": -0.521,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 63224.0,
+      "bucketStart": "2026-02-10T17:33:44+00:00",
+      "bucketEnd": "2026-02-12T00:22:59+00:00",
+      "positive": 21,
+      "neutral": 14,
+      "negative": 5,
+      "netSentiment": 0.4,
+      "zScore": -1.661,
+      "isBurst": true,
+      "direction": "NEGATIVE_SPIKE",
+      "topComments": [
+        {
+          "text": "1:02 도련님 나올때마다 브금클래식인거 왜케 웃기냐ㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 16,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "진짜 울프 요즘 쇼츠에 계속 떠서 꼴보기 싫은데 그냥 빨리 끌어내려주세요",
+          "likeCount": 10,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "11:04 역시 티원 탑라이너 테토란ㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 7,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "8:02 그냥 앉아서 쉬는 게 좋은 거 아니냐고 ㅠㅠㅋㅋㅋㅋㅋ",
+          "likeCount": 6,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "울프퇴출기원 4일차",
+          "likeCount": 4,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "0:59 문매님 수환이 완전 아둘 대하는듯한 목소리 솔톤과 말투,, 따뜻해🥹",
+          "likeCount": 4,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "8:22 8:31 뒤에 케리아 앞에 페이즈 란도 가운데 페이커까지 걍 왤케 다 귀엽고 무해하냐 ㅋㅋㅋㅋㅋ",
+          "likeCount": 4,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "3:23 수영장파티 아지르",
+          "likeCount": 3,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "영상팀 사랑해요 명절에 쉬시나요 맛있는 거 많이 드시고 올해도 화이팅 해주세요 💪🏻✨",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "아 도란 너무 기여웡",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "May the Lord Jesus Christ bless you all. Take care and have a good day, friends.",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "5:37 초끈이론 ㅆ ㅋㅋㅋㅋㅋㅋㅋㅋㅋ 편집 개레전드네",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "이렇게 즐기고 오자마자 케스파컵 우승했으니 진짜 기분 좋았겠네 ㅋㅋㅋㅋ \n도오페페케 오래 봤으면 좋겠다",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "2:00 문도... 생각 다 했다...\n생각하는데 1초면 된다...",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "3:46 도라가스 Q가 개욱기네 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "T1❤❤❤❤",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "0:12 사람이 죽었어",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "7:48  Moon Hyunjun, what great did you've done in your past life to have our Goat washing ur sleepers 😂",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "lck팀중에 t1처럼 ot하는팀 있나요??",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "길이 반토막 뭐야.......15분이라니",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "진짜 좋다!!!",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "그냥 좋다. 우리 t1선수들 힐링하는 모습보니까 그냥 내가 다 좋다 ㅎㅎ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "브이로그 너무 잘봤다 굿굿",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "<3",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "어 그래그래 나도 바로 봐줄게",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "편집하시는 분 진짜 롤잘알이시네 ㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "상혁이 행복해보여서 기분좋다",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "赞",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "ㅋㅋ 이 속도는 아무래도 사우디에 컨펌받아야 나오는속도 아니냐",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "이 영상은 아주 오래전에 본 기억이 나네요.",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "도런 넘 웃기네 ㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "가갑 아이번 이러고있네 진짜 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "3:03 케리아 키 얼마나 작은거임....ㅋㅋㅋㅋ\n체감상 163-165 정도 되는거같음",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "일좀하자 제발",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "omg my onker",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        }
+      ]
     }
   ],
   "keyInsights": [

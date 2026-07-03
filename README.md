@@ -55,6 +55,8 @@ Paste any YouTube URL and instantly get a structured breakdown of what the audie
 - Click any topic to view the full list of comments (drawer)
 - Supports Korean ↔ English label translation
 
+> **Methodology note:** Topics are extracted by GPT-4o-mini from only the top 300 most-liked comments, keeping API cost bounded regardless of comment volume. Every remaining comment is then assigned to the closest topic by cosine similarity between its embedding and the topic label's embedding (`text-embedding-3-small`). This is a cost-aware trade-off, not full unsupervised clustering — it can miss topics that are common but not highly liked, and forces every comment into one of the 5 predefined topics even when the fit is weak. A separate experiment applying K-means/DBSCAN clustering to the full comment set (`analysis/cluster_comments.py`) confirmed unsupervised clustering doesn't outperform this approach for these short, slang-heavy comments — it mostly grouped by surface lexical/punctuation patterns rather than meaning, so the GPT + embedding approach was kept.
+
 ### 3. Reaction Timeline
 - Visualizes sentiment changes over time after video upload
 - Time buckets: `0–1h`, `1–24h`, `1–7d`, `7–30d`, `30d+`
@@ -177,6 +179,15 @@ youtube-comment-insight/
 │   └── cache/               # Analysis result cache (JSON) — shipped with the repo as seed data
 │       └── comments/        # Per-topic comment cache
 │
+├── analysis/                # Standalone offline experiments (not part of the running app)
+│   ├── algorithms.py        # Pure statistical logic — equal-frequency bucketing, z-score
+│   │                        #   anomaly detection, clustering (no I/O, no plotting)
+│   ├── data_loader.py       # Loads cached comments/videos into DataFrames
+│   ├── visualize.py         # matplotlib plotting + console output
+│   ├── burst_detection.py   # CLI: prints flagged anomaly windows for a video
+│   ├── reaction_trend.py    # CLI: diverging sentiment trend chart with anomalies starred
+│   └── cluster_comments.py  # CLI: K-means/DBSCAN clustering vs. GPT sentiment labels
+│
 └── frontend/
     └── src/
         ├── features/
@@ -241,6 +252,20 @@ Translates topic labels to English. Accepts the same `X-OpenAI-Key` header; sile
 
 ---
 
+## Offline Analysis Scripts
+
+`analysis/` holds standalone data-science experiments that run against the cached comments in `backend/cache/` — separate from the running app, no API calls required. `algorithms.py` contains only the actual statistical/ML logic (pure functions, no I/O or plotting); `data_loader.py` and `visualize.py` handle loading and presentation.
+
+```bash
+cd analysis
+pip install -r requirements.txt
+python burst_detection.py [video_id]      # z-score anomaly detection over equal-frequency buckets
+python reaction_trend.py [video_id]       # diverging sentiment trend chart with anomalies starred
+python cluster_comments.py                # K-means/DBSCAN clustering vs. GPT sentiment labels
+```
+
+---
+
 ## Coming Soon
 - Reddit comment analysis
 - TikTok comment analysis
@@ -285,6 +310,8 @@ YouTube URL을 붙여넣으면 AI가 댓글을 수집하고 감정 분석 · 토
 - 토픽별 언급 수 및 감정 비율 표시
 - 토픽 클릭 시 해당 댓글 전체 보기 (드로어)
 - 한국어 ↔ 영어 레이블 번역 지원
+
+> **방법론 노트:** 토픽은 좋아요 상위 300개 댓글만 GPT-4o-mini에 전달해 추출하며, 이는 댓글 수와 무관하게 API 비용을 일정하게 유지하기 위함입니다. 나머지 댓글은 각각 임베딩(`text-embedding-3-small`)한 뒤, 토픽 이름 임베딩과의 코사인 유사도가 가장 높은 토픽에 배정됩니다. 이는 완전한 비지도 클러스터링이 아니라 비용을 고려한 절충안입니다 — 좋아요는 적지만 흔한 주제를 놓칠 수 있고, 잘 맞지 않아도 5개 토픽 중 하나에는 강제로 배정됩니다. 전체 댓글에 K-means/DBSCAN 클러스터링을 적용해본 별도 실험(`analysis/cluster_comments.py`)에서도, 짧고 축약어가 많은 이런 댓글에는 비지도 클러스터링이 의미 있는 분리를 만들어내지 못했고(어휘·문장부호 패턴 위주로 묶임) 이 방식보다 나은 결과를 보이지 않아 현재의 GPT+임베딩 방식을 유지하기로 했습니다.
 
 ### 3. 반응 타임라인
 - 영상 업로드 이후 시간대별 감정 변화 시각화
@@ -391,6 +418,20 @@ npm run dev
 배포된 백엔드에는 의도적으로 `OPENAI_API_KEY`/`YOUTUBE_API_KEY`를 설정하지 않습니다 — 방문자가 설정 페이지에서 본인 키를 입력합니다(위 BYOK 정책 참고). `backend/cache/` 디렉터리가 저장소에 함께 포함되어 있어 키 없이도 배포 직후 History/Stats/Compare가 바로 동작합니다.
 
 **배포 주소:** <a href="https://youtube-comment-insight-orcin.vercel.app" target="_blank" rel="noopener">https://youtube-comment-insight-orcin.vercel.app</a>
+
+---
+
+## 오프라인 분석 스크립트
+
+`analysis/` 폴더에는 실제 서비스와는 별개로, `backend/cache/`에 캐시된 댓글 데이터를 대상으로 돌려보는 독립적인 데이터 분석 실험들이 들어있습니다 (API 호출 없음). `algorithms.py`는 실제 통계/ML 로직만 순수 함수로 담고 있고(I/O·플로팅 없음), `data_loader.py`와 `visualize.py`가 각각 데이터 로딩과 결과 표시를 담당합니다.
+
+```bash
+cd analysis
+pip install -r requirements.txt
+python burst_detection.py [video_id]      # 등빈도 구간 기반 z-score 이상치 탐지
+python reaction_trend.py [video_id]       # 이상치가 표시된 다이버징 감정 트렌드 차트
+python cluster_comments.py                # K-means/DBSCAN 클러스터링 vs GPT 감정 라벨 비교
+```
 
 ---
 

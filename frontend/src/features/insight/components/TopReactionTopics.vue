@@ -78,7 +78,7 @@ const getLabel = (topic: Topic) => displayLabel(topic, props.lang)
     </div>
 
     <!-- Legend -->
-    <div class="flex items-center gap-7 pt-5 mt-3 border-t text-[11px]"
+    <div class="flex items-center gap-7 pt-7 mt-3 border-t text-[11px]"
       style="border-color: var(--border); color: var(--subtext)">
       <span class="flex items-center gap-1.5">
         <span class="w-2.5 h-2.5 rounded-sm inline-block shrink-0" style="background: var(--positive)"></span>

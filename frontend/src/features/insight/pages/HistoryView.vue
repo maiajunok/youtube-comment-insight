@@ -391,7 +391,7 @@ async function confirmDelete() {
 
 /* ── 삭제 확인 모달 ── */
 .confirm-overlay {
-  position: fixed; inset: 0; z-index: 60;
+  position: fixed; inset: 0; z-index: 200;
   background: radial-gradient(circle at 50% 40%, rgba(244,63,94,0.08), rgba(8, 6, 16, 0.72) 60%);
   backdrop-filter: blur(6px);
   display: flex; align-items: center; justify-content: center;
@@ -403,7 +403,7 @@ async function confirmDelete() {
   to   { opacity: 1; }
 }
 .confirm-modal {
-  background: linear-gradient(180deg, var(--card-hover) 0%, var(--card) 60%);
+  background: var(--card);
   border: 0.5px solid rgba(244, 63, 94, 0.25);
   border-radius: 20px;
   padding: 32px 32px 28px;
