@@ -7,8 +7,11 @@
 [![License](https://img.shields.io/badge/license-Private-red)](/)
 
 <a href="https://youtube-comment-insight-orcin.vercel.app">
-  <img width="2880" height="1452" alt="image" src="https://github.com/user-attachments/assets/421541ae-ec0e-447c-a765-e96d87faf1d0" />
+  <img width="2880" height="1426" alt="image" src="https://github.com/user-attachments/assets/7260d766-dd14-4dd8-ad16-aaefd68d2cf5" />
 </a>
+
+<img width="938" height="1266" alt="image" src="https://github.com/user-attachments/assets/a065d311-963d-451f-8b37-8dc400f07c59" />
+
 
 <p><sub>👆 Click the screenshot to open the <a href="https://youtube-comment-insight-orcin.vercel.app"><b>live demo</b></a></sub></p>
 
