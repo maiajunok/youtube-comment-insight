@@ -79,8 +79,9 @@
   ],
   "reactionTimeline": [
     {
-      "elapsedSeconds": 72.0,
+      "elapsedSeconds": 14488.0,
       "bucketStart": "2026-03-07T04:01:28+00:00",
+      "bucketEnd": "2026-03-07T04:04:39+00:00",
       "positive": 25,
       "neutral": 12,
       "negative": 3,
@@ -90,8 +91,9 @@
       "direction": null
     },
     {
-      "elapsedSeconds": 266.0,
+      "elapsedSeconds": 14682.0,
       "bucketStart": "2026-03-07T04:04:42+00:00",
+      "bucketEnd": "2026-03-07T04:23:00+00:00",
       "positive": 22,
       "neutral": 12,
       "negative": 6,
@@ -101,8 +103,9 @@
       "direction": null
     },
     {
-      "elapsedSeconds": 1387.0,
+      "elapsedSeconds": 15803.0,
       "bucketStart": "2026-03-07T04:23:23+00:00",
+      "bucketEnd": "2026-03-07T05:08:33+00:00",
       "positive": 25,
       "neutral": 12,
       "negative": 3,
@@ -112,8 +115,9 @@
       "direction": null
     },
     {
-      "elapsedSeconds": 4208.0,
+      "elapsedSeconds": 18624.0,
       "bucketStart": "2026-03-07T05:10:24+00:00",
+      "bucketEnd": "2026-03-07T06:56:00+00:00",
       "positive": 25,
       "neutral": 14,
       "negative": 1,
@@ -123,8 +127,9 @@
       "direction": null
     },
     {
-      "elapsedSeconds": 10881.0,
+      "elapsedSeconds": 25297.0,
       "bucketStart": "2026-03-07T07:01:37+00:00",
+      "bucketEnd": "2026-03-07T09:48:24+00:00",
       "positive": 26,
       "neutral": 10,
       "negative": 4,
@@ -134,8 +139,9 @@
       "direction": null
     },
     {
-      "elapsedSeconds": 20942.0,
+      "elapsedSeconds": 35358.0,
       "bucketStart": "2026-03-07T09:49:18+00:00",
+      "bucketEnd": "2026-03-07T15:33:19+00:00",
       "positive": 18,
       "neutral": 15,
       "negative": 7,
@@ -193,12 +199,163 @@
           "text": "우제... 잘했어.. 이 할미 귀에는 참 감미로웠단다... (빼놓은 보청기를 만지작거리며..)🤭",
           "likeCount": 7,
           "sentiment": "POSITIVE"
+        },
+        {
+          "text": "아니 우제야 내가 안보는 사이에 왜이래됐니…",
+          "likeCount": 7,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋ진짜 딱 이생각 하면서 봤어요...",
+          "likeCount": 6,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "너무 귀여운뎈ㅋㅋ",
+          "likeCount": 6,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "우제야...장하다..완창이라니",
+          "likeCount": 5,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "우제 안돼ㅜㅜㅜㅜㅜㅜㅜ",
+          "likeCount": 5,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "미안하다\n진짜 못들어주겠다.",
+          "likeCount": 5,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "아",
+          "likeCount": 4,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "사고났네",
+          "likeCount": 4,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "님들아 '침착맨 드라우닝'을 먼저 듣고와요 그리고나서 이거 들으면 귀 정화됨 😚",
+          "likeCount": 4,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "😂",
+          "likeCount": 3,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "노래 천재 최우제⚡️🎵",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "아니 막냉이 고로시 어케참는데😂",
+          "likeCount": 3,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "😮",
+          "likeCount": 2,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "Cutie ❤",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Văn nghệ cấp mầm non 🌸",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "숨겨",
+          "likeCount": 2,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "조회수 자꾸 늘어나네 ㅋㅋㅋ",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "이걸 봐도 될까요…?",
+          "likeCount": 2,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "완전 다케나카유다이 같았어",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "???",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "there's really something comforting about wooje's existence… especially when he’s singing ^^",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Ôi trời vừa coi mới nay mà được up luôn nè 🤍",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "이건 우제가 고소해도 할 말 없긴 해",
+          "likeCount": 1,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "lost stars 2 예상하고 왔는데 이것뭐예요",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "mốt tới mùa chuyển nhượng mà nó không chịu tái ký thì lý do là đây nha cam mẹ",
+          "likeCount": 1,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ우제 어떡하냨ㅋㅋㅋㅋㅋㅋㅋ진짴ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "한화생명 편집자 양반이라면 ai로 보정한걸 올렸을텐데.. 그니까 이게 ai 보정된 거라는거죠??",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "구마야 빨리 노래 알려줘라 애가 공식에 박제당하잖아",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "기특하다 우제야",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Hahaha HLE 😂😂😂 1st English comment",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
         }
       ]
     },
     {
-      "elapsedSeconds": 43124.0,
+      "elapsedSeconds": 57540.0,
       "bucketStart": "2026-03-07T15:59:00+00:00",
+      "bucketEnd": "2026-03-08T10:48:53+00:00",
       "positive": 24,
       "neutral": 10,
       "negative": 6,
@@ -208,8 +365,9 @@
       "direction": null
     },
     {
-      "elapsedSeconds": 113386.0,
+      "elapsedSeconds": 127802.0,
       "bucketStart": "2026-03-08T11:30:02+00:00",
+      "bucketEnd": "2026-03-10T05:23:17+00:00",
       "positive": 23,
       "neutral": 12,
       "negative": 5,
@@ -219,8 +377,9 @@
       "direction": null
     },
     {
-      "elapsedSeconds": 267519.0,
+      "elapsedSeconds": 281935.0,
       "bucketStart": "2026-03-10T06:18:55+00:00",
+      "bucketEnd": "2026-03-13T08:32:00+00:00",
       "positive": 21,
       "neutral": 15,
       "negative": 4,
@@ -230,8 +389,9 @@
       "direction": null
     },
     {
-      "elapsedSeconds": 586690.0,
+      "elapsedSeconds": 601106.0,
       "bucketStart": "2026-03-13T22:58:26+00:00",
+      "bucketEnd": "2026-06-25T04:22:03+00:00",
       "positive": 14,
       "neutral": 8,
       "negative": 3,
