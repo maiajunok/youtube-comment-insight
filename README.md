@@ -159,7 +159,7 @@ Deployed as two separate services:
 
 `OPENAI_API_KEY` / `YOUTUBE_API_KEY` are intentionally **not** set on the deployed backend — visitors supply their own via the Settings page (see BYOK policy above). The `backend/cache/` directory ships with the repo so History/Stats/Compare work immediately on a fresh deploy with zero keys.
 
-**Live demo:** https://youtube-comment-insight-orcin.vercel.app
+**Live demo:** <a href="https://youtube-comment-insight-orcin.vercel.app" target="_blank" rel="noopener">https://youtube-comment-insight-orcin.vercel.app</a>
 
 ---
 
@@ -390,7 +390,7 @@ npm run dev
 
 배포된 백엔드에는 의도적으로 `OPENAI_API_KEY`/`YOUTUBE_API_KEY`를 설정하지 않습니다 — 방문자가 설정 페이지에서 본인 키를 입력합니다(위 BYOK 정책 참고). `backend/cache/` 디렉터리가 저장소에 함께 포함되어 있어 키 없이도 배포 직후 History/Stats/Compare가 바로 동작합니다.
 
-**배포 주소:** https://youtube-comment-insight-orcin.vercel.app
+**배포 주소:** <a href="https://youtube-comment-insight-orcin.vercel.app" target="_blank" rel="noopener">https://youtube-comment-insight-orcin.vercel.app</a>
 
 ---
 
