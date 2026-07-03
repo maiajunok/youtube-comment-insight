@@ -1,14 +1,16 @@
 # YouTube Comment Insight Analyzer
 **AI-powered YouTube comment sentiment analysis dashboard**
 
-### 🌐 [**Live Demo →**](https://youtube-comment-insight-orcin.vercel.app)
-
 [![Vue](https://img.shields.io/badge/Vue-3.5-42b883?logo=vue.js)](https://vuejs.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-Python-009688?logo=fastapi)](https://fastapi.tiangolo.com/)
 [![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4o--mini-412991?logo=openai)](https://openai.com/)
 [![License](https://img.shields.io/badge/license-Private-red)](/)
 
-<img width="2880" height="1452" alt="image" src="https://github.com/user-attachments/assets/421541ae-ec0e-447c-a765-e96d87faf1d0" />
+<a href="https://youtube-comment-insight-orcin.vercel.app">
+  <img width="2880" height="1452" alt="image" src="https://github.com/user-attachments/assets/421541ae-ec0e-447c-a765-e96d87faf1d0" />
+</a>
+
+<p><sub>👆 Click the screenshot to open the <a href="https://youtube-comment-insight-orcin.vercel.app"><b>live demo</b></a></sub></p>
 
 > Built as part of the **Seocho e-Sports Developer Academy** (Seocho District Office × T1 Esports), a frontend/full-stack developer training program.
 
@@ -252,7 +254,7 @@ Translates topic labels to English. Accepts the same `X-OpenAI-Key` header; sile
 
 **AI 기반 YouTube 댓글 감정 분석 대시보드**
 
-### 🌐 [**바로 써보기 →**](https://youtube-comment-insight-orcin.vercel.app)
+🌐 **[바로 써보기 →](https://youtube-comment-insight-orcin.vercel.app)**
 
 > 서초구청과 T1이 함께하는 **서초 e스포츠 개발자 아카데미** 프론트엔드/풀스택 개발자 양성 과정의 일환으로 제작한 프로젝트입니다.
 
