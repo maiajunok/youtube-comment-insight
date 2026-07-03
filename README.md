@@ -6,14 +6,11 @@
 [![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4o--mini-412991?logo=openai)](https://openai.com/)
 [![License](https://img.shields.io/badge/license-Private-red)](/)
 
-<a href="https://youtube-comment-insight-orcin.vercel.app">
-  <img width="2880" height="1426" alt="image" src="https://github.com/user-attachments/assets/7260d766-dd14-4dd8-ad16-aaefd68d2cf5" />
+<a href="https://youtube-comment-insight-orcin.vercel.app" target="_blank" rel="noopener">
+  <img width="100%" alt="Desktop and mobile screenshots" src="docs/screenshot-collage.png" />
 </a>
 
-<img width="938" height="1266" alt="image" src="https://github.com/user-attachments/assets/a065d311-963d-451f-8b37-8dc400f07c59" />
-
-
-<p><sub>👆 Click the screenshot to open the <a href="https://youtube-comment-insight-orcin.vercel.app"><b>live demo</b></a></sub></p>
+<p><sub>👆 Click the screenshot to open the <a href="https://youtube-comment-insight-orcin.vercel.app" target="_blank" rel="noopener"><b>live demo</b></a></sub></p>
 
 > Built as part of the **Seocho e-Sports Developer Academy** (Seocho District Office × T1 Esports), a frontend/full-stack developer training program.
 
@@ -257,7 +254,7 @@ Translates topic labels to English. Accepts the same `X-OpenAI-Key` header; sile
 
 **AI 기반 YouTube 댓글 감정 분석 대시보드**
 
-🌐 **[바로 써보기 →](https://youtube-comment-insight-orcin.vercel.app)**
+🌐 <b><a href="https://youtube-comment-insight-orcin.vercel.app" target="_blank" rel="noopener">바로 써보기 →</a></b>
 
 > 서초구청과 T1이 함께하는 **서초 e스포츠 개발자 아카데미** 프론트엔드/풀스택 개발자 양성 과정의 일환으로 제작한 프로젝트입니다.
 
