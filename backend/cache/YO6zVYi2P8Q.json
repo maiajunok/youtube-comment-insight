@@ -1,0 +1,491 @@
+{
+  "video": {
+    "videoId": "YO6zVYi2P8Q",
+    "title": "지면 하체 이기면 등｜2026 LCK 정규시즌 승리 비하인드, vs DNS 2R",
+    "channelTitle": "Hanwha Life Esports",
+    "thumbnailUrl": "https://i.ytimg.com/vi/YO6zVYi2P8Q/maxresdefault.jpg",
+    "publishedAt": "2026-05-07",
+    "viewCount": 125052,
+    "likeCount": 3589,
+    "analyzedComments": 516,
+    "languageRatio": {
+      "ko": 92,
+      "en": 2,
+      "other": 6
+    },
+    "weightedSentiment": 70
+  },
+  "topics": [
+    {
+      "label": "망고시루",
+      "labelEn": "Mango Siru",
+      "labelZh": "芒果丝露",
+      "labelJa": "マンゴーシル",
+      "mentionCount": 132,
+      "sentiment": {
+        "positive": 60,
+        "neutral": 37,
+        "negative": 3
+      }
+    },
+    {
+      "label": "팀 분위기",
+      "labelEn": "Team Atmosphere",
+      "labelZh": "团队氛围",
+      "labelJa": "チームの雰囲気",
+      "mentionCount": 131,
+      "sentiment": {
+        "positive": 58,
+        "neutral": 39,
+        "negative": 3
+      }
+    },
+    {
+      "label": "카나비의 역할",
+      "labelEn": "Kanavi's Role",
+      "labelZh": "Kanavi的角色",
+      "labelJa": "カナビの役割",
+      "mentionCount": 115,
+      "sentiment": {
+        "positive": 70,
+        "neutral": 25,
+        "negative": 4
+      }
+    },
+    {
+      "label": "한화생명 응원",
+      "labelEn": "Hanhwa Life Support",
+      "labelZh": "汉华生命支持",
+      "labelJa": "ハンファライフの応援",
+      "mentionCount": 85,
+      "sentiment": {
+        "positive": 65,
+        "neutral": 29,
+        "negative": 6
+      }
+    },
+    {
+      "label": "운전 실력",
+      "labelEn": "Driving Skills",
+      "labelZh": "驾驶技能",
+      "labelJa": "運転技術",
+      "mentionCount": 53,
+      "sentiment": {
+        "positive": 60,
+        "neutral": 34,
+        "negative": 6
+      }
+    }
+  ],
+  "reactionTimeline": [
+    {
+      "elapsedSeconds": 20.0,
+      "bucketStart": "2026-05-07T01:00:46+00:00",
+      "bucketEnd": "2026-05-07T01:07:45+00:00",
+      "positive": 25,
+      "neutral": 13,
+      "negative": 2,
+      "netSentiment": 0.575,
+      "zScore": -0.095,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 473.0,
+      "bucketStart": "2026-05-07T01:08:19+00:00",
+      "bucketEnd": "2026-05-07T01:17:06+00:00",
+      "positive": 27,
+      "neutral": 11,
+      "negative": 2,
+      "netSentiment": 0.625,
+      "zScore": 0.376,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 1002.0,
+      "bucketStart": "2026-05-07T01:17:08+00:00",
+      "bucketEnd": "2026-05-07T01:25:24+00:00",
+      "positive": 26,
+      "neutral": 14,
+      "negative": 0,
+      "netSentiment": 0.65,
+      "zScore": 0.612,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 1506.0,
+      "bucketStart": "2026-05-07T01:25:32+00:00",
+      "bucketEnd": "2026-05-07T01:37:04+00:00",
+      "positive": 32,
+      "neutral": 8,
+      "negative": 0,
+      "netSentiment": 0.8,
+      "zScore": 2.024,
+      "isBurst": true,
+      "direction": "POSITIVE_SPIKE",
+      "topComments": [
+        {
+          "text": "4:37 사고날뻔 해가지고 진짜 누가 내려서 왔나본데 ㅋㅋㅋㅋ",
+          "likeCount": 414,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "제카 구마유시 놀릴거리 하나 더 생겨서 신난듯",
+          "likeCount": 135,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "6:19 21킬 남았는데 22어시를 올려버림 ㅋㅋㅋㅋㅋㅋㅋㅌㅌㅋ",
+          "likeCount": 124,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "구마구마야 도대체 운전을 어떻게 한거니 ,,,,,",
+          "likeCount": 122,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "성심당 케이크 20갠가 시키면 단체 주문으로 대전 내 배달 받을 수 있슴니다.. 프런트분들 더운 시기에 줄서느라 고생하지 마시고 1인 1시루 시켜주고 컨텐츠도 뽑아주시면 좋을 거 같아요!! 율쌤한테 혼은 좀 나겠지만,,,",
+          "likeCount": 92,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "아무래도 이제 날씨가 더우니까 ㅋㅋㅋㅋ",
+          "likeCount": 76,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㅋㅋ살아잇음에 감사함을 느낀다는게 ㅋㅋ대체 운전에서 무슨일이 있던거야 ㅋㅋㅋㅋ",
+          "likeCount": 67,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "전원 POM ㅋㅋ 이게 한화생명이야 ㅋㅋ",
+          "likeCount": 66,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "10:33 역시 빠꾸없는 우리주장 ㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 58,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "4:37 아니 운전하다 갱 당할뻔한거?",
+          "likeCount": 41,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "ㅋㅋㅋㅋ 무슨 돈까스 먹으로 가자 이러고 치과 데려가는 엄마 셍각남 ㅋㅋㅋㅋ",
+          "likeCount": 28,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "우리진혁 망고시루먹으러 므시가자",
+          "likeCount": 28,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "아 팀 분위기 너무너무너무너무 좋아보여서 내 기분이 다 좋아진다…🧡\n우리 한화전차 이대로 쭉쭉 가보자\n\n항상 고생하시는 피디님과 스탭여러분 모두 감사합니다",
+          "likeCount": 28,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "로드 투 망고시루 드가자~",
+          "likeCount": 22,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "확실히 하루 지나고 올라오니까 퀄이 좋구나",
+          "likeCount": 19,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "근데 팀분위기 ㄹㅇ 좋다",
+          "likeCount": 16,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "영상 퀄이 올라감!!! 너무 좋음 !!! 노피디 짱짱!!!!!! 걍 너무 조아!!!",
+          "likeCount": 13,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "이 팀이 참...좋으네...우리 영상팀 건강 챙겨가면서 일하시길..내 삶의 또 다른 빛..연승 안 깨졌으면...딮기 두 번 이기자..잼게따 히히..",
+          "likeCount": 13,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "나도 망고시루 먹고싶어.. 대전가게해줘 므시가줘",
+          "likeCount": 12,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "눈 뜨고 이것만 기다렸다면 믿어 주실래요? 🧡\n민형이 다치면 안된다. ㅠㅠ msi ewe 월즈 가야지 ~~\n나 구운 감자 사러 간다 건우야 ~",
+          "likeCount": 10,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "노피디님 항상 감사드립니다~ 한생 화이팅🧡",
+          "likeCount": 9,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "환중이 혼자 경기할 뻔 했다는 전설의 운전😇",
+          "likeCount": 9,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "노피디님 감자합니다 정말 🍊🧡",
+          "likeCount": 8,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "한화생묭 참좋다…",
+          "likeCount": 7,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "한생 케미 개좋네",
+          "likeCount": 7,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "구드라이버... 비난이 거센데 ㅋㅋㅋㅋ",
+          "likeCount": 6,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "3:25 구드럭과 니얼굴 이민0의 초딩싸움ㅋㅋㅋ하ㅋㅋ",
+          "likeCount": 6,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "초딩생명... 니얼굴이 뭐니 니얼굴이.... 유치뽕짝 아주그냥\nㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 5,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "지면 하체 이기면 등이라니ㅋㅋㅋ 썸네일 재밌다 오늘도 잘 봤어요~~!",
+          "likeCount": 5,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "회사지만 몰래나와서 보고있는 한붕이면 개추",
+          "likeCount": 5,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "망고시뤀ㅋㅋㅋㅋㅋㅋ 귀엽네",
+          "likeCount": 4,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "므시가서 망고시루 먹자 ㅋㅋㅋ",
+          "likeCount": 4,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "운전 많은 일이 있었구나 초보는 원래 힘들긴해ㅎㅎ",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "율리예스 아ㅣ재인가  침투력무엇 ㅋㅋ",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "이게 승리인터뷰인지 먹방인터뷰인지",
+          "likeCount": 2,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "아닠ㅋㅋㅋ 운전 얼마나 깊은 인상을 남겼길래ㅋㅋㅋㅋ",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "구마유시만 진짜 대지 되는거 같은데 기분탓? 하지만 찌는만큼 루시안 잘한거면 쪄라.. 좋다",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "10::20 어김없이 돌아온 승리 후 음식 타임",
+          "likeCount": 2,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "제카제구딜 화이팅😊😊😊😊😊",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "스킨의 주인다운 활약 질문 2연타ㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "elapsedSeconds": 2201.0,
+      "bucketStart": "2026-05-07T01:37:07+00:00",
+      "bucketEnd": "2026-05-07T01:59:23+00:00",
+      "positive": 22,
+      "neutral": 15,
+      "negative": 3,
+      "netSentiment": 0.475,
+      "zScore": -1.036,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 3537.0,
+      "bucketStart": "2026-05-07T01:59:23+00:00",
+      "bucketEnd": "2026-05-07T02:36:45+00:00",
+      "positive": 28,
+      "neutral": 12,
+      "negative": 0,
+      "netSentiment": 0.7,
+      "zScore": 1.083,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 5864.0,
+      "bucketStart": "2026-05-07T02:38:10+00:00",
+      "bucketEnd": "2026-05-07T03:09:03+00:00",
+      "positive": 22,
+      "neutral": 15,
+      "negative": 3,
+      "netSentiment": 0.475,
+      "zScore": -1.036,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 7793.0,
+      "bucketStart": "2026-05-07T03:10:19+00:00",
+      "bucketEnd": "2026-05-07T03:51:30+00:00",
+      "positive": 21,
+      "neutral": 18,
+      "negative": 1,
+      "netSentiment": 0.5,
+      "zScore": -0.801,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 10319.0,
+      "bucketStart": "2026-05-07T03:52:25+00:00",
+      "bucketEnd": "2026-05-07T04:48:50+00:00",
+      "positive": 30,
+      "neutral": 8,
+      "negative": 2,
+      "netSentiment": 0.7,
+      "zScore": 1.083,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 13743.0,
+      "bucketStart": "2026-05-07T04:49:29+00:00",
+      "bucketEnd": "2026-05-07T07:05:19+00:00",
+      "positive": 23,
+      "neutral": 13,
+      "negative": 4,
+      "netSentiment": 0.475,
+      "zScore": -1.036,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 22362.0,
+      "bucketStart": "2026-05-07T07:13:08+00:00",
+      "bucketEnd": "2026-05-07T10:20:33+00:00",
+      "positive": 25,
+      "neutral": 14,
+      "negative": 1,
+      "netSentiment": 0.6,
+      "zScore": 0.141,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 33650.0,
+      "bucketStart": "2026-05-07T10:21:16+00:00",
+      "bucketEnd": "2026-05-07T23:45:37+00:00",
+      "positive": 21,
+      "neutral": 17,
+      "negative": 2,
+      "netSentiment": 0.475,
+      "zScore": -1.036,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 83047.0,
+      "bucketStart": "2026-05-08T00:04:33+00:00",
+      "bucketEnd": "2026-06-29T16:14:27+00:00",
+      "positive": 21,
+      "neutral": 14,
+      "negative": 1,
+      "netSentiment": 0.556,
+      "zScore": -0.278,
+      "isBurst": false,
+      "direction": null
+    }
+  ],
+  "keyInsights": [
+    {
+      "type": "positive",
+      "topic": "망고시루",
+      "topicEn": "Mango Siru",
+      "topicZh": "芒果丝露",
+      "topicJa": "マンゴーシル",
+      "comment": "루시안 너 오늘 완전 구마유시였어",
+      "commentLang": "ko",
+      "likes": 1142
+    },
+    {
+      "type": "negative",
+      "topic": "팀 분위기",
+      "topicEn": "Team Atmosphere",
+      "topicZh": "团队氛围",
+      "topicJa": "チームの雰囲気",
+      "comment": "1:01 팀내에서 말라 담당인데 110 이러네ㅜ",
+      "commentLang": "ko",
+      "likes": 321
+    },
+    {
+      "type": "positive",
+      "topic": "팀 분위기",
+      "topicEn": "Team Atmosphere",
+      "topicZh": "团队氛围",
+      "topicJa": "チームの雰囲気",
+      "comment": "어차피 이기든 지든 오늘 내일 나눠 둘다 시킬 헬스트레이너 개추 🤭",
+      "commentLang": "ko",
+      "likes": 946
+    },
+    {
+      "type": "negative",
+      "topic": "한화생명 응원",
+      "topicEn": "Hanhwa Life Support",
+      "topicZh": "汉华生命支持",
+      "topicJa": "ハンファライフの応援",
+      "comment": "이건 사과 받아야겠는데",
+      "commentLang": "ko",
+      "likes": 22
+    }
+  ],
+  "analyzedAt": "2026-07-04T14:13:09.638764+00:00",
+  "analysisDuration": 107.5,
+  "tokenUsage": {
+    "input": 28617,
+    "output": 5954,
+    "embedding": 16391,
+    "total": 50962,
+    "estimatedCostUsd": 0.008193
+  }
+}

@@ -1,0 +1,955 @@
+{
+  "video": {
+    "videoId": "_A22teiBEhQ",
+    "title": "풀꽉의 악마 | T1 vs BLG 게임 5 하이라이트 | MSI 2026",
+    "channelTitle": "LCK",
+    "thumbnailUrl": "https://i.ytimg.com/vi/_A22teiBEhQ/maxresdefault.jpg",
+    "publishedAt": "2026-07-04",
+    "viewCount": 56612,
+    "likeCount": 300,
+    "analyzedComments": 721,
+    "languageRatio": {
+      "ko": 97,
+      "en": 1,
+      "other": 2
+    },
+    "weightedSentiment": -2
+  },
+  "topics": [
+    {
+      "label": "밴픽 문제",
+      "labelEn": "Draft Issues",
+      "labelZh": "选拔问题",
+      "labelJa": "ドラフトの問題",
+      "mentionCount": 216,
+      "sentiment": {
+        "positive": 22,
+        "neutral": 19,
+        "negative": 59
+      }
+    },
+    {
+      "label": "감독 비난",
+      "labelEn": "Coaching Criticism",
+      "labelZh": "教练批评",
+      "labelJa": "コーチングの批判",
+      "mentionCount": 214,
+      "sentiment": {
+        "positive": 25,
+        "neutral": 26,
+        "negative": 49
+      }
+    },
+    {
+      "label": "경기 결과 비관",
+      "labelEn": "Pessimism About Match Results",
+      "labelZh": "对比赛结果的悲观",
+      "labelJa": "試合結果についての悲観",
+      "mentionCount": 149,
+      "sentiment": {
+        "positive": 30,
+        "neutral": 26,
+        "negative": 45
+      }
+    },
+    {
+      "label": "선수 기량 차이",
+      "labelEn": "Player Skill Difference",
+      "labelZh": "选手能力差",
+      "labelJa": "プレイヤースキルの差",
+      "mentionCount": 71,
+      "sentiment": {
+        "positive": 21,
+        "neutral": 28,
+        "negative": 51
+      }
+    },
+    {
+      "label": "팬 문화",
+      "labelEn": "Fan Culture",
+      "labelZh": "粉丝文化",
+      "labelJa": "ファン文化",
+      "mentionCount": 71,
+      "sentiment": {
+        "positive": 30,
+        "neutral": 35,
+        "negative": 35
+      }
+    }
+  ],
+  "reactionTimeline": [
+    {
+      "elapsedSeconds": 25.0,
+      "bucketStart": "2026-07-04T11:20:00+00:00",
+      "bucketEnd": "2026-07-04T11:22:19+00:00",
+      "positive": 12,
+      "neutral": 12,
+      "negative": 16,
+      "netSentiment": -0.1,
+      "zScore": 0.818,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 171.0,
+      "bucketStart": "2026-07-04T11:22:26+00:00",
+      "bucketEnd": "2026-07-04T11:25:20+00:00",
+      "positive": 13,
+      "neutral": 10,
+      "negative": 17,
+      "netSentiment": -0.1,
+      "zScore": 0.818,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 348.0,
+      "bucketStart": "2026-07-04T11:25:23+00:00",
+      "bucketEnd": "2026-07-04T11:28:02+00:00",
+      "positive": 10,
+      "neutral": 9,
+      "negative": 21,
+      "netSentiment": -0.275,
+      "zScore": -0.173,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 509.0,
+      "bucketStart": "2026-07-04T11:28:04+00:00",
+      "bucketEnd": "2026-07-04T11:30:10+00:00",
+      "positive": 12,
+      "neutral": 11,
+      "negative": 17,
+      "netSentiment": -0.125,
+      "zScore": 0.676,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 635.0,
+      "bucketStart": "2026-07-04T11:30:10+00:00",
+      "bucketEnd": "2026-07-04T11:32:44+00:00",
+      "positive": 3,
+      "neutral": 9,
+      "negative": 28,
+      "netSentiment": -0.625,
+      "zScore": -2.154,
+      "isBurst": true,
+      "direction": "NEGATIVE_SPIKE",
+      "topComments": [
+        {
+          "text": "구립습니다...😢",
+          "likeCount": 47,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "@zxcedc11 해설들이 대놓고 가위바위보 싸움에서 지고 시작한다고 말해줘도 뇌피셜로 밴픽 진짜 좋았다 해버리네 ㅋㅋㅋㅋㅋㅋㅋ 니가 전문가하세요 그냥",
+          "likeCount": 37,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "난 트런들 1픽이 더 놀라운데?",
+          "likeCount": 30,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "밴픽 구데기인건 인정해야지. 애쉬 세라핀주고 1픽 트런들 가져오는게 어딨음?  걍 밴픽차이임 gg 밴픽떄문에 인게임에서도 결국 드러났는데..",
+          "likeCount": 29,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "근데 탑은 매 세트마다 라인전 우세한적이 없었다...",
+          "likeCount": 28,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "부품갈이라고 쵸비 뒤지게 까내리더니ㅋㅋㅋ 제우스 쳐내고 구마우시 쳐내고는 만족이 안돼 슼갈아?",
+          "likeCount": 24,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "​@ThNoU-Man 곧 티원도 젠지 따라가겠노ㅋㅋㅋ",
+          "likeCount": 18,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "@zxcedc11 티원 밴픽이 좋았다고..?",
+          "likeCount": 13,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "@shj3546 ㄹㅇ 오른 할 줄 알았는데 갑자기 트런들, 나르 꼽길래 뭐지했네",
+          "likeCount": 11,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "알면뭐하게? 또 매장하려고??",
+          "likeCount": 10,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "@naf-k4s 트런들 박고 애라핀 넘기고 ㅋㅋㅋ 유나라 할려고 짜오밴,판테밴? 뭐 하자는 거냐?",
+          "likeCount": 8,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "마지막 5세트 애라핀 놔두고 트런들이 그렇게 중요했나",
+          "likeCount": 8,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "밴픽 개선이 안되는이유? 챔폭 좁고 못해서 ㅋㅋㅋㅋ 오너였으면 킨드 뽑았겠음?",
+          "likeCount": 7,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "6:30 두꺼비가 포탑도 깸?",
+          "likeCount": 5,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "정병",
+          "likeCount": 5,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "티원은 망가짐 ㅋㅋㅋㅋ 중요할때 구마없으면 찢긴 코어마냥 너덜거리는게 특인데 현실은 잔혹하구만 ㅠㅠ",
+          "likeCount": 4,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "뭐 이걸로 청원 넣으라던 그 팬들은 뭐임 대체???\n캐니언은 실력으로 국대되었는데 애꿎은 눈치만 보게 만들었네 ㅡㅡ",
+          "likeCount": 4,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "근데 이게 맞음 서폿 빼곤 챔프폭 좋은 선수가 없음 걍 밴픽이 답답할 수밖에 없는데 너무 감코만 패는 듯",
+          "likeCount": 4,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "트런들 선픽 박자고 한 사람 누구에요?",
+          "likeCount": 3,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "@zxcedc11 진짜 미안한데 억까, 억빠 거르고 밴픽 아쉽긴했어...",
+          "likeCount": 2,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "무색무취긴하네",
+          "likeCount": 2,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "잘 몰라서그런데 이러면 t1탈락인건가요??",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "그냥 미드차이",
+          "likeCount": 1,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "월요일날 보약 먹고 잘해보자",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "아니 왜 제목들을 경기 결과를 유추할 수 있게끔 전부 지어놨냐;;",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "어차피 우승은T1",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "사실 t1빼고는 항상 멤버 대비 선방했다는 거임",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "밴픽은 다 무난했는데 그냥 실력차 난거지",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "5경기는 정글차이가 계속벌려져서 심하네 밴픽이 계속 밀려",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "아니 뭐 이지훈 와서 벤픽 좋아졌다더니만 해골물이었네 이지훈 있을때는 blg가 지고, 양대인이 오니 blg가 이기는데...?",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "선수가 못해서",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "페이커 솔킬 없었으면 7데스 0킬 이거 맞아요?",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "5픽 밴픽 제정신인가 트런들을 젤먼저먹을 이유가있나?????????진짜 ㅋㅋㅋㅋㅋㅋㅋㅋㅋ이해할수가없네",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "이따구로 할 거면 걍 젠지가 나가서 쓰리핏 하는 게 나았겠네 진짜 처참하다",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "탑 정글 미드 서폿 차이는 심각했다.",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "또다시 월즈를 노리게 되는데..",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "킨드 장인임",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "확실히 밴픽 어려워지긴 한 듯 카이사 세나는 진짜 에바였음 5세트도 아닌데 너프 먹고 구데기 된거 왜 하는지",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "아 졌구나? MSI에 티원 기회 또 있음???",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "럼블 보고 트런들 뽑았으면 오른 사이온 같은 앞라인 뽑으면 되는걸 갑자기 나르 뽑음. 트런들 픽이 걍 붕 뜸 -> 상대 남은 픽 중 고밸류 애라핀 먹음 -> 탈리야 보고 신드라 나감 -> 킨드까지 해서 애라핀, 킨드 상대로 리치도 밀려 정글 주도권도 밀림\n걍 나르 말고 오른 해서 이니쉬라도 열고 밸류라도 봤으면 모를까 나르 픽이 걍 이상함",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        }
+      ]
+    },
+    {
+      "elapsedSeconds": 792.0,
+      "bucketStart": "2026-07-04T11:32:47+00:00",
+      "bucketEnd": "2026-07-04T11:37:15+00:00",
+      "positive": 14,
+      "neutral": 6,
+      "negative": 20,
+      "netSentiment": -0.15,
+      "zScore": 0.535,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 1071.0,
+      "bucketStart": "2026-07-04T11:37:26+00:00",
+      "bucketEnd": "2026-07-04T11:40:52+00:00",
+      "positive": 6,
+      "neutral": 10,
+      "negative": 24,
+      "netSentiment": -0.45,
+      "zScore": -1.163,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 1287.0,
+      "bucketStart": "2026-07-04T11:41:02+00:00",
+      "bucketEnd": "2026-07-04T11:46:27+00:00",
+      "positive": 10,
+      "neutral": 9,
+      "negative": 21,
+      "netSentiment": -0.275,
+      "zScore": -0.173,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 1615.0,
+      "bucketStart": "2026-07-04T11:46:30+00:00",
+      "bucketEnd": "2026-07-04T11:54:20+00:00",
+      "positive": 9,
+      "neutral": 8,
+      "negative": 23,
+      "netSentiment": -0.35,
+      "zScore": -0.597,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 2108.0,
+      "bucketStart": "2026-07-04T11:54:43+00:00",
+      "bucketEnd": "2026-07-04T12:03:46+00:00",
+      "positive": 5,
+      "neutral": 8,
+      "negative": 27,
+      "netSentiment": -0.55,
+      "zScore": -1.729,
+      "isBurst": true,
+      "direction": "NEGATIVE_SPIKE",
+      "topComments": [
+        {
+          "text": "@mmmj7놀랍게도 그 팀의 수장도 자기 떨어지니까 다른 lck팀들 내 알빠 아니다 말했던분임 ㅋㅋㅋㅋ",
+          "likeCount": 76,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "그러고서 댓글에 구마욕하면서 테러한게 ㄹㅈㄷ",
+          "likeCount": 47,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "​@mmmj7t맘을 우습게 보지마라",
+          "likeCount": 21,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "엄티 해설이 좀...lck응원하는건 좋은데 객관성이 너무 떨어져\n라디오로 듣는데 T1이 이기고 있는줄",
+          "likeCount": 15,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "인정 이 시리즈 T1이 이긴다?\n롤 개발자 싸다구 맞아야함",
+          "likeCount": 13,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "@zxcedc11 2세트는 스웨인픽때문에 걍터진거고 5세트는 불리한와중에도 혼자 몸비틀었는데 너야말로 같은거본거맞음?",
+          "likeCount": 11,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "슌 킨드는 5세트에서 나오면 볼때마다 이기는거같노ㅋㅋ",
+          "likeCount": 11,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "신인 척하는 신, 명장병 걸린 명장",
+          "likeCount": 9,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "오너의 개인 유튜브 댓글창을 아는 사람들: ☠️☠️☠️",
+          "likeCount": 7,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "엌ㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 7,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "애초에 밴픽이 탑정글에 너무 매몰된 게 너무 큰듯 걍 순수 체급으로 바텀 누를 생각을 했어야 했던거 같은데 이긴 게임들만 봐도 바텀 체급이랑 컨디션 좋았는데 왜 이상하게 지들끼리 자멸하는 밴픽 했는지 모르겠네",
+          "likeCount": 6,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "제도기제도기 하는데 도란이 최하위임..\n주사위 잘뜨면 뭐함 평소에 워낙 들쑥날쑥인데ㅋㅋㅋ",
+          "likeCount": 6,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "그냥 티원이 한물간거임 ㅋㅋㅋ 구마없으니 페이즈로 뭘하겟냐고 나이트에게 발리는 페이커 빈이게 발리는 도란 ㅠㅠㅠ",
+          "likeCount": 5,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "대체 무슨 생각으로 트런들 나르를 했을까 생각해봤는데 감코가 트런들에 뇌가 절여졌던거 같음 우리가 오른 판테나 오른 짜오 먹으면 상대가 트런들 뽑을수 있으니까 자기들이 트런들 해야겠다 생각한거 같은데 그럴거면 걍 애라핀 뽑고 상대가 뭐하는지 체크 하고 3픽에 오른을 할지 짜오를 할지 판테를 할지 등등 걍 그런식으로 갔어야 했는데 트런들에 뇌가 비벼져서 애라핀은 그냥 생각을 아예 못한듯",
+          "likeCount": 4,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "@오주환-t6u  롤을 해본적도 없고 본 지조차 1년도 안 된 애들한테 뭘 바람",
+          "likeCount": 4,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "뭘 좀 아는구만?! 국내에선 안쓰니 집단 치매 걸려서 킨드 잊고 있다가 카운터 맞고 진거지 뭐~ 금방 수정해서 꾸역 꾸역 올라가보는거지",
+          "likeCount": 4,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "T1독보적인 색은 마구유시가있을때다\n참고로 페이즈 좋아함",
+          "likeCount": 3,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "그놈의 벤픽 감코탓은 씹ㅋㅋㅋ\n오프더레코드 보면 모르냐 \n감코는 여러픽 제시만하고 선택은 선수들이 하는거",
+          "likeCount": 3,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "월즈 우승 시켜줬는데 왜요?",
+          "likeCount": 1,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "5셋 밴픽 트런들선픽보고 어질어질...약강만 잘하면 아무의미없다 강팀을 잡아야지",
+          "likeCount": 1,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "티원 감독도 공개채용 하시나요?",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "T1경기수가 더 늘어나는거 아닌가요? 난 더 좋은뎅",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "@오주환-t6u페이커가..챔프폭이…뭐유?",
+          "likeCount": 1,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "@유송이-b5m님이 응원하는 팀은요?",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "슼명보 나가!!! 페흥민 불쌍해",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "구마땜에 밴픽 힘들다면서 구마가 아직 있는거임?ㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "​@zxcedc11밴픽 안 좋았음 계속 상성에서 밀림\n애초에 국내에서는 안나오니 킨드같은 변수는 고려안하고 티어나열해서 그대로 했고 졌음\n이 부분은 금방 수정하겠지\n올라갈수록 분석해서 이번 사달은 안나겠지만 오늘 밴픽은 잘못함",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "​@zxcedc11편집증 있으심? 시리즈 내내 밴픽 먹혔다. 픽 의미가 없다. 언급했는데",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "24 blg전은 페이커가 월즈 때 잘한거랑 별개로 당시 손목 부상 때문에 진짜 1인분도 못해줘서 좀 애매하긴 하지",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "@imk5464라인전은 거의 계속 밀림…",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "또 돌기 시작하는거 보니까 니들은 다 뒤졌다",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "밴픽이 왜 아쉽겠냐 선수 챔프폭 때문이지ㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "구마가 없는데 되겠노 ㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "톰명보 톰재앙",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "강팀 상대로 걍 페이즈 해줘가 안 먹히는 전략임 괜히 월즈 우승 못하는 승리 플랜이 아님. 한화전 시비르판  이번 blg전 진판처럼 한 경기는 해줄 수 있어도 그것만으로 못 이김",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "BLG XUN선수 발음이 슌인가요 쉰인가요? 아시는분😅",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "그렇게 밴픽 좋다고 빨아주는 감독 지들이 쳐낸 사람 아님??",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "msi박는건 늘 있던 일이지ㅇㅇ",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "언제 젠지 밴픽 발리면 선수탓을 함?",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "​@diegocaesarq 글 제대로 읽어주시고 답글 달아주세요  티원 탑 미드 바텀 견인했다고 써놨는데 다른팀이 왜 나오는건지?",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "elapsedSeconds": 2656.0,
+      "bucketStart": "2026-07-04T12:03:51+00:00",
+      "bucketEnd": "2026-07-04T12:13:36+00:00",
+      "positive": 10,
+      "neutral": 10,
+      "negative": 20,
+      "netSentiment": -0.25,
+      "zScore": -0.031,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 3265.0,
+      "bucketStart": "2026-07-04T12:14:00+00:00",
+      "bucketEnd": "2026-07-04T12:22:14+00:00",
+      "positive": 12,
+      "neutral": 12,
+      "negative": 16,
+      "netSentiment": -0.1,
+      "zScore": 0.818,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 3787.0,
+      "bucketStart": "2026-07-04T12:22:42+00:00",
+      "bucketEnd": "2026-07-04T12:30:24+00:00",
+      "positive": 12,
+      "neutral": 14,
+      "negative": 14,
+      "netSentiment": -0.05,
+      "zScore": 1.101,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 4263.0,
+      "bucketStart": "2026-07-04T12:30:38+00:00",
+      "bucketEnd": "2026-07-04T12:37:35+00:00",
+      "positive": 16,
+      "neutral": 10,
+      "negative": 14,
+      "netSentiment": 0.05,
+      "zScore": 1.667,
+      "isBurst": true,
+      "direction": "POSITIVE_SPIKE",
+      "topComments": [
+        {
+          "text": "@blueberry1-t2q뭐 5명 다 책임이 있겠죠 근데 쵸비가 왜나옴 여기서..?",
+          "likeCount": 23,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "그 양대인을 밴픽으로 경질한게 누구들이시더라 ㅋㅋㅋㅋ",
+          "likeCount": 13,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "@으우으우으우으우으아최근댓글목록 봐바여 평범한 슼갈임 그냥",
+          "likeCount": 6,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "명장병 걸린 명장\n유일한 변수가 선수본인 숙련도이슈 터지는거고 그게 버돌 탑아지르였는데 슌 킨드야 원래 시그니처고 바이퍼는 비원딜 전문가라 벨코즈해도 문제없고 ㅋㅋㅋ",
+          "likeCount": 6,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "박쌤 축하해요!!! 한화랑 비엘지가 가장 높은 곳에서 만나면 좋겠다고 생각했는데 박쌤도 그렇게 말해줘서 너무 반가웠습니다ㅎㅎ 고향에 온 만큼 즐거운 경기하면 좋겠어요!!!",
+          "likeCount": 4,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "밴픽도 문제긴한데 걍 순수기량 딸리는게 젤 큰것 같은데 이악물고 밴픽탓 하는건 좀 웃기네ㅋㅋ 욕받이했던 선수 떠나니까 차마 선수 욕은 못하고 감코탓으로 돌리는거라고 솔직하게 말해",
+          "likeCount": 4,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "명장은 명장이다 대대대",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "@blueberry1-t2q티원은 lpl한테 지지않아 엌ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅌㅋㅋㅌㅋㅌㅋㅌㅌㅌㅌㅌㅌㅋㅋㅋ",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "@어우BLG 정글 플빼줘도 가서 대주는데 이걸 미드탓하면 누구를 대체 써야되노? ㅋㅋㅋㅋㅋ",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "미드흥민은 죄가 없다!! 톰명보 아웃",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "공식 POS 나이트",
+          "likeCount": 2,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "그건 월즈인데? 아는척은좀 ..",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "@엉클러프진지하게 1셋 반반 2345셋 다 짐",
+          "likeCount": 1,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "@naf-k4s 그래서 지금 캐년이 카나비보다 잘함? ㅋㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "지는것만 기다린분들 너무 무섭다 ㄷ",
+          "likeCount": 1,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "근데 과연 밴픽을 져서 진걸까 다른 팀이 지면 선수 비하하던 놈들이. 지는데 과연 너네 팀 선수 잘못은 없을까?",
+          "likeCount": 1,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "또또 밴픽탓 ㅋㅋ\n레전드 미드탑차이.. 5세트싸지 온게 기적\nㅋㅋㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "도란 종신기원🎉🎉🎉",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "그럼 역체폿이 누군데? ㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "톰명보",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "베인 루시안 블리츠 녹턴 제리 ㅋㅋㅋㅋㅋㅋ 리얼 벤필 실화",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "@득수-b8z 실례긴 기인은군대가야제~ ㅜㅜ  기인은 왜 도란상대하는데 msi못왔을까 푸핫ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "자헨 쥐어주고 잭스 상대 \n암베사 쥐어주고 레넥 상대\n이걸 주도권 잡는게 이상한거지ㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "양 대 인 티 원 의 원 수",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "채팅창 진짜 ㅋㅋ 첫판이길땐 대상혁 대황란 대티원 다음판지자마자 국가망신 ㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "@어우BLG 이기면?",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "@sadmax2838설마 애라핀인데 앞라인 없이 겜하겠어 했다가 당한거지",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "바텀이 안터뜨려주면 아무것도 못하고 죽기만하는 쌍혁ㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "???: 야 그거해봐 그거 ㅋㅋㅋ\n\n???: 'T...T1은 LPL에 지지 않습니다.'\n\n앜ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "그립습니다 향러",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "저런걸 3년계약한 티런트의 안목이 절망스러움",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "칸나 데려오면 안되냐..",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "나 dk팬인데 <-나 t1 팬인데 ㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "\"젠\"한길 몰려올 예정 ㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "@어우BLG 바이퍼개털리던데",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "@alliance82911 잘해도 억까하는건 정작 페이커 팬들인데 업보라고생각하셈",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "@snmilli바이퍼 플빠지고서 잘버티나 싶다가 플돌자마자 다시플빠지고 죽어서 ㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Lck가 애초에 거대한 젠지임 ㅇㅇ 팀컬라가 괜히 \"짜침\"이 아니긴하지 ㅇㅇ",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "팩트는 아직대회도안끊낫고 24월즈도 발랏다는거임 ㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㅋㅋㅋㅋ 이것도 폰 모르가나처럼 버그 사용으로 선동해보시지 그래 ㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        }
+      ]
+    },
+    {
+      "elapsedSeconds": 4700.0,
+      "bucketStart": "2026-07-04T12:37:55+00:00",
+      "bucketEnd": "2026-07-04T12:52:27+00:00",
+      "positive": 14,
+      "neutral": 6,
+      "negative": 20,
+      "netSentiment": -0.15,
+      "zScore": 0.535,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 5577.0,
+      "bucketStart": "2026-07-04T12:52:32+00:00",
+      "bucketEnd": "2026-07-04T13:06:15+00:00",
+      "positive": 9,
+      "neutral": 12,
+      "negative": 19,
+      "netSentiment": -0.25,
+      "zScore": -0.031,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 6428.0,
+      "bucketStart": "2026-07-04T13:06:43+00:00",
+      "bucketEnd": "2026-07-04T13:32:57+00:00",
+      "positive": 7,
+      "neutral": 11,
+      "negative": 22,
+      "netSentiment": -0.375,
+      "zScore": -0.739,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 8007.0,
+      "bucketStart": "2026-07-04T13:33:02+00:00",
+      "bucketEnd": "2026-07-04T13:55:02+00:00",
+      "positive": 8,
+      "neutral": 13,
+      "negative": 19,
+      "netSentiment": -0.275,
+      "zScore": -0.173,
+      "isBurst": false,
+      "direction": null
+    }
+  ],
+  "keyInsights": [
+    {
+      "type": "positive",
+      "topic": "경기 결과 비관",
+      "topicEn": "Pessimism About Match Results",
+      "topicZh": "对比赛结果的悲观",
+      "topicJa": "試合結果についての悲観",
+      "comment": "레전드 밴픽.. 5세트까지 온게 기적",
+      "commentLang": "ko",
+      "likes": 390
+    },
+    {
+      "type": "negative",
+      "topic": "밴픽 문제",
+      "topicEn": "Draft Issues",
+      "topicZh": "选拔问题",
+      "topicJa": "ドラフトの問題",
+      "comment": "젠지가 밴픽 발리면 선수탓, 티원이 밴픽 발리면 감코탓 ㅋㅋㅋㅋㅋㅋㅋ\n역체팀 팬들이 왤케 속이 좁냐",
+      "commentLang": "ko",
+      "likes": 327
+    },
+    {
+      "type": "positive",
+      "topic": "밴픽 문제",
+      "topicEn": "Draft Issues",
+      "topicZh": "选拔问题",
+      "topicJa": "ドラフトの問題",
+      "comment": "캐니언 국대<<<<안목 미친 히라이인거 같으면 개추 ㅋㅋㅋ",
+      "commentLang": "ko",
+      "likes": 290
+    },
+    {
+      "type": "negative",
+      "topic": "팬 문화",
+      "topicEn": "Fan Culture",
+      "topicZh": "粉丝文化",
+      "topicJa": "ファン文化",
+      "comment": "Lck 9개구단 팬 일동은 티원의 광탈을 기원합니다🎉🎉",
+      "commentLang": "ko",
+      "likes": 71
+    }
+  ],
+  "analyzedAt": "2026-07-04T13:58:42.731539+00:00",
+  "analysisDuration": 143.0,
+  "tokenUsage": {
+    "input": 44471,
+    "output": 8240,
+    "embedding": 32829,
+    "total": 85540,
+    "estimatedCostUsd": 0.012271
+  }
+}

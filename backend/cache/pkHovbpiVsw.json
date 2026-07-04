@@ -1,0 +1,193 @@
+{
+  "video": {
+    "videoId": "pkHovbpiVsw",
+    "title": "성심당 면접 탈락 영상",
+    "channelTitle": "엄지렐라 Umjirella",
+    "thumbnailUrl": "https://i.ytimg.com/vi/pkHovbpiVsw/maxresdefault.jpg",
+    "publishedAt": "2026-07-03",
+    "viewCount": 44914,
+    "likeCount": 1651,
+    "analyzedComments": 192,
+    "languageRatio": {
+      "ko": 95,
+      "en": 0,
+      "other": 5
+    },
+    "weightedSentiment": 61
+  },
+  "topics": [
+    {
+      "label": "영상의 유머",
+      "labelEn": "Humor of the Video",
+      "labelZh": "视频的幽默",
+      "labelJa": "ビデオのユーモア",
+      "mentionCount": 98,
+      "sentiment": {
+        "positive": 64,
+        "neutral": 29,
+        "negative": 7
+      }
+    },
+    {
+      "label": "면접 과정에 대한 놀라움",
+      "labelEn": "Surprise at the Interview Process",
+      "labelZh": "对面试过程的惊讶",
+      "labelJa": "面接プロセスへの驚き",
+      "mentionCount": 35,
+      "sentiment": {
+        "positive": 54,
+        "neutral": 37,
+        "negative": 9
+      }
+    },
+    {
+      "label": "면접 탈락 관련",
+      "labelEn": "Related to Interview Failures",
+      "labelZh": "关于面试失败",
+      "labelJa": "面接失敗に関連する",
+      "mentionCount": 24,
+      "sentiment": {
+        "positive": 54,
+        "neutral": 38,
+        "negative": 8
+      }
+    },
+    {
+      "label": "면접관의 캐스팅",
+      "labelEn": "Casting of Interviewers",
+      "labelZh": "面试官的选角",
+      "labelJa": "面接官のキャスティング",
+      "mentionCount": 20,
+      "sentiment": {
+        "positive": 65,
+        "neutral": 15,
+        "negative": 20
+      }
+    },
+    {
+      "label": "자소서와 서류 통과",
+      "labelEn": "Passing Self-introduction and Documents",
+      "labelZh": "通过自我介绍和文件",
+      "labelJa": "自己紹介と書類の通過",
+      "mentionCount": 15,
+      "sentiment": {
+        "positive": 27,
+        "neutral": 60,
+        "negative": 13
+      }
+    }
+  ],
+  "reactionTimeline": [
+    {
+      "elapsedSeconds": 36.0,
+      "bucketStart": "2026-07-03T10:00:42+00:00",
+      "bucketEnd": "2026-07-03T11:26:43+00:00",
+      "positive": 23,
+      "neutral": 11,
+      "negative": 6,
+      "netSentiment": 0.425,
+      "zScore": -0.413,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 6197.0,
+      "bucketStart": "2026-07-03T11:43:23+00:00",
+      "bucketEnd": "2026-07-03T14:23:18+00:00",
+      "positive": 27,
+      "neutral": 12,
+      "negative": 1,
+      "netSentiment": 0.65,
+      "zScore": 1.204,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 16487.0,
+      "bucketStart": "2026-07-03T14:34:53+00:00",
+      "bucketEnd": "2026-07-04T07:15:25+00:00",
+      "positive": 28,
+      "neutral": 8,
+      "negative": 4,
+      "netSentiment": 0.6,
+      "zScore": 0.845,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 79954.0,
+      "bucketStart": "2026-07-04T08:12:40+00:00",
+      "bucketEnd": "2026-07-04T11:09:32+00:00",
+      "positive": 20,
+      "neutral": 17,
+      "negative": 3,
+      "netSentiment": 0.425,
+      "zScore": -0.413,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 91175.0,
+      "bucketStart": "2026-07-04T11:19:41+00:00",
+      "bucketEnd": "2026-07-04T13:34:48+00:00",
+      "positive": 14,
+      "neutral": 14,
+      "negative": 4,
+      "netSentiment": 0.312,
+      "zScore": -1.222,
+      "isBurst": false,
+      "direction": null
+    }
+  ],
+  "keyInsights": [
+    {
+      "type": "positive",
+      "topic": "면접관의 캐스팅",
+      "topicEn": "Casting of Interviewers",
+      "topicZh": "面试官的选角",
+      "topicJa": "面接官のキャスティング",
+      "comment": "ㅋㅋㅋㅋㅋㅋ면접관 왜케 발그레 한건데ㅋㅋㅋㅋㅋ",
+      "commentLang": "ko",
+      "likes": 893
+    },
+    {
+      "type": "negative",
+      "topic": "면접 과정에 대한 놀라움",
+      "topicEn": "Surprise at the Interview Process",
+      "topicZh": "对面试过程的惊讶",
+      "topicJa": "面接プロセスへの驚き",
+      "comment": "메모장 읽는 저 시선처리가 너무 폭력적,,,",
+      "commentLang": "ko",
+      "likes": 79
+    },
+    {
+      "type": "positive",
+      "topic": "면접 탈락 관련",
+      "topicEn": "Related to Interview Failures",
+      "topicZh": "关于面试失败",
+      "topicJa": "面接失敗に関連する",
+      "comment": "넌 좀 쉬어라청년 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+      "commentLang": "ko",
+      "likes": 837
+    },
+    {
+      "type": "negative",
+      "topic": "자소서와 서류 통과",
+      "topicEn": "Passing Self-introduction and Documents",
+      "topicZh": "通过自我介绍和文件",
+      "topicJa": "自己紹介と書類の通過",
+      "comment": "면접 영상을 올릴 게 아니라 자소서를 올려야됨 서류합격이 기적같아보여서",
+      "commentLang": "ko",
+      "likes": 28
+    }
+  ],
+  "analyzedAt": "2026-07-04T13:53:28.044534+00:00",
+  "analysisDuration": 48.3,
+  "tokenUsage": {
+    "input": 12409,
+    "output": 2416,
+    "embedding": 5919,
+    "total": 20744,
+    "estimatedCostUsd": 0.003429
+  }
+}

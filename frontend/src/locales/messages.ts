@@ -5,6 +5,7 @@ export interface UIMessages {
   navHome: string
   navHistory: string
   navCompare: string
+  navNetwork: string
   navHowto: string
   navStats: string
   navSettings: string
@@ -121,6 +122,49 @@ export interface UIMessages {
   loadingStep2Sub: string
   loadingStep3Label: string
   loadingStep3Sub: string
+  // 분석 대기열
+  queueRemove: string
+  queueAddBtn: string
+  cancelAnalysisBtn: string
+  confirmCancelAnalysisTitle: string
+  confirmCancelAnalysisBody: string
+  confirmCancelQueuedTitle: string
+  confirmCancelQueuedBody: string
+  // NetworkView (반응 지도)
+  networkSub: string
+  networkNoGraph: string
+  networkReanalyzeBtn: string
+  networkMethodTitle: string
+  networkPipeline1Title: string
+  networkPipeline1Sub: string
+  networkPipeline2Title: string
+  networkPipeline2Sub: string
+  networkPipeline3Title: string
+  networkPipeline3Sub: string
+  networkPipeline4Title: string
+  networkPipeline4Sub: string
+  networkPipeline5Title: string
+  networkPipeline5Sub: string
+  networkEdgeCardTitle: string
+  networkEdgeReasonComment: string
+  networkEdgeReasonTopic: string
+  networkEdgeReasonNoTopic: string
+  networkThumbGoToHistory: string
+  networkSortCluster: string
+  networkSortComments: string
+  networkSortPositive: string
+  networkSortNegative: string
+  networkSortNewest: string
+  networkBack: string
+  networkLegendOverview: string
+  networkLegendDetail: string
+  networkPanelSimilarVideos: string
+  networkPanelSimilarComments: string
+  networkPanelViewCommentsBtn: string
+  networkBackToList: string
+  networkListVideos: string
+  networkTopicSampleNote: string
+  networkListUnavailable: string
   // SettingsView
   settingsTitle: string
   settingsSub: string
@@ -177,6 +221,7 @@ export const messages: Record<Lang, UIMessages> = {
     navHome: '홈',
     navHistory: '분석 기록',
     navCompare: '영상 비교',
+    navNetwork: '반응 지도',
     navHowto: '작동 방식',
     navStats: '분석 통계',
     navSettings: '설정',
@@ -220,7 +265,7 @@ export const messages: Record<Lang, UIMessages> = {
     newAnalysis: '새 분석',
     moreInsights: '↓ 더 많은 인사이트',
     historyTitle: '분석 기록',
-    historySub: '서버 캐시에 저장된 영상 분석 결과',
+    historySub: '그동안 분석한 영상들을 한곳에 모아뒀어요',
     loading: '불러오는 중...',
     emptyHistory: '아직 분석한 영상이 없습니다',
     goAnalyze: '지금 분석하러 가기',
@@ -282,6 +327,47 @@ export const messages: Record<Lang, UIMessages> = {
     loadingStep2Sub: 'AI가 각 댓글의 감정을 판단합니다',
     loadingStep3Label: '토픽 분류 중',
     loadingStep3Sub: '주요 반응 토픽을 분류하고 집계합니다',
+    queueRemove: '취소',
+    queueAddBtn: '추가',
+    cancelAnalysisBtn: '취소하기',
+    confirmCancelAnalysisTitle: '분석을 취소할까요?',
+    confirmCancelAnalysisBody: '지금 취소하면 진행 중이던 분석이 중단되고, 다시 보려면 처음부터 재분석해야 합니다.',
+    confirmCancelQueuedTitle: '대기열에서 삭제할까요?',
+    confirmCancelQueuedBody: '삭제하면 대기열에서 빠지고, 다시 분석하려면 URL을 다시 입력해야 합니다.',
+    networkSub: '분석된 영상들을 반응(긍정·부정)에 따라 3D로 배치한 지도입니다. 영상을 클릭하면 그 안의 댓글 반응 지도로 들어갑니다',
+    networkNoGraph: '이 영상은 반응 지도 데이터가 없습니다. 다시 분석해주세요.',
+    networkReanalyzeBtn: '다시 분석하기',
+    networkMethodTitle: '분석 파이프라인',
+    networkPipeline1Title: '텍스트 정규화',
+    networkPipeline1Sub: '같은 대상을 가리키는 여러 표현(별칭·줄임말 등)을 하나로 통일해요',
+    networkPipeline2Title: 'Embedding',
+    networkPipeline2Sub: '제목·토픽 또는 댓글 텍스트를 벡터로 변환해요',
+    networkPipeline3Title: 'Cosine Similarity',
+    networkPipeline3Sub: '벡터 간 각도로 얼마나 비슷한 반응인지 계산해요',
+    networkPipeline4Title: '상호 k-NN Graph',
+    networkPipeline4Sub: '서로를 이웃으로 꼽을 때만 선으로 연결해요',
+    networkPipeline5Title: 'UMAP',
+    networkPipeline5Sub: '가까운 벡터끼리 가깝게, 2차원 지도 위에 배치해요',
+    networkEdgeCardTitle: '연결 분석',
+    networkEdgeReasonComment: '두 댓글이 의미적으로 비슷해서, 서로가 서로를 가장 가까운 이웃으로 골라 연결됐어요.',
+    networkEdgeReasonTopic: '공통 토픽({topics})을 다루고 반응 패턴도 비슷해서 연결됐어요.',
+    networkEdgeReasonNoTopic: '다루는 토픽은 다르지만, 제목·감정 반응의 패턴이 비슷해서 연결됐어요.',
+    networkThumbGoToHistory: '분석 기록 보기',
+    networkSortCluster: '지도 그룹순',
+    networkSortComments: '댓글 많은 순',
+    networkSortPositive: '긍정률 높은 순',
+    networkSortNegative: '부정률 높은 순',
+    networkSortNewest: '최신순',
+    networkBack: '전체 지도로',
+    networkLegendOverview: '원 = 영상 · 크기 = 댓글 수 · 색 = 비슷한 반응 그룹 · 선 = 비슷한 반응',
+    networkLegendDetail: '원 = 댓글 · 크기 = 좋아요 수 · 색 = 토픽 · 선 = 의미 유사도',
+    networkPanelSimilarVideos: '비슷한 반응의 영상',
+    networkPanelSimilarComments: '비슷한 댓글',
+    networkPanelViewCommentsBtn: '댓글 반응 지도 보기',
+    networkBackToList: '목록으로',
+    networkListVideos: '분석된 영상',
+    networkTopicSampleNote: '그래프 가독성과 임베딩 비용 때문에 토픽당 좋아요 상위 30개 댓글만 표시돼요(감정·토픽 분석 자체는 전체 댓글 기준)',
+    networkListUnavailable: '댓글 반응 지도 없음',
     settingsTitle: '설정',
     settingsSub: '새 영상을 분석하려면 본인의 API 키가 필요합니다',
     byokNotice: '이 사이트는 방문자가 직접 발급받은 API 키로 새 영상을 분석합니다. 키는 브라우저(localStorage)에만 저장되며, 분석 요청 시 헤더로만 전송되고 서버에 저장되지 않습니다. 키 없이도 기존에 분석된 영상 기록·통계·비교는 자유롭게 볼 수 있습니다.',
@@ -331,6 +417,7 @@ export const messages: Record<Lang, UIMessages> = {
     navHome: 'Home',
     navHistory: 'History',
     navCompare: 'Compare',
+    navNetwork: 'Reaction Map',
     navHowto: 'How It Works',
     navStats: 'Stats',
     navSettings: 'Settings',
@@ -436,6 +523,47 @@ export const messages: Record<Lang, UIMessages> = {
     loadingStep2Sub: 'AI is judging the sentiment of each comment',
     loadingStep3Label: 'Classifying Topics',
     loadingStep3Sub: 'Grouping and tallying the main reaction topics',
+    queueRemove: 'Cancel',
+    queueAddBtn: 'Add',
+    cancelAnalysisBtn: 'Cancel analysis',
+    confirmCancelAnalysisTitle: 'Cancel this analysis?',
+    confirmCancelAnalysisBody: 'Cancelling now stops the analysis in progress — you\'ll need to start over from scratch to see it again.',
+    confirmCancelQueuedTitle: 'Remove from the queue?',
+    confirmCancelQueuedBody: 'Removing it drops it from the queue — you\'ll need to re-enter the URL to analyze it again.',
+    networkSub: 'A 3D map of your analyzed videos positioned by reaction (positive/negative). Click a video to enter its comment reaction map',
+    networkNoGraph: 'This video has no reaction map data. Please re-analyze it.',
+    networkReanalyzeBtn: 'Re-analyze',
+    networkMethodTitle: 'Analysis Pipeline',
+    networkPipeline1Title: 'Text normalization',
+    networkPipeline1Sub: 'Merges different ways of referring to the same thing (aliases, abbreviations) into one form',
+    networkPipeline2Title: 'Embedding',
+    networkPipeline2Sub: 'Converts titles/topics or comment text into vectors',
+    networkPipeline3Title: 'Cosine Similarity',
+    networkPipeline3Sub: 'Measures how similar the reactions are by vector angle',
+    networkPipeline4Title: 'Mutual k-NN Graph',
+    networkPipeline4Sub: 'Only connects nodes that pick each other as neighbors',
+    networkPipeline5Title: 'UMAP',
+    networkPipeline5Sub: 'Projects nearby vectors to nearby points on a 2D map',
+    networkEdgeCardTitle: 'Connection analysis',
+    networkEdgeReasonComment: 'These two comments are semantically similar, and each picked the other as a nearest neighbor.',
+    networkEdgeReasonTopic: 'They share the topic(s) {topics} and have a similar reaction pattern.',
+    networkEdgeReasonNoTopic: 'They don\'t share a topic, but the title/sentiment pattern is similar enough to connect them.',
+    networkThumbGoToHistory: 'View analysis record',
+    networkSortCluster: 'Map group order',
+    networkSortComments: 'Most comments',
+    networkSortPositive: 'Highest positive %',
+    networkSortNegative: 'Highest negative %',
+    networkSortNewest: 'Newest',
+    networkBack: 'Back to overview',
+    networkLegendOverview: 'circle = video · size = comment count · color = similar-reaction group · line = similar reaction',
+    networkLegendDetail: 'circle = comment · size = like count · color = topic · line = semantic similarity',
+    networkPanelSimilarVideos: 'Similar-reaction videos',
+    networkPanelSimilarComments: 'Similar comments',
+    networkPanelViewCommentsBtn: 'View Comment Reaction Map',
+    networkBackToList: 'Back to list',
+    networkListVideos: 'Analyzed videos',
+    networkTopicSampleNote: 'Only the top 30 most-liked comments per topic are shown here for graph readability and embedding cost (sentiment/topic analysis itself still covers all comments)',
+    networkListUnavailable: 'No comment map yet',
     settingsTitle: 'Settings',
     settingsSub: 'Bring your own API keys to analyze new videos',
     byokNotice: 'This site uses your own API keys to analyze new videos. Keys are stored only in your browser (localStorage), sent solely as request headers, and never stored on the server. Existing analysis history, stats, and comparisons remain viewable without any key.',
@@ -485,6 +613,7 @@ export const messages: Record<Lang, UIMessages> = {
     navHome: '首页',
     navHistory: '分析记录',
     navCompare: '视频对比',
+    navNetwork: '反应地图',
     navHowto: '使用说明',
     navStats: '分析统计',
     navSettings: '设置',
@@ -590,6 +719,47 @@ export const messages: Record<Lang, UIMessages> = {
     loadingStep2Sub: 'AI正在判断每条评论的情感',
     loadingStep3Label: '正在分类话题',
     loadingStep3Sub: '正在分类并汇总主要反应话题',
+    queueRemove: '取消',
+    queueAddBtn: '添加',
+    cancelAnalysisBtn: '取消',
+    confirmCancelAnalysisTitle: '要取消这次分析吗？',
+    confirmCancelAnalysisBody: '现在取消会中断正在进行的分析，之后需要重新从头分析才能再次查看。',
+    confirmCancelQueuedTitle: '要从队列中删除吗？',
+    confirmCancelQueuedBody: '删除后将从队列中移除，需要重新输入链接才能再次分析。',
+    networkSub: '按反应（正面/负面）分布的已分析视频3D地图。点击视频可进入该视频的评论反应地图',
+    networkNoGraph: '该视频没有反应地图数据，请重新分析。',
+    networkReanalyzeBtn: '重新分析',
+    networkMethodTitle: '分析流程',
+    networkPipeline1Title: '文本归一化',
+    networkPipeline1Sub: '把指代同一对象的不同说法（别名、缩写等）统一成一种表达',
+    networkPipeline2Title: 'Embedding',
+    networkPipeline2Sub: '把标题·话题或评论文本转换成向量',
+    networkPipeline3Title: 'Cosine Similarity',
+    networkPipeline3Sub: '通过向量夹角计算反应的相似程度',
+    networkPipeline4Title: '互为最近邻图（Mutual k-NN）',
+    networkPipeline4Sub: '只有双方互选为邻居时才连接',
+    networkPipeline5Title: 'UMAP',
+    networkPipeline5Sub: '把嵌入空间中相近的点投影到2D地图上相近的位置',
+    networkEdgeCardTitle: '连接分析',
+    networkEdgeReasonComment: '这两条评论在语义上很相似，彼此都把对方选为最近邻。',
+    networkEdgeReasonTopic: '两者都涉及话题（{topics}），且反应模式相似。',
+    networkEdgeReasonNoTopic: '虽然话题不同，但标题和情感反应的模式相似，因此被连接。',
+    networkThumbGoToHistory: '查看分析记录',
+    networkSortCluster: '按地图分组',
+    networkSortComments: '评论最多',
+    networkSortPositive: '积极率最高',
+    networkSortNegative: '消极率最高',
+    networkSortNewest: '最新',
+    networkBack: '返回总览',
+    networkLegendOverview: '圆圈 = 视频 · 大小 = 评论数 · 颜色 = 反应相似分组 · 连线 = 反应相似',
+    networkLegendDetail: '圆圈 = 评论 · 大小 = 点赞数 · 颜色 = 话题 · 连线 = 语义相似度',
+    networkPanelSimilarVideos: '反应相似的视频',
+    networkPanelSimilarComments: '相似评论',
+    networkPanelViewCommentsBtn: '查看评论反应地图',
+    networkBackToList: '返回列表',
+    networkListVideos: '已分析视频',
+    networkTopicSampleNote: '出于图表可读性和嵌入成本考虑，每个话题只显示点赞数最高的30条评论（情感·话题分析本身仍基于全部评论）',
+    networkListUnavailable: '尚未生成评论地图',
     settingsTitle: '设置',
     settingsSub: '分析新视频需要您自己的API密钥',
     byokNotice: '本站使用您自己的API密钥来分析新视频。密钥仅保存在您的浏览器（localStorage）中，仅通过请求头发送，不会保存在服务器上。无需密钥即可查看已有的分析记录、统计和对比。',
@@ -639,6 +809,7 @@ export const messages: Record<Lang, UIMessages> = {
     navHome: 'ホーム',
     navHistory: '分析履歴',
     navCompare: '動画比較',
+    navNetwork: 'リアクションマップ',
     navHowto: '使い方',
     navStats: '分析統計',
     navSettings: '設定',
@@ -744,6 +915,47 @@ export const messages: Record<Lang, UIMessages> = {
     loadingStep2Sub: 'AIが各コメントの感情を判定しています',
     loadingStep3Label: 'トピック分類中',
     loadingStep3Sub: '主要な反応トピックを分類・集計しています',
+    queueRemove: 'キャンセル',
+    queueAddBtn: '追加',
+    cancelAnalysisBtn: 'キャンセルする',
+    confirmCancelAnalysisTitle: '分析をキャンセルしますか？',
+    confirmCancelAnalysisBody: '今キャンセルすると進行中の分析が中断され、再度見るには最初からやり直す必要があります。',
+    confirmCancelQueuedTitle: '待ち行列から削除しますか？',
+    confirmCancelQueuedBody: '削除すると待ち行列から外れ、再度分析するにはURLを入力し直す必要があります。',
+    networkSub: '分析済みの動画を反応（ポジティブ／ネガティブ）で配置した3Dマップです。動画をクリックするとそのコメント反応マップに入ります',
+    networkNoGraph: 'この動画にはリアクションマップのデータがありません。再分析してください。',
+    networkReanalyzeBtn: '再分析する',
+    networkMethodTitle: '分析パイプライン',
+    networkPipeline1Title: 'テキスト正規化',
+    networkPipeline1Sub: '同じ対象を指す様々な表現（別名・略称など）を一つにまとめる',
+    networkPipeline2Title: 'Embedding',
+    networkPipeline2Sub: 'タイトル・トピックやコメントのテキストをベクトルに変換',
+    networkPipeline3Title: 'Cosine Similarity',
+    networkPipeline3Sub: 'ベクトルの角度で反応の類似度を計算',
+    networkPipeline4Title: '相互k-NNグラフ',
+    networkPipeline4Sub: 'お互いを隣人として選んだ場合だけ線でつなぐ',
+    networkPipeline5Title: 'UMAP',
+    networkPipeline5Sub: '埋め込み空間で近いものを2Dマップ上でも近くに配置',
+    networkEdgeCardTitle: '接続分析',
+    networkEdgeReasonComment: 'この2つのコメントは意味的に似ていて、お互いを最も近い隣人として選んでいます。',
+    networkEdgeReasonTopic: '共通トピック（{topics}）を扱っていて、反応パターンも似ています。',
+    networkEdgeReasonNoTopic: '扱うトピックは違いますが、タイトルや感情反応のパターンが似ているためつながっています。',
+    networkThumbGoToHistory: '分析記録を見る',
+    networkSortCluster: 'マップのグループ順',
+    networkSortComments: 'コメントが多い順',
+    networkSortPositive: 'ポジティブ率が高い順',
+    networkSortNegative: 'ネガティブ率が高い順',
+    networkSortNewest: '新しい順',
+    networkBack: '全体マップへ',
+    networkLegendOverview: '円 = 動画 · 大きさ = コメント数 · 色 = 反応が似たグループ · 線 = 反応の類似度',
+    networkLegendDetail: '円 = コメント · 大きさ = 高評価数 · 色 = トピック · 線 = 意味的類似度',
+    networkPanelSimilarVideos: '反応が似ている動画',
+    networkPanelSimilarComments: '似ているコメント',
+    networkPanelViewCommentsBtn: 'コメント反応マップを見る',
+    networkBackToList: 'リストに戻る',
+    networkListVideos: '分析済み動画',
+    networkTopicSampleNote: 'グラフの見やすさと埋め込みコストのため、トピックごとに高評価上位30件のコメントのみ表示しています（感情・トピック分析自体は全コメントが対象）',
+    networkListUnavailable: 'コメントマップ未生成',
     settingsTitle: '設定',
     settingsSub: '新しい動画を分析するにはご自身のAPIキーが必要です',
     byokNotice: '当サイトでは、訪問者ご自身が取得したAPIキーで新しい動画を分析します。キーはブラウザ（localStorage）にのみ保存され、分析リクエスト時にヘッダーとしてのみ送信され、サーバーには保存されません。キーがなくても既存の分析履歴・統計・比較は自由に閲覧できます。',

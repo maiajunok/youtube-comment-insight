@@ -1,0 +1,748 @@
+{
+  "video": {
+    "videoId": "xqzZY-KqRqo",
+    "title": "민음사 면접 탈락 영상",
+    "channelTitle": "엄지렐라 Umjirella",
+    "thumbnailUrl": "https://i.ytimg.com/vi/xqzZY-KqRqo/maxresdefault.jpg",
+    "publishedAt": "2026-05-26",
+    "viewCount": 284276,
+    "likeCount": 6254,
+    "analyzedComments": 719,
+    "languageRatio": {
+      "ko": 94,
+      "en": 0,
+      "other": 6
+    },
+    "weightedSentiment": 53
+  },
+  "topics": [
+    {
+      "label": "AI 기술과 면접",
+      "labelEn": "AI Technology and Interviews",
+      "labelZh": "人工智能技术与面试",
+      "labelJa": "AI技術と面接",
+      "mentionCount": 260,
+      "sentiment": {
+        "positive": 63,
+        "neutral": 25,
+        "negative": 11
+      }
+    },
+    {
+      "label": "재미있는 캐릭터 연기",
+      "labelEn": "Funny Character Acting",
+      "labelZh": "搞笑角色表演",
+      "labelJa": "面白いキャラクター演技",
+      "mentionCount": 223,
+      "sentiment": {
+        "positive": 74,
+        "neutral": 18,
+        "negative": 7
+      }
+    },
+    {
+      "label": "출연자와 면접관의 기대",
+      "labelEn": "Expectations of Participants and Interviewers",
+      "labelZh": "参与者与面试官的期望",
+      "labelJa": "参加者と面接官の期待",
+      "mentionCount": 169,
+      "sentiment": {
+        "positive": 60,
+        "neutral": 30,
+        "negative": 11
+      }
+    },
+    {
+      "label": "면접관의 특이한 대사",
+      "labelEn": "Unique Lines from Interviewers",
+      "labelZh": "面试官的独特台词",
+      "labelJa": "面接官のユニークなセリフ",
+      "mentionCount": 57,
+      "sentiment": {
+        "positive": 47,
+        "neutral": 39,
+        "negative": 14
+      }
+    },
+    {
+      "label": "기업 문화와 면접 방식",
+      "labelEn": "Corporate Culture and Interview Style",
+      "labelZh": "企业文化与面试风格",
+      "labelJa": "企業文化と面接スタイル",
+      "mentionCount": 10,
+      "sentiment": {
+        "positive": 30,
+        "neutral": 50,
+        "negative": 20
+      }
+    }
+  ],
+  "reactionTimeline": [
+    {
+      "elapsedSeconds": 69.0,
+      "bucketStart": "2026-05-26T10:01:22+00:00",
+      "bucketEnd": "2026-05-26T10:54:41+00:00",
+      "positive": 29,
+      "neutral": 8,
+      "negative": 3,
+      "netSentiment": 0.65,
+      "zScore": 1.182,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 3390.0,
+      "bucketStart": "2026-05-26T10:56:43+00:00",
+      "bucketEnd": "2026-05-26T11:43:08+00:00",
+      "positive": 25,
+      "neutral": 10,
+      "negative": 4,
+      "netSentiment": 0.525,
+      "zScore": -0.16,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 6265.0,
+      "bucketStart": "2026-05-26T11:44:38+00:00",
+      "bucketEnd": "2026-05-26T12:31:10+00:00",
+      "positive": 26,
+      "neutral": 10,
+      "negative": 4,
+      "netSentiment": 0.55,
+      "zScore": 0.109,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 9154.0,
+      "bucketStart": "2026-05-26T12:32:47+00:00",
+      "bucketEnd": "2026-05-26T13:30:45+00:00",
+      "positive": 27,
+      "neutral": 11,
+      "negative": 2,
+      "netSentiment": 0.625,
+      "zScore": 0.913,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 12651.0,
+      "bucketStart": "2026-05-26T13:31:04+00:00",
+      "bucketEnd": "2026-05-26T15:18:22+00:00",
+      "positive": 26,
+      "neutral": 11,
+      "negative": 3,
+      "netSentiment": 0.575,
+      "zScore": 0.377,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 19200.0,
+      "bucketStart": "2026-05-26T15:20:13+00:00",
+      "bucketEnd": "2026-05-26T17:43:16+00:00",
+      "positive": 24,
+      "neutral": 9,
+      "negative": 7,
+      "netSentiment": 0.425,
+      "zScore": -1.233,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 31242.0,
+      "bucketStart": "2026-05-26T18:40:55+00:00",
+      "bucketEnd": "2026-05-27T04:23:54+00:00",
+      "positive": 25,
+      "neutral": 10,
+      "negative": 5,
+      "netSentiment": 0.5,
+      "zScore": -0.428,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 66283.0,
+      "bucketStart": "2026-05-27T04:24:56+00:00",
+      "bucketEnd": "2026-05-27T10:17:27+00:00",
+      "positive": 24,
+      "neutral": 11,
+      "negative": 5,
+      "netSentiment": 0.475,
+      "zScore": -0.696,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 88421.0,
+      "bucketStart": "2026-05-27T10:33:54+00:00",
+      "bucketEnd": "2026-05-27T13:34:43+00:00",
+      "positive": 24,
+      "neutral": 11,
+      "negative": 5,
+      "netSentiment": 0.475,
+      "zScore": -0.696,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 100004.0,
+      "bucketStart": "2026-05-27T13:46:57+00:00",
+      "bucketEnd": "2026-05-27T16:49:37+00:00",
+      "positive": 28,
+      "neutral": 8,
+      "negative": 4,
+      "netSentiment": 0.6,
+      "zScore": 0.645,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 112346.0,
+      "bucketStart": "2026-05-27T17:12:39+00:00",
+      "bucketEnd": "2026-05-28T09:06:30+00:00",
+      "positive": 24,
+      "neutral": 13,
+      "negative": 3,
+      "netSentiment": 0.525,
+      "zScore": -0.16,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 169712.0,
+      "bucketStart": "2026-05-28T09:08:45+00:00",
+      "bucketEnd": "2026-05-28T18:21:45+00:00",
+      "positive": 23,
+      "neutral": 15,
+      "negative": 2,
+      "netSentiment": 0.525,
+      "zScore": -0.16,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 207825.0,
+      "bucketStart": "2026-05-28T19:43:58+00:00",
+      "bucketEnd": "2026-05-30T04:24:02+00:00",
+      "positive": 22,
+      "neutral": 10,
+      "negative": 8,
+      "netSentiment": 0.35,
+      "zScore": -2.038,
+      "isBurst": true,
+      "direction": "NEGATIVE_SPIKE",
+      "topComments": [
+        {
+          "text": "여자 한동훈인줄 알았음",
+          "likeCount": 152,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "온갖 밈 짬뽕시켜서 아무말대잔치 벌이는거 ㅈㄴ웃기네ㅜㅜ",
+          "likeCount": 7,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "9:14 아니 이 어정쩡한 입술이 갸웃김",
+          "likeCount": 4,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "말투는 왜그런거임ㅜㅋㅋㅋㅋㅋㅋㅋㅋ책만 읽어서 말하는법을 까먹은 사람같음",
+          "likeCount": 4,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "끝까지 질문한 면접관이 대단한듯 ㅋㅋㅋㅋ",
+          "likeCount": 4,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "진자 이시리즈 개웃긴다😂😂😂😂😂",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "진짜 눈빛부터 도라이 같음",
+          "likeCount": 3,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "7:52 렉 걸린척 하지말라고요 ㅠㅠㅠㅠㅠㅠㅠㅜㅜㅋㅋ",
+          "likeCount": 2,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "딜리트!!!!",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "2:58 애호가가 아니라 애호박이라 하는데 이거 맞음???ㅋㅋㅋㅋㅋ ㅠㅠㅠㅠㅠㅠ",
+          "likeCount": 2,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "취직보다 병원엘 먼저 ㅋㅋㅋ",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "미친 사람이잖아 걍 ㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "개웃음 진짜",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "5:58 미쳣나ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "1:08 취미는 파쿠르ㅋㅋㅋㅋㅋㅋㅋㅋㅋ \n누군가가 떠오름",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅌㅋㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "01:50 패스 ㅋㅋㅋㅁㅊㅋㅋㅋㅋ 스피드게임이냐고 ㅋㅋㅋㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "아니 이거 진짜 왤케 웃기지 뻥 안치고 지금 백 번 봄\n(뻥임 스무 번 정도 봄)",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "개인적으론 오래된 회사원이라 최근들어 진짜 제일웃긴데 현실반영한거같아서 웃픔ㅠㅠㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "딜리트!! ㅅㅅㅂㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ아",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "언뜻봐도 안 그래보여요..",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "아니 이시리즈 개웃기네ㅋㅋ 제2의 이수지드간다",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "민음사 면접은 이렇게 자신만만하고 밝으면 안된다고요  ㅠㅠ",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "아 미친ㄷ😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "조온나 웃기네 ㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "0:32 ???:제 친구 동탄사는데 왜 비하하시죠?",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "명작임",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "02:59 애호박이요 ?",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "감스트임 ?",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "zzzzzzzzzzzzzzzzzzzzzzzzzzzzzz",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "​@xx-tr9vvhttps://youtu.be/MQS8gzojM3s?si=9ZNCaCT6Vu6V1SHv",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "​@bhbub7686https://youtu.be/MQS8gzojM3s?si=9ZNCaCT6Vu6V1SHv",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "미쳣나 ㅜㅜ 개웃교 아",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "데미나이 ㅇㅈㄹ",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "나근데이걸보면서웃을수가없다…………………",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "진짜 존나 웃기다 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ 이 언니 국회로 제발",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "진짜 괴인이다 ㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋ미친 갸웃기네요",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        }
+      ]
+    },
+    {
+      "elapsedSeconds": 325877.0,
+      "bucketStart": "2026-05-30T04:31:30+00:00",
+      "bucketEnd": "2026-05-31T14:37:34+00:00",
+      "positive": 26,
+      "neutral": 10,
+      "negative": 4,
+      "netSentiment": 0.55,
+      "zScore": 0.109,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 450045.0,
+      "bucketStart": "2026-05-31T15:00:58+00:00",
+      "bucketEnd": "2026-06-03T11:35:28+00:00",
+      "positive": 28,
+      "neutral": 11,
+      "negative": 1,
+      "netSentiment": 0.675,
+      "zScore": 1.45,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 697475.0,
+      "bucketStart": "2026-06-03T11:44:48+00:00",
+      "bucketEnd": "2026-06-07T10:36:13+00:00",
+      "positive": 25,
+      "neutral": 7,
+      "negative": 8,
+      "netSentiment": 0.425,
+      "zScore": -1.233,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 1112852.0,
+      "bucketStart": "2026-06-08T07:07:45+00:00",
+      "bucketEnd": "2026-06-15T12:27:12+00:00",
+      "positive": 25,
+      "neutral": 12,
+      "negative": 3,
+      "netSentiment": 0.55,
+      "zScore": 0.109,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 1744203.0,
+      "bucketStart": "2026-06-15T14:30:16+00:00",
+      "bucketEnd": "2026-07-03T15:13:16+00:00",
+      "positive": 30,
+      "neutral": 7,
+      "negative": 2,
+      "netSentiment": 0.718,
+      "zScore": 1.911,
+      "isBurst": true,
+      "direction": "POSITIVE_SPIKE",
+      "topComments": [
+        {
+          "text": "8:55 부분 보고 안건데 설마 안경으로 앞트임한거임…? 미치겠다",
+          "likeCount": 5,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "면접 인터뷰3개중 이게 젤웃김 개인적으로는ㅋ",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "말투부터 내용 진짜 병맛 미쵸 ㅋㅋㅋ😂  하아악",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "면접관 리얼하네 ㅋㅋ 면접관들 그 특유의 띠꺼운 표정",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "리딩방이라니 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "둘다 여자잖아요ㅜㅜ",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "아 진짜 너무 웃김 ㅋㅋㅋㅋㅋ 엄지윤 천재같어...",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "아 웃다가 토할거같아",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "자기소개 할 때 대본 읽고 있어서 눈 왔다갔다 하는 거 ㄱㅇㄱ다ㅋㅋㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "아니 개웃기네진짜",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "민음사 야~호",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "봐도 봐도 웃기네 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "4:08 브랄스까진 참았는데 이건 ㄹㅇ 개터졌넼ㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "0:47 데미안 데미나이 라임 개쩌네ㅋㅋㅋㅋㅋㅋ벽 느껴진닼ㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋ미티",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ 마지막에 하품 참는거 진짜 잘 살린다... ㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "부랈스를 좋아하세요ㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "숨고르세요 청년",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "면접관이 저런 질문을?",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "3:11 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ 아",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "4:55 난 여기가 왜이렇게웃기지 5:00 ~지요 체도 ㅈㄴ웃김",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "7:50 진짜 개ㅐㅐㅐㅐㅐ웃겨요ㅜㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅌㅋㅌㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅌㅌㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㄴㅋㄴㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅌㅌㅌㅌㅌㅌ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "4:55 가오 과오 라임이 너무 폭력적이에요 언니...ㅠㅠㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "3:12 웬아씨유어오션아이즈~",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "달러구트 꿈 백화점 ㅇㅈㄹ 하 개웃겨 미친 아 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "취미는 파크루 🤣",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "천재를 보았다..",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "근데 면접관님..약간 이창호...인줄 알았습니다..죄송합니다",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "ㅏㅇ존나웃겨",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "@enenenen1374돼가 맞아요 되어도->돼도",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "말에 공백이 없음ㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "웃겨서 못보겠다 ㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "천재인가",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "2026 내가 본 최고의 문학작품이다!",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "억양 ㄹㅇ어지럽네...",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "8:25 ㅋㅋㅋㅅㅂㅋㅋㅋㅋ지랄 기리웋김ㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        }
+      ]
+    }
+  ],
+  "keyInsights": [
+    {
+      "type": "positive",
+      "topic": "재미있는 캐릭터 연기",
+      "topicEn": "Funny Character Acting",
+      "topicZh": "搞笑角色表演",
+      "topicJa": "面白いキャラクター演技",
+      "comment": "민음사 유투브에서 이거 리액션 영상 찍어주세요ㅋㅋㅋㅋㅋㅋㅋ",
+      "commentLang": "ko",
+      "likes": 3575
+    },
+    {
+      "type": "negative",
+      "topic": "출연자와 면접관의 기대",
+      "topicEn": "Expectations of Participants and Interviewers",
+      "topicZh": "参与者与面试官的期望",
+      "topicJa": "参加者と面接官の期待",
+      "comment": "민음사 사장 딸이라도 이렇게는 끝까지 안들어주겟다",
+      "commentLang": "ko",
+      "likes": 249
+    },
+    {
+      "type": "positive",
+      "topic": "면접관의 특이한 대사",
+      "topicEn": "Unique Lines from Interviewers",
+      "topicZh": "面试官的独特台词",
+      "topicJa": "面接官のユニークなセリフ",
+      "comment": "지원 라인업도 어떻게 하닉이랑 민음사지\n너무 극과 극이라 웃김 문이과 대통합을 하시려나보다",
+      "commentLang": "ko",
+      "likes": 2828
+    },
+    {
+      "type": "negative",
+      "topic": "AI 기술과 면접",
+      "topicEn": "AI Technology and Interviews",
+      "topicZh": "人工智能技术与面试",
+      "topicJa": "AI技術と面接",
+      "comment": "보기힘들고 내가 겹쳐보임",
+      "commentLang": "ko",
+      "likes": 246
+    }
+  ],
+  "analyzedAt": "2026-07-04T04:41:20.589511+00:00",
+  "analysisDuration": 128.2,
+  "tokenUsage": {
+    "input": 32636,
+    "output": 8256,
+    "embedding": 23504,
+    "total": 64396,
+    "estimatedCostUsd": 0.010319
+  }
+}

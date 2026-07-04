@@ -1,0 +1,621 @@
+{
+  "video": {
+    "videoId": "nrOlAMgeANA",
+    "title": "애프터 철벽남 우프피와의 소개팅(아님) | 밥이나 먹을까? | 제우스편",
+    "channelTitle": "Hanwha Life Esports",
+    "thumbnailUrl": "https://i.ytimg.com/vi/nrOlAMgeANA/maxresdefault.jpg",
+    "publishedAt": "2026-03-13",
+    "viewCount": 158433,
+    "likeCount": 4081,
+    "analyzedComments": 284,
+    "languageRatio": {
+      "ko": 88,
+      "en": 4,
+      "other": 7
+    },
+    "weightedSentiment": 65
+  },
+  "topics": [
+    {
+      "label": "경기 기대",
+      "labelEn": "Game Expectation",
+      "labelZh": "比赛期待",
+      "labelJa": "試合の期待",
+      "mentionCount": 158,
+      "sentiment": {
+        "positive": 80,
+        "neutral": 16,
+        "negative": 4
+      }
+    },
+    {
+      "label": "팬 사랑",
+      "labelEn": "Fan Love",
+      "labelZh": "粉丝之爱",
+      "labelJa": "ファンの愛",
+      "mentionCount": 55,
+      "sentiment": {
+        "positive": 65,
+        "neutral": 29,
+        "negative": 5
+      }
+    },
+    {
+      "label": "콘텐츠 요청",
+      "labelEn": "Content Requests",
+      "labelZh": "内容请求",
+      "labelJa": "コンテンツのリクエスト",
+      "mentionCount": 29,
+      "sentiment": {
+        "positive": 38,
+        "neutral": 41,
+        "negative": 21
+      }
+    },
+    {
+      "label": "팀워크",
+      "labelEn": "Teamwork",
+      "labelZh": "团队合作",
+      "labelJa": "チームワーク",
+      "mentionCount": 28,
+      "sentiment": {
+        "positive": 61,
+        "neutral": 32,
+        "negative": 7
+      }
+    },
+    {
+      "label": "선수 성장",
+      "labelEn": "Player Growth",
+      "labelZh": "选手成长",
+      "labelJa": "選手の成長",
+      "mentionCount": 14,
+      "sentiment": {
+        "positive": 50,
+        "neutral": 29,
+        "negative": 21
+      }
+    }
+  ],
+  "reactionTimeline": [
+    {
+      "elapsedSeconds": 39.0,
+      "bucketStart": "2026-03-13T08:01:34+00:00",
+      "bucketEnd": "2026-03-13T08:17:49+00:00",
+      "positive": 28,
+      "neutral": 9,
+      "negative": 3,
+      "netSentiment": 0.625,
+      "zScore": 0.0,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 1015.0,
+      "bucketStart": "2026-03-13T08:17:50+00:00",
+      "bucketEnd": "2026-03-13T08:43:30+00:00",
+      "positive": 28,
+      "neutral": 10,
+      "negative": 2,
+      "netSentiment": 0.65,
+      "zScore": 0.775,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 2653.0,
+      "bucketStart": "2026-03-13T08:45:08+00:00",
+      "bucketEnd": "2026-03-13T09:39:40+00:00",
+      "positive": 27,
+      "neutral": 13,
+      "negative": 0,
+      "netSentiment": 0.675,
+      "zScore": 1.549,
+      "isBurst": true,
+      "direction": "POSITIVE_SPIKE",
+      "topComments": [
+        {
+          "text": "ㅋㅋㅋㅋ 우제 진짜 단어선택이 남달라서 넘 웃김ㅋㅋ 올해는 리버스로 우승까지 달려보자 화이팅!!",
+          "likeCount": 75,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "4:00 즐겨하시니까 개웃기네",
+          "likeCount": 75,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "진짜 트렌디하시네 한모님ㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 68,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "추진해",
+          "likeCount": 33,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "3군 야식까지~",
+          "likeCount": 30,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "이런 샤갈 ㅋㅋ..😂",
+          "likeCount": 16,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "우제야 너랑 같은 시기에 너의 성장과 경기를  함께 하는것이 내 삶에 많은 영감을 주고 있다..너의 진심을 결코 의심 한적없다..모든 면에서 넌 최고다..고맙고 사랑한다!!❤우바!!",
+          "likeCount": 16,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "나의 우피티",
+          "likeCount": 14,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "우제 때문에 계속 한화생명 응원하고 있다.\n남은 대회들 확실히 반등하고 방심하지말길. \n제우스 선수 화이팅 !! 👏🧡",
+          "likeCount": 13,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "3:20 사장님 아 에서 빵터짐 ㅋㅋㅋㅋㅋㅋ 우제야 결과가 어쩌든 항상 응원한다. 맛난거 많이먹고 게임즐겁게하고(우승도 하면 좋고) 화이팅!",
+          "likeCount": 13,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "존잼이다 미친",
+          "likeCount": 12,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅅㅂㅋㅋㅋㅋㅋ",
+          "likeCount": 11,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "한모님 매콤하시네 ㅋㅋㅋㅋ",
+          "likeCount": 11,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "7:01 아니 이걸 어떻게알아들으셨지",
+          "likeCount": 10,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "아 우제 넘 귀엽다 ㅋㅋㅋㅋㅋㅋㅋ 특히 버그걸렸을때 되게 귀여웠던듯... \n4월엔 또 열심히 달려보자구 🎉",
+          "likeCount": 10,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "진짜 INFP 그자체네 ㅋㅋㅋ",
+          "likeCount": 9,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "우제야 난 너희를 응원하는 날 믿어 \n너넨 진짜 최고야 알지? 아무나 응원안한다 나는ㅋㅋㅋㅋ\n우리막냉이 항상 응원할게 신나게 경기하는 널 보여줘🧡",
+          "likeCount": 9,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "1:29 원제가 제일 매콤해😂",
+          "likeCount": 8,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "영상팀? 콘텐츠팀 항상 열일하셔서 보기 좋아요 오늘 영상 재밌었어요 앞으로도 화이팅입니다",
+          "likeCount": 7,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "왔다 갔다 시즌 2 해주실거죠 ㅋㅋㅋㅋㅋ 우제 어른스러워져서 더 믿음직하다 화이팅이여",
+          "likeCount": 7,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "우제야 잘할거라고 믿고있어!! 화이팅!!! 언제나 뒤에서 응원할게!",
+          "likeCount": 7,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "정규시즌 잘해보자 우제야 잘하는 선수니까 믿어 화이팅",
+          "likeCount": 7,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "몰라 난 이미 잊었어 롤은 4월부터 시작임",
+          "likeCount": 7,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "작년 시즌 초반 우승 리버스로 2026 한생은 시즌 후반에 월즈 우승가보자~!!제카제구딜 화이팅🍊🍊\n노피디님 궁시렁영상 한생버전으로 2시간 내주세요~~~😆",
+          "likeCount": 6,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "우제다아앙",
+          "likeCount": 4,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "다시 정상에 오르자. 우스 아 🎉 Woo'tube 어때😂😂",
+          "likeCount": 4,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "⚡우제 화이팅⚡ 🍊한화 화이팅🍊",
+          "likeCount": 4,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "제우스 화이팅",
+          "likeCount": 4,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "이렇게 딜라 제우스 보고나니까  부끄럼쟁이 제카영상이 많이 기대되는데요",
+          "likeCount": 3,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "한화생명 빠이팅 우제 빠이팅 🧡🧡🧡",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "⚡🧡🧡🧡",
+          "likeCount": 2,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "우제 화이팅",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "🧡🧡",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "hes so cute man",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㅇㅅㅇㅅ",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "왔다 내 밥친구🥹🧡",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "cute wooje❤❤",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Wooje come on ❤️",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "한전드님 ㅠㅠㅠ",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "Chời ơi sao mà lần này k có vietsub dị😭😭😭",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "elapsedSeconds": 5925.0,
+      "bucketStart": "2026-03-13T09:39:40+00:00",
+      "bucketEnd": "2026-03-13T11:30:29+00:00",
+      "positive": 29,
+      "neutral": 7,
+      "negative": 4,
+      "netSentiment": 0.625,
+      "zScore": 0.0,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 12663.0,
+      "bucketStart": "2026-03-13T11:31:58+00:00",
+      "bucketEnd": "2026-03-13T15:01:15+00:00",
+      "positive": 27,
+      "neutral": 10,
+      "negative": 3,
+      "netSentiment": 0.6,
+      "zScore": -0.775,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 27592.0,
+      "bucketStart": "2026-03-13T15:40:47+00:00",
+      "bucketEnd": "2026-03-14T23:16:11+00:00",
+      "positive": 28,
+      "neutral": 9,
+      "negative": 3,
+      "netSentiment": 0.625,
+      "zScore": 0.0,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 150246.0,
+      "bucketStart": "2026-03-15T01:45:01+00:00",
+      "bucketEnd": "2026-05-03T06:46:30+00:00",
+      "positive": 28,
+      "neutral": 7,
+      "negative": 5,
+      "netSentiment": 0.575,
+      "zScore": -1.549,
+      "isBurst": true,
+      "direction": "NEGATIVE_SPIKE",
+      "topComments": [
+        {
+          "text": "겨울 공기냄새 맛있다!ㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 9,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "꼴등하고 조용히 넘어갈 줄 알았는데, 저번 딜라 영상에서도 그렇고, 이번 영상 시작부터 정면돌파하는 게 졸라 웃기네 ㅋㅋㅋㅋㅋㅋㅋ 차라리 이게 훨씬 낫다",
+          "likeCount": 9,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "우제야 우리는 이제부터 시작이잖아! 맘고생 이제 끝내고 4월부터 오렌지들이랑 달려보쟈아-! ♥ 항상 응원한다",
+          "likeCount": 8,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "우제 항상 화이팅이다",
+          "likeCount": 6,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "정규리그 화이팅하자 응원한다 막냉이우제 !!",
+          "likeCount": 5,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "우제 경기 빨리 보고싶다",
+          "likeCount": 5,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "제우스와 함께 밥 먹기...부럽다...",
+          "likeCount": 5,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "00:38 너무 따뜻해요🧡🧡",
+          "likeCount": 5,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "사랑해 우리 우제 고생 좀 그만 했으면 좋겠다 언제나 무한한 응원을 보낼 테니 네 행복에 대해서만 고민 했으면 좋겠어~",
+          "likeCount": 5,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "제우스 화이탱!!!🍀",
+          "likeCount": 5,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "10등이면 어때~~!! 다시 올라가라고 있는 자리야 우제, 넌 재능 있으니까 계속해!!~ㅋㅋㅋ 이쁘게 생겨가지고 귀여워",
+          "likeCount": 5,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "노피디님 이제 2~3일 뒤에 영상이 안올라오면 계속 기다리게 되는 병이 생겼어요 ••  자꾸 기대하게 되는 오렌지가 되버리고 말았습니다🥹",
+          "likeCount": 4,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "5:34 똑같다...솔랭...약간 이렇게 따로 밥 먹는거 보다 다같이 밥 먹는 시간이 더 필요하지 않을까 싶긴 한데 말이죠...",
+          "likeCount": 4,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "아니 우리 우제 원래 얼딩이었는데 언제 졸업하고 초딩됐냐ㅜ",
+          "likeCount": 4,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "​​@EEEINA98 단순하게 10개팀중에 제일 처못해서 10등 달린게 아니니까 박통아ㅋㅋㅋ",
+          "likeCount": 4,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "Wooje đáng yêu quá, giống 1 cậu em trai đang tuổi ăn tuổi lớn và hiểu chuyện, ngoan ngoãn. Lúc Wooje ngồi đi tất trong phòng tối trông rất thương. Mong Wooje sẽ ăn ngon, ngủ ngon và trở lại mùa giải chính LCK Regular thật tốt. Giữ vững phong độ nhé, ZeusCarry!",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "제우스 말하는게 왜케 웃기냐 ㅋㅋㅋㅋㅋ",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "이모님 말씀이 맞습니다~ 써머 때 10등 했으면 작살났으여~ 한화 생명 화이팅!",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "존버❤",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "I'm late to this particular series but I'm enjoying the casual talk and stories",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "막내우제 ㅜㅠㅜㅠㅜㅠㅜ너무 어른됐어.......",
+          "likeCount": 2,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "우제야 팀 안에서 고생 많이 할 것 같은데 화이팅 해라 항상 응원하고 있다",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "우제 😊",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "밥 먹을 때 보기 😊😊 같이 밥 먹는거 같아서 좋음😋 우제 화이팅!!",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "월즈 결승 비하인드로 꼭 해주라🙏🙏🙏",
+          "likeCount": 2,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "03:21 ㅋㅋ 저 때가 수요일이였던 걸 까먹은 직원!?",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "6:02 재밌으면 위험해요. 우리가 제일 의외였는데 ㅠㅠ",
+          "likeCount": 1,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "3:24\n직원분 반응 개웃기네ㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "한생은 영상구성과 퀄이 좋은듯😊",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "타팀 팬인데 구독 박았습니다 부럽습니다",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "폼만 되찾으면 술술 풀릴거같음",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "@개똥잉이팬휴가도 챙겨준단거임 ㅂㄷㅂㄷ",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "뚱땡이가되었구나;;;",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "레전드 금쪽이로 욕도 많이 먹었는데\n철 많이 든 모습이 뭔가 기분이 이상하노",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "맞긴한데, 그래도 서로 말 예쁘게하자.. 클린하게 팬문화 만드는게 선수 얼굴에 먹칠안하는거👊",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋㅋㅋㅋ귀여웤ㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "우제 사랑한다🩵",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "The PD is in office clothes???",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "방송시간 제한이 왜 있는거에요?? 하고싶은만큼 하면 안되는거임???",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "0:58 너거 덕분에 ㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        }
+      ]
+    }
+  ],
+  "keyInsights": [
+    {
+      "type": "positive",
+      "topic": "팀워크",
+      "topicEn": "Teamwork",
+      "topicZh": "团队合作",
+      "topicJa": "チームワーク",
+      "comment": "우제야 그동안 알게 모르게 마음 고생 많이 했을텐데 올해는 꼭 우승 많이해서 그동안 했던 마음 고생 훌훌~털어버렸으면 좋겠다. 우탑제 화이팅!",
+      "commentLang": "ko",
+      "likes": 1022
+    },
+    {
+      "type": "negative",
+      "topic": "경기 기대",
+      "topicEn": "Game Expectation",
+      "topicZh": "比赛期待",
+      "topicJa": "試合の期待",
+      "comment": "0:55 이모님 너무 매워요..ㅠ",
+      "commentLang": "ko",
+      "likes": 684
+    },
+    {
+      "type": "positive",
+      "topic": "콘텐츠 요청",
+      "topicEn": "Content Requests",
+      "topicZh": "内容请求",
+      "topicJa": "コンテンツのリクエスト",
+      "comment": "이야. 역시 롤 고인물 어디 안 가네..\n\n\"지금 10등 하는 거 괜찮아.. 서머 꼴찌 하면 뒤졌지. \"\n\nㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ \n\n역시 롤판 고인물. 한전드 이모님 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+      "commentLang": "ko",
+      "likes": 787
+    },
+    {
+      "type": "negative",
+      "topic": "팀워크",
+      "topicEn": "Teamwork",
+      "topicZh": "团队合作",
+      "topicJa": "チームワーク",
+      "comment": "아파요... 제가 다 아파요 이모님 흑흑",
+      "commentLang": "ko",
+      "likes": 43
+    }
+  ],
+  "analyzedAt": "2026-07-04T14:14:08.651127+00:00",
+  "analysisDuration": 59.0,
+  "tokenUsage": {
+    "input": 20081,
+    "output": 3455,
+    "embedding": 9053,
+    "total": 32589,
+    "estimatedCostUsd": 0.005266
+  }
+}

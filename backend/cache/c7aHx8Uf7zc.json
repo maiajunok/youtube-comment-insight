@@ -1,0 +1,1226 @@
+{
+  "video": {
+    "videoId": "c7aHx8Uf7zc",
+    "title": "2025 월즈 우승 공약 실천! 15년 뒤에 다시 오겠습니다",
+    "channelTitle": "T1 Keria",
+    "thumbnailUrl": "https://i.ytimg.com/vi/c7aHx8Uf7zc/maxresdefault.jpg",
+    "publishedAt": "2025-12-06",
+    "viewCount": 604317,
+    "likeCount": 21076,
+    "analyzedComments": 997,
+    "languageRatio": {
+      "ko": 86,
+      "en": 5,
+      "other": 9
+    },
+    "weightedSentiment": 68
+  },
+  "topics": [
+    {
+      "label": "케리아의 귀여움",
+      "labelEn": "Keria's Cuteness",
+      "labelZh": "凯里亚的可爱",
+      "labelJa": "ケリアのかわいさ",
+      "mentionCount": 314,
+      "sentiment": {
+        "positive": 74,
+        "neutral": 20,
+        "negative": 6
+      }
+    },
+    {
+      "label": "놀이기구",
+      "labelEn": "Amusement Rides",
+      "labelZh": "游乐设施",
+      "labelJa": "アミューズメントライド",
+      "mentionCount": 279,
+      "sentiment": {
+        "positive": 58,
+        "neutral": 35,
+        "negative": 7
+      }
+    },
+    {
+      "label": "운모의 역할",
+      "labelEn": "Untara's Role",
+      "labelZh": "运茅的角色",
+      "labelJa": "運モの役割",
+      "mentionCount": 212,
+      "sentiment": {
+        "positive": 58,
+        "neutral": 32,
+        "negative": 9
+      }
+    },
+    {
+      "label": "팀워크",
+      "labelEn": "Teamwork",
+      "labelZh": "团队合作",
+      "labelJa": "チームワーク",
+      "mentionCount": 118,
+      "sentiment": {
+        "positive": 49,
+        "neutral": 38,
+        "negative": 13
+      }
+    },
+    {
+      "label": "팬들과의 소통",
+      "labelEn": "Communication with Fans",
+      "labelZh": "与粉丝的互动",
+      "labelJa": "ファンとのコミュニケーション",
+      "mentionCount": 74,
+      "sentiment": {
+        "positive": 61,
+        "neutral": 30,
+        "negative": 9
+      }
+    }
+  ],
+  "reactionTimeline": [
+    {
+      "elapsedSeconds": 15.0,
+      "bucketStart": "2025-12-06T05:00:59+00:00",
+      "bucketEnd": "2025-12-06T05:09:08+00:00",
+      "positive": 32,
+      "neutral": 8,
+      "negative": 0,
+      "netSentiment": 0.8,
+      "zScore": 1.704,
+      "isBurst": true,
+      "direction": "POSITIVE_SPIKE",
+      "topComments": [
+        {
+          "text": "그냥 케리아가 너무 귀엽고 사랑스러운 사람 개추 ㄱㄱ.. ㅋㅋㅋ",
+          "likeCount": 4518,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "티원은 운모 없으면 안 돌아갈 듯\n이리오너라 지분도 굉장하고 민석이랑 같이 에버랜드 가주고 진행도 도와주고 현준이 적응도 도와주고 상혁이 애착인형에 이제 곧 수환이랑도 친해지겠지? 티원의 힐링코치가 분명함",
+          "likeCount": 2916,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "아니 처음에 무슨 티익스프레스인줄 알았네ㅋㅋㅋㅋㅋㅋ애기들 타는 거잖아ㅋㅋㅋㅋ",
+          "likeCount": 1012,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "1:04 티모 힐링용이아니라 흑기사용이였냐고ㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 828,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "티원이 이렇게 강해진 데에는 운타라의 역할도 컸다고 생각한다 멤버들 멘탈도 관리해주고 팀 분위기도 살려주고 운타라한테 정말 고맙고 재계약 안 되면 무릎 꿇어서라도 재계약 받아내겠다고 했을 때 감동 받았다..",
+          "likeCount": 728,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "5:28 민석이의 두번째 안전벨트 티모와의 팔짱",
+          "likeCount": 489,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "6:30 롤러코스터에 치였냐고 ㅠ ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 465,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "류밍시 탈 때 >_< 되는 거 개귀엽네!!!!!ㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 171,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "인트로부터 케리아 표정 진짜 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 168,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "5:32 무서워서 팔짱 낀 민서기 귀여워 ㅜㅜ",
+          "likeCount": 145,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "아니 머리띠는 왜 자꾸 귀앞으로 쓰는거야ㅋㅋㅋㅋㅋㅋ😊",
+          "likeCount": 92,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "왤케 연인같냨ㅋㅋㅋㅋㅋ",
+          "likeCount": 80,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "3:38 민석아 도대체 어떻게 들었으면 채영님이 최홍만이 되냐고ㅋㅋㅋ",
+          "likeCount": 62,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "왔구나!!!!!!!! 약속 지킨 민석이도 좋고 티원 멤버들 도와주는거에 한치 망설임도 없는 운모 너무 좋다모 ㅠㅠㅠㅠㅠㅠㅠㅠㅠ",
+          "likeCount": 61,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "떴냐 케튜브",
+          "likeCount": 14,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "이 조합은 또 참신하네 ㅋㅋㅋㅋ",
+          "likeCount": 10,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "케튜브 hype 해야한다ㅋㅋㅋㅋㅋ",
+          "likeCount": 8,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "인트로 개웃기네 좋은사랑하세요 (?)",
+          "likeCount": 7,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "썸네일ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 7,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "이날만을 기다렸습니다",
+          "likeCount": 7,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "드디어",
+          "likeCount": 5,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "여기서도 운모가 ㅋㅋ",
+          "likeCount": 5,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "인트로 시강이넼ㅋㅋㅋㅋ",
+          "likeCount": 4,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㅋㅋ아니 누르자마자 웃음터짐 ㅋㅋ 귀여워",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "게리아ㅏㅏ 운모모모모",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "음 그래그래 바로 봐주마",
+          "likeCount": 2,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "T1 npc가 되어가는 운모",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "역시 의진이형",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "왔다!!!!!!!!!!🎉",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "케다닥",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "나 1등이야!!!",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "큰거왔다 🤩",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "lmaoooooo😢",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Haha 🎉",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "5등",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "드디어?!!? 케리아형 사랑해",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Con ơi mới vô đã thấy buồn cười r🤡",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Cute quá vậy đại ka máu sét ơi 😊❤🎉",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "둘이 키차이 뭔데!!",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "존나게 기다렸다",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        }
+      ]
+    },
+    {
+      "elapsedSeconds": 514.0,
+      "bucketStart": "2025-12-06T05:09:18+00:00",
+      "bucketEnd": "2025-12-06T05:20:56+00:00",
+      "positive": 30,
+      "neutral": 10,
+      "negative": 0,
+      "netSentiment": 0.75,
+      "zScore": 1.374,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 1222.0,
+      "bucketStart": "2025-12-06T05:21:06+00:00",
+      "bucketEnd": "2025-12-06T05:37:47+00:00",
+      "positive": 23,
+      "neutral": 15,
+      "negative": 2,
+      "netSentiment": 0.525,
+      "zScore": -0.11,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 2263.0,
+      "bucketStart": "2025-12-06T05:38:27+00:00",
+      "bucketEnd": "2025-12-06T05:52:43+00:00",
+      "positive": 30,
+      "neutral": 9,
+      "negative": 1,
+      "netSentiment": 0.725,
+      "zScore": 1.209,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 3133.0,
+      "bucketStart": "2025-12-06T05:52:57+00:00",
+      "bucketEnd": "2025-12-06T06:09:49+00:00",
+      "positive": 28,
+      "neutral": 10,
+      "negative": 2,
+      "netSentiment": 0.65,
+      "zScore": 0.715,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 4173.0,
+      "bucketStart": "2025-12-06T06:10:17+00:00",
+      "bucketEnd": "2025-12-06T06:25:31+00:00",
+      "positive": 18,
+      "neutral": 21,
+      "negative": 1,
+      "netSentiment": 0.425,
+      "zScore": -0.769,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 5101.0,
+      "bucketStart": "2025-12-06T06:25:45+00:00",
+      "bucketEnd": "2025-12-06T06:44:38+00:00",
+      "positive": 25,
+      "neutral": 14,
+      "negative": 1,
+      "netSentiment": 0.6,
+      "zScore": 0.385,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 6364.0,
+      "bucketStart": "2025-12-06T06:46:48+00:00",
+      "bucketEnd": "2025-12-06T07:09:45+00:00",
+      "positive": 26,
+      "neutral": 12,
+      "negative": 2,
+      "netSentiment": 0.6,
+      "zScore": 0.385,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 7775.0,
+      "bucketStart": "2025-12-06T07:10:19+00:00",
+      "bucketEnd": "2025-12-06T07:36:44+00:00",
+      "positive": 33,
+      "neutral": 5,
+      "negative": 2,
+      "netSentiment": 0.775,
+      "zScore": 1.539,
+      "isBurst": true,
+      "direction": "POSITIVE_SPIKE",
+      "topComments": [
+        {
+          "text": "​@jeifnfafagan 사실상 월즈 결승마다 불려다니는걸 보면 정규시즌도 운모가 멘탈코치 하는 중이라는거임",
+          "likeCount": 212,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "귀엽게 생겼지만 할말은 지키는 테토",
+          "likeCount": 186,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "일단 힐링코치는 확실함 ㅋㅋㅋㅋㅋ",
+          "likeCount": 152,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "티익스면 저렇게 서로 붙잡지도 못할정도로 빨라서 ㅋㅋㅋ",
+          "likeCount": 25,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "캬",
+          "likeCount": 14,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "6:30 누가 보면 티익스 탄 줄 알겠네 ㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 14,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "민석이 토끼머리띠 너무 귀엽자나ㅠㅠㅠ 운모 고맙다모",
+          "likeCount": 4,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "치지직컵이고 뭐고 그냥 민석이랑 놀러가서 행복한 의진맨",
+          "likeCount": 4,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "편집자 바뀜?? 자막도 없어지고 재미도없어지고..",
+          "likeCount": 3,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋ 아 놀이기구 진짜 못타나봐 영혼 자꾸 나갔다 들어오는데",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "티원에 운모가 있어서 너무 좋다🎉🎉",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "😂😂😂😂😂😂",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "제작진까지 같이 케리아 공약 지켜주는 티원이면 개추 ㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋㅋㅋ 운모모모 고맙다모~~",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "감다살 공약 케리아 최고!\n보는 내내 같이 웃으면서 봤어요~ 고맙다모모모",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "오너 채널, 케리아 채널, 페이커 팬 1명초대석까지..\n티원 외부컨텐츠는 진짜 운타라 없으면 안된다",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "완전 졸귀ㅋㅋㅋㅋㅋ 아 개웃었넹ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ덕분에 잘웃고 갑니다 ㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "기구 하나 끝난거 알자마자 혈색이 좋아지냨ㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ류민석 겁많은거 개웃기네 진짜 귀여워",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "약방의 감초 T1의 운모",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "이정도면 T1이 운타라의 애착인형임 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "에버랜드 어린이들 손목꺾으러왔다모~",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "쪼꼬미 왜이렇게 귀여워 ㅋㅋㅋ 민서기",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "아 진짜 류민석 너무 귀여운거 아냐?",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "운타라 진행도 잘해ㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "역대급 운모",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Sao em nó hài mà cưng giữ z trời😊😂",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "구슼은 운타라가 제일좋음 ㅋㅋㅋ사람이 무해한거같음 티원선수들이랑 비지니스친구가아니라 찐친바이브같아서 더좋음",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "운모는 어디든 있네 ㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "치지직컵 남들 ㅈ빠지게 연습할 때 이렇게 놀러다녀도 그냥 양학 해버리는 운타라 클라스~",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "호랑이 보자마자 현준이라고 말한거 보소 ㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "한국어 영어 아랍어 cc 누르면 있어요",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "이렇게 놀아도 스트리머 손목은 그냥 꺾는 양학 GOAT 운타라 티원은 선수랑 스트리머 각각 고트가 한 명씩 있네ㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "무해하다",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "자 이제 문도씨의 파란색 염색과 란도씨의 푸파 가 남았습니다",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "케리아. 운모형이항 재미있게 다녀왔구나. ㅎㅎ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㅋㅋ운모는 ㄹㅇ보호자네",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "5:32 팔짱낀거 ㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "드디어!!!!!!",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "@goby22 누가 나오라고 칼들고 협박함? 섭외 거절하면 되는거고 섭외 받는다고 해도 다른 전프로들 전부 주라인은 아닌거 같다고 다른 라인 가는데 혼자 신나서 양학 할 생각으로 주라인 섭외 받아들인거 아님? 너같은 쉴드 치는 애들이 욕 먹이는거야",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        }
+      ]
+    },
+    {
+      "elapsedSeconds": 9375.0,
+      "bucketStart": "2025-12-06T07:36:59+00:00",
+      "bucketEnd": "2025-12-06T08:02:15+00:00",
+      "positive": 28,
+      "neutral": 7,
+      "negative": 5,
+      "netSentiment": 0.575,
+      "zScore": 0.22,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 10949.0,
+      "bucketStart": "2025-12-06T08:03:13+00:00",
+      "bucketEnd": "2025-12-06T08:38:51+00:00",
+      "positive": 23,
+      "neutral": 12,
+      "negative": 5,
+      "netSentiment": 0.45,
+      "zScore": -0.605,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 13265.0,
+      "bucketStart": "2025-12-06T08:41:49+00:00",
+      "bucketEnd": "2025-12-06T09:32:03+00:00",
+      "positive": 28,
+      "neutral": 8,
+      "negative": 4,
+      "netSentiment": 0.6,
+      "zScore": 0.385,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 16292.0,
+      "bucketStart": "2025-12-06T09:32:16+00:00",
+      "bucketEnd": "2025-12-06T10:36:10+00:00",
+      "positive": 30,
+      "neutral": 8,
+      "negative": 2,
+      "netSentiment": 0.7,
+      "zScore": 1.045,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 20128.0,
+      "bucketStart": "2025-12-06T10:36:12+00:00",
+      "bucketEnd": "2025-12-06T11:37:53+00:00",
+      "positive": 27,
+      "neutral": 13,
+      "negative": 0,
+      "netSentiment": 0.675,
+      "zScore": 0.88,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 24039.0,
+      "bucketStart": "2025-12-06T11:41:23+00:00",
+      "bucketEnd": "2025-12-06T13:13:20+00:00",
+      "positive": 22,
+      "neutral": 14,
+      "negative": 4,
+      "netSentiment": 0.45,
+      "zScore": -0.605,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 29655.0,
+      "bucketStart": "2025-12-06T13:14:59+00:00",
+      "bucketEnd": "2025-12-06T15:13:01+00:00",
+      "positive": 20,
+      "neutral": 17,
+      "negative": 3,
+      "netSentiment": 0.425,
+      "zScore": -0.769,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 37332.0,
+      "bucketStart": "2025-12-06T15:22:56+00:00",
+      "bucketEnd": "2025-12-06T18:42:36+00:00",
+      "positive": 24,
+      "neutral": 13,
+      "negative": 3,
+      "netSentiment": 0.525,
+      "zScore": -0.11,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 50017.0,
+      "bucketStart": "2025-12-06T18:54:21+00:00",
+      "bucketEnd": "2025-12-07T03:23:38+00:00",
+      "positive": 24,
+      "neutral": 13,
+      "negative": 3,
+      "netSentiment": 0.525,
+      "zScore": -0.11,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 80825.0,
+      "bucketStart": "2025-12-07T03:27:49+00:00",
+      "bucketEnd": "2025-12-07T09:17:45+00:00",
+      "positive": 23,
+      "neutral": 10,
+      "negative": 7,
+      "netSentiment": 0.4,
+      "zScore": -0.934,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 102925.0,
+      "bucketStart": "2025-12-07T09:36:09+00:00",
+      "bucketEnd": "2025-12-08T02:41:20+00:00",
+      "positive": 21,
+      "neutral": 9,
+      "negative": 10,
+      "netSentiment": 0.275,
+      "zScore": -1.759,
+      "isBurst": true,
+      "direction": "NEGATIVE_SPIKE",
+      "topComments": [
+        {
+          "text": "티원의 카피바라",
+          "likeCount": 14,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "ㅇㄱㄹㅇ 게이머들중에 사회성고트급",
+          "likeCount": 10,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "아니 아니 삼촌 조카야",
+          "likeCount": 7,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "헉 축하드려요 혹시 실례가 안된다면 어느나라 분이신가요??",
+          "likeCount": 4,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "울프까지?",
+          "likeCount": 3,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "진짜요? 진짜 몰랐는데 ㅋㅋㅋㅋㅋ 지금까지 다 앞으로 썼는데 남자들 특징인가ㅋㅋㅋㅋ",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "겨울방학때 지방에서 올라온 사촌동생 에버랜드 데려온 우애깊은 사촌형 같냐뫀ㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "근데 영상편집 진짜 잘한다\n과하게 뭐 넣고 그런것도 아니고 담백하게 편집하는데 깔끔하고 보기 편함\n실제로 사람많은곳가면 시장통에다가 정신산만해지는데 요점만 콕 집어서 잘 살린듯",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "여기서라도 행복한 모습을 보니 좋구나 운모야",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "울프, 운모는 끝까지 데려가야된다",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "This is so gay",
+          "likeCount": 1,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "진짜 ㅈㄴ 귀여워",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "운모는 이정도면 티원 수호신 아님?!ㅋㅋㅋㅋㅋ\n현재로서 대체 불가능 인력임 ㅋㅋㅋㅋ심지어 페이커 스트레스 지수 조절도 가능 ㅋㅋㅋㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "700！",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "아뭐야 티익스 왜안타아아아ㅏ기대했는데!!!",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "하... 이어폰으로 들어서 다행이다 깜짝 놀랐네",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "6:42 다정한 연인ㅋㅋㅋ 필짱끼는거 맞는거지….. 이거 ㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "최홍만은 근데 저거 탈 수 있긴 한가? 최홍만이면 진짜 무서울 지도..",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "WAHDASHDHSAS LOUD KERIA IN THE HOUSEEE",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "데이트를 이렇게 웃으면서 보는건 처음이야",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "좋다❤",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "운모도 갔네 ㅎ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "형이랑놀러온 어린동생느낌남",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "티익 ㄲㅂ",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "나 오늘 에버랜드 갔는데….. 더 빨리 갈걸….😢",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "T ex 탔으면 감다살인데 아쉽네ㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "진짜 운모같은 장로 없다",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "아니  ...... ㅋㅋㅋㅋㅋㅋㅋ왤켘ㅋㅋㅋㅋㅋ몇살이신짘ㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "하 시발 괜히 롯데에서 일했네 케리아도 못보고",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "운타라는 약간 와일드카드같은 사람임\n경기도 뛰어줘 인터뷰도 진행해줘 컨텐츠있으면 같이가줘 밥도 같이먹고 티원선수랑 방송도 같이하고\n운타라 없으면 티원 빈자리 체감이 클듯",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "머리띠좀... 똑바로해줘ㅜㅜㅜㅜㅜ 귀뒤로 넘겨줘",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "All zoos are animal abuse and should not be supported.",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "I felt so happy just watching this video. Looking at Keria being happy with his hyung felt like so much happiness. I wanna see everyone doing this in the next one. Hehehe.😊",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "@koongnamul뉴질랜드에서 왓어요😊",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "케리아 개기엽노",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "케리아 라 그런가 머리띠도 귀엽다",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "반갑다모~",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Keria so cute♡",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "5:57 케리아 놀이기구 타는게 아니라 왁싱당하는거 같음 ㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ바드가 놀이기구 타고있네",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        }
+      ]
+    },
+    {
+      "elapsedSeconds": 165799.0,
+      "bucketStart": "2025-12-08T03:04:03+00:00",
+      "bucketEnd": "2025-12-08T23:14:14+00:00",
+      "positive": 23,
+      "neutral": 15,
+      "negative": 2,
+      "netSentiment": 0.525,
+      "zScore": -0.11,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 238949.0,
+      "bucketStart": "2025-12-08T23:23:13+00:00",
+      "bucketEnd": "2025-12-10T01:38:05+00:00",
+      "positive": 22,
+      "neutral": 10,
+      "negative": 8,
+      "netSentiment": 0.35,
+      "zScore": -1.264,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 335282.0,
+      "bucketStart": "2025-12-10T02:08:46+00:00",
+      "bucketEnd": "2025-12-16T03:50:09+00:00",
+      "positive": 25,
+      "neutral": 12,
+      "negative": 3,
+      "netSentiment": 0.55,
+      "zScore": 0.055,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 870256.0,
+      "bucketStart": "2025-12-16T06:45:00+00:00",
+      "bucketEnd": "2026-01-29T09:30:19+00:00",
+      "positive": 21,
+      "neutral": 16,
+      "negative": 3,
+      "netSentiment": 0.45,
+      "zScore": -0.605,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 4745571.0,
+      "bucketStart": "2026-01-30T03:13:35+00:00",
+      "bucketEnd": "2026-07-04T11:54:38+00:00",
+      "positive": 15,
+      "neutral": 15,
+      "negative": 7,
+      "netSentiment": 0.216,
+      "zScore": -2.147,
+      "isBurst": true,
+      "direction": "NEGATIVE_SPIKE",
+      "topComments": [
+        {
+          "text": "뒷담난쟁이 너때문에 구마유시 나가서 티원 망했네 그냥 넌 평생 저주한다 페이커 앞길 막은 파렴치한 놈",
+          "likeCount": 12,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "뒷담난쟁이 용서못한다",
+          "likeCount": 12,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "뒷뒷뒷뒷뒷뒷",
+          "likeCount": 6,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "난쟁이는 용서해도 뒷담까는난쟁이는 용서할수가없네\n지금은 오너 낙하시키고있더라?\nㅋㅋ",
+          "likeCount": 3,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "용서 그것은 불가능~~",
+          "likeCount": 3,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "요즘 케리아만 왜 영상안올라옴?😢😢",
+          "likeCount": 3,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "뒷,뒷,뒷,뒷~",
+          "likeCount": 2,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "@어피치-r1k아하 친절한 답변\n감사하옵니다👍❤️",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "13:53 my mind went to Hoshi and Oner equally AHAAHHA",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋ재계약기념 돌아왔다모~😊",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "예술체육 요원이라 방송허가를 받아야만 방송을 켤수있는것땜에 영상으로 올릴 소재가 없어서 그럴거에요. 아마 28일에 방송하면 이후에 편집영상 올라갈것같네요",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "케리아는 뭐 탈때마다 야동찍네 ㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "진짜 T1에 영원히 있었으면 좋겠다",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "저 콘서타 30봉먹고 젓가락질 민석이처럼 하니까 먹지마라",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "4:43 \"please keep an eye on the wrist camera\" *keria immedietly after putting it in his lap and blocking the view lol*",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "2:59 의진이핫도그잡아먹니ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "3:36\n\n이 부분 쇼츠에도 나왔는데 초반에 촬영 관계자 분도 “한채영”? ㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "모자이크 무슨일 ㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "5:56 이분 총맞으셨나요?",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "케리아 진짜 잘생김 ㅜㅜ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "저도 그게 긍금하네요 ㅠㅠ",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "니들같은 버러지들이  근조화환이나 쳐보내고 악플에 부모 동선까지 추적해서 공유하니깐 나가지 그게 왜 아무잘못없는 선수때문임? 그럴꺼면 페이커한테도 왜 안말리고 나가게했냐 따지지?",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "아 키차이 너무 귀여움 그냥",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "케리아 방송제한 언제까지인지 아시나요…?",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "8:57",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "재계약하고 온거 보고 왔습니다 ㅠㅠ 케리아 화이팅!",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "5:29 팔짱낀거 졸귀... 아니 진짜 애기같다고..여친미 있어",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "스태프분 주인공병 잇으신가?",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "5:57 진짜 귀여운 장면 시작(원래 케리아(민석님)은 귀엽긴하지만ㅎㅎ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Keria 的叫聲真的…啊…啊…啊",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "Keria 的叫聲真的…啊…啊…啊 10:54 和前面過山車那裏",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "티익스 안 탔다니 엄메ㅠ",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "2:2 데이트갓노 ㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Cte vllllll",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "05:58 어? 무슨 소리지? 😶‍🌫",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "매니저아님?",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        }
+      ]
+    }
+  ],
+  "keyInsights": [
+    {
+      "type": "positive",
+      "topic": "케리아의 귀여움",
+      "topicEn": "Keria's Cuteness",
+      "topicZh": "凯里亚的可爱",
+      "topicJa": "ケリアのかわいさ",
+      "comment": "그냥 케리아가 너무 귀엽고 사랑스러운 사람 개추 ㄱㄱ.. ㅋㅋㅋ",
+      "commentLang": "ko",
+      "likes": 4518
+    },
+    {
+      "type": "negative",
+      "topic": "놀이기구",
+      "topicEn": "Amusement Rides",
+      "topicZh": "游乐设施",
+      "topicJa": "アミューズメントライド",
+      "comment": "@무야호-n3j진짜 찐따퇴치법 이런거라도 만들어라 제발",
+      "commentLang": "ko",
+      "likes": 62
+    },
+    {
+      "type": "positive",
+      "topic": "팀워크",
+      "topicEn": "Teamwork",
+      "topicZh": "团队合作",
+      "topicJa": "チームワーク",
+      "comment": "티원은 운모 없으면 안 돌아갈 듯\n이리오너라 지분도 굉장하고 민석이랑 같이 에버랜드 가주고 진행도 도와주고 현준이 적응도 도와주고 상혁이 애착인형에 이제 곧 수환이랑도 친해지겠지? 티원의 힐링코치가 분명함",
+      "commentLang": "ko",
+      "likes": 2916
+    },
+    {
+      "type": "negative",
+      "topic": "팬들과의 소통",
+      "topicEn": "Communication with Fans",
+      "topicZh": "与粉丝的互动",
+      "topicJa": "ファンとのコミュニケーション",
+      "comment": "와 8년만에 한국 온 날 마주치다니\n부러워요 흑흑",
+      "commentLang": "ko",
+      "likes": 16
+    }
+  ],
+  "analyzedAt": "2026-07-04T13:56:19.635286+00:00",
+  "analysisDuration": 171.6,
+  "tokenUsage": {
+    "input": 41644,
+    "output": 11554,
+    "embedding": 29900,
+    "total": 83098,
+    "estimatedCostUsd": 0.013777
+  }
+}

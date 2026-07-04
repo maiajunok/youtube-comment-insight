@@ -1,4 +1,4 @@
-import type { InsightData, HistoryItem, TopicComment } from '@/features/insight/types/insight'
+import type { InsightData, HistoryItem, TopicComment, CommentGraphData, VideoGraphData } from '@/features/insight/types/insight'
 import { httpClient as instance } from '@/shared/api/client'
 
 export const insightApi = {
@@ -58,6 +58,14 @@ export const insightApi = {
     const { data } = await instance.get(`/comments/${videoId}`, {
       params: { topic, sentiment },
     })
+    return data
+  },
+  async getGraph(videoId: string): Promise<CommentGraphData> {
+    const { data } = await instance.get<CommentGraphData>(`/graph/${videoId}`)
+    return data
+  },
+  async getVideoGraph(): Promise<VideoGraphData> {
+    const { data } = await instance.get<VideoGraphData>('/graph/videos')
     return data
   },
 }

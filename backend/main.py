@@ -14,8 +14,10 @@ from fastapi.responses import StreamingResponse
 from pydantic import BaseModel
 from openai import OpenAI
 
-from sentiment import analyze_sentiment
-from topic import classify_topics, _cosine_sim, _embed
+from analysis.embedding import cosine_sim, embed
+from analysis.graph import build_comment_graph, build_video_graph
+from analysis.sentiment import analyze_sentiment
+from analysis.topic import classify_topics
 from youtube import extract_video_id, fetch_comments
 
 load_dotenv(override=True)
@@ -36,6 +38,8 @@ CACHE_DIR = Path(__file__).parent / "cache"
 CACHE_DIR.mkdir(exist_ok=True)
 COMMENTS_DIR = CACHE_DIR / "comments"
 COMMENTS_DIR.mkdir(exist_ok=True)
+GRAPH_DIR = CACHE_DIR / "graph"
+GRAPH_DIR.mkdir(exist_ok=True)
 
 
 class InsightRequest(BaseModel):
@@ -267,6 +271,22 @@ def _save_comments_by_topic(video_id: str, comments: list[dict], id_to_topic: di
     )
 
 
+# create_task로 던진 백그라운드 작업이 GC되지 않도록 붙잡아두는 용도
+_background_tasks: set[asyncio.Task] = set()
+
+
+async def _build_graph_background(
+    video_id: str, comments: list[dict], id_to_topic: dict[str, str], topics: list[dict], api_key: str | None,
+):
+    try:
+        graph_data, _tokens = await asyncio.to_thread(build_comment_graph, comments, id_to_topic, topics, api_key)
+        (GRAPH_DIR / f"{video_id}.json").write_text(
+            json.dumps(graph_data, ensure_ascii=False), encoding="utf-8"
+        )
+    except Exception as e:
+        print(f"[graph] 반응 지도 생성 실패: {e}")
+
+
 def _sse(payload: dict) -> str:
     return f"data: {json.dumps(payload, ensure_ascii=False)}\n\n"
 
@@ -356,6 +376,13 @@ async def analyze(
         response["cached"] = False
         yield _sse({"step": "done", "data": response})
 
+        # 반응 지도는 응답 속도에 영향 없게 백그라운드에서 생성 — 실패해도 분석 결과엔 영향 없음
+        task = asyncio.create_task(
+            _build_graph_background(video_id, comments, id_to_topic, topics, x_openai_key)
+        )
+        _background_tasks.add(task)
+        task.add_done_callback(_background_tasks.discard)
+
     return StreamingResponse(
         generate(),
         media_type="text/event-stream",
@@ -367,10 +394,13 @@ async def analyze(
 async def refresh(video_id: str):
     cache_file = CACHE_DIR / f"{video_id}.json"
     comments_file = COMMENTS_DIR / f"{video_id}.json"
+    graph_file = GRAPH_DIR / f"{video_id}.json"
     if cache_file.exists():
         cache_file.unlink()
     if comments_file.exists():
         comments_file.unlink()
+    if graph_file.exists():
+        graph_file.unlink()
     return {"message": f"{video_id} 캐시 삭제 완료"}
 
 
@@ -568,7 +598,7 @@ async def common_topics(req: CommonTopicsRequest, x_openai_key: str | None = Hea
         try:
             client = OpenAI(api_key=api_key)
             all_labels = [label for g in groups for label in g]
-            embeddings, _tokens = _embed(client, all_labels)
+            embeddings, _tokens = embed(client, all_labels)
             group_embeddings = []
             idx = 0
             for g in groups:
@@ -586,7 +616,7 @@ async def common_topics(req: CommonTopicsRequest, x_openai_key: str | None = Hea
                 continue
             # 2) 못 잡았고 임베딩을 쓸 수 있으면 의미 유사도로 재확인
             if group_embeddings:
-                sims = [_cosine_sim(group_embeddings[0][i], oe) for oe in group_embeddings[gi]]
+                sims = [cosine_sim(group_embeddings[0][i], oe) for oe in group_embeddings[gi]]
                 if sims and max(sims) >= req.threshold:
                     continue
             matched_all = False
@@ -615,3 +645,61 @@ def get_topic_comments(video_id: str, topic: str = "", sentiment: str = "all"):
         raw = [c for c in raw if c["sentiment"] == sentiment.upper()]
 
     return {"topic": topic, "comments": raw, "total": len(raw), "counts": counts}
+
+
+def _graph_has_positions(video_id: str) -> bool:
+    """댓글 그래프 파일이 있어도, UMAP 좌표(x2d/y2d)를 붙이기 전(2D 지도 도입 이전)에
+    생성된 옛날 캐시는 노드 위치가 아예 없어서 화면에 아무것도 그려지지 않는다.
+    좌표가 없는 임베딩은 캐시에 저장돼 있지 않아 재계산할 수도 없으므로(비용 절감을 위해
+    그래프만 저장하고 임베딩은 버림), 이런 캐시는 "그래프 없음"과 동일하게 취급해서
+    재분석 유도 버튼이 뜨는 목록으로 보내야 함"""
+    graph_file = GRAPH_DIR / f"{video_id}.json"
+    if not graph_file.exists():
+        return False
+    try:
+        nodes = json.loads(graph_file.read_text(encoding="utf-8")).get("nodes", [])
+        return any(n.get("x2d") is not None for n in nodes)
+    except Exception:
+        return False
+
+
+@app.get("/api/graph/videos")
+def get_video_graph(x_openai_key: str | None = Header(default=None)):
+    """분석된 영상 전체를 대상으로 한 상위 계층 반응 지도 — 영상별 상위 토픽 프로필의
+    임베딩 유사도로 서로 비슷한 반응을 다루는 영상끼리 연결한다. 매 요청마다 즉석에서
+    계산함(영상 수가 적어 비용이 미미하고, 새 분석이 추가될 때마다 캐시 무효화를 신경 쓸 필요가 없음)."""
+    videos = []
+    for path in sorted(CACHE_DIR.glob("*.json"), key=lambda p: p.stat().st_mtime, reverse=True):
+        try:
+            data = json.loads(path.read_text(encoding="utf-8"))
+            v = data["video"]
+            topics = data.get("topics", [])
+            total_mentions = sum(t["mentionCount"] for t in topics) or 1
+            pos = round(sum(t["sentiment"]["positive"] * t["mentionCount"] for t in topics) / total_mentions)
+            neu = round(sum(t["sentiment"]["neutral"]  * t["mentionCount"] for t in topics) / total_mentions)
+            neg = round(sum(t["sentiment"]["negative"] * t["mentionCount"] for t in topics) / total_mentions)
+            videos.append({
+                "videoId": path.stem,
+                "title": v["title"],
+                "thumbnailUrl": v.get("thumbnailUrl", ""),
+                "commentCount": v.get("analyzedComments", 0),
+                "sentiment": {"positive": pos, "neutral": neu, "negative": neg},
+                "topics": [t["label"] for t in topics],
+                "hasGraph": _graph_has_positions(path.stem),
+            })
+        except Exception:
+            pass
+
+    try:
+        graph_data, _tokens = build_video_graph(videos, x_openai_key)
+    except EnvironmentError as e:
+        raise HTTPException(status_code=400, detail=str(e))
+    return graph_data
+
+
+@app.get("/api/graph/{video_id}")
+def get_comment_graph(video_id: str):
+    graph_file = GRAPH_DIR / f"{video_id}.json"
+    if not graph_file.exists() or not _graph_has_positions(video_id):
+        raise HTTPException(status_code=404, detail="반응 지도 데이터가 없습니다. 영상을 다시 분석해주세요.")
+    return json.loads(graph_file.read_text(encoding="utf-8"))

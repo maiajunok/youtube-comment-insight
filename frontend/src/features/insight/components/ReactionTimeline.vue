@@ -35,8 +35,10 @@ const chart1 = useChartHover() // 다이버징(긍정/부정) 차트
 const chart2 = useChartHover() // 순감정 + 밴드 차트
 
 const expandedBurstIdx = ref<number | null>(null)
+const showAllForDay = ref(false)
 function openBurstDetail(i: number) {
   expandedBurstIdx.value = i
+  showAllForDay.value = false
 }
 
 const burstHoverIdx = ref<number | null>(null)
@@ -85,23 +87,71 @@ const DAYS_SINCE_UPLOAD_LABEL: Record<Lang, (n: number) => string> = {
 }
 const LOCALE_MAP: Record<Lang, string> = { ko: 'ko-KR', en: 'en-US', zh: 'zh-CN', ja: 'ja-JP' }
 
-// 그래프 아래 요약 리스트용 — 이상치 구간만 뽑아서 날짜/업로드 후 며칠째인지 정리
-const burstEntries = computed(() =>
-  props.data
-    .map((d, i) => ({ d, i }))
-    .filter(({ d }) => d.isBurst)
-    .map(({ d, i }) => ({
-      index: i,
-      direction: d.direction,
-      date: d.bucketStart
-        ? new Date(d.bucketStart).toLocaleString(LOCALE_MAP[props.lang], {
-            year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit',
-          })
-        : pointLabels.value[i],
-      daysLabel: d.elapsedSeconds != null
-        ? DAYS_SINCE_UPLOAD_LABEL[props.lang](Math.floor(Math.max(d.elapsedSeconds, 0) / 86400))
-        : '',
-    }))
+// 그래프 아래 요약 리스트용 — 이상치 구간을 날짜별로 묶고, 같은 날 여러 번이면
+// 펼쳤을 때 시간대별로 보여줌 (등빈도 버킷 특성상 같은 날 여러 버킷이 이상치로
+// 잡히는 경우가 많아, 목록에서는 날짜 단위로 정리하는 게 덜 산만함)
+type BurstTimeEntry = { index: number; direction: TimelinePoint['direction']; timeLabel: string }
+type BurstDayGroup = { dateKey: string; dateLabel: string; direction: TimelinePoint['direction']; times: BurstTimeEntry[] }
+
+const burstDayGroups = computed(() => {
+  const groups = new Map<string, BurstDayGroup>()
+
+  props.data.forEach((d, i) => {
+    if (!d.isBurst || !d.bucketStart) return
+    const dt = new Date(d.bucketStart)
+    const dateKey = `${dt.getFullYear()}-${dt.getMonth()}-${dt.getDate()}`
+    const timeLabel = dt.toLocaleTimeString(LOCALE_MAP[props.lang], { hour: '2-digit', minute: '2-digit' })
+
+    let group = groups.get(dateKey)
+    if (!group) {
+      const dateLabel = dt.toLocaleDateString(LOCALE_MAP[props.lang], { year: 'numeric', month: '2-digit', day: '2-digit' })
+      group = { dateKey, dateLabel, direction: d.direction, times: [] }
+      groups.set(dateKey, group)
+    }
+    group.times.push({ index: i, direction: d.direction, timeLabel })
+  })
+
+  return [...groups.values()]
+})
+
+// 날짜 pill은 항상 그 날의 첫 이상치를 열고, 같은 날 여러 건이면 드로어 안에서
+// 시간대를 전환함(따로 뜨는 드랍다운 없이 오른쪽 드로어 안에서 바로 처리)
+function openDay(group: BurstDayGroup) {
+  openBurstDetail(group.times[0].index)
+}
+
+const activeDayGroup = computed(() => {
+  if (expandedBurstIdx.value == null) return null
+  return burstDayGroups.value.find(g => g.times.some(t => t.index === expandedBurstIdx.value)) ?? null
+})
+
+// "전체" 선택 시 그 날의 모든 이상치 시간대를 하나로 합친 가상의 포인트를 만들어 드로어에 넘김 —
+// 긍정/중립/부정은 합산, 대표 댓글은 전부 모아 좋아요순 재정렬. direction/zScore는 그 날 중
+// 가장 극단적인(절대값이 큰) 시간대의 값을 대표로 씀(합산이 의미 없는 값이라)
+const drawerPoint = computed<TimelinePoint | null>(() => {
+  if (expandedBurstIdx.value == null) return null
+  const base = props.data[expandedBurstIdx.value]
+  if (!showAllForDay.value || !activeDayGroup.value) return base ?? null
+
+  const points = activeDayGroup.value.times
+    .map(t => props.data[t.index])
+    .filter((p): p is TimelinePoint => !!p)
+  if (!points.length) return base ?? null
+
+  const mostExtreme = points.reduce((best, p) => Math.abs(p.zScore ?? 0) > Math.abs(best.zScore ?? 0) ? p : best)
+
+  return {
+    ...mostExtreme,
+    positive: points.reduce((s, p) => s + p.positive, 0),
+    neutral: points.reduce((s, p) => s + p.neutral, 0),
+    negative: points.reduce((s, p) => s + p.negative, 0),
+    topComments: points.flatMap(p => p.topComments ?? []).sort((a, b) => b.likeCount - a.likeCount),
+    bucketStart: points[0]!.bucketStart,
+    bucketEnd: points[points.length - 1]!.bucketEnd ?? points[points.length - 1]!.bucketStart,
+  }
+})
+const drawerLabel = computed(() =>
+  showAllForDay.value ? (activeDayGroup.value?.dateLabel ?? '') : (pointLabels.value[expandedBurstIdx.value ?? -1] ?? '')
 )
 
 // SVG 좌표계 상수
@@ -427,12 +477,14 @@ const M = computed(() => messages[props.lang])
     <div class="flex items-start justify-between mb-5"
       style="border-top: 0.5px solid var(--border); margin-top: var(--card-padding); padding-top: var(--card-padding)">
       <div>
-        <h2 class="text-[14px] font-bold" style="color: var(--text)">
-          {{ M.netSentimentTrend }}
-        </h2>
-        <p class="text-[11px] font-semibold mt-0.5" style="color: var(--anomaly)">
-          {{ M.netSentimentAnomalyLabel }}
-        </p>
+        <div class="flex items-center gap-2">
+          <h2 class="text-[14px] font-bold" style="color: var(--text)">
+            {{ M.netSentimentTrend }}
+          </h2>
+          <span class="text-[10px] uppercase tracking-wide" style="color: var(--subtext); opacity: 0.5">
+            ({{ M.netSentimentAnomalyLabel }})
+          </span>
+        </div>
         <p class="text-[10px] mt-1 italic" style="color: var(--subtext)">{{ M.netSentimentSub }}</p>
       </div>
     </div>
@@ -530,31 +582,36 @@ const M = computed(() => messages[props.lang])
       </span>
     </div>
 
-    <!-- 이상치 요약 리스트 -->
-    <div v-if="burstEntries.length" class="burst-summary">
-      <p class="burst-summary-title">{{ M.anomalyDetected }} {{ burstEntries.length }}건</p>
+    <!-- 이상치 요약 리스트 — 날짜별로 묶고, 같은 날 여러 건이면 드로어 안에서 시간대 전환 -->
+    <div v-if="burstDayGroups.length" class="burst-summary">
+      <p class="burst-summary-title">{{ M.anomalyDetected }} {{ burstDayGroups.length }}건</p>
       <button
-        v-for="entry in burstEntries"
-        :key="entry.index"
+        v-for="group in burstDayGroups"
+        :key="group.dateKey"
         class="burst-summary-item"
-        :class="{ 'burst-summary-item-active': burstHoverIdx === entry.index }"
-        @click="openBurstDetail(entry.index)"
-        @mouseenter="burstHoverIdx = entry.index"
+        :class="{ 'burst-summary-item-active': group.times.some(t => t.index === expandedBurstIdx) || (group.times.length === 1 && burstHoverIdx === group.times[0].index) }"
+        @click="openDay(group)"
+        @mouseenter="burstHoverIdx = group.times[0].index"
         @mouseleave="burstHoverIdx = null"
       >
-        <span class="burst-dot" :style="{ background: entry.direction === 'NEGATIVE_SPIKE' ? 'var(--negative)' : 'var(--positive)' }"></span>
-        <span class="burst-date">{{ entry.date }}</span>
+        <span class="burst-dot" :style="{ background: group.direction === 'NEGATIVE_SPIKE' ? 'var(--negative)' : 'var(--positive)' }"></span>
+        <span class="burst-date">{{ group.dateLabel }}</span>
       </button>
     </div>
 
   </div>
 
   <BurstCommentsDrawer
-    v-if="expandedBurstIdx != null"
-    :point="data[expandedBurstIdx]"
-    :label="pointLabels[expandedBurstIdx]"
+    v-if="drawerPoint"
+    :point="drawerPoint"
+    :label="drawerLabel"
     :lang="lang"
-    @close="expandedBurstIdx = null"
+    :sibling-times="activeDayGroup?.times"
+    :active-index="showAllForDay ? null : expandedBurstIdx"
+    :show-all="showAllForDay"
+    @select-time="showAllForDay = false; expandedBurstIdx = $event"
+    @select-all="showAllForDay = true"
+    @close="expandedBurstIdx = null; showAllForDay = false"
   />
 </template>
 
@@ -586,7 +643,8 @@ const M = computed(() => messages[props.lang])
   cursor: pointer;
   transition: border-color 0.15s, background 0.15s;
 }
-.burst-summary-item:hover {
+.burst-summary-item:hover,
+.burst-summary-item-active {
   border-color: var(--anomaly);
   background: rgb(255 222 89 / 0.1);
 }
@@ -600,9 +658,7 @@ const M = computed(() => messages[props.lang])
   font-weight: 600;
   color: var(--text);
 }
-.burst-days {
-  color: var(--subtext);
-}
+
 .chart-tooltip {
   position: absolute;
   top: 8px;

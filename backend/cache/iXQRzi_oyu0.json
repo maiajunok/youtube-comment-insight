@@ -1,0 +1,1491 @@
+{
+  "video": {
+    "videoId": "iXQRzi_oyu0",
+    "title": "2026 아이치·나고야 아시안 게임 국가대표 후보자 선정",
+    "channelTitle": "Hanwha Life Esports",
+    "thumbnailUrl": "https://i.ytimg.com/vi/iXQRzi_oyu0/maxresdefault.jpg",
+    "publishedAt": "2026-05-18",
+    "viewCount": 126875,
+    "likeCount": 7424,
+    "analyzedComments": 1147,
+    "languageRatio": {
+      "ko": 88,
+      "en": 3,
+      "other": 9
+    },
+    "weightedSentiment": 73
+  },
+  "topics": [
+    {
+      "label": "국대 선발 축하",
+      "labelEn": "National Team Selection Congratulations",
+      "labelZh": "国家队选拔祝贺",
+      "labelJa": "国代表選出おめでとう",
+      "mentionCount": 476,
+      "sentiment": {
+        "positive": 89,
+        "neutral": 9,
+        "negative": 2
+      }
+    },
+    {
+      "label": "금메달 기대",
+      "labelEn": "Gold Medal Expectations",
+      "labelZh": "金牌期待",
+      "labelJa": "金メダルの期待",
+      "mentionCount": 316,
+      "sentiment": {
+        "positive": 72,
+        "neutral": 21,
+        "negative": 7
+      }
+    },
+    {
+      "label": "선수 개인 응원",
+      "labelEn": "Support for Individual Players",
+      "labelZh": "对个人球员的支持",
+      "labelJa": "個々の選手への応援",
+      "mentionCount": 197,
+      "sentiment": {
+        "positive": 59,
+        "neutral": 33,
+        "negative": 8
+      }
+    },
+    {
+      "label": "팀 성과",
+      "labelEn": "Team Achievements",
+      "labelZh": "团队成就",
+      "labelJa": "チームの成果",
+      "mentionCount": 123,
+      "sentiment": {
+        "positive": 46,
+        "neutral": 49,
+        "negative": 6
+      }
+    },
+    {
+      "label": "법적 대응 요청",
+      "labelEn": "Request for Legal Action",
+      "labelZh": "请求法律行动",
+      "labelJa": "法的措置の要求",
+      "mentionCount": 35,
+      "sentiment": {
+        "positive": 34,
+        "neutral": 51,
+        "negative": 14
+      }
+    }
+  ],
+  "reactionTimeline": [
+    {
+      "elapsedSeconds": 30.0,
+      "bucketStart": "2026-05-18T05:09:19+00:00",
+      "bucketEnd": "2026-05-18T05:10:15+00:00",
+      "positive": 37,
+      "neutral": 2,
+      "negative": 1,
+      "netSentiment": 0.9,
+      "zScore": 1.687,
+      "isBurst": true,
+      "direction": "POSITIVE_SPIKE",
+      "topComments": [
+        {
+          "text": "제우스 제카 구마유시 추카해🎉🎉금메달 가져와있!!!!",
+          "likeCount": 1838,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "미친거지 더 응원한다",
+          "likeCount": 923,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "제우스 제카 구마유시 국가대표 축하드립니다!! 꼭 금메달로 보답해주세요!!!",
+          "likeCount": 569,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "제제구!!!!!!! 한생이스포츠화이팅이다!!",
+          "likeCount": 552,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "제우스 제카 구마유시 국대 가보자",
+          "likeCount": 449,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "헐!!!!!! 얘들아!!!!!!!!!! 미쳤다!!!!! 미쳤다고ㅠㅠ!!!! 우리 뚱띠들!!!!! 가자가자!!!! 가보자!!!!!!!!!!!!",
+          "likeCount": 175,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "우리팀 멋있어",
+          "likeCount": 152,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "제우스 파이팅~~!! 😍😍\n우제야 항상 니가 너무 자랑스러워!!!",
+          "likeCount": 104,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "무조건 응원한다ㅠㅠㅠ 우리 선수들 화이팅이야!!",
+          "likeCount": 65,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "이거야 난 믿고 있었다 제우스 제카 구마야. 나비랑 환중이는 못 간 거 아쉽지만 다음 기회를 잘 노려보자. 우제 건우 민형이 다시 한 번 축하해!!!",
+          "likeCount": 53,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "이거다",
+          "likeCount": 41,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "와 이게 된다!!!!!!! 진짜 축하해❤",
+          "likeCount": 32,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "3명 다 국가대표 꼭 되기를! 화이팅!",
+          "likeCount": 19,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "아 진짜 사랑한다 얘들아! 파이팅!!",
+          "likeCount": 19,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㅁㅊㄷㅁㅊㄷ 제제구!!!!!!!!!!!!!!!",
+          "likeCount": 17,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "으아아앙아아악 가자아ㅏㅏㅏㅏ!!!!!!!!!! 액땜이였구나!!!!!!!!! 국대가자!!!!!!!!!!!!!!!",
+          "likeCount": 13,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "가보자",
+          "likeCount": 5,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "1등",
+          "likeCount": 5,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "제제구 축하해!!!!! 😍😍😍",
+          "likeCount": 5,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㅁㅊㅁㅊㅁㅊㅁㅊㅁㅊㅁㅊ",
+          "likeCount": 4,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "캬 우탑제 우미제 우원구! 국대 화이팅!!",
+          "likeCount": 4,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "화이팅 제우스,제카,구마유시 국대 가보자!!",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "아미친 얘들아 너무 축하해",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "이번에도 금메달 가자 얘들아!! 화이팅ㅇ!!!!",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "후보자라는거는 말그대로 후보라는거고 확정은 아닌거죠?",
+          "likeCount": 2,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "제제구 가즈아아아아아ㅏㅇ!!!!!!",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "으아아악ㅠㅠㅠㅠㅠㅠㅠ믿고있었다고ㅠ!!!!!!!!!!!",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "이자식들 진짜 가보자 존내 잘해내보자!!!!!!!!",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "제제구 힘내라. 우리나라의 자랑이다.",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "미친미친미친 !!!!!!!!!!!!!!!!!!!!!!!!",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "구마야 폼 끌어올려서 우승하자!",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "미친 ㅋㅋㅋㅋ 개나이스",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Wosaaa",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "제우스 제카 구마유시🧡🧡🧡국대 드가자ㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "국대 화이팅!!!",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "아니 진짜ㅠㅠㅠ???정말로????ㅠㅠㅠㅠㅠ",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "와 한화 3명 가는거 너무좋다 얘들아 추카해",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "❤❤❤❤❤",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "미친거지!!!!!!",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "제제구 국대 선발 드가자",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        }
+      ]
+    },
+    {
+      "elapsedSeconds": 92.0,
+      "bucketStart": "2026-05-18T05:10:21+00:00",
+      "bucketEnd": "2026-05-18T05:11:56+00:00",
+      "positive": 35,
+      "neutral": 4,
+      "negative": 1,
+      "netSentiment": 0.85,
+      "zScore": 1.311,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 193.0,
+      "bucketStart": "2026-05-18T05:12:02+00:00",
+      "bucketEnd": "2026-05-18T05:14:31+00:00",
+      "positive": 31,
+      "neutral": 6,
+      "negative": 3,
+      "netSentiment": 0.7,
+      "zScore": 0.184,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 343.0,
+      "bucketStart": "2026-05-18T05:14:32+00:00",
+      "bucketEnd": "2026-05-18T05:17:29+00:00",
+      "positive": 24,
+      "neutral": 15,
+      "negative": 1,
+      "netSentiment": 0.575,
+      "zScore": -0.756,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 525.0,
+      "bucketStart": "2026-05-18T05:17:34+00:00",
+      "bucketEnd": "2026-05-18T05:19:48+00:00",
+      "positive": 33,
+      "neutral": 6,
+      "negative": 1,
+      "netSentiment": 0.8,
+      "zScore": 0.935,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 663.0,
+      "bucketStart": "2026-05-18T05:19:52+00:00",
+      "bucketEnd": "2026-05-18T05:23:36+00:00",
+      "positive": 27,
+      "neutral": 12,
+      "negative": 1,
+      "netSentiment": 0.65,
+      "zScore": -0.192,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 889.0,
+      "bucketStart": "2026-05-18T05:23:38+00:00",
+      "bucketEnd": "2026-05-18T05:26:52+00:00",
+      "positive": 32,
+      "neutral": 7,
+      "negative": 1,
+      "netSentiment": 0.775,
+      "zScore": 0.747,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 1097.0,
+      "bucketStart": "2026-05-18T05:27:06+00:00",
+      "bucketEnd": "2026-05-18T05:31:10+00:00",
+      "positive": 30,
+      "neutral": 9,
+      "negative": 1,
+      "netSentiment": 0.725,
+      "zScore": 0.371,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 1344.0,
+      "bucketStart": "2026-05-18T05:31:13+00:00",
+      "bucketEnd": "2026-05-18T05:36:06+00:00",
+      "positive": 32,
+      "neutral": 6,
+      "negative": 2,
+      "netSentiment": 0.75,
+      "zScore": 0.559,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 1649.0,
+      "bucketStart": "2026-05-18T05:36:18+00:00",
+      "bucketEnd": "2026-05-18T05:42:37+00:00",
+      "positive": 30,
+      "neutral": 8,
+      "negative": 2,
+      "netSentiment": 0.7,
+      "zScore": 0.184,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 2029.0,
+      "bucketStart": "2026-05-18T05:42:38+00:00",
+      "bucketEnd": "2026-05-18T05:47:55+00:00",
+      "positive": 29,
+      "neutral": 8,
+      "negative": 3,
+      "netSentiment": 0.65,
+      "zScore": -0.192,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 2358.0,
+      "bucketStart": "2026-05-18T05:48:07+00:00",
+      "bucketEnd": "2026-05-18T05:55:44+00:00",
+      "positive": 28,
+      "neutral": 8,
+      "negative": 4,
+      "netSentiment": 0.6,
+      "zScore": -0.568,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 2830.0,
+      "bucketStart": "2026-05-18T05:55:59+00:00",
+      "bucketEnd": "2026-05-18T06:04:11+00:00",
+      "positive": 27,
+      "neutral": 12,
+      "negative": 1,
+      "netSentiment": 0.65,
+      "zScore": -0.192,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 3324.0,
+      "bucketStart": "2026-05-18T06:04:13+00:00",
+      "bucketEnd": "2026-05-18T06:15:46+00:00",
+      "positive": 37,
+      "neutral": 3,
+      "negative": 0,
+      "netSentiment": 0.925,
+      "zScore": 1.875,
+      "isBurst": true,
+      "direction": "POSITIVE_SPIKE",
+      "topComments": [
+        {
+          "text": "캬 일 잘하는 거 봐라\n구마유시 그 험난한 여정을 뚫고 국대로 인정받는 것 같아 나도 덩달아 기분 좋다\n꼭 군면제 받자 형은 동갑인데 이미 군필이다",
+          "likeCount": 278,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "@whomakethiiis남의팀 채널까지 쳐 찾아와서 지랄하는거 보면 경의롭네 ㅋㅋ 이런거 보면 구마유시가 얼마나 슈퍼스타인지 다시 한번 느낀다^^",
+          "likeCount": 15,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "​@whomakethiiis그럼 구마 말고 누가 있는데 구마 글고 잘해주고 있음",
+          "likeCount": 4,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "Wow 제제구❤ 축하해🎉🎉🎉 금메달🏅 가보자",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "금메달 따와라 올해 따와야할게 좀 많다 얘들아",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "위에 두명 이 채널에서 댓글 1개씩이네 ㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "@whomakethiiis 구마유시 화이팅 같이 응원해요^^!",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "왜 제제구만 있지 했는데\n한화오피셜이였네 캬",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "@SaymarJr 고것도 다 ~ 애정 아니겄어요~?많이 응원합시다~^^",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "꼭 우승해다오",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "축하해애애애애애애애",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "이렇게된거 우승도 하고오자!금매달사냥",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "🎉🎉🎉🎉경사났네🎉🎉경사났어🎉",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Nhà mình đẳng cấp 🤟😭🤟",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "민형아!! 국대 너무 축하해ㅠㅠ 꼭 금메달 따서 군면제 받고 오래 선수 생활하자. 우제는 나이도 어린데 두 번 연속으로 국대 선발되고 미쳤다.. 제카 선수도 정말 축하합니다!! 지금 폼 좋은데 꼭 메달 따길..🙏🏻",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "설렌다❤❤",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "야~~~~~르!!!!!!",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "와 진짜 최고다 너무 기쁘다 제우스 제카 구마유시ㅜㅜㅜ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "제제구 아시안게임 금메달 ㅎㅇㅌ!!",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "캬 금메달 먹방 가보자고🧡🧡🧡",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "건우야, 네가 어머니의 꿈을 이루는구나. 장하다. 정말 장하다.",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "금메달 향해 끝까지 화이팅",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "가서 꼭 금메달 따고 와주세요",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "제우스,구마유시,제카 선수 국대 되신거 축하드립니다. 아겜 금메달 꼭 목에 걸었으면 좋겠네요~ 응원하겠습니다!!😊",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Richoi🎉🎉🎉",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "🎉🎉🎉🎉🎉🎉🎉🎉 가보자",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Congratulations 🎉🎉🎉",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "i love Zeus và Gumayusi",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Chúc mừng bà nha, mấy cục vàng cố lên nhaaa",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "가보자 제제구!!!!!",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "제제구 오래보고싶다 메달 맡겨놓은건 아니지만 준비 열심히해서 좋은 결과 만들어보자!!!!",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "구케듀오 가슴이 벅차다ㅠㅠㅠ우승하고 다시 안자ㅠㅠㅠㅠㅠ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "zeus zeka gumayusi fighting!!! 🧡☘️",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "우제야 건우야 민형아 너무 축하한다!!🥳\n원한다고 갈 수 있는 자리도 아니고, 선정된다고 해도 수많은 부담감과 책임감을 갖고 임해야 하는 자리일텐데 부디 최선을 다하되 그 부담감에 짓눌리지 않길...🥹\n\nW.J. CHOI\nG.W. KIM\nM.H. LEE\n등에 새기고 응원할게🧡\n제우스 제카 구마유시 파이팅🔥",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "미녕아ㅠㅠㅠ 국대 너무 축하해❤",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "제제구 드가자!!!!!!!!!!!",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "제제구 화이팅!!!!! 너무 축하해ㅠㅠㅠㅠ 국대 원딜의 팬이라서 너무 행복해 ㅠㅠㅠ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "축하해 제제구!!! 열심히 해보자! 너무 자랑스럽다",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Daebak, Perfect, Amazing, Great. Congrats Gumayusi, Zeus and Zeka",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "​@나난난다 아마 출전도 하겠죠 페이커 벤치로 쓴다는 글도 없고 같이 있으면서 이것저것 배울수도 있으니까여",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "elapsedSeconds": 4018.0,
+      "bucketStart": "2026-05-18T06:15:47+00:00",
+      "bucketEnd": "2026-05-18T06:27:14+00:00",
+      "positive": 23,
+      "neutral": 17,
+      "negative": 0,
+      "netSentiment": 0.575,
+      "zScore": -0.756,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 4720.0,
+      "bucketStart": "2026-05-18T06:27:29+00:00",
+      "bucketEnd": "2026-05-18T06:40:39+00:00",
+      "positive": 28,
+      "neutral": 12,
+      "negative": 0,
+      "netSentiment": 0.7,
+      "zScore": 0.184,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 5530.0,
+      "bucketStart": "2026-05-18T06:40:59+00:00",
+      "bucketEnd": "2026-05-18T06:54:22+00:00",
+      "positive": 24,
+      "neutral": 13,
+      "negative": 3,
+      "netSentiment": 0.525,
+      "zScore": -1.132,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 6339.0,
+      "bucketStart": "2026-05-18T06:54:28+00:00",
+      "bucketEnd": "2026-05-18T07:14:29+00:00",
+      "positive": 34,
+      "neutral": 5,
+      "negative": 1,
+      "netSentiment": 0.825,
+      "zScore": 1.123,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 7553.0,
+      "bucketStart": "2026-05-18T07:14:42+00:00",
+      "bucketEnd": "2026-05-18T07:40:27+00:00",
+      "positive": 28,
+      "neutral": 12,
+      "negative": 0,
+      "netSentiment": 0.7,
+      "zScore": 0.184,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 9116.0,
+      "bucketStart": "2026-05-18T07:40:45+00:00",
+      "bucketEnd": "2026-05-18T08:07:30+00:00",
+      "positive": 31,
+      "neutral": 6,
+      "negative": 3,
+      "netSentiment": 0.7,
+      "zScore": 0.184,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 10742.0,
+      "bucketStart": "2026-05-18T08:07:51+00:00",
+      "bucketEnd": "2026-05-18T08:57:38+00:00",
+      "positive": 27,
+      "neutral": 12,
+      "negative": 1,
+      "netSentiment": 0.65,
+      "zScore": -0.192,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 13793.0,
+      "bucketStart": "2026-05-18T08:58:42+00:00",
+      "bucketEnd": "2026-05-18T10:01:51+00:00",
+      "positive": 34,
+      "neutral": 4,
+      "negative": 2,
+      "netSentiment": 0.8,
+      "zScore": 0.935,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 17583.0,
+      "bucketStart": "2026-05-18T10:01:52+00:00",
+      "bucketEnd": "2026-05-18T10:54:57+00:00",
+      "positive": 31,
+      "neutral": 8,
+      "negative": 1,
+      "netSentiment": 0.75,
+      "zScore": 0.559,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 20805.0,
+      "bucketStart": "2026-05-18T10:55:34+00:00",
+      "bucketEnd": "2026-05-18T12:04:52+00:00",
+      "positive": 31,
+      "neutral": 3,
+      "negative": 6,
+      "netSentiment": 0.625,
+      "zScore": -0.38,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 25525.0,
+      "bucketStart": "2026-05-18T12:14:14+00:00",
+      "bucketEnd": "2026-05-18T13:34:17+00:00",
+      "positive": 21,
+      "neutral": 17,
+      "negative": 2,
+      "netSentiment": 0.475,
+      "zScore": -1.507,
+      "isBurst": true,
+      "direction": "NEGATIVE_SPIKE",
+      "topComments": [
+        {
+          "text": "구마팬으로서 걍 오열....\n쓰리핏을 해도 월즈파엠을 받아도 지금 잘하고 있는데도 여전히 챔프폭 어쩌고 실력 저쩌고 억까, 인정 못하는 사람 많은데 (어느 글로벌 해설이 아직도 이악물고 민형이 챔프폭 좁대)\n드디어 인정?보상? 받는 기분이라서 너무너무너무 기뻐요....\n물론 금메달 가져와야 돼.....",
+          "likeCount": 44,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "제우스, 구마유시, 제카 선수 아시안게임 국대 선발 진심으로 축하드립니다! 🇰🇷 한화생명 팬으로서 너무 자랑스럽네요! 국대 버프 받고 이제 바로 코앞인 EWC 한국 선발전도 집중해서 꼭 본선 티켓 따봅시다!! 오렌지 전차 가자!! HLE 화이팅! 🔥🍊",
+          "likeCount": 22,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "국가대표 됐으니 더 잘해야겠지? 잘해다오 제발 ㅋㅋㅋ 응원할게",
+          "likeCount": 11,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "와 이건 또 언제 만들었대",
+          "likeCount": 6,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "우제 진짜 멋지다❤❤",
+          "likeCount": 6,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "와 나 눈물나ㅜㅜ 진심으로 축하해🎉  금메달 따고오자!!!!!!!!!",
+          "likeCount": 4,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ZEUS FIGHTING",
+          "likeCount": 4,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㅊㅋㅊㅋ 제제구 ㅎㅇㅌ",
+          "likeCount": 4,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "\"우리 탑\"\n\"우리 미드\"\n\"우리 원딜\"",
+          "likeCount": 4,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "What a way to start my day !!!! Gumayusi, Zeus, & Zeka I'm praying for your success ✨🙏💕",
+          "likeCount": 4,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "축하해 꼭 금메달 따자 최고의 선수들🐷🧡",
+          "likeCount": 4,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "9월에서 10월이면 초가을이다..가을이랑 국제전을 만난 구마유시를 안믿을수있나 기름 차오른다 전어야",
+          "likeCount": 3,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "우탑제 우미제 우원구 축하해🎉🎉🎉🎉",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "하하하 기분 좋아 국대생명😁🧡",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "하필 여론 악화로 힘들었던 우제가 선발라인 발표로 눈치볼만한 상황이 된것같아 슬프네요ㅠ 우리선수들이 증명하면 되는것! 잘하는건 우리가 알고있으니까 기죽지말고 한화 화이팅ㅠㅠ!!!!!",
+          "likeCount": 3,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "꼭 금메달 따자 대 한 화 생 명 화이팅!!!!!!!!!!",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "제제구 좋다 ㅎㅇㅌㅎㅇㅌ",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "국가를 위해 나가는 만큼 더 잘 하려고 노력할 선수들인걸 알기에 더 빡세게 응원 합니다!!! ㅍㄷㅌ ㅍㅇㅌ!!!! 🍊 ❤",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "구마유시😭😭🥹 넘 자람스럽따  우원국대!!!! 잘하구와!!!",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "캐니언 선수도 축하합니다 파이팅!!",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "진짜 나 자부심느껴... 구마유시 화이팅 축하해요😢😢❤❤❤",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "한생 유튜브팀은 돈 많이 받으세요 ~",
+          "likeCount": 2,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "나 이렇게 행복해도 되니",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "🍊🍀🧡🍊🍀🧡",
+          "likeCount": 2,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "멋있다!!!!",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Congratsss",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "🎉🎉🎉",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "카나비는 왜 안 됐지\n현제 대체 불가 라고 생각하는데",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "나기대해",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "가즈아!!!!!!",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "또 제카라니 ㅇㅈㄹ했으면 쳐 꺼져",
+          "likeCount": 1,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "무슨 의무 훈련? 그런거 이행안해서 못뽑은거임\n작년이 제우스 빡빡이 기억함? 올해 쵸비 룰러 빡빡이된거처럼 카나비도 내년에 빡빡이 될 예정 ㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "화이팅!!!!!!!",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "금메달 이미 잡았죠?",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "이미 면제임",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "​@wooboo-k4hㅇㅎ 대상혁은 상관 없나요?",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "sĩ nhỉ",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "최근지표는 너무좋지만 케스파 근2년간 국제전은 성적이 약간 저조해서?그런거같아요 한화4명갈수있었는데 쩝ㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "@kong-f7t아하 ㄱㅅ",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "샤샤샤샤",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "elapsedSeconds": 30336.0,
+      "bucketStart": "2026-05-18T13:34:25+00:00",
+      "bucketEnd": "2026-05-18T15:29:41+00:00",
+      "positive": 24,
+      "neutral": 9,
+      "negative": 7,
+      "netSentiment": 0.425,
+      "zScore": -1.883,
+      "isBurst": true,
+      "direction": "NEGATIVE_SPIKE",
+      "topComments": [
+        {
+          "text": "에펨코리아같은 실명제에서도 선발선수를 대상으로 명예를 실추시키는 게시글도 많으니 많은 자료수집 부탁드립니다.\n스폰서 음모론 같은 자사 명예훼손성 게시글도 있으니 법적대응 하실려면 참고 바랍니다.",
+          "likeCount": 107,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "​​@kwbfcuis슼갈이지 오너 발탁안된거에 지금 댓글 폭발중인데",
+          "likeCount": 72,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "응갤에선 진지하게 믿고 문체부 문의넣더만 ㅋㅋ",
+          "likeCount": 56,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "맞습니다! 자기 생각이 무슨 사실인것 마냥 이야기하는 루머와 명예훼손...이건 진짜 법맛을 좀 봐야함...앞으로 lck리그와 각각 선발전, 국제대회 경기하면서 올해 국대 최다 보유팀이기에 지속적으로 괴롭힐 인간들이라서 미리 방역 필요...!",
+          "likeCount": 41,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "누구 한명만 팬이 아닌 여러 선수들 팬인데 항상 구마유시 이상하게 욕 먹는 거 기분 나빴는데 정말 이번에 잘해서 행복 프로게이머 생활하자! 강한 사람이라 이번에도 잘 할 거라 믿는다! 제우스 또한 예전에 맘 아팠는데 진짜 둘이 즐거운 일 가득했으면 좋겠다! \n화이팅이다!",
+          "likeCount": 35,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "민형이 축하한다 항상 너의 길을 응원해 제제구 화이팅",
+          "likeCount": 21,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "제우스 그렇게 억까를 당해도 만장일치로 국대 선정ㅋㅋㅋㅋㅋ 우스가 국대 가서 기분 너무 좋다",
+          "likeCount": 17,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "아마 젠지팬들이 하는듯 ㅋㅋ",
+          "likeCount": 15,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "원딜에 월즈 쓰리핏 파이널 파엠이 국대 안가면 대체 누가 나감 ㄹㅇ",
+          "likeCount": 15,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "진짜 구단이 일 겁나잘하네 msi 꼭먹자",
+          "likeCount": 14,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "걍 실력으로 뽑힌건데 응원만하면 됨",
+          "likeCount": 13,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "한화 모기업도 일 잘하는 걸로 알고있는데 선수단이랑 팀에 루머 퍼뜨리는 사람들 꼭 고소 부탁드립니다",
+          "likeCount": 10,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "제우스 제카 구마유시 선수 축하합니다!",
+          "likeCount": 10,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "우제야 건우야 민형아 국가대표 선발 축하해!!! 이번에도 응원할게!!!",
+          "likeCount": 9,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "이기고 돌아와라 멀리 안나간다 믿는다",
+          "likeCount": 9,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "영상도 멋지고 한화생명 이스포츠에서 3명이나 후보자 선정된것도 최고고 응원하는 팀이라 더 행복하다...킅전 져서 우울했었는데 다시 해삐",
+          "likeCount": 8,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "얘들아 금메달받고 깔끔하게 군면제받아오자",
+          "likeCount": 7,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "지금 폼 보고도 봇듀 구케가 안 나오면 진짜 롤알못 인정인거임 ㅋㅋㅋ",
+          "likeCount": 6,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "얘들아 축하해!!!!!!!! 국대생명!!!!!!! 환중이는 월즈가서 파엠받자!!!",
+          "likeCount": 6,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "축하합니다! 한화생명 5명 모두 올해 경기 다 잘 해보자 화이팅",
+          "likeCount": 4,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "구마 축하해 🎉🎉🎉",
+          "likeCount": 4,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "게다가 리그 1위팀임",
+          "likeCount": 4,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "국대 2회차 또다시 금메달 입에 물어보자 우제야❤",
+          "likeCount": 4,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "캬..................ㅜㅜㅜ한뽕 찬다... 오렌지 정병 완치. 너무 행복해 진짜ㅠ얘들아 전역하고 오자~!~!!!",
+          "likeCount": 4,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "제제구 화이팅!!!",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "좋다 좋아~~ 구마에 제카 까지 군면제 가자 너희들 오래보고싶다 제우스도 화이팅!!",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "행복해🧡",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "응원할 맛 제대로 난다 한화생명 화이팅!!!!!",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Congratulations 🎉🎉🎉",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "🎉🎉🎉🎉🎉🎉 đỉnh 😎",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Congrats three of them. 이걸 더 좋은 경기력을 보여주기 위한 발판이라고 생각하고 멋지게 경기해 주세요!",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "난아직 ㅋㅋ 더잘해야지",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Đỉnh của đỉnh",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "이번에 잘 뽑혔는데 탑이 제우스면 정글은 오너로 뽑고 정글 케니언이면 탑은 기인으로 뽑는 게 팀 합에 더 좋지 않았나 싶음..",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "뭐라고 유언비어 퍼트리나요??",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "​@꼬물1234페이커는 국대상관없이 원래 면제라 훈련소 안들어가요",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "흠",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "Fighting!!!!!",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "@wooboo-k4h 봉사시간 말하던게 이건가부넹 빡빡나비 ㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "Kanavi not being in the team is unbelievable.",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        }
+      ]
+    },
+    {
+      "elapsedSeconds": 37411.0,
+      "bucketStart": "2026-05-18T15:32:20+00:00",
+      "bucketEnd": "2026-05-19T00:39:31+00:00",
+      "positive": 29,
+      "neutral": 5,
+      "negative": 6,
+      "netSentiment": 0.575,
+      "zScore": -0.756,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 71749.0,
+      "bucketStart": "2026-05-19T01:04:38+00:00",
+      "bucketEnd": "2026-05-20T00:02:17+00:00",
+      "positive": 19,
+      "neutral": 16,
+      "negative": 5,
+      "netSentiment": 0.35,
+      "zScore": -2.447,
+      "isBurst": true,
+      "direction": "NEGATIVE_SPIKE",
+      "topComments": [
+        {
+          "text": "좋은 일이라고 최대한 날렵한 사진 찾아와서 썸네일 만든 거 칭찬해",
+          "likeCount": 33,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "코로나만 아니었어도 22년에 당연히 국대였는데 구마는 억울한거긴함ㅋㅋㅋㅋ",
+          "likeCount": 21,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "그것도 선수 본인의 권리니까 어쩔 수 없죠 근데 이미 최종후보로 결정된거라서 바뀔 가능성은 낮을거에요 \n그리고 2024-2025 우승기록이나 폼으로 봐도 구마유시가 바이퍼 선수보다 기록이 좋아서 큰 변동은 없지 않을까..",
+          "likeCount": 21,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "그팬들이 한화가 잘못되는걸 기도하고, 음해하는 이상황이 진짜 속상하긴합니다ㅠ다 잡아주세요오..한화화이팅",
+          "likeCount": 11,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "여기에 추천 달리는건 지능 고백하는거냐ㅋㅋㅋ 선발에 불만 있는 애들은 캐니언 빼고 오너 들어가야고 주장하는데ㅋㅋㅋㅋㅋ",
+          "likeCount": 7,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "@kwbfcuis젠지팬들 아니에요 저희는 건부되서 좋아하고 있고 기인이 차라리 식스맨으로 가야지 하고 그거땜에 아쉬워하지 한화선수분들 욕하고 까내리지 않습니다😢 유명한 그팬들이 지금 건부됐다고 오지게 까내리고있는데요 😢😢",
+          "likeCount": 6,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "하 바이퍼 이의신청..",
+          "likeCount": 6,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "​​​@찌잉-u7p오너는 빼라는 댓글만 이번 주에 50개는 봤고 지금도 ㅈㅈ가 국대 관련해서 여느때처럼 병크 터뜨리기 일보직전입니다\n응갤이랑 ㅈㅈ팬 둘 다 문제가 맞긴 한데 정상적인 팬이라면 괜히 묻어가려 하기보단 국대 선수 응원만 해주는 게 더 좋을 것 같네요",
+          "likeCount": 6,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "9월까지 폼 끌어올려서 잘 유지하자 파이팅",
+          "likeCount": 6,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "@user-rx8wr5mh7h 영상팀도 프론트에 포함이져 ㅎㅎ",
+          "likeCount": 6,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "역시 대기업은 다르네.",
+          "likeCount": 6,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "구마 제우스야 역체급이니 인정이도\n쵸비가 보행 불편한 걸로 참여 불편한 싱황+비디디 군면제니까 5대 미드중에서 기왕이면 다 같이 오래가면 다 좋으니까.\n시즌 시작하고 안정권에 오른 제카 고른 것도 다 인정\n\n한화 고른 3픽은 이견이 없다",
+          "likeCount": 5,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "무조건 아겜 우승해서 군대 면제 받자",
+          "likeCount": 5,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "축하합니다. 세분 모두 금메달 기원합니다!",
+          "likeCount": 5,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "하루전쯤 미리 얘기가오가지않았을까요",
+          "likeCount": 4,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "영상 뽕차오른다 이거지 ㅋㅋ",
+          "likeCount": 4,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "아 당연히 응원하지 우리탑 우리미드 우리원딜 ⚡️🦖😼  잘해보자구 !! 화이팅화이팅 🍀🍀🍀",
+          "likeCount": 4,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "나고야 가서 장어 다 흡수하고오겠다..",
+          "likeCount": 4,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "일단 제페구케를 다시 보는 게 일단 제일 설렘 ㅋㅋ",
+          "likeCount": 4,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "봐도봐도 기분좋다🎉🎉🎉",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "국대 선수가 넷이나 되는 팀이 있다고? 그게 바로 우리야~~~~~~",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "국대탑미드원딜",
+          "likeCount": 3,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "진짜 축하해🧡🧡🧡🧡🧡🧡🧡🧡",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "신박하네 미리 알고 영상 준비했나봄ㅋㅋ",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "동환이 응원은 못참지 ㅇㅇ;",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "편집자님들~~ 해시태그가 잘못된 거 같아요 우리진혁이 태그되어있는데 우제로 바뀌어야하는거 아닌지 감히 여쭙니다!",
+          "likeCount": 2,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "​@0footballclip한생팬이면 지금 팀의 선수를 응원하는게 맞지 않을까요?",
+          "likeCount": 2,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "축하합니다 화이팅 ~🎉",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "동환아 ㅋㅋ",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "@kwbfcuis응짜로? 한화생명 단장 인터뷰 에이전시 입장문 다 안 믿고 제우스 묻고 LCK 국세청 병무청 김앤장 다 안 믿고 룰러 묻은 그 집단 아니고?",
+          "likeCount": 2,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "화이팅!!!!!!!!!!!! 구마, 제카, 우제 ㄹㅊㄱ 진짜 한생 최고💗",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "​@0footballclip '이런 댓글은 제발 다른 곳 가서 싸라'",
+          "likeCount": 2,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "So proud of you Zeus ❤",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "congratsssss!!!",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "금메달로 보여줘!",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "​@fdy05er지금은 항생팬 아닌데",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "​@Junst0ne 페이커 쵸비 구마유시 보면서 항상드는생각",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "​@instan78 이게맞지 그냥 그런날은 댓글창안보는게 심신에 이로움 ㅋㅋㅋㅋ 월즈들어도깜 그런애들은",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "우탑제 🧡🧡",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "00:26 -딜라 표정-",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "elapsedSeconds": 157990.0,
+      "bucketStart": "2026-05-20T01:01:59+00:00",
+      "bucketEnd": "2026-06-02T10:37:07+00:00",
+      "positive": 19,
+      "neutral": 7,
+      "negative": 1,
+      "netSentiment": 0.667,
+      "zScore": -0.067,
+      "isBurst": false,
+      "direction": null
+    }
+  ],
+  "keyInsights": [
+    {
+      "type": "positive",
+      "topic": "금메달 기대",
+      "topicEn": "Gold Medal Expectations",
+      "topicZh": "金牌期待",
+      "topicJa": "金メダルの期待",
+      "comment": "제우스 제카 구마유시 추카해🎉🎉금메달 가져와있!!!!",
+      "commentLang": "ko",
+      "likes": 1838
+    },
+    {
+      "type": "negative",
+      "topic": "법적 대응 요청",
+      "topicEn": "Request for Legal Action",
+      "topicZh": "请求法律行动",
+      "topicJa": "法的措置の要求",
+      "comment": "한생 법무팀 여러분들 커뮤에서 국대 선발 관련 일부 유언비어 및 루머를 기재하는 사람들이 있습니다. 법적으로 강경 조치 부탁드립니다. 한생 팬분들 자료 모두 프런트로 보내요 이런건 그냥 넘어가면 안된다고 봅니다. 팬과 선수를 위해 강력한 조치 취해주세요.",
+      "commentLang": "ko",
+      "likes": 598
+    },
+    {
+      "type": "positive",
+      "topic": "국대 선발 축하",
+      "topicEn": "National Team Selection Congratulations",
+      "topicZh": "国家队选拔祝贺",
+      "topicJa": "国代表選出おめでとう",
+      "comment": "구마야 국대 선발된거 너무 축하해 \n남들이 뭐라건 너 응원하는 사람들은 너 잘하는거 다 알아",
+      "commentLang": "ko",
+      "likes": 1092
+    },
+    {
+      "type": "negative",
+      "topic": "선수 개인 응원",
+      "topicEn": "Support for Individual Players",
+      "topicZh": "对个人球员的支持",
+      "topicJa": "個々の選手への応援",
+      "comment": "그래 월즈 3핏 파엠 원딜이 안 가면 누가가니 솔직히… \n어제 구레이븐은 아쉬웠다지만 한 경기 한 경기 따지고 들면 \n프로판에서 아쉽지 않은 사람이 한 두명이 아니지 \n누가 뭐래도 역체원 구마유시 🫳🏻🍚",
+      "commentLang": "ko",
+      "likes": 85
+    }
+  ],
+  "analyzedAt": "2026-07-04T11:38:40.773555+00:00",
+  "analysisDuration": 211.1,
+  "tokenUsage": {
+    "input": 51427,
+    "output": 13806,
+    "embedding": 34825,
+    "total": 100058,
+    "estimatedCostUsd": 0.016694
+  }
+}

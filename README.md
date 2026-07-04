@@ -4,7 +4,6 @@
 [![Vue](https://img.shields.io/badge/Vue-3.5-42b883?logo=vue.js)](https://vuejs.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-Python-009688?logo=fastapi)](https://fastapi.tiangolo.com/)
 [![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4o--mini-412991?logo=openai)](https://openai.com/)
-[![License](https://img.shields.io/badge/license-Private-red)](/)
 
 <a href="https://youtube-comment-insight-orcin.vercel.app" target="_blank" rel="noopener">
   <img width="100%" alt="Desktop and mobile screenshots" src="docs/screenshot-collage.png" />
@@ -17,6 +16,7 @@
 ## Highlights
 - Full-stack AI dashboard built with Vue 3, TypeScript, FastAPI, and GPT-4o-mini
 - Analyzes YouTube comments by sentiment, topic, timeline, and key reactions
+- Two-tier 2D Reaction Map — video-level and comment-level clustering via the same mutual k-NN + UMAP algorithm, colored by similarity cluster / topic rather than a raw sentiment gradient
 - Cached history, side-by-side video comparison, stats dashboard, and PDF export
 - BYOK — visitors bring their own OpenAI/YouTube API keys, nothing is stored server-side
 
@@ -84,6 +84,19 @@ Paste any YouTube URL and instantly get a structured breakdown of what the audie
 - Total analyses, comments processed, tokens used
 - Estimated OpenAI API cost per analysis
 - Average / min / max analysis duration
+
+### 8. Reaction Map (2D)
+Two-tier 2D SVG map (not a 3D force-graph — 2D scatter/network layouts are the standard for visualizing embedding similarity, following BERTopic/pyLDAvis/TensorBoard conventions, and sidestep an entire class of camera/centering bugs a 3D renderer would need to solve). Both tiers share the same pipeline: normalize known entity aliases → embed with `text-embedding-3-small` → cosine similarity (video tier also blends in Jensen-Shannon divergence over sentiment distributions) → **mutual** k-NN graph (an edge only survives if both endpoints rank each other in their own top-*k*) → UMAP projection to 2D (`backend/analysis/{aliases,similarity_graph,projection,graph}.py`).
+- **Overview tier** — every analyzed video is a node, sized by comment count and colored by **similarity cluster** (connected component in the k-NN graph) instead of sentiment, since the point of this map is "which videos react alike," not a sentiment ranking (sentiment is a small secondary dot on each node, and shown in full in the side list/detail panel). Isolated videos render in neutral gray. The side list sorts by cluster group by default (with a divider between groups), or by comment count / positive % / negative % / newest via a dropdown. Videos whose comment-level map hasn't been generated yet are listed separately with an inline re-analyze action.
+- **Detail tier** — clicking a video drills into its comment-level map: nodes are its top-liked comments per topic (capped at 30/topic to bound embedding cost — sentiment/topic analysis elsewhere still covers every comment), colored by topic. Edges are hidden by default here (too many nodes to show cleanly) and appear only for the hovered/selected comment. The side list browses by topic group first (with a mini distribution bar per topic), then drills into that topic's comments.
+- Clicking a node dims everything except it and its direct neighbors; clicking an edge shows a compact "connection analysis" card (similarity %, shared topics, one-line reason) stacked above the still-visible list.
+- Nodes can be dragged and spring back to their real UMAP position on release, with directly-connected neighbors following slightly and whole clusters drifting together very slowly — bounded enough that it never distorts the actual embedding-based layout.
+- A persistent side panel always lists every node currently on screen — hovering a node highlights its entry and vice versa — so the panel never resizes the graph canvas the way a hover-triggered popup would.
+- Reaction-map generation runs as a background task after analysis completes, so it never adds to the visible analysis wait time.
+
+### 9. Sequential Analysis Queue
+- Submitting a new URL while one is already analyzing queues it instead of blocking — queued jobs run automatically, one at a time, in submission order.
+- Cancel the in-progress analysis (confirmation required) or remove a queued item before it starts.
 
 ---
 
@@ -172,14 +185,23 @@ youtube-comment-insight/
 ├── render.yaml              # Render blueprint (backend deploy config)
 ├── backend/
 │   ├── main.py              # FastAPI app, SSE streaming endpoint, BYOK header handling
-│   ├── sentiment.py         # GPT-4o-mini sentiment analysis
-│   ├── topic.py             # Topic classification + clustering
+│   ├── aliases_data.py      # Alias/gazetteer data (team/player nicknames) — data only, no logic
+│   ├── analysis/            # Algorithm package (code only — used by the running app)
+│   │   ├── sentiment.py         # GPT-4o-mini sentiment analysis
+│   │   ├── topic.py             # Topic classification + embedding-based assignment
+│   │   ├── embedding.py         # Shared embed()/cosine_sim() helpers
+│   │   ├── aliases.py           # normalize_aliases() — applies aliases_data.py before embedding
+│   │   ├── similarity_graph.py  # Mutual k-NN graph construction (cosine + Jensen-Shannon)
+│   │   ├── projection.py        # UMAP projection to 2D (centers + rescales to a fixed extent)
+│   │   └── graph.py             # Builds Reaction Map node/link data for both map tiers
 │   ├── youtube.py           # YouTube Data API integration
 │   ├── requirements.txt
 │   └── cache/               # Analysis result cache (JSON) — shipped with the repo as seed data
-│       └── comments/        # Per-topic comment cache
+│       ├── comments/        # Per-topic comment cache
+│       └── graph/           # Cached per-video Reaction Map graphs
 │
-├── analysis/                # Standalone offline experiments (not part of the running app)
+├── analysis/                # NOT the same as backend/analysis/ above — standalone offline
+│   │                        #   research scripts, not part of the running app
 │   ├── algorithms.py        # Pure statistical logic — equal-frequency bucketing, z-score
 │   │                        #   anomaly detection, clustering (no I/O, no plotting)
 │   ├── data_loader.py       # Loads cached comments/videos into DataFrames
@@ -194,8 +216,8 @@ youtube-comment-insight/
         │   ├── insight/
         │   │   ├── api/         # insightApi.ts — backend calls
         │   │   ├── components/  # VideoInfoCard, ReactionTimeline, KeyInsights …
-        │   │   ├── pages/       # HomeView, HistoryView, CompareView
-        │   │   ├── stores/      # Pinia analysis store
+        │   │   ├── pages/       # HomeView, HistoryView, CompareView, NetworkView (Reaction Map)
+        │   │   ├── stores/      # Pinia analysis store (analyze/queue/cancel)
         │   │   └── types/       # TypeScript interfaces
         │   └── settings/        # BYOK API key input, theme, language
         ├── pages/               # StatsView, HowToView
@@ -240,6 +262,12 @@ Returns cached analysis for a specific video. No key required.
 
 ### `GET /api/comments/{video_id}?topic=&sentiment=`
 Returns filtered comments by topic and sentiment. No key required.
+
+### `GET /api/graph/{video_id}`
+Returns the cached comment-level Reaction Map (`{ nodes, links }`) for one video. 404 if the video was analyzed before this feature existed or graph generation failed — re-analyze to generate it. No key required (reads cache only).
+
+### `GET /api/graph/videos`
+Builds the overview-tier Reaction Map across every analyzed video (embeds each video's top topics on the fly, so this one does need `X-OpenAI-Key`). Not cached to a file since it depends on the full analyzed-video set.
 
 ### `POST /api/refresh/{video_id}`
 Clears cache and forces re-analysis.
@@ -286,6 +314,7 @@ python cluster_comments.py                # K-means/DBSCAN clustering vs. GPT se
 ## 하이라이트
 - Vue 3, TypeScript, FastAPI, GPT-4o-mini로 만든 풀스택 AI 대시보드
 - 댓글을 감정 · 토픽 · 타임라인 · 핵심 반응 기준으로 분석
+- 영상 단위/댓글 단위 2단계 2D 반응 지도 — 상호 k-NN + UMAP 알고리즘을 두 계층에 공유, 색은 감정 그라데이션 대신 유사도 그룹/토픽 기준
 - 분석 기록 캐시, 영상 비교, 통계 대시보드, PDF 내보내기 지원
 - BYOK 방식 — 방문자가 본인 API 키를 직접 입력, 서버엔 저장 안 함
 
@@ -340,6 +369,19 @@ YouTube URL을 붙여넣으면 AI가 댓글을 수집하고 감정 분석 · 토
 - 전체 분석 수, 처리 댓글 수, 사용 토큰 수
 - OpenAI API 예상 비용
 - 분석 소요 시간 (평균 / 최소 / 최대)
+
+### 8. 반응 지도 (2D)
+3D 포스 그래프가 아니라 2D SVG 지도입니다 — 임베딩 유사도 시각화는 BERTopic/pyLDAvis/TensorBoard 같은 도구들의 관례를 따라 2D 스캐터/네트워크가 표준이고, 3D 렌더러가 필요로 하는 카메라/중앙 정렬 관련 버그 자체를 구조적으로 피할 수 있습니다. 두 계층 모두 같은 파이프라인을 공유합니다: 별칭(선수/팀 등) 정규화 → `text-embedding-3-small`로 임베딩 → 코사인 유사도(영상 계층은 감정 분포 Jensen-Shannon divergence도 함께 반영) → **상호** k-NN 그래프(양쪽이 서로를 각자의 상위 k 이웃으로 꼽을 때만 연결) → UMAP으로 2D 좌표 투영(`backend/analysis/{aliases,similarity_graph,projection,graph}.py`).
+- **개요 계층** — 분석된 모든 영상이 노드가 되고, 댓글 수에 따라 크기가, **유사도 그룹(k-NN 그래프의 연결 요소)**에 따라 색이 정해집니다(감정 그라데이션이 아님 — 이 지도의 핵심은 "어떤 영상들이 비슷하게 반응했는가"이지 감정 랭킹이 아니라서, 감정은 각 노드의 작은 보조 점과 옆 목록/상세 패널에서 보여줍니다). 어느 그룹에도 안 묶인 고립 영상은 무채색으로 표시됩니다. 옆 목록은 기본적으로 그룹 순(그룹 경계마다 구분선 표시)으로 정렬되고, 댓글 많은 순/긍정률/부정률/최신순으로도 정렬할 수 있습니다. 아직 댓글 지도가 생성되지 않은 영상은 목록에서 따로 분리되어 그 자리에서 바로 다시 분석할 수 있습니다.
+- **상세 계층** — 영상을 클릭하면 그 영상의 댓글 지도로 들어갑니다: 토픽별 좋아요 상위 댓글(임베딩 비용을 위해 토픽당 최대 30개로 제한 — 감정·토픽 분석 자체는 전체 댓글 기준으로 이미 처리됨)이 노드가 되고 토픽별로 색이 정해집니다. 노드 수가 많아 간선은 기본적으로 숨겨져 있고, 호버·선택된 댓글의 연결만 또렷하게 나타납니다. 옆 목록은 먼저 토픽 그룹(그룹별 비중 막대 포함)으로 보여주고, 하나를 고르면 그 토픽의 댓글만 필터링해서 보여줍니다.
+- 노드를 클릭하면 그 노드와 직접 연결된 이웃만 남기고 나머지는 흐려집니다("focus mode"). 선(엣지)을 클릭하면 목록 위에 "연결 분석" 카드(유사도 %, 공통 토픽, 한 줄 이유)가 얹힙니다.
+- 노드를 잡아당기면 놓는 순간 UMAP이 계산한 실제 위치로 튕겨 돌아오고, 직접 연결된 이웃도 살짝 딸려오며, 같은 그룹끼리는 아주 느리게 함께 떠다닙니다 — 실제 임베딩 기반 배치를 왜곡하지 않을 만큼 진폭을 작게 제한한 연출입니다.
+- 옆에는 지금 화면에 있는 모든 노드를 나열하는 목록 패널이 항상 떠 있습니다 — 노드에 커서를 올리면 목록에서 해당 항목이 강조되고 그 반대도 마찬가지입니다. 팝업이 열고 닫힐 때마다 그래프 캔버스 크기가 바뀌는 문제가 없습니다.
+- 반응 지도 생성은 분석 완료 후 백그라운드에서 처리되어, 체감 분석 시간에는 영향을 주지 않습니다.
+
+### 9. 순차 분석 대기열
+- 하나가 분석 중일 때 새 URL을 제출하면 막히지 않고 대기열에 들어가며, 순서대로 자동 실행됩니다.
+- 진행 중인 분석은 확인 후 취소할 수 있고, 아직 시작하지 않은 대기열 항목은 바로 삭제할 수 있습니다.
 
 ---
 

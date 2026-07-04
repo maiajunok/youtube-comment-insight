@@ -63,15 +63,15 @@ const getLabel = (topic: Topic) => displayLabel(topic, props.lang)
         <div class="w-full md:w-auto md:flex-1 flex rounded overflow-hidden h-[26px] text-[11px] font-bold leading-none md:order-3">
           <div
             class="flex items-center justify-center text-white transition-all"
-            :style="`width: ${topic.sentiment.positive}%; background: var(--positive)`"
+            :style="`flex: ${topic.sentiment.positive} 1 0%; background: var(--positive)`"
           >{{ topic.sentiment.positive >= 8 ? topic.sentiment.positive + '%' : '' }}</div>
           <div
             class="flex items-center justify-center transition-all"
-            :style="`width: ${topic.sentiment.neutral}%; background: var(--neutral); color: #94a3b8`"
+            :style="`flex: ${topic.sentiment.neutral} 1 0%; background: var(--neutral); color: #94a3b8`"
           >{{ topic.sentiment.neutral >= 8 ? topic.sentiment.neutral + '%' : '' }}</div>
           <div
             class="flex items-center justify-center text-white transition-all"
-            :style="`width: ${topic.sentiment.negative}%; background: var(--negative)`"
+            :style="`flex: ${topic.sentiment.negative} 1 0%; background: var(--negative)`"
           >{{ topic.sentiment.negative >= 8 ? topic.sentiment.negative + '%' : '' }}</div>
         </div>
       </div>

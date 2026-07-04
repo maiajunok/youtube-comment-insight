@@ -39,6 +39,17 @@ onMounted(async () => {
   }
 })
 
+// 사이드바에서 "영상 비교"를 다시 눌렀을 때(쿼리가 사라짐)도 선택 화면으로 돌아오게 함 —
+// phase는 로컬 상태라 onMounted 이후엔 route 변화를 스스로 감지하지 못했음
+watch(() => route.query.ids, (idsParam) => {
+  if (typeof idsParam === 'string' && idsParam) {
+    selected.value = idsParam.split(',').slice(0, 3)
+    doCompare()
+  } else if (phase.value === 'compare') {
+    reset()
+  }
+})
+
 const toggle = (id: string) => {
   const i = selected.value.indexOf(id)
   if (i !== -1) { selected.value.splice(i, 1) }
@@ -50,25 +61,33 @@ const selIndex = (id: string) => selected.value.indexOf(id) + 1
 
 const commonTopicLabels = ref<string[]>([])
 
+// 비교 중(await) 다른 곳으로 나갔다가 돌아오면(reset 등) 뒤늦게 끝난 이전 요청이
+// 화면을 다시 덮어써버리는 걸 막기 위한 토큰 — reset()에서도 증가시킴
+let compareToken = 0
+
 const doCompare = async () => {
   if (selected.value.length < 2) return
+  const token = ++compareToken
   isComparing.value = true
   compareError.value = ''
   try {
-    comparisons.value = await Promise.all(
+    const results = await Promise.all(
       selected.value.map(id => insightApi.getByVideoId(id))
     )
+    if (token !== compareToken) return
+    comparisons.value = results
     await fillTopicLabels(comparisons.value.flatMap(d => d.topics), settings.lang)
+    if (token !== compareToken) return
     phase.value = 'compare'
     router.replace({ query: { ids: selected.value.join(',') } })
     // 의미상 비슷한 토픽까지 묶어서 "공통 주제" 판별 (완전 일치 대신 임베딩 유사도)
     insightApi.getCommonTopics(comparisons.value.map(d => d.topics.map(t => t.label)))
-      .then(labels => { commonTopicLabels.value = labels })
-      .catch(() => { commonTopicLabels.value = [] })
+      .then(labels => { if (token === compareToken) commonTopicLabels.value = labels })
+      .catch(() => { if (token === compareToken) commonTopicLabels.value = [] })
   } catch {
-    compareError.value = '데이터를 불러오지 못했습니다.'
+    if (token === compareToken) compareError.value = '데이터를 불러오지 못했습니다.'
   } finally {
-    isComparing.value = false
+    if (token === compareToken) isComparing.value = false
   }
 }
 
@@ -77,6 +96,7 @@ watch(() => settings.lang, (lang) => {
 })
 
 const reset = () => {
+  compareToken++ // 이 시점 이후 뒤늦게 끝나는 doCompare()는 무시됨
   phase.value = 'select'
   comparisons.value = []
   commonTopicLabels.value = []

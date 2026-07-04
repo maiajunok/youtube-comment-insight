@@ -1,0 +1,3075 @@
+{
+  "video": {
+    "videoId": "_spmLxe83Eo",
+    "title": "꽉낀생명 실존, 2026 캠프원 돌아보기",
+    "channelTitle": "Hanwha Life Esports",
+    "thumbnailUrl": "https://i.ytimg.com/vi/_spmLxe83Eo/maxresdefault.jpg",
+    "publishedAt": "2025-12-03",
+    "viewCount": 885539,
+    "likeCount": 20449,
+    "analyzedComments": 2399,
+    "languageRatio": {
+      "ko": 86,
+      "en": 7,
+      "other": 7
+    },
+    "weightedSentiment": 66
+  },
+  "topics": [
+    {
+      "label": "친밀감 후속 영상",
+      "labelEn": "Follow-up Videos on Familiarity",
+      "labelZh": "亲密感后续视频",
+      "labelJa": "親密感のフォローアップ動画",
+      "mentionCount": 790,
+      "sentiment": {
+        "positive": 64,
+        "neutral": 31,
+        "negative": 5
+      }
+    },
+    {
+      "label": "구마유시 적응",
+      "labelEn": "Gumayusi Adaptation",
+      "labelZh": "구마유시适应",
+      "labelJa": "グマユシ適応",
+      "mentionCount": 562,
+      "sentiment": {
+        "positive": 76,
+        "neutral": 19,
+        "negative": 5
+      }
+    },
+    {
+      "label": "어색한 분위기",
+      "labelEn": "Awkward Atmosphere",
+      "labelZh": "尴尬的氛围",
+      "labelJa": "気まずい雰囲気",
+      "mentionCount": 540,
+      "sentiment": {
+        "positive": 51,
+        "neutral": 40,
+        "negative": 9
+      }
+    },
+    {
+      "label": "팀 소속",
+      "labelEn": "Team Affiliation",
+      "labelZh": "团队归属",
+      "labelJa": "チームの所属",
+      "mentionCount": 354,
+      "sentiment": {
+        "positive": 55,
+        "neutral": 38,
+        "negative": 6
+      }
+    },
+    {
+      "label": "체급 이야기",
+      "labelEn": "Weight Class Talk",
+      "labelZh": "级别的讨论",
+      "labelJa": "体重級の話",
+      "mentionCount": 153,
+      "sentiment": {
+        "positive": 65,
+        "neutral": 28,
+        "negative": 7
+      }
+    }
+  ],
+  "reactionTimeline": [
+    {
+      "elapsedSeconds": 24.0,
+      "bucketStart": "2025-12-03T10:01:17+00:00",
+      "bucketEnd": "2025-12-03T10:07:09+00:00",
+      "positive": 34,
+      "neutral": 3,
+      "negative": 3,
+      "netSentiment": 0.775,
+      "zScore": 2.024,
+      "isBurst": true,
+      "direction": "POSITIVE_SPIKE",
+      "topComments": [
+        {
+          "text": "화면 밖으로도 느껴지는 어색함 ㄷ ㄷ ㄷ ㄷ",
+          "likeCount": 4525,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "롤파크에서 엘리베이터 나눠타야한다는 나쁜말은 ㄴㄴ",
+          "likeCount": 650,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "썸넬 든든한거 보소ㅋㅋ",
+          "likeCount": 174,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "기다리는 맛이 있구나. 즐겁다",
+          "likeCount": 127,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "기다렸다 한돈생명",
+          "likeCount": 116,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "내년에도 잘해보자!! 한화생명 화이팅!!",
+          "likeCount": 79,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "구마유시 화이팅!!",
+          "likeCount": 47,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "드디어완전제가모였다",
+          "likeCount": 45,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "왔다!!! 기다렸다구",
+          "likeCount": 35,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "달려왔습니다❣️",
+          "likeCount": 33,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "기다리고 있었다고~~~ 젠장~",
+          "likeCount": 22,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "2026년화이팅!!!",
+          "likeCount": 15,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "이모님 유쾌하시니 재밌당",
+          "likeCount": 12,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "너무 기다렸다!!! 내년에는 더 잘해보자🧡💪",
+          "likeCount": 11,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "26 한생 사랑해 화이팅🧡🧡🧡 골든로드 가보자고~!~!~",
+          "likeCount": 10,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "왔다 왔다!!!",
+          "likeCount": 9,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "캬",
+          "likeCount": 8,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "와 파이팅!!",
+          "likeCount": 8,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "캬 영상팀",
+          "likeCount": 8,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "노피디 일좀 많이해줘",
+          "likeCount": 6,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "👍👍👍👍",
+          "likeCount": 6,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "2026 한화생명 출발~~",
+          "likeCount": 6,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "어우 보는 내가 다 어색하네 ㅋㅋ",
+          "likeCount": 4,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "기다렸다 드디어 🎉🎉🎉🎉🎉",
+          "likeCount": 4,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "벌써 워크샵 영상도 기대가 됩니다~~~",
+          "likeCount": 3,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "❤❤❤",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "캬ㅑㅑㅑ1분전~~",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "캬",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "꺄ㅑㅑㅑ제카제구딜 화이팅❤",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "꽉 차는 썸네일",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "Yayyyyy ❤",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "HLEWIN",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "갸 한화26!",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "I’m early! Yay!!!",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "❤",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "HLE26 Fighting❤",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "❤❤❤",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "어우 어색해 ㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "드디어 떴냐 제카제구딜",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "꽉낀생명은 ㅋㅋㅋㅋㅋㅋ 밥 잘 먹구 26년도 우승해보자잇",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        }
+      ]
+    },
+    {
+      "elapsedSeconds": 377.0,
+      "bucketStart": "2025-12-03T10:07:10+00:00",
+      "bucketEnd": "2025-12-03T10:11:49+00:00",
+      "positive": 25,
+      "neutral": 14,
+      "negative": 1,
+      "netSentiment": 0.6,
+      "zScore": 0.352,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 661.0,
+      "bucketStart": "2025-12-03T10:11:54+00:00",
+      "bucketEnd": "2025-12-03T10:17:09+00:00",
+      "positive": 27,
+      "neutral": 10,
+      "negative": 3,
+      "netSentiment": 0.6,
+      "zScore": 0.352,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 983.0,
+      "bucketStart": "2025-12-03T10:17:16+00:00",
+      "bucketEnd": "2025-12-03T10:21:08+00:00",
+      "positive": 27,
+      "neutral": 12,
+      "negative": 1,
+      "netSentiment": 0.65,
+      "zScore": 0.83,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 1216.0,
+      "bucketStart": "2025-12-03T10:21:09+00:00",
+      "bucketEnd": "2025-12-03T10:27:18+00:00",
+      "positive": 24,
+      "neutral": 16,
+      "negative": 0,
+      "netSentiment": 0.6,
+      "zScore": 0.352,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 1591.0,
+      "bucketStart": "2025-12-03T10:27:24+00:00",
+      "bucketEnd": "2025-12-03T10:31:42+00:00",
+      "positive": 27,
+      "neutral": 12,
+      "negative": 1,
+      "netSentiment": 0.65,
+      "zScore": 0.83,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 1856.0,
+      "bucketStart": "2025-12-03T10:31:49+00:00",
+      "bucketEnd": "2025-12-03T10:36:53+00:00",
+      "positive": 28,
+      "neutral": 7,
+      "negative": 5,
+      "netSentiment": 0.575,
+      "zScore": 0.113,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 2163.0,
+      "bucketStart": "2025-12-03T10:36:56+00:00",
+      "bucketEnd": "2025-12-03T10:42:10+00:00",
+      "positive": 17,
+      "neutral": 17,
+      "negative": 6,
+      "netSentiment": 0.275,
+      "zScore": -2.752,
+      "isBurst": true,
+      "direction": "NEGATIVE_SPIKE",
+      "topComments": [
+        {
+          "text": "구마유시 한화랑 잘어울리네 제우스 전직장 동료 왔다고 얼굴 편해보임 ㅋㅋㅋㅋㅋ",
+          "likeCount": 1192,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "보는 내가 다 뛰쳐나가고싶음",
+          "likeCount": 328,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "3:07 감독님 민형이 원래 혼자 영상 분량 9인분 하는 아이입니다      많관부",
+          "likeCount": 270,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "0:32 구마유시를 더욱 큰 그릇으로 만드실",
+          "likeCount": 138,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "5체급 시너지라네요~",
+          "likeCount": 123,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "6:41 단장님 불러야겠지?",
+          "likeCount": 39,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "땅울림생명 뭐냐고 ㅋㅋㅋㅋㅋㅋㅋ진짜 내 웃음포인트...😂😂😂😂😂",
+          "likeCount": 23,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "먹을꺼 올라가 있을듯",
+          "likeCount": 18,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "삑~~~",
+          "likeCount": 15,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "😂😂😂😂😂 Mới tập hợp team nên mọi người còn ngại ngùng quá. Sẽ chóng quen thân thôi nhỉ. Bé Guma ăn ngon lành quá",
+          "likeCount": 4,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "억색하고 나발이고 와 정글 카나비에 와 탑 제우스 미드 제카 원딜 구마 서풋 딜라잇 와 라인업 개지려버리네",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "빠르다 ㄷㄷ",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "비시즌에 우리팀 영상 진짜 귀하고 너무 좋당~ 얼른 멤버십도 올라왔으면 좋겠더요",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "수상할정도로 주황색이 잘 어울리는 정글러",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Zzzㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ(엘리베이터)만원생명ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ미치게땈ㅋㅋㅋㅋㅋㅋㅋㅋ ㅠㅠ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "왜 나까지 다시 어색해진 느낌 ㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "어색어색 ㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "어떻게 팀영상 스타트가 이모님ㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "구마야 구마야 ~~❤❤",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Gumayusi❤❤❤❤❤🎉🎉🎉🎉🎉",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "어색해서 숨막히네 ㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "팀 ㅈㄴ쎄보이긴하네 ㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "한마 유시로",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "우리 구마유시 선수, 민형쿤 많이 사랑해주세요 ㅎㅎ 그리고 앞으로 잘 부탁합니다 ㅎㅎ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "빨리 2편주세용!! 후.. 애들 웃는거 보닌까 기분이 너무 좋네 ㅎㅎ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "명예단장님은......",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "여긴 한타 잘못하면 현실한타 일어날듯 ㄷㄷ",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "주장은 그럼 카나비가 되는건가요?",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "có trang nào dịch Tiếng Việt ko mn",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "썸넬만 보면 프로게이머가 아니라 운동선수들인줄 알겠음ㅋㅋㅋㅋ 체급보존의법칙ㄷㄷ 보기만해도 든든하다..",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "멤버 각자 자체는 강해보이는데 기둥이 없음.....\n쉽지않을거다 ㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "이제는 롤드컵 우승이다",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "이것만 기다렸다면 믿어줄래",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "5/5 🍊 Hanwa Life Figthing!!",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "아 소양교육..... 중요하죠",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "2부언제주시나요😂😂😂😂",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "4:14 다섯명 다 탱템올렸나요?",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "우제랑 민형이 있고 짱카도 있어서 뭔가 많이 친숙한 한화생명이 되어버렸다 ㅎㅎㅎㅎ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "구마 ㅎㅇㅌ🎉",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "와 이 메뉴들로 어떤 요리가 탄생할지 진짜 개기대된다 ㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        }
+      ]
+    },
+    {
+      "elapsedSeconds": 2491.0,
+      "bucketStart": "2025-12-03T10:42:24+00:00",
+      "bucketEnd": "2025-12-03T10:48:10+00:00",
+      "positive": 25,
+      "neutral": 12,
+      "negative": 3,
+      "netSentiment": 0.55,
+      "zScore": -0.125,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 2855.0,
+      "bucketStart": "2025-12-03T10:48:28+00:00",
+      "bucketEnd": "2025-12-03T10:52:30+00:00",
+      "positive": 25,
+      "neutral": 13,
+      "negative": 2,
+      "netSentiment": 0.575,
+      "zScore": 0.113,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 3107.0,
+      "bucketStart": "2025-12-03T10:52:40+00:00",
+      "bucketEnd": "2025-12-03T10:57:53+00:00",
+      "positive": 22,
+      "neutral": 16,
+      "negative": 2,
+      "netSentiment": 0.5,
+      "zScore": -0.603,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 3426.0,
+      "bucketStart": "2025-12-03T10:57:59+00:00",
+      "bucketEnd": "2025-12-03T11:02:47+00:00",
+      "positive": 22,
+      "neutral": 15,
+      "negative": 3,
+      "netSentiment": 0.475,
+      "zScore": -0.842,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 3730.0,
+      "bucketStart": "2025-12-03T11:03:03+00:00",
+      "bucketEnd": "2025-12-03T11:07:47+00:00",
+      "positive": 28,
+      "neutral": 7,
+      "negative": 5,
+      "netSentiment": 0.575,
+      "zScore": 0.113,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 4024.0,
+      "bucketStart": "2025-12-03T11:07:57+00:00",
+      "bucketEnd": "2025-12-03T11:13:59+00:00",
+      "positive": 20,
+      "neutral": 16,
+      "negative": 4,
+      "netSentiment": 0.4,
+      "zScore": -1.558,
+      "isBurst": true,
+      "direction": "NEGATIVE_SPIKE",
+      "topComments": [
+        {
+          "text": "12:50 반갑다 친구야(매우 큰 용기)",
+          "likeCount": 823,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "3:21 \"되게 잘드신다...\"",
+          "likeCount": 227,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "진짜 개쳐귀엽긴하네ㅋㅋㅋ",
+          "likeCount": 194,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "우리 우제 이렇게 말랐나...?",
+          "likeCount": 94,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "2:28 갈비탕 비쥬얼 ㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠ 아 구마유시 부러워 ㅠㅠㅠㅠㅠㅠㅠ",
+          "likeCount": 59,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "@Oranges43367 무슨 인생을 살고 있는지 너무 잘 보여서 뭐라 못 하겠네 ,,,,, 힘내 !",
+          "likeCount": 30,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "성격",
+          "likeCount": 18,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "여전히 구마유시가 저기서 밥 먹고 있는게 믿어지질 않는다. 건강해라 구마유시!!!!!! 앞으로도 자주 얼굴보러 올게!!!!! 그래도 한전드 이모님이 너무 좋아서 건강하게 잘챙겨먹을듯 ㅎ",
+          "likeCount": 4,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "​@1262ta피넛은 모르겠는데 작년 바선생은 진짜 말도안됨. Blg무섭다",
+          "likeCount": 3,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "확실히 이모님덕에 우제가 원래키는큰데 말라서 키작아보였는데 살크업하니깐 진짜키크다는게 느껴지네용❤",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "보는 사람마저 어색하게 만드는 영상",
+          "likeCount": 2,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "나도 구마유시때문에 왔다 힘내보자 이민형",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "땅울림 뭔뎈ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ\n체급생명 한돈생명 실존!! ㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "진짜 너무 귀여워",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "땅울림ㅋㅋㄹㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "허 진짜 개꿀잼이네ㅋㅋㅋㅋ포인트가 너무 많아서 몇개 찝을 수가 없다ㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "I는 중간에 한번 쉬었다가 봐야하는 영상..ㅎㅎ",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "내부는 처음보는데 엄청 크네",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "우리 구마구마 잘먹고다니겠다",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "건우씨가제일낯가리는뎈ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ 와 근데 여태본 민형이 중에 제일낯가리는거같짘ㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "그곳에서 잘지내거라 민형 우제쿤",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "아니 진짜 한화 이스포츠 일 너무잘하잖어....왤케잼나!!!!!!!!",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "땅울림생명ㅋㅋㅋ 구마유시야 많이 먹걸아!!!!",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "아 재밌다 빨리 더줘요 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "听不懂 先支持小看宝等翻译❤",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "로스터 지리긴 하다 얼른 골든로드 따라",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "6:43 여기 그거네 <<< ㄹㅇ 이준석 톤이네 ㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "땅울림ㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "12:47 건우 개귀엽네 ㅋㅋ\n새로 오신분들 단장님이랑 잘맞을거 같은데 ㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "감독님 제발 센스.. 풀어주려고 해야지 본인이 선수들한테 계속 더 어색하다고 하면 할말도 더 못하쥬..",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "Mong hle ra video có thêm phụ âm tiếng Việt ❤❤",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "11:37 땅울림이 ㅈㄴ웃기네 ㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "카정당 카나비",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "구마야....안 믿긴다 그저 신기하다 응원할게",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "등빨 ㄷㄷ",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "좀 어색하넼ㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "정녕 이 체급이 게이머 체급이 맞나",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "땅울림ㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "체급생명 ㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "다들 건뚱이 되도록",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "elapsedSeconds": 4398.0,
+      "bucketStart": "2025-12-03T11:14:11+00:00",
+      "bucketEnd": "2025-12-03T11:21:15+00:00",
+      "positive": 23,
+      "neutral": 15,
+      "negative": 2,
+      "netSentiment": 0.525,
+      "zScore": -0.364,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 4824.0,
+      "bucketStart": "2025-12-03T11:21:17+00:00",
+      "bucketEnd": "2025-12-03T11:27:17+00:00",
+      "positive": 22,
+      "neutral": 16,
+      "negative": 2,
+      "netSentiment": 0.5,
+      "zScore": -0.603,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 5197.0,
+      "bucketStart": "2025-12-03T11:27:30+00:00",
+      "bucketEnd": "2025-12-03T11:33:06+00:00",
+      "positive": 32,
+      "neutral": 7,
+      "negative": 1,
+      "netSentiment": 0.775,
+      "zScore": 2.024,
+      "isBurst": true,
+      "direction": "POSITIVE_SPIKE",
+      "topComments": [
+        {
+          "text": "제카와 구마유시선수의 친해지길 바래 기대합니다.....",
+          "likeCount": 1235,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "그동안 크긴 커도 민석이 옆이라 유독 커보이겠거니 생각했는데, \n비슷한 덩치들 모아놓으니까 진짜 큰거 실감나네ㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 1223,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "구마유시 따라왔서요~ 한화생명 파이팅~!",
+          "likeCount": 191,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㄹㅇ 카나비 피넛 은퇴한 자리 이어서 합류했는데 피넛 리스펙 해주면서 등번호 설명해주는거 멋지네 ㅠㅠㅠㅠㅠㅠ",
+          "likeCount": 160,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "아 2편 바로 보고싶다 ㅁㅊ",
+          "likeCount": 98,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "구마유시야 행복해라 ㅜㅠ 한화생명두 화이팅!!",
+          "likeCount": 66,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "어색한 맛으로 보는 거임 ㅋㅋㅋ",
+          "likeCount": 49,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "아오 그냥 다들 너무너무 귀엽네 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 47,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "제카선수 수줍어하는거 너무 귀엽네여",
+          "likeCount": 31,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "한화 유튜브 구독 안한 거 모르고 보기만 하고 있었는데\n구독까지 누르고 정주행 시작하겠습니다",
+          "likeCount": 29,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "구마땜에 난 한화팬이  되었다 ㅋㅋ",
+          "likeCount": 10,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "와 제우스가 저들 사이에 있으니까 말파 오른 사이온 사이에 낀 카밀 같네 ㄷㄷ",
+          "likeCount": 9,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "저도 이 그림 다시볼 수 있어서 기쁘네요",
+          "likeCount": 5,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 4,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "생각보다 카나비가 외향적인스타일이구다 ㅋㅋ 말없는줄알았는데",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "돼지들의 만남 기다렸다고ㅠㅠㅠ",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "다같이 사우나 한번 가라",
+          "likeCount": 2,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "어떻게 팀에서 제일 왜소한게 제우스 ㅋㅋ",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋㅋㅋ걍 좋다!",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "구마가 안커보여 ㅋㅋㅋㅋㅋㅋ 우스랑 구마덕에 여기 영상도 종종 볼듯한데 다들 왜 그림체가 비슷하지? ㅋㅋㅋㅋㅋ",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "한화 경기 있으면 경기장 한쪽으로 기울어지는거 아님?",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "영상 보는 내내 웃음이 제 얼굴에서 떠나질 않네요 잘부탁드립니다",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "작년 팀뚱스였던 제제듀오가 제일 말라보이는거 실화에요?",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "기존 오렌지분들 보통 나눠지는 컨텐츠 바로올라오나요? 2부너무급해요 현기증나요 ㅠㅠ",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "딮붕이지만 한생이모님 팬이에여❤",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "땅울림 미쳤냐고 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㅋㅋㅋㅋ 친해지길 바래ㅋㅋㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "미안 관심없음..으로 보낼게..",
+          "likeCount": 1,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "제카 왤캐 귀엽냐 ㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "너무 재밌다 다음편 벌써 기대돼요 ㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "이런 비디오를 더 많이 만들어주세요\nㅋㅋㅋㅋㅋ😂",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㅈㄴ재밌다 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "인정하다😂",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "7:39  소양교육이 왜 더 중요한가요? 설마 ? ㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "So efficient thanks for the video upload!",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "중간중간 땅울림 이러네 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "🥰🫶",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "아공건은 무슨뜻인가요??",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "분위기 좋다 ㅋㅋㅋㅋ 작년에 피넛 바이퍼 선수 있을때 제카 선수는 엄청 큰 느낌이었는데 새로들어온 미드원딜이 다들 한 체격 하셔서 상대적으로 슬림해보이네요 ㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "매년 젊어지시는 한전드",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        }
+      ]
+    },
+    {
+      "elapsedSeconds": 5539.0,
+      "bucketStart": "2025-12-03T11:33:12+00:00",
+      "bucketEnd": "2025-12-03T11:41:06+00:00",
+      "positive": 24,
+      "neutral": 13,
+      "negative": 3,
+      "netSentiment": 0.525,
+      "zScore": -0.364,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 6026.0,
+      "bucketStart": "2025-12-03T11:41:19+00:00",
+      "bucketEnd": "2025-12-03T11:49:09+00:00",
+      "positive": 27,
+      "neutral": 12,
+      "negative": 1,
+      "netSentiment": 0.65,
+      "zScore": 0.83,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 6507.0,
+      "bucketStart": "2025-12-03T11:49:20+00:00",
+      "bucketEnd": "2025-12-03T11:56:32+00:00",
+      "positive": 30,
+      "neutral": 9,
+      "negative": 1,
+      "netSentiment": 0.725,
+      "zScore": 1.546,
+      "isBurst": true,
+      "direction": "POSITIVE_SPIKE",
+      "topComments": [
+        {
+          "text": "ㄹㅇ다들 만난지 얼마 안돼서 구마는 계속 우제 찾고 있음ㅋㅋㅋㅋ",
+          "likeCount": 182,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "다년로스터 생기기 전까지 롤판에 선수팬이 절대다수였는데 자기 선수 따라 응원팀 이적한 정도로 조롱을 하는 건 무슨 심보일까.\n비아냥 섞인 말 듣지 마세요! 2026시즌에서 멋진 경기하길 바랍니다👍",
+          "likeCount": 136,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "7:44 \n제 : 턱걸이 몇 개해?\n카 : 0개...\n\nㅋㅋㅋㅋㅋ 개웃기네 진짜",
+          "likeCount": 91,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "​@Chocobono35누가 잘한다가 아니라 카나비 구마로 바뀌면서 밥 더먹을거같으니까 저렇게 쓴거 아님? ㅋㅋㅋㅋㅋ...",
+          "likeCount": 61,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "애들상태 보아하니 오더는 카나비네",
+          "likeCount": 41,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "티원팬인데 처음 시청해봤습니다 한화생명 구마 제우스 화이팅",
+          "likeCount": 24,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋㅋ 아 웃겨",
+          "likeCount": 6,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "요네 했던 이유가 ㅋㅋㅋ",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "한화 월즈 트로피 갯수가 딱 페이커랑 동률이네 진짜 쉽지않은데  3개 2개 1개",
+          "likeCount": 2,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "건우야 불편하다고 말안해도 온몸으로 불편해보여 빨리 친해지길 바라 ㅋㅋㅋㅋ",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "30일에는 한빛탑에서 한화이글스 40주년 불꽃축제, 내년에는 한빛탑에서 MSI...기대된다....",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "12:52 아 개웃겨 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "구마 키 크네",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "They're so cuteee~ HLE26 fighting!!! 🧡🍊",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "우왓",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "이모님 이적 썰이 있었는데, 영상에 보이니 다행입니다",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "제카 낯가리는거 개웃기네 ㅋㅋㅋㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "제(카)구 친해지길 바래...ㅋ̄̈ㅋ̐̈ㅋ̑̈ㅋ̆̈ㅋ꙼̈ㅋ̆̎ㅋ̊̈ㅋ̌̈ㅋ̄̈ㅋ̐̈ㅋ̑̈ㅋ̆̈\n노피디 다음 영상도 빨리 보여줘요....(;´༎ຶД༎ຶ`)",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "한화 구마유시 적응 안될줄 알았는데 왜 적응되지...?",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋㅋ 와아 영상이다아🎉 우리팀 있었구나!!❤ 어서 빨리 친해지길 바라~~😂",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "근데 진짜 꽉 껴서 캠프원이 잘 안 보여요 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "구마유시도 개웃긴게 카나비도 오랜만에 보니까 너무 재밌다 ㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "8:57 11:40 땅울림생명ㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "내년에도 화이팅!! 한화 생명!!!",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "민형이 건강 꼭 챙겨요. 맛있는 걸 많이 먹어요.",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "복지좋다ㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "구마 화이팅❤❤❤",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "한생유튜브 처음 봤는데 재밌다 ㅋㅋㅋㅋㅋㅋㅋㅋ 구독누름",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "히히 재미땅",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "계단 올라갈 때마다 구도랑 소리가 폭력적이네 ㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "내가 한화생명 영상을 보게될줄이야",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "gumi i love u =)))",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋㅋ 내가 한화 영상을 보다니...여긴 영상팀이 일을하네",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "와 영상이다\n재밌게 잘봤네요 ㅋㅋ 8:00 즐겨하지 ㅋㅋ 무야호 나오는 줄 ㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "제카 낯 가리다가 헬스장에서 입터지는 게 개웃기네ㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "이준석은 장경태와 무슨 사이인지 해명하라!",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "i need eng sub ㅠㅠ",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "카나비왤케 룰러가보이지 ㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "elapsedSeconds": 6944.0,
+      "bucketStart": "2025-12-03T11:56:37+00:00",
+      "bucketEnd": "2025-12-03T12:02:19+00:00",
+      "positive": 31,
+      "neutral": 7,
+      "negative": 2,
+      "netSentiment": 0.725,
+      "zScore": 1.546,
+      "isBurst": true,
+      "direction": "POSITIVE_SPIKE",
+      "topComments": [
+        {
+          "text": "구마 슈퍼스타맞네...이모님도 유명한거알고 피디님도 신기해하네ㅋㅋㅋㅋㅋㅋ 구마야 한화에서 우승많이하자!! \n제카제구딜 파이팅🔥",
+          "likeCount": 762,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "우제가 이렇게 홀쭉했던가..?ㅋㅋㅋㅋ",
+          "likeCount": 11,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "@Chocobono35식비 얘기같은데ㅋㅋㅋ",
+          "likeCount": 11,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "보통 책은 따로 옮기지 않냐고ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 9,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "귀엽다ㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 7,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "현기증나니까 빨리다음편주세요",
+          "likeCount": 5,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "​@오각형-b5z ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 5,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "2부는 언제 올려주시나요? 넘 재밌어서 계속 돌려보고있어요 어서어서 2부를 달라",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "msi 대전에서 한다던데 우승하면 좋겠다",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "일단 다 제우스랑은 연결되긴함\n제카, 딜라ㅡ 한화\n구마ㅡ티원\n카나비ㅡ국대",
+          "likeCount": 2,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ 카나비 성격 시원시원 하네 ㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "나비 과묵할줄알았는데 은근말많네?ㅋㅋㅋ대화주제도먼저꺼내고ㅋㅋ",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "개웃기네ㅋㅋㅋㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "한화 제우스 구마유시 화이팅 !!! 딜라 카나비 제카님도 화이팅😂😂😂",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "체급 진짜 개지리네 ㅋㅋㅋㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "이적해서 아쉽지만 구마유시 파이팅",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "구마형 항상 응원해 화이팅",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "카나비 너무조야",
+          "likeCount": 1,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "구마야 행복해야해",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "구마야 화이팅",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "재밌네 ㅋㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "우제가 도움 좀 많이 줘야겠는데 ㅋㅋㅋㅋ 우제는 나머지 네명이랑 다 친해서",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "걍 민형이 보자마자 홀린듯 들어왔습니다…. 행복해보여서 보기 좋다! 팀원들도 다 좋으신거 같구!",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "체급진짜 ㅈ되네ㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "땅울림생명ㅋㅋㅋㅋㅋ 개웃겨욬ㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "instead of learning some Korean, i’m here crying until hle add eng sub 😭",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "ㅈ나 너무한데 겁나 웃기네ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "이모님이 해주신 밥 한번 먹어보고싶다. 제에에에에발… 먹어보고싶다. 두그릇, 세그릇 그냥 폭식하고싶다",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋㅋㅋ너무재밌다진짜ㅋㅋㅋㅋ많이올려줘요",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "섬네일 5명이 화면에 다 안들어오는게 레전드네ㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㅋㅋㅋㅋ한화생명 파이팅!!!!!!!\n민형이 너무 귀엽잖아ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "카나비 볼 때마다 너무 이준석 닮음....",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "솔직히 26년도 걱정많이 됬는데...26년도도 기대가 되는 조합ㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "진짜 다 왜캐 귀엽냐 하나같이 한 덩치하면서 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Happy together ❤",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "처음엔 산소결핍으로 빈사상태까지 갔지만\n영상 끝날 때 쯤엔 진짜 개같이 기대되기 시작했단것임\n이건... 된다...!",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "진짜 어색하고 안맞아보인다",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "Chubby team:-))",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "잘먹네 좋다ㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        }
+      ]
+    },
+    {
+      "elapsedSeconds": 7293.0,
+      "bucketStart": "2025-12-03T12:02:26+00:00",
+      "bucketEnd": "2025-12-03T12:13:26+00:00",
+      "positive": 26,
+      "neutral": 13,
+      "negative": 1,
+      "netSentiment": 0.625,
+      "zScore": 0.591,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 7998.0,
+      "bucketStart": "2025-12-03T12:14:11+00:00",
+      "bucketEnd": "2025-12-03T12:25:24+00:00",
+      "positive": 21,
+      "neutral": 13,
+      "negative": 6,
+      "netSentiment": 0.375,
+      "zScore": -1.797,
+      "isBurst": true,
+      "direction": "NEGATIVE_SPIKE",
+      "topComments": [
+        {
+          "text": "9:49 둘이 같이있는데 왤케 보기좋냐아 ㅠㅠ아 ㅠㅠㅠㅠ제구 ㅠㅠㅠ",
+          "likeCount": 288,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "알고보니 엉덩이머리선수의 컬렉션으로 가득한 냉장고 안 ㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 208,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "7:32 카나비의해서 원하는 기구를 바로 말하는 제카 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 157,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㄹㅇㅋㅋ",
+          "likeCount": 146,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "pd분 목소리가 구마유시 선수와 비슷하네요",
+          "likeCount": 142,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "12:49 넌 또 뭘 먹고 있는거야 ㅠ ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 131,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "저더........",
+          "likeCount": 45,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "ㅈㄴ어색하노ㅋㅋ",
+          "likeCount": 40,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "선수들 다 귀엽네요.. 얼른 다들 친해지길 바래..",
+          "likeCount": 22,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "​@나나난나나-w9d딜라이트가 존나 기대됨 세상에서 가장 잘하는 원딜이랑 바텀을 펼치는 그 moment를",
+          "likeCount": 16,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "​@나나난나나-w9d 26년 우리 한화 화이팅!!",
+          "likeCount": 12,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "안녕하십니까 구마따라 이사온놈입니다 이집은 민형씨랑 체급이 딱이네요 앞으로 잘부탁드립니다",
+          "likeCount": 6,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "1년 만에 보는 돼지대충돌 너무 좋다,,,,",
+          "likeCount": 4,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "안녕하세요 새롭게 이적했는데 한화 유튜브 재밌네욬ㅋㅋㅋㅋ",
+          "likeCount": 4,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "제우스가 상대적으로 왜소해 보이는 기적",
+          "likeCount": 3,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 3,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "Gumayusi ăn ngoan quá🐻🧡",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "카메라맨님 목소리가 나이든 구마 목소리라 당황했네요😅",
+          "likeCount": 3,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "한화생명 컨텐츠 처음보는데 재밌다",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Aaaa so cute ❤",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "We need English subtitles!",
+          "likeCount": 2,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "밥 한 번만 먹고 싶다 ㅠㅠ",
+          "likeCount": 2,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "in this time 이번엔 진짜 fucking real로 다르다 월즈 우승가자 시발거ㅇㅇ;;",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "이들 오늘 에버랜드 간거같던데 친해졋니? ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "아니 근데 선수들 개개인만보면 존나 쎄보이긴한다 ㅋㅋㅋㅋ ㅈㄴ기대됨 ㅋㅋ",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "이 팀 정말 좋아!! HLE 2026 파이팅!🧡🧡🧡",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "아 미친 벌써 기대돼",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "조합 너무 좋다... 다들 호감이고.. 서로 얼른 친해지길 바라...🧡",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "카나비 잘생겼네",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "아 너무 어색해서 2배속으로 봄..ㅋㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "내친구 민형에서 느껴지는 내친구 진석",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "어색어색",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "본인 의도: 라이브 본 걸 티내고 싶음, 스몰토크 시도\n결과:난 너의 과거를 알고 있다, 널 스몰하게 만들겠다",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "섬네일 꽉껴요",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "프로라도 같은 프로가아닌데..짬빱이 아니라 실력으로 대우해줘라",
+          "likeCount": 1,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "add engsub plz 😭",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "카나비 한국에서 보는거 왜 이리 적응이 안되냐 ㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "kanavi i get used to it, but guma... i still need time to process man",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "이야..그림이 참..",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "2026화이팅~~~~~",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        }
+      ]
+    },
+    {
+      "elapsedSeconds": 8713.0,
+      "bucketStart": "2025-12-03T12:26:06+00:00",
+      "bucketEnd": "2025-12-03T12:36:34+00:00",
+      "positive": 23,
+      "neutral": 12,
+      "negative": 5,
+      "netSentiment": 0.45,
+      "zScore": -1.081,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 9348.0,
+      "bucketStart": "2025-12-03T12:36:41+00:00",
+      "bucketEnd": "2025-12-03T12:45:27+00:00",
+      "positive": 29,
+      "neutral": 10,
+      "negative": 1,
+      "netSentiment": 0.7,
+      "zScore": 1.307,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 9883.0,
+      "bucketStart": "2025-12-03T12:45:36+00:00",
+      "bucketEnd": "2025-12-03T12:55:32+00:00",
+      "positive": 25,
+      "neutral": 12,
+      "negative": 3,
+      "netSentiment": 0.55,
+      "zScore": -0.125,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 10497.0,
+      "bucketStart": "2025-12-03T12:55:50+00:00",
+      "bucketEnd": "2025-12-03T13:06:10+00:00",
+      "positive": 23,
+      "neutral": 12,
+      "negative": 5,
+      "netSentiment": 0.45,
+      "zScore": -1.081,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 11126.0,
+      "bucketStart": "2025-12-03T13:06:19+00:00",
+      "bucketEnd": "2025-12-03T13:19:27+00:00",
+      "positive": 26,
+      "neutral": 10,
+      "negative": 4,
+      "netSentiment": 0.55,
+      "zScore": -0.125,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 11929.0,
+      "bucketStart": "2025-12-03T13:19:42+00:00",
+      "bucketEnd": "2025-12-03T13:33:16+00:00",
+      "positive": 26,
+      "neutral": 9,
+      "negative": 5,
+      "netSentiment": 0.525,
+      "zScore": -0.364,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 12781.0,
+      "bucketStart": "2025-12-03T13:33:54+00:00",
+      "bucketEnd": "2025-12-03T13:44:56+00:00",
+      "positive": 21,
+      "neutral": 17,
+      "negative": 2,
+      "netSentiment": 0.475,
+      "zScore": -0.842,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 13448.0,
+      "bucketStart": "2025-12-03T13:45:01+00:00",
+      "bucketEnd": "2025-12-03T13:59:46+00:00",
+      "positive": 30,
+      "neutral": 9,
+      "negative": 1,
+      "netSentiment": 0.725,
+      "zScore": 1.546,
+      "isBurst": true,
+      "direction": "POSITIVE_SPIKE",
+      "topComments": [
+        {
+          "text": "우리 우제 구마왔따고 쫄래쫄래 따라다니는게 커여워",
+          "likeCount": 1696,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "구마유시 따라 들어왔다가 내향제카보고 놀라서 끝까지 봤네 ㅋㅋㅋㅋ\n왜 내향인건데 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 367,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "종일 어색하다가 운동 얘기로 대통합 ㅋㅋㅋㅋ",
+          "likeCount": 79,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "제카선수 수줍어 하는게 귀엽네요.\n카나비선수는 성격좋은것 같아서 잘 이끌어줄것 같아요~  빨리 친해지길  ㅋㅋ hle에대한 유툽콘텐츠가 별로없어서 너무 심심했는데,,, \n이번편 재밌었어요🧡 pd님 건강따윈 신경쓰지말고 열심히 일해서 2편 빨리 보여주세요~",
+          "likeCount": 30,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "티슬렁 티슬렁 ㅋㅋㅋㅋㅋ 우제 민형이 그래도 같이 있으니 보기 좋네\n잘 지내고 건강하고 👏👏👏",
+          "likeCount": 29,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "우리우스....웃는거 보니깐 좋다....팀선배로써  구마 잘부타해....",
+          "likeCount": 15,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "이모님만 테토인 세계관ㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 14,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "❤우리민형이웃으니까너무좋음..",
+          "likeCount": 14,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "카나비 선수가 시원시원해서 앞으로의 유튜브가 기대댐니다 넘 재밌내요 ㅎㅎ",
+          "likeCount": 13,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "구마 때문에 보러왔는데\n카나비가 이 팀에 있는 게 더 안믿겨서 개웃김 ㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 10,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㄹㅇㅋㅋㅋㅋㅋ",
+          "likeCount": 8,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "크아아아아ㅏ악 한생튭 일하는 속도보소!!!! 최고다..!! 제카제구딜 화이팅!!!!",
+          "likeCount": 7,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "티응갤ㅈㄹ할때마다 혹시나 민형이테 피해갈까바묵묵히 응원하고 숨죽이고있던 구마유시팬들 기지개피는중ㅋㅋㅋ민형이팬수가 ..상혁이다음으로 2위였지 ㅋㅋㅋ",
+          "likeCount": 7,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "으아아악 어색해ㅋㅋㅋㅋㅋ얘들아 친해지길 바래~",
+          "likeCount": 6,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "구마 은근 체급 좋네 ㅋㅋ",
+          "likeCount": 6,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "우제 상대적뼈말라 ㅁㅊ",
+          "likeCount": 5,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "헉 이거못봤는데 매의눈!!ㅜㅜ",
+          "likeCount": 5,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "ㄹㅇㅋㅋ",
+          "likeCount": 5,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㄹㅇㅋㅋ",
+          "likeCount": 5,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "구마유시 민형아 행복하자",
+          "likeCount": 4,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "우리 구마 잘해주세여 😢😢😢",
+          "likeCount": 4,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "아 제카가 은근 볼매네 미치겠다 ㅋㅋㅋ 저 에겐력을 어카냐 ㅋㅋㅋㅋ",
+          "likeCount": 4,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "역체원 구마유시 한화 종신 기원!!!!!!!!!",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "영상 많이 많이 만들어주세요 😢\n적적한 비시즌 영상 시간도 영상 수도 너무 부족합니다아!\n한화생명 흥 해라, 🎉🎉🎉",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "7:39ㅋㅋㅋㅋㅜㅜ맞아..",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "2:49 이건 좀 심하잖앜ㅋㅋ",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "아니 땅울림이라고 할때마다 너무 웃기네 ㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "gumaaaa 🐻",
+          "likeCount": 3,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "제카 귀엽다",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "아 행복타",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "헐ㅋㅋ 한전드님 아주머님께서 좋아하시다닛!!!",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "체급생명ㄷㄷ",
+          "likeCount": 2,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "9:49 너 하나 해 가아니라 형 하나 해라고....?",
+          "likeCount": 2,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "Dịch sang tiếng việt dùm con đi con coi hổng hiểu 😢",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "구마 당장 돌아와",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "i don’t understand anything but i’m grinning the whole time??? 😂",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "우스가 작아보여....!",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "구마야 왜 거기있냐 집에 가자",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "대머니 진짜 개호감이네",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "한화는 세금 2배로 내자",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "elapsedSeconds": 14339.0,
+      "bucketStart": "2025-12-03T13:59:52+00:00",
+      "bucketEnd": "2025-12-03T14:14:27+00:00",
+      "positive": 25,
+      "neutral": 15,
+      "negative": 0,
+      "netSentiment": 0.625,
+      "zScore": 0.591,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 15240.0,
+      "bucketStart": "2025-12-03T14:14:53+00:00",
+      "bucketEnd": "2025-12-03T14:29:33+00:00",
+      "positive": 21,
+      "neutral": 16,
+      "negative": 3,
+      "netSentiment": 0.45,
+      "zScore": -1.081,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 16140.0,
+      "bucketStart": "2025-12-03T14:29:53+00:00",
+      "bucketEnd": "2025-12-03T14:52:31+00:00",
+      "positive": 25,
+      "neutral": 13,
+      "negative": 2,
+      "netSentiment": 0.575,
+      "zScore": 0.113,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 17618.0,
+      "bucketStart": "2025-12-03T14:54:31+00:00",
+      "bucketEnd": "2025-12-03T15:11:45+00:00",
+      "positive": 29,
+      "neutral": 11,
+      "negative": 0,
+      "netSentiment": 0.725,
+      "zScore": 1.546,
+      "isBurst": true,
+      "direction": "POSITIVE_SPIKE",
+      "topComments": [
+        {
+          "text": "ㅋㅋㅋㅋ아니 생각보다 5명의 케미가 좋네요\n그리고 카나비 선수 의외로 털털한 것 같아서 신기ㅋㅋㅋㅋ",
+          "likeCount": 254,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "화면 너무 꽉차는데요ㅋㅋㅋ 역시 한돈생명 만원생명 체급생명 꽉낀생명....",
+          "likeCount": 167,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "이게 맞는 거 같은데ㅋㅋㅋㅋ 김건우 개 귀여움",
+          "likeCount": 57,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "제카님 매력 터지네 ㅋㅋㅋㅋㅋㅋㅋㅋㅋ 제우스 구마 다시 만난 거 넘 기대됩니당",
+          "likeCount": 15,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "몰랐다고요...?",
+          "likeCount": 14,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "제카 요아정먹고 감기몸살 걸리는 연약한 순둥이임,,",
+          "likeCount": 12,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "ㄹㅇ 조회수 봐라 구마 팬덤 많긴했네",
+          "likeCount": 8,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "저두 따라왔어요~~~~ 구마유시 HLE 화이팅",
+          "likeCount": 5,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㄹㅇ 왜 카메라맨이 낯가리고 있냐고ㅋㅋㅋ",
+          "likeCount": 4,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "첫만남 치고는 분위기 좋은데? ㅋㅋㅋㅋㅋ 다들 얼른 친해지길 바라 ㅋㅋ",
+          "likeCount": 4,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "일단 ufc 룰로 대회하면 골든로드할거같네",
+          "likeCount": 3,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "건우야 ㅅㅂ 내가 다 어색하다ㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "귀여워ㅜㅜㅜ우제 너무 조끄매보인닼ㅋㅋㅋㅋㅋㅋㅋㅜㅜㅜㅜㅜ",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "우제때는 한 명이라서 구독 안 했는데 구마까지 갔으니…두 명이라서 구독함…ㅎ",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "사랑많이받고 행복롤 해라 구마",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㅋㅎㅋㅎㅎㅋ지금은 어색해도 친해지고나서 어떨지 궁금하다",
+          "likeCount": 2,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "민형이가 제카보다 덩치가 더 컸다니…ㄷㄷ 민형아 한화가서도 화이팅해!!!",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "구마유시 후드보면 후드 안에 미니후드가 있음ㅋㅋㅋㅋ 액자식구성 후드티 ㄷㄷㄷ",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "귀엽네ㅋㅋㅋ",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "면면들이 진짜 지리긴 하네",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "체급생명 몸짱생명 땅울림생명 미치겠다 진짜 ㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "gumayusi fighting！hle 2026 fighting！",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "구마때문에 이런것도 보네..",
+          "likeCount": 2,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "english plsssss😭😭😭",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "우스우스 구마구마 ❤❤",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "2편 기대합니다!!",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "구마유시가 진짜 크구나 ㄷㄷ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "한화 한번도 응원해 본적 없는데 올해는 응원한다",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "zeka  = 큰 크램",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "7:55 수틀리면 벤치 클리어링으로 간다",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "2부 대기중  넘나 재밌는것 ㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "애기들 넘나 귀엽닼ㅋㅋㅋㄱㅋㅋㅋㄱㅋ 워크샵다녀오면 더 친해질거같당 ㅋㅋㅋㅋㅋㅋㅋㅋㄱㅋㅋㅋㄱㄱ 🧡🧡🧡🧡🧡",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "우제가 작아보이네 ㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "구마랑 우제 있으니까 진짜 친숙하네. 구마 화이팅! 거기서도 잘해라 ㅎㅎ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "카나비 예능감있는 것 같아서 내년 기대됨ㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "우와 영상 감사합니다",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "귀엽다 애들 ㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "아니 진짜 화면이 계속 꽉차요",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "어우 화면이 꽉차네",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "아으…",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "elapsedSeconds": 18701.0,
+      "bucketStart": "2025-12-03T15:12:34+00:00",
+      "bucketEnd": "2025-12-03T15:35:52+00:00",
+      "positive": 25,
+      "neutral": 14,
+      "negative": 1,
+      "netSentiment": 0.6,
+      "zScore": 0.352,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 20157.0,
+      "bucketStart": "2025-12-03T15:36:50+00:00",
+      "bucketEnd": "2025-12-03T16:01:52+00:00",
+      "positive": 28,
+      "neutral": 11,
+      "negative": 1,
+      "netSentiment": 0.675,
+      "zScore": 1.069,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 21694.0,
+      "bucketStart": "2025-12-03T16:02:27+00:00",
+      "bucketEnd": "2025-12-03T16:37:21+00:00",
+      "positive": 22,
+      "neutral": 17,
+      "negative": 1,
+      "netSentiment": 0.525,
+      "zScore": -0.364,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 23870.0,
+      "bucketStart": "2025-12-03T16:38:43+00:00",
+      "bucketEnd": "2025-12-03T17:11:34+00:00",
+      "positive": 27,
+      "neutral": 9,
+      "negative": 4,
+      "netSentiment": 0.575,
+      "zScore": 0.113,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 25848.0,
+      "bucketStart": "2025-12-03T17:11:41+00:00",
+      "bucketEnd": "2025-12-03T18:05:29+00:00",
+      "positive": 24,
+      "neutral": 12,
+      "negative": 4,
+      "netSentiment": 0.5,
+      "zScore": -0.603,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 29114.0,
+      "bucketStart": "2025-12-03T18:06:07+00:00",
+      "bucketEnd": "2025-12-03T19:24:21+00:00",
+      "positive": 23,
+      "neutral": 14,
+      "negative": 3,
+      "netSentiment": 0.5,
+      "zScore": -0.603,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 33892.0,
+      "bucketStart": "2025-12-03T19:25:45+00:00",
+      "bucketEnd": "2025-12-03T21:58:59+00:00",
+      "positive": 19,
+      "neutral": 20,
+      "negative": 1,
+      "netSentiment": 0.45,
+      "zScore": -1.081,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 43153.0,
+      "bucketStart": "2025-12-03T22:00:06+00:00",
+      "bucketEnd": "2025-12-03T23:31:20+00:00",
+      "positive": 22,
+      "neutral": 15,
+      "negative": 3,
+      "netSentiment": 0.475,
+      "zScore": -0.842,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 48647.0,
+      "bucketStart": "2025-12-03T23:31:40+00:00",
+      "bucketEnd": "2025-12-04T00:43:42+00:00",
+      "positive": 31,
+      "neutral": 8,
+      "negative": 1,
+      "netSentiment": 0.75,
+      "zScore": 1.785,
+      "isBurst": true,
+      "direction": "POSITIVE_SPIKE",
+      "topComments": [
+        {
+          "text": "역시 체급의 생명ㅋㅋ",
+          "likeCount": 72,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "09:47 우리 구마가 워낙 팬들과 소통하기 좋아하는 선수고 \n라이브도 장시간할때가 많아서 개인실 없으면 불편하지 않을까 아쉬워했는데 \n'구마유시 개인실 예정' 문구에 개 큰 감동...ㅠ\n한화 너무 일 잘하시는 거 아닙니까!? \n기대 많이 했는데 계속 기대 이상을 보여주셔서 너무 좋아요!",
+          "likeCount": 64,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "까시야 까시 ㅠㅠ 애가 홀쭉해 ㅠㅠ",
+          "likeCount": 41,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "이 정도면 우승 하겠는데 ㅋㅋㅋㅋㅋ",
+          "likeCount": 30,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㅋㅋㅋ우제 땜에 한화영상 조금 봤었는데 민형이 땜에 다챙겨보네ㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 15,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "합이 좋네요ㅋㅋㅋㅋ우리 구마 잘 적응하길:)",
+          "likeCount": 13,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "저 연세에 롤 선수들 이름 아시는 밥해주시는 이모님이 짱이시다.",
+          "likeCount": 13,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "아니 영상 무슨일? 존잼ㅋㅋㅋㅋ 영상내내 웃고있었다.....",
+          "likeCount": 8,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "우리구마 잘챙겨주세오 ㅠ",
+          "likeCount": 7,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "8:51 그가만든 소양교육인가요?",
+          "likeCount": 7,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "제카가 낯가리는게 의외네ㅋㅋㅋ\n친해지면 더 재밌겟다 ㅋㅋㅋ",
+          "likeCount": 7,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "여기 호감인 애들이 많네",
+          "likeCount": 7,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "제목부터 호감이네",
+          "likeCount": 6,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "I'm a fan of Gumayusi, now cheering for Hle. Can't wait for the English sub, fighting 💪 ❤.",
+          "likeCount": 6,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "편집 맛도리넼ㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 4,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "딜라이트 귀엽누",
+          "likeCount": 4,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "한화 컨텐츠 너무 조하요 ...... 빨리 또 올려주세요 ...",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "우제도 있고 구마도 있고. 응원합니다!",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "2026 한화생명 기대된다 ㅋㅋㅋ",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "저도요 ㅋㅋㅋㅋ",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "죄다 낯가리는 거 개웃기네 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "다들 너무 귀여워😂😂",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "구마야 너따라왔다!\n[이단장 재계약 바람]",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "그니까ㅋㅋ",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "구마!! 한화에서도 증명해라!!",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "한전드로 시작 ㅋㅋㅋㅋㅋ",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "쌔보인다 한화 ㄷㄷㄷ",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Zㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ꽉낀다증말",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㅎㅇㅌ 한화생명🎉",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "체급이 개지리긴 하네 ;;\n카나비까지 들어가니까 어후",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "낀낀이형?",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "English subtitles please?",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "아니 애들왤케 꽉차냐 증말 어색하다 ㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "화면은 꽉 차고 공기는 어색하고... 숨 막히지만 일단 다 봤다",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "한화 파이팅!! 챙한번더 불러줘요 !!",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "7:31 한화생명 루틴 정상화는 역시 제카",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "그러니까 애들 다이어트 시키란 소리죠?ㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "8강따리가머라카노?",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "08:11 와 카나비도 율리예스야?ㄷㄷ",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "민형아..행복하니...?",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "elapsedSeconds": 53004.0,
+      "bucketStart": "2025-12-04T00:44:17+00:00",
+      "bucketEnd": "2025-12-04T02:16:54+00:00",
+      "positive": 22,
+      "neutral": 11,
+      "negative": 7,
+      "netSentiment": 0.375,
+      "zScore": -1.797,
+      "isBurst": true,
+      "direction": "NEGATIVE_SPIKE",
+      "topComments": [
+        {
+          "text": "​​​@버물황제우스때 몰래 몰래 보다가 구마유시때는 구독 박음 ㅋㅋㅋ",
+          "likeCount": 86,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "아니...조회수 무슨일인데?? 나만...한화생명 구독 박은 거 아니네😂 구마야...내 자식이라 인식 못했는데 너 진짜 수퍼스타구나!!!!! 사랑한다. 트로피 6개 채우자😊",
+          "likeCount": 77,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "친해지길 바래 컨텐츠 하나 좀 찍어줘요 ㅋㅋㅋㅋㅋ 보는 우리도 어색해 ㅋㅋㅋㅋ",
+          "likeCount": 56,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "구마야 행복해라",
+          "likeCount": 41,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "나는 왜 26년에 한화가 한 건 할 것 같지..? 느낌이 오묘하다..",
+          "likeCount": 37,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "@newalre8520카나비랑 같이 국대도 하고 둘 다 인천 살아서 자주 같이 밥 먹는 사이에용",
+          "likeCount": 37,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "만난지 10분만에 카메라 들이밀기 ㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 31,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "진짜 꼭 행복해야한다😢 (다시는 사랑같은거 안할래 흐어어엉..)",
+          "likeCount": 17,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "제카랑 구마랑 뭔가 숨막히는 어색함이네 ㅋㅋㅋㅋ",
+          "likeCount": 16,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "카나비 살아서 움직이는거 신기하다",
+          "likeCount": 15,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "구마유시구독했다",
+          "likeCount": 13,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "민형이때메 한화생명 유튜브를 다보넹",
+          "likeCount": 13,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "구마유시 화이팅! 26HLE 화이팅!",
+          "likeCount": 12,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "???:2026한화로스터 제우스,오너,제카,구마유시,케리아",
+          "likeCount": 11,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "구마야 ㅠㅠㅠㅠ너보러 왔어 잘지내고 잘싸워보자",
+          "likeCount": 11,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "오너 도란처럼 어사였다가 죽고못사는사이가 될거같은 제구",
+          "likeCount": 11,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "구마유시 🎉🎉🎉",
+          "likeCount": 6,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "구마구마야 ",
+          "likeCount": 6,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "한화 진짜 기대된다 경기 빨리좀!!",
+          "likeCount": 6,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "이게 롤팀이야 씨름팀이야 ㅋㄲㅋㅋㅋㅋ\n이모팬들 많이 생기겠다 ㅋㅋ",
+          "likeCount": 5,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "please include eng Translation 😊",
+          "likeCount": 4,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "라인업 미쳤다",
+          "likeCount": 4,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "구마야ㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠ",
+          "likeCount": 4,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "어우ㅋㅋㅋㅋㅋㅋㅋㅋ어색해",
+          "likeCount": 4,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "와 카나비가 LCK에서 뛰다니ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ한화 진짜 이번에 이악물고 할듯",
+          "likeCount": 4,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "돼지생명 롤파크땅울림 한돈생명 개큰더ㅐ지대폭발 보러왔어요",
+          "likeCount": 4,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "we need english subtitles 😭😭",
+          "likeCount": 3,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "ㅈㄴ 세겟다 ㄷㄷ",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "저됴..",
+          "likeCount": 3,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "그러게요~",
+          "likeCount": 2,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "GUMAYUSI!",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "I NEED THAT GUMA HOODIE SOOO BADDD!!!",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "진짜 무슨 초등학생들도 아니고 다 큰성인들이고 여태껏  알아서 잘해왔습니다\n진짜 요란하다 요란해 식당 아주머니라는 표현도 참 예..",
+          "likeCount": 2,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "They will update the English subtitles within 48 hours.",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "Lck 챗에서 롤준석 드립 볼 생각에 싱글벙글 ㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "제카 좀 아쉽네...",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "티응갤때문에 구마팬 됐어 나는 너는??",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "캐리아만 데려 오면 끝인데..",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "Last thing that dude need is food.",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "그걸 이겨내는모습이 멘탈이랑 이런게 레전드임 ㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        }
+      ]
+    },
+    {
+      "elapsedSeconds": 58624.0,
+      "bucketStart": "2025-12-04T02:17:57+00:00",
+      "bucketEnd": "2025-12-04T03:41:02+00:00",
+      "positive": 28,
+      "neutral": 8,
+      "negative": 4,
+      "netSentiment": 0.6,
+      "zScore": 0.352,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 63868.0,
+      "bucketStart": "2025-12-04T03:45:21+00:00",
+      "bucketEnd": "2025-12-04T05:40:52+00:00",
+      "positive": 28,
+      "neutral": 9,
+      "negative": 3,
+      "netSentiment": 0.625,
+      "zScore": 0.591,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 71425.0,
+      "bucketStart": "2025-12-04T05:51:18+00:00",
+      "bucketEnd": "2025-12-04T07:37:28+00:00",
+      "positive": 26,
+      "neutral": 11,
+      "negative": 3,
+      "netSentiment": 0.575,
+      "zScore": 0.113,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 77866.0,
+      "bucketStart": "2025-12-04T07:38:39+00:00",
+      "bucketEnd": "2025-12-04T09:25:29+00:00",
+      "positive": 22,
+      "neutral": 16,
+      "negative": 2,
+      "netSentiment": 0.5,
+      "zScore": -0.603,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 84762.0,
+      "bucketStart": "2025-12-04T09:33:35+00:00",
+      "bucketEnd": "2025-12-04T11:15:45+00:00",
+      "positive": 22,
+      "neutral": 17,
+      "negative": 1,
+      "netSentiment": 0.525,
+      "zScore": -0.364,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 90926.0,
+      "bucketStart": "2025-12-04T11:16:19+00:00",
+      "bucketEnd": "2025-12-04T13:12:17+00:00",
+      "positive": 22,
+      "neutral": 18,
+      "negative": 0,
+      "netSentiment": 0.55,
+      "zScore": -0.125,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 97997.0,
+      "bucketStart": "2025-12-04T13:14:10+00:00",
+      "bucketEnd": "2025-12-04T15:33:08+00:00",
+      "positive": 23,
+      "neutral": 17,
+      "negative": 0,
+      "netSentiment": 0.575,
+      "zScore": 0.113,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 106625.0,
+      "bucketStart": "2025-12-04T15:37:58+00:00",
+      "bucketEnd": "2025-12-04T22:21:33+00:00",
+      "positive": 20,
+      "neutral": 17,
+      "negative": 3,
+      "netSentiment": 0.425,
+      "zScore": -1.319,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 131088.0,
+      "bucketStart": "2025-12-04T22:25:41+00:00",
+      "bucketEnd": "2025-12-05T03:37:45+00:00",
+      "positive": 21,
+      "neutral": 17,
+      "negative": 2,
+      "netSentiment": 0.475,
+      "zScore": -0.842,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 149948.0,
+      "bucketStart": "2025-12-05T03:40:01+00:00",
+      "bucketEnd": "2025-12-05T08:24:35+00:00",
+      "positive": 25,
+      "neutral": 13,
+      "negative": 2,
+      "netSentiment": 0.575,
+      "zScore": 0.113,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 167812.0,
+      "bucketStart": "2025-12-05T08:37:45+00:00",
+      "bucketEnd": "2025-12-05T14:44:14+00:00",
+      "positive": 27,
+      "neutral": 10,
+      "negative": 3,
+      "netSentiment": 0.6,
+      "zScore": 0.352,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 189820.0,
+      "bucketStart": "2025-12-05T14:44:33+00:00",
+      "bucketEnd": "2025-12-06T03:24:44+00:00",
+      "positive": 31,
+      "neutral": 6,
+      "negative": 3,
+      "netSentiment": 0.7,
+      "zScore": 1.307,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 235571.0,
+      "bucketStart": "2025-12-06T03:27:04+00:00",
+      "bucketEnd": "2025-12-07T03:47:51+00:00",
+      "positive": 24,
+      "neutral": 11,
+      "negative": 5,
+      "netSentiment": 0.475,
+      "zScore": -0.842,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 333216.0,
+      "bucketStart": "2025-12-07T06:34:29+00:00",
+      "bucketEnd": "2025-12-24T15:13:26+00:00",
+      "positive": 28,
+      "neutral": 9,
+      "negative": 3,
+      "netSentiment": 0.625,
+      "zScore": 0.591,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 2202559.0,
+      "bucketStart": "2025-12-28T21:50:12+00:00",
+      "bucketEnd": "2026-06-29T15:17:44+00:00",
+      "positive": 22,
+      "neutral": 15,
+      "negative": 2,
+      "netSentiment": 0.513,
+      "zScore": -0.481,
+      "isBurst": false,
+      "direction": null
+    }
+  ],
+  "keyInsights": [
+    {
+      "type": "positive",
+      "topic": "친밀감 후속 영상",
+      "topicEn": "Follow-up Videos on Familiarity",
+      "topicZh": "亲密感后续视频",
+      "topicJa": "親密感のフォローアップ動画",
+      "comment": "구마때문에 한화 영상을 다 보게되네",
+      "commentLang": "ko",
+      "likes": 7358
+    },
+    {
+      "type": "negative",
+      "topic": "어색한 분위기",
+      "topicEn": "Awkward Atmosphere",
+      "topicZh": "尴尬的氛围",
+      "topicJa": "気まずい雰囲気",
+      "comment": "화면 밖으로도 느껴지는 어색함 ㄷ ㄷ ㄷ ㄷ",
+      "commentLang": "ko",
+      "likes": 4525
+    },
+    {
+      "type": "positive",
+      "topic": "구마유시 적응",
+      "topicEn": "Gumayusi Adaptation",
+      "topicZh": "구마유시适应",
+      "topicJa": "グマユシ適応",
+      "comment": "구마유시 잘 적응하고 행복했으면 좋겠다",
+      "commentLang": "ko",
+      "likes": 3566
+    },
+    {
+      "type": "negative",
+      "topic": "친밀감 후속 영상",
+      "topicEn": "Follow-up Videos on Familiarity",
+      "topicZh": "亲密感后续视频",
+      "topicJa": "親密感のフォローアップ動画",
+      "comment": "1:02 바뀐건 2명인데 왜 생활비가 5배가 돼요?ㅠㅠㅋㅋㅋㅋㅋㅋㅋ",
+      "commentLang": "ko",
+      "likes": 1101
+    }
+  ],
+  "analyzedAt": "2026-07-04T05:31:46.702360+00:00",
+  "analysisDuration": 513.7,
+  "tokenUsage": {
+    "input": 88507,
+    "output": 27962,
+    "embedding": 71514,
+    "total": 187983,
+    "estimatedCostUsd": 0.031484
+  }
+}

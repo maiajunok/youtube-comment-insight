@@ -5,51 +5,39 @@
     "channelTitle": "T BLING",
     "thumbnailUrl": "https://i.ytimg.com/vi/GKfutZr_oOg/maxresdefault.jpg",
     "publishedAt": "2023-12-31",
-    "viewCount": 779879,
+    "viewCount": 780603,
     "likeCount": 0,
-    "analyzedComments": 931,
+    "analyzedComments": 953,
     "languageRatio": {
-      "ko": 69,
+      "ko": 70,
       "en": 13,
       "other": 18
     },
-    "weightedSentiment": 43
+    "weightedSentiment": 38
   },
   "topics": [
     {
-      "label": "응원과 사랑",
-      "labelEn": "Support and Love",
-      "labelZh": "支持与爱",
-      "labelJa": "応援と愛",
-      "mentionCount": 521,
+      "label": "응원과 그리움",
+      "labelEn": "Support and Longing",
+      "labelZh": "支持与思念",
+      "labelJa": "応援と恋しさ",
+      "mentionCount": 436,
       "sentiment": {
-        "positive": 64,
-        "neutral": 15,
-        "negative": 20
+        "positive": 63,
+        "neutral": 22,
+        "negative": 15
       }
     },
     {
-      "label": "그리움",
-      "labelEn": "Longing",
-      "labelZh": "思念",
-      "labelJa": "恋しさ",
-      "mentionCount": 164,
+      "label": "잃어버린 별",
+      "labelEn": "Lost Star",
+      "labelZh": "失落的星星",
+      "labelJa": "失われた星",
+      "mentionCount": 405,
       "sentiment": {
-        "positive": 51,
-        "neutral": 25,
-        "negative": 24
-      }
-    },
-    {
-      "label": "상처와 회복",
-      "labelEn": "Injury and Recovery",
-      "labelZh": "伤害与恢复",
-      "labelJa": "傷と回復",
-      "mentionCount": 126,
-      "sentiment": {
-        "positive": 37,
-        "neutral": 34,
-        "negative": 29
+        "positive": 49,
+        "neutral": 24,
+        "negative": 27
       }
     },
     {
@@ -57,536 +45,560 @@
       "labelEn": "Falsetto",
       "labelZh": "假声",
       "labelJa": "ファルセット",
-      "mentionCount": 73,
+      "mentionCount": 65,
       "sentiment": {
-        "positive": 52,
-        "neutral": 34,
-        "negative": 14
+        "positive": 65,
+        "neutral": 29,
+        "negative": 6
       }
     },
     {
-      "label": "뉴 시작",
-      "labelEn": "New Beginnings",
-      "labelZh": "新的开始",
-      "labelJa": "新しい始まり",
-      "mentionCount": 47,
+      "label": "미래에 대한 희망",
+      "labelEn": "Hope for the Future",
+      "labelZh": "未来的希望",
+      "labelJa": "未来への希望",
+      "mentionCount": 31,
       "sentiment": {
-        "positive": 45,
-        "neutral": 34,
-        "negative": 21
+        "positive": 42,
+        "neutral": 29,
+        "negative": 29
+      }
+    },
+    {
+      "label": "부정적인 반응",
+      "labelEn": "Negative Reactions",
+      "labelZh": "负面反应",
+      "labelJa": "否定的な反応",
+      "mentionCount": 16,
+      "sentiment": {
+        "positive": 44,
+        "neutral": 38,
+        "negative": 19
       }
     }
   ],
   "reactionTimeline": [
     {
-      "elapsedSeconds": 372107.0,
+      "elapsedSeconds": 334477.0,
       "bucketStart": "2024-01-04T07:21:47+00:00",
       "bucketEnd": "2024-07-26T07:41:05+00:00",
-      "positive": 23,
-      "neutral": 14,
-      "negative": 3,
-      "netSentiment": 0.5,
-      "zScore": 0.728,
+      "positive": 28,
+      "neutral": 10,
+      "negative": 2,
+      "netSentiment": 0.65,
+      "zScore": 1.327,
       "isBurst": false,
       "direction": null
     },
     {
-      "elapsedSeconds": 18021240.0,
+      "elapsedSeconds": 17983610.0,
       "bucketStart": "2024-07-26T13:54:00+00:00",
       "bucketEnd": "2024-09-23T17:51:20+00:00",
-      "positive": 26,
-      "neutral": 13,
-      "negative": 1,
-      "netSentiment": 0.625,
-      "zScore": 1.325,
-      "isBurst": false,
-      "direction": null
-    },
-    {
-      "elapsedSeconds": 23133194.0,
-      "bucketStart": "2024-09-23T17:53:14+00:00",
-      "bucketEnd": "2024-11-05T03:29:55+00:00",
-      "positive": 27,
-      "neutral": 10,
-      "negative": 3,
-      "netSentiment": 0.6,
-      "zScore": 1.206,
-      "isBurst": false,
-      "direction": null
-    },
-    {
-      "elapsedSeconds": 26827556.0,
-      "bucketStart": "2024-11-05T12:05:56+00:00",
-      "bucketEnd": "2024-11-19T17:11:01+00:00",
-      "positive": 27,
-      "neutral": 9,
-      "negative": 4,
-      "netSentiment": 0.575,
-      "zScore": 1.086,
-      "isBurst": false,
-      "direction": null
-    },
-    {
-      "elapsedSeconds": 28055896.0,
-      "bucketStart": "2024-11-19T17:18:16+00:00",
-      "bucketEnd": "2024-11-22T04:17:21+00:00",
-      "positive": 16,
-      "neutral": 8,
-      "negative": 16,
-      "netSentiment": 0.0,
-      "zScore": -1.663,
+      "positive": 29,
+      "neutral": 11,
+      "negative": 0,
+      "netSentiment": 0.725,
+      "zScore": 1.668,
       "isBurst": true,
-      "direction": "NEGATIVE_SPIKE",
+      "direction": "POSITIVE_SPIKE",
       "topComments": [
         {
-          "text": "우제야 나 이 영상 진짜 좋아했다... 원래 이 노래 몰랐는데 처음엔 우제의 미친 가성에 좋아하고 그 다음엔 가사가 좋아서 그래서 계속 좋아했어 그리고 최근에는 비긴어게인 영화 재개봉한다길래 이 노래 들으러 보러갔다왔다 ㅋㅋ 그리고 지금은 복잡미묘한 감정으로 이 영상 보고 있네.. 앞으로는 경쟁팀으로 만날테니 응원은 어렵겠지만… 그동안 추억들 다 잊지 않고 기억할게 \n고마웠다 우제야",
-          "likeCount": 695,
+          "text": "2:26 신들린우제",
+          "likeCount": 769,
           "sentiment": "POSITIVE"
         },
         {
-          "text": "'잃어버린 별'",
-          "likeCount": 642,
+          "text": "두손 꼭 잡고 열심히 부르는게 너무 사랑스러움…..우제야ㅠㅠ",
+          "likeCount": 468,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "하이라이트가 생명인 노랜데 제일 잘 해내네 이야",
+          "likeCount": 228,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "월즈진출전 5세트 요네 보고 왔다",
+          "likeCount": 78,
           "sentiment": "NEUTRAL"
         },
         {
-          "text": "나의 잃어버린 별에게",
-          "likeCount": 513,
-          "sentiment": "NEUTRAL"
-        },
-        {
-          "text": "마지막으로 볼려고 왔어\n정말 진심으로 고마웠어 우제야\n너 덕분에 행복했던 제오페구케였어\n항상 행복하고 건강해야 해\n멀리서라도 조용히 응원하고 있을게\n우리 정상에서 다시 보자!!",
-          "likeCount": 384,
-          "sentiment": "POSITIVE"
-        },
-        {
-          "text": "우울할때마다 들으러 왔는데 지금은 이거 들으면서 울고있다 들을때마다 마냥 귀엽고 멋있고 행복했는데 지금은 이거보면서 목매고 가슴아프다 욕심인걸 알지만 돌아와줬으면",
-          "likeCount": 286,
-          "sentiment": "NEGATIVE"
-        },
-        {
-          "text": "여기서도 중요한 순간에 잘하노 ㅋㅋㅋㅋ",
-          "likeCount": 174,
-          "sentiment": "POSITIVE"
-        },
-        {
-          "text": "넌 진짜 티원이 잃어버린 별이야 그 별 다시 찾았으면 좋겠다",
-          "likeCount": 153,
-          "sentiment": "NEGATIVE"
-        },
-        {
-          "text": "나 이영상 너무 좋아해서 친구들한테 한번만 들어보라고 공유하고 다녔는데… 가성 정말 미친거 같다고… 왜갔어 바보야 앞으로도 이런 영상 많이 남겨줬어야지 이런모습 많이 보여줬어야지… 너무너무 아쉽다 내 욕심이겠지만 다시 돌아와줬으면… 이건 진짜 너무 욕심이지?ㅋㅋ 암튼 진짜 많이 진짜 많이 좋아했고 앞으로도 좋아할게 진짜 고맙고 사랑해…",
-          "likeCount": 72,
-          "sentiment": "POSITIVE"
-        },
-        {
-          "text": "벌써 보고싶다 우제야 건강해",
-          "likeCount": 67,
-          "sentiment": "NEGATIVE"
-        },
-        {
-          "text": "당신이 이 노래를 부를 때 정말 진지해 보였고, 영상 03:45의 미소는 정말 진심으로 느껴졌어요. 그 미소를 보면 저도 모르게 따라 웃게 되더라고요.  \r\n처음 소식을 접했을 땐 정말 화가 났어요. 왜 마지막 순간까지 미뤄야 했는지 이해할 수 없었거든요. T1이 당신에게 잘해주지 않았던 건가요? 형들은요? 팬들은요? 아니면 이런 것들이 다 일종의 감정적인 강요처럼 느껴졌던 건가요?  \r\n이틀 동안 많은 생각을 했지만, 결국 다시 당신의 노래를 들으러 왔어요. 영상 속 당신의 미소를 보면 여전히 행복한 기분이 들어요. 하지만 이제 더는 당신을 응원하지 않을 거예요. 새로운 팀에서 잘하시고 건강을 유지하시길 바라요.",
-          "likeCount": 66,
-          "sentiment": "NEGATIVE"
-        },
-        {
-          "text": "지금상황이이렇지만..신경쓰지말고 앞으로더열심히하는선수가되어주세요 앞으로티원에있지는않지만 정말정말 3년동안 제우스선수덕분에 너무재밌는경기많이봤어요 사실많이그리울거같아요..ㅜㅜ 다른곳가서도 열심히해주세요!정말 응원합니다!",
-          "likeCount": 62,
-          "sentiment": "NEGATIVE"
-        },
-        {
-          "text": "진짜 눈물 나네 ...",
-          "likeCount": 49,
-          "sentiment": "NEGATIVE"
-        },
-        {
-          "text": "우제야 너 가서 잠이 안와 미치겠다 진짜 한화가서도 행복해라..",
-          "likeCount": 45,
-          "sentiment": "POSITIVE"
-        },
-        {
-          "text": "Goodbye to our precious lost star. Even if you became a shooting star, we will be waiting for your return",
-          "likeCount": 37,
-          "sentiment": "NEGATIVE"
-        },
-        {
-          "text": "T1에서 탑으로 활동해줘서 고맙다 우제야 가서도 행복해야해",
-          "likeCount": 33,
-          "sentiment": "POSITIVE"
-        },
-        {
-          "text": "2017년 이후 암흑기를 다시 빛으로 만들어주셔서 정말 고마웠습니다..",
-          "likeCount": 25,
-          "sentiment": "POSITIVE"
-        },
-        {
-          "text": "우제야 고마웠어… 항상 행복하길 바랄게🥲",
-          "likeCount": 24,
-          "sentiment": "POSITIVE"
-        },
-        {
-          "text": "아 진짜 좋아햇는데 속상하냐",
-          "likeCount": 24,
-          "sentiment": "NEGATIVE"
-        },
-        {
-          "text": "가지마 체우제,,,,,",
-          "likeCount": 20,
-          "sentiment": "NEGATIVE"
-        },
-        {
-          "text": "good bye T1 Zeus, good bye lost star",
-          "likeCount": 19,
-          "sentiment": "NEGATIVE"
-        },
-        {
-          "text": "사랑했다",
-          "likeCount": 13,
-          "sentiment": "POSITIVE"
-        },
-        {
-          "text": "就算不捨我還是好喜歡你，會一直支持我們小豬",
-          "likeCount": 9,
-          "sentiment": "POSITIVE"
-        },
-        {
-          "text": "See you around our baby top :((( will continue to root for you wherever team you may be in the future!!",
-          "likeCount": 7,
-          "sentiment": "POSITIVE"
-        },
-        {
-          "text": "miss you😢",
-          "likeCount": 7,
-          "sentiment": "NEGATIVE"
-        },
-        {
-          "text": "Zeus là 'star' của em, giờ em 'lost star' rồi đấy",
-          "likeCount": 6,
-          "sentiment": "NEGATIVE"
-        },
-        {
-          "text": "Don't you dare let our best memories bring you sorrow\n\nSee you, our star",
-          "likeCount": 6,
-          "sentiment": "POSITIVE"
-        },
-        {
-          "text": "Em như một vì sao lạc lối. Mong em tìm được đường về, mong em bình an\nĐi đâu cũng được, xin hãy yêu thương em ấy nhiều chút",
-          "likeCount": 5,
-          "sentiment": "POSITIVE"
-        },
-        {
-          "text": "이게 알고리즘에 뜨네ㅋㅋㅋㅋㅋ",
-          "likeCount": 4,
-          "sentiment": "NEUTRAL"
-        },
-        {
-          "text": "Preciosa canción que lastimosamente termina siendo una despedida, aunque elijo creer que será un hasta luego <3 Te amamos Wooje, espero que pronto ZOFGK se pueda reunir y continuar con la dinastías. Mientras tanto estemos saludables y que toda esta polémica pase y los bonitos tiempos puedan volver<3.",
-          "likeCount": 4,
-          "sentiment": "POSITIVE"
-        },
-        {
-          "text": "see you later  😭\n\nI hope to see you in 2026 again.",
-          "likeCount": 3,
-          "sentiment": "NEGATIVE"
-        },
-        {
-          "text": "goodbye wooje ",
-          "likeCount": 3,
-          "sentiment": "NEGATIVE"
-        },
-        {
-          "text": "giống như bài hát chúng tôi và bạn thật sự  đã \"LOST STARS\" . TẠM BIỆT ZEUS",
-          "likeCount": 3,
-          "sentiment": "NEUTRAL"
-        },
-        {
-          "text": "dù thế nào vẫn mong e một đời khoẻ mạnh, cùng đam mê sánh bước và tỏa sáng trong tương lai. Vẫn mãi là ngôi sao nhỏ trên bầu trời, cảm ơn T1 Zeus",
-          "likeCount": 3,
-          "sentiment": "POSITIVE"
-        },
-        {
-          "text": "넌 내 별이었는데 이젠 잃어버렸네..ㅎ",
-          "likeCount": 3,
-          "sentiment": "NEGATIVE"
-        },
-        {
-          "text": "Thank you algorism",
-          "likeCount": 2,
-          "sentiment": "NEUTRAL"
-        },
-        {
-          "text": "사랑했다",
-          "likeCount": 2,
-          "sentiment": "NEGATIVE"
-        },
-        {
-          "text": "Todos lo esperamos 🫂",
-          "likeCount": 1,
-          "sentiment": "NEUTRAL"
-        },
-        {
-          "text": "still 100% would die to protect him\nstill love him wherever he goes\ndespite everything, he's still wooje",
-          "likeCount": 0,
-          "sentiment": "POSITIVE"
-        },
-        {
-          "text": "lost star",
-          "likeCount": 0,
-          "sentiment": "NEUTRAL"
-        },
-        {
-          "text": "하",
-          "likeCount": 0,
-          "sentiment": "NEUTRAL"
-        }
-      ]
-    },
-    {
-      "elapsedSeconds": 28272203.0,
-      "bucketStart": "2024-11-22T05:23:23+00:00",
-      "bucketEnd": "2024-11-24T07:11:41+00:00",
-      "positive": 18,
-      "neutral": 9,
-      "negative": 13,
-      "netSentiment": 0.125,
-      "zScore": -1.065,
-      "isBurst": false,
-      "direction": null
-    },
-    {
-      "elapsedSeconds": 28456555.0,
-      "bucketStart": "2024-11-24T08:35:55+00:00",
-      "bucketEnd": "2024-11-25T15:30:01+00:00",
-      "positive": 16,
-      "neutral": 8,
-      "negative": 16,
-      "netSentiment": 0.0,
-      "zScore": -1.663,
-      "isBurst": true,
-      "direction": "NEGATIVE_SPIKE",
-      "topComments": [
-        {
-          "text": "우리가 잃어버린 별이지만\n너에게도 티원이 잃어버린 별이라고 느껴질 때\n다시 찾으러 돌아와주길",
-          "likeCount": 792,
-          "sentiment": "NEUTRAL"
-        },
-        {
-          "text": "우제야 형 눈물난다 돌아와라 기다릴게\n너가 티원 암흑기 지웠잖아 어딜가니",
-          "likeCount": 270,
-          "sentiment": "NEGATIVE"
-        },
-        {
-          "text": "나의 별아 어느곳을 가도 응원해",
-          "likeCount": 266,
-          "sentiment": "POSITIVE"
-        },
-        {
-          "text": "연말에 형들이랑 같이 게임하고 테런하고 메이플하고 낄낄거리는 모습 보고싶었는데.. 그냥 지금 당장은 그런모습을 못본다는게 슬퍼\n너 간다하니까 너가 부르던 이 노래가 생생하게 기억나서 보러왔어\n이번 연말은 너랑 함께 못한다는게 너무너무 아쉽다 😭 생각보다 너한테 너무 진심이였던 나한테 놀랐어 보고싶네\n우제야 넌 영원한 내 세체탑이야\n나중에 티원에서 꼭 다시 보고싶어 그렇게해줄거지? 잘지내",
-          "likeCount": 140,
-          "sentiment": "NEGATIVE"
-        },
-        {
-          "text": "이젠 진짜 보내줘야지 보내줘야지 하면서도, 네 흔적이 너무 가득해서 눈물이 난다,,, 너는 기억할지 모르겠지만 나는 아직도 기억해. 올해 1월 우연히 너를 보게 된 날이었는데, 우리 팀에 별이 되어주어서 고맙다고 항상 응원한다는 내 말에, 항상 응원해주는 팬들 덕분이라고 감사하다며 환하게 웃으며 인사하고 가는 네가 얼마나 예뻤는지,,, 난 그날이 오늘인 것처럼 선명해서 네가 우리의 곁을 떠났다는 걸 여전히 실감을 못하나 봐. 내 주위엔 온통 우제의 흔적이 가득해. 너의 이름이 박힌 유니폼들, 네 굿즈들, 네 얼굴이 들어간 포스터와 사진 같은 것들. 이제 이 과거들은 추억 속에 묻어두고 현재와 다가올 미래를 살아가야할테지만, 그래도 조금만 더 그리워하다가 보내줄래... 3년동안 많은 애정과 응원을 보냈던 만큼, 3년의 기억들을 하나씩 묻어두기엔 많은 시간이 걸리나봐. 차차 시간이 지나면 괜찮아지겠지? \n\n우제야 네가 이 댓글을 볼지 모르겠지만, 여전히 너를 응원하고 사랑하는 팬들이 많다는 걸 알아주었으면 좋겠다. 비록 다른 곳에서 우리와 마주칠 너를 마냥 응원하지는 못하겠지만, 한 발자국 물러선 곳에서 조용히 계속해서 응원할 거야. 너는 어디에서든 빛날 사람이니까, 네가 가는 길도 환하게 빛날 거야. 그래도 티원과 함께할 때 정말 무엇보다도 환하게 빛났다는 것만 알아주었으면 좋겠어. 미래에 네가 티원에 있었을 때 정말 행복했다고 기억해준다면,,, 난 그것만으로도 너무 행복할 것 같아. 3년동안 우리의 탑이 되어준 것, 우리의 아름다운 별이 되어준 것에 대해 너무 고맙고 감사해. 언제나 건강하고 행복하길. 진짜 안녕이야 사랑했던 나의 별 우제야🌟",
+          "text": "ㅋㅋㅋ기여워서 오늘 힘든거 잊혀진다 ㅜㅜ 우제 라방 보고싶다..",
           "likeCount": 73,
           "sentiment": "POSITIVE"
         },
         {
-          "text": "정말 많이 좋아하고 진심으로 응원했어\n우리한테 너는 잃어버린 별이겠지만 너는 언제나 길을 잃지 않았으면 해\n이제 너한테 항상 이기라는 응원을 못 하는 게 그게 뭐라고 이렇게 마음이 복잡한지 모르겠다\n항상 건강하길",
+          "text": "이야 재능은 있네 레슨 받으면 ㄹㅇ 지릴듯",
           "likeCount": 70,
-          "sentiment": "NEGATIVE"
+          "sentiment": "POSITIVE"
         },
         {
-          "text": "@YHStar애초에 일소라는 어지간한 가수도 찜쪄먹을 정도의 기량괴물들 심심찮게 나오는 곳이고 가성파트 한정 일소라 나올만함",
-          "likeCount": 51,
-          "sentiment": "NEUTRAL"
+          "text": "제우스는 신인걸…",
+          "likeCount": 49,
+          "sentiment": "POSITIVE"
         },
         {
-          "text": "너가 떠나서 요 며칠동안 마냥 슬펐는데 너가 은퇴를 해서 널 영영 못보는것도 아니고\n우리팀 우제로는 볼 수 없지만 어디선가는 너의 모습을 계속 볼수있다는것만으로도 다행이라 생각해\n언젠가 우리팀으로 다시 볼수있었음 좋겠다 항상 그랬던것처럼 앞으로도 파이팅해 나보다 어린 너지만 언제나 열정적인 널 존경했어\n너를 잃지말고 너가 도전하고자 했던것에 계속 집중하길 바라\n먼발치서 응원할게 못했던 새로운 경험 많이 하고 성장해서 꼭 다시 우리에게 와줘",
+          "text": "접신ㅋㅋㅋㅋㅋㅋㅋㅋㅋ끜",
           "likeCount": 34,
-          "sentiment": "NEGATIVE"
-        },
-        {
-          "text": "응 내후년에 돌아와서 다시 제오페구케 하면 그만이야 ~~",
-          "likeCount": 27,
-          "sentiment": "NEUTRAL"
-        },
-        {
-          "text": "우제야....항상 행복하고..ㅠㅠㅠㅠㅠ",
-          "likeCount": 19,
           "sentiment": "POSITIVE"
         },
         {
-          "text": "제일 높은 곳에서 만나자 우제야!",
-          "likeCount": 17,
+          "text": "캬 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 32,
           "sentiment": "POSITIVE"
         },
         {
-          "text": "영화에서도... 애인을 두고 바람을 폈음... 새 애인보고 감명 받아서 쓴 노래.... ㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠ",
-          "likeCount": 15,
-          "sentiment": "NEGATIVE"
+          "text": "누나들 좋아죽을듯 ㅋㅋㅋㅋ",
+          "likeCount": 22,
+          "sentiment": "POSITIVE"
         },
         {
-          "text": "T1에 빠지자마자 떠나서 너무 아쉽지만.. 우리 앞으로 행복해요",
+          "text": "이얔ㅋㅋㅋ 잘부르네",
           "likeCount": 14,
-          "sentiment": "NEGATIVE"
-        },
-        {
-          "text": "우제야 ... 밉다가도 널 보면 그냥 슬프기만 하네 ... 꼭 후회하지말고 잘 살아야해",
-          "likeCount": 13,
           "sentiment": "POSITIVE"
         },
         {
-          "text": "it hurts me so mụch when rewatching this video but I keep replaying it again and again. I can't hate Zeus, Wooje ah I wish I can meet you again in T1CON and I can see ZOFGK again, too....",
-          "likeCount": 11,
-          "sentiment": "NEGATIVE"
+          "text": "우제인거 모르고 들으면 진짜 가수같음ㅋㅋㅋ",
+          "likeCount": 12,
+          "sentiment": "POSITIVE"
         },
         {
-          "text": "엥 눈물나네 ..",
-          "likeCount": 9,
-          "sentiment": "NEGATIVE"
+          "text": "아니 개잘부르는데 이거 뭐임?",
+          "likeCount": 10,
+          "sentiment": "POSITIVE"
         },
         {
-          "text": "​@YHStar으..응그래?",
+          "text": "어림없지..야 쟤 챌린저라며?라면서 남자들이 피방 데리고 다닐듯",
           "likeCount": 9,
           "sentiment": "NEUTRAL"
         },
         {
-          "text": "기본적으로 톤이 높아서 그런지 가성이 참 좋네",
-          "likeCount": 9,
+          "text": "와 잘부르네",
+          "likeCount": 8,
           "sentiment": "POSITIVE"
         },
         {
-          "text": "@KuncapKo-c7q 3년 간 좋아했던 선수 타팀으로 보내면서 그간의 좋았던 기억들 회상하며 적은 글이에요. 예민한 상태인지라 댓글이 시비조 처럼 보여서 기분이 좋지는 않네요? 모르는 타인의 글에 굳이 댓글 달아가며 감성 파괴하지 않으셔두 됩니다 ~ 월요일이라 출근도 해야하니 어서 주무시길 바래요 :) 좋은 밤 안온한 밤 되세요🌜",
-          "likeCount": 9,
-          "sentiment": "NEUTRAL"
-        },
-        {
-          "text": "왜잘하는데",
-          "likeCount": 7,
-          "sentiment": "NEUTRAL"
-        },
-        {
-          "text": "잘가요 우리의 별.. 언제나 우리 마음 한구석에는 너의 별이 빛날거야. 3년동안 너무 반짝여줘서 고마웠어",
-          "likeCount": 7,
-          "sentiment": "NEGATIVE"
-        },
-        {
-          "text": "@thumbsup-bb 우제는 많은 분들의 사랑과 응원을 받아 마땅한 사람이니까요 ! 요 며칠 우제를 질타하는 분들도 정말 많아서 선수가 상처받을까 걱정이 되기도 했지만, 우제를 그만큼 너무도 많이 응원하고 좋아했고 사랑했다는 것에 대한 반증이 아닐까 싶어요. 그래도 선넘는 악플과 질타는 열받긴 했지만,,,\n언젠가 둥지를 벗어나 새로운 출발을 할 거라 생각은 하고 있었지만, 예기치 못한 이별은 언제나 아쉬움이 가득 남는 거 같아요. 전보다 많은 응원을 보내주진 못하겠지만, 찬란했던 역사를 같이 만들어낸 우리의 선수이자 추억이기 때문에 멀리서라도 응원하려구요!\n끈끈한 애정과 아낌없는 응원을 보내주는 팬분들 덕분에 마음이 따뜻해지네요. 팬분들과 함께 영원한 우리의 mz 막내 우제가 항상 행복하길 바래요:) 좋은 밤 되시길🥰❣️",
+          "text": "우제처럼 살고싶다",
           "likeCount": 7,
           "sentiment": "POSITIVE"
         },
         {
-          "text": "위에 답글은 그냥 분탕 어그로같은데 신경쓰지 마세요ㅎㅎ! 며칠 내내 여기 와서 우제 노래도 듣고 댓글도 보러 와보는데, 이렇게 길게 예쁜 댓글을 적어주신 분이 계신 걸 보고 또 울컥해버렸네요🥹\n저와 같은 생각을 가지신 분들이 있구나 하는걸 눈으로 확인할때마다 마음이 안심되는걸 느껴요.\n이런 따뜻한 사랑을 주시는 분들이 정말 많이 있다는걸 우제도 꼭 알거라고 생각하고, 그 사랑속에서 함께 보냈던 티원에서의 지난 기억들도 행복으로 빛나며 우제가 걸어가는 길을 비춰줄거라고 생각해요!\n우제는 정말 멋진 선수이고 사람이니까 어디 가서든 꼭 잘 해낼거라고 믿어요. 저희 같이 쭉 지켜보며 응원하기로 해요❤",
+          "text": "아진짜우제귀여워ㅜ",
+          "likeCount": 7,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Honestly top diff",
+          "likeCount": 7,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "귀엽냐",
+          "likeCount": 7,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "아니 진짜 잘부르는데? ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 7,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "@justin1185 그저 번개의 신 제우스….",
+          "likeCount": 6,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "순간 Ai기술인가 싶었네 ㅋㅋㅋㅋㅋㅋㅋ",
           "likeCount": 6,
           "sentiment": "POSITIVE"
         },
         {
-          "text": "결승에서 보자 우제😂",
-          "likeCount": 4,
+          "text": "캬 탑차이 ㅋㅋ",
+          "likeCount": 5,
           "sentiment": "POSITIVE"
         },
         {
-          "text": "@KuncapKo-c7q 헐 태국에서도 lck가 인기가 많군요? 동남아 지역에 롤판 상황은 몰랐는데 새삼 신기하네용🫢 저희 우제 제우스 선수 잘 부탁드려요:) 정말 정말 잘하고 재능 있고 노력하는 선수니까 어디서든 잘 할 거예요 ! 한화 팬분들이 좋게 봐주고 보듬어 주신다면 더할 나위 없이 만족할 따름,,, 저희는 한 발자국 물러나서 응원할테지만 아낌없는 응원과 사랑 부탁드릴게요🥹",
-          "likeCount": 4,
-          "sentiment": "POSITIVE"
-        },
-        {
-          "text": "고마웠다 우제야..",
-          "likeCount": 4,
-          "sentiment": "POSITIVE"
-        },
-        {
-          "text": "huahhhh farewell T1's Lost star",
-          "likeCount": 3,
-          "sentiment": "NEGATIVE"
-        },
-        {
-          "text": "돌아와.",
-          "likeCount": 3,
-          "sentiment": "NEGATIVE"
-        },
-        {
-          "text": "잃어버린 별...\n아쉽지만 응원합니다",
+          "text": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
           "likeCount": 3,
           "sentiment": "NEUTRAL"
         },
         {
-          "text": "노래 잘부르는건 맞는거같네ㅋㅋ",
+          "text": "❤",
           "likeCount": 3,
-          "sentiment": "POSITIVE"
+          "sentiment": "NEUTRAL"
         },
         {
-          "text": "진짜 곡 제목처럼 lost stars 되버렸네….",
-          "likeCount": 2,
-          "sentiment": "NEGATIVE"
-        },
-        {
-          "text": "Find your way back home again lost star. I'll be waiting. They'll be waiting.🥹😌🌠",
+          "text": "Wooje is my starrrrr",
           "likeCount": 2,
           "sentiment": "POSITIVE"
         },
         {
-          "text": "One of the 5 stars might be lost, but I'm hoping he will be back again soon alongside the 4 stars where he truly belongs",
+          "text": "사랑스러워..",
           "likeCount": 2,
           "sentiment": "POSITIVE"
         },
         {
-          "text": "He sang this and quite literally became our 'Lost Star'.🙃",
-          "likeCount": 1,
-          "sentiment": "NEGATIVE"
-        },
-        {
-          "text": "우제야응원해…….항상…….",
+          "text": "thank you ",
           "likeCount": 1,
           "sentiment": "POSITIVE"
         },
         {
-          "text": "@KuncapKo-c7q 그.. 뭔가 인생이 불행해보이는데 여기서 이러지말고 나가서 산책좀 해보세요 자신에게 도움이 되는 일을 해보길 바랍니다",
-          "likeCount": 0,
-          "sentiment": "NEGATIVE"
+          "text": "중간중간 바꿔부르는게 캐리하려는 탑 같아서 진짜 개웃기네 ㅋㅋㅋ 잘 어울림 근데",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
         },
         {
-          "text": "그런데 혹시 77억이 무슨 말일까요,,,? 갑자기 웬 77억이지??",
+          "text": "chữa lànhh",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "병아리가 노래를 해요…..!!!",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "같은과 누나들이 다 노리는 중",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "구마유시보다 잘부르네 ㄷㄷ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "my 4rever love😍😍😍 hope every luckiest things comes to him🍀🍀🍀🍀",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Zzzzzzzzzzzzzzz​@Seeeleleee",
           "likeCount": 0,
           "sentiment": "NEUTRAL"
         },
         {
-          "text": "감사해요!",
+          "text": "👍",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "ㅇㅈ",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "에???",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "저도요ㅋㅋㅋㅋㅋㅋ",
           "likeCount": 0,
           "sentiment": "POSITIVE"
         },
         {
-          "text": "ㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠ아진짜속상",
+          "text": "So cute ",
           "likeCount": 0,
-          "sentiment": "NEGATIVE"
-        },
-        {
-          "text": "​@KuncapKo-c7q 사람이 너무 꼬였다..",
-          "likeCount": 0,
-          "sentiment": "NEGATIVE"
+          "sentiment": "POSITIVE"
         }
       ]
     },
     {
-      "elapsedSeconds": 28567903.0,
-      "bucketStart": "2024-11-25T15:31:43+00:00",
-      "bucketEnd": "2024-11-28T03:35:05+00:00",
-      "positive": 23,
-      "neutral": 5,
-      "negative": 12,
-      "netSentiment": 0.275,
-      "zScore": -0.348,
+      "elapsedSeconds": 23095564.0,
+      "bucketStart": "2024-09-23T17:53:14+00:00",
+      "bucketEnd": "2024-11-03T14:00:40+00:00",
+      "positive": 25,
+      "neutral": 13,
+      "negative": 2,
+      "netSentiment": 0.575,
+      "zScore": 0.986,
       "isBurst": false,
       "direction": null
     },
     {
-      "elapsedSeconds": 28790388.0,
-      "bucketStart": "2024-11-28T05:19:48+00:00",
-      "bucketEnd": "2024-12-04T02:59:06+00:00",
+      "elapsedSeconds": 26682333.0,
+      "bucketStart": "2024-11-04T06:12:43+00:00",
+      "bucketEnd": "2024-11-19T16:41:42+00:00",
+      "positive": 29,
+      "neutral": 10,
+      "negative": 1,
+      "netSentiment": 0.7,
+      "zScore": 1.554,
+      "isBurst": true,
+      "direction": "POSITIVE_SPIKE",
+      "topComments": [
+        {
+          "text": "Goodbye lost star",
+          "likeCount": 2734,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "진짜 구라 안치고 우제 너무 좋아서 이 영상 하루에 한 번은 보러 들어옴 ....,..... 개좋다 진짜 ㅁㅊ나 최우제",
+          "likeCount": 77,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "아이고 우리애기 노래도 잘하네❤",
+          "likeCount": 17,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "잘가라 행복했다 우제야",
+          "likeCount": 5,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "im in love",
+          "likeCount": 5,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "@hhhhh-y3p2uㅋㅋ 우승컵 들면서 웃는거 보니까 제가 다 행복하더라고요",
+          "likeCount": 4,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㄹㅇㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 4,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "：有考慮當歌手嗎？我當然有考慮當歌手啊，那是我的夢想耶。我跟你說：當歌手比當職業選手……我當……我當歌手，是……最想當的。",
+          "likeCount": 3,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "뭐야 가성 립싱크일줄 ㅈㄴ 잘부르네;;;",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "zeus my baby why so cute and good at singing",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "cute <3",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "가성 왤케 잘함",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "I want he to sing this song again this year. Better than I thought haha",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "farewell. we will miss you. 19/11/2024",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "아 ㅈㄴ 귀엽다 체우제 ㅠㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "아니 AI가 아니라 진짜였다고?",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "나한텐 너가 영화다 지리네",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "my top laner when im doing grubs and he doesnt rotate",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "공감이예요ㅋㅋㅋㅋ😮😮",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "超屌 已經唱的比很多人都還要好了😭那個假音是真的猛",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "역시 탑… 가성 ㅈㄴ잘씀",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "全能型選手",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Holyshit",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "aaaaa my bias 😩",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "3프로는 좀 너무 갔고 15퍼센트?",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "잘한당",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "好讚❤",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "개잘부르는데? 내가 노래방 알바 1년 2개월 한 입장에서 말하자면 일반인 기준 상위 3프로정도 될듯",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Where is this?",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "Woo-Je my Goat\nWish more western people would see the whole T1con performance of all the guys!",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Wojeee que lindaaaaaa suena tu voz en inglés.",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "우제야... 가수야 프로게이머야 뭐야...",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "I guess he really loves this song. Me too.",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "귀여워 ㅠㅠㅠㅠㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "와 뭐야? 생각보다 잘부르는데?",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "우제야...............왜이리 귀엽니",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "왜 난 이 영상에 중독된것인가....1일 5 최우제를 하지 않으면 안되는 몸이 되어버림..",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "Theres a screen in front of them with karaoke style lyrics on it. You can see the T1 boys looking at it throughout their performances at T1con .\nIf you type in \"T1con\" you'll find a video of the whole concert, It was a great watch and surprising how good they all actually are. You can definitely see them having proper vocal practice for this and Faker practicing his Piano skills as well.\n\nAlso not trying to front you here but your comment makes it sound like the performances weren't impressive at all, when in reality everything about this is absolutely amazing to see.\nIn all hoensty the real impressive thing that most people will not realize is standing on that stage in front of a crowd and having the balls to sing into that Mic, knowing you're not gonna hit every note, let alone just talk into that microphone is stressful enough.\nPretty sure most people would shit their pants straight up out of anxiety just from standing on that stage without doing anything, give them a Mic in their hand and they'd want to die on the spot.\nI know what I'm talking about cuz I was an \"Animateur\" (german word for entertainer, but I feel like that's not too accurate) for a long time in a Beachvolleyball gym where events and weddings took place and I had to go on stage and entertain people for 1-2 hours straight with a Mic in the hand (2-3 times a day). It's absolutely draining if you're an introverted person knowing everyone can hear you clearly, but you also start to love it a bit when you realize people are seriously cheering for you and just having a good time. You can see all of them having that moment where they overcome their shyness and just ball out their performance and being pride about the effort they put into it. Kerias performances are goated by the way, he's a true entertainer, dude could become a comedian.\n\nI honestly absolutely underestimated all of these guys and their personalities, these guys are all gigachads. Being a shy introverted gamer and putting that much of a show on the stage made me a huge fan of their personalities, completely regardless of their eSports history, just them as pure honest and hardworking people, these guys really are rolemodels.",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "뭐야 우리 우둥이 노래 웰케 잘불러?",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "@user-ii4lb6xu1o  ㄴㄴ 사람들 진짜 생각외로 못부르는 사람들이 진짜많음",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "elapsedSeconds": 28016813.0,
+      "bucketStart": "2024-11-19T16:54:03+00:00",
+      "bucketEnd": "2024-11-21T12:15:11+00:00",
+      "positive": 21,
+      "neutral": 5,
+      "negative": 14,
+      "netSentiment": 0.175,
+      "zScore": -0.831,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 28190291.0,
+      "bucketStart": "2024-11-21T17:05:21+00:00",
+      "bucketEnd": "2024-11-24T03:44:55+00:00",
       "positive": 17,
-      "neutral": 7,
-      "negative": 16,
-      "netSentiment": 0.025,
-      "zScore": -1.543,
+      "neutral": 13,
+      "negative": 10,
+      "netSentiment": 0.175,
+      "zScore": -0.831,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 28402399.0,
+      "bucketStart": "2024-11-24T04:00:29+00:00",
+      "bucketEnd": "2024-11-25T13:03:09+00:00",
+      "positive": 22,
+      "neutral": 8,
+      "negative": 10,
+      "netSentiment": 0.3,
+      "zScore": -0.263,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 28522939.0,
+      "bucketStart": "2024-11-25T13:29:29+00:00",
+      "bucketEnd": "2024-11-27T14:17:40+00:00",
+      "positive": 21,
+      "neutral": 5,
+      "negative": 14,
+      "netSentiment": 0.175,
+      "zScore": -0.831,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 28711043.0,
+      "bucketStart": "2024-11-27T17:44:33+00:00",
+      "bucketEnd": "2024-12-02T13:27:22+00:00",
+      "positive": 18,
+      "neutral": 8,
+      "negative": 14,
+      "netSentiment": 0.1,
+      "zScore": -1.172,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 29183813.0,
+      "bucketStart": "2024-12-03T05:04:03+00:00",
+      "bucketEnd": "2024-12-17T18:30:45+00:00",
+      "positive": 15,
+      "neutral": 8,
+      "negative": 17,
+      "netSentiment": -0.05,
+      "zScore": -1.854,
       "isBurst": true,
       "direction": "NEGATIVE_SPIKE",
       "topComments": [
@@ -601,19 +613,9 @@
           "sentiment": "NEGATIVE"
         },
         {
-          "text": "우리 우제 못하는게 뭐야 진짜ㅜㅠ 최근에 매일 9시간씩 솔랭 돌리는 너 보면서 괜히 맘이 짠하드라ㅠ 열심히 하는 우제니까 앞으로도 잘 될거야 방송 많이 안해도 돼서 더 편하려나? 디도스 안당해도 돼서 이제 좋으려나.. 지금 너 팀 휴가 기간 지나고 너가 들어가서 쉬는 시간 더 가졌어야 했는데 쓸데 없는 걱정도 되고 ,, 여튼 우제야 너가 어디에 있든 항상 행복하기를 바라",
-          "likeCount": 92,
-          "sentiment": "POSITIVE"
-        },
-        {
-          "text": "나는 아직 못 보내겠어 너가 너무 보고싶어 우제야… 다 아는데도 다시 돌아온다고 하면 모른척 없던 일로 하고 싶어.. 티원의 어느 하나도 잃고 싶지 않았는데😢",
+          "text": "우제만 보면 이렇게 웃음이 나는데 ㅋㅋㅋㅋ 제오페구케 덕분에 얼마나 벅차올랐는지 ㅎㅎ 우제를 더 마음편하게 좋아할 수 있음 더할나위없이 좋았겠지만,, 우제도 행복하자 !",
           "likeCount": 63,
-          "sentiment": "NEGATIVE"
-        },
-        {
-          "text": "사랑해 우제야!!! 내가 이렇게까지 못 놓겠는 멤버는 또 처음이라 많이 슬펐지만... 뭘 놔? 그냥 응원해! 라고 생각 고쳐먹고 좀 나아지고 있었는데... 상혁이형도 똑같이 말하더라고... 너와 함께한 시간들이 너무 밝고 찬란해서 벌써 그립지만, 네가 더 많이 더더욱 훨훨 날아오를 수 있게 응원할게 최우제 화이팅!",
-          "likeCount": 52,
-          "sentiment": "NEGATIVE"
+          "sentiment": "POSITIVE"
         },
         {
           "text": "우제야, 우리의 잃어버린 별아. 지금 너는 어떨까? 새로운 환경에 적응하느라 힘들까? 아님 이미 적응하고 편히 잠 자고 있을까? 티원의 도란, 한화의 제우스를 받아들였지만, 있지 아주 가끔 과거의 파편을 볼 때마다 너가 이제 티원에 없다는게 느껴져서 기분이 이상해. 영원할 줄 알았는데, 내년에도 함께일줄 알았는데. 전조없이 떠나버려서, 예고없이 새로운 사람이 들어와서 그럴까? 한동안은 좀 많이 멍했던 것 같아. 아직도 너가 티원의 탑 같은데 티원의 막내 같은데 방송에서 너가 ‘어 형이야~ 아- 형이야~’ 이러면서 형들과 장난칠 것 같은데 그래도 이제는 놓아주어야겠지? 한화에서 새롭게 출발해야 하니까. 너의 앞날을 응원할게 우제야. 새벽감성에 주저리 주저리 많이 썼지만 아침에 일어나면 좀 창피할 것 같지만.. 우제야 우리 가장 높은 곳에서 만나자. 만났을 때 너의 팀을 응원하진 못하겠지만, 그래도 높은 곳에서 봤으면 좋겠다. 행복했으면 좋겠다. 티원의 암흑기를 끝낸, 티원의 잃어버린 별아.",
@@ -621,104 +623,99 @@
           "sentiment": "NEGATIVE"
         },
         {
-          "text": "요즘 1일1영상하는중....왜 이렇게 잘 부르는데.....돌아와 최우제...ㅠㅜㅠㅜㅠㅠ",
-          "likeCount": 37,
-          "sentiment": "NEUTRAL"
+          "text": "아직도 너의 사진중에는 티원유니폼을 입은 너가 보이는데 진짜 못 잊겠다 티원 제우스.. 기적이란 일이 다가오기를",
+          "likeCount": 30,
+          "sentiment": "NEGATIVE"
         },
         {
-          "text": "우제의 새로운 여정도 응원해😊",
-          "likeCount": 34,
-          "sentiment": "POSITIVE"
-        },
-        {
-          "text": "보고싶을때 마다 널 보러 여길 자주 들를 것 같아 우리의 빛나는 별🌟 우제야 우리 막내야. 우리 우둥아❤ 진짜 진짜 많이 보고싶다.",
-          "likeCount": 28,
-          "sentiment": "POSITIVE"
-        },
-        {
-          "text": "잘가 나의 별아 암흑기일 때 밝게 비춰줘서 고마워 행복하길 바랄게",
-          "likeCount": 24,
-          "sentiment": "POSITIVE"
-        },
-        {
-          "text": "절대 잃고 싶지 않았던 별이여..\n절대 널 놓고 싶지 않았어…",
+          "text": "헤어진 전애인한테 자니? 연락하기 직전 감정이다 우제야....",
           "likeCount": 20,
           "sentiment": "NEGATIVE"
         },
         {
-          "text": "still my favorite, favorite little one.",
-          "likeCount": 18,
+          "text": "솔직히 이 노래를 다시 들으면 이렇게 슬픈 느낌이 들까? 우제 넌 정말 잔인해 😭 어쨌든 나는 아직도 진심으로 너를 응원한다. 행복하세요 최우제님 ♥️",
+          "likeCount": 19,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋㅋ 아니 이러면 안되는거 아는데 너무 그립네",
+          "likeCount": 16,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "이 노래의 제목이 지금 우리의 상황과 너무 똑같아서 너무 슬픈데, 노래 가사중 사자가 사슴에게 키스에게 키스하는 것을 봤어요, 다음장을 넘기면 다른 결말이 았을지도 몰라요 등이 있는 것처럼 우리도 다음장을 넘겨보면, 지금으로서는 거의 불가능 한 것을 알지만 사자가 사슴에게 키스하는 것처럼 기적같은 일이 일어나서, 우리한테 행복을 가져다 줄 수 있지 않을까.",
+          "likeCount": 15,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "우제야 너 덕분에 그동안 정말 행복했어 건강해야해 안녕",
+          "likeCount": 12,
           "sentiment": "POSITIVE"
         },
         {
-          "text": "진심 다해 불러서 더 멋있다 최우제 그립다",
-          "likeCount": 12,
-          "sentiment": "NEGATIVE"
-        },
-        {
-          "text": "널 잃어버리고 싶지 않았어",
+          "text": "우제님 목소리가 좋아요 우제님이 돌아오길 기다리며 힐링할 수 있는 영상입니다. 내년에도 대박나시길 바라겠습니다♥️ 여전히 최우제님을 응원합니다",
           "likeCount": 11,
-          "sentiment": "NEGATIVE"
+          "sentiment": "POSITIVE"
         },
         {
-          "text": "티원콘에서 우제 못 볼 거란게 너무 아쉽고 그렇네..",
+          "text": "t1에서 정말 멋진 퍼포먼스 보여준 선수라서 더 기대합니다 응원합니다.",
+          "likeCount": 10,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "최우제빨리보고싶다ㅠㅠ 이영상있어서 버틴다",
           "likeCount": 9,
           "sentiment": "POSITIVE"
         },
         {
-          "text": "My lost star please always shine wherever you are",
+          "text": "my lost star, our lost star\n우제야...",
           "likeCount": 8,
-          "sentiment": "POSITIVE"
+          "sentiment": "NEGATIVE"
         },
         {
-          "text": "노래 개잘하네ㄷㄷ 2025년도 한화에서 열심히 해보자구",
-          "likeCount": 7,
-          "sentiment": "POSITIVE"
-        },
-        {
-          "text": "조금 더 빨리 알았으면 좋았을텐데 널 왜 이렇게 늦게 알게됐을까",
-          "likeCount": 7,
-          "sentiment": "NEUTRAL"
+          "text": "너가 계속 그립고 언젠간 다시 돌아오길 간절히 바랬는데 \r\n한화에 영상도 뜨고 너가 다른팀 유니폼 입고있는것도 보니깐 점점 이젠 우리팀이 아니라는게 실감이 나네.. \r\n다시 만날일도 없을거같단 생각이 든다. 이제 점점 티원막내였던 우제의 이미지도 사라져가는것같아.. 앞으론 더하겠지\r\n우제야 이젠 정말 널 보내줄수있을거같다 어디서든 건강해!! 정말 고마웠어",
+          "likeCount": 8,
+          "sentiment": "NEGATIVE"
         },
         {
           "text": "나의 잃어버린 별 우제야 다시 돌아와줘",
           "likeCount": 7,
-          "sentiment": "POSITIVE"
-        },
-        {
-          "text": "3:30 여기부분이 왜이렇게 좋지 가성애드립 미쳤다 우제",
-          "likeCount": 6,
-          "sentiment": "POSITIVE"
-        },
-        {
-          "text": "Woe is me\n슬퍼요\n\nIf we’re not careful\n자칫 잘못하면\n\nTurns into reality\n그게 진짜로 현실이 될거 같아서\n\nDon’t you dare\n조심해야 해요\n\nLet our best memories\n우리의 추억이\n\nBring you sorrow\n슬픔이 되지 않도록\n\nYesterday I saw a lion kiss a deer\n어제 사슴에게 키스하는 사자를 발견했어요\n\nTurn the page\n책장을 넘기면\n\nMaybe we’ll find a brand new ending\n새로운 결말이 있겠죠\n\n______________________________________________\n\n\nAnd I thought I saw you out there crying\n울고 있는 당신의 당신의 모습을 봤어요\n\nAnd I thought I heard you call my name\n나를 애타게 찾는 당신의 목소리가 들렸죠\n\nI thought I heard you out there crying\n당신의 울음소리를 들었어요\n\n______________________________________________\n\n너와의 추억이 슬픔이 되는게 싫어\n\n너도 너를 그리워하는 우리의 목소리가 들릴까\n너도 너를 생각하며 우는 우리의 울음소리가 들릴까\n\n사자가 사슴에게 키스하는 것처럼 기적같은 일이\n우리에게도 일어나길 바래\n기적같은 일이 일어나서 너가 다시 티원에개 돌아오길 바래\n\n모두에게 예의가 아닌건 알지만\n기적이 일어났으면",
-          "likeCount": 6,
           "sentiment": "NEGATIVE"
         },
         {
-          "text": "가성의 신이네 ㄷㄷ",
-          "likeCount": 4,
+          "text": "오늘도 보고 간다.. 난 널 응원해 너무 멋있고 귀엽고 티원의 일원으로서 정말 잘했다고 생각했다. 템퍼링 논란은 잘못되었다고 생각하지만 그동안 함께해온 정때문에 차마 널 욕하지 못하겠다.. 같이 해온 추억이 있는데 다 무시하고 욕을 하기엔 그 추억들이 너무 소중했어.. 너도 그렇게 생각해줬으면 좋겠어. 화이팅 최우제!",
+          "likeCount": 7,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "보통 다른파트들을 잘불러도 가성에서 많이들 무너지던데\n반대로 가성에서 잘하네 ㅋㅋ",
+          "likeCount": 6,
           "sentiment": "POSITIVE"
         },
         {
-          "text": "진심을 다하는 노랫소리에 눈물나고… 아직도 너를 추억하며 기다리는 댓글에 눈물난다…🥲",
-          "likeCount": 4,
-          "sentiment": "POSITIVE"
+          "text": "ㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠ",
+          "likeCount": 5,
+          "sentiment": "NEGATIVE"
         },
         {
-          "text": "AAAAAAAAAAAAAAAAA WOOJEYAAA I LOVE YOU",
+          "text": "이 노래 들을 때마다 우제 생각난다",
+          "likeCount": 5,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "lost lost star",
+          "likeCount": 4,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "한화에서도 이거 해주잨ㅋㅋㅋ 가성의 신 제우스",
           "likeCount": 3,
           "sentiment": "POSITIVE"
         },
         {
-          "text": "니체가 말했죠 \"we lost god\"",
+          "text": "생각나면 보러오는 영상",
           "likeCount": 3,
           "sentiment": "NEUTRAL"
-        },
-        {
-          "text": "너는 잃어버린 별이야 우제야 😢",
-          "likeCount": 3,
-          "sentiment": "NEGATIVE"
         },
         {
           "text": "I MISS THIS RAT SO MUCH",
@@ -726,14 +723,14 @@
           "sentiment": "NEGATIVE"
         },
         {
-          "text": "돌아오지않아도 괜찮아 잠시 들러만줘",
+          "text": "haiz, today i miss you, so i come here",
           "likeCount": 3,
-          "sentiment": "NEGATIVE"
+          "sentiment": "NEUTRAL"
         },
         {
-          "text": "se que pronto volverás estrella perdida...",
-          "likeCount": 2,
-          "sentiment": "NEUTRAL"
+          "text": "You are kind and pure. Your brothers still support and love you. That's why you are a good person.",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
         },
         {
           "text": "밉다고 생각했는데 다시 이 영상 보니까 좋고 그러네\n잘가 거기서도 잘하고 행복해 우제야",
@@ -741,222 +738,237 @@
           "sentiment": "POSITIVE"
         },
         {
-          "text": "가성처리 뭐냐? 어찌한거냐",
+          "text": "se que pronto volverás estrella perdida...",
           "likeCount": 2,
           "sentiment": "NEUTRAL"
         },
         {
-          "text": "영원한 건! 절대 없어! 결국에 넌 ! 변했지! 하지만 사랑했다",
-          "likeCount": 1,
+          "text": "I still can’t believe how fast time flies… I’m not sure if orange and black suit you but I hope you’re happy and healthy.. 😊",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "And he, indeed, became a lost star 😢",
+          "likeCount": 2,
           "sentiment": "NEGATIVE"
         },
         {
-          "text": "2:30 가성",
+          "text": "우제야 앞으론경쟁팀으로 만날테니\n추억은 잊지 않을게...😢",
+          "likeCount": 2,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "왜 잘부름?",
+          "likeCount": 2,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "😢",
+          "likeCount": 2,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "Chớp iu mãi đỉnhhhh",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "🥲🥲",
           "likeCount": 1,
           "sentiment": "NEUTRAL"
         },
         {
-          "text": "@dkrkflekedjtlqkffusdk 걍 적당히만 해도 잘한다 하는거지.. 제우스가 노래로 밥 벌어먹는 사람도 아니고 가수급 실력을 바라고 그러겠냐고\n진짜 이렇게 삐뚤어진 애들은 어떻게 세상 사는지 모르겠네",
+          "text": "2:33",
           "likeCount": 1,
-          "sentiment": "NEGATIVE"
-        },
-        {
-          "text": "​@YHStar님 아니었으면 몰랐을듯 ㄷㄷ",
-          "likeCount": 0,
           "sentiment": "NEUTRAL"
         },
         {
-          "text": "우제 안녕...",
-          "likeCount": 0,
-          "sentiment": "NEGATIVE"
-        },
-        {
-          "text": "@dkrkflekedjtlqkffusdk 진짜 잘하는디요...",
-          "likeCount": 0,
+          "text": "He really sang this song a lot in his early days as a starter in T1 🥹",
+          "likeCount": 1,
           "sentiment": "POSITIVE"
         },
         {
-          "text": "@KuncapKo-c7q 나이처먹고 추하다",
-          "likeCount": 0,
-          "sentiment": "NEGATIVE"
+          "text": "Zeus has an angelic voice👼🥹",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
         },
         {
-          "text": "그럴느낌이긴함ㅋㅋ",
-          "likeCount": 0,
-          "sentiment": "POSITIVE"
+          "text": "ㅠㅠ",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
         },
         {
           "text": "우제야 고마웠어.. ㅜ",
           "likeCount": 0,
-          "sentiment": "NEGATIVE"
+          "sentiment": "POSITIVE"
         }
       ]
     },
     {
-      "elapsedSeconds": 29325802.0,
-      "bucketStart": "2024-12-04T10:03:22+00:00",
-      "bucketEnd": "2024-12-24T06:27:06+00:00",
-      "positive": 17,
-      "neutral": 10,
-      "negative": 13,
-      "netSentiment": 0.1,
-      "zScore": -1.185,
-      "isBurst": false,
-      "direction": null
-    },
-    {
-      "elapsedSeconds": 31069559.0,
-      "bucketStart": "2024-12-24T14:25:59+00:00",
-      "bucketEnd": "2025-02-11T07:48:55+00:00",
+      "elapsedSeconds": 30462916.0,
+      "bucketStart": "2024-12-18T00:22:26+00:00",
+      "bucketEnd": "2025-01-31T02:48:26+00:00",
       "positive": 19,
-      "neutral": 10,
-      "negative": 11,
-      "netSentiment": 0.2,
-      "zScore": -0.707,
-      "isBurst": false,
-      "direction": null
-    },
-    {
-      "elapsedSeconds": 35391950.0,
-      "bucketStart": "2025-02-12T15:05:50+00:00",
-      "bucketEnd": "2025-03-22T12:32:46+00:00",
-      "positive": 26,
       "neutral": 7,
-      "negative": 7,
-      "netSentiment": 0.475,
-      "zScore": 0.608,
+      "negative": 14,
+      "netSentiment": 0.125,
+      "zScore": -1.058,
       "isBurst": false,
       "direction": null
     },
     {
-      "elapsedSeconds": 38666224.0,
-      "bucketStart": "2025-03-22T12:37:04+00:00",
-      "bucketEnd": "2025-04-17T05:25:32+00:00",
-      "positive": 29,
-      "neutral": 2,
-      "negative": 9,
-      "netSentiment": 0.5,
-      "zScore": 0.728,
-      "isBurst": false,
-      "direction": null
-    },
-    {
-      "elapsedSeconds": 40907663.0,
-      "bucketStart": "2025-04-17T11:14:23+00:00",
-      "bucketEnd": "2025-05-10T12:46:14+00:00",
-      "positive": 18,
-      "neutral": 6,
-      "negative": 16,
-      "netSentiment": 0.05,
-      "zScore": -1.424,
-      "isBurst": false,
-      "direction": null
-    },
-    {
-      "elapsedSeconds": 43156474.0,
-      "bucketStart": "2025-05-13T11:54:34+00:00",
-      "bucketEnd": "2025-06-15T22:25:05+00:00",
-      "positive": 28,
-      "neutral": 5,
-      "negative": 7,
-      "netSentiment": 0.525,
-      "zScore": 0.847,
-      "isBurst": false,
-      "direction": null
-    },
-    {
-      "elapsedSeconds": 46076169.0,
-      "bucketStart": "2025-06-16T06:56:09+00:00",
-      "bucketEnd": "2025-07-22T07:02:41+00:00",
+      "elapsedSeconds": 34280523.0,
+      "bucketStart": "2025-01-31T04:49:13+00:00",
+      "bucketEnd": "2025-03-10T10:40:07+00:00",
       "positive": 27,
-      "neutral": 5,
-      "negative": 8,
-      "netSentiment": 0.475,
-      "zScore": 0.608,
-      "isBurst": false,
-      "direction": null
-    },
-    {
-      "elapsedSeconds": 49272452.0,
-      "bucketStart": "2025-07-23T06:47:32+00:00",
-      "bucketEnd": "2025-08-28T12:35:57+00:00",
-      "positive": 24,
-      "neutral": 6,
-      "negative": 10,
-      "netSentiment": 0.35,
-      "zScore": 0.01,
-      "isBurst": false,
-      "direction": null
-    },
-    {
-      "elapsedSeconds": 52474081.0,
-      "bucketStart": "2025-08-29T08:08:01+00:00",
-      "bucketEnd": "2025-10-29T15:28:00+00:00",
-      "positive": 28,
-      "neutral": 6,
-      "negative": 6,
-      "netSentiment": 0.55,
-      "zScore": 0.967,
-      "isBurst": false,
-      "direction": null
-    },
-    {
-      "elapsedSeconds": 58689390.0,
-      "bucketStart": "2025-11-09T06:36:30+00:00",
-      "bucketEnd": "2025-11-30T10:06:19+00:00",
-      "positive": 25,
-      "neutral": 7,
-      "negative": 8,
-      "netSentiment": 0.425,
-      "zScore": 0.369,
-      "isBurst": false,
-      "direction": null
-    },
-    {
-      "elapsedSeconds": 60596551.0,
-      "bucketStart": "2025-12-01T08:22:31+00:00",
-      "bucketEnd": "2026-01-06T23:40:37+00:00",
-      "positive": 26,
       "neutral": 9,
-      "negative": 5,
-      "netSentiment": 0.525,
-      "zScore": 0.847,
-      "isBurst": false,
-      "direction": null
-    },
-    {
-      "elapsedSeconds": 63810711.0,
-      "bucketStart": "2026-01-07T13:11:51+00:00",
-      "bucketEnd": "2026-02-03T05:34:38+00:00",
-      "positive": 18,
-      "neutral": 16,
-      "negative": 6,
-      "netSentiment": 0.3,
-      "zScore": -0.229,
-      "isBurst": false,
-      "direction": null
-    },
-    {
-      "elapsedSeconds": 66235106.0,
-      "bucketStart": "2026-02-04T14:38:26+00:00",
-      "bucketEnd": "2026-04-28T18:17:31+00:00",
-      "positive": 19,
-      "neutral": 17,
       "negative": 4,
-      "netSentiment": 0.375,
-      "zScore": 0.13,
+      "netSentiment": 0.575,
+      "zScore": 0.986,
       "isBurst": false,
       "direction": null
     },
     {
-      "elapsedSeconds": 73497263.0,
-      "bucketStart": "2026-04-29T15:54:23+00:00",
-      "bucketEnd": "2026-06-22T06:02:29+00:00",
+      "elapsedSeconds": 37607114.0,
+      "bucketStart": "2025-03-10T16:52:24+00:00",
+      "bucketEnd": "2025-04-05T03:43:50+00:00",
+      "positive": 29,
+      "neutral": 5,
+      "negative": 6,
+      "netSentiment": 0.575,
+      "zScore": 0.986,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 39879211.0,
+      "bucketStart": "2025-04-06T00:00:41+00:00",
+      "bucketEnd": "2025-04-29T11:56:53+00:00",
+      "positive": 22,
+      "neutral": 12,
+      "negative": 6,
+      "netSentiment": 0.4,
+      "zScore": 0.191,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 41911762.0,
+      "bucketStart": "2025-04-29T12:36:32+00:00",
+      "bucketEnd": "2025-06-13T12:15:25+00:00",
+      "positive": 17,
+      "neutral": 8,
+      "negative": 15,
+      "netSentiment": 0.05,
+      "zScore": -1.399,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 45811885.0,
+      "bucketStart": "2025-06-13T15:58:35+00:00",
+      "bucketEnd": "2025-06-28T16:23:51+00:00",
+      "positive": 28,
+      "neutral": 3,
+      "negative": 9,
+      "netSentiment": 0.475,
+      "zScore": 0.532,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 47187138.0,
+      "bucketStart": "2025-06-29T13:59:28+00:00",
+      "bucketEnd": "2025-07-28T11:32:50+00:00",
+      "positive": 19,
+      "neutral": 7,
+      "negative": 14,
+      "netSentiment": 0.125,
+      "zScore": -1.058,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 49765129.0,
+      "bucketStart": "2025-07-29T10:05:59+00:00",
+      "bucketEnd": "2025-09-28T14:30:57+00:00",
+      "positive": 22,
+      "neutral": 10,
+      "negative": 8,
+      "netSentiment": 0.35,
+      "zScore": -0.036,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 55147220.0,
+      "bucketStart": "2025-09-29T17:07:30+00:00",
+      "bucketEnd": "2025-11-18T13:16:39+00:00",
+      "positive": 21,
+      "neutral": 8,
+      "negative": 11,
+      "netSentiment": 0.25,
+      "zScore": -0.49,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 59459637.0,
+      "bucketStart": "2025-11-18T15:01:07+00:00",
+      "bucketEnd": "2025-12-21T14:02:08+00:00",
+      "positive": 23,
+      "neutral": 7,
+      "negative": 10,
+      "netSentiment": 0.325,
+      "zScore": -0.15,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 62386180.0,
+      "bucketStart": "2025-12-22T11:56:50+00:00",
+      "bucketEnd": "2026-01-15T12:31:42+00:00",
       "positive": 24,
-      "neutral": 9,
-      "negative": 7,
+      "neutral": 14,
+      "negative": 2,
+      "netSentiment": 0.55,
+      "zScore": 0.873,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 64629053.0,
+      "bucketStart": "2026-01-17T10:58:03+00:00",
+      "bucketEnd": "2026-03-10T03:56:56+00:00",
+      "positive": 20,
+      "neutral": 17,
+      "negative": 3,
       "netSentiment": 0.425,
-      "zScore": 0.369,
+      "zScore": 0.305,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 69112489.0,
+      "bucketStart": "2026-03-10T08:21:59+00:00",
+      "bucketEnd": "2026-05-23T07:16:43+00:00",
+      "positive": 18,
+      "neutral": 17,
+      "negative": 5,
+      "netSentiment": 0.325,
+      "zScore": -0.15,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 75900228.0,
+      "bucketStart": "2026-05-27T21:50:58+00:00",
+      "bucketEnd": "2026-07-01T23:44:26+00:00",
+      "positive": 20,
+      "neutral": 10,
+      "negative": 3,
+      "netSentiment": 0.515,
+      "zScore": 0.714,
       "isBurst": false,
       "direction": null
     }
@@ -964,52 +976,52 @@
   "keyInsights": [
     {
       "type": "positive",
-      "topic": "응원과 사랑",
-      "topicEn": "Support and Love",
-      "topicZh": "支持与爱",
-      "topicJa": "応援と愛",
+      "topic": "잃어버린 별",
+      "topicEn": "Lost Star",
+      "topicZh": "失落的星星",
+      "topicJa": "失われた星",
       "comment": "걍 인프피가 저렇게 많은 사람 앞에서 두손 꼭 모으고 두눈 꼭 감고 연습한 노래를 부르는 게 왤케 예뻐보이냐 ㅋㅋㅋ",
       "commentLang": "ko",
-      "likes": 2173
+      "likes": 2176
     },
     {
       "type": "negative",
-      "topic": "상처와 회복",
-      "topicEn": "Injury and Recovery",
-      "topicZh": "伤害与恢复",
-      "topicJa": "傷と回復",
-      "comment": "t1 the lost two star",
+      "topic": "응원과 그리움",
+      "topicEn": "Support and Longing",
+      "topicZh": "支持与思念",
+      "topicJa": "応援と恋しさ",
+      "comment": "Goodbye lost star",
       "commentLang": "en",
-      "likes": 644
+      "likes": 2734
     },
     {
       "type": "positive",
-      "topic": "가성",
-      "topicEn": "Falsetto",
-      "topicZh": "假声",
-      "topicJa": "ファルセット",
+      "topic": "부정적인 반응",
+      "topicEn": "Negative Reactions",
+      "topicZh": "负面反应",
+      "topicJa": "否定的な反応",
       "comment": "진짜 가성파트는 미친것 같음 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ 저 파트때에는 접신한 것 같음",
       "commentLang": "ko",
-      "likes": 1954
+      "likes": 1958
     },
     {
       "type": "negative",
-      "topic": "응원과 사랑",
-      "topicEn": "Support and Love",
-      "topicZh": "支持与爱",
-      "topicJa": "応援と愛",
-      "comment": "진짜 티원은 별을 잃었구나",
-      "commentLang": "ko",
-      "likes": 428
+      "topic": "잃어버린 별",
+      "topicEn": "Lost Star",
+      "topicZh": "失落的星星",
+      "topicJa": "失われた星",
+      "comment": "t1 the lost two star",
+      "commentLang": "en",
+      "likes": 644
     }
   ],
-  "analyzedAt": "2026-07-03T14:31:19.377207+00:00",
-  "analysisDuration": 203.4,
+  "analyzedAt": "2026-07-04T13:52:39.676665+00:00",
+  "analysisDuration": 187.1,
   "tokenUsage": {
-    "input": 61281,
-    "output": 10564,
-    "embedding": 43819,
-    "total": 115664,
-    "estimatedCostUsd": 0.016407
+    "input": 62270,
+    "output": 11639,
+    "embedding": 46121,
+    "total": 120030,
+    "estimatedCostUsd": 0.017246
   }
 }

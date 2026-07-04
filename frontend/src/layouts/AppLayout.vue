@@ -6,19 +6,30 @@
         <span class="logo-text">FindComments</span>
       </div>
 
-      <div class="nav-section">메뉴</div>
       <nav>
         <div
-          v-for="item in mainNav"
+          class="nav-item"
+          :class="{ active: route.name === 'home' }"
+          @click="goHome(); closeMobileNav()"
+        >
+          <IconHome class="nav-icon" />
+          {{ messages[settings.lang].navHome }}
+          <span v-if="analysisStore.isAnalyzing" class="analyzing-dot" />
+        </div>
+      </nav>
+
+      <div class="nav-divider" />
+      <div class="nav-section">{{ settings.lang === 'ko' ? '분석' : 'Analysis' }}</div>
+      <nav>
+        <div
+          v-for="item in analysisNav"
           :key="item.name"
           class="nav-item"
           :class="{ active: route.name === item.name || (item.name === 'history' && route.name === 'history-view') }"
-          @click="item.name === 'home' ? goHome() : router.push({ name: item.name }); closeMobileNav()"
+          @click="router.push({ name: item.name }); closeMobileNav()"
         >
           <component :is="item.icon" class="nav-icon" />
           {{ messages[settings.lang][item.msgKey as keyof typeof messages['ko']] }}
-          <!-- 분석 진행 중 인디케이터 (홈) -->
-          <span v-if="item.name === 'home' && analysisStore.isAnalyzing" class="analyzing-dot" />
           <!-- 분석 완료 인디케이터 (분석 기록) -->
           <span v-if="item.name === 'history' && analysisStore.justFinished" class="done-dot" />
         </div>
@@ -136,7 +147,7 @@
 import { computed, ref, watch, onMounted, onBeforeUnmount } from 'vue'
 import { useRouter, useRoute } from 'vue-router'
 import {
-  IconHome, IconClock, IconLayoutColumns,
+  IconHome, IconClock, IconLayoutColumns, IconChartDots3,
   IconSettings, IconFileDescription, IconActivity, IconBrandGithub,
 } from '@tabler/icons-vue'
 import { useSettingsStore } from '@/features/settings/stores/settings'
@@ -149,7 +160,9 @@ const settings     = useSettingsStore()
 const analysisStore = useAnalysisStore()
 
 function goHome() {
-  if (!analysisStore.isAnalyzing) analysisStore.clearResult()
+  // 표시 중인 결과(result)와 백그라운드 분석 진행 상태(isAnalyzing)는 서로 무관함 —
+  // 다른 영상이 분석 중이어도 지금 보고 있는 결과 화면은 항상 지워져야 홈으로 돌아감
+  analysisStore.clearResult()
   router.push({ name: 'home' })
 }
 
@@ -210,10 +223,10 @@ watch(() => route.name, (name) => {
   if (name === 'history' || name === 'history-view') analysisStore.justFinished = false
 })
 
-const mainNav = [
-  { name: 'home',    msgKey: 'navHome',    icon: IconHome },
+const analysisNav = [
   { name: 'history', msgKey: 'navHistory', icon: IconClock },
   { name: 'compare', msgKey: 'navCompare', icon: IconLayoutColumns },
+  { name: 'network', msgKey: 'navNetwork', icon: IconChartDots3 },
 ]
 
 const topbarTitle = computed(() => {
@@ -224,6 +237,7 @@ const topbarTitle = computed(() => {
     stats:          m.navStats,
     'history-view': 'Community Reaction Dashboard',
     compare:        m.navCompare,
+    network:        m.navNetwork,
     howto:          m.navHowto,
     settings:       m.navSettings,
   }

@@ -5,184 +5,386 @@
     "channelTitle": "젠지 이스포츠 Gen.G Esports",
     "thumbnailUrl": "https://i.ytimg.com/vi/iY2q9Eerf9E/maxresdefault.jpg",
     "publishedAt": "2022-05-14",
-    "viewCount": 474031,
-    "likeCount": 15551,
-    "analyzedComments": 1178,
+    "viewCount": 474190,
+    "likeCount": 15553,
+    "analyzedComments": 1234,
     "languageRatio": {
       "ko": 79,
       "en": 6,
       "other": 15
     },
-    "weightedSentiment": 62
+    "weightedSentiment": 55
   },
   "topics": [
     {
-      "label": "도란의 노래 실력",
-      "labelEn": "Doran's Singing Ability",
-      "labelZh": "道然的歌唱能力",
-      "labelJa": "ドランの歌唱力",
-      "mentionCount": 382,
-      "sentiment": {
-        "positive": 63,
-        "neutral": 29,
-        "negative": 8
-      }
-    },
-    {
-      "label": "귀여움",
-      "labelEn": "Cutness",
-      "labelZh": "可爱",
-      "labelJa": "かわいさ",
-      "mentionCount": 376,
+      "label": "도란의 귀여움",
+      "labelEn": "Doran's Cuteness",
+      "labelZh": "多兰的可爱",
+      "labelJa": "ドランのかわいさ",
+      "mentionCount": 447,
       "sentiment": {
         "positive": 73,
-        "neutral": 23,
-        "negative": 4
+        "neutral": 22,
+        "negative": 6
       }
     },
     {
-      "label": "팀워크",
-      "labelEn": "Teamwork",
-      "labelZh": "团队合作",
-      "labelJa": "チームワーク",
-      "mentionCount": 163,
+      "label": "팬들의 기대와 환영",
+      "labelEn": "Fans' Expectations and Welcomes",
+      "labelZh": "粉丝们的期待和欢迎",
+      "labelJa": "ファンの期待と歓迎",
+      "mentionCount": 292,
+      "sentiment": {
+        "positive": 62,
+        "neutral": 35,
+        "negative": 3
+      }
+    },
+    {
+      "label": "도란의 공연과 노래",
+      "labelEn": "Doran's Performance and Singing",
+      "labelZh": "多兰的表演和歌唱",
+      "labelJa": "ドランのパフォーマンスと歌",
+      "mentionCount": 243,
       "sentiment": {
         "positive": 55,
-        "neutral": 40,
-        "negative": 5
+        "neutral": 35,
+        "negative": 11
       }
     },
     {
-      "label": "기대감",
-      "labelEn": "Anticipation",
-      "labelZh": "期待感",
-      "labelJa": "期待感",
-      "mentionCount": 138,
+      "label": "팀 T1의 변화",
+      "labelEn": "Changes in Team T1",
+      "labelZh": "T1团队的变化",
+      "labelJa": "T1チームの変化",
+      "mentionCount": 160,
       "sentiment": {
-        "positive": 44,
-        "neutral": 46,
-        "negative": 10
+        "positive": 36,
+        "neutral": 57,
+        "negative": 7
       }
     },
     {
-      "label": "팬 서비스",
-      "labelEn": "Fan Service",
-      "labelZh": "粉丝服务",
-      "labelJa": "ファンサービス",
-      "mentionCount": 119,
+      "label": "콘텐츠 제작 스타일",
+      "labelEn": "Content Production Style",
+      "labelZh": "内容制作风格",
+      "labelJa": "コンテンツ制作スタイル",
+      "mentionCount": 92,
       "sentiment": {
-        "positive": 58,
-        "neutral": 38,
+        "positive": 51,
+        "neutral": 45,
         "negative": 4
       }
     }
   ],
   "reactionTimeline": [
     {
-      "elapsedSeconds": 50478.0,
-      "bucketStart": "2022-05-14T14:01:18+00:00",
-      "bucketEnd": "2022-05-14T14:15:19+00:00",
+      "elapsedSeconds": 26.0,
+      "bucketStart": "2022-05-14T14:00:42+00:00",
+      "bucketEnd": "2022-05-14T14:08:44+00:00",
       "positive": 28,
       "neutral": 11,
       "negative": 1,
       "netSentiment": 0.675,
-      "zScore": 1.187,
+      "zScore": 1.342,
       "isBurst": false,
       "direction": null
     },
     {
-      "elapsedSeconds": 51321.0,
-      "bucketStart": "2022-05-14T14:15:21+00:00",
-      "bucketEnd": "2022-05-14T14:32:09+00:00",
-      "positive": 28,
+      "elapsedSeconds": 535.0,
+      "bucketStart": "2022-05-14T14:09:11+00:00",
+      "bucketEnd": "2022-05-14T14:25:52+00:00",
+      "positive": 27,
       "neutral": 9,
-      "negative": 3,
-      "netSentiment": 0.625,
-      "zScore": 0.657,
-      "isBurst": false,
-      "direction": null
-    },
-    {
-      "elapsedSeconds": 52331.0,
-      "bucketStart": "2022-05-14T14:32:11+00:00",
-      "bucketEnd": "2022-05-14T14:58:02+00:00",
-      "positive": 24,
-      "neutral": 12,
       "negative": 4,
-      "netSentiment": 0.5,
-      "zScore": -0.667,
-      "isBurst": false,
-      "direction": null
-    },
-    {
-      "elapsedSeconds": 53897.0,
-      "bucketStart": "2022-05-14T14:58:17+00:00",
-      "bucketEnd": "2022-05-14T15:35:01+00:00",
-      "positive": 23,
-      "neutral": 14,
-      "negative": 3,
-      "netSentiment": 0.5,
-      "zScore": -0.667,
-      "isBurst": false,
-      "direction": null
-    },
-    {
-      "elapsedSeconds": 56101.0,
-      "bucketStart": "2022-05-14T15:35:01+00:00",
-      "bucketEnd": "2022-05-14T16:30:57+00:00",
-      "positive": 24,
-      "neutral": 11,
-      "negative": 5,
-      "netSentiment": 0.475,
-      "zScore": -0.931,
-      "isBurst": false,
-      "direction": null
-    },
-    {
-      "elapsedSeconds": 59789.0,
-      "bucketStart": "2022-05-14T16:36:29+00:00",
-      "bucketEnd": "2022-05-14T19:53:40+00:00",
-      "positive": 25,
-      "neutral": 13,
-      "negative": 2,
       "netSentiment": 0.575,
-      "zScore": 0.128,
+      "zScore": 0.352,
       "isBurst": false,
       "direction": null
     },
     {
-      "elapsedSeconds": 72260.0,
-      "bucketStart": "2022-05-14T20:04:20+00:00",
-      "bucketEnd": "2022-05-15T02:59:40+00:00",
-      "positive": 28,
-      "neutral": 11,
-      "negative": 1,
-      "netSentiment": 0.675,
-      "zScore": 1.187,
-      "isBurst": false,
-      "direction": null
-    },
-    {
-      "elapsedSeconds": 98613.0,
-      "bucketStart": "2022-05-15T03:23:33+00:00",
-      "bucketEnd": "2022-05-15T23:26:00+00:00",
+      "elapsedSeconds": 1541.0,
+      "bucketStart": "2022-05-14T14:25:57+00:00",
+      "bucketEnd": "2022-05-14T14:46:14+00:00",
       "positive": 26,
       "neutral": 10,
       "negative": 4,
       "netSentiment": 0.55,
-      "zScore": -0.137,
+      "zScore": 0.105,
       "isBurst": false,
       "direction": null
     },
     {
-      "elapsedSeconds": 179954.0,
-      "bucketStart": "2022-05-16T01:59:14+00:00",
-      "bucketEnd": "2022-05-19T01:36:56+00:00",
-      "positive": 21,
-      "neutral": 14,
-      "negative": 5,
+      "elapsedSeconds": 2807.0,
+      "bucketStart": "2022-05-14T14:47:03+00:00",
+      "bucketEnd": "2022-05-14T15:14:19+00:00",
+      "positive": 20,
+      "neutral": 18,
+      "negative": 2,
+      "netSentiment": 0.45,
+      "zScore": -0.884,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 4452.0,
+      "bucketStart": "2022-05-14T15:14:28+00:00",
+      "bucketEnd": "2022-05-14T15:49:41+00:00",
+      "positive": 22,
+      "neutral": 12,
+      "negative": 6,
       "netSentiment": 0.4,
-      "zScore": -1.726,
+      "zScore": -1.379,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 6714.0,
+      "bucketStart": "2022-05-14T15:52:10+00:00",
+      "bucketEnd": "2022-05-14T17:21:25+00:00",
+      "positive": 22,
+      "neutral": 18,
+      "negative": 0,
+      "netSentiment": 0.55,
+      "zScore": 0.105,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 12670.0,
+      "bucketStart": "2022-05-14T17:31:26+00:00",
+      "bucketEnd": "2022-05-14T23:46:20+00:00",
+      "positive": 24,
+      "neutral": 15,
+      "negative": 1,
+      "netSentiment": 0.575,
+      "zScore": 0.352,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 35255.0,
+      "bucketStart": "2022-05-14T23:47:51+00:00",
+      "bucketEnd": "2022-05-15T04:36:03+00:00",
+      "positive": 17,
+      "neutral": 19,
+      "negative": 4,
+      "netSentiment": 0.325,
+      "zScore": -2.121,
+      "isBurst": true,
+      "direction": "NEGATIVE_SPIKE",
+      "topComments": [
+        {
+          "text": "역시 아이도란... 심금을 울리네...",
+          "likeCount": 25,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "두번째는 이지훈 킬링보이스 가시죠?",
+          "likeCount": 15,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "두번째는 이지훈 킬링보이스 가시죠?",
+          "likeCount": 15,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ아 역시 도란 선수 진짜 매력 터지네요ㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 13,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "@parkss8657 왜 하늘은~",
+          "likeCount": 12,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "@parkss8657 왜 하늘은~",
+          "likeCount": 12,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "도란아 너는 빅뱅 노래를 제일 찰떡같이 부른다… 최고야",
+          "likeCount": 12,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "프로 은퇴후에 가ㅅ.. 예능인의 삶을 미리 준비하는 모습이 인상깊네요",
+          "likeCount": 11,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "@Geemong16 오호... 그래요?",
+          "likeCount": 10,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "@Geemong16 오호... 그래요?",
+          "likeCount": 10,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "도란 겁나 귀엽네 ㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 9,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "@Laeti 쉿",
+          "likeCount": 8,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "@Laeti 쉿",
+          "likeCount": 8,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "Gumayusi x Doran collab when",
+          "likeCount": 4,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "인마는 진짜다.... 진짜야....",
+          "likeCount": 4,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "My favorite Gen. G content ever, killing verse who? I only know Gen.G verse 😂",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "프레딧 브리온이 쏘아올린 쥰내게 큰 공 ㅋㅋㅋㅋ 이러다 LCK팀들 다 하겠어 ㅋㅋㅋ",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋㅋ 아 로그인 하게 만드네. 댓글 첨 달아봐요. 도란 팬 됐네요.",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "毫無技巧 全是感情",
+          "likeCount": 2,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "젠런트 폼 어떡할건데ㅋㅋㅋㅋ..\n현준아.. 하... 그 아니다ㅎㅎ",
+          "likeCount": 2,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "지도래곤 ㄷㄷ",
+          "likeCount": 2,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "도란 사랑해!!!!",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋㅋㅋ아니 이런거 유행시키지말라고 타팀도 다하겠네",
+          "likeCount": 1,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "역시세상에서제\n일매력있는탑솔\n최현준",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "포브스 선정 공부하다 졸릴 때 보면 좋은 영상 1위",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "자장가로 딱이네요",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ 도란아 ,,, 매력터졌다",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "아니 이건 ㅋㅋㅋㅋㅋ 걍 흑역사 제조잖아ㅠㅋㅋㅋ..",
+          "likeCount": 1,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋㅋ이게나오네",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Aiigooo🥰🥰",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "아 끝까지 못보겠다",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋㅋ데뷔해버렸네",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "티 젠 했으니까 이젠 담인가?ㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "영상으로 박제 된 그의 흑역사",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "Doran is clearly a GDragon fanboy lol’!",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "ㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋㅋㅋ 귀여워요",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "elapsedSeconds": 53698.0,
+      "bucketStart": "2022-05-15T04:55:14+00:00",
+      "bucketEnd": "2022-05-16T09:58:05+00:00",
+      "positive": 21,
+      "neutral": 12,
+      "negative": 7,
+      "netSentiment": 0.35,
+      "zScore": -1.873,
       "isBurst": true,
       "direction": "NEGATIVE_SPIKE",
       "topComments": [
@@ -192,67 +394,87 @@
           "sentiment": "NEUTRAL"
         },
         {
-          "text": "음정 잘맞는 편이고 박치아니고 고음잘올라가고 그냥 많이 안불러봤을뿐이지 잘 하는구만",
-          "likeCount": 43,
-          "sentiment": "POSITIVE"
-        },
-        {
-          "text": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋ 겸손한 실력 ㅋㅋㅋㅋㅋㅋㅋ",
-          "likeCount": 12,
-          "sentiment": "POSITIVE"
-        },
-        {
-          "text": "얘는 세상의 중심이 티원인듯 ㅋㅋㅋ",
+          "text": "미친... 이번에 도란이야 ㅠㅠㅠㅠㅠ 와 ㅋㅋㅋ 그냥 귀여운데 뒤로 갈수록 점점 잘해짐 \n아 도며들었다....",
           "likeCount": 11,
           "sentiment": "POSITIVE"
         },
         {
-          "text": "팬을 사랑하는 마음이 느껴지네요ㅋㅋ 그저 일류란!!\n킹받는 카메라 무빙8:14",
-          "likeCount": 7,
-          "sentiment": "POSITIVE"
-        },
-        {
-          "text": "와 진짜 악질들이네 너무 흑역사잖아 ㅋㅋㅋㅋ",
-          "likeCount": 6,
-          "sentiment": "NEGATIVE"
-        },
-        {
-          "text": "팀다큐는 스포츠팀 다큐포맷에서 벗어난게 없고... 킬링벌스야 원래 딩고껀데 그걸 롤팀에서 한건 브리온이고 룩북도 브리온이 시작했고 그담에 케이티롤스터가 하고 그랬는데 본인이 티원만 보시면 그렇게 생각할 수 있지만 둘다 티원만의 무엇이다 주장하기엔 원류가 있는것들이네요",
-          "likeCount": 6,
-          "sentiment": "NEGATIVE"
-        },
-        {
-          "text": "브리온 케이티 티원 젠지 순으로 했음",
-          "likeCount": 5,
+          "text": "그 큐베님이 곧 가시는데 연습겸 ROKA 보이스는 어떨까요",
+          "likeCount": 10,
           "sentiment": "NEUTRAL"
         },
         {
-          "text": "우리집 달팽이가 이 노래를 좋아해요",
+          "text": "그 큐베님이 곧 가시는데 연습겸 ROKA 보이스는 어떨까요",
+          "likeCount": 10,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "ㅋㅋㅋ현준이 잘못된만남 타령버전이닠ㅋㅋㅋㅋㅋㅋㅋ 귀여워아주 ㅠㅠ",
+          "likeCount": 6,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "내가 본 도란영상 중 가장 보기 힘들었다",
+          "likeCount": 5,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "앞에 마이크 두고 손에 마이크 또 들고 하는거 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 5,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "@고돌이-e7y 브리온이 2월달에 먼저 엄티-딜라잇 킬링보이스 + 헤나 룩북으로 시작해서 전파했음. 그걸 보고 쵸비가 방송에서 도란이 킬링보이스 얘기하고 반응 넘 좋아서 현실화 되었고 (그리고 쵸비는 조금만의 수고비를 주면 룩북을 찍을 의사가 있다고 선언)",
           "likeCount": 4,
           "sentiment": "NEUTRAL"
         },
         {
-          "text": "나였으면 잡플래닛에 바로 평썼을듯ㅋㅋㅋㅋㅋㅋㅋㅋㅋ넘 웃경ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ하.......야근하고 보니까 삶의 애환을 공감해주는 느낌이라 위로가 되네ㅋㅋㅋㅋㅋㅋ",
+          "text": "어떤....이유로 했는진 모르겠지만 너무\n귀여우셔,,,",
           "likeCount": 3,
           "sentiment": "POSITIVE"
         },
         {
-          "text": "이게 프로지.",
-          "likeCount": 2,
-          "sentiment": "NEUTRAL"
+          "text": "진짜 무섭다 저 재능 두렵다",
+          "likeCount": 3,
+          "sentiment": "NEGATIVE"
         },
         {
-          "text": "ㅋㅋㅋㅋㅋㅋㅋㅋ쭈뼛쭈뼛거리면서 잘하네",
+          "text": "도란!! 도란!! 도란!! 도란!! 도란!! 도란!! 도란!! 도란!! 도란!! 도란!! 도란!! 도란!! 도란!! 도란!! 도란!! 도란!! 도란!! 도란!! 도란!! 도란!! 도란!! 도란!! 도란!! 도란!! 도란!! 도란!! 도란!! 도란!! 도란!! 도란!! 도란!! 도란!! 도란!! 도란!! 도란!! 도란!!",
           "likeCount": 2,
           "sentiment": "POSITIVE"
         },
         {
-          "text": "@user-oe2zw4vb7c4 그 두팀은 제목에 킬링벌스를 써서 저작권 때문에 삭제 됐어요 구마유시 팬이시면 방송에서 브리온 킬링벌스 언급도 하고 본인도 할 수 있다 이야기 했었는데 아예 시작이 브리온이었어요",
+          "text": "사람이 이렇게 하나 가는구나...",
           "likeCount": 2,
           "sentiment": "NEUTRAL"
         },
         {
-          "text": "T1XGenG 보이스 콜라보 기원해봅니다 ㅋㅋㅋㅋㅋ",
+          "text": "왜 귀엽지..??",
+          "likeCount": 2,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ 마이크 앞에서 마이크 들고 신나게 부르시네",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "이러시는 이유가 있을거  아니에요 ㅋㅋㅋㄲㅋㄲ",
+          "likeCount": 2,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "갈수록 즐기고 계심 ㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "너무 커엽다 ㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "아\n노래하는 중간중간에 들리는 사투리 억양이 너무 귀여우심\n선곡마저 너무 도란다워서 미띠겟다",
           "likeCount": 2,
           "sentiment": "POSITIVE"
         },
@@ -262,12 +484,37 @@
           "sentiment": "POSITIVE"
         },
         {
-          "text": "오늘부터 '김나박이최'",
-          "likeCount": 2,
+          "text": "현준아~~앞에서 지휘를 하고 싶게 만드는구나!! 넘 기여워 ㅋㅋㅋㅋ",
+          "likeCount": 1,
           "sentiment": "POSITIVE"
         },
         {
-          "text": "아ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "text": "이 남자 감미로운데 ?",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Iluvuu doraaaan",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "와.. 최현준님 사랑해요 ㅠ 크레용 강추!!! 영상 소장각♡ 근데 젠지야 레슨 좀 끊어드리자!ㅡㅡ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "7:01 박자 놓친 너라도 사랑할게♡",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "도란아 서머시즌에는 좀 더 분발해서 멋진 모습 보여줘!",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "영상 잘뽑네요ㅋㅋ \n나중에 구마유시랑 듀엣곡 한번 가즈아",
           "likeCount": 1,
           "sentiment": "POSITIVE"
         },
@@ -277,14 +524,44 @@
           "sentiment": "POSITIVE"
         },
         {
-          "text": "끝까지 듣기 챌린지",
-          "likeCount": 1,
+          "text": "ㅋㅋㅋㅋㅋㅋ보지도않앗는데 벌써 웃기네ㅋㄲㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "오글거려서 끝까지 못봤다 ㅋㅋㅋㅋㅋ 게임 열심히 하자 현준아",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "이새끼 어그로는 확실하다니깐ㅋㅋㅋㅋ 이젠 실력으로 보여줘",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "ㅂㄹㅇ이랑 머 잇엇음?",
+          "likeCount": 0,
           "sentiment": "NEUTRAL"
         },
         {
-          "text": "내가 모르는 사이에 lck에 도대체 무슨 일이 생긴 거냐...",
-          "likeCount": 1,
+          "text": "개처럼 그래용~ 개처럼 그래용~",
+          "likeCount": 0,
           "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "올해의 컨텐츠 1위",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "흑역사 +1",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋㅋㅋㅋ행복하다",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
         },
         {
           "text": "도란 팬입니다.\n못 본걸로 하겠습니다.",
@@ -292,7 +569,7 @@
           "sentiment": "NEGATIVE"
         },
         {
-          "text": "아 호이",
+          "text": "Dingo in shambles rn",
           "likeCount": 0,
           "sentiment": "NEUTRAL"
         },
@@ -302,7 +579,7 @@
           "sentiment": "NEUTRAL"
         },
         {
-          "text": "Dingo in shambles rn",
+          "text": "아 호이",
           "likeCount": 0,
           "sentiment": "NEUTRAL"
         },
@@ -310,297 +587,234 @@
           "text": "얘네는 근데 아이디어가 티원 따라하는거 밖에 없냐 팀다큐도 비슷하게 따라하고 구마유시 킬링보이스 하니까 따라하고 좀 참신한것좀 만들어서 해봐라",
           "likeCount": 0,
           "sentiment": "NEGATIVE"
-        },
-        {
-          "text": "뭐야 이걸 진짜 한다고? ㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
-          "likeCount": 0,
-          "sentiment": "POSITIVE"
-        },
-        {
-          "text": "내가 아는 도란이 맞나 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
-          "likeCount": 0,
-          "sentiment": "POSITIVE"
-        },
-        {
-          "text": "@jiaoyou1185 브리온 케이티 링크 부탁드려요",
-          "likeCount": 0,
-          "sentiment": "NEUTRAL"
-        },
-        {
-          "text": "기여엉!!!!!!!!!!",
-          "likeCount": 0,
-          "sentiment": "POSITIVE"
-        },
-        {
-          "text": "OMG Doran you're so cute",
-          "likeCount": 0,
-          "sentiment": "POSITIVE"
-        },
-        {
-          "text": "담엔  정글 데리고 역갱하자",
-          "likeCount": 0,
-          "sentiment": "NEUTRAL"
-        },
-        {
-          "text": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ 잘 듣고 갑니다",
-          "likeCount": 0,
-          "sentiment": "NEUTRAL"
-        },
-        {
-          "text": "ㄲㄲ",
-          "likeCount": 0,
-          "sentiment": "NEUTRAL"
-        },
-        {
-          "text": "이건또뭐야 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
-          "likeCount": 0,
-          "sentiment": "POSITIVE"
-        },
-        {
-          "text": "ㅁㅊ",
-          "likeCount": 0,
-          "sentiment": "POSITIVE"
-        },
-        {
-          "text": "어우야 이거는ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
-          "likeCount": 0,
-          "sentiment": "POSITIVE"
-        },
-        {
-          "text": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ졸귀네 ㅋㅋㅋㅋㅋㅋㅋ",
-          "likeCount": 0,
-          "sentiment": "POSITIVE"
-        },
-        {
-          "text": "ㅋㅋㅋㅋㅋ",
-          "likeCount": 0,
-          "sentiment": "POSITIVE"
-        },
-        {
-          "text": "젠지 꼭 이렇게까지 했어야했냐..",
-          "likeCount": 0,
-          "sentiment": "NEGATIVE"
-        },
-        {
-          "text": "썸넬이 어케 엄란 ㅋㅋㅋㅋㅋ",
-          "likeCount": 0,
-          "sentiment": "POSITIVE"
         }
       ]
     },
     {
-      "elapsedSeconds": 446391.0,
-      "bucketStart": "2022-05-19T03:59:51+00:00",
-      "bucketEnd": "2022-07-26T06:11:57+00:00",
-      "positive": 27,
-      "neutral": 8,
-      "negative": 5,
-      "netSentiment": 0.55,
-      "zScore": -0.137,
-      "isBurst": false,
-      "direction": null
-    },
-    {
-      "elapsedSeconds": 6584733.0,
-      "bucketStart": "2022-07-29T05:05:33+00:00",
-      "bucketEnd": "2023-08-02T04:17:42+00:00",
-      "positive": 26,
-      "neutral": 11,
-      "negative": 3,
-      "netSentiment": 0.575,
-      "zScore": 0.128,
-      "isBurst": false,
-      "direction": null
-    },
-    {
-      "elapsedSeconds": 41569819.0,
-      "bucketStart": "2023-09-07T03:10:19+00:00",
-      "bucketEnd": "2024-11-06T19:58:03+00:00",
-      "positive": 24,
+      "elapsedSeconds": 160213.0,
+      "bucketStart": "2022-05-16T10:30:29+00:00",
+      "bucketEnd": "2022-05-19T14:34:46+00:00",
+      "positive": 22,
       "neutral": 15,
+      "negative": 3,
+      "netSentiment": 0.475,
+      "zScore": -0.637,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 435220.0,
+      "bucketStart": "2022-05-19T14:53:56+00:00",
+      "bucketEnd": "2022-08-18T00:35:53+00:00",
+      "positive": 29,
+      "neutral": 7,
+      "negative": 4,
+      "netSentiment": 0.625,
+      "zScore": 0.847,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 8246165.0,
+      "bucketStart": "2022-08-18T00:36:21+00:00",
+      "bucketEnd": "2023-11-02T11:03:00+00:00",
+      "positive": 23,
+      "neutral": 16,
       "negative": 1,
-      "netSentiment": 0.575,
-      "zScore": 0.128,
+      "netSentiment": 0.55,
+      "zScore": 0.105,
       "isBurst": false,
       "direction": null
     },
     {
-      "elapsedSeconds": 78664676.0,
-      "bucketStart": "2024-11-09T11:17:56+00:00",
-      "bucketEnd": "2024-11-20T11:49:34+00:00",
+      "elapsedSeconds": 46871999.0,
+      "bucketStart": "2023-11-08T02:00:15+00:00",
+      "bucketEnd": "2024-11-19T15:44:22+00:00",
       "positive": 20,
-      "neutral": 18,
-      "negative": 2,
-      "netSentiment": 0.45,
-      "zScore": -1.196,
-      "isBurst": false,
-      "direction": null
-    },
-    {
-      "elapsedSeconds": 79619724.0,
-      "bucketStart": "2024-11-20T12:35:24+00:00",
-      "bucketEnd": "2024-11-21T18:48:23+00:00",
-      "positive": 26,
-      "neutral": 12,
-      "negative": 2,
-      "netSentiment": 0.6,
-      "zScore": 0.393,
-      "isBurst": false,
-      "direction": null
-    },
-    {
-      "elapsedSeconds": 79731652.0,
-      "bucketStart": "2024-11-21T19:40:52+00:00",
-      "bucketEnd": "2024-11-23T11:54:09+00:00",
-      "positive": 27,
-      "neutral": 13,
+      "neutral": 20,
       "negative": 0,
-      "netSentiment": 0.675,
-      "zScore": 1.187,
+      "netSentiment": 0.5,
+      "zScore": -0.39,
       "isBurst": false,
       "direction": null
     },
     {
-      "elapsedSeconds": 79878079.0,
-      "bucketStart": "2024-11-23T12:21:19+00:00",
-      "bucketEnd": "2024-11-24T16:21:34+00:00",
+      "elapsedSeconds": 79494988.0,
+      "bucketStart": "2024-11-19T15:56:44+00:00",
+      "bucketEnd": "2024-11-20T14:48:38+00:00",
+      "positive": 24,
+      "neutral": 14,
+      "negative": 2,
+      "netSentiment": 0.55,
+      "zScore": 0.105,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 79577622.0,
+      "bucketStart": "2024-11-20T14:53:58+00:00",
+      "bucketEnd": "2024-11-21T23:09:36+00:00",
       "positive": 27,
       "neutral": 11,
       "negative": 2,
       "netSentiment": 0.625,
-      "zScore": 0.657,
+      "zScore": 0.847,
       "isBurst": false,
       "direction": null
     },
     {
-      "elapsedSeconds": 79989503.0,
-      "bucketStart": "2024-11-24T19:18:23+00:00",
-      "bucketEnd": "2024-12-02T23:54:15+00:00",
-      "positive": 28,
-      "neutral": 12,
-      "negative": 0,
-      "netSentiment": 0.7,
-      "zScore": 1.452,
-      "isBurst": false,
-      "direction": null
-    },
-    {
-      "elapsedSeconds": 80740877.0,
-      "bucketStart": "2024-12-03T12:01:17+00:00",
-      "bucketEnd": "2024-12-23T09:00:26+00:00",
-      "positive": 29,
-      "neutral": 9,
-      "negative": 2,
-      "netSentiment": 0.675,
-      "zScore": 1.187,
-      "isBurst": false,
-      "direction": null
-    },
-    {
-      "elapsedSeconds": 82560241.0,
-      "bucketStart": "2024-12-24T13:24:01+00:00",
-      "bucketEnd": "2025-01-22T18:58:25+00:00",
-      "positive": 22,
-      "neutral": 17,
-      "negative": 1,
-      "netSentiment": 0.525,
-      "zScore": -0.402,
-      "isBurst": false,
-      "direction": null
-    },
-    {
-      "elapsedSeconds": 85116025.0,
-      "bucketStart": "2025-01-23T03:20:25+00:00",
-      "bucketEnd": "2025-02-10T15:36:57+00:00",
-      "positive": 29,
-      "neutral": 9,
-      "negative": 2,
-      "netSentiment": 0.675,
-      "zScore": 1.187,
-      "isBurst": false,
-      "direction": null
-    },
-    {
-      "elapsedSeconds": 86832775.0,
-      "bucketStart": "2025-02-12T00:12:55+00:00",
-      "bucketEnd": "2025-06-16T14:44:13+00:00",
-      "positive": 25,
-      "neutral": 12,
-      "negative": 3,
-      "netSentiment": 0.55,
-      "zScore": -0.137,
-      "isBurst": false,
-      "direction": null
-    },
-    {
-      "elapsedSeconds": 97666347.0,
-      "bucketStart": "2025-06-17T09:32:27+00:00",
-      "bucketEnd": "2025-07-08T16:04:30+00:00",
-      "positive": 23,
-      "neutral": 14,
-      "negative": 3,
-      "netSentiment": 0.5,
-      "zScore": -0.667,
-      "isBurst": false,
-      "direction": null
-    },
-    {
-      "elapsedSeconds": 99550158.0,
-      "bucketStart": "2025-07-09T04:49:18+00:00",
-      "bucketEnd": "2025-09-12T17:04:27+00:00",
-      "positive": 27,
-      "neutral": 10,
-      "negative": 3,
-      "netSentiment": 0.6,
-      "zScore": 0.393,
-      "isBurst": false,
-      "direction": null
-    },
-    {
-      "elapsedSeconds": 105805525.0,
-      "bucketStart": "2025-09-19T14:25:25+00:00",
-      "bucketEnd": "2025-11-09T19:23:22+00:00",
-      "positive": 27,
-      "neutral": 9,
-      "negative": 4,
-      "netSentiment": 0.575,
-      "zScore": 0.128,
-      "isBurst": false,
-      "direction": null
-    },
-    {
-      "elapsedSeconds": 110244209.0,
-      "bucketStart": "2025-11-09T23:23:29+00:00",
-      "bucketEnd": "2025-11-12T00:55:22+00:00",
-      "positive": 22,
-      "neutral": 18,
-      "negative": 0,
-      "netSentiment": 0.55,
-      "zScore": -0.137,
-      "isBurst": false,
-      "direction": null
-    },
-    {
-      "elapsedSeconds": 110423474.0,
-      "bucketStart": "2025-11-12T01:11:14+00:00",
-      "bucketEnd": "2025-11-14T18:14:29+00:00",
+      "elapsedSeconds": 79698685.0,
+      "bucketStart": "2024-11-22T00:31:41+00:00",
+      "bucketEnd": "2024-11-23T12:57:32+00:00",
       "positive": 28,
       "neutral": 11,
       "negative": 1,
       "netSentiment": 0.675,
-      "zScore": 1.187,
+      "zScore": 1.342,
       "isBurst": false,
       "direction": null
     },
     {
-      "elapsedSeconds": 110660886.0,
-      "bucketStart": "2025-11-14T19:08:06+00:00",
-      "bucketEnd": "2025-11-19T14:00:24+00:00",
-      "positive": 16,
-      "neutral": 20,
-      "negative": 4,
-      "netSentiment": 0.3,
-      "zScore": -2.785,
+      "elapsedSeconds": 79831118.0,
+      "bucketStart": "2024-11-23T13:18:54+00:00",
+      "bucketEnd": "2024-11-24T23:45:37+00:00",
+      "positive": 26,
+      "neutral": 13,
+      "negative": 1,
+      "netSentiment": 0.625,
+      "zScore": 0.847,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 79980579.0,
+      "bucketStart": "2024-11-25T06:49:55+00:00",
+      "bucketEnd": "2024-12-03T12:01:17+00:00",
+      "positive": 27,
+      "neutral": 11,
+      "negative": 2,
+      "netSentiment": 0.625,
+      "zScore": 0.847,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 80774542.0,
+      "bucketStart": "2024-12-04T11:22:38+00:00",
+      "bucketEnd": "2024-12-24T13:24:01+00:00",
+      "positive": 28,
+      "neutral": 10,
+      "negative": 2,
+      "netSentiment": 0.65,
+      "zScore": 1.094,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 82671146.0,
+      "bucketStart": "2024-12-26T10:12:42+00:00",
+      "bucketEnd": "2025-01-22T18:58:25+00:00",
+      "positive": 22,
+      "neutral": 16,
+      "negative": 2,
+      "netSentiment": 0.5,
+      "zScore": -0.39,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 85065609.0,
+      "bucketStart": "2025-01-23T03:20:25+00:00",
+      "bucketEnd": "2025-02-10T15:25:58+00:00",
+      "positive": 26,
+      "neutral": 12,
+      "negative": 2,
+      "netSentiment": 0.6,
+      "zScore": 0.6,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 86665001.0,
+      "bucketStart": "2025-02-10T15:36:57+00:00",
+      "bucketEnd": "2025-06-11T15:29:02+00:00",
+      "positive": 27,
+      "neutral": 10,
+      "negative": 3,
+      "netSentiment": 0.6,
+      "zScore": 0.6,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 97548237.0,
+      "bucketStart": "2025-06-16T14:44:13+00:00",
+      "bucketEnd": "2025-07-08T05:57:42+00:00",
+      "positive": 24,
+      "neutral": 14,
+      "negative": 2,
+      "netSentiment": 0.55,
+      "zScore": 0.105,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 99447398.0,
+      "bucketStart": "2025-07-08T14:16:54+00:00",
+      "bucketEnd": "2025-08-23T10:12:07+00:00",
+      "positive": 25,
+      "neutral": 12,
+      "negative": 3,
+      "netSentiment": 0.55,
+      "zScore": 0.105,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 103442372.0,
+      "bucketStart": "2025-08-23T19:59:48+00:00",
+      "bucketEnd": "2025-11-09T13:26:40+00:00",
+      "positive": 22,
+      "neutral": 16,
+      "negative": 2,
+      "netSentiment": 0.5,
+      "zScore": -0.39,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 110165584.0,
+      "bucketStart": "2025-11-09T15:33:20+00:00",
+      "bucketEnd": "2025-11-11T14:58:11+00:00",
+      "positive": 24,
+      "neutral": 15,
+      "negative": 1,
+      "netSentiment": 0.575,
+      "zScore": 0.352,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 110336813.0,
+      "bucketStart": "2025-11-11T15:07:09+00:00",
+      "bucketEnd": "2025-11-13T16:43:59+00:00",
+      "positive": 28,
+      "neutral": 10,
+      "negative": 2,
+      "netSentiment": 0.65,
+      "zScore": 1.094,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 110516977.0,
+      "bucketStart": "2025-11-13T17:09:53+00:00",
+      "bucketEnd": "2025-11-17T14:58:54+00:00",
+      "positive": 17,
+      "neutral": 17,
+      "negative": 6,
+      "netSentiment": 0.275,
+      "zScore": -2.615,
       "isBurst": true,
       "direction": "NEGATIVE_SPIKE",
       "topComments": [
@@ -608,6 +822,11 @@
           "text": "Doran is a tone deaf but surprisingly I can listen to his singing until the end. He is adorable ngl. My happy pill",
           "likeCount": 18,
           "sentiment": "POSITIVE"
+        },
+        {
+          "text": "this is reason why t1 wanted doran",
+          "likeCount": 7,
+          "sentiment": "NEUTRAL"
         },
         {
           "text": "me too...",
@@ -620,9 +839,24 @@
           "sentiment": "NEUTRAL"
         },
         {
-          "text": "이 귀한 걸 우리 안 보여주고 젠지만 봤다 이거지?!!! 서운해 👀",
+          "text": "나는 그를 매우 사랑해요... 윈닝보이스 제발",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋㅋㅋㅋ이가 뭐죸ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
           "likeCount": 2,
           "sentiment": "POSITIVE"
+        },
+        {
+          "text": "윌즈 우승자 도란 ㄷㄷ",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "이 귀한 걸 우리 안 보여주고 젠지만 봤다 이거지?!!! 서운해 👀",
+          "likeCount": 2,
+          "sentiment": "NEGATIVE"
         },
         {
           "text": "민형이 소식 듣고 너무 힘들어서 보러왔다 현준아 제발 부탁한다",
@@ -630,47 +864,27 @@
           "sentiment": "NEGATIVE"
         },
         {
-          "text": "계속해 재능있어",
-          "likeCount": 2,
-          "sentiment": "POSITIVE"
-        },
-        {
-          "text": "모자쓰고 선글라스끼고 열창하는 짤?\n나 이거 지금까지 ai 이미지 인줄 알았는데 이게 진짜 였었네...\n도란 열심히 살았구나...",
-          "likeCount": 2,
-          "sentiment": "NEUTRAL"
-        },
-        {
-          "text": "냥냥거리거는거 상남자같아서 너무 테토미 흐르네요",
+          "text": "창원 남고 동창들이 부들부들 떨겠는데??\nㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
           "likeCount": 1,
           "sentiment": "POSITIVE"
         },
         {
-          "text": "Main vocal 🙂‍↔️",
+          "text": "2025 Doran Dinosaur Champion",
           "likeCount": 1,
           "sentiment": "NEUTRAL"
         },
         {
-          "text": "Doran main vocal 100%",
+          "text": "Doran 1 - 0 Gen.G",
           "likeCount": 1,
           "sentiment": "POSITIVE"
         },
         {
-          "text": "nghe nhiều tự nhiên thấy cũng hay",
-          "likeCount": 1,
-          "sentiment": "NEUTRAL"
-        },
-        {
-          "text": "이게머고",
-          "likeCount": 1,
-          "sentiment": "NEUTRAL"
-        },
-        {
-          "text": "저 깨달았어요 저 도란 응원해요 애정해요",
+          "text": "多蘭啊😂😂😂😂😂😂",
           "likeCount": 1,
           "sentiment": "POSITIVE"
         },
         {
-          "text": "도대체 알고리즘이 뭔가...너무 궁금하다 에라이...ㅋㅋㅋㅋㅋ",
+          "text": "Immaculate timing",
           "likeCount": 1,
           "sentiment": "NEUTRAL"
         },
@@ -680,17 +894,22 @@
           "sentiment": "NEUTRAL"
         },
         {
+          "text": "나 도며들었네…….이게 왜 떠ㅠㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
           "text": "내 알고리즘 무슨일이야ㅋㅋㅋㅋ",
           "likeCount": 1,
           "sentiment": "NEUTRAL"
         },
         {
-          "text": "미춰버리겐네 진짜 어떡하지",
+          "text": "도대체 알고리즘이 뭔가...너무 궁금하다 에라이...ㅋㅋㅋㅋㅋ",
           "likeCount": 1,
-          "sentiment": "NEGATIVE"
+          "sentiment": "NEUTRAL"
         },
         {
-          "text": "아놬ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "text": "저 깨달았어요 저 도란 응원해요 애정해요",
           "likeCount": 1,
           "sentiment": "POSITIVE"
         },
@@ -700,27 +919,32 @@
           "sentiment": "NEUTRAL"
         },
         {
-          "text": "저 진짜 처음이라서 그러는데 노래컨텐츠는 겜어 본인들 하고싶어해서 한거예요?",
+          "text": "냥냥거리거는거 상남자같아서 너무 테토미 흐르네요",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "이게머고",
           "likeCount": 1,
           "sentiment": "NEUTRAL"
         },
         {
-          "text": "누가 시켯냐?",
+          "text": "zzzzzzzzzzzzzzzzzz",
           "likeCount": 0,
           "sentiment": "NEUTRAL"
         },
         {
           "text": "oh putain mes oreilles doran tu force",
           "likeCount": 0,
-          "sentiment": "NEUTRAL"
+          "sentiment": "NEGATIVE"
         },
         {
-          "text": "도슬렁 도슬렁..",
+          "text": "@神威-p2c lmfao same",
           "likeCount": 0,
           "sentiment": "NEUTRAL"
         },
         {
-          "text": "my goat",
+          "text": "He's so funny😭🤣",
           "likeCount": 0,
           "sentiment": "POSITIVE"
         },
@@ -735,22 +959,17 @@
           "sentiment": "POSITIVE"
         },
         {
-          "text": "?",
+          "text": "누가 시켯냐?",
           "likeCount": 0,
           "sentiment": "NEUTRAL"
         },
         {
-          "text": "아니 편집인줄알았는데 공식이네..",
-          "likeCount": 0,
-          "sentiment": "NEUTRAL"
-        },
-        {
-          "text": "He's so funny😭🤣",
+          "text": "도슬렁 도슬렁..",
           "likeCount": 0,
           "sentiment": "POSITIVE"
         },
         {
-          "text": "누가시켯냐.... ㅋㅋㅋㅋㅋ",
+          "text": "my goat",
           "likeCount": 0,
           "sentiment": "POSITIVE"
         },
@@ -760,12 +979,32 @@
           "sentiment": "POSITIVE"
         },
         {
+          "text": "?",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "아니 편집인줄알았는데 공식이네..",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "티원 버전도 가보자1",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
           "text": "아니 나이도 어리면서 옛날노래 부르지 맙시다",
           "likeCount": 0,
           "sentiment": "NEGATIVE"
         },
         {
-          "text": "@神威-p2c lmfao same",
+          "text": "누가시켯냐.... ㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "@SKTT1 can we do a video like this with DOFGK ?? 😂",
           "likeCount": 0,
           "sentiment": "NEUTRAL"
         },
@@ -775,58 +1014,45 @@
           "sentiment": "NEUTRAL"
         },
         {
-          "text": "티원 버전도 가보자1",
-          "likeCount": 0,
-          "sentiment": "NEUTRAL"
-        },
-        {
           "text": "誰他媽想出這個企劃的",
           "likeCount": 0,
           "sentiment": "NEGATIVE"
-        },
-        {
-          "text": "so cute",
-          "likeCount": 0,
-          "sentiment": "POSITIVE"
-        },
-        {
-          "text": "란도 도래방 시즌2를 보고 싶은데... ㅎㅎㅎ 다시 안하겠지??? ㅎㅎㅎ 레드불 경기 전까지 티슬렁 티슬렁 하는데 역시 도래방은 늪지대임 ㅋㅋㅋ",
-          "likeCount": 0,
-          "sentiment": "POSITIVE"
-        },
-        {
-          "text": "Đỉnh lưu có khác",
-          "likeCount": 0,
-          "sentiment": "POSITIVE"
-        },
-        {
-          "text": "ㅇㅋ제작진 도며듬.",
-          "likeCount": 0,
-          "sentiment": "NEUTRAL"
         }
       ]
     },
     {
-      "elapsedSeconds": 111080173.0,
-      "bucketStart": "2025-11-19T15:36:13+00:00",
-      "bucketEnd": "2025-12-17T13:54:58+00:00",
-      "positive": 22,
-      "neutral": 14,
-      "negative": 4,
-      "netSentiment": 0.45,
-      "zScore": -1.196,
+      "elapsedSeconds": 110873863.0,
+      "bucketStart": "2025-11-17T20:17:59+00:00",
+      "bucketEnd": "2025-11-26T14:51:57+00:00",
+      "positive": 21,
+      "neutral": 17,
+      "negative": 2,
+      "netSentiment": 0.475,
+      "zScore": -0.637,
       "isBurst": false,
       "direction": null
     },
     {
-      "elapsedSeconds": 113494168.0,
-      "bucketStart": "2025-12-17T14:09:28+00:00",
-      "bucketEnd": "2026-06-17T10:46:14+00:00",
-      "positive": 23,
-      "neutral": 15,
+      "elapsedSeconds": 111632070.0,
+      "bucketStart": "2025-11-26T14:54:46+00:00",
+      "bucketEnd": "2026-04-01T18:32:02+00:00",
+      "positive": 27,
+      "neutral": 11,
       "negative": 2,
-      "netSentiment": 0.525,
-      "zScore": -0.402,
+      "netSentiment": 0.625,
+      "zScore": 0.847,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 122569282.0,
+      "bucketStart": "2026-04-02T05:01:38+00:00",
+      "bucketEnd": "2026-07-02T22:32:10+00:00",
+      "positive": 18,
+      "neutral": 14,
+      "negative": 2,
+      "netSentiment": 0.471,
+      "zScore": -0.68,
       "isBurst": false,
       "direction": null
     }
@@ -834,52 +1060,52 @@
   "keyInsights": [
     {
       "type": "positive",
-      "topic": "도란의 노래 실력",
-      "topicEn": "Doran's Singing Ability",
-      "topicZh": "道然的歌唱能力",
-      "topicJa": "ドランの歌唱力",
+      "topic": "팬들의 기대와 환영",
+      "topicEn": "Fans' Expectations and Welcomes",
+      "topicZh": "粉丝们的期待和欢迎",
+      "topicJa": "ファンの期待と歓迎",
       "comment": "찾았다 케리아의 최고의 파트너",
       "commentLang": "ko",
       "likes": 4210
     },
     {
       "type": "negative",
-      "topic": "기대감",
-      "topicEn": "Anticipation",
-      "topicZh": "期待感",
-      "topicJa": "期待感",
+      "topic": "도란의 공연과 노래",
+      "topicEn": "Doran's Performance and Singing",
+      "topicZh": "多兰的表演和歌唱",
+      "topicJa": "ドランのパフォーマンスと歌",
       "comment": "이건 걍 흑역사잖아 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ 너무한거 아니냐고",
       "commentLang": "ko",
       "likes": 1055
     },
     {
       "type": "positive",
-      "topic": "기대감",
-      "topicEn": "Anticipation",
-      "topicZh": "期待感",
-      "topicJa": "期待感",
+      "topic": "도란의 공연과 노래",
+      "topicEn": "Doran's Performance and Singing",
+      "topicZh": "多兰的表演和歌唱",
+      "topicJa": "ドランのパフォーマンスと歌",
       "comment": "이 노래를 듣고 난청이 완치되었어요. 두번째 앨범도 기대할게요",
       "commentLang": "ko",
       "likes": 3845
     },
     {
       "type": "negative",
-      "topic": "도란의 노래 실력",
-      "topicEn": "Doran's Singing Ability",
-      "topicZh": "道然的歌唱能力",
-      "topicJa": "ドランの歌唱力",
-      "comment": "앞에 마이크 있는데 저 의미없는 마이크 꽉 쥐고 노래 부르는거 보라구요.. 이게 우리탑이라고 ㅠ",
+      "topic": "도란의 귀여움",
+      "topicEn": "Doran's Cuteness",
+      "topicZh": "多兰的可爱",
+      "topicJa": "ドランのかわいさ",
+      "comment": "잘못된 만남도 상황이 맞더라구요...눈물..",
       "commentLang": "ko",
-      "likes": 182
+      "likes": 33
     }
   ],
-  "analyzedAt": "2026-07-03T14:26:39.012904+00:00",
-  "analysisDuration": 254.7,
+  "analyzedAt": "2026-07-04T05:36:07.603756+00:00",
+  "analysisDuration": 260.8,
   "tokenUsage": {
-    "input": 47861,
-    "output": 14297,
-    "embedding": 34927,
-    "total": 97085,
-    "estimatedCostUsd": 0.016456
+    "input": 49615,
+    "output": 15013,
+    "embedding": 36809,
+    "total": 101437,
+    "estimatedCostUsd": 0.017186
   }
 }

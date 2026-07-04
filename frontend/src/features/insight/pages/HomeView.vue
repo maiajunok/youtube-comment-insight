@@ -26,8 +26,17 @@ const isFocused     = ref(false)
 const selectedTopic = ref<string | null>(null)
 
 // 분석 상태는 store에서 직접 읽음 — storeToRefs로 반응성 보장
-const { result: data, isAnalyzing: isLoading, loadingStep, loadingProgress, analysisError: error, missingKeyModal, resultSource } =
+const { result: data, isAnalyzing: isLoading, loadingStep, loadingProgress, analysisError: error, missingKeyModal, resultSource, queue, pendingVideoId } =
   storeToRefs(analysisStore)
+
+// 지금 보고 있는 영상이 실제로 분석 중이거나 대기열에 있을 때만 "다시 분석하기"를 잠금 —
+// 다른 영상이 분석 중이라고 해서 이 버튼까지 막을 필요는 없음(대기열에 넣으면 되니까)
+const isThisVideoBusy = computed(() => {
+  if (!data.value) return false
+  const videoId = data.value.video.videoId
+  if (isLoading.value && pendingVideoId.value === videoId) return true
+  return queue.value.some(item => item.videoId === videoId)
+})
 
 const selectedTopicDisplay = computed(() => {
   if (!selectedTopic.value || !data.value) return selectedTopic.value ?? undefined
@@ -88,11 +97,12 @@ const overallSentiment = computed(() => {
 })
 
 function analyze() {
-  if (!url.value.trim() || analysisStore.isAnalyzing) return
+  if (!url.value.trim()) return
   selectedTopic.value = null
-  analysisStore.startAnalysis(url.value.trim(), (videoId, d) => {
+  analysisStore.submit(url.value.trim(), (videoId, d) => {
     useHistory().save(videoId, d)
   })
+  url.value = ''
 }
 
 function goBack() {
@@ -114,17 +124,17 @@ const backLabel = computed(() =>
 
 function exportPDF() { window.print() }
 
-// 다시 분석하기 — 캐시 삭제 후 같은 URL로 재분석. analysisStore가 전역 상태라
-// 이 함수 실행 중에 다른 페이지로 이동해도 백그라운드에서 계속 진행됨
+// 다시 분석하기 — 캐시 삭제 후 같은 URL로 재분석. 다른 영상이 이미 분석 중이면
+// 대기열에 들어갔다가 순서가 오면 자동 실행됨(analysisStore.submit 참고)
 async function reAnalyze() {
-  if (!data.value || analysisStore.isAnalyzing) return
+  if (!data.value || isThisVideoBusy.value) return
   const videoId = data.value.video.videoId
   const rebuiltUrl = `https://www.youtube.com/watch?v=${videoId}`
   await insightApi.deleteCache(videoId)
-  await analysisStore.startAnalysis(rebuiltUrl, (id, d) => {
+  analysisStore.submit(rebuiltUrl, (id, d) => {
     useHistory().save(id, d)
+    analysisStore.resultSource = 'history'
   })
-  if (analysisStore.result) analysisStore.resultSource = 'history'
 }
 
 // ── 분석 지표 ──
@@ -235,7 +245,7 @@ const reportInsightComment = (ins: { comment: string; commentEn?: string; commen
 
   <!-- 로딩 상태 (data 없을 때만) -->
   <div v-else-if="isLoading && !data" class="home-view loading-mode">
-    <LoadingState :step="loadingStep" :progress="loadingProgress" />
+    <LoadingState :step="loadingStep" :progress="loadingProgress" :video-id="analysisStore.pendingVideoId" />
   </div>
 
   <!-- 대시보드 (data 있으면 분석 중이어도 표시) -->
@@ -266,7 +276,7 @@ const reportInsightComment = (ins: { comment: string; commentEn?: string; commen
           :lang="settings.lang"
           :analyzed-at="data.analyzedAt"
           :show-reanalyze="resultSource === 'history'"
-          :reanalyzing="analysisStore.isAnalyzing"
+          :reanalyzing="isThisVideoBusy"
           @reanalyze="reAnalyze"
         />
       </div>

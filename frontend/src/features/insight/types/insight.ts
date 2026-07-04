@@ -92,3 +92,56 @@ export type TopicComment = {
   publishedAt: string
   sentiment: 'POSITIVE' | 'NEUTRAL' | 'NEGATIVE'
 }
+
+export type CommentGraphNode = {
+  id: string
+  text: string
+  likeCount: number
+  sentiment: 'POSITIVE' | 'NEUTRAL' | 'NEGATIVE'
+  topic: string
+  // UMAP으로 미리 투영해둔 좌표 — force-directed 시뮬레이션 대신 이 위치에 고정해서
+  // 실제 임베딩 공간의 이웃 구조를 그대로 보여줌. 이 필드가 없으면(옛 캐시) 물리 시뮬레이션으로 폴백.
+  // x2d/y2d는 3d 좌표를 눌러 찍은 게 아니라 2D로 독립적으로 다시 투영한 값(2D 화면 표시용)
+  x?: number
+  y?: number
+  z?: number
+  x2d?: number
+  y2d?: number
+}
+
+export type CommentGraphLink = {
+  source: string
+  target: string
+  similarity: number
+}
+
+export type CommentGraphData = {
+  nodes: CommentGraphNode[]
+  links: CommentGraphLink[]
+}
+
+export type VideoGraphNode = {
+  id: string
+  title: string
+  thumbnailUrl: string
+  commentCount: number
+  sentiment: SentimentRatio
+  topics: string[]
+  hasGraph: boolean
+  x?: number
+  y?: number
+  z?: number
+  x2d?: number
+  y2d?: number
+}
+
+export type VideoGraphLink = {
+  source: string
+  target: string
+  similarity: number
+}
+
+export type VideoGraphData = {
+  nodes: VideoGraphNode[]
+  links: VideoGraphLink[]
+}

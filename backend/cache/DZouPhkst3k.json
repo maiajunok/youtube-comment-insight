@@ -1,0 +1,205 @@
+{
+  "video": {
+    "videoId": "DZouPhkst3k",
+    "title": "제우스의 2024 T1 월즈 스킨 리뷰",
+    "channelTitle": "Hanwha Life Esports",
+    "thumbnailUrl": "https://i.ytimg.com/vi/DZouPhkst3k/maxresdefault.jpg",
+    "publishedAt": "2025-09-24",
+    "viewCount": 456198,
+    "likeCount": 6061,
+    "analyzedComments": 237,
+    "languageRatio": {
+      "ko": 94,
+      "en": 3,
+      "other": 4
+    },
+    "weightedSentiment": 35
+  },
+  "topics": [
+    {
+      "label": "LCK 우승",
+      "labelEn": "LCK Championship",
+      "labelZh": "LCK冠军",
+      "labelJa": "LCKチャンピオンシップ",
+      "mentionCount": 81,
+      "sentiment": {
+        "positive": 63,
+        "neutral": 33,
+        "negative": 4
+      }
+    },
+    {
+      "label": "결승전",
+      "labelEn": "Final Match",
+      "labelZh": "决赛",
+      "labelJa": "決勝戦",
+      "mentionCount": 49,
+      "sentiment": {
+        "positive": 55,
+        "neutral": 27,
+        "negative": 18
+      }
+    },
+    {
+      "label": "스킨 리뷰",
+      "labelEn": "Skin Review",
+      "labelZh": "皮肤评测",
+      "labelJa": "スキンレビュー",
+      "mentionCount": 42,
+      "sentiment": {
+        "positive": 55,
+        "neutral": 38,
+        "negative": 7
+      }
+    },
+    {
+      "label": "팬 지원",
+      "labelEn": "Fan Support",
+      "labelZh": "粉丝支持",
+      "labelJa": "ファンサポート",
+      "mentionCount": 40,
+      "sentiment": {
+        "positive": 60,
+        "neutral": 30,
+        "negative": 10
+      }
+    },
+    {
+      "label": "팀워크",
+      "labelEn": "Teamwork",
+      "labelZh": "团队合作",
+      "labelJa": "チームワーク",
+      "mentionCount": 25,
+      "sentiment": {
+        "positive": 56,
+        "neutral": 36,
+        "negative": 8
+      }
+    }
+  ],
+  "reactionTimeline": [
+    {
+      "elapsedSeconds": 50.0,
+      "bucketStart": "2025-09-24T03:01:07+00:00",
+      "bucketEnd": "2025-09-24T03:58:37+00:00",
+      "positive": 27,
+      "neutral": 13,
+      "negative": 0,
+      "netSentiment": 0.675,
+      "zScore": 1.355,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 3519.0,
+      "bucketStart": "2025-09-24T03:58:56+00:00",
+      "bucketEnd": "2025-09-24T09:18:36+00:00",
+      "positive": 24,
+      "neutral": 13,
+      "negative": 3,
+      "netSentiment": 0.525,
+      "zScore": 0.223,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 22881.0,
+      "bucketStart": "2025-09-24T09:21:38+00:00",
+      "bucketEnd": "2025-09-24T14:39:21+00:00",
+      "positive": 27,
+      "neutral": 9,
+      "negative": 4,
+      "netSentiment": 0.575,
+      "zScore": 0.601,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 42269.0,
+      "bucketStart": "2025-09-24T14:44:46+00:00",
+      "bucketEnd": "2025-09-25T05:04:37+00:00",
+      "positive": 22,
+      "neutral": 12,
+      "negative": 6,
+      "netSentiment": 0.4,
+      "zScore": -0.72,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 97831.0,
+      "bucketStart": "2025-09-25T06:10:48+00:00",
+      "bucketEnd": "2025-10-11T07:19:11+00:00",
+      "positive": 27,
+      "neutral": 6,
+      "negative": 7,
+      "netSentiment": 0.5,
+      "zScore": 0.035,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 1617483.0,
+      "bucketStart": "2025-10-12T20:18:20+00:00",
+      "bucketEnd": "2026-06-01T17:09:30+00:00",
+      "positive": 12,
+      "neutral": 24,
+      "negative": 1,
+      "netSentiment": 0.297,
+      "zScore": -1.495,
+      "isBurst": false,
+      "direction": null
+    }
+  ],
+  "keyInsights": [
+    {
+      "type": "positive",
+      "topic": "LCK 우승",
+      "topicEn": "LCK Championship",
+      "topicZh": "LCK冠军",
+      "topicJa": "LCKチャンピオンシップ",
+      "comment": "제우스 진짜 귀여우면 개추 ㅋㅋ",
+      "commentLang": "ko",
+      "likes": 1555
+    },
+    {
+      "type": "negative",
+      "topic": "LCK 우승",
+      "topicEn": "LCK Championship",
+      "topicZh": "LCK冠军",
+      "topicJa": "LCKチャンピオンシップ",
+      "comment": "한화에서 하는 T1스킨리뷰.. 눈물이 납니다",
+      "commentLang": "ko",
+      "likes": 1442
+    },
+    {
+      "type": "positive",
+      "topic": "결승전",
+      "topicEn": "Final Match",
+      "topicZh": "决赛",
+      "topicJa": "決勝戦",
+      "comment": "결승 화이팅 우승하자 !!!",
+      "commentLang": "ko",
+      "likes": 552
+    },
+    {
+      "type": "negative",
+      "topic": "팬 지원",
+      "topicEn": "Fan Support",
+      "topicZh": "粉丝支持",
+      "topicJa": "ファンサポート",
+      "comment": "가족을 그런식으로..?",
+      "commentLang": "ko",
+      "likes": 31
+    }
+  ],
+  "analyzedAt": "2026-07-04T04:13:49.985329+00:00",
+  "analysisDuration": 48.7,
+  "tokenUsage": {
+    "input": 16055,
+    "output": 3006,
+    "embedding": 6416,
+    "total": 25477,
+    "estimatedCostUsd": 0.00434
+  }
+}

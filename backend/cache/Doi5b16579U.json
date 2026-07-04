@@ -1,0 +1,1355 @@
+{
+  "video": {
+    "videoId": "Doi5b16579U",
+    "title": "SK하이닉스 면접 탈락 영상",
+    "channelTitle": "엄지렐라 Umjirella",
+    "thumbnailUrl": "https://i.ytimg.com/vi/Doi5b16579U/maxresdefault.jpg",
+    "publishedAt": "2026-05-15",
+    "viewCount": 772955,
+    "likeCount": 12467,
+    "analyzedComments": 1020,
+    "languageRatio": {
+      "ko": 93,
+      "en": 0,
+      "other": 7
+    },
+    "weightedSentiment": 11
+  },
+  "topics": [
+    {
+      "label": "떡볶퀸",
+      "labelEn": "Tteokbokki Queen",
+      "labelZh": "炒年糕女王",
+      "labelJa": "トッポッキクイーン",
+      "mentionCount": 438,
+      "sentiment": {
+        "positive": 56,
+        "neutral": 24,
+        "negative": 20
+      }
+    },
+    {
+      "label": "면접관 연기",
+      "labelEn": "Interviewer Acting",
+      "labelZh": "面试官表演",
+      "labelJa": "面接官の演技",
+      "mentionCount": 201,
+      "sentiment": {
+        "positive": 47,
+        "neutral": 30,
+        "negative": 22
+      }
+    },
+    {
+      "label": "하이닉스 면접",
+      "labelEn": "Hynix Interview",
+      "labelZh": "海力士面试",
+      "labelJa": "ハイニックス面接",
+      "mentionCount": 156,
+      "sentiment": {
+        "positive": 44,
+        "neutral": 38,
+        "negative": 17
+      }
+    },
+    {
+      "label": "부족한 내용",
+      "labelEn": "Lack of Content",
+      "labelZh": "内容不足",
+      "labelJa": "内容の不足",
+      "mentionCount": 143,
+      "sentiment": {
+        "positive": 43,
+        "neutral": 37,
+        "negative": 20
+      }
+    },
+    {
+      "label": "과장된 대답",
+      "labelEn": "Exaggerated Answers",
+      "labelZh": "夸张的回答",
+      "labelJa": "誇張された回答",
+      "mentionCount": 82,
+      "sentiment": {
+        "positive": 45,
+        "neutral": 41,
+        "negative": 13
+      }
+    }
+  ],
+  "reactionTimeline": [
+    {
+      "elapsedSeconds": 332.0,
+      "bucketStart": "2026-05-15T09:15:36+00:00",
+      "bucketEnd": "2026-05-15T14:04:06+00:00",
+      "positive": 19,
+      "neutral": 10,
+      "negative": 11,
+      "netSentiment": 0.2,
+      "zScore": -0.788,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 17843.0,
+      "bucketStart": "2026-05-15T14:07:27+00:00",
+      "bucketEnd": "2026-05-16T01:16:40+00:00",
+      "positive": 26,
+      "neutral": 10,
+      "negative": 4,
+      "netSentiment": 0.55,
+      "zScore": 1.97,
+      "isBurst": true,
+      "direction": "POSITIVE_SPIKE",
+      "topComments": [
+        {
+          "text": "지 호흡 스스로 감당 못하는 거 개웃김",
+          "likeCount": 6571,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "무슨 말을 하는건지 1도 모르겟네 진짜ㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 3833,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "묘하게 눈썹 가려진 게 더 이상한 사람같음ㅋㅋㅋㅋㅋㅋ아개웃기네",
+          "likeCount": 1880,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "웃은 사람들... 부럽다... 나는 울었다..",
+          "likeCount": 1595,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "판교 사투리 마스터",
+          "likeCount": 420,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "진짜개웃기네 ㅋㅋㅋㅋㅋㅋㅋ 이 모질라지만 열정? 있는 친구 계속 보고 싶어요",
+          "likeCount": 300,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "아 채용할 때 꼭 면접까지 봐야하는 이유를 이 영상 보고 알게 됐습니다... ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 287,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "강유미 도믿걸 이후 처음으로 느껴보는 충격적인 캐릭터……",
+          "likeCount": 267,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "면접 떨어지면 커뮤에 아득바득 “내 스펙은 좋은데 떨어뜨린 하이닉스 망해라” 쓸거같이 생김",
+          "likeCount": 255,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "와 진짜 취향저격 개웃김ㅋㅋㅋㄲ",
+          "likeCount": 231,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "3:53 여기 호흡라인 ㅈㄴ 웃기네",
+          "likeCount": 157,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ai가 써준 대본 읽는 ㅋㅋ  현실반영",
+          "likeCount": 140,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "역시 병맛은 엄지렐라지",
+          "likeCount": 127,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "와 진짜 잘한다 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 105,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "두번죽이지말아주세요부탁드립니다",
+          "likeCount": 101,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "하 하이닉스 면탈만 4번한 입장에서 이 영상을 볼 수가 없어요 ㅠ",
+          "likeCount": 100,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "면접떨어지고 마음공부하실거같아요 ..",
+          "likeCount": 86,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "1:29 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 73,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "제발 이영상좀 인기많아져라",
+          "likeCount": 70,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "2:50 쇼스요…? ㅋㅋㅋㅋㅋ",
+          "likeCount": 65,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㅋㅋㅋㅋ이름말할때 사운드 울리는거 ㅋㅋㅋㅋ",
+          "likeCount": 51,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "어제 대기업 화상면접 봤는데 이게 뜨네",
+          "likeCount": 47,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "뭐에 씌이신듯해요",
+          "likeCount": 47,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "너무 리얼하다...하...ㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 47,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "진심개웃기넼ㅋㅋㅋ당황하는겈ㅋㅋㅋ",
+          "likeCount": 43,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "진짜개웃긴데",
+          "likeCount": 38,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "와 ㅋㅋㅋㅋ 감다살.. 이컨셉 좋아요 블루오션이예요 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ 근데 면접관님 진짜 인사팀이예요!? 저 저런 분 본거같음",
+          "likeCount": 25,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "엄지윤은 현대인류학이다",
+          "likeCount": 24,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "이번은 물서류임",
+          "likeCount": 22,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "얼굴을 어케 저리 달라보이게햇지",
+          "likeCount": 20,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "못웃겠어요………",
+          "likeCount": 7,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ 줌 면접이야? ㅋㅋㅋㅋㅋㅋ 지윤언니 ㄹㅇ 천재같다",
+          "likeCount": 7,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "맞아요",
+          "likeCount": 6,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "아앀ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 4,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "역시나  엄지윤\n대단하다~~ 인정!\n뭐든 다 잘 하는거....\n춤만  빼고❤😊😊❤ 7:34 😊❤❤",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "누나 눈알이 짝짝이야",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "아진짜존ㄴㄴ나웃기다",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "전나웃기다 미친 하..",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "아 ㅈㄴ 웃겨",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        }
+      ]
+    },
+    {
+      "elapsedSeconds": 59029.0,
+      "bucketStart": "2026-05-16T01:33:53+00:00",
+      "bucketEnd": "2026-05-16T07:50:24+00:00",
+      "positive": 18,
+      "neutral": 17,
+      "negative": 5,
+      "netSentiment": 0.325,
+      "zScore": 0.197,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 82178.0,
+      "bucketStart": "2026-05-16T07:59:42+00:00",
+      "bucketEnd": "2026-05-16T10:59:05+00:00",
+      "positive": 21,
+      "neutral": 10,
+      "negative": 9,
+      "netSentiment": 0.3,
+      "zScore": 0.0,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 92965.0,
+      "bucketStart": "2026-05-16T10:59:29+00:00",
+      "bucketEnd": "2026-05-16T14:04:21+00:00",
+      "positive": 22,
+      "neutral": 11,
+      "negative": 7,
+      "netSentiment": 0.375,
+      "zScore": 0.591,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 104133.0,
+      "bucketStart": "2026-05-16T14:05:37+00:00",
+      "bucketEnd": "2026-05-17T02:50:26+00:00",
+      "positive": 19,
+      "neutral": 13,
+      "negative": 8,
+      "netSentiment": 0.275,
+      "zScore": -0.197,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 150818.0,
+      "bucketStart": "2026-05-17T03:03:42+00:00",
+      "bucketEnd": "2026-05-17T08:37:58+00:00",
+      "positive": 21,
+      "neutral": 8,
+      "negative": 11,
+      "netSentiment": 0.25,
+      "zScore": -0.394,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 171321.0,
+      "bucketStart": "2026-05-17T08:45:25+00:00",
+      "bucketEnd": "2026-05-17T13:54:03+00:00",
+      "positive": 25,
+      "neutral": 9,
+      "negative": 6,
+      "netSentiment": 0.475,
+      "zScore": 1.379,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 190993.0,
+      "bucketStart": "2026-05-17T14:13:17+00:00",
+      "bucketEnd": "2026-05-18T02:03:38+00:00",
+      "positive": 23,
+      "neutral": 9,
+      "negative": 8,
+      "netSentiment": 0.375,
+      "zScore": 0.591,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 233989.0,
+      "bucketStart": "2026-05-18T02:09:53+00:00",
+      "bucketEnd": "2026-05-18T07:51:05+00:00",
+      "positive": 24,
+      "neutral": 13,
+      "negative": 3,
+      "netSentiment": 0.525,
+      "zScore": 1.773,
+      "isBurst": true,
+      "direction": "POSITIVE_SPIKE",
+      "topComments": [
+        {
+          "text": "2:15 갑자기 딜리트 이 지랄 ㅋㅋㅋㅋㅋㅋㅋㅋ 아 개 웃김 진짜 ㅠㅠ큐큐ㅠㅠㅠㅠ",
+          "likeCount": 82,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "2:33 이거 진짜 개웃기네 ㅋㅋㅋ",
+          "likeCount": 69,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "제미나이가 실존인물이면 딱 저럴 것 같음",
+          "likeCount": 30,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "지독하게 잘하네....",
+          "likeCount": 22,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "3:53 외운 것만 말하는데 급급해서 호흡 딸렸던 면접 떠올리게 하지 마세요. 웃음으로 소비될 장면 아닙니다.....",
+          "likeCount": 21,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "​@user-lf6gu7wp2oㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 9,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "1:48\n편집 디테일 ㅋㅋㅋㅋㅋ",
+          "likeCount": 7,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "@아웅-i8e 대본 쓰는 게 더 빠를 수도😊ㅋㅋㅋㅋ",
+          "likeCount": 6,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "7:05 아 엄격하고 자상하게 태어나는건 어케 하능거에요ㅠㅠㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 4,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "마냥 웃을 수만은 없는 영상....",
+          "likeCount": 3,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "개웃ㄱㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ 뭐야 이 신박 콘텐츠는ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "뭔가 많이 알고 있고 트랜드를 따라간다는 느낌은 있는데 뭘 말하는지 모르겠다. ㅋㅋㅋ",
+          "likeCount": 3,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "하.. 잘하긴한다",
+          "likeCount": 3,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "대리수치 오지네 ㅋㅋㅋㅋ 면접장에서 본 사람같음;;;",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "썸넬 엄지렐라 아닌 줄 알앗어요…. 진지하게 일반인이 면접 녹화한 줄 알고 심각한 표정으로 들어옴",
+          "likeCount": 2,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "너무 욱겨서 울었다 미치게따 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "지ㄹ ㅏㄹ 하고있닼ㅋㅋㅋㅋㅌㅋㅋ",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "투모니터로 자꾸 컨닝하는게 개웃기네",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "비염있는말투야 ㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㅇㄴ ㅈㄴ 웃긴데 16만회인게 말이 안됨",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "나 못보겠어 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "그래도 긴장은 안하네\n삼성 노조보다 일 잘할듯!",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "저 목뒤로 먹혀들어가는 소리 개잘나네ㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "개웃기다",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "이 뭔...ㅋㅋㅋㅋㅋㅋ 뭐야 이겤ㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "챗지피티  ㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "아시발ㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "너무웃겨요 ㅋㅋㅋㅋㅋ ㅠㅠ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "누까 떡볶퀸이랬냨ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ기세가 말도 안되네 ㅡㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "강유미가 연기한거 생각남 ㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "이거 뭐예요? 약간 나사풀린 여성 패러디인가요?",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "AI 로봇",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "진짜무슨생각으로 대본쓰시고촬영하신건지 궁금해요ㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠ비하인드주새요",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ아씨 진짜ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ면접관 너무 똑같아서 개 웃기고 답변은 도대체 몬소린지 알맹이 하나도 없는데 너무 어처구니가 없음ㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "맨시티 면접 탈락 영상",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "처음 이름소개는 괜찮은데..?",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "하 개열받네",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        }
+      ]
+    },
+    {
+      "elapsedSeconds": 255357.0,
+      "bucketStart": "2026-05-18T08:06:01+00:00",
+      "bucketEnd": "2026-05-18T11:06:27+00:00",
+      "positive": 19,
+      "neutral": 14,
+      "negative": 7,
+      "netSentiment": 0.3,
+      "zScore": 0.0,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 266629.0,
+      "bucketStart": "2026-05-18T11:13:53+00:00",
+      "bucketEnd": "2026-05-18T17:18:00+00:00",
+      "positive": 18,
+      "neutral": 11,
+      "negative": 11,
+      "netSentiment": 0.175,
+      "zScore": -0.985,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 288839.0,
+      "bucketStart": "2026-05-18T17:24:03+00:00",
+      "bucketEnd": "2026-05-19T08:36:59+00:00",
+      "positive": 24,
+      "neutral": 11,
+      "negative": 5,
+      "netSentiment": 0.475,
+      "zScore": 1.379,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 344057.0,
+      "bucketStart": "2026-05-19T08:44:21+00:00",
+      "bucketEnd": "2026-05-19T12:26:46+00:00",
+      "positive": 20,
+      "neutral": 6,
+      "negative": 14,
+      "netSentiment": 0.15,
+      "zScore": -1.182,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 357447.0,
+      "bucketStart": "2026-05-19T12:27:31+00:00",
+      "bucketEnd": "2026-05-19T23:29:35+00:00",
+      "positive": 20,
+      "neutral": 13,
+      "negative": 7,
+      "netSentiment": 0.325,
+      "zScore": 0.197,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 399252.0,
+      "bucketStart": "2026-05-20T00:04:16+00:00",
+      "bucketEnd": "2026-05-20T11:28:28+00:00",
+      "positive": 15,
+      "neutral": 14,
+      "negative": 11,
+      "netSentiment": 0.1,
+      "zScore": -1.576,
+      "isBurst": true,
+      "direction": "NEGATIVE_SPIKE",
+      "topComments": [
+        {
+          "text": "ㅌㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ 미안해요 웃고갑니다 ㅠㅠ",
+          "likeCount": 103,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "그래서 결국 반도체 정의는 안하고 넘어갔넼ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 58,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "​@M.Ozil2초짜인데 당연히 그렇지",
+          "likeCount": 38,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "계단으로 올라갔답니다",
+          "likeCount": 14,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "5:42 안경 더 치켜올라갔어ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ 개웃겨",
+          "likeCount": 12,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "그럴수밖에없어여...솔직하게 무스펙 무경력이면 아무도 기회를 안줌",
+          "likeCount": 9,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "4:03 여기 진짜 너무 빡쳐서 말도 안 나옴",
+          "likeCount": 7,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "이정도 발성이랑 말빨이면 무조건 합격 아니냐?ㅋㅋㅋ",
+          "likeCount": 6,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "진짜 개웃기넼ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 4,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "같이 일하기 힘든 스타일 ㅋㅋ",
+          "likeCount": 4,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "씨발 PTSD와서 못보겠음 보다가 껐음",
+          "likeCount": 3,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "진짜 면접관도 아닌데\n 얼굴만 봐도 숨막힌다",
+          "likeCount": 3,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "안경으로 앞트임 스킬 썼네",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "우울할때마다 보러옴",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "내일 면접이라 웃을수가 X",
+          "likeCount": 2,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "면접관님은 멘탈이 완전히 나가버렸습니다.",
+          "likeCount": 2,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "면접에서 아무말이나 하면 되는줄 아나보네ㅋㅋ 직무관련 지식이나 경험을 말해야해서 어려운건데..",
+          "likeCount": 2,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "이거 더뜨길바람 레전드임ㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "말투가...신기하네 ㄷㄷ여자",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "@강하늘-g9y 맞아요 그냥 웃어넘기면 되는건데 제가 요즘 너무 시니컬해졌네요, 딱히 불편하진 않아요",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "이거개웃기네ㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ아 진짜 ㅈㄴ웃ㄱ디네 큨ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ큐ㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "아니 이 영상 왜 안 뜨는데!!!!!! 개개개개ㅐ객!!! 재밌는데😢",
+          "likeCount": 1,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "*갑작스런 꿀팁) 제휴사는 꾹 누르면 간략히 보기가 가능합니다*\n\n볼드체 **이렇게**\n기울이기 __이렇게__\n취소 - -이렇게- -\n반드시 기호 앞뒤와 글자를 띄아쓰기없이 붙여야 합니다.",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "와꾸진짜 돌려차기 마렵네",
+          "likeCount": 1,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "망했네...",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "4:07\n2:29\n2:38",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "뭐야 이게? 진짜 존나 웃김",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "진짜는 아니죠?",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "안경좀빼고하지 라고적을랫는데 낚엿자나",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "이건 또 뭐여",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "아니 근데 진심 나쁘지 않은데?",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "아시발ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "홀란드 폼 미쳤다",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "마이클 잭스...?...!",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "면접은 커녕 서류 통과도 못할텐데",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "와...",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "과하게 친밀감형성하려고하는 ai같아요...",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "급등 주식 추천하는 회사에서 알바하면 엘리트 소리 들을 듯 😂",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        }
+      ]
+    },
+    {
+      "elapsedSeconds": 440366.0,
+      "bucketStart": "2026-05-20T11:29:30+00:00",
+      "bucketEnd": "2026-05-21T07:26:01+00:00",
+      "positive": 17,
+      "neutral": 16,
+      "negative": 7,
+      "netSentiment": 0.25,
+      "zScore": -0.394,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 513455.0,
+      "bucketStart": "2026-05-21T07:47:39+00:00",
+      "bucketEnd": "2026-05-22T16:14:59+00:00",
+      "positive": 20,
+      "neutral": 15,
+      "negative": 5,
+      "netSentiment": 0.375,
+      "zScore": 0.591,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 630371.0,
+      "bucketStart": "2026-05-22T16:16:15+00:00",
+      "bucketEnd": "2026-05-24T11:13:35+00:00",
+      "positive": 17,
+      "neutral": 12,
+      "negative": 11,
+      "netSentiment": 0.15,
+      "zScore": -1.182,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 786025.0,
+      "bucketStart": "2026-05-24T11:30:29+00:00",
+      "bucketEnd": "2026-05-26T11:48:25+00:00",
+      "positive": 20,
+      "neutral": 13,
+      "negative": 7,
+      "netSentiment": 0.325,
+      "zScore": 0.197,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 960656.0,
+      "bucketStart": "2026-05-26T12:01:00+00:00",
+      "bucketEnd": "2026-05-28T19:36:36+00:00",
+      "positive": 20,
+      "neutral": 16,
+      "negative": 4,
+      "netSentiment": 0.4,
+      "zScore": 0.788,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 1175859.0,
+      "bucketStart": "2026-05-28T23:47:43+00:00",
+      "bucketEnd": "2026-06-01T07:39:28+00:00",
+      "positive": 22,
+      "neutral": 8,
+      "negative": 10,
+      "netSentiment": 0.3,
+      "zScore": 0.0,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 1472658.0,
+      "bucketStart": "2026-06-01T10:14:22+00:00",
+      "bucketEnd": "2026-06-09T09:03:18+00:00",
+      "positive": 17,
+      "neutral": 17,
+      "negative": 6,
+      "netSentiment": 0.275,
+      "zScore": -0.197,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 2166786.0,
+      "bucketStart": "2026-06-09T11:03:10+00:00",
+      "bucketEnd": "2026-06-15T12:24:26+00:00",
+      "positive": 17,
+      "neutral": 10,
+      "negative": 13,
+      "netSentiment": 0.1,
+      "zScore": -1.576,
+      "isBurst": true,
+      "direction": "NEGATIVE_SPIKE",
+      "topComments": [
+        {
+          "text": "이 영상이 정말 제 면접 전날에 올라와서 당시에는 기분이 나빴지만 ㅠㅠㅠ\n어제 최종합격 하고 오늘 드디어 재생버튼을 눌렀습니다❤",
+          "likeCount": 7,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㅈ와 죽을거같다 면접관 얼굴부터 말투 눈빛까지 그냥 면접관임",
+          "likeCount": 6,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "0:50 러브가 무엇이오?",
+          "likeCount": 5,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "취준시즌이라 남일같지 않아서 웃음이 안 나오네요",
+          "likeCount": 4,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "언니 이거 너뮤 많이봐서 대본 다 외웠어요..",
+          "likeCount": 3,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "ㅇㄴ발언중짘ㅋㅋㅋㅋㅋ큐ㅠㅠㅠㅠㅠㅠ",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "면접관 잘생겼다",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "아 진짜ㅠ 해도해도 이딴 회피형 처음봐서 너무웃김 특히 5:10 ㅅㅂㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ 하…….. 여기서부터 개난리난거보고 눈물남 ㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "내가 다 숨이참",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "아시발 존나웃김 사실 안 웃김",
+          "likeCount": 1,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "인재를 뽑아야 하는데 인간 재앙이 와버리네ㅋㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "이런 컨텐츠를 뽑았다니..이건 진짜 천재다..",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "뭐라는건지 ㄹㅇ 하나도 모르겠는게 개웃기네 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "진짜 이따구로 면접 보는애들이 있음..? 거짓말하지마",
+          "likeCount": 1,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "이래서 징벌적 손해배상이 필요하다!",
+          "likeCount": 1,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "ㅋㅋㅋㅋ 아 시선처리랑 국어책 읽기까지 완벽하네",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "국방부 대변인 그 여자 보는것 같네 ㅋㅋㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "​@Wanni-r9k ㅠㅠㅠ 큐ㅋㅋㅋ  최종 광탈했어염ㅠㅠ",
+          "likeCount": 1,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "면접 개쳐망하고 이거보고 저같아서 웃고 있습니다.ㅋㅋ ㅠ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "개그물인가요?",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "진짜 기괴해서 ㅈㄴ웃기네",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "먼소리여;;",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "분명 어마어마한 인맥과 뒷돈, 로비가 있었을것.",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "AI한테 면접시뮬 돌려보라고 하면 딱 이런 말투로 말할 것 같음 ㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "하이닉스는 해명하세요",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "어디서 본것 같아 ㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "아 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ 릴스가 쇼츠 발음 으아아ㅏㅇ아ㅏ아",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "버거킹은 좀 웃기네요",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "요즘애들은 상향평준화된게 아님. 그냥 헛똑똑이만 개많아진거임.",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "대박 아니 이개 뭐야",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "와꾸부터가 탈락할상임",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "면접 뭣같이 하네했더니..\n엄지였구나",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "어느 부분에서 웃기려는건지…?",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "나 실제로 이런 애 회사 동료로 일해봤는데 진짜 정신병 수준이더라...",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "나는 면접에서 이만큼이라도 떠들 수 있을까",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "마지막에 약간 울먹거려서 한턴씩 끊어서 말하는거까지 완벽하다 ㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "면접관님 눈이 점점 무서워져요..ㅜ",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "와 면접관 표정 그냥 제 면접관표정 그대로 라서 현타와요...",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "왜 그러세요 ㅠㅠ",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        }
+      ]
+    },
+    {
+      "elapsedSeconds": 2782591.0,
+      "bucketStart": "2026-06-16T14:06:35+00:00",
+      "bucketEnd": "2026-06-25T14:16:24+00:00",
+      "positive": 18,
+      "neutral": 18,
+      "negative": 4,
+      "netSentiment": 0.35,
+      "zScore": 0.394,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 3599820.0,
+      "bucketStart": "2026-06-26T01:07:04+00:00",
+      "bucketEnd": "2026-07-01T11:05:16+00:00",
+      "positive": 7,
+      "neutral": 8,
+      "negative": 5,
+      "netSentiment": 0.1,
+      "zScore": -1.576,
+      "isBurst": true,
+      "direction": "NEGATIVE_SPIKE",
+      "topComments": [
+        {
+          "text": "떡볶퀸은 그냥 방송 목소리는 좋은데 시장 일반 시민이랑 이야기할때가 너무 오글거려 힘듦",
+          "likeCount": 2,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "​@NePa_games대화하듯이가 좋은데 준비한 답변 안 절고 조리있게 말하려고 긴장해서 말하다보면 저렇게 돼요. 대화하듯이는 고수",
+          "likeCount": 2,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "6:09초 맹세코⬈ 고양이⬈가 아닙⮕니⬈다⬆ 커피마시다가 뿜었네 진짜 ㅋㅋㅋㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "엄지윤 닮았다고 생각했는데 진짜 엄지윤일줄은 몰랐네",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "ㅈㄴ 웃셬ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "제정신이 아닌 것 같은데ㅎㅎ",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ😂",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "6월 24일 하이닉스 면접 결과 발표.\n이직 성공했습니다.\n수고하에요",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "와 중간에 끊기는거 까지 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "아 이걸 이제 봤네 개웃긴데",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "🤣🤣🤣🤣",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "한 3년전 지피티 돌리셧나..",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "안녕하세요",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "재미는없네 엄지렐라 좋아해",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "아 ㄹㅇ현타와",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "아 나같애 ㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㄹㅇ 저 눈이 너무무서워.. 하 못보겠다",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "@Jougwoo8cㄹㅇ 듣는건지 헷갈림",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "면접 준비할때 항상 기억하기.. 현직 용어는 면접관들이 훨씬 잘 안다.. 앞에서 뽐내고 과장하는거 면접관들한테 다 보임..",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "아니 안경으로 앞트임 한거임??/ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        }
+      ]
+    }
+  ],
+  "keyInsights": [
+    {
+      "type": "positive",
+      "topic": "떡볶퀸",
+      "topicEn": "Tteokbokki Queen",
+      "topicZh": "炒年糕女王",
+      "topicJa": "トッポッキクイーン",
+      "comment": "갈수록 떡복퀸같음ㅇㄴㅋㅋㅌㅋㅋㅋㅋㅋ",
+      "commentLang": "ko",
+      "likes": 6746
+    },
+    {
+      "type": "negative",
+      "topic": "하이닉스 면접",
+      "topicEn": "Hynix Interview",
+      "topicZh": "海力士面试",
+      "topicJa": "ハイニックス面接",
+      "comment": "이분 하닉 면접까진 어떻게 올라간건지 해명해주세요.",
+      "commentLang": "ko",
+      "likes": 7971
+    },
+    {
+      "type": "positive",
+      "topic": "하이닉스 면접",
+      "topicEn": "Hynix Interview",
+      "topicZh": "海力士面试",
+      "topicJa": "ハイニックス面接",
+      "comment": "지 호흡 스스로 감당 못하는 거 개웃김",
+      "commentLang": "ko",
+      "likes": 6571
+    },
+    {
+      "type": "negative",
+      "topic": "부족한 내용",
+      "topicEn": "Lack of Content",
+      "topicZh": "内容不足",
+      "topicJa": "内容の不足",
+      "comment": "발전했지만 약간 잘못된 ai 같아요",
+      "commentLang": "ko",
+      "likes": 5569
+    }
+  ],
+  "analyzedAt": "2026-07-04T04:39:12.400382+00:00",
+  "analysisDuration": 169.0,
+  "tokenUsage": {
+    "input": 45104,
+    "output": 11005,
+    "embedding": 35537,
+    "total": 91646,
+    "estimatedCostUsd": 0.014079
+  }
+}

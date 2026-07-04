@@ -6,3 +6,5 @@ openai
 httpx
 langdetect
 pandas
+numpy
+umap-learn

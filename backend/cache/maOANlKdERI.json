@@ -1,0 +1,657 @@
+{
+  "video": {
+    "videoId": "maOANlKdERI",
+    "title": "LCK 정규시즌 개막 D-1, 천둥의 신 제우스 강림🎵",
+    "channelTitle": "Hanwha Life Esports",
+    "thumbnailUrl": "https://i.ytimg.com/vi/maOANlKdERI/maxresdefault.jpg",
+    "publishedAt": "2025-04-01",
+    "viewCount": 105652,
+    "likeCount": 4355,
+    "analyzedComments": 404,
+    "languageRatio": {
+      "ko": 68,
+      "en": 4,
+      "other": 28
+    },
+    "weightedSentiment": 38
+  },
+  "topics": [
+    {
+      "label": "만우절 영상",
+      "labelEn": "April Fools' Video",
+      "labelZh": "愚人节视频",
+      "labelJa": "エイプリルフールの動画",
+      "mentionCount": 116,
+      "sentiment": {
+        "positive": 47,
+        "neutral": 41,
+        "negative": 12
+      }
+    },
+    {
+      "label": "제우스 선수에 대한 반응",
+      "labelEn": "Reactions to Zeus",
+      "labelZh": "对宙斯的反应",
+      "labelJa": "ゼウスへの反応",
+      "mentionCount": 111,
+      "sentiment": {
+        "positive": 64,
+        "neutral": 32,
+        "negative": 5
+      }
+    },
+    {
+      "label": "유쾌한 노래",
+      "labelEn": "Catchy Song",
+      "labelZh": "朗朗上口的歌曲",
+      "labelJa": "キャッチーな歌",
+      "mentionCount": 77,
+      "sentiment": {
+        "positive": 64,
+        "neutral": 32,
+        "negative": 4
+      }
+    },
+    {
+      "label": "팀워크",
+      "labelEn": "Teamwork",
+      "labelZh": "团队合作",
+      "labelJa": "チームワーク",
+      "mentionCount": 65,
+      "sentiment": {
+        "positive": 35,
+        "neutral": 63,
+        "negative": 2
+      }
+    },
+    {
+      "label": "고소에 대한 염려",
+      "labelEn": "Concerns of Lawsuit",
+      "labelZh": "关于诉讼的担忧",
+      "labelJa": "訴訟の懸念",
+      "mentionCount": 35,
+      "sentiment": {
+        "positive": 46,
+        "neutral": 43,
+        "negative": 11
+      }
+    }
+  ],
+  "reactionTimeline": [
+    {
+      "elapsedSeconds": 17.0,
+      "bucketStart": "2025-04-01T08:14:14+00:00",
+      "bucketEnd": "2025-04-01T08:17:23+00:00",
+      "positive": 25,
+      "neutral": 12,
+      "negative": 3,
+      "netSentiment": 0.55,
+      "zScore": 0.734,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 228.0,
+      "bucketStart": "2025-04-01T08:17:45+00:00",
+      "bucketEnd": "2025-04-01T08:25:44+00:00",
+      "positive": 28,
+      "neutral": 10,
+      "negative": 2,
+      "netSentiment": 0.65,
+      "zScore": 1.55,
+      "isBurst": true,
+      "direction": "POSITIVE_SPIKE",
+      "topComments": [
+        {
+          "text": "개막 하루 전이라는 핑계와..\n만우절이라는 핑계가 존재하지만..\n그냥 진심으로 만든 것만 같다..",
+          "likeCount": 457,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "한화생명... 선수옵 1+1 인건 잊지 않으셨죠? ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ(드립)",
+          "likeCount": 173,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "우제를 비싸게 부른 이유",
+          "likeCount": 94,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "0:17 ㅋㅋㅋㅋ 미첬나봐 ㅋㅋㅋㅋㅋㅋㅋㅋ 우스 댄스킬은 AI로 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 88,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ok ok 형이야 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 27,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ영상팀 좋은 의미로 도르셧네ㅋㅋㅋㅋㅋㅋ개웃곀ㅋㅋ",
+          "likeCount": 27,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "오케오케 형이야 ~ 근데 뚱스뚱스 뭐야 ㅋㅋㅋ 우리 우스 안뚱뚱한데 ㅋㅋㅋㅋ 응원가중독적이네 맘에듬",
+          "likeCount": 24,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "CHOI \"ZEUS\" WOOJE. YOU ARE THE GREATEST TOP LANER OF ALL TIME. \n\nWooje fighting!!! HLE fighting!!!",
+          "likeCount": 15,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "하씨 춤추는거 진짜 개킹받아 ㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 13,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "0:17 the dancing part caught me off guard ㅋㅋ",
+          "likeCount": 7,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "뚱스뚱스 뭔뎈ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ 미치겠네",
+          "likeCount": 6,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋㅋㅋㅋ이걸 또 말아오셨네",
+          "likeCount": 5,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㅎㅏ 우제 다이어트성공해서 뚱스 벗어나자ㅠㅋㅋㄱㅋㅋ",
+          "likeCount": 5,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "우스우스 제우스~~",
+          "likeCount": 4,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "진짜 징그러운데 개웃기넼ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "우스우스 ⚡⚡⚡",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "뚱스뚱스ㅋㅋㅋㅋㅋㅋ이러고있넼ㅋㅋㅋ아낰ㅋㅋㅋ",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "뚱스뚱스 ㅅㅂ 이거 우제랑 합의된거 맞음?ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "우제가 한생 유튜브 구독 취소하겠는데 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "이정도 광기면...라이브로 불러줘야된다! ㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "😂😂",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "0:20 nhà này thích cho tuyển thủ nhảy quá",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "ㅋㅋㅋㅋ뚱스뚱스 ㅋㅋㅋㅋ아 ㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ레전드넼ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅌㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "우제야 참지마",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "진짜 보기 너무 두려운 영상 1위",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "진짜 미친놈 ㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "😂😂😂😂",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ (ㅇ-ㅇ)",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "원딜의신 미만잡이긴하네ㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Im so shy 😂",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "Zeus tới chơi~",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "=)))))))))))))",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "Mẹ ơi mẹ ???",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "Con Bơ Cam nằm trỏng chắc luôn 🤯",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "이거 우제도 동의한거 맞나요 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "월딘의 신 노래보다 훨씬 더 부끄럽네",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "살 좀 빼라는 압박을 이런식으로 하네 ㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        }
+      ]
+    },
+    {
+      "elapsedSeconds": 731.0,
+      "bucketStart": "2025-04-01T08:26:08+00:00",
+      "bucketEnd": "2025-04-01T08:40:47+00:00",
+      "positive": 21,
+      "neutral": 18,
+      "negative": 1,
+      "netSentiment": 0.5,
+      "zScore": 0.326,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 1669.0,
+      "bucketStart": "2025-04-01T08:41:46+00:00",
+      "bucketEnd": "2025-04-01T09:12:22+00:00",
+      "positive": 23,
+      "neutral": 12,
+      "negative": 5,
+      "netSentiment": 0.45,
+      "zScore": -0.082,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 3538.0,
+      "bucketStart": "2025-04-01T09:12:55+00:00",
+      "bucketEnd": "2025-04-01T10:00:52+00:00",
+      "positive": 23,
+      "neutral": 16,
+      "negative": 1,
+      "netSentiment": 0.55,
+      "zScore": 0.734,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 6426.0,
+      "bucketStart": "2025-04-01T10:01:03+00:00",
+      "bucketEnd": "2025-04-01T10:48:46+00:00",
+      "positive": 18,
+      "neutral": 21,
+      "negative": 1,
+      "netSentiment": 0.425,
+      "zScore": -0.286,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 9440.0,
+      "bucketStart": "2025-04-01T10:51:17+00:00",
+      "bucketEnd": "2025-04-01T13:44:05+00:00",
+      "positive": 17,
+      "neutral": 17,
+      "negative": 6,
+      "netSentiment": 0.275,
+      "zScore": -1.509,
+      "isBurst": true,
+      "direction": "NEGATIVE_SPIKE",
+      "topComments": [
+        {
+          "text": "“업계 최고대우”",
+          "likeCount": 245,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "오렌지들: 쌤 ㅠ 다른팀 애들이 우리는 리그 전 영상 없다고 놀려요... \n한화생명: 천둥의 신 제우스\n오렌지들: ...",
+          "likeCount": 152,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "0:28 아 근데 우로라 맛난거 말아준 거 진짜 너무 좋다ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ비수기에 이거 몇 번을 돌려봤는지ㅠㅠ",
+          "likeCount": 33,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "만우절 핑계로 최고의 영상을 뽑아내는 한화...",
+          "likeCount": 12,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "제우스 반응 영상 마렵네 이건",
+          "likeCount": 8,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "그래서 우제 리액션 언제 해주나요?ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 7,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "와 진짜 노래 입에 착착 붙네.",
+          "likeCount": 5,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "오케오케 형이야😂❤",
+          "likeCount": 4,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋㅋㅋ 하 팀뚱스 드 가 자 우제 파이팅 한화생명 파이팅🧡 빨리 팀뚱스 제카 딜라잇도 만들어주십사",
+          "likeCount": 4,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "제우스×바이퍼 롤파크 합동공연 기원 1일차",
+          "likeCount": 3,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "ㅇㅋㅇㅋ~ 형이야! 😂ㅋㅋㅋㅋㅋ",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "우제야 괜찮아?…",
+          "likeCount": 3,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "t cười mà t nghĩ t có thể chet luôn =))",
+          "likeCount": 2,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "이거 들으면서 솔랭할 맛 나겠누",
+          "likeCount": 2,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "익숙한 AI에게서 익숙한 마라한화 냄새가 난다",
+          "likeCount": 2,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "cả đời sau lên núi ở 😭😭",
+          "likeCount": 1,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "trời ơi trông như loăng quăng con ơi =))))))))",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "아 미친",
+          "likeCount": 1,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "🔥🔥🔥🔥🔥🔥🍊",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "🤣🤣🤣",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "우스우스 뚱스뚱스 ㅋㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "와앙",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Hàn hoa có vẻ rất khoái xài AI",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "이, 이게 뭐노..",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "Mac co qua cha oi",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "아니 그... 예...",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "0:17 có thể là cười chớt tao luôn 😂",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "뚱스뚱스? 고소하겠습니다",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "@jdjdnjxnjs9656티원이 후려쳐서 싸게 잡음ㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Nhà mẹ đỉnh quáaaa❤",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "제우스제우스제우스제우스",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Nghe nhiều thành nghiện đấy 😂",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "중간에 wwe2k24 모델 이름 아시는분?",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "ㄹㅇㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "😔 what is this----😭😭😭",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "만화주인공오프닝곡같네",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "뭐죠 이게?..",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "오우",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "앜ㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Giỡn vậy có nên ko trời :)))",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "elapsedSeconds": 19987.0,
+      "bucketStart": "2025-04-01T13:47:04+00:00",
+      "bucketEnd": "2025-04-02T03:07:43+00:00",
+      "positive": 14,
+      "neutral": 24,
+      "negative": 2,
+      "netSentiment": 0.3,
+      "zScore": -1.305,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 70610.0,
+      "bucketStart": "2025-04-02T03:50:47+00:00",
+      "bucketEnd": "2025-04-09T06:02:39+00:00",
+      "positive": 20,
+      "neutral": 14,
+      "negative": 6,
+      "netSentiment": 0.35,
+      "zScore": -0.897,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 882537.0,
+      "bucketStart": "2025-04-11T13:22:54+00:00",
+      "bucketEnd": "2026-04-20T15:20:22+00:00",
+      "positive": 22,
+      "neutral": 18,
+      "negative": 0,
+      "netSentiment": 0.55,
+      "zScore": 0.734,
+      "isBurst": false,
+      "direction": null
+    }
+  ],
+  "keyInsights": [
+    {
+      "type": "positive",
+      "topic": "제우스 선수에 대한 반응",
+      "topicEn": "Reactions to Zeus",
+      "topicZh": "对宙斯的反应",
+      "topicJa": "ゼウスへの反応",
+      "comment": "우스우스 제우스~ 뚱스뚱스 제우스ㅋㅋㅋㅋㅋㅋㅋㅋ 미쳤나봐",
+      "commentLang": "ko",
+      "likes": 581
+    },
+    {
+      "type": "negative",
+      "topic": "제우스 선수에 대한 반응",
+      "topicEn": "Reactions to Zeus",
+      "topicZh": "对宙斯的反应",
+      "topicJa": "ゼウスへの反応",
+      "comment": "0:17  아니 우제가 고소할거 같은데",
+      "commentLang": "ko",
+      "likes": 588
+    },
+    {
+      "type": "positive",
+      "topic": "팀워크",
+      "topicEn": "Teamwork",
+      "topicZh": "团队合作",
+      "topicJa": "チームワーク",
+      "comment": "뚱스뚱스 제우스는 앀ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+      "commentLang": "ko",
+      "likes": 553
+    },
+    {
+      "type": "negative",
+      "topic": "만우절 영상",
+      "topicEn": "April Fools' Video",
+      "topicZh": "愚人节视频",
+      "topicJa": "エイプリルフールの動画",
+      "comment": "만우절 핑계로 최고의 영상을 뽑아내는 한화...",
+      "commentLang": "ko",
+      "likes": 12
+    }
+  ],
+  "analyzedAt": "2026-07-04T11:40:24.951637+00:00",
+  "analysisDuration": 75.2,
+  "tokenUsage": {
+    "input": 20649,
+    "output": 4828,
+    "embedding": 10458,
+    "total": 35935,
+    "estimatedCostUsd": 0.006203
+  }
+}

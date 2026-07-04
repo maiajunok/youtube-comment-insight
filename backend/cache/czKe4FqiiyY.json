@@ -1,0 +1,4233 @@
+{
+  "video": {
+    "videoId": "czKe4FqiiyY",
+    "title": "함께 날아오르다 | T1 Rose Together",
+    "channelTitle": "T1",
+    "thumbnailUrl": "https://i.ytimg.com/vi/czKe4FqiiyY/maxresdefault.jpg",
+    "publishedAt": "2024-09-20",
+    "viewCount": 2803417,
+    "likeCount": 89468,
+    "analyzedComments": 4242,
+    "languageRatio": {
+      "ko": 50,
+      "en": 28,
+      "other": 23
+    },
+    "weightedSentiment": 68
+  },
+  "topics": [
+    {
+      "label": "팀워크",
+      "labelEn": "Teamwork",
+      "labelZh": "团队合作",
+      "labelJa": "チームワーク",
+      "mentionCount": 1328,
+      "sentiment": {
+        "positive": 71,
+        "neutral": 24,
+        "negative": 5
+      }
+    },
+    {
+      "label": "감정적 서사",
+      "labelEn": "Emotional Narrative",
+      "labelZh": "情感叙事",
+      "labelJa": "感情的な物語",
+      "mentionCount": 985,
+      "sentiment": {
+        "positive": 48,
+        "neutral": 32,
+        "negative": 20
+      }
+    },
+    {
+      "label": "월드 챔피언십",
+      "labelEn": "World Championship",
+      "labelZh": "世界锦标赛",
+      "labelJa": "ワールドチャンピオンシップ",
+      "mentionCount": 878,
+      "sentiment": {
+        "positive": 65,
+        "neutral": 23,
+        "negative": 12
+      }
+    },
+    {
+      "label": "팬 문화와 응원",
+      "labelEn": "Fan Culture and Support",
+      "labelZh": "粉丝文化与支持",
+      "labelJa": "ファン文化とサポート",
+      "mentionCount": 689,
+      "sentiment": {
+        "positive": 71,
+        "neutral": 22,
+        "negative": 7
+      }
+    },
+    {
+      "label": "페이커와 구마유시",
+      "labelEn": "Faker and Gumayusi",
+      "labelZh": "Faker与Gumayusi",
+      "labelJa": "フェイカーとグマユシ",
+      "mentionCount": 362,
+      "sentiment": {
+        "positive": 63,
+        "neutral": 23,
+        "negative": 14
+      }
+    }
+  ],
+  "reactionTimeline": [
+    {
+      "elapsedSeconds": -21566.0,
+      "bucketStart": "2024-09-20T05:00:44+00:00",
+      "bucketEnd": "2024-09-20T07:15:20+00:00",
+      "positive": 18,
+      "neutral": 16,
+      "negative": 6,
+      "netSentiment": 0.3,
+      "zScore": -1.508,
+      "isBurst": true,
+      "direction": "NEGATIVE_SPIKE",
+      "topComments": [
+        {
+          "text": "어떤분께서 위기 대위기 대대위기 대대대위기 결말이라고 하길래.. 걱정되는 마음과 기대되는 마음으로 기다려봅니다...\n\n후기: 일단 엄청 울었음. 영화한테 얻어 맞은 건 처음임. 제발 티원이 장수돌침대 만들었으면 좋겠음. 너희가 흘린 눈물과 노력이 헛된 것이 아니길 간절히 바란다.  나에게 용기와 힘을 주는 너희가 제일 행복하면 좋겠다. 다시 정상으로 올라가자 제오페구케 파이팅",
+          "likeCount": 1596,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "이미 CGV가서 보고온 사람들은 개추 ㅋㅋㅋㅋㅋ",
+          "likeCount": 718,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "시간 안 맞아서 CGV에서 못 보고 오늘만 기다렸어요 진챠…😂\n\n후기:팬분들 후기가 다들 울었다고 하시길래. 마음의 준비했는데도 광광 울었네😢 이렇게 마음 절절한 영상 볼 수 있게 너무 잘 만들어준 감독님과 스탭들 감사합니다.\n그리고 팬들의 간절함보다 너희들의 간절함이.. 얼마나 더 절실하고 그 한 걸음을 위해 노력하고, 진심으로 임했는지 더 가까이서 볼 수 있어서 너무 좋은 시간이였다. 항상 응원할게. 팬으로서 응원하는 게 다 지만 정말 온 마음 다해 응원한다. 제우스,오너,페이커,구마유시,케리아. 단 한 명도 잃고 싶지 않고 모두 소중해. 너희를 보면서 많은 힘을 얻는 만큼 응원으로 보답할게. 우제야,현준아,상혁아,민형아,민석아 어떤 순간에도 응원하고 사랑한다 얘들아 정말로👍🏻",
+          "likeCount": 317,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "제오페구케 사랑해❤❤❤",
+          "likeCount": 202,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "극장에서 너무 보고 싶었는데 ㅠ 일정이 안 맞아서 못 봤는데 이렇게라도 본다면 ㅠ 넘나 행복할듯~",
+          "likeCount": 144,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "영화관가서 보고 온 후기 \n: 시작 5분만에 ptsd 시작",
+          "likeCount": 121,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "보고 싶은데 맴찢일 거 같아서 못 보겠어 그치만 보고 싶어...",
+          "likeCount": 78,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "오 유튜브 최초공개 너무좋고",
+          "likeCount": 53,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "대대대",
+          "likeCount": 32,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "크.. CGV에서 봤지만 아라치 치킨 뜯으며 봐야겠다",
+          "likeCount": 31,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "이미 봤지만 또 볼거임!!!",
+          "likeCount": 28,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "cgv가서 보고 왔더니 유투브로도 나오넹... 비도 오겠다... 파전에 막걸리각!!!!",
+          "likeCount": 27,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "이미 cgv로 마지막날 보고 왔지만 또 보러 기다리는 1인",
+          "likeCount": 25,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "진짜cgv에서봤는데 애들 안타까워서 1차 2차 3차 맨탈 탈탈탈 ㅋㅋ ㅠㅜㅜ",
+          "likeCount": 14,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "정말 재밌습니다 꼭보세요❤",
+          "likeCount": 14,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Finally!!! Cant waittttttttttt 🎉",
+          "likeCount": 13,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "이거 영화관에서 상영하고 있는 레드불다큐 전체 다 보여주는건가여?? 유튜브에 남겨둘려나..? 저때 못봤다가 사라지면 맘아픈데",
+          "likeCount": 12,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "퇴근하고 밥먹으면서 볼거 찜",
+          "likeCount": 12,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "헐 이거 유튜브공개?ㄷㄷ 극장에서보고싶은데 상영관이 없어",
+          "likeCount": 11,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "It's finally premiering on YouTube! 😍❤",
+          "likeCount": 9,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Can’t wait🎉🎉🎉",
+          "likeCount": 4,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "개추ㅋㅋ",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "이거 극장거랑 똑같은 건가요?",
+          "likeCount": 2,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "개추를 벅벅ㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "극장에서 눈물 빼고 왔다",
+          "likeCount": 1,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "넵",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "여러분 휴지 준비하세요...😢 (보고온사람",
+          "likeCount": 1,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "이거 23서머가 너무 자세하게나옴",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "Omg it's hereeee it's coming 😭🔥",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "이미 2번이나 보긴했는데… 또 봐도 좋을것 같아요😊",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "일정이바빠서 놓쳤지만 오늘은 치킨챙겨놓고본다.",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "못봐서 아쉬웠는데 개봉한번 어케 더안해주나",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "문열어",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "Will it have English subtitles? I’m excited ❤",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "보고싶었는데\n좋다",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "쨔쓰~",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "ALL T1 rats are here",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "이미 봤지롱",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "I've been waiting for this for so long, now I can really relive the moment",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "몇분짜리죠???",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "elapsedSeconds": -13460.0,
+      "bucketStart": "2024-09-20T07:15:50+00:00",
+      "bucketEnd": "2024-09-20T10:39:00+00:00",
+      "positive": 26,
+      "neutral": 9,
+      "negative": 5,
+      "netSentiment": 0.525,
+      "zScore": 0.016,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": -539.0,
+      "bucketStart": "2024-09-20T10:51:11+00:00",
+      "bucketEnd": "2024-09-20T11:14:48+00:00",
+      "positive": 23,
+      "neutral": 16,
+      "negative": 1,
+      "netSentiment": 0.55,
+      "zScore": 0.185,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 881.0,
+      "bucketStart": "2024-09-20T11:14:51+00:00",
+      "bucketEnd": "2024-09-20T11:33:33+00:00",
+      "positive": 23,
+      "neutral": 11,
+      "negative": 6,
+      "netSentiment": 0.425,
+      "zScore": -0.661,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 2120.0,
+      "bucketStart": "2024-09-20T11:35:30+00:00",
+      "bucketEnd": "2024-09-20T12:03:40+00:00",
+      "positive": 21,
+      "neutral": 14,
+      "negative": 5,
+      "netSentiment": 0.4,
+      "zScore": -0.831,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 3841.0,
+      "bucketStart": "2024-09-20T12:04:11+00:00",
+      "bucketEnd": "2024-09-20T12:20:01+00:00",
+      "positive": 28,
+      "neutral": 8,
+      "negative": 4,
+      "netSentiment": 0.6,
+      "zScore": 0.524,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 4795.0,
+      "bucketStart": "2024-09-20T12:20:05+00:00",
+      "bucketEnd": "2024-09-20T12:22:42+00:00",
+      "positive": 30,
+      "neutral": 7,
+      "negative": 3,
+      "netSentiment": 0.675,
+      "zScore": 1.032,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 4954.0,
+      "bucketStart": "2024-09-20T12:22:44+00:00",
+      "bucketEnd": "2024-09-20T12:23:57+00:00",
+      "positive": 27,
+      "neutral": 8,
+      "negative": 5,
+      "netSentiment": 0.55,
+      "zScore": 0.185,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 5027.0,
+      "bucketStart": "2024-09-20T12:23:57+00:00",
+      "bucketEnd": "2024-09-20T12:27:39+00:00",
+      "positive": 32,
+      "neutral": 7,
+      "negative": 1,
+      "netSentiment": 0.775,
+      "zScore": 1.709,
+      "isBurst": true,
+      "direction": "POSITIVE_SPIKE",
+      "topComments": [
+        {
+          "text": "극장에서 울었다 진짜\n1시간 고문 후\n20분 선물 고맙습니다.",
+          "likeCount": 3671,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "꽃은 죽는게 아니지. 다시 피어오를 힘을 기르기위해 잎을 떨굴뿐. 겨울이 가면 다시 봄이 오고 꽃이 핀다. 견뎌라 티원 우리는 응원만한다",
+          "likeCount": 1083,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "내내 맞아서 아프다가 마지막에 감동먹고 울면서 웃게되는 영상",
+          "likeCount": 293,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "T1은 낭만이다.... 20대부터.. 임요환때부터 오로지 T1은 낭만이 있다...",
+          "likeCount": 158,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "극장에서 이미 두 번 보고도 세 번째 볼 때 가장 많이 눈물이 났네요. 올해 제오페구케의 여정도 순탄하진 않았지만 한 번 더 찬란한 결실을 맺을 수 있기를 빕니다. 티원 화이팅! 제오페구케 화이팅!",
+          "likeCount": 34,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Lets go! For our fifth star!  ⭐️ ⭐️ ⭐️ ⭐️ ⭐️",
+          "likeCount": 14,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "T1, ZOFGK 올해 한번 더 우승 해보자!! \nFOREVER AS ONE !! 🌟🌟🌟🌟🌟",
+          "likeCount": 10,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "날개를 달아줘요,레드불",
+          "likeCount": 9,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "All I want to say for them is, you guys have worked so hard last year, and this year too the journey wasn't all a smooth sailing. But I believe that the prettiest flower will blooms once again at the end of this journey. All the best for Worlds 2024! Let's create another good memory to look back to🍀🌟",
+          "likeCount": 5,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "보면서 그때 감정들이랑 장면들 순간순간 다 지나가는데 더 뭉클 해져서 휴지 하나를 다 써버린 내 인생 다큐멘터리.. 작년 월즈 결승 때 이기고 나서의 그 느낌을 아직도 잊지 못해..🥹",
+          "likeCount": 4,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "마구유시 음해한 분탕들 누구야 다 나가라 티원 팬도 아닌 놈들 ㅉ",
+          "likeCount": 4,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "Romanian please",
+          "likeCount": 4,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "Romanian please",
+          "likeCount": 4,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "제발 24년도에도 화이팅해서 25년도까지 가기를.. 제오페구케 오래 보고싶다ㅜㅠ",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Thank you to the entire team for putting together this documentary for ZOFGK! \r\nIt's a wonderful tribute and a great way to remember the journey.",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Watch this video to clear your sinuses... get your tissues out early...",
+          "likeCount": 2,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "What a great year for ZOFGK! Lets hope and do great again this Worlds 2024! Let's make them believe! T1, fighting!!",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Brought to tears multiple times wow",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "또 당신입니까 대대대",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "讚讚",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Because the flower that grows in adversity is the rarest and most beautiful of all 🌹",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "讚讚",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "An inspiration to every fan worldwide, thank you ZOFGK",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "This is indeed the best roster of T1 of all the time , not just players, a family ❤️😭",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "어떻게 이런 서사가...1년내내 봤는데도 안질림",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "다들 초중반에 울었다더만 난 그때 좀 울컥하고 오히려 후반에 더 눈물나더라",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "5번째 우승은 레클레스를 위해서 입니다",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "제오페구케 23년도의 월즈를 영화같이 보여줬는데 이걸 영화로 낼줄이야.. 오히려 좋아🥹\n23월즈도 너무 힘들었을텐데 그걸 이겨내고 이겨줘서 고마워! 이번 년도도.. 알지? 말 안해도 알고있을거라 믿어!! 올해도 화이팅해서 제오구케 재계약 한번 더 하자 이제 1개월 반 그정도 밖에 안남았어!!",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "부진은 있어도 몰락은 없다 T1화이팅!!",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "⭐⭐⭐⭐⭐",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "근데 눈물포인트가 어디지..? 재밌긴 했는데 뭔가.. 이미 다 아는 내용이라 그런가..영화 보면서 잘 우는 편인데 슬프진 않았음",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "사랑합니다 티원 항상 응원합니다 지더라도 좋은 결과가 아니더라도 끝까지 응원하고 함께 웃고 함께 울겠습니다! 이번 월즈도 후회없이 보여주고 오세요!!",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "2023 최고의 연말을 보내게 해준 티원에게도 고맙고 멋진 영화 제작해준 레드불도 참 고맙네요.. 이번 월즈도 꼭 우승해서 제오페구케 종신 가자!! 화이팅!❤",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "4시드 티원의 미라클런 가보자.. 얘들아 사랑한다 !! 올해도 할 수 있어 !! ⭐️⭐️⭐️⭐️⭐️",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "다섯번째 별 찾으러 가즈아  제오페구케 화이팅!!!!!",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "T1 파이팅!",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "OMG I am crying 😭😭😭 What an amazing document. Thank you for this ❤",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "YES I AM CRYING!!!!!!",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "T1 화이팅! 열심히 응원할게요!💪🍀🎪🎖🌏🏆🍀⚘️🙏",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "t1 forever~!!! faker forever~~ 2연패 해보자!!!!",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        }
+      ]
+    },
+    {
+      "elapsedSeconds": 5260.0,
+      "bucketStart": "2024-09-20T12:27:50+00:00",
+      "bucketEnd": "2024-09-20T12:33:41+00:00",
+      "positive": 31,
+      "neutral": 7,
+      "negative": 2,
+      "netSentiment": 0.725,
+      "zScore": 1.37,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 5624.0,
+      "bucketStart": "2024-09-20T12:33:54+00:00",
+      "bucketEnd": "2024-09-20T12:40:04+00:00",
+      "positive": 24,
+      "neutral": 10,
+      "negative": 6,
+      "netSentiment": 0.45,
+      "zScore": -0.492,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 5998.0,
+      "bucketStart": "2024-09-20T12:40:08+00:00",
+      "bucketEnd": "2024-09-20T12:49:41+00:00",
+      "positive": 30,
+      "neutral": 9,
+      "negative": 1,
+      "netSentiment": 0.725,
+      "zScore": 1.37,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 6599.0,
+      "bucketStart": "2024-09-20T12:50:09+00:00",
+      "bucketEnd": "2024-09-20T12:57:00+00:00",
+      "positive": 32,
+      "neutral": 5,
+      "negative": 3,
+      "netSentiment": 0.725,
+      "zScore": 1.37,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 7014.0,
+      "bucketStart": "2024-09-20T12:57:04+00:00",
+      "bucketEnd": "2024-09-20T13:04:08+00:00",
+      "positive": 32,
+      "neutral": 4,
+      "negative": 4,
+      "netSentiment": 0.7,
+      "zScore": 1.201,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 7440.0,
+      "bucketStart": "2024-09-20T13:04:10+00:00",
+      "bucketEnd": "2024-09-20T13:12:07+00:00",
+      "positive": 25,
+      "neutral": 12,
+      "negative": 3,
+      "netSentiment": 0.55,
+      "zScore": 0.185,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 7930.0,
+      "bucketStart": "2024-09-20T13:12:20+00:00",
+      "bucketEnd": "2024-09-20T13:21:26+00:00",
+      "positive": 25,
+      "neutral": 10,
+      "negative": 5,
+      "netSentiment": 0.5,
+      "zScore": -0.153,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 8477.0,
+      "bucketStart": "2024-09-20T13:21:27+00:00",
+      "bucketEnd": "2024-09-20T13:33:21+00:00",
+      "positive": 27,
+      "neutral": 8,
+      "negative": 5,
+      "netSentiment": 0.55,
+      "zScore": 0.185,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 9204.0,
+      "bucketStart": "2024-09-20T13:33:34+00:00",
+      "bucketEnd": "2024-09-20T13:44:09+00:00",
+      "positive": 30,
+      "neutral": 7,
+      "negative": 3,
+      "netSentiment": 0.675,
+      "zScore": 1.032,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 9844.0,
+      "bucketStart": "2024-09-20T13:44:14+00:00",
+      "bucketEnd": "2024-09-20T13:56:33+00:00",
+      "positive": 21,
+      "neutral": 15,
+      "negative": 4,
+      "netSentiment": 0.425,
+      "zScore": -0.661,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 10610.0,
+      "bucketStart": "2024-09-20T13:57:00+00:00",
+      "bucketEnd": "2024-09-20T14:06:34+00:00",
+      "positive": 33,
+      "neutral": 5,
+      "negative": 2,
+      "netSentiment": 0.775,
+      "zScore": 1.709,
+      "isBurst": true,
+      "direction": "POSITIVE_SPIKE",
+      "topComments": [
+        {
+          "text": "아니 페이커는 월즈 결승에서 지고 다 우는데 이순간에 그걸 복기하고 있네;;; 광기야 이건 진짜 ;;; 멘탈이 어느정도 되야 저렇게 행동할수 있냐 존경스럽다 ;;;",
+          "likeCount": 1463,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "다른 팀은 MSI가는것만으로도 영광인데...어째 이 팀에겐 팬들이 이렇듯 가혹한지?\n올해도 마찬가지...롤드컵에 참가하는 것만으로도 정말 대단한 커리어인데 팬들은 만족을 못하네...\nT1정말 잘했다...내가 항상 응원한다...",
+          "likeCount": 210,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㄹㅇ 근데 이번 월즈진출전5경기는 졸라떨렸음",
+          "likeCount": 67,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "맞긴한데 이놈들이 기대치를 너무 높여놨어.. ㅠㅠ",
+          "likeCount": 26,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "자자 얘들아 이번엔 우리가 4시드의 우승을 직접해보러 가즈아~~~",
+          "likeCount": 4,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "조용히 외쳐봅니다.\n월즈 리핏!!!",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "HBD ❤",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "LOVE U Rekkles",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "구마유시 격려해주는 말이 너무 따뜻하다",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "그동안의 서사를 알고있으니 더 감동적이네.,.",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "아 스킵하면서 대충볼려고했는데 그럴게 아니네..",
+          "likeCount": 2,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "롤 시즌2부터 T1 쭉 응원했는데 뽕 차오르네 ㅎㅎㅎ 눈물나올뻔 \n이제는 하는롤보다 보는롤을 좋아하게 됐는데 항상 응원하겠습니다..\n벌써 30대 중반이네요 ㅠ \n롤드컵도 집에서 열심히 응원할게 ! T1 !!\n페이커 선수 고맙습니다!! 10년이란 시간이 넘도록 전율을 느끼고 감동받습니다.",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "I cried while watching because of what T1 went through. Even though I've only known T1 for over 3 months, what I saw in this video made me feel so happy to be a T1 fan. ❤ I love T1 🥰",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "저 골든로드 저희가 막겠습니다를 티원한테 시킨게 진짜 어이없는거였는데 진짜막음ㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "나의 클럽 T1 항상 응원합니다 ❤\n, 13년부터 응원중인 팬이",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "결심했다... 이 팀 끝 까지 응원하기로...",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "What a legend",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "6:28 이 때 \"What the fxxk\"을 외친 캐드럴은 해설에서 잘려버린..",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "T1 일잘하네^^",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "티원 너무 좋다\n화이팅\n이겨도 져도 화이팅",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "이때 성불한 기분이라.. 지금은 뭐 잘하는 장면 나오면 박수치고 좀 못하면 그런갑다..  롤드컵 2024도 좋은 결과 있으시길.",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "T1선수들의  소원이 이뤄지길 소망하며  오늘부터  천마리 학을  접어서  롤드컵전에  바치겠어요♡",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Seeing this documentary make me wanna stay with ZOFGK for a very long time even they are win or lose     Thank you boys for not give it up and im always proud to be T1 fan 🥹🍀🍀🫶🏻🫶🏻",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Guma becoming the catalyst of summer 2023, dude is just the embodiment of confidence.",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ZOFGK❤️",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Love ZOFGK ❤",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Họ cắt hành cho tôi!!! Tui iu T1 nhìu nắmmmmm",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "love you so much",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "아닠ㅋㅋㅋㅋ 류민석 왜 혁규형한테 스킨 뭐 만들지 물어보는데ㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "T1❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "2023년 감동실화",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "제오페구케 당신들이 있어 행복했고, 행복하고, 앞으로도 행복할 것 같습니다❤ 오래토록 함께이길,,,",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "1:40 xdd thefraud",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "1시간=그만떄려! 아 뼈맞았어! 그만...우리 HP는 이미 0이라고....\n마지막 20분= 하아... 도파민...♥",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "一定要贏喔",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "아직도 이때생각하면 가슴이 뜨거워진다",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "T1 Fighting",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "let's bring another World home this year!",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ZOFGK! Good luck at Worlds💪🏻🔥🙆🏻‍♀️❤️❤️",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "제발 이번에도 우승하자..!! T1…ㅠㅠㅠ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        }
+      ]
+    },
+    {
+      "elapsedSeconds": 11234.0,
+      "bucketStart": "2024-09-20T14:07:24+00:00",
+      "bucketEnd": "2024-09-20T14:17:10+00:00",
+      "positive": 27,
+      "neutral": 9,
+      "negative": 4,
+      "netSentiment": 0.575,
+      "zScore": 0.355,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 11821.0,
+      "bucketStart": "2024-09-20T14:17:11+00:00",
+      "bucketEnd": "2024-09-20T14:28:09+00:00",
+      "positive": 21,
+      "neutral": 9,
+      "negative": 10,
+      "netSentiment": 0.275,
+      "zScore": -1.677,
+      "isBurst": true,
+      "direction": "NEGATIVE_SPIKE",
+      "topComments": [
+        {
+          "text": "무대 뒤에서 제우스가 이렇게 많은 눈물을 흘렸는지 몰랐어요ㅜㅜ 우승할때도 파엠을 탈때도 항상 웃기만 하길래 눈물이 없는 편인 줄 알았는데 이렇게 아프게 성장하고 있을줄이야😢 우제가 언제나 웃었으면 좋겠다... 우리 또 웃자! 힘들어도 견디다보면 좋은날이 오는거 제일 잘 알잖아!! 이번 월즈도 힘든 날도 있겠지만 결국 이겨내서 우제가 또 활짝 웃었으면 좋겠어❤ 힘내!!! 화이팅!!!",
+          "likeCount": 255,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "32:47 마음이 아프다,,, 건강만하자 ㅠㅠ",
+          "likeCount": 107,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "이번 월즈 4시드에 갔어도 잘 할거라 믿어요.\n패배하더라도 무너지지 않고,\n상대방에 자만하지 않고,\n언제나 다시 일어나 도전하여 날아갈 수 있도록,\n항상 옆에서 응원합니다~!\nT1 파이팅!!",
+          "likeCount": 11,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "만약 2022년 월즈를 우승 했다면 제오페구케는 역대 최고의 팀이 되지 않았을까..... \n2023년 월즈를 우승 했지만 뭔가 아쉽다.....",
+          "likeCount": 6,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "Thank you for the mutiple language option  🥹\n謝謝字幕 🍀🍀🍀🍀🍀",
+          "likeCount": 4,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Thank you for the mutiple language option  🥹\n謝謝字幕 🍀🍀🍀🍀🍀",
+          "likeCount": 4,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Alguien en español viendo la 4ta",
+          "likeCount": 2,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "진짜 소설도 이렇게 쓰면 욕먹을 듯 역시 티원은 낭만 ㅎㅎ",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Thank you T1. You inspire me.",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "好棒T1有繁體中文🎉 謝謝造福台灣觀眾",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "STOP MAKING ME CRY 😭😭😭😭😭",
+          "likeCount": 1,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "Here's to another star to be added this year! ⭐\nZOFGK FIGHTING! T1 FIGHTING!",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "HBD! 유럽에서도 월즈 파이팅!",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "뭘 날아올라 요즘 어디까지 추락하나 매 경기 조마조마해서 죽겠구만 ㅠㅠ",
+          "likeCount": 1,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "댓글 보니까 무서워서 못 보겠어요…슬플 것 같은데…",
+          "likeCount": 1,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "<3",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "59:48 Our 6 years of suffering has been lifted",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "beautiful editing",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "quá nhiều cảm xúc",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "đỉnh quá",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "제 올해 최고의 아니.. 제 인생 최고의 영상, 최고의 영화, 최고의 인생 입니다.\n지금, 1년 뒤, 10년 뒤에 또 봐도 눈물이 날 거 같은 한편의 서사 입니다.\n감사합니다. T1",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": " 👍",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "어느 스포츠영화보다 아름답다",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "이멤버 진짜 너무 좋은데 계약들이 끝나간다는게 너무 아쉽다.. 만약 올해 결과가 안나오면 결국 누군가는 떠날거고 제오페구케도 올해까지겠지..",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "이야",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "젠)결승에서봅시다.",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "absolute cinema! T1 FIGHTING!",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "언제나 응원해~ T1 화이팅!!",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ZOFGK let’s stick together longer 💗🍀",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "30:43 \n41:32\n1:00:56",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "5:00 편집 왜 그래ㅠㅠㅠㅠ",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "밥먹구보구 자기전에보구 회사가면서봐야징...😭😭",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "눙물 뚝…",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "젠지한테 10연패 당한건 안 나오네 까비",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "ko dám xem á tê oăn ơi mới đoạn đầu mà cái ngực em nhức nhức...",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "23:02 됬 오타",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "7:42, Man watching this event in theaters was so heartbreaking to see as a T1 fan. But as a league of legends fan, that was one of the best, best of 5’s ever besides SKT vs Rox tigers. I’m so happy they fought back, and won after a hard year of setbacks. They stepped up! SKT T1, Fighting!",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "뭐 거의 영화로 만들었네 ㄷㄷ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ZOFGK...❤❤❤",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Yo merengues",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "elapsedSeconds": 12519.0,
+      "bucketStart": "2024-09-20T14:28:49+00:00",
+      "bucketEnd": "2024-09-20T14:39:09+00:00",
+      "positive": 28,
+      "neutral": 6,
+      "negative": 6,
+      "netSentiment": 0.55,
+      "zScore": 0.185,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 13152.0,
+      "bucketStart": "2024-09-20T14:39:22+00:00",
+      "bucketEnd": "2024-09-20T14:50:02+00:00",
+      "positive": 31,
+      "neutral": 6,
+      "negative": 3,
+      "netSentiment": 0.7,
+      "zScore": 1.201,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 13802.0,
+      "bucketStart": "2024-09-20T14:50:12+00:00",
+      "bucketEnd": "2024-09-20T15:02:38+00:00",
+      "positive": 29,
+      "neutral": 7,
+      "negative": 4,
+      "netSentiment": 0.625,
+      "zScore": 0.693,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 14559.0,
+      "bucketStart": "2024-09-20T15:02:49+00:00",
+      "bucketEnd": "2024-09-20T15:17:32+00:00",
+      "positive": 30,
+      "neutral": 10,
+      "negative": 0,
+      "netSentiment": 0.75,
+      "zScore": 1.54,
+      "isBurst": true,
+      "direction": "POSITIVE_SPIKE",
+      "topComments": [
+        {
+          "text": "32:45 이 장면은 진짜 눈물났다 아프지 마 우리혁....😢",
+          "likeCount": 730,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "LCK 역사엔 \"페이커\" 다음으로 \"제오페구케\" 지 않을까",
+          "likeCount": 76,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "티원 응원은 하는데 지면 악플달고 삐뚤어진 사람들은 보세요. 선수들 이렇게 힘들어하고 열심히했는데 좋은 결과 안나온다고 딮하게 욕하고 악플달고 하지말아주세요... 선수들도 우승하고 싶고 항상 열심히 하고 패배에 크게 아쉬워하고 추스리는 과정도 힘듭니다. 응원하는 메세지만 해주세요 제발",
+          "likeCount": 12,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "포비는 진짜..... 대단했다.... 난 정말 죽었을지도ㅠㅠ",
+          "likeCount": 4,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "I just watched a 1hour long vid that is better than most movies I've seen these years....",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "mãi mãi yêu đội hình này hic",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "i felt all those moments ,yesthat  was not easy !  but we never surrender ! Go T1 ! Go ZOFGK !",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "i love you so much T1 & ZOFGK!!!! 😭♥️",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "This is professional lol, where your arrogance has its own payback sooner than later, that 2022 was good for their character and welp... this year was great for character development as well. T1 FIGHTING!!!",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "징동전 2세트<<<기억안나면 개추",
+          "likeCount": 2,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "그래도..\n\n우리는…\n\n여전히..\n\n티원이다 🦅🐦‍🔥🐬👍🌈\n\n애들아~ 가즈아아아아아~~",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "1:08:49 대 진 스 기 습 숭 배",
+          "likeCount": 2,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "난 이걸 와이프까지 데려가서 4만원 주고 봤지.. 돈을 써야 또 이런 다큐 많이 만들어줄까 싶어서.. 와이프 몰래 우느라 힘들었다.",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "제오페구케 24년도 롤드컵 우승 기원\n광주사는 석주형이 응원한다 \n\n티원 기운을 받아 건강 운수 대통 로또 1등   해내겠습니다\n\n우리티원 롤드컵 씹어먹즈아 !!",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "45:03 To see them go from 1-7 and going through the losses individually. To punching their way to Worlds. If SKT makes it to Worlds, the World buckles from their play. And I will always be watching.",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "i hope that kkoma will make a comeback for t1 in worlds 2024",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "나 제오페구케 사랑하네...",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "GODS GODS GODS GODS GODS",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "\"We are T1\" As a motivation cheer was prob one of the sickest cheer as a player",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "양심없단 거 알지만 올해도 해다오\n오늘 드디어 30도 여름이 끝나간다 유럽이니까 더 시원할 거 아니냐\n제오페구케가 15-16 티원에 이어서 2번째 2연 월즈 들어보자 진짜",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Love 3000. Please keep ZOFGK forgood ❤❤❤❤",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "T1 fighting!!!! Goodluck on this year’s worlds 2024. Your 5th trophy awaits you 🏆",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "T1",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "헐 극장가서 보려고했는데 제가 가려던날부터 딱 상영종료되서 못봤는데 ㅠㅠㅠㅠㅠ 너무 감사합니다 ㅠㅠㅠㅠㅠㅠ 제오페구케 영원해라!🔥",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "월즈 지고 롤 쳐다도 안봤는데 티원이 23스프링때 17승1패였다니",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "미쳤어\n영화보다 더 잼있잖아;",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "원래 티원오면 드라마 한편 쓰는거임 어쩔수없음 올해도 힘들었지만 롤드컵 4시드의 기적 보여주자",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "This is an amazing story just like the one redbull did for OG for TI8 its so dam good",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "1:08:50 아니 보다가 깜짝놀랐네... 미모 뭐냐",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "다시 이겨낼 티원이니까 믿는다!! 애들아!",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "그냥 서사가 말이 안됌... T1찐팬들이면 눈물 안날수가 없는 영상ㅠㅠㅠㅠㅠㅠ😭😭 4시드한테 호되게 당했던만큼 우리도 그대로 돌려줘보자!!!!!!!! 항상 응원해❤ T1 화이팅!!",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "진짜 포비 다시 생각해보면 너무 고마웠음",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "예술이다 내 심장이 다시 뛰기 시작한다",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "티원팬이라 혈압은 관리 잘되는거같아요",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "@웅운-h2c 헉ㅋㅋㅋㅋㅋ죄송합니다 근데 진짜영화같긴했어요 영상미가 집에서 편하게 봣는데 영화관에서 봤어도 지리긴했겠네요 좋은정보 감사합니다!",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Poland subbties plss😊",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "T1 FOREVER ❤❤❤❤❤❤",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "제오구케는 타구단가면 티원이 그립긴할듯 팬문화가 잣같긴하지만 그만큼 슈퍼스타라는걸 반증하는거니",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "한번만 더 해먹자 제발....",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        }
+      ]
+    },
+    {
+      "elapsedSeconds": 15444.0,
+      "bucketStart": "2024-09-20T15:17:34+00:00",
+      "bucketEnd": "2024-09-20T15:31:51+00:00",
+      "positive": 21,
+      "neutral": 16,
+      "negative": 3,
+      "netSentiment": 0.45,
+      "zScore": -0.492,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 16320.0,
+      "bucketStart": "2024-09-20T15:32:10+00:00",
+      "bucketEnd": "2024-09-20T15:44:14+00:00",
+      "positive": 26,
+      "neutral": 6,
+      "negative": 8,
+      "netSentiment": 0.45,
+      "zScore": -0.492,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 17054.0,
+      "bucketStart": "2024-09-20T15:44:24+00:00",
+      "bucketEnd": "2024-09-20T15:57:40+00:00",
+      "positive": 23,
+      "neutral": 14,
+      "negative": 3,
+      "netSentiment": 0.5,
+      "zScore": -0.153,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 17854.0,
+      "bucketStart": "2024-09-20T15:57:44+00:00",
+      "bucketEnd": "2024-09-20T16:15:28+00:00",
+      "positive": 33,
+      "neutral": 5,
+      "negative": 2,
+      "netSentiment": 0.775,
+      "zScore": 1.709,
+      "isBurst": true,
+      "direction": "POSITIVE_SPIKE",
+      "topComments": [
+        {
+          "text": "저는요 케리아 선수가 손 떨면서 우는 그 장면을 보고 롤을 처음 접하게 되었어요. 사람이 저렇게 간절할 수 있구나, 이정도로 나는 열정적이게 무언가에 임해본 적이 있을까, 그때 이후로 롤 자체가 단순히 취미가 아닌, 스포츠라고 느껴지면서 지금은 매 대회를 챙겨보고 있네요. 지금은 다소 부진할 지라도 티원 선수분들의 노력은 분명히 보답 받을 거예요. 그러니 환하게 꽃이 필 그날을 기다리고, 응원할게요.",
+          "likeCount": 250,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "정말 라이트한 t1의 팬이지만 보면서 너무 울컥했네요. 스포츠에서의 영화같은 스토리, 그리고 그만한 감동이 있는 연출... 희노애락이 다 담긴 영상입니다. 이번 월즈도 힘들겠지만 화이팅",
+          "likeCount": 56,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Coi xog video này thì mình cx thấy T1 đã vất vả như thế nào để chiến thắng. Mong 2024 này cx sẽ thành công rực rỡ như cuối năm 2023.T1 fighting \nÀ mình còn thấy anh editer ng VN nx tự hào quá đi cố lên nhaa",
+          "likeCount": 10,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "This roster is truly special for us T1 fans. Thank you, ZOFGK. We love you so much ❤",
+          "likeCount": 6,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "이미 다 아는 얘기인데 그래도 너무 가슴이 아파서 몇분에 한번씩 멈추지 않으면 한번에 다 못 본다... 다 아는 얘기라서 마주하기 어렵나 싶기도 하구 \n상황들 생각보다 더 너무 안 좋은데 이제 보니까 그냥 버텨줘서 고맙다 애들아 \n내가 종이학 열심히 접을게 화이팅하자 우리의 여정 더 길어질수있게",
+          "likeCount": 6,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "1:01:31 Legends Never Die",
+          "likeCount": 3,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "진짜 욕심이지만 난 한번더 우승장면 보고싶다 ㅜㅜ",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "i will always root for you guys till' the last minute! T1 Fighting! much love from brazil.",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "이렇게 보기 어려웠던 티큐멘터리는 처음이고 나와주신 모든 분께 감사하지만 우리 티원의 벵기선수도 포함해준 것에 무한한 감사와 리스펙을 보입니다\n티원을 위해 함께했던 모든 사람들과 함께 롱런하는 티원이 될 수 있길 바라고 응원합니다❤\n제오페구케와 톰 로치 조마쉬 그리고 보이지 않는 곳에서도 애쓰는 모든 분들 응원합니다\n\n지금의 티원을 응원하기 시작한 것은 페이커와 SKT팀원들 덕분이었지만 최고의 롤 선수를 고르라면 제오페구케를 생각하지 않을 정도로 많이 응원합니다\n가끔 재능들과의 경쟁에 부침을 느낄 때도 있겠지만 그대들은 더 많은 사람들에게 재능의 차이를 보여준 사람이니 쫄지말고 한발짝 더 앞서나가주길 바랍니다\n\n너네 그냥 다들 짱이고 탑클이라고\n돈 제한 없이 팀 짜라그러면 나는 제오페구케 짤거니까 쫄지마\n\n내가 할 수 있는 것 상대방을 이길 수 있는 방법부터 이기고 우승하는 그 모든 과정이 스포츠인데 그대들은 그 과정 전부를 보여주고 있잖아요",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Fans de T1 desde Latinoamérica🌹👑, no por nada tambien hay subs en español, aqui estamos y siempre estaremos. T1 fighting! 🫰🏻\nT1 팬들은 라틴 아메리카🌹👑 에 있기 때문에 스페인어 자막도 있습니다. 우리는 여기에 있고 앞으로도 그럴 것입니다.\n T1 화이팅!",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "케리아는 진짜 진심이구나..",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "올해 롤드컵 못나갔으면 어쩔뻔했니. 올해 역시 응원도 많이 하고 욕도 많이 했지만 작년의 그 기쁨 다시 한 번 더 느껴보자!! T1 화이팅!!!",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "T1 fans doing \"good things\" for T1 is cute AF",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "This years T1 Win again Glory jurney 2024❤️‍🔥",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "벌써 1년이란 시간이 지났는데, 아직도 결승전이 생생하게 기억납니다.\n이번 롤드컵도 후회 없이, 잘 하고 오시길 응원할게요~ 제오페구케 화이팅!!!",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Thanks for Sub French you are the best",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "구마유시 화이팅",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Thanks for Sub French you are the best",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "One of the greatest videos I’ve ever watched.",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "이런 기억 하나하나 때문에 티원을 떠나지 않고 응원하는거지",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "@어메이징-m9c espots도 기업의 후원으로 운영되는 프로구단이라 선수들 성적과 연봉을 고려하면 제오페구케가 1년 단위로 운영되는 롤 구단 특성을 감안하면 특이한 케이스이긴 하고 22스프링 우승, 월즈 결승진출, 23아시안게임 금메달 국대 3명 배출, 23월즈 우승해서 22년부터 24년까지 3년간 유지되어 올 수 있었다고 봅니다.. 선수들의 팀의 충성도와 성적이 비례해야 로스터가 유지될 수 있으니까요.. 24시즌 결말이 어떨지 기대가 됩니다. 유지될지 월즈후 아름다운 이별이 될지",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "내 4만원 내놔라 🤪",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "내가 응원말고 뭘할수있는데!!\n티원 파이팅!!!!!!",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Masterpiece.",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "siuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "괜히 롤 최고의 인기구단이 아니구나 ㅋㅋ 대단하네 ㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "영상 보기전: 개같이 못하네 너는 나가라\n영상 본후:엉엉 제오페구케 종신해",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "T1 fighting!",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "그렇게는 안되겠지만 lpl은 물론 다 이기겠지만 \n올해는 lck 팀들에게 진거 복수 하고 우승하면 어떨까?😊 \nDK 한화 젠지 이기고 4시드 우승 가보자🔥🔥🔥",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "T1❤❤❤",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "t1 fightinggg",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "화이팅!!!!!!!!!!!!!!",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "T1 ❤",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "로열로더 2연속우승 7년만의우승..  와 나열해보니 더 지리네. 그저고트",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "❤❤❤❤",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "Hi vọng T1 năm nay có phong độ tốt hơn & dành chức vô địch CKTG 2024❤",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "진짜 한녀들 호들갑은 ㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "ㅋㅋㅋ롤에 과몰입이 참..",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "24월즈도 손잡고 끝까지 함께 가보자고!!!!",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Chúng ta hãy thật cố gắng cho kì Chung kết thế giới 2024 nhé. T1 Rose Together <3",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        }
+      ]
+    },
+    {
+      "elapsedSeconds": 18931.0,
+      "bucketStart": "2024-09-20T16:15:41+00:00",
+      "bucketEnd": "2024-09-20T16:30:21+00:00",
+      "positive": 26,
+      "neutral": 12,
+      "negative": 2,
+      "netSentiment": 0.6,
+      "zScore": 0.524,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 19843.0,
+      "bucketStart": "2024-09-20T16:30:53+00:00",
+      "bucketEnd": "2024-09-20T16:47:15+00:00",
+      "positive": 25,
+      "neutral": 14,
+      "negative": 1,
+      "netSentiment": 0.6,
+      "zScore": 0.524,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 20838.0,
+      "bucketStart": "2024-09-20T16:47:28+00:00",
+      "bucketEnd": "2024-09-20T17:03:25+00:00",
+      "positive": 27,
+      "neutral": 12,
+      "negative": 1,
+      "netSentiment": 0.65,
+      "zScore": 0.863,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 21813.0,
+      "bucketStart": "2024-09-20T17:03:43+00:00",
+      "bucketEnd": "2024-09-20T17:27:56+00:00",
+      "positive": 29,
+      "neutral": 8,
+      "negative": 3,
+      "netSentiment": 0.65,
+      "zScore": 0.863,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 23301.0,
+      "bucketStart": "2024-09-20T17:28:31+00:00",
+      "bucketEnd": "2024-09-20T17:53:13+00:00",
+      "positive": 23,
+      "neutral": 13,
+      "negative": 4,
+      "netSentiment": 0.475,
+      "zScore": -0.323,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 24821.0,
+      "bucketStart": "2024-09-20T17:53:51+00:00",
+      "bucketEnd": "2024-09-20T18:16:38+00:00",
+      "positive": 29,
+      "neutral": 9,
+      "negative": 2,
+      "netSentiment": 0.675,
+      "zScore": 1.032,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 26221.0,
+      "bucketStart": "2024-09-20T18:17:11+00:00",
+      "bucketEnd": "2024-09-20T18:49:49+00:00",
+      "positive": 29,
+      "neutral": 7,
+      "negative": 4,
+      "netSentiment": 0.625,
+      "zScore": 0.693,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 28219.0,
+      "bucketStart": "2024-09-20T18:50:29+00:00",
+      "bucketEnd": "2024-09-20T19:28:10+00:00",
+      "positive": 26,
+      "neutral": 9,
+      "negative": 5,
+      "netSentiment": 0.525,
+      "zScore": 0.016,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 30498.0,
+      "bucketStart": "2024-09-20T19:28:28+00:00",
+      "bucketEnd": "2024-09-20T20:19:56+00:00",
+      "positive": 22,
+      "neutral": 11,
+      "negative": 7,
+      "netSentiment": 0.375,
+      "zScore": -1.0,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 33674.0,
+      "bucketStart": "2024-09-20T20:21:24+00:00",
+      "bucketEnd": "2024-09-20T21:30:21+00:00",
+      "positive": 27,
+      "neutral": 9,
+      "negative": 4,
+      "netSentiment": 0.575,
+      "zScore": 0.355,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 37874.0,
+      "bucketStart": "2024-09-20T21:31:24+00:00",
+      "bucketEnd": "2024-09-20T22:34:17+00:00",
+      "positive": 25,
+      "neutral": 12,
+      "negative": 3,
+      "netSentiment": 0.55,
+      "zScore": 0.185,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 41706.0,
+      "bucketStart": "2024-09-20T22:35:16+00:00",
+      "bucketEnd": "2024-09-20T23:30:28+00:00",
+      "positive": 23,
+      "neutral": 9,
+      "negative": 8,
+      "netSentiment": 0.375,
+      "zScore": -1.0,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 45083.0,
+      "bucketStart": "2024-09-20T23:31:33+00:00",
+      "bucketEnd": "2024-09-21T00:16:06+00:00",
+      "positive": 22,
+      "neutral": 10,
+      "negative": 8,
+      "netSentiment": 0.35,
+      "zScore": -1.169,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 47784.0,
+      "bucketStart": "2024-09-21T00:16:34+00:00",
+      "bucketEnd": "2024-09-21T01:10:04+00:00",
+      "positive": 27,
+      "neutral": 8,
+      "negative": 5,
+      "netSentiment": 0.55,
+      "zScore": 0.185,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 51079.0,
+      "bucketStart": "2024-09-21T01:11:29+00:00",
+      "bucketEnd": "2024-09-21T02:00:52+00:00",
+      "positive": 24,
+      "neutral": 10,
+      "negative": 6,
+      "netSentiment": 0.45,
+      "zScore": -0.492,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 54063.0,
+      "bucketStart": "2024-09-21T02:01:13+00:00",
+      "bucketEnd": "2024-09-21T02:46:07+00:00",
+      "positive": 28,
+      "neutral": 10,
+      "negative": 2,
+      "netSentiment": 0.65,
+      "zScore": 0.863,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 56782.0,
+      "bucketStart": "2024-09-21T02:46:32+00:00",
+      "bucketEnd": "2024-09-21T03:24:30+00:00",
+      "positive": 23,
+      "neutral": 12,
+      "negative": 5,
+      "netSentiment": 0.45,
+      "zScore": -0.492,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 59140.0,
+      "bucketStart": "2024-09-21T03:25:50+00:00",
+      "bucketEnd": "2024-09-21T03:58:45+00:00",
+      "positive": 23,
+      "neutral": 10,
+      "negative": 7,
+      "netSentiment": 0.4,
+      "zScore": -0.831,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 61147.0,
+      "bucketStart": "2024-09-21T03:59:17+00:00",
+      "bucketEnd": "2024-09-21T04:49:37+00:00",
+      "positive": 30,
+      "neutral": 6,
+      "negative": 4,
+      "netSentiment": 0.65,
+      "zScore": 0.863,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 64182.0,
+      "bucketStart": "2024-09-21T04:49:52+00:00",
+      "bucketEnd": "2024-09-21T05:50:36+00:00",
+      "positive": 28,
+      "neutral": 7,
+      "negative": 5,
+      "netSentiment": 0.575,
+      "zScore": 0.355,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 67966.0,
+      "bucketStart": "2024-09-21T05:52:56+00:00",
+      "bucketEnd": "2024-09-21T06:29:12+00:00",
+      "positive": 28,
+      "neutral": 11,
+      "negative": 1,
+      "netSentiment": 0.675,
+      "zScore": 1.032,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 70260.0,
+      "bucketStart": "2024-09-21T06:31:10+00:00",
+      "bucketEnd": "2024-09-21T07:34:51+00:00",
+      "positive": 22,
+      "neutral": 15,
+      "negative": 3,
+      "netSentiment": 0.475,
+      "zScore": -0.323,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 74250.0,
+      "bucketStart": "2024-09-21T07:37:40+00:00",
+      "bucketEnd": "2024-09-21T08:27:18+00:00",
+      "positive": 25,
+      "neutral": 5,
+      "negative": 10,
+      "netSentiment": 0.375,
+      "zScore": -1.0,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 77450.0,
+      "bucketStart": "2024-09-21T08:31:00+00:00",
+      "bucketEnd": "2024-09-21T09:38:18+00:00",
+      "positive": 27,
+      "neutral": 6,
+      "negative": 7,
+      "netSentiment": 0.5,
+      "zScore": -0.153,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 81613.0,
+      "bucketStart": "2024-09-21T09:40:23+00:00",
+      "bucketEnd": "2024-09-21T10:20:31+00:00",
+      "positive": 22,
+      "neutral": 15,
+      "negative": 3,
+      "netSentiment": 0.475,
+      "zScore": -0.323,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 84102.0,
+      "bucketStart": "2024-09-21T10:21:52+00:00",
+      "bucketEnd": "2024-09-21T11:47:42+00:00",
+      "positive": 28,
+      "neutral": 8,
+      "negative": 4,
+      "netSentiment": 0.6,
+      "zScore": 0.524,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 89314.0,
+      "bucketStart": "2024-09-21T11:48:44+00:00",
+      "bucketEnd": "2024-09-21T13:04:16+00:00",
+      "positive": 34,
+      "neutral": 4,
+      "negative": 2,
+      "netSentiment": 0.8,
+      "zScore": 1.878,
+      "isBurst": true,
+      "direction": "POSITIVE_SPIKE",
+      "topComments": [
+        {
+          "text": "아기상혁이 꼭 니가 하고싶은 일을 하는 사람이 되어라",
+          "likeCount": 82,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "위대한 대상혁이 될것입니다",
+          "likeCount": 40,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "혹시 이름이 대상혁인가요??!",
+          "likeCount": 27,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "진짜 우승롤드컵 우승하면 좋겠습니다,",
+          "likeCount": 12,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "어떻게 싫어할수가있나요..ㅠㅠㅠ비록 한챕터는 끝이 났지만 새로운 챕터를 위해 달려가고있으니까요 앞으로의 티원도 늘 응원합니다 그중심에는 제오페구케가 있지만 언젠가 또 떨어지겠죠 ..욕심인건 알지만 한번만더 멋진 이야기를 만들어줬으면..응원하고 사랑합니다 제오페구케",
+          "likeCount": 10,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "페이커!!!  얼굴만보아도 먼가 가슴이 벅차오네요  월즈2핏~꼭 성공하세요 !대상혁♡ 제오페구케  화이팅",
+          "likeCount": 6,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "구마유시야.. 정말 멋진 선수네..\n영원히 종신하자..",
+          "likeCount": 6,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "1:01:17 Just wow. This was just a cinematic masterpiece.",
+          "likeCount": 6,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "From VietNam T1 fighting !!!!!!!",
+          "likeCount": 4,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "If T1 wins another World Championship this year as LCK's 4th seed, they will be the first team that won all their championships in different seeds/placements in the LCK.\n\n2013 - 3rd seed\n2015 - 1st seed\n2016 - 2nd seed\n2023 - 2nd seed",
+          "likeCount": 3,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "제오페구케 오래 보고싶다 더 보고싶어 ㅠㅠ",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ZOFGK forever!!!!!!",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "I love you, T1. Thanks ZOFGK!",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "페이커가 무너진다면 그건 페까들이 아닌 페이커의 팬이라고 주장하는 극성들 때문이겠다 페이커가 부진할때마다 그가 사랑하는 그의 팀과 동료들을 맹렬히 공격하는데 월즈 결승에서조차 부담감을 느끼지않는 그가 자신이 사랑하는 팀과 동료들을 지킬수없단 압박감때문에 극단적인 행동까지 하도록 내몰다니.. 티원이 패배하는 날은 패배 자체가 두려운게 아니라 그 극성들이 우리팀을 얼마나 괴롭힐지가 눈에 선해 두렵다",
+          "likeCount": 3,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "I know its not a trophy when a team does not finished 1st. But since 2022, T1's record was 1st spring, msi 2nd, summer 2nd, worlds 2nd, spring 2nd, msi 3rd?, summer 2nd, world champs, spring 2nd, msi 3rd, summer 4th. This placements are amazing feats at the end of the day😅",
+          "likeCount": 3,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "good luck at Worlds 2024! ZOFGK fighting~",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "I love T1. I hope that this year will be the 5th win for us. T1 Infinity <3 <3 <3 <3 (Signed LittleBear, Karim, Bilal)",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "T1 FIGHTING 2024",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "진짜내가응원하는처음이자마지막팀..이멤버리멤버…무너져도항상일어나는모습이진짜감동적임….항상응원합니다",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "응원합니다!",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "BRUH WHEN   T1 WON WORLDS I CRIEDDDDDDD",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "I love t1",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "얘들아 너무 고맙다",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "진짜 내가보면 지는 것 같아서 이번 롤드컵 유튜브에 올라오면 보려고하는데 ㅠㅠ 티원 ㅎㅇㅌ!!!",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "27:25 이거 나만 하던 생각이 아녔구나? ㅋㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "미쳤다 눈물 줄줄 나오는고만~~ 드라마 잘만들었다 이 드라마 최고다❤❤❤",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "어떤 분야건 최정상에 군림하는 자는 뭐가 달라도 많이 다르네 나보다 8살 어린 동생이지만 인간으로써 존경하게한다 정말",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Absolute cinema. ❤",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "t1 화이팅!!!!",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "진짜 한번만 더 우승 하자",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Thanks team for all! Lucky in worlds 24! T1 fighting",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "상혁선수 최근 경기력이 부진했었어도 항상 응원했습니다!! 롤드컵을 힘들게 간 만큼 이번 롤드컵도 후회하지 않을 만큼 좋은 성적 내고 한국 돌아오셔서 오래오래 선수생활 하셨으면 좋겠습니다 건강하게! 제우스 선수 , 오너 선수 , 구마유시 선수 , 케리아 선수들 다 수고 많으셨고 이번 롤드컵 화이팅!!!",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "고생했어요 진심으로 축하드려요",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ZOFGK I LOVE U GUYS~~ WORLDS FIGHTING!!",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "스포츠는 낭만.. 그자체임... 이기고 지고 .. 희 . 노. 애 락.. 근데 T1은 뭔가 ㅋㅋ 너무 심함 근데 2023년 우승한게 너무 컸어.. 한을 다 풀었음... 이젠 그냥 어떻게되도 응원함",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Siempre tuve fe así perdieran 😢",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "EDITED \nMINH HIEU BUI. \nNgười Việt Nam rất đáng tự hào 🎉",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "저번 다큐도 그렇고 다큐 맛집이네",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "47:57 THE HEADSET IS BACKWARDS NOOOOO. Everything is sooo well done but the headset I can't 😂",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "@빠바바-u7x어휴 벌레같은 놈아.. 널보니 안봐도 보인다",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        }
+      ]
+    },
+    {
+      "elapsedSeconds": 93993.0,
+      "bucketStart": "2024-09-21T13:06:43+00:00",
+      "bucketEnd": "2024-09-21T14:45:46+00:00",
+      "positive": 30,
+      "neutral": 8,
+      "negative": 2,
+      "netSentiment": 0.7,
+      "zScore": 1.201,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 100142.0,
+      "bucketStart": "2024-09-21T14:49:12+00:00",
+      "bucketEnd": "2024-09-21T16:06:37+00:00",
+      "positive": 32,
+      "neutral": 6,
+      "negative": 2,
+      "netSentiment": 0.75,
+      "zScore": 1.54,
+      "isBurst": true,
+      "direction": "POSITIVE_SPIKE",
+      "topComments": [
+        {
+          "text": "페이커는 증명 해야 하는 선수는 아님 이젠 전세계 모든 선수중에서 유일하게 한계를 도전 하는 선수",
+          "likeCount": 105,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "우리혁 가방 힘겹게 드는거 볼 때마다 너무 마음 아픔 ...",
+          "likeCount": 21,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "겨울이 가면 다시 봄이 오고 꽃이 핀다.. 저 에게도 너무나 힘이되고 도움이 되는 글이네요.\n요즘 계속 겨울 이였는데. 봄이 올 것같은 희망이 생기네요",
+          "likeCount": 18,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "이야... 요즘 번역기 번역 정말 잘되네..... 번역했다고 말 안했으면 한국 사람이 쓴 줄 알았네요",
+          "likeCount": 15,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "영상이 이정도는 되야지 아주 잘했어요❤",
+          "likeCount": 6,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "이건 다큐가 아니라 영화다",
+          "likeCount": 4,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "T1 is the best team.",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "I hope they stay safe, healthy and happy. I will always be here, just silently supporting you.😊",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "another win is coming for you, guys. ZOFGK, fighting!!!!!!",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "진짜네? 올라가 그냥 위로 올라가",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "포비도 너무 너무 고생했고 고맙다!!\n제오페구케도 이번년도 월즈 화이팅!!\n언제나 늘 그랬듯 항상 응원해!!",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "this is the best video in 2024 thank you t1",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "살살혀 솔킬 천번 따여도 그런갑다 하고 볼거니까",
+          "likeCount": 2,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "加油2024 T1🏆",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "T1WIN!",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "this semi finals still giving me goosebumps!!!!!",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "THANKS!",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "49:32 전설의 시작",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "하 이서사는 진짜....ㅜㅜ 2013부터 팬이었던 사람으로서.....이제는 져도 화도 안남. 그저 중요한 대회에 계속 나가 주기만 해도 감사합니다.",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "모든 행운과 롤력, 좋은 것들이 올해 티원에게도 향하길",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "THANKS!",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ZOFGK, Let’s win WORLDS again this year!",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Love ZOFGK ❤❤❤❤",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Greetings from Brazil ae GOOD LUCK T1!!!!! I hope u guys win AGAIN and AGAIN!!!!!!",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "이번에 4시드 언더독의 반란 가보자. 상대는 모두 t1 보다 강팀이다!!",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "now can you do it again ?",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "23 우승 티원 ,,사골이 사라질 때까지 계속 우려주세요\n넘 맛있다 ! 배부르다 !",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "T1 FIGHTING ❤",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "WE NEED TO SEE 5 STARS ON THEIR JERSEYS AND JACKETS NEXT YEAR",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "이거 극장판 다큐아님??",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "Bravo  a vous les T1 <3",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Saludos desde Perú, arriba T1 carajo!",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "hay quá❤",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "최필 디렉터님 the goat",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "😢😢😢😢😢",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "Xem lại mà thở oxy luôn",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "Good luck at Worlds bois! T1 Fighting!",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "SIEMPRE LOS VOY A APOYAR CHICOS😭😭😭😭😭😭",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Obrigado pela legenda em português !",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Tự hào việt nam ❤❤",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        }
+      ]
+    },
+    {
+      "elapsedSeconds": 105550.0,
+      "bucketStart": "2024-09-21T16:19:20+00:00",
+      "bucketEnd": "2024-09-21T17:51:49+00:00",
+      "positive": 26,
+      "neutral": 8,
+      "negative": 6,
+      "netSentiment": 0.5,
+      "zScore": -0.153,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 111356.0,
+      "bucketStart": "2024-09-21T17:56:06+00:00",
+      "bucketEnd": "2024-09-21T20:41:13+00:00",
+      "positive": 26,
+      "neutral": 6,
+      "negative": 8,
+      "netSentiment": 0.45,
+      "zScore": -0.492,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 121423.0,
+      "bucketStart": "2024-09-21T20:43:53+00:00",
+      "bucketEnd": "2024-09-22T00:26:02+00:00",
+      "positive": 29,
+      "neutral": 4,
+      "negative": 7,
+      "netSentiment": 0.55,
+      "zScore": 0.185,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 134756.0,
+      "bucketStart": "2024-09-22T00:26:06+00:00",
+      "bucketEnd": "2024-09-22T02:22:09+00:00",
+      "positive": 28,
+      "neutral": 3,
+      "negative": 9,
+      "netSentiment": 0.475,
+      "zScore": -0.323,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 141944.0,
+      "bucketStart": "2024-09-22T02:25:54+00:00",
+      "bucketEnd": "2024-09-22T04:27:30+00:00",
+      "positive": 27,
+      "neutral": 9,
+      "negative": 4,
+      "netSentiment": 0.575,
+      "zScore": 0.355,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 149240.0,
+      "bucketStart": "2024-09-22T04:27:30+00:00",
+      "bucketEnd": "2024-09-22T06:30:57+00:00",
+      "positive": 30,
+      "neutral": 8,
+      "negative": 2,
+      "netSentiment": 0.7,
+      "zScore": 1.201,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 156801.0,
+      "bucketStart": "2024-09-22T06:33:31+00:00",
+      "bucketEnd": "2024-09-22T08:38:59+00:00",
+      "positive": 19,
+      "neutral": 10,
+      "negative": 11,
+      "netSentiment": 0.2,
+      "zScore": -2.185,
+      "isBurst": true,
+      "direction": "NEGATIVE_SPIKE",
+      "topComments": [
+        {
+          "text": "4:59연출 고트",
+          "likeCount": 16,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "극장에서 보길 잘했다 ㅎㅎ \n확실히 스크린으로 보는게 더 감동적인듯\n앞에 계속 고문당하니까 마지막에 선수들 웃는게 더 깊게 다가오더라구요\n정말 잘만든 다큐인듯",
+          "likeCount": 15,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "@Ls__j-n7n 병먹금~",
+          "likeCount": 9,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "결승에서 4시드 상대로 져보고, 이겨도 봤다.\n이제 4시드로 우승 가자",
+          "likeCount": 9,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "GG T1 LETS WIN WOLRD 2K24",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "12:40 영상 보면서 오너가 벵기 느낌 나서 깜짝 놀랐네 항상 응원한다😊",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Không bao giờ hối hận khi ủng hộ T1 và rất tự hào khi người Việt Nam cũng góp phần làm nên bộ phim tuyệt vời này❤",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "2년이라는 시간이 지났어도 5분부터는 눈물을 참을 수가 없어 울고 있는 나 또한 그 시기가 얼마나 힘들었는지를 또 느끼게 해주는 것 같네 ㅜ",
+          "likeCount": 2,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "이거 영상만든놈은 상줘야한다 미치게 잘만드네",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "나 t인데 몇년만에 울었다 시발 리핏해보자",
+          "likeCount": 1,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "개별로 ㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "1:05:38 정말 잔인한 연출",
+          "likeCount": 1,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "0:46",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "예수님도 고통과 시련 끝에 부활 하셨어! \n다시 보여주자  할수 있어 T1 화이팅!!🎉🎉",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "1:03:00 bookmark",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "😃",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "1:01:39 ここから始まる洋楽教えてください",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "오ㅓ 씨222ㅈㅈㅈeeebql발 상혁이형..\n t1.... 다 사랑한다 소리지르면서 봤댜....",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "서사를 알고 있지만 그래도 이렇게 다시 보게 되는 건 역시 울컥하네요~",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "저 페이커의 한달동안의 공백기는 대부분 신인이였던 농심 빼면 저항은 했지만 일방적으로 얻어맞을수밖에 없던 경기여서 임팩트가 상당했지.......",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "21:40 你就是T1最不需要的那個",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "오너누님 이쁘시다",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "롤드컵 8등 가자~~",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "What a story it would be if they can go back to back this year.",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "❤❤❤❤❤",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "원조 티쪽이",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "太感動啦 T1",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "울었다 ㄹㅇ",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "극장가면 자만 넣어줌? 영어 몬해서 개서럽네 ㅡㅡ",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "와 23년 스프링 결승 도란 그라가스 진짜 자연재해였지 다시봐도 ㄷㄷ하네",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "월즈 우승 좋았던게 진짜 누구빼놓지않고 다 잘했음 ㅠㅠ 돌아가면서 잘해서 요번에도 파이팅..!!\n못해도 괜찮으니까 좌절하지말고 무너지지 않으면 좋겠어요",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "We go together",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "포비한테 1승밖에 못쥐어줬다고 얘기하는거 진짜 왤케,,,,,,,,,멋있고,,,,,짠하냐......ㅠㅜㅠㅠㅜㅜㅠㅜ",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "T1 ❤ 용원이",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "and they said poby performa is bad?, poor poby, the fact is just t1 ia a bad condition and poby have to deal that?",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "Legends never die",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "@능이버섯p 𝑇ℎ𝑎𝑛𝑘 𝑦𝑜𝑢",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "T1 forever ❤🎉",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "@박민성-e3r 병먹금 너나받아러이웋",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "T1 mãi đỉnh",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        }
+      ]
+    },
+    {
+      "elapsedSeconds": 164396.0,
+      "bucketStart": "2024-09-22T08:40:06+00:00",
+      "bucketEnd": "2024-09-22T10:33:32+00:00",
+      "positive": 26,
+      "neutral": 11,
+      "negative": 3,
+      "netSentiment": 0.575,
+      "zScore": 0.355,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 171845.0,
+      "bucketStart": "2024-09-22T10:44:15+00:00",
+      "bucketEnd": "2024-09-22T13:09:24+00:00",
+      "positive": 29,
+      "neutral": 9,
+      "negative": 2,
+      "netSentiment": 0.675,
+      "zScore": 1.032,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 180815.0,
+      "bucketStart": "2024-09-22T13:13:45+00:00",
+      "bucketEnd": "2024-09-22T15:38:05+00:00",
+      "positive": 27,
+      "neutral": 12,
+      "negative": 1,
+      "netSentiment": 0.65,
+      "zScore": 0.863,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 189572.0,
+      "bucketStart": "2024-09-22T15:39:42+00:00",
+      "bucketEnd": "2024-09-22T19:47:14+00:00",
+      "positive": 24,
+      "neutral": 15,
+      "negative": 1,
+      "netSentiment": 0.575,
+      "zScore": 0.355,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 204796.0,
+      "bucketStart": "2024-09-22T19:53:26+00:00",
+      "bucketEnd": "2024-09-23T00:05:47+00:00",
+      "positive": 30,
+      "neutral": 8,
+      "negative": 2,
+      "netSentiment": 0.7,
+      "zScore": 1.201,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 220499.0,
+      "bucketStart": "2024-09-23T00:15:09+00:00",
+      "bucketEnd": "2024-09-23T04:11:59+00:00",
+      "positive": 19,
+      "neutral": 15,
+      "negative": 6,
+      "netSentiment": 0.325,
+      "zScore": -1.338,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 234986.0,
+      "bucketStart": "2024-09-23T04:16:36+00:00",
+      "bucketEnd": "2024-09-23T06:59:31+00:00",
+      "positive": 30,
+      "neutral": 4,
+      "negative": 6,
+      "netSentiment": 0.6,
+      "zScore": 0.524,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 244850.0,
+      "bucketStart": "2024-09-23T07:01:00+00:00",
+      "bucketEnd": "2024-09-23T11:18:46+00:00",
+      "positive": 19,
+      "neutral": 15,
+      "negative": 6,
+      "netSentiment": 0.325,
+      "zScore": -1.338,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 260886.0,
+      "bucketStart": "2024-09-23T11:28:16+00:00",
+      "bucketEnd": "2024-09-23T14:55:03+00:00",
+      "positive": 23,
+      "neutral": 13,
+      "negative": 4,
+      "netSentiment": 0.475,
+      "zScore": -0.323,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 274155.0,
+      "bucketStart": "2024-09-23T15:09:25+00:00",
+      "bucketEnd": "2024-09-23T17:27:26+00:00",
+      "positive": 23,
+      "neutral": 11,
+      "negative": 6,
+      "netSentiment": 0.425,
+      "zScore": -0.661,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 282885.0,
+      "bucketStart": "2024-09-23T17:34:55+00:00",
+      "bucketEnd": "2024-09-23T21:56:02+00:00",
+      "positive": 22,
+      "neutral": 12,
+      "negative": 6,
+      "netSentiment": 0.4,
+      "zScore": -0.831,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 298971.0,
+      "bucketStart": "2024-09-23T22:03:01+00:00",
+      "bucketEnd": "2024-09-24T03:11:04+00:00",
+      "positive": 22,
+      "neutral": 10,
+      "negative": 8,
+      "netSentiment": 0.35,
+      "zScore": -1.169,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 317459.0,
+      "bucketStart": "2024-09-24T03:11:09+00:00",
+      "bucketEnd": "2024-09-24T07:20:20+00:00",
+      "positive": 22,
+      "neutral": 12,
+      "negative": 6,
+      "netSentiment": 0.4,
+      "zScore": -0.831,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 332523.0,
+      "bucketStart": "2024-09-24T07:22:13+00:00",
+      "bucketEnd": "2024-09-24T11:20:38+00:00",
+      "positive": 22,
+      "neutral": 8,
+      "negative": 10,
+      "netSentiment": 0.3,
+      "zScore": -1.508,
+      "isBurst": true,
+      "direction": "NEGATIVE_SPIKE",
+      "topComments": [
+        {
+          "text": "웨이보 만나기 직전 민석이가 \"또 4시드\" 작게 말하는게 너무 가슴 아프다...",
+          "likeCount": 16,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "FROM VIETNAM WITH LOVE ❤️",
+          "likeCount": 4,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "1:04:00 기세가 좋은 4시드의 t1 가즈아~!",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "구마유시 멋있다🔥🔥 이기분에 적응하지말라고 할때 소름",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "나\n35살 유부남인데 울었다",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "머리 박기?",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "여팬 나오는 부분 나올 때마다 너무 짜쳐서 몰입감이 떨어지네요",
+          "likeCount": 1,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "T1 es la razón por la que juego al League of legends ningún otro equipo me hace sentir lo que hace T1!! LET´S GOOO!!",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "와이프도 밤에 울려주세요",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "@user-ys5782vn8 바로 비공 때려버리기~~ 잘 부르는데 왜 숨겼노 ㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "그들이 울었을때 그들이 좌절했을때 나도 같이 울었고 나도 같이 좌절했었다\n제작년 MIS 써머 월즈 작년 스프링 MSI 써머 \n모든 순간들이 티원이 우승하지 못하도록 막는 기운이 있는가 감히 생각도 해봤다 \n하지만 그 생각을 접고 월즈를 응원했었다 다시한번 힘차게 목놓아 응원하고 응원했었다\n이번엔 진짜 다를거라 생각하고 한경기 한경기 마다 웃고 울었다\n그렇게 쉼없이 달려오니 월즈 결승전 3세트였다 이제 한걸음만 한걸음만 더 가면 우승이였다. 그래서 더 힘차게 선수님들이 들리도록 응원했다\n그 결과 우여곡절 끝에 찬란하게 우승이란 꽃이 피어났다\n나는 그순간 너무 기뻐 웃음이 났다 그토록 바라던 제오페구케의 월즈 우승이였다\n나는 저 감정을 기억한다 간절했고 누구보다 더 바랬던 우승의 기억을\n그러므로 이번에도 힘차게 작년보다 더 열정적이고 더 크게 응원할것이다.\n나의 제오페구케를 나의 티원을",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Drx는 이보다 더한 절망적인상황이였는데도 우승했었다 인비저블 썸띵이 패시브인 우리팀은 언제나 우승가능하다",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "항상 선수들이 스스로 만족할만한 경기를 할 수 있기를 진심으로 응원합니다",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "@user-ys5782vn8 허겁지겁 노래\n비공개로 돌렸으면 개추 ㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "Great Prod! ❤️",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "rác together",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "Redbull IS the magic man, i remember how magical \"Against All Odds\" OG journey at 2018 TI DOTA 2 and now ZOFGK Rise-fall-rise again to greatness. Keep up the great work guys",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "왜 굳이 과거형을 썼나 했는데 마지막에서야 알았네요 크으",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "왜 제오구케한테 악플담?",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "아니 인트로부터 눈물나는데 계속 봐도 되나여 😢ㅋㅋ 댓글 보고 무섭네염",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "지금은 한화가 꿀잼임 한화ㄱㄱ",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "​@illiliililllili골든로드ㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "T1, let's charge towards the fifth star together!! 5 stars, one dream!",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "밥 먹으면서 볼수가 없음..  눈물 콧물 흘리느라...ㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "@Npc들은좋겠다 \"오너가 많이 건방져졌군\"  \"와 코치랑도 반말을 하는구나 대박\"",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "@성공자-u3u 악플단적이 없는데",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "@성공자-u3u 전혀 악플이 아닌데?",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "데프트 ^^ㅣbal련만 아니었어도 5회우승인데",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "@성공자-u3u 그런 비판도 못하는게 무슨 팬임",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "응 22월즈 준우승 야미~~~ ㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Oners sister is very pretty",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "1:06:03 this section I think is the best part.\n\nSomething about the etching of DRX's names on the Worlds Trophy and T1's reaction to the loss with the Worlds 2023 Orchestral Theme is just.. *chefs kiss*\n\n2022 and 2023 Worlds really is just one big movie. Absolute cinema.",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "This is cinema ladies and gentlemen. ❤",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "@Npc들은좋겠다 그럼 페이커도 비판해봐ㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "Grande abraço, do Brasil 🙏🏻",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "xem đoạn đầu khóc luôn",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Go to Worldssss",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "집에서 양말좀 벗지 여성분..",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "Eu pagaria um ingresso no cinema pra assistir 🙏🏻",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "14년도부터 티원을 봤는데 제일 힘들었던게 22~23이었다 차라리 못하는것도 아니고 늘 마지막에 가서 넘어져서..... 근데 결국 해내줘서 너무 고맙고 성적이 어떻든 늘 응원한다 화이팅",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        }
+      ]
+    },
+    {
+      "elapsedSeconds": 347166.0,
+      "bucketStart": "2024-09-24T11:26:16+00:00",
+      "bucketEnd": "2024-09-24T16:42:51+00:00",
+      "positive": 19,
+      "neutral": 9,
+      "negative": 12,
+      "netSentiment": 0.175,
+      "zScore": -2.354,
+      "isBurst": true,
+      "direction": "NEGATIVE_SPIKE",
+      "topComments": [
+        {
+          "text": "티붕이들아 너네가 노래 다시 만들어줘 속상해",
+          "likeCount": 27,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "여기에 나오는 장면들을 월즈 노래 뮤비로 쓰는게 훨씬 더 나을거같음",
+          "likeCount": 26,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "@1-jl1cv 팬이 아닌데 여기까지 와서 악플 다는건 어떤 심리? 진짜 궁금해서 그런데 페이커 말고 또 어떤 유명인들 찾아다니면서 악플 다세요?",
+          "likeCount": 20,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "롤드컵 노래 뮤비 진짜 뭐냐 내용이 하나도 없네\n서사가 이렇게 많은데  .???",
+          "likeCount": 6,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "알고 봐도 소름돋고 모르고 봐도 소름돋는 영상일듯 진짜 잘 만들었다\n특히 장미와 종이학..",
+          "likeCount": 4,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "린킨파크 헌정곡 보다가 빡쳐서 이영상보고 화풀어야겠습니다.",
+          "likeCount": 3,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "선행.. 해야겠지..?\n\n\n\n주워!!!!!!!!!!!!",
+          "likeCount": 3,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "뮤비 ㅈ구리네 😂",
+          "likeCount": 3,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "미안한데.. 우승 한번 만 더 ..",
+          "likeCount": 2,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "Vietnamme love t1",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "대 황 슼",
+          "likeCount": 2,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "우승이 아니면 실패라는게 얼마나 말도안되는팀인지...ㅋㅋ\n\n그 무게를 긴 시간 버텨낸 페이커선수",
+          "likeCount": 2,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "올해도 내가 다니는길은 깨끗하게 만들어주마",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "🤍",
+          "likeCount": 2,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "1:00:55",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "저는 언더독 팀들을 좋아하다보니 T1 은 언제나 상위에 있어서 T1의 팀 팬으로써 경기를 본적은 없긴합니다.\n하지만 팬인 것과 응원하는것은 다른것이라고 생각합니다.\n항상 긴 여정을 하고 있는 페이커 선수 응원하고, 나머지 선수들은 어린 나이에  T1 이라는 팀의 무게감에 굉장한 힘듬이 있었을텐데도 잘 성장하고 있고,\n국제전에서 특히나 롤드컵에서 만큼은 T1이 항상 상위에서 안정적인 성적을 내는 팀이라고 생각하기 때문에 이번 선발전에서도 떨어지면 안되는데 하면서 경기를 봤습니다.\n이번 롤드컵에서도 좋은 모습을 보여줄껄 기대합니다. 화이팅!",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "우와….잘 크길 바래요!",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "롤드컵 뮤비보고 황당해서 다큐보고 감정 다시 추스리러 보러왔다 ...🥹",
+          "likeCount": 1,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "1:00:55",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "티원 감사합니다\n앞으로 화이팅 !!\n진짜 울었다 ㅠ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Minh Hieu Bui -Viet Nam❤❤❤❤",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "한가지가 빠졌네요 + 4시드 상대로 패배",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "언제까지나 응원하겠습니다",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "양대대대ㄷㄷ",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "\"Then i will choose garen\"😂😂",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "이야기의 교훈: 인내심을 가지고 도전을 견뎌내고, 우리의 단점을 이해하고, 친구/가족을 소중히 여기세요.\n\n영원히 ZOFGK와 싸워준 T1에게 감사드립니다!",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "영상 지리네",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "T1은 낭만이 있다",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "보고울었다 ㅜㅜ 힘내서 이번에도 꼭 우승하자",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Ngày mà bọn anti gần như tuyệt chủng . Số còn lại tiến hoán thành fan đội G",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "진짜 저거 룰러넘기는장면은 몇번봐도 온몸에 소름이돋는다.... 그저 대상혁....",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "pls stick together ZOFGK!!! ❤❤",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "@Npc들은좋겠다 페이커는 비판 못하겠어?ㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "이영상보니 롤 하고싶어지네",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ngạo nghễ Tcon <3",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "이번 월즈도 화이팅, 구마유시 화이팅!",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Red bull thanks!!! I really can't drink red bull because I can't sleep but I always tells my friends to drink!!",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "I cried with this movie :,)",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "​@박가네초콜릿 쓰려고 왔더니 당연히 있는거도 존나 웃기네 ㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "lêu lêu mấy thằng gà GENgu kaka",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        }
+      ]
+    },
+    {
+      "elapsedSeconds": 366174.0,
+      "bucketStart": "2024-09-24T16:43:04+00:00",
+      "bucketEnd": "2024-09-24T21:17:38+00:00",
+      "positive": 13,
+      "neutral": 16,
+      "negative": 11,
+      "netSentiment": 0.05,
+      "zScore": -3.201,
+      "isBurst": true,
+      "direction": "NEGATIVE_SPIKE",
+      "topComments": [
+        {
+          "text": "진짜.. 월즈 뮤비 너무 상처다..😢 7년을 기다려온 우승.. 그리고 1년을 또 기다린 뮤비였는데 이렇게 상처를 주네",
+          "likeCount": 554,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "린킨파크가 우승했었나 싶어서 다시 와봤어요",
+          "likeCount": 78,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "뮤비 이거 맞나요...?",
+          "likeCount": 9,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "만약 제오페구케가 해체되고 보게되면 진짜 펑펑울것같음 지금도 마음이 뭉클해지는데..",
+          "likeCount": 7,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "Isso foi CINEMA, que edição maravilhosamente perfeita, Obrigado por compartilhar esses momentos conosco! S2",
+          "likeCount": 6,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "2024 월즈 뮤비보고 다시 보러왔습니다",
+          "likeCount": 5,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "다른팀들이랑은 다르게 완성된 선수를 영입하는게 아니라 연습생 부테 시작해서 한계단 한계단 성장드라마를 만들어 가는게 진짜 낭만있다고 생각함 lck에서 유일하게 낭만이 있는팀. 이건 무조건 반박불가임!!!!",
+          "likeCount": 4,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "근데 이 서사 뮤비가 린킨파크 헌정 뮤비가 되었다는 거지",
+          "likeCount": 4,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "This is why I'm a T1 fan. Their story is beautiful, and being the only hope of Korea in 2023, then winning it all, was amazing.",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "2024 월즈 애니뮤비 나왔는데\n그거 보다가 이거 보니까\n서사 퀄리티 넘사네\n\n라이엇아 이거 보고 본받자\nT1 만만세!̆̈ \n4시드 우승 기원 선행 가즈아",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Best documentary firm I have ever seen! I cried so hard two times, in the begining T1 lost to DRX, and in the ending T1 won the World champion T_T",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Legends never die",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "페이커선수 월즈4개는 솔직히 애매하니까 일단 5개 채우고봅시다",
+          "likeCount": 2,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "우리 애들 이렇게 마음아프고 힘들엇는지 몰랏네\n니네뒤앤 삼촌이모들이 있으니까 항상\n겸손하게 화이팅하자!!",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "내가 넘겨줄게 라는게 없어서 살짝 아쉬웠음",
+          "likeCount": 1,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "하 걍 우리 레네다 배경음으로 이영상 편집해서 뮤비 하나만 만들어주세요…제발…다른 영상 안바랄게요…",
+          "likeCount": 1,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "하 서사도 맛있게 써졌고 역사깊은 팀하고 선수가 월즈 우승했는데 뮤비 단 하나로 밥상 엎어버렸네",
+          "likeCount": 1,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "Others: It's just a game.\nThe game:",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "Good video... I hope you can handle that there was no T1 MV this year tho",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "If you play against Fnatic, sub in Rekkles for 1 game please! 😄",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "인트로에 고양이가 움직이고 유리병과 화분 깨고 시작하는 줄",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "월즈 뮤비 봤나요? 이건 아니잖아 서사가 있는데;;",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "Lucky.. U wont be able to reach the semis this year.. See you vs BLG, HLE, GEN G, TOP and LNG🤡🤡🤡🤡🤡",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "까비다",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "58:44",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "뮤비보니까 안되겠음 월즈 한번 더 들자 얘들아 퓨ㅠㅠㅠ",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "j'vous aime",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "@성공자-u3u 페이커 전성기 기준으로 보면 6점정도 하는듯",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "@Npc들은좋겠다 지금 잘함?",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "월즈 노래가 뽕이 안 차길래 좀 채우러 왔습니다",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "꿀꿀유시",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "옆집은  상해버려서 여기로 왔습니다",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "Era garen T1 gente :c",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "@성공자-u3u 페이커 못할때 못한다 한다 가라",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "Hear me, Worlds 2024 is for T1",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Keria calling Deft about his skin was so wholesome",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "TIO JUAN SON LOS MEJORES",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "W",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "😍🤩",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "T1 ZOFGK ❤\nВы красавцы, удачи вам 🍀 \nGl hf :з",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        }
+      ]
+    },
+    {
+      "elapsedSeconds": 382719.0,
+      "bucketStart": "2024-09-24T21:18:49+00:00",
+      "bucketEnd": "2024-09-25T05:29:03+00:00",
+      "positive": 24,
+      "neutral": 10,
+      "negative": 6,
+      "netSentiment": 0.45,
+      "zScore": -0.492,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 413771.0,
+      "bucketStart": "2024-09-25T05:56:21+00:00",
+      "bucketEnd": "2024-09-25T14:22:37+00:00",
+      "positive": 19,
+      "neutral": 11,
+      "negative": 10,
+      "netSentiment": 0.225,
+      "zScore": -2.016,
+      "isBurst": true,
+      "direction": "NEGATIVE_SPIKE",
+      "topComments": [
+        {
+          "text": "레드불... 24년 월즈 뮤비도 만들어주실래요?",
+          "likeCount": 112,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "월즈 뮤비보고 눈정화하러왔습니다",
+          "likeCount": 10,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "월즈 뮤비 어이없는 사람은 개추",
+          "likeCount": 5,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "i rather watch this than the new worlds mv 💀",
+          "likeCount": 5,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "나한테는 이게 월즈 MV다",
+          "likeCount": 5,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "@KimmyAlmighty Thank you so much! It's very nice of you.",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "👇You rewatching this goat documentary of t1 since 2024 worlds anthem story telling is dissapointing",
+          "likeCount": 3,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "그들의 노래는 린킨파크 헌정곡으로..tq",
+          "likeCount": 3,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "진지하게 22-23 서사로 2024 월즈 진출 자체 헌정곡 뮤비 만드실 생각 없으신가요?\n진짜 역대급 개꿀 스토리를 엎어버린 라이엇 망했으면 좋겠는데",
+          "likeCount": 2,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "Legend never die",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "59:49 싸기시작..",
+          "likeCount": 2,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "케리아 형님 왜 오너랑 똑같이 생겼냐 ..?",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "진짜 뮤비보고 레드불 칭찬하려고 개같이  달려왔다가 또 울어버렸네",
+          "likeCount": 1,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "구마유시 너무 멋있다.....",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㅅㅂ.... 우리 헌정곡이 뒤졌어요....",
+          "likeCount": 1,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "1시간 20분 짧네",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "aura",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "I never regret supporting T1 since the beginning .. they crumbled and rise again ! Literally LEGEND NEVER DIES ! 🔥🔥🔥🔥 the best 2 hours i spend watching this journey for 2023 worlds BTS is just heartbreaking ...",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "하.......뮤비보고 열나서 이거 보러옴 ㅠㅠㅠ",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "오너:우여곡절 끝에 피는꽃이 제일 아름답다.\n\n???:네 그래서 우여곡절을 만들어 봤습니다.",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "我大李哥，天下無敵～",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "T1 Forever ❤",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Every LoL player is a fan of T1",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "이번월즈 뮤비어떻게생각하나요?",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "T1❤",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Seeing Keria cry is honestly one of the saddest things. Hes such a beautiful person its so heartbreaking to see him lose. I hope T1 Can take it home again this year just so i dont see poor keria sad",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "미래의 이상혁이 또..",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "열심히 쓰레기 줍고 선행하고 응원할게\n제오페구케 화이팅~!!",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "❤❤❤❤❤",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "It’s going to be impossible to be a normal LCK fan after this team is split up. Who am I going to root for if they’re on 5 different rosters?!",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "xem mà rưng rưng, ZOFGK phải đồng hành cùng nhau thật lâu thật lâu, T1 fightinggggg",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "WOW",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "티원 날아올라라!!!!!!!",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "that flash and that drop with legends never die always gives me goosebumps",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "just WOW!",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "천마",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "Someone know the song at 13:48???",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "38:28 구마의 1승밖에 못챙겨줫네 이말이 너무 마음이 아프네 ㅜ",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "케리아 형은 뭔 운다증후군 있는거 맹키로 생겻냐ㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "So basically Guma is the GOAT because he brought back joy to the team. Got it!",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        }
+      ]
+    },
+    {
+      "elapsedSeconds": 444314.0,
+      "bucketStart": "2024-09-25T14:25:24+00:00",
+      "bucketEnd": "2024-09-26T03:04:23+00:00",
+      "positive": 24,
+      "neutral": 11,
+      "negative": 5,
+      "netSentiment": 0.475,
+      "zScore": -0.323,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 490533.0,
+      "bucketStart": "2024-09-26T03:15:43+00:00",
+      "bucketEnd": "2024-09-26T22:31:26+00:00",
+      "positive": 25,
+      "neutral": 10,
+      "negative": 5,
+      "netSentiment": 0.5,
+      "zScore": -0.153,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 562709.0,
+      "bucketStart": "2024-09-26T23:18:39+00:00",
+      "bucketEnd": "2024-09-27T12:16:48+00:00",
+      "positive": 24,
+      "neutral": 11,
+      "negative": 5,
+      "netSentiment": 0.475,
+      "zScore": -0.323,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 614895.0,
+      "bucketStart": "2024-09-27T13:48:25+00:00",
+      "bucketEnd": "2024-09-29T02:52:38+00:00",
+      "positive": 28,
+      "neutral": 10,
+      "negative": 2,
+      "netSentiment": 0.65,
+      "zScore": 0.863,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 748348.0,
+      "bucketStart": "2024-09-29T02:52:38+00:00",
+      "bucketEnd": "2024-09-30T15:50:07+00:00",
+      "positive": 24,
+      "neutral": 12,
+      "negative": 4,
+      "netSentiment": 0.5,
+      "zScore": -0.153,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 881745.0,
+      "bucketStart": "2024-09-30T15:55:55+00:00",
+      "bucketEnd": "2024-10-02T10:59:29+00:00",
+      "positive": 26,
+      "neutral": 11,
+      "negative": 3,
+      "netSentiment": 0.575,
+      "zScore": 0.355,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 1037660.0,
+      "bucketStart": "2024-10-02T11:14:30+00:00",
+      "bucketEnd": "2024-10-08T15:38:25+00:00",
+      "positive": 21,
+      "neutral": 13,
+      "negative": 6,
+      "netSentiment": 0.375,
+      "zScore": -1.0,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 1572638.0,
+      "bucketStart": "2024-10-08T15:50:48+00:00",
+      "bucketEnd": "2024-10-15T14:39:04+00:00",
+      "positive": 22,
+      "neutral": 15,
+      "negative": 3,
+      "netSentiment": 0.475,
+      "zScore": -0.323,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 2194102.0,
+      "bucketStart": "2024-10-15T20:28:32+00:00",
+      "bucketEnd": "2024-10-21T15:03:56+00:00",
+      "positive": 25,
+      "neutral": 10,
+      "negative": 5,
+      "netSentiment": 0.5,
+      "zScore": -0.153,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 2755043.0,
+      "bucketStart": "2024-10-22T08:17:33+00:00",
+      "bucketEnd": "2024-10-25T12:23:05+00:00",
+      "positive": 24,
+      "neutral": 14,
+      "negative": 2,
+      "netSentiment": 0.55,
+      "zScore": 0.185,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 3032485.0,
+      "bucketStart": "2024-10-25T13:21:35+00:00",
+      "bucketEnd": "2024-10-29T14:06:15+00:00",
+      "positive": 27,
+      "neutral": 10,
+      "negative": 3,
+      "netSentiment": 0.6,
+      "zScore": 0.524,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 3381145.0,
+      "bucketStart": "2024-10-29T14:12:35+00:00",
+      "bucketEnd": "2024-11-01T09:20:51+00:00",
+      "positive": 24,
+      "neutral": 13,
+      "negative": 3,
+      "netSentiment": 0.525,
+      "zScore": 0.016,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 3635664.0,
+      "bucketStart": "2024-11-01T12:54:34+00:00",
+      "bucketEnd": "2024-11-03T14:06:56+00:00",
+      "positive": 29,
+      "neutral": 10,
+      "negative": 1,
+      "netSentiment": 0.7,
+      "zScore": 1.201,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 3814370.0,
+      "bucketStart": "2024-11-03T14:33:00+00:00",
+      "bucketEnd": "2024-11-05T19:50:39+00:00",
+      "positive": 26,
+      "neutral": 13,
+      "negative": 1,
+      "netSentiment": 0.625,
+      "zScore": 0.693,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 4007055.0,
+      "bucketStart": "2024-11-05T20:04:25+00:00",
+      "bucketEnd": "2024-11-11T05:42:49+00:00",
+      "positive": 26,
+      "neutral": 12,
+      "negative": 2,
+      "netSentiment": 0.6,
+      "zScore": 0.524,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 4480916.0,
+      "bucketStart": "2024-11-11T07:42:06+00:00",
+      "bucketEnd": "2024-12-03T12:08:59+00:00",
+      "positive": 20,
+      "neutral": 15,
+      "negative": 5,
+      "netSentiment": 0.375,
+      "zScore": -1.0,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 6397732.0,
+      "bucketStart": "2024-12-03T12:09:02+00:00",
+      "bucketEnd": "2025-01-20T20:47:02+00:00",
+      "positive": 22,
+      "neutral": 16,
+      "negative": 2,
+      "netSentiment": 0.5,
+      "zScore": -0.153,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 10576188.0,
+      "bucketStart": "2025-01-20T20:49:58+00:00",
+      "bucketEnd": "2025-04-25T17:35:16+00:00",
+      "positive": 22,
+      "neutral": 13,
+      "negative": 5,
+      "netSentiment": 0.425,
+      "zScore": -0.661,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 18974585.0,
+      "bucketStart": "2025-04-28T01:43:15+00:00",
+      "bucketEnd": "2025-08-17T04:01:25+00:00",
+      "positive": 19,
+      "neutral": 17,
+      "negative": 4,
+      "netSentiment": 0.375,
+      "zScore": -1.0,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 28573275.0,
+      "bucketStart": "2025-08-17T04:01:25+00:00",
+      "bucketEnd": "2025-11-04T05:38:00+00:00",
+      "positive": 25,
+      "neutral": 13,
+      "negative": 2,
+      "netSentiment": 0.575,
+      "zScore": 0.355,
+      "isBurst": false,
+      "direction": null
+    },
+    {
+      "elapsedSeconds": 35424393.0,
+      "bucketStart": "2025-11-04T11:06:43+00:00",
+      "bucketEnd": "2025-12-03T08:00:00+00:00",
+      "positive": 16,
+      "neutral": 13,
+      "negative": 11,
+      "netSentiment": 0.125,
+      "zScore": -2.693,
+      "isBurst": true,
+      "direction": "NEGATIVE_SPIKE",
+      "topComments": [
+        {
+          "text": "이때로 돌아갈수없는 찬란한 드라마였고 이제 2025년 도오페구케의 드라마도 끝났어\n2026년 우리는 어떻게 될까\n언제 어디에서도 응원할게 나의 티원♡",
+          "likeCount": 28,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "제오페구케는 이길때나 질때나 \n최고의 팀 이었다\n질때 너무 많은 스트레스를 받은거같다\n지나고보면 더큰것을 위한 작은것에 불과한데..\n제오페구케는 최고였어",
+          "likeCount": 25,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "역체원 구마유시\n그동안 우리를 즐겁게 해줘서 진심으로 고마웠고 고생많았다\n당연한 얘기일 수 있겠지만 다른 곳에서는 지금보다 훨씬 더 즐겁고 행복했으면 좋겠다....",
+          "likeCount": 23,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "38:48 패배에 익숙해져서는 안돼 이기분에 익숙해지지마 저항해라",
+          "likeCount": 9,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "★★★★★★",
+          "likeCount": 7,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "2025 결승 끝나고왔습니다",
+          "likeCount": 5,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "보고 또 봐도 흐믓하고 행복해지는 ㅋ 이게 팬심이다.. 티원 한번더 가보자 ~",
+          "likeCount": 4,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "쓰리핏 대업을 이뤄낸 티원 이츠굿 👍",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Looking back at those moments with the Emotions in this video is undescribable. This is heartbreaking and also motivating at the same time. Goosebumbs",
+          "likeCount": 3,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "This made me miss Zeus.",
+          "likeCount": 2,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "우승하고옴 대 티 원",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "이게 시작이었다니",
+          "likeCount": 2,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "2025.... T1 FIGTHING!!!",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "T1 2025 WORLDS Champ!!! ❤",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "what is the music at 1:13:19?plz",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "05:00 편집 지려따.. 근데 아직도 맘아파서 못보겠다  ㅠㅠ",
+          "likeCount": 1,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "Sometimes good things fall apart so better things can fall together.",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "쓰리핏 후 다시왔습니다...🎉",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㅈㅈ t1 gonna win",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "페맨",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "Back Three Back as an Update from 2025 :)",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "티슬렁티슬렁",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "와 근데 진짜 멘탈 나가긴하겠다.....아예 일방적으로 밀린것도 아니고 2:2 딱 한판만 이기면 최강팀이되는데 팀이 밀리고 있다가 역전기회까지 생겨서 진짜 이길수도 있겠다 하다가 그게 깨져버리니까 모든게 무너저리는 기분일듯..",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "Boa sorte T1 🍀🌹🌹🌹🌹",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Boa sorte T1 🍀🌹🌹🌹🌹",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "2022년에 흰색 안입어서 졌네",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "이 영상 이후로 트로피 2개 더 추가로 쓰리핏을 달성... 내년엔 대망의 7성 사이다 가나요?",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "Show off your passion on Sunday!!! Let’s gooo T1",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "56:56 lmao is this a subtle advertisement for T1 merch?",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "Damn, watching this after 3 times world champions is amazing! GG kept strong",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "패배에 익숙해지면 안돼\n저항해라",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "23 월즈. . .  티원 월즈 쓰리핏 전설의 시작. . .",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "had to come back and watch it again man",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "왜이렇게 슬프냐 이거 ㅠㅠ",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "넷플릭스 찍은거 맞지?",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "3 days left hixxxx",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "시간을 거슬러 티슬렁",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "포비가 페이커대타뛰면서 농심전 한경기 이겨준 스노우볼이 여기까지왔다 고마워 포비",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Lck 4시드엔 감동이 있다",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "4강-준우승-우승-우승-우승",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        }
+      ]
+    },
+    {
+      "elapsedSeconds": 37978587.0,
+      "bucketStart": "2025-12-04T00:36:37+00:00",
+      "bucketEnd": "2026-06-28T13:44:40+00:00",
+      "positive": 21,
+      "neutral": 15,
+      "negative": 4,
+      "netSentiment": 0.425,
+      "zScore": -0.661,
+      "isBurst": false,
+      "direction": null
+    }
+  ],
+  "keyInsights": [
+    {
+      "type": "positive",
+      "topic": "팀워크",
+      "topicEn": "Teamwork",
+      "topicZh": "团队合作",
+      "topicJa": "チームワーク",
+      "comment": "Thanks ZOFGK! What a story! Good luck at Worlds! ❤❤",
+      "commentLang": "en",
+      "likes": 7379
+    },
+    {
+      "type": "negative",
+      "topic": "감정적 서사",
+      "topicEn": "Emotional Narrative",
+      "topicZh": "情感叙事",
+      "topicJa": "感情的な物語",
+      "comment": "8:34 민석이가 저렇게까지 힘겹게 무대아래로 내려간줄 정말 몰랐다 ㅠㅠ",
+      "commentLang": "ko",
+      "likes": 628
+    },
+    {
+      "type": "positive",
+      "topic": "감정적 서사",
+      "topicEn": "Emotional Narrative",
+      "topicZh": "情感叙事",
+      "topicJa": "感情的な物語",
+      "comment": "1시간 20분 동안의 T1 콘텐츠는 한 주를 마무리하는 좋은 방법이 될 것 같아요. 이 작품을 만들어 주시고 우리와 공유해 주셔서 감사합니다! ",
+      "commentLang": "ko",
+      "likes": 7317
+    },
+    {
+      "type": "negative",
+      "topic": "팬 문화와 응원",
+      "topicEn": "Fan Culture and Support",
+      "topicZh": "粉丝文化与支持",
+      "topicJa": "ファン文化とサポート",
+      "comment": "5:00 여기 편집 ㅈㄴ슬프네",
+      "commentLang": "ko",
+      "likes": 516
+    }
+  ],
+  "analyzedAt": "2026-07-04T13:49:32.454996+00:00",
+  "analysisDuration": 761.5,
+  "tokenUsage": {
+    "input": 180280,
+    "output": 47102,
+    "embedding": 144170,
+    "total": 371552,
+    "estimatedCostUsd": 0.058187
+  }
+}

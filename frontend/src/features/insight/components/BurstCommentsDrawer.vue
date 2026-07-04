@@ -3,8 +3,17 @@ import { computed, ref, watch } from 'vue'
 import type { TimelinePoint, Lang } from '@/features/insight/types/insight'
 import { messages } from '@/locales/messages'
 
-const props = defineProps<{ point: TimelinePoint; label: string; lang: Lang }>()
-const emit = defineEmits<{ (e: 'close'): void }>()
+type SiblingTime = { index: number; direction: TimelinePoint['direction']; timeLabel: string }
+
+const props = defineProps<{
+  point: TimelinePoint
+  label: string
+  lang: Lang
+  siblingTimes?: SiblingTime[]
+  activeIndex?: number | null
+  showAll?: boolean
+}>()
+const emit = defineEmits<{ (e: 'close'): void; (e: 'select-time', index: number): void; (e: 'select-all'): void }>()
 
 const M = computed(() => messages[props.lang])
 
@@ -86,6 +95,23 @@ const sentimentLabel = (s: string) => {
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
           <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
         </svg>
+      </button>
+    </div>
+
+    <!-- 같은 날 이상치가 여러 번이면, 창을 닫지 않고 바로 다른 시간대로(또는 전체 합쳐서) 전환 -->
+    <div v-if="siblingTimes && siblingTimes.length > 1" class="time-row">
+      <button class="time-pill" :class="{ active: showAll }" @click="emit('select-all')">
+        {{ M.filterAll }}
+      </button>
+      <button
+        v-for="t in siblingTimes"
+        :key="t.index"
+        class="time-pill"
+        :class="{ active: !showAll && t.index === activeIndex }"
+        @click="emit('select-time', t.index)"
+      >
+        <i class="dot" :style="{ background: t.direction === 'NEGATIVE_SPIKE' ? 'var(--negative)' : 'var(--positive)' }" />
+        {{ t.timeLabel }}
       </button>
     </div>
 
@@ -230,6 +256,40 @@ const sentimentLabel = (s: string) => {
   color: var(--subtext);
 
   &:hover { color: var(--text); border-color: rgb(from var(--accent) r g b / 0.35); }
+}
+
+.time-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 14px 28px;
+  flex-shrink: 0;
+  border-bottom: 0.5px solid var(--border);
+}
+.time-pill {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 12px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: 'Inter', sans-serif;
+  white-space: nowrap;
+  cursor: pointer;
+  border: 0.5px solid var(--border);
+  background: transparent;
+  color: var(--subtext);
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+
+  .dot { width: 6px; height: 6px; border-radius: 50%; flex-shrink: 0; }
+}
+.time-pill:hover:not(.active) { color: var(--text); background: var(--card-hover); }
+.time-pill.active {
+  border-color: var(--anomaly);
+  background: rgb(255 222 89 / 0.1);
+  color: var(--text);
+  font-weight: 600;
 }
 
 .filter-row {
