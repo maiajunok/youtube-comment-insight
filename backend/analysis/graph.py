@@ -70,8 +70,9 @@ def build_comment_graph(
     # 아니라 실제로 의미가 가까워서가 됨(analysis/projection.py). 2D는 3D 좌표에서 한 축을
     # 그냥 버리는 게 아니라 독립적으로 다시 투영함 — 차원 수 자체가 UMAP의 최적화 목표라
     # 3D 결과를 2D로 눌러 찍으면 이웃 구조가 왜곡될 수 있음
-    coords3d = umap_project(vectors, n_components=3)
-    coords2d = umap_project(vectors, n_components=2)
+    topic_labels = [c["topic"] for c in node_comments]
+    coords3d = umap_project(vectors, n_components=3, cluster_labels=topic_labels)
+    coords2d = umap_project(vectors, n_components=2, cluster_labels=topic_labels)
 
     nodes = [
         {
@@ -89,7 +90,22 @@ def build_comment_graph(
     return {"nodes": nodes, "links": link_list}, embed_tokens
 
 
-def build_video_graph(videos: list[dict], api_key: str | None = None) -> tuple[dict, int]:
+def _video_profile(v: dict) -> str:
+    """영상 하나를 임베딩용 텍스트로 변환.
+    토픽 라벨만 임베딩하면 "면접", "T1" 같은 구체적인 소재 단어가 하나도 안 들어가서,
+    소재는 완전히 다른데 "충성 vs 보상", "실망한 반응" 같은 추상적 정서 프레임만 겹쳐도
+    유사도가 높게 나오는 문제가 있었음(예: 면접 개그 영상 ↔ T1 계약 논란 영상).
+    제목을 같이 넣어서 실제 소재(고유명사)가 임베딩에 반영되게 함.
+    같은 선수/팀이 닉네임·본명·팬 별명 등 다른 표기로 등장해도 임베딩 전에 하나의 토큰으로
+    통일(analysis/aliases.py) — 안 그러면 "제우스"와 "최우제"가 같은 사람인지 임베딩
+    모델이 보장해주지 않아서, 같은 선수를 다루는 영상끼리도 안 묶일 수 있음"""
+    profile = f"{v['title']} - {', '.join(v.get('topics') or [])}" if v.get("topics") else v["title"]
+    return normalize_aliases(profile)
+
+
+def build_video_graph(
+    videos: list[dict], api_key: str | None = None
+) -> tuple[dict, int, dict[str, list[float]]]:
     """분석된 영상들을 (1) 제목+상위 토픽 임베딩의 코사인 유사도(텍스트가 무슨 얘기를 하는지)와
     (2) 감정 분포(긍정/중립/부정 %) 벡터의 코사인 유사도(반응이 실제로 어땠는지)를
     가중 결합한 점수로 연결한다. 그래프 생성(top-k 선별) 자체는 댓글 단위 반응 지도와
@@ -98,12 +114,12 @@ def build_video_graph(videos: list[dict], api_key: str | None = None) -> tuple[d
 
     videos: [{"videoId", "title", "thumbnailUrl", "commentCount",
               "sentiment": {"positive","neutral","negative"}, "topics": [str, ...],
-              "hasGraph": bool}]
+              "hasGraph": bool, "embedding": list[float] | None}]
+    "embedding"이 이미 있는 영상(호출부가 캐시에서 로드)은 재임베딩하지 않고 그대로 재사용 —
+    OpenAI 호출은 embedding이 없는(새로 분석됐거나 아직 캐시에 안 남은) 영상에 대해서만 발생.
+    새로 계산한 임베딩은 세 번째 반환값(videoId -> vector)으로 돌려주므로, 호출부가 해당
+    영상의 캐시 파일에 저장해서 다음 요청부턴 재계산이 필요 없게 해야 함.
     """
-    api_key = api_key or os.getenv("OPENAI_API_KEY")
-    if not api_key:
-        raise EnvironmentError("MISSING_OPENAI_KEY")
-
     if len(videos) < 2:
         nodes = [
             {
@@ -117,22 +133,22 @@ def build_video_graph(videos: list[dict], api_key: str | None = None) -> tuple[d
             }
             for v in videos
         ]
-        return {"nodes": nodes, "links": []}, 0
+        return {"nodes": nodes, "links": []}, 0, {}
 
-    client = OpenAI(api_key=api_key)
-    # 토픽 라벨만 임베딩하면 "면접", "T1" 같은 구체적인 소재 단어가 하나도 안 들어가서,
-    # 소재는 완전히 다른데 "충성 vs 보상", "실망한 반응" 같은 추상적 정서 프레임만 겹쳐도
-    # 유사도가 높게 나오는 문제가 있었음(예: 면접 개그 영상 ↔ T1 계약 논란 영상).
-    # 제목을 같이 넣어서 실제 소재(고유명사)가 임베딩에 반영되게 함
-    profiles = [
-        f"{v['title']} - {', '.join(v.get('topics') or [])}" if v.get("topics") else v["title"]
-        for v in videos
-    ]
-    # 같은 선수/팀이 닉네임·본명·팬 별명 등 다른 표기로 등장해도 임베딩 전에 하나의 토큰으로
-    # 통일(analysis/aliases.py) — 안 그러면 "제우스"와 "최우제"가 같은 사람인지 임베딩
-    # 모델이 보장해주지 않아서, 같은 선수를 다루는 영상끼리도 안 묶일 수 있음
-    profiles = [normalize_aliases(p) for p in profiles]
-    vectors, embed_tokens = embed(client, profiles)
+    missing = [v for v in videos if not v.get("embedding")]
+    new_embeddings: dict[str, list[float]] = {}
+    embed_tokens = 0
+    if missing:
+        api_key = api_key or os.getenv("OPENAI_API_KEY")
+        if not api_key:
+            raise EnvironmentError("MISSING_OPENAI_KEY")
+        client = OpenAI(api_key=api_key)
+        fresh_vectors, embed_tokens = embed(client, [_video_profile(v) for v in missing])
+        for v, vec in zip(missing, fresh_vectors):
+            v["embedding"] = vec
+            new_embeddings[v["videoId"]] = vec
+
+    vectors = [v["embedding"] for v in videos]
     text_sim_matrix = cosine_similarity_matrix(vectors)
 
     # (긍정, 중립, 부정) %는 합이 100인 확률분포이지 임의의 벡터가 아니라서, 코사인 유사도보다
@@ -154,8 +170,11 @@ def build_video_graph(videos: list[dict], api_key: str | None = None) -> tuple[d
     # 위치는 텍스트 임베딩만 UMAP으로 투영(감정 벡터는 간선 판단에만 쓰고 위치엔 안 섞음 —
     # 3차원짜리 감정 벡터가 섞이면 위치가 "무슨 얘기를 하는지"보다 "반응이 비슷한지"쪽으로
     # 쏠려서 오히려 위치의 의미가 흐려짐). 2D는 3D를 눌러 찍는 게 아니라 독립적으로 다시 투영
-    coords3d = umap_project(vectors, n_components=3)
-    coords2d = umap_project(vectors, n_components=2)
+    # 클러스터 분리는 영상의 대표 토픽(1순위) 기준 — 영상은 토픽을 여러 개 가질 수 있어
+    # 댓글처럼 하나의 정답 라벨은 없지만, 상위 토픽이 대체로 그 영상의 주된 소재를 대표함
+    primary_topics = [(v.get("topics") or ["기타"])[0] for v in videos]
+    coords3d = umap_project(vectors, n_components=3, cluster_labels=primary_topics)
+    coords2d = umap_project(vectors, n_components=2, cluster_labels=primary_topics)
 
     nodes = [
         {
@@ -172,4 +191,4 @@ def build_video_graph(videos: list[dict], api_key: str | None = None) -> tuple[d
         for v, xyz, xy2 in zip(videos, coords3d, coords2d)
     ]
 
-    return {"nodes": nodes, "links": link_list}, embed_tokens
+    return {"nodes": nodes, "links": link_list}, embed_tokens, new_embeddings

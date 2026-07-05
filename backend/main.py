@@ -6,7 +6,6 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import List
 
-import pandas as pd
 from dotenv import load_dotenv
 from fastapi import FastAPI, Header, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
@@ -17,6 +16,7 @@ from openai import OpenAI
 from analysis.embedding import cosine_sim, embed
 from analysis.graph import build_comment_graph, build_video_graph
 from analysis.sentiment import analyze_sentiment
+from analysis.timeline import language_ratio, reaction_timeline, weighted_sentiment
 from analysis.topic import classify_topics
 from youtube import extract_video_id, fetch_comments
 
@@ -44,133 +44,6 @@ GRAPH_DIR.mkdir(exist_ok=True)
 
 class InsightRequest(BaseModel):
     url: str
-
-
-def _language_ratio(comments: list[dict]) -> dict:
-    try:
-        from langdetect import detect
-    except ImportError:
-        return {"ko": 60, "en": 30, "other": 10}
-
-    counts = {"ko": 0, "en": 0, "other": 0}
-    for c in comments:
-        try:
-            lang = detect(c["text"])
-            if lang == "ko":
-                counts["ko"] += 1
-            elif lang == "en":
-                counts["en"] += 1
-            else:
-                counts["other"] += 1
-        except Exception:
-            counts["other"] += 1
-
-    total = max(sum(counts.values()), 1)
-    return {
-        "ko": round(counts["ko"] / total * 100),
-        "en": round(counts["en"] / total * 100),
-        "other": round(counts["other"] / total * 100),
-    }
-
-
-# 등빈도 구간화 기준 버킷 크기 + z-score 이상치 임계값
-_TIMELINE_BUCKET_SIZE = 40
-_TIMELINE_Z_THRESHOLD = 1.5
-_TIMELINE_MIN_COMMENTS = 20  # 이보다 적으면 구간화 없이 통짜 1개 구간으로 반환
-
-
-def _reaction_timeline(comments: list[dict], video_published_at: str) -> list[dict]:
-    try:
-        video_dt = datetime.fromisoformat(video_published_at.replace("Z", "+00:00"))
-        if video_dt.tzinfo is None:
-            video_dt = video_dt.replace(tzinfo=timezone.utc)
-    except Exception:
-        video_dt = None
-
-    df = pd.DataFrame([c for c in comments if c.get("publishedAt")])
-    if df.empty:
-        return []
-
-    df["publishedAt"] = pd.to_datetime(df["publishedAt"], utc=True, errors="coerce")
-    df = df.dropna(subset=["publishedAt"]).sort_values("publishedAt").reset_index(drop=True)
-    if df.empty:
-        return []
-
-    df["sentiment"] = df.get("sentiment", "NEUTRAL").fillna("NEUTRAL")
-    df["score"] = df["sentiment"].map({"POSITIVE": 1, "NEUTRAL": 0, "NEGATIVE": -1}).fillna(0)
-
-    size = _TIMELINE_BUCKET_SIZE if len(df) >= _TIMELINE_MIN_COMMENTS else max(len(df), 1)
-    df["bucket_id"] = df.index // size
-
-    grouped = df.groupby("bucket_id").agg(
-        total=("score", "size"),
-        net_sentiment=("score", "mean"),
-        positive=("sentiment", lambda s: int((s == "POSITIVE").sum())),
-        neutral=("sentiment", lambda s: int((s == "NEUTRAL").sum())),
-        negative=("sentiment", lambda s: int((s == "NEGATIVE").sum())),
-        bucket_start=("publishedAt", "min"),
-        bucket_end=("publishedAt", "max"),
-    )
-    grouped = grouped[grouped["total"] >= max(size * 0.5, 1)]
-    if grouped.empty:
-        return []
-
-    mean, std = grouped["net_sentiment"].mean(), grouped["net_sentiment"].std()
-    if std and not pd.isna(std):
-        grouped["z_score"] = (grouped["net_sentiment"] - mean) / std
-    else:
-        grouped["z_score"] = 0.0
-    grouped["is_burst"] = grouped["z_score"].abs() >= _TIMELINE_Z_THRESHOLD
-
-    timeline = []
-    for bucket_id, row in grouped.iterrows():
-        elapsed_seconds = (
-            (row["bucket_start"] - pd.Timestamp(video_dt)).total_seconds()
-            if video_dt is not None else None
-        )
-
-        point = {
-            # 프론트에서 lang별로 포맷팅 (예: "3시간 후" / "3 hours later" / "3小时后")
-            "elapsedSeconds": elapsed_seconds,
-            "bucketStart": row["bucket_start"].isoformat(),
-            "bucketEnd": row["bucket_end"].isoformat(),
-            "positive": row["positive"],
-            "neutral": row["neutral"],
-            "negative": row["negative"],
-            "netSentiment": round(float(row["net_sentiment"]), 3),
-            "zScore": round(float(row["z_score"]), 3),
-            "isBurst": bool(row["is_burst"]),
-            "direction": ("POSITIVE_SPIKE" if row["z_score"] > 0 else "NEGATIVE_SPIKE") if row["is_burst"] else None,
-        }
-
-        if row["is_burst"]:
-            # 버킷 전체(등빈도라 ~40개 수준)를 다 보냄 — 드로어에서 감정별 필터링하려면 전체가 있어야 함
-            window = df[
-                (df["bucket_id"] == bucket_id)
-            ].sort_values("likeCount", ascending=False)
-            point["topComments"] = [
-                {"text": c["text"], "likeCount": int(c.get("likeCount", 0)), "sentiment": c["sentiment"]}
-                for _, c in window.iterrows()
-            ]
-
-        timeline.append(point)
-
-    return timeline
-
-
-def _weighted_sentiment(comments: list[dict]) -> int:
-    weighted_sum = 0
-    weight_total = 0
-    for c in comments:
-        s = c.get("sentiment", "NEUTRAL")
-        score = 1 if s == "POSITIVE" else (-1 if s == "NEGATIVE" else 0)
-        likes = c.get("likeCount", 0) or 0
-        w = likes + 1
-        weighted_sum += score * w
-        weight_total += w
-    if not weight_total:
-        return 0
-    return round(weighted_sum / weight_total * 100)
 
 
 def _topic_translations(t: dict) -> dict:
@@ -239,11 +112,11 @@ def _build_response(video_id: str, video: dict, comments: list[dict], topics: li
             "viewCount": video["viewCount"],
             "likeCount": video["likeCount"],
             "analyzedComments": len(comments),
-            "languageRatio": _language_ratio(comments),
-            "weightedSentiment": _weighted_sentiment(comments),
+            "languageRatio": language_ratio(comments),
+            "weightedSentiment": weighted_sentiment(comments),
         },
         "topics": clean_topics,
-        "reactionTimeline": _reaction_timeline(comments, video["publishedAt"]),
+        "reactionTimeline": reaction_timeline(comments, video["publishedAt"]),
         "keyInsights": _key_insights(topics),
         "analyzedAt": datetime.now(timezone.utc).isoformat(),
     }
@@ -666,8 +539,11 @@ def _graph_has_positions(video_id: str) -> bool:
 @app.get("/api/graph/videos")
 def get_video_graph(x_openai_key: str | None = Header(default=None)):
     """분석된 영상 전체를 대상으로 한 상위 계층 반응 지도 — 영상별 상위 토픽 프로필의
-    임베딩 유사도로 서로 비슷한 반응을 다루는 영상끼리 연결한다. 매 요청마다 즉석에서
-    계산함(영상 수가 적어 비용이 미미하고, 새 분석이 추가될 때마다 캐시 무효화를 신경 쓸 필요가 없음)."""
+    임베딩 유사도로 서로 비슷한 반응을 다루는 영상끼리 연결한다. 유사도 매트릭스/KNN/UMAP
+    좌표는 로컬 연산이라 비용이 없으므로 매 요청마다 새로 계산하지만, 그 재료가 되는
+    임베딩(OpenAI 호출)은 영상의 캐시 파일에 저장해두고 재사용한다 — 이미 분석된 영상을
+    지도를 볼 때마다 매번 재임베딩하는 대신, 임베딩이 아직 없는(새로 분석됐거나 이 기능
+    도입 이전에 분석된) 영상에 대해서만 build_video_graph가 새로 임베딩을 호출한다."""
     videos = []
     for path in sorted(CACHE_DIR.glob("*.json"), key=lambda p: p.stat().st_mtime, reverse=True):
         try:
@@ -686,14 +562,25 @@ def get_video_graph(x_openai_key: str | None = Header(default=None)):
                 "sentiment": {"positive": pos, "neutral": neu, "negative": neg},
                 "topics": [t["label"] for t in topics],
                 "hasGraph": _graph_has_positions(path.stem),
+                "embedding": data.get("videoEmbedding"),
             })
         except Exception:
             pass
 
     try:
-        graph_data, _tokens = build_video_graph(videos, x_openai_key)
+        graph_data, _tokens, new_embeddings = build_video_graph(videos, x_openai_key)
     except EnvironmentError as e:
         raise HTTPException(status_code=400, detail=str(e))
+
+    for video_id, vector in new_embeddings.items():
+        path = CACHE_DIR / f"{video_id}.json"
+        try:
+            data = json.loads(path.read_text(encoding="utf-8"))
+            data["videoEmbedding"] = vector
+            path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
+        except Exception:
+            pass
+
     return graph_data
 
 

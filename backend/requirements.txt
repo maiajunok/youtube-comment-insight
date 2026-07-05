@@ -3,7 +3,6 @@ python-dotenv
 fastapi
 uvicorn
 openai
-httpx
 langdetect
 pandas
 numpy
