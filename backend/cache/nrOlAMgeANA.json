@@ -26,6 +26,20 @@
         "positive": 80,
         "neutral": 16,
         "negative": 4
+      },
+      "confidence": {
+        "positive": {
+          "level": "HIGH",
+          "ciLow": 73.5,
+          "ciHigh": 85.8,
+          "sampleSize": 158
+        },
+        "negative": {
+          "level": "HIGH",
+          "ciLow": 1.8,
+          "ciHigh": 8.0,
+          "sampleSize": 158
+        }
       }
     },
     {
@@ -38,6 +52,20 @@
         "positive": 65,
         "neutral": 29,
         "negative": 5
+      },
+      "confidence": {
+        "positive": {
+          "level": "HIGH",
+          "ciLow": 52.3,
+          "ciHigh": 76.6,
+          "sampleSize": 55
+        },
+        "negative": {
+          "level": "HIGH",
+          "ciLow": 1.9,
+          "ciHigh": 14.9,
+          "sampleSize": 55
+        }
       }
     },
     {
@@ -50,6 +78,20 @@
         "positive": 38,
         "neutral": 41,
         "negative": 21
+      },
+      "confidence": {
+        "positive": {
+          "level": "MEDIUM",
+          "ciLow": 22.7,
+          "ciHigh": 56.0,
+          "sampleSize": 29
+        },
+        "negative": {
+          "level": "MEDIUM",
+          "ciLow": 9.8,
+          "ciHigh": 38.4,
+          "sampleSize": 29
+        }
       }
     },
     {
@@ -62,6 +104,20 @@
         "positive": 61,
         "neutral": 32,
         "negative": 7
+      },
+      "confidence": {
+        "positive": {
+          "level": "MEDIUM",
+          "ciLow": 42.4,
+          "ciHigh": 76.4,
+          "sampleSize": 28
+        },
+        "negative": {
+          "level": "MEDIUM",
+          "ciLow": 2.0,
+          "ciHigh": 22.6,
+          "sampleSize": 28
+        }
       }
     },
     {
@@ -74,12 +130,26 @@
         "positive": 50,
         "neutral": 29,
         "negative": 21
+      },
+      "confidence": {
+        "positive": {
+          "level": "MEDIUM",
+          "ciLow": 26.8,
+          "ciHigh": 73.2,
+          "sampleSize": 14
+        },
+        "negative": {
+          "level": "MEDIUM",
+          "ciLow": 7.6,
+          "ciHigh": 47.6,
+          "sampleSize": 14
+        }
       }
     }
   ],
   "reactionTimeline": [
     {
-      "elapsedSeconds": 39.0,
+      "elapsedSeconds": 28894.0,
       "bucketStart": "2026-03-13T08:01:34+00:00",
       "bucketEnd": "2026-03-13T08:17:49+00:00",
       "positive": 28,
@@ -88,10 +158,13 @@
       "netSentiment": 0.625,
       "zScore": 0.0,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": 0.939,
+      "isVolumeBurst": false,
+      "durationSeconds": 975.0
     },
     {
-      "elapsedSeconds": 1015.0,
+      "elapsedSeconds": 29870.0,
       "bucketStart": "2026-03-13T08:17:50+00:00",
       "bucketEnd": "2026-03-13T08:43:30+00:00",
       "positive": 28,
@@ -100,10 +173,13 @@
       "netSentiment": 0.65,
       "zScore": 0.775,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": 0.783,
+      "isVolumeBurst": false,
+      "durationSeconds": 1540.0
     },
     {
-      "elapsedSeconds": 2653.0,
+      "elapsedSeconds": 31508.0,
       "bucketStart": "2026-03-13T08:45:08+00:00",
       "bucketEnd": "2026-03-13T09:39:40+00:00",
       "positive": 27,
@@ -113,12 +189,10 @@
       "zScore": 1.549,
       "isBurst": true,
       "direction": "POSITIVE_SPIKE",
+      "volumeZScore": 0.526,
+      "isVolumeBurst": false,
+      "durationSeconds": 3272.0,
       "topComments": [
-        {
-          "text": "ㅋㅋㅋㅋ 우제 진짜 단어선택이 남달라서 넘 웃김ㅋㅋ 올해는 리버스로 우승까지 달려보자 화이팅!!",
-          "likeCount": 75,
-          "sentiment": "POSITIVE"
-        },
         {
           "text": "4:00 즐겨하시니까 개웃기네",
           "likeCount": 75,
@@ -140,12 +214,12 @@
           "sentiment": "NEUTRAL"
         },
         {
-          "text": "이런 샤갈 ㅋㅋ..😂",
+          "text": "우제야 너랑 같은 시기에 너의 성장과 경기를  함께 하는것이 내 삶에 많은 영감을 주고 있다..너의 진심을 결코 의심 한적없다..모든 면에서 넌 최고다..고맙고 사랑한다!!❤우바!!",
           "likeCount": 16,
           "sentiment": "POSITIVE"
         },
         {
-          "text": "우제야 너랑 같은 시기에 너의 성장과 경기를  함께 하는것이 내 삶에 많은 영감을 주고 있다..너의 진심을 결코 의심 한적없다..모든 면에서 넌 최고다..고맙고 사랑한다!!❤우바!!",
+          "text": "이런 샤갈 ㅋㅋ..😂",
           "likeCount": 16,
           "sentiment": "POSITIVE"
         },
@@ -190,12 +264,12 @@
           "sentiment": "POSITIVE"
         },
         {
-          "text": "진짜 INFP 그자체네 ㅋㅋㅋ",
+          "text": "우제야 난 너희를 응원하는 날 믿어 \n너넨 진짜 최고야 알지? 아무나 응원안한다 나는ㅋㅋㅋㅋ\n우리막냉이 항상 응원할게 신나게 경기하는 널 보여줘🧡",
           "likeCount": 9,
           "sentiment": "POSITIVE"
         },
         {
-          "text": "우제야 난 너희를 응원하는 날 믿어 \n너넨 진짜 최고야 알지? 아무나 응원안한다 나는ㅋㅋㅋㅋ\n우리막냉이 항상 응원할게 신나게 경기하는 널 보여줘🧡",
+          "text": "진짜 INFP 그자체네 ㅋㅋㅋ",
           "likeCount": 9,
           "sentiment": "POSITIVE"
         },
@@ -205,7 +279,7 @@
           "sentiment": "NEUTRAL"
         },
         {
-          "text": "영상팀? 콘텐츠팀 항상 열일하셔서 보기 좋아요 오늘 영상 재밌었어요 앞으로도 화이팅입니다",
+          "text": "정규시즌 잘해보자 우제야 잘하는 선수니까 믿어 화이팅",
           "likeCount": 7,
           "sentiment": "POSITIVE"
         },
@@ -215,12 +289,12 @@
           "sentiment": "POSITIVE"
         },
         {
-          "text": "우제야 잘할거라고 믿고있어!! 화이팅!!! 언제나 뒤에서 응원할게!",
+          "text": "영상팀? 콘텐츠팀 항상 열일하셔서 보기 좋아요 오늘 영상 재밌었어요 앞으로도 화이팅입니다",
           "likeCount": 7,
           "sentiment": "POSITIVE"
         },
         {
-          "text": "정규시즌 잘해보자 우제야 잘하는 선수니까 믿어 화이팅",
+          "text": "우제야 잘할거라고 믿고있어!! 화이팅!!! 언제나 뒤에서 응원할게!",
           "likeCount": 7,
           "sentiment": "POSITIVE"
         },
@@ -235,12 +309,7 @@
           "sentiment": "POSITIVE"
         },
         {
-          "text": "우제다아앙",
-          "likeCount": 4,
-          "sentiment": "NEUTRAL"
-        },
-        {
-          "text": "다시 정상에 오르자. 우스 아 🎉 Woo'tube 어때😂😂",
+          "text": "제우스 화이팅",
           "likeCount": 4,
           "sentiment": "POSITIVE"
         },
@@ -250,13 +319,23 @@
           "sentiment": "POSITIVE"
         },
         {
-          "text": "제우스 화이팅",
+          "text": "다시 정상에 오르자. 우스 아 🎉 Woo'tube 어때😂😂",
           "likeCount": 4,
           "sentiment": "POSITIVE"
         },
         {
+          "text": "우제다아앙",
+          "likeCount": 4,
+          "sentiment": "NEUTRAL"
+        },
+        {
           "text": "이렇게 딜라 제우스 보고나니까  부끄럼쟁이 제카영상이 많이 기대되는데요",
           "likeCount": 3,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "⚡🧡🧡🧡",
+          "likeCount": 2,
           "sentiment": "NEUTRAL"
         },
         {
@@ -265,14 +344,14 @@
           "sentiment": "POSITIVE"
         },
         {
-          "text": "⚡🧡🧡🧡",
-          "likeCount": 2,
-          "sentiment": "NEUTRAL"
-        },
-        {
           "text": "우제 화이팅",
           "likeCount": 2,
           "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㅇㅅㅇㅅ",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
         },
         {
           "text": "🧡🧡",
@@ -285,22 +364,12 @@
           "sentiment": "POSITIVE"
         },
         {
-          "text": "ㅇㅅㅇㅅ",
-          "likeCount": 1,
-          "sentiment": "NEUTRAL"
-        },
-        {
-          "text": "왔다 내 밥친구🥹🧡",
-          "likeCount": 1,
-          "sentiment": "POSITIVE"
-        },
-        {
           "text": "cute wooje❤❤",
           "likeCount": 1,
           "sentiment": "POSITIVE"
         },
         {
-          "text": "Wooje come on ❤️",
+          "text": "왔다 내 밥친구🥹🧡",
           "likeCount": 1,
           "sentiment": "POSITIVE"
         },
@@ -310,6 +379,16 @@
           "sentiment": "NEUTRAL"
         },
         {
+          "text": "Wooje come on ❤️",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Aaa Zeus. Cant believe the next person is my fav pig ☺️",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
           "text": "Chời ơi sao mà lần này k có vietsub dị😭😭😭",
           "likeCount": 0,
           "sentiment": "NEUTRAL"
@@ -317,7 +396,7 @@
       ]
     },
     {
-      "elapsedSeconds": 5925.0,
+      "elapsedSeconds": 34780.0,
       "bucketStart": "2026-03-13T09:39:40+00:00",
       "bucketEnd": "2026-03-13T11:30:29+00:00",
       "positive": 29,
@@ -326,10 +405,13 @@
       "netSentiment": 0.625,
       "zScore": 0.0,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": 0.285,
+      "isVolumeBurst": false,
+      "durationSeconds": 6649.0
     },
     {
-      "elapsedSeconds": 12663.0,
+      "elapsedSeconds": 41518.0,
       "bucketStart": "2026-03-13T11:31:58+00:00",
       "bucketEnd": "2026-03-13T15:01:15+00:00",
       "positive": 27,
@@ -338,10 +420,13 @@
       "netSentiment": 0.6,
       "zScore": -0.775,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": 0.068,
+      "isVolumeBurst": false,
+      "durationSeconds": 12557.0
     },
     {
-      "elapsedSeconds": 27592.0,
+      "elapsedSeconds": 56447.0,
       "bucketStart": "2026-03-13T15:40:47+00:00",
       "bucketEnd": "2026-03-14T23:16:11+00:00",
       "positive": 28,
@@ -350,10 +435,13 @@
       "netSentiment": 0.625,
       "zScore": 0.0,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": -0.683,
+      "isVolumeBurst": false,
+      "durationSeconds": 113724.0
     },
     {
-      "elapsedSeconds": 150246.0,
+      "elapsedSeconds": 179101.0,
       "bucketStart": "2026-03-15T01:45:01+00:00",
       "bucketEnd": "2026-05-03T06:46:30+00:00",
       "positive": 28,
@@ -363,6 +451,9 @@
       "zScore": -1.549,
       "isBurst": true,
       "direction": "NEGATIVE_SPIKE",
+      "volumeZScore": -1.917,
+      "isVolumeBurst": false,
+      "durationSeconds": 4251689.0,
       "topComments": [
         {
           "text": "겨울 공기냄새 맛있다!ㅋㅋㅋㅋㅋㅋ",

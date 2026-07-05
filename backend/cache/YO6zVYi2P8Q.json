@@ -26,6 +26,20 @@
         "positive": 60,
         "neutral": 37,
         "negative": 3
+      },
+      "confidence": {
+        "positive": {
+          "level": "HIGH",
+          "ciLow": 51.3,
+          "ciHigh": 67.8,
+          "sampleSize": 132
+        },
+        "negative": {
+          "level": "HIGH",
+          "ciLow": 1.2,
+          "ciHigh": 7.5,
+          "sampleSize": 132
+        }
       }
     },
     {
@@ -38,6 +52,20 @@
         "positive": 58,
         "neutral": 39,
         "negative": 3
+      },
+      "confidence": {
+        "positive": {
+          "level": "HIGH",
+          "ciLow": 49.5,
+          "ciHigh": 66.1,
+          "sampleSize": 131
+        },
+        "negative": {
+          "level": "HIGH",
+          "ciLow": 1.2,
+          "ciHigh": 7.6,
+          "sampleSize": 131
+        }
       }
     },
     {
@@ -50,6 +78,20 @@
         "positive": 70,
         "neutral": 25,
         "negative": 4
+      },
+      "confidence": {
+        "positive": {
+          "level": "HIGH",
+          "ciLow": 61.5,
+          "ciHigh": 78.0,
+          "sampleSize": 115
+        },
+        "negative": {
+          "level": "HIGH",
+          "ciLow": 1.9,
+          "ciHigh": 9.8,
+          "sampleSize": 115
+        }
       }
     },
     {
@@ -62,6 +104,20 @@
         "positive": 65,
         "neutral": 29,
         "negative": 6
+      },
+      "confidence": {
+        "positive": {
+          "level": "HIGH",
+          "ciLow": 54.1,
+          "ciHigh": 74.0,
+          "sampleSize": 85
+        },
+        "negative": {
+          "level": "HIGH",
+          "ciLow": 2.5,
+          "ciHigh": 13.0,
+          "sampleSize": 85
+        }
       }
     },
     {
@@ -74,12 +130,26 @@
         "positive": 60,
         "neutral": 34,
         "negative": 6
+      },
+      "confidence": {
+        "positive": {
+          "level": "HIGH",
+          "ciLow": 46.9,
+          "ciHigh": 72.4,
+          "sampleSize": 53
+        },
+        "negative": {
+          "level": "HIGH",
+          "ciLow": 1.9,
+          "ciHigh": 15.4,
+          "sampleSize": 53
+        }
       }
     }
   ],
   "reactionTimeline": [
     {
-      "elapsedSeconds": 20.0,
+      "elapsedSeconds": 3646.0,
       "bucketStart": "2026-05-07T01:00:46+00:00",
       "bucketEnd": "2026-05-07T01:07:45+00:00",
       "positive": 25,
@@ -88,10 +158,13 @@
       "netSentiment": 0.575,
       "zScore": -0.095,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": 0.891,
+      "isVolumeBurst": false,
+      "durationSeconds": 419.0
     },
     {
-      "elapsedSeconds": 473.0,
+      "elapsedSeconds": 4099.0,
       "bucketStart": "2026-05-07T01:08:19+00:00",
       "bucketEnd": "2026-05-07T01:17:06+00:00",
       "positive": 27,
@@ -100,10 +173,13 @@
       "netSentiment": 0.625,
       "zScore": 0.376,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": 0.801,
+      "isVolumeBurst": false,
+      "durationSeconds": 527.0
     },
     {
-      "elapsedSeconds": 1002.0,
+      "elapsedSeconds": 4628.0,
       "bucketStart": "2026-05-07T01:17:08+00:00",
       "bucketEnd": "2026-05-07T01:25:24+00:00",
       "positive": 26,
@@ -112,10 +188,13 @@
       "netSentiment": 0.65,
       "zScore": 0.612,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": 0.825,
+      "isVolumeBurst": false,
+      "durationSeconds": 496.0
     },
     {
-      "elapsedSeconds": 1506.0,
+      "elapsedSeconds": 5132.0,
       "bucketStart": "2026-05-07T01:25:32+00:00",
       "bucketEnd": "2026-05-07T01:37:04+00:00",
       "positive": 32,
@@ -125,6 +204,9 @@
       "zScore": 2.024,
       "isBurst": true,
       "direction": "POSITIVE_SPIKE",
+      "volumeZScore": 0.694,
+      "isVolumeBurst": false,
+      "durationSeconds": 692.0,
       "topComments": [
         {
           "text": "4:37 사고날뻔 해가지고 진짜 누가 내려서 왔나본데 ㅋㅋㅋㅋ",
@@ -177,14 +259,14 @@
           "sentiment": "NEUTRAL"
         },
         {
-          "text": "ㅋㅋㅋㅋ 무슨 돈까스 먹으로 가자 이러고 치과 데려가는 엄마 셍각남 ㅋㅋㅋㅋ",
-          "likeCount": 28,
-          "sentiment": "POSITIVE"
-        },
-        {
           "text": "우리진혁 망고시루먹으러 므시가자",
           "likeCount": 28,
           "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "ㅋㅋㅋㅋ 무슨 돈까스 먹으로 가자 이러고 치과 데려가는 엄마 셍각남 ㅋㅋㅋㅋ",
+          "likeCount": 28,
+          "sentiment": "POSITIVE"
         },
         {
           "text": "아 팀 분위기 너무너무너무너무 좋아보여서 내 기분이 다 좋아진다…🧡\n우리 한화전차 이대로 쭉쭉 가보자\n\n항상 고생하시는 피디님과 스탭여러분 모두 감사합니다",
@@ -207,12 +289,12 @@
           "sentiment": "POSITIVE"
         },
         {
-          "text": "영상 퀄이 올라감!!! 너무 좋음 !!! 노피디 짱짱!!!!!! 걍 너무 조아!!!",
+          "text": "이 팀이 참...좋으네...우리 영상팀 건강 챙겨가면서 일하시길..내 삶의 또 다른 빛..연승 안 깨졌으면...딮기 두 번 이기자..잼게따 히히..",
           "likeCount": 13,
           "sentiment": "POSITIVE"
         },
         {
-          "text": "이 팀이 참...좋으네...우리 영상팀 건강 챙겨가면서 일하시길..내 삶의 또 다른 빛..연승 안 깨졌으면...딮기 두 번 이기자..잼게따 히히..",
+          "text": "영상 퀄이 올라감!!! 너무 좋음 !!! 노피디 짱짱!!!!!! 걍 너무 조아!!!",
           "likeCount": 13,
           "sentiment": "POSITIVE"
         },
@@ -227,12 +309,12 @@
           "sentiment": "POSITIVE"
         },
         {
-          "text": "노피디님 항상 감사드립니다~ 한생 화이팅🧡",
+          "text": "환중이 혼자 경기할 뻔 했다는 전설의 운전😇",
           "likeCount": 9,
           "sentiment": "POSITIVE"
         },
         {
-          "text": "환중이 혼자 경기할 뻔 했다는 전설의 운전😇",
+          "text": "노피디님 항상 감사드립니다~ 한생 화이팅🧡",
           "likeCount": 9,
           "sentiment": "POSITIVE"
         },
@@ -242,22 +324,22 @@
           "sentiment": "POSITIVE"
         },
         {
-          "text": "한화생묭 참좋다…",
-          "likeCount": 7,
-          "sentiment": "POSITIVE"
-        },
-        {
           "text": "한생 케미 개좋네",
           "likeCount": 7,
           "sentiment": "POSITIVE"
         },
         {
-          "text": "구드라이버... 비난이 거센데 ㅋㅋㅋㅋ",
-          "likeCount": 6,
+          "text": "한화생묭 참좋다…",
+          "likeCount": 7,
           "sentiment": "POSITIVE"
         },
         {
           "text": "3:25 구드럭과 니얼굴 이민0의 초딩싸움ㅋㅋㅋ하ㅋㅋ",
+          "likeCount": 6,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "구드라이버... 비난이 거센데 ㅋㅋㅋㅋ",
           "likeCount": 6,
           "sentiment": "POSITIVE"
         },
@@ -277,18 +359,13 @@
           "sentiment": "POSITIVE"
         },
         {
-          "text": "망고시뤀ㅋㅋㅋㅋㅋㅋ 귀엽네",
-          "likeCount": 4,
-          "sentiment": "POSITIVE"
-        },
-        {
           "text": "므시가서 망고시루 먹자 ㅋㅋㅋ",
           "likeCount": 4,
           "sentiment": "POSITIVE"
         },
         {
-          "text": "운전 많은 일이 있었구나 초보는 원래 힘들긴해ㅎㅎ",
-          "likeCount": 3,
+          "text": "망고시뤀ㅋㅋㅋㅋㅋㅋ 귀엽네",
+          "likeCount": 4,
           "sentiment": "POSITIVE"
         },
         {
@@ -297,14 +374,19 @@
           "sentiment": "POSITIVE"
         },
         {
-          "text": "이게 승리인터뷰인지 먹방인터뷰인지",
-          "likeCount": 2,
-          "sentiment": "NEUTRAL"
+          "text": "운전 많은 일이 있었구나 초보는 원래 힘들긴해ㅎㅎ",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
         },
         {
           "text": "아닠ㅋㅋㅋ 운전 얼마나 깊은 인상을 남겼길래ㅋㅋㅋㅋ",
           "likeCount": 2,
           "sentiment": "POSITIVE"
+        },
+        {
+          "text": "이게 승리인터뷰인지 먹방인터뷰인지",
+          "likeCount": 2,
+          "sentiment": "NEUTRAL"
         },
         {
           "text": "구마유시만 진짜 대지 되는거 같은데 기분탓? 하지만 찌는만큼 루시안 잘한거면 쪄라.. 좋다",
@@ -329,7 +411,7 @@
       ]
     },
     {
-      "elapsedSeconds": 2201.0,
+      "elapsedSeconds": 5827.0,
       "bucketStart": "2026-05-07T01:37:07+00:00",
       "bucketEnd": "2026-05-07T01:59:23+00:00",
       "positive": 22,
@@ -338,10 +420,13 @@
       "netSentiment": 0.475,
       "zScore": -1.036,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": 0.435,
+      "isVolumeBurst": false,
+      "durationSeconds": 1336.0
     },
     {
-      "elapsedSeconds": 3537.0,
+      "elapsedSeconds": 7163.0,
       "bucketStart": "2026-05-07T01:59:23+00:00",
       "bucketEnd": "2026-05-07T02:36:45+00:00",
       "positive": 28,
@@ -350,10 +435,13 @@
       "netSentiment": 0.7,
       "zScore": 1.083,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": 0.232,
+      "isVolumeBurst": false,
+      "durationSeconds": 2242.0
     },
     {
-      "elapsedSeconds": 5864.0,
+      "elapsedSeconds": 9490.0,
       "bucketStart": "2026-05-07T02:38:10+00:00",
       "bucketEnd": "2026-05-07T03:09:03+00:00",
       "positive": 22,
@@ -362,10 +450,13 @@
       "netSentiment": 0.475,
       "zScore": -1.036,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": 0.307,
+      "isVolumeBurst": false,
+      "durationSeconds": 1853.0
     },
     {
-      "elapsedSeconds": 7793.0,
+      "elapsedSeconds": 11419.0,
       "bucketStart": "2026-05-07T03:10:19+00:00",
       "bucketEnd": "2026-05-07T03:51:30+00:00",
       "positive": 21,
@@ -374,10 +465,13 @@
       "netSentiment": 0.5,
       "zScore": -0.801,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": 0.194,
+      "isVolumeBurst": false,
+      "durationSeconds": 2471.0
     },
     {
-      "elapsedSeconds": 10319.0,
+      "elapsedSeconds": 13945.0,
       "bucketStart": "2026-05-07T03:52:25+00:00",
       "bucketEnd": "2026-05-07T04:48:50+00:00",
       "positive": 30,
@@ -386,10 +480,13 @@
       "netSentiment": 0.7,
       "zScore": 1.083,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": 0.07,
+      "isVolumeBurst": false,
+      "durationSeconds": 3385.0
     },
     {
-      "elapsedSeconds": 13743.0,
+      "elapsedSeconds": 17369.0,
       "bucketStart": "2026-05-07T04:49:29+00:00",
       "bucketEnd": "2026-05-07T07:05:19+00:00",
       "positive": 23,
@@ -398,10 +495,13 @@
       "netSentiment": 0.475,
       "zScore": -1.036,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": -0.275,
+      "isVolumeBurst": false,
+      "durationSeconds": 8150.0
     },
     {
-      "elapsedSeconds": 22362.0,
+      "elapsedSeconds": 25988.0,
       "bucketStart": "2026-05-07T07:13:08+00:00",
       "bucketEnd": "2026-05-07T10:20:33+00:00",
       "positive": 25,
@@ -410,10 +510,13 @@
       "netSentiment": 0.6,
       "zScore": 0.141,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": -0.401,
+      "isVolumeBurst": false,
+      "durationSeconds": 11245.0
     },
     {
-      "elapsedSeconds": 33650.0,
+      "elapsedSeconds": 37276.0,
       "bucketStart": "2026-05-07T10:21:16+00:00",
       "bucketEnd": "2026-05-07T23:45:37+00:00",
       "positive": 21,
@@ -422,10 +525,13 @@
       "netSentiment": 0.475,
       "zScore": -1.036,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": -0.973,
+      "isVolumeBurst": false,
+      "durationSeconds": 48261.0
     },
     {
-      "elapsedSeconds": 83047.0,
+      "elapsedSeconds": 86673.0,
       "bucketStart": "2026-05-08T00:04:33+00:00",
       "bucketEnd": "2026-06-29T16:14:27+00:00",
       "positive": 21,
@@ -434,7 +540,10 @@
       "netSentiment": 0.556,
       "zScore": -0.278,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": -2.8,
+      "isVolumeBurst": false,
+      "durationSeconds": 4550994.0
     }
   ],
   "keyInsights": [

@@ -26,6 +26,20 @@
         "positive": 71,
         "neutral": 24,
         "negative": 5
+      },
+      "confidence": {
+        "positive": {
+          "level": "HIGH",
+          "ciLow": 68.1,
+          "ciHigh": 73.0,
+          "sampleSize": 1328
+        },
+        "negative": {
+          "level": "HIGH",
+          "ciLow": 4.1,
+          "ciHigh": 6.5,
+          "sampleSize": 1328
+        }
       }
     },
     {
@@ -38,6 +52,20 @@
         "positive": 48,
         "neutral": 32,
         "negative": 20
+      },
+      "confidence": {
+        "positive": {
+          "level": "HIGH",
+          "ciLow": 44.4,
+          "ciHigh": 50.6,
+          "sampleSize": 985
+        },
+        "negative": {
+          "level": "HIGH",
+          "ciLow": 17.8,
+          "ciHigh": 22.8,
+          "sampleSize": 985
+        }
       }
     },
     {
@@ -50,6 +78,20 @@
         "positive": 65,
         "neutral": 23,
         "negative": 12
+      },
+      "confidence": {
+        "positive": {
+          "level": "HIGH",
+          "ciLow": 61.5,
+          "ciHigh": 67.8,
+          "sampleSize": 878
+        },
+        "negative": {
+          "level": "HIGH",
+          "ciLow": 10.0,
+          "ciHigh": 14.3,
+          "sampleSize": 878
+        }
       }
     },
     {
@@ -62,6 +104,20 @@
         "positive": 71,
         "neutral": 22,
         "negative": 7
+      },
+      "confidence": {
+        "positive": {
+          "level": "HIGH",
+          "ciLow": 67.6,
+          "ciHigh": 74.4,
+          "sampleSize": 689
+        },
+        "negative": {
+          "level": "HIGH",
+          "ciLow": 5.5,
+          "ciHigh": 9.4,
+          "sampleSize": 689
+        }
       }
     },
     {
@@ -74,12 +130,26 @@
         "positive": 63,
         "neutral": 23,
         "negative": 14
+      },
+      "confidence": {
+        "positive": {
+          "level": "HIGH",
+          "ciLow": 57.6,
+          "ciHigh": 67.5,
+          "sampleSize": 362
+        },
+        "negative": {
+          "level": "HIGH",
+          "ciLow": 10.6,
+          "ciHigh": 17.7,
+          "sampleSize": 362
+        }
       }
     }
   ],
   "reactionTimeline": [
     {
-      "elapsedSeconds": -21566.0,
+      "elapsedSeconds": 18044.0,
       "bucketStart": "2024-09-20T05:00:44+00:00",
       "bucketEnd": "2024-09-20T07:15:20+00:00",
       "positive": 18,
@@ -89,6 +159,9 @@
       "zScore": -1.508,
       "isBurst": true,
       "direction": "NEGATIVE_SPIKE",
+      "volumeZScore": -0.01,
+      "isVolumeBurst": false,
+      "durationSeconds": 8076.0,
       "topComments": [
         {
           "text": "어떤분께서 위기 대위기 대대위기 대대대위기 결말이라고 하길래.. 걱정되는 마음과 기대되는 마음으로 기다려봅니다...\n\n후기: 일단 엄청 울었음. 영화한테 얻어 맞은 건 처음임. 제발 티원이 장수돌침대 만들었으면 좋겠음. 너희가 흘린 눈물과 노력이 헛된 것이 아니길 간절히 바란다.  나에게 용기와 힘을 주는 너희가 제일 행복하면 좋겠다. 다시 정상으로 올라가자 제오페구케 파이팅",
@@ -293,7 +366,7 @@
       ]
     },
     {
-      "elapsedSeconds": -13460.0,
+      "elapsedSeconds": 26150.0,
       "bucketStart": "2024-09-20T07:15:50+00:00",
       "bucketEnd": "2024-09-20T10:39:00+00:00",
       "positive": 26,
@@ -302,10 +375,13 @@
       "netSentiment": 0.525,
       "zScore": 0.016,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": -0.167,
+      "isVolumeBurst": false,
+      "durationSeconds": 12190.0
     },
     {
-      "elapsedSeconds": -539.0,
+      "elapsedSeconds": 39071.0,
       "bucketStart": "2024-09-20T10:51:11+00:00",
       "bucketEnd": "2024-09-20T11:14:48+00:00",
       "positive": 23,
@@ -314,10 +390,13 @@
       "netSentiment": 0.55,
       "zScore": 0.185,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": 0.651,
+      "isVolumeBurst": false,
+      "durationSeconds": 1417.0
     },
     {
-      "elapsedSeconds": 881.0,
+      "elapsedSeconds": 40491.0,
       "bucketStart": "2024-09-20T11:14:51+00:00",
       "bucketEnd": "2024-09-20T11:33:33+00:00",
       "positive": 23,
@@ -326,10 +405,13 @@
       "netSentiment": 0.425,
       "zScore": -0.661,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": 0.74,
+      "isVolumeBurst": false,
+      "durationSeconds": 1122.0
     },
     {
-      "elapsedSeconds": 2120.0,
+      "elapsedSeconds": 41730.0,
       "bucketStart": "2024-09-20T11:35:30+00:00",
       "bucketEnd": "2024-09-20T12:03:40+00:00",
       "positive": 21,
@@ -338,10 +420,13 @@
       "netSentiment": 0.4,
       "zScore": -0.831,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": 0.584,
+      "isVolumeBurst": false,
+      "durationSeconds": 1690.0
     },
     {
-      "elapsedSeconds": 3841.0,
+      "elapsedSeconds": 43451.0,
       "bucketStart": "2024-09-20T12:04:11+00:00",
       "bucketEnd": "2024-09-20T12:20:01+00:00",
       "positive": 28,
@@ -350,10 +435,13 @@
       "netSentiment": 0.6,
       "zScore": 0.524,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": 0.803,
+      "isVolumeBurst": false,
+      "durationSeconds": 950.0
     },
     {
-      "elapsedSeconds": 4795.0,
+      "elapsedSeconds": 44405.0,
       "bucketStart": "2024-09-20T12:20:05+00:00",
       "bucketEnd": "2024-09-20T12:22:42+00:00",
       "positive": 30,
@@ -362,10 +450,13 @@
       "netSentiment": 0.675,
       "zScore": 1.032,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": 1.488,
+      "isVolumeBurst": false,
+      "durationSeconds": 157.0
     },
     {
-      "elapsedSeconds": 4954.0,
+      "elapsedSeconds": 44564.0,
       "bucketStart": "2024-09-20T12:22:44+00:00",
       "bucketEnd": "2024-09-20T12:23:57+00:00",
       "positive": 27,
@@ -374,10 +465,215 @@
       "netSentiment": 0.55,
       "zScore": 0.185,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": 1.779,
+      "isVolumeBurst": true,
+      "durationSeconds": 73.0,
+      "topComments": [
+        {
+          "text": "@대황슼v6 누군가를 혐오하는 일에 시간을 쏟는 네 인생이 불쌍하다",
+          "likeCount": 53,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "제오페구케 24년 월즈도 건강하게 그리고 재미있게 즐기며 잘해보자! T1 파이팅!!!!!",
+          "likeCount": 14,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "영화관에서 5번 보면서울고 최초공개 보면서 울고 ㅠ 연출도 너무 멋지고 음악이 진짜 멋졌습니다 좋은 다큐멘터리 만들어줘서 정말 고맙습니다 ㅠㅠㅜ \n그리고 제오페구케 다들 정말 사랑하고 이번 월즈도 좋은 성적내서 티원으로써 우리 옆에 오래오래 있어줘⭐️⭐️⭐️⭐️⭐️",
+          "likeCount": 13,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "🐂🔥",
+          "likeCount": 10,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "아니 시작부터 케리아 우는거보고 그냥 눈물 줄르르르르륵 ㅠ",
+          "likeCount": 7,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "I LOVE ZOFGK❤❤❤\nI LOVE T1!!!!!!! T1 FIGHTING🍀⭐⭐⭐⭐",
+          "likeCount": 6,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Sorry but I don’t see T1 can win this year or reach to the semi. T1 so weakk in the current state",
+          "likeCount": 6,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "Sorry but I don’t see T1 can win this year or reach to the semi. T1 so weakk in the current state",
+          "likeCount": 6,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "이번월즈도 우승하자 제오페구케 화이팅!!🔥🔥",
+          "likeCount": 4,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "이번엔 우리가 언더독의 기적 써보자 😊",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "1:03:02 어케 대상혁을 싫어할 수 있노",
+          "likeCount": 2,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "제오페구케 내년에도 그 후에도 진짜 영원히 같이 하자 \nZOFGK Forever and ever",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "지렷다 진짜...",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "I really cried when I watched this video, they really tried so hard, especially faker, he didn't mind that his hand was injured to bring the trophy to his beloved teammates. \nI hope this 2024 world final our ZOFGK will bring the trophy and smile no matter how difficult it is. \nT1 Fingting⭐⭐⭐⭐⭐ \n⚡🐯🐱🐻🐶🍀",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "올해도 힘내자!! 응원한다 제오페구케",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "제오페구케 올해 월즈도 화이팅!",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ZOFGK❤",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "또 질질 짜버렸잖아 ㅠㅠ..",
+          "likeCount": 1,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "개추",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "⭐⭐⭐⭐⭐ 드가자ㅏㅏㅏㅏㅏㅏ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Sorry but I don’t see T1 can win this year or reach to the semi. T1 so weakk in the current state",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "마지막 주자 마지막으로 탑승 한 티원? T1 이다. 기다려라 롤드컵 월즈는 다르다 이미 사우디컵 최초 우승임 문고리 잡았다고볼수있지 2024 마지막 대회 화이팅 최선티!😊",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "페쪽이와티쪽이들 영원히 사랑해\n티원화이팅!!!",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Cried my eyes out after watching this. I couldn't imagine how hard you guys had to go through that time. T1 FIGHTING. ZOFGK FIGHTING ♥",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "추천하고갑니다.",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "love T1",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "T1!!! FIGHTING!!!",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "제오페구케 파이팅!!",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Beautiful ❤",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "T1 Garen but faker face confirmed❤😂",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "huaaa ga kerasa dah selese😢",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "⭐️⭐️⭐️⭐️⭐️",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "🥺🥺🥺🥺😭😭",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "올해도 이쁜 꽃 한번보자 얘들아 화이팅이야 항상 응원해",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "다시 시작해보자 우승 까지 화이팅",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "올해도 월즈 화이팅해보자!! 우린 끝까지 제오페구케를 응원해 가보자!!!! ⭐⭐⭐⭐⭐",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "올해도 기적 한번 써보자 티원 화이팅!!!",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "이제 날씨도 좀 덜 더워질태니 다시 쓰레기줍기를 다니겠습니다.",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "감사합니다.\n2024 월즈도 화이팅!",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "다들 초중반에 울었다더만 난 그때 좀 울컥하고 오히려 후반에 더 눈물나더라",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        }
+      ]
     },
     {
-      "elapsedSeconds": 5027.0,
+      "elapsedSeconds": 44637.0,
       "bucketStart": "2024-09-20T12:23:57+00:00",
       "bucketEnd": "2024-09-20T12:27:39+00:00",
       "positive": 32,
@@ -387,6 +683,9 @@
       "zScore": 1.709,
       "isBurst": true,
       "direction": "POSITIVE_SPIKE",
+      "volumeZScore": 1.356,
+      "isVolumeBurst": false,
+      "durationSeconds": 222.0,
       "topComments": [
         {
           "text": "극장에서 울었다 진짜\n1시간 고문 후\n20분 선물 고맙습니다.",
@@ -474,14 +773,14 @@
           "sentiment": "POSITIVE"
         },
         {
-          "text": "Brought to tears multiple times wow",
-          "likeCount": 1,
-          "sentiment": "POSITIVE"
-        },
-        {
           "text": "또 당신입니까 대대대",
           "likeCount": 1,
           "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "Brought to tears multiple times wow",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
         },
         {
           "text": "讚讚",
@@ -514,7 +813,7 @@
           "sentiment": "POSITIVE"
         },
         {
-          "text": "다들 초중반에 울었다더만 난 그때 좀 울컥하고 오히려 후반에 더 눈물나더라",
+          "text": "I will buy more red bull pls create more documentaries like this for t1 thank u 🥹😭😭😭😭😭😭🙏",
           "likeCount": 0,
           "sentiment": "POSITIVE"
         },
@@ -569,12 +868,12 @@
           "sentiment": "POSITIVE"
         },
         {
-          "text": "OMG I am crying 😭😭😭 What an amazing document. Thank you for this ❤",
+          "text": "YES I AM CRYING!!!!!!",
           "likeCount": 0,
           "sentiment": "POSITIVE"
         },
         {
-          "text": "YES I AM CRYING!!!!!!",
+          "text": "OMG I am crying 😭😭😭 What an amazing document. Thank you for this ❤",
           "likeCount": 0,
           "sentiment": "POSITIVE"
         },
@@ -591,7 +890,7 @@
       ]
     },
     {
-      "elapsedSeconds": 5260.0,
+      "elapsedSeconds": 44870.0,
       "bucketStart": "2024-09-20T12:27:50+00:00",
       "bucketEnd": "2024-09-20T12:33:41+00:00",
       "positive": 31,
@@ -600,10 +899,13 @@
       "netSentiment": 0.725,
       "zScore": 1.37,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": 1.182,
+      "isVolumeBurst": false,
+      "durationSeconds": 351.0
     },
     {
-      "elapsedSeconds": 5624.0,
+      "elapsedSeconds": 45234.0,
       "bucketStart": "2024-09-20T12:33:54+00:00",
       "bucketEnd": "2024-09-20T12:40:04+00:00",
       "positive": 24,
@@ -612,10 +914,13 @@
       "netSentiment": 0.45,
       "zScore": -0.492,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": 1.162,
+      "isVolumeBurst": false,
+      "durationSeconds": 370.0
     },
     {
-      "elapsedSeconds": 5998.0,
+      "elapsedSeconds": 45608.0,
       "bucketStart": "2024-09-20T12:40:08+00:00",
       "bucketEnd": "2024-09-20T12:49:41+00:00",
       "positive": 30,
@@ -624,10 +929,13 @@
       "netSentiment": 0.725,
       "zScore": 1.37,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": 0.995,
+      "isVolumeBurst": false,
+      "durationSeconds": 573.0
     },
     {
-      "elapsedSeconds": 6599.0,
+      "elapsedSeconds": 46209.0,
       "bucketStart": "2024-09-20T12:50:09+00:00",
       "bucketEnd": "2024-09-20T12:57:00+00:00",
       "positive": 32,
@@ -636,10 +944,13 @@
       "netSentiment": 0.725,
       "zScore": 1.37,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": 1.122,
+      "isVolumeBurst": false,
+      "durationSeconds": 411.0
     },
     {
-      "elapsedSeconds": 7014.0,
+      "elapsedSeconds": 46624.0,
       "bucketStart": "2024-09-20T12:57:04+00:00",
       "bucketEnd": "2024-09-20T13:04:08+00:00",
       "positive": 32,
@@ -648,10 +959,13 @@
       "netSentiment": 0.7,
       "zScore": 1.201,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": 1.11,
+      "isVolumeBurst": false,
+      "durationSeconds": 424.0
     },
     {
-      "elapsedSeconds": 7440.0,
+      "elapsedSeconds": 47050.0,
       "bucketStart": "2024-09-20T13:04:10+00:00",
       "bucketEnd": "2024-09-20T13:12:07+00:00",
       "positive": 25,
@@ -660,10 +974,13 @@
       "netSentiment": 0.55,
       "zScore": 0.185,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": 1.065,
+      "isVolumeBurst": false,
+      "durationSeconds": 477.0
     },
     {
-      "elapsedSeconds": 7930.0,
+      "elapsedSeconds": 47540.0,
       "bucketStart": "2024-09-20T13:12:20+00:00",
       "bucketEnd": "2024-09-20T13:21:26+00:00",
       "positive": 25,
@@ -672,10 +989,13 @@
       "netSentiment": 0.5,
       "zScore": -0.153,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": 1.014,
+      "isVolumeBurst": false,
+      "durationSeconds": 546.0
     },
     {
-      "elapsedSeconds": 8477.0,
+      "elapsedSeconds": 48087.0,
       "bucketStart": "2024-09-20T13:21:27+00:00",
       "bucketEnd": "2024-09-20T13:33:21+00:00",
       "positive": 27,
@@ -684,10 +1004,13 @@
       "netSentiment": 0.55,
       "zScore": 0.185,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": 0.912,
+      "isVolumeBurst": false,
+      "durationSeconds": 714.0
     },
     {
-      "elapsedSeconds": 9204.0,
+      "elapsedSeconds": 48814.0,
       "bucketStart": "2024-09-20T13:33:34+00:00",
       "bucketEnd": "2024-09-20T13:44:09+00:00",
       "positive": 30,
@@ -696,10 +1019,13 @@
       "netSentiment": 0.675,
       "zScore": 1.032,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": 0.956,
+      "isVolumeBurst": false,
+      "durationSeconds": 635.0
     },
     {
-      "elapsedSeconds": 9844.0,
+      "elapsedSeconds": 49454.0,
       "bucketStart": "2024-09-20T13:44:14+00:00",
       "bucketEnd": "2024-09-20T13:56:33+00:00",
       "positive": 21,
@@ -708,10 +1034,13 @@
       "netSentiment": 0.425,
       "zScore": -0.661,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": 0.899,
+      "isVolumeBurst": false,
+      "durationSeconds": 739.0
     },
     {
-      "elapsedSeconds": 10610.0,
+      "elapsedSeconds": 50220.0,
       "bucketStart": "2024-09-20T13:57:00+00:00",
       "bucketEnd": "2024-09-20T14:06:34+00:00",
       "positive": 33,
@@ -721,6 +1050,9 @@
       "zScore": 1.709,
       "isBurst": true,
       "direction": "POSITIVE_SPIKE",
+      "volumeZScore": 0.995,
+      "isVolumeBurst": false,
+      "durationSeconds": 574.0,
       "topComments": [
         {
           "text": "아니 페이커는 월즈 결승에서 지고 다 우는데 이순간에 그걸 복기하고 있네;;; 광기야 이건 진짜 ;;; 멘탈이 어느정도 되야 저렇게 행동할수 있냐 존경스럽다 ;;;",
@@ -925,7 +1257,7 @@
       ]
     },
     {
-      "elapsedSeconds": 11234.0,
+      "elapsedSeconds": 50844.0,
       "bucketStart": "2024-09-20T14:07:24+00:00",
       "bucketEnd": "2024-09-20T14:17:10+00:00",
       "positive": 27,
@@ -934,10 +1266,13 @@
       "netSentiment": 0.575,
       "zScore": 0.355,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": 0.987,
+      "isVolumeBurst": false,
+      "durationSeconds": 586.0
     },
     {
-      "elapsedSeconds": 11821.0,
+      "elapsedSeconds": 51431.0,
       "bucketStart": "2024-09-20T14:17:11+00:00",
       "bucketEnd": "2024-09-20T14:28:09+00:00",
       "positive": 21,
@@ -947,6 +1282,9 @@
       "zScore": -1.677,
       "isBurst": true,
       "direction": "NEGATIVE_SPIKE",
+      "volumeZScore": 0.943,
+      "isVolumeBurst": false,
+      "durationSeconds": 658.0,
       "topComments": [
         {
           "text": "무대 뒤에서 제우스가 이렇게 많은 눈물을 흘렸는지 몰랐어요ㅜㅜ 우승할때도 파엠을 탈때도 항상 웃기만 하길래 눈물이 없는 편인 줄 알았는데 이렇게 아프게 성장하고 있을줄이야😢 우제가 언제나 웃었으면 좋겠다... 우리 또 웃자! 힘들어도 견디다보면 좋은날이 오는거 제일 잘 알잖아!! 이번 월즈도 힘든 날도 있겠지만 결국 이겨내서 우제가 또 활짝 웃었으면 좋겠어❤ 힘내!!! 화이팅!!!",
@@ -1069,9 +1407,9 @@
           "sentiment": "NEGATIVE"
         },
         {
-          "text": "이야",
+          "text": "언제나 응원해~ T1 화이팅!!",
           "likeCount": 0,
-          "sentiment": "NEUTRAL"
+          "sentiment": "POSITIVE"
         },
         {
           "text": "젠)결승에서봅시다.",
@@ -1084,9 +1422,9 @@
           "sentiment": "POSITIVE"
         },
         {
-          "text": "언제나 응원해~ T1 화이팅!!",
+          "text": "이야",
           "likeCount": 0,
-          "sentiment": "POSITIVE"
+          "sentiment": "NEUTRAL"
         },
         {
           "text": "ZOFGK let’s stick together longer 💗🍀",
@@ -1151,7 +1489,7 @@
       ]
     },
     {
-      "elapsedSeconds": 12519.0,
+      "elapsedSeconds": 52129.0,
       "bucketStart": "2024-09-20T14:28:49+00:00",
       "bucketEnd": "2024-09-20T14:39:09+00:00",
       "positive": 28,
@@ -1160,10 +1498,13 @@
       "netSentiment": 0.55,
       "zScore": 0.185,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": 0.966,
+      "isVolumeBurst": false,
+      "durationSeconds": 620.0
     },
     {
-      "elapsedSeconds": 13152.0,
+      "elapsedSeconds": 52762.0,
       "bucketStart": "2024-09-20T14:39:22+00:00",
       "bucketEnd": "2024-09-20T14:50:02+00:00",
       "positive": 31,
@@ -1172,10 +1513,13 @@
       "netSentiment": 0.7,
       "zScore": 1.201,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": 0.953,
+      "isVolumeBurst": false,
+      "durationSeconds": 640.0
     },
     {
-      "elapsedSeconds": 13802.0,
+      "elapsedSeconds": 53412.0,
       "bucketStart": "2024-09-20T14:50:12+00:00",
       "bucketEnd": "2024-09-20T15:02:38+00:00",
       "positive": 29,
@@ -1184,10 +1528,13 @@
       "netSentiment": 0.625,
       "zScore": 0.693,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": 0.895,
+      "isVolumeBurst": false,
+      "durationSeconds": 746.0
     },
     {
-      "elapsedSeconds": 14559.0,
+      "elapsedSeconds": 54169.0,
       "bucketStart": "2024-09-20T15:02:49+00:00",
       "bucketEnd": "2024-09-20T15:17:32+00:00",
       "positive": 30,
@@ -1197,6 +1544,9 @@
       "zScore": 1.54,
       "isBurst": true,
       "direction": "POSITIVE_SPIKE",
+      "volumeZScore": 0.831,
+      "isVolumeBurst": false,
+      "durationSeconds": 883.0,
       "topComments": [
         {
           "text": "32:45 이 장면은 진짜 눈물났다 아프지 마 우리혁....😢",
@@ -1401,7 +1751,7 @@
       ]
     },
     {
-      "elapsedSeconds": 15444.0,
+      "elapsedSeconds": 55054.0,
       "bucketStart": "2024-09-20T15:17:34+00:00",
       "bucketEnd": "2024-09-20T15:31:51+00:00",
       "positive": 21,
@@ -1410,10 +1760,13 @@
       "netSentiment": 0.45,
       "zScore": -0.492,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": 0.842,
+      "isVolumeBurst": false,
+      "durationSeconds": 857.0
     },
     {
-      "elapsedSeconds": 16320.0,
+      "elapsedSeconds": 55930.0,
       "bucketStart": "2024-09-20T15:32:10+00:00",
       "bucketEnd": "2024-09-20T15:44:14+00:00",
       "positive": 26,
@@ -1422,10 +1775,13 @@
       "netSentiment": 0.45,
       "zScore": -0.492,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": 0.907,
+      "isVolumeBurst": false,
+      "durationSeconds": 724.0
     },
     {
-      "elapsedSeconds": 17054.0,
+      "elapsedSeconds": 56664.0,
       "bucketStart": "2024-09-20T15:44:24+00:00",
       "bucketEnd": "2024-09-20T15:57:40+00:00",
       "positive": 23,
@@ -1434,10 +1790,13 @@
       "netSentiment": 0.5,
       "zScore": -0.153,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": 0.871,
+      "isVolumeBurst": false,
+      "durationSeconds": 796.0
     },
     {
-      "elapsedSeconds": 17854.0,
+      "elapsedSeconds": 57464.0,
       "bucketStart": "2024-09-20T15:57:44+00:00",
       "bucketEnd": "2024-09-20T16:15:28+00:00",
       "positive": 33,
@@ -1447,6 +1806,9 @@
       "zScore": 1.709,
       "isBurst": true,
       "direction": "POSITIVE_SPIKE",
+      "volumeZScore": 0.76,
+      "isVolumeBurst": false,
+      "durationSeconds": 1064.0,
       "topComments": [
         {
           "text": "저는요 케리아 선수가 손 떨면서 우는 그 장면을 보고 롤을 처음 접하게 되었어요. 사람이 저렇게 간절할 수 있구나, 이정도로 나는 열정적이게 무언가에 임해본 적이 있을까, 그때 이후로 롤 자체가 단순히 취미가 아닌, 스포츠라고 느껴지면서 지금은 매 대회를 챙겨보고 있네요. 지금은 다소 부진할 지라도 티원 선수분들의 노력은 분명히 보답 받을 거예요. 그러니 환하게 꽃이 필 그날을 기다리고, 응원할게요.",
@@ -1544,7 +1906,7 @@
           "sentiment": "POSITIVE"
         },
         {
-          "text": "이런 기억 하나하나 때문에 티원을 떠나지 않고 응원하는거지",
+          "text": "내가 응원말고 뭘할수있는데!!\n티원 파이팅!!!!!!",
           "likeCount": 0,
           "sentiment": "POSITIVE"
         },
@@ -1559,7 +1921,7 @@
           "sentiment": "NEUTRAL"
         },
         {
-          "text": "내가 응원말고 뭘할수있는데!!\n티원 파이팅!!!!!!",
+          "text": "이런 기억 하나하나 때문에 티원을 떠나지 않고 응원하는거지",
           "likeCount": 0,
           "sentiment": "POSITIVE"
         },
@@ -1651,7 +2013,7 @@
       ]
     },
     {
-      "elapsedSeconds": 18931.0,
+      "elapsedSeconds": 58541.0,
       "bucketStart": "2024-09-20T16:15:41+00:00",
       "bucketEnd": "2024-09-20T16:30:21+00:00",
       "positive": 26,
@@ -1660,10 +2022,13 @@
       "netSentiment": 0.6,
       "zScore": 0.524,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": 0.832,
+      "isVolumeBurst": false,
+      "durationSeconds": 880.0
     },
     {
-      "elapsedSeconds": 19843.0,
+      "elapsedSeconds": 59453.0,
       "bucketStart": "2024-09-20T16:30:53+00:00",
       "bucketEnd": "2024-09-20T16:47:15+00:00",
       "positive": 25,
@@ -1672,10 +2037,13 @@
       "netSentiment": 0.6,
       "zScore": 0.524,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": 0.791,
+      "isVolumeBurst": false,
+      "durationSeconds": 982.0
     },
     {
-      "elapsedSeconds": 20838.0,
+      "elapsedSeconds": 60448.0,
       "bucketStart": "2024-09-20T16:47:28+00:00",
       "bucketEnd": "2024-09-20T17:03:25+00:00",
       "positive": 27,
@@ -1684,10 +2052,13 @@
       "netSentiment": 0.65,
       "zScore": 0.863,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": 0.801,
+      "isVolumeBurst": false,
+      "durationSeconds": 957.0
     },
     {
-      "elapsedSeconds": 21813.0,
+      "elapsedSeconds": 61423.0,
       "bucketStart": "2024-09-20T17:03:43+00:00",
       "bucketEnd": "2024-09-20T17:27:56+00:00",
       "positive": 29,
@@ -1696,10 +2067,13 @@
       "netSentiment": 0.65,
       "zScore": 0.863,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": 0.642,
+      "isVolumeBurst": false,
+      "durationSeconds": 1453.0
     },
     {
-      "elapsedSeconds": 23301.0,
+      "elapsedSeconds": 62911.0,
       "bucketStart": "2024-09-20T17:28:31+00:00",
       "bucketEnd": "2024-09-20T17:53:13+00:00",
       "positive": 23,
@@ -1708,10 +2082,13 @@
       "netSentiment": 0.475,
       "zScore": -0.323,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": 0.634,
+      "isVolumeBurst": false,
+      "durationSeconds": 1482.0
     },
     {
-      "elapsedSeconds": 24821.0,
+      "elapsedSeconds": 64431.0,
       "bucketStart": "2024-09-20T17:53:51+00:00",
       "bucketEnd": "2024-09-20T18:16:38+00:00",
       "positive": 29,
@@ -1720,10 +2097,13 @@
       "netSentiment": 0.675,
       "zScore": 1.032,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": 0.665,
+      "isVolumeBurst": false,
+      "durationSeconds": 1367.0
     },
     {
-      "elapsedSeconds": 26221.0,
+      "elapsedSeconds": 65831.0,
       "bucketStart": "2024-09-20T18:17:11+00:00",
       "bucketEnd": "2024-09-20T18:49:49+00:00",
       "positive": 29,
@@ -1732,10 +2112,13 @@
       "netSentiment": 0.625,
       "zScore": 0.693,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": 0.528,
+      "isVolumeBurst": false,
+      "durationSeconds": 1958.0
     },
     {
-      "elapsedSeconds": 28219.0,
+      "elapsedSeconds": 67829.0,
       "bucketStart": "2024-09-20T18:50:29+00:00",
       "bucketEnd": "2024-09-20T19:28:10+00:00",
       "positive": 26,
@@ -1744,10 +2127,13 @@
       "netSentiment": 0.525,
       "zScore": 0.016,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": 0.474,
+      "isVolumeBurst": false,
+      "durationSeconds": 2261.0
     },
     {
-      "elapsedSeconds": 30498.0,
+      "elapsedSeconds": 70108.0,
       "bucketStart": "2024-09-20T19:28:28+00:00",
       "bucketEnd": "2024-09-20T20:19:56+00:00",
       "positive": 22,
@@ -1756,10 +2142,13 @@
       "netSentiment": 0.375,
       "zScore": -1.0,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": 0.355,
+      "isVolumeBurst": false,
+      "durationSeconds": 3088.0
     },
     {
-      "elapsedSeconds": 33674.0,
+      "elapsedSeconds": 73284.0,
       "bucketStart": "2024-09-20T20:21:24+00:00",
       "bucketEnd": "2024-09-20T21:30:21+00:00",
       "positive": 27,
@@ -1768,10 +2157,13 @@
       "netSentiment": 0.575,
       "zScore": 0.355,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": 0.244,
+      "isVolumeBurst": false,
+      "durationSeconds": 4137.0
     },
     {
-      "elapsedSeconds": 37874.0,
+      "elapsedSeconds": 77484.0,
       "bucketStart": "2024-09-20T21:31:24+00:00",
       "bucketEnd": "2024-09-20T22:34:17+00:00",
       "positive": 25,
@@ -1780,10 +2172,13 @@
       "netSentiment": 0.55,
       "zScore": 0.185,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": 0.279,
+      "isVolumeBurst": false,
+      "durationSeconds": 3773.0
     },
     {
-      "elapsedSeconds": 41706.0,
+      "elapsedSeconds": 81316.0,
       "bucketStart": "2024-09-20T22:35:16+00:00",
       "bucketEnd": "2024-09-20T23:30:28+00:00",
       "positive": 23,
@@ -1792,10 +2187,13 @@
       "netSentiment": 0.375,
       "zScore": -1.0,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": 0.329,
+      "isVolumeBurst": false,
+      "durationSeconds": 3312.0
     },
     {
-      "elapsedSeconds": 45083.0,
+      "elapsedSeconds": 84693.0,
       "bucketStart": "2024-09-20T23:31:33+00:00",
       "bucketEnd": "2024-09-21T00:16:06+00:00",
       "positive": 22,
@@ -1804,10 +2202,13 @@
       "netSentiment": 0.35,
       "zScore": -1.169,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": 0.41,
+      "isVolumeBurst": false,
+      "durationSeconds": 2673.0
     },
     {
-      "elapsedSeconds": 47784.0,
+      "elapsedSeconds": 87394.0,
       "bucketStart": "2024-09-21T00:16:34+00:00",
       "bucketEnd": "2024-09-21T01:10:04+00:00",
       "positive": 27,
@@ -1816,10 +2217,13 @@
       "netSentiment": 0.55,
       "zScore": 0.185,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": 0.34,
+      "isVolumeBurst": false,
+      "durationSeconds": 3210.0
     },
     {
-      "elapsedSeconds": 51079.0,
+      "elapsedSeconds": 90689.0,
       "bucketStart": "2024-09-21T01:11:29+00:00",
       "bucketEnd": "2024-09-21T02:00:52+00:00",
       "positive": 24,
@@ -1828,10 +2232,13 @@
       "netSentiment": 0.45,
       "zScore": -0.492,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": 0.371,
+      "isVolumeBurst": false,
+      "durationSeconds": 2963.0
     },
     {
-      "elapsedSeconds": 54063.0,
+      "elapsedSeconds": 93673.0,
       "bucketStart": "2024-09-21T02:01:13+00:00",
       "bucketEnd": "2024-09-21T02:46:07+00:00",
       "positive": 28,
@@ -1840,10 +2247,13 @@
       "netSentiment": 0.65,
       "zScore": 0.863,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": 0.407,
+      "isVolumeBurst": false,
+      "durationSeconds": 2694.0
     },
     {
-      "elapsedSeconds": 56782.0,
+      "elapsedSeconds": 96392.0,
       "bucketStart": "2024-09-21T02:46:32+00:00",
       "bucketEnd": "2024-09-21T03:24:30+00:00",
       "positive": 23,
@@ -1852,10 +2262,13 @@
       "netSentiment": 0.45,
       "zScore": -0.492,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": 0.471,
+      "isVolumeBurst": false,
+      "durationSeconds": 2278.0
     },
     {
-      "elapsedSeconds": 59140.0,
+      "elapsedSeconds": 98750.0,
       "bucketStart": "2024-09-21T03:25:50+00:00",
       "bucketEnd": "2024-09-21T03:58:45+00:00",
       "positive": 23,
@@ -1864,10 +2277,13 @@
       "netSentiment": 0.4,
       "zScore": -0.831,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": 0.525,
+      "isVolumeBurst": false,
+      "durationSeconds": 1975.0
     },
     {
-      "elapsedSeconds": 61147.0,
+      "elapsedSeconds": 100757.0,
       "bucketStart": "2024-09-21T03:59:17+00:00",
       "bucketEnd": "2024-09-21T04:49:37+00:00",
       "positive": 30,
@@ -1876,10 +2292,13 @@
       "netSentiment": 0.65,
       "zScore": 0.863,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": 0.364,
+      "isVolumeBurst": false,
+      "durationSeconds": 3020.0
     },
     {
-      "elapsedSeconds": 64182.0,
+      "elapsedSeconds": 103792.0,
       "bucketStart": "2024-09-21T04:49:52+00:00",
       "bucketEnd": "2024-09-21T05:50:36+00:00",
       "positive": 28,
@@ -1888,10 +2307,13 @@
       "netSentiment": 0.575,
       "zScore": 0.355,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": 0.292,
+      "isVolumeBurst": false,
+      "durationSeconds": 3644.0
     },
     {
-      "elapsedSeconds": 67966.0,
+      "elapsedSeconds": 107576.0,
       "bucketStart": "2024-09-21T05:52:56+00:00",
       "bucketEnd": "2024-09-21T06:29:12+00:00",
       "positive": 28,
@@ -1900,10 +2322,13 @@
       "netSentiment": 0.675,
       "zScore": 1.032,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": 0.488,
+      "isVolumeBurst": false,
+      "durationSeconds": 2176.0
     },
     {
-      "elapsedSeconds": 70260.0,
+      "elapsedSeconds": 109870.0,
       "bucketStart": "2024-09-21T06:31:10+00:00",
       "bucketEnd": "2024-09-21T07:34:51+00:00",
       "positive": 22,
@@ -1912,10 +2337,13 @@
       "netSentiment": 0.475,
       "zScore": -0.323,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": 0.274,
+      "isVolumeBurst": false,
+      "durationSeconds": 3821.0
     },
     {
-      "elapsedSeconds": 74250.0,
+      "elapsedSeconds": 113860.0,
       "bucketStart": "2024-09-21T07:37:40+00:00",
       "bucketEnd": "2024-09-21T08:27:18+00:00",
       "positive": 25,
@@ -1924,10 +2352,13 @@
       "netSentiment": 0.375,
       "zScore": -1.0,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": 0.369,
+      "isVolumeBurst": false,
+      "durationSeconds": 2978.0
     },
     {
-      "elapsedSeconds": 77450.0,
+      "elapsedSeconds": 117060.0,
       "bucketStart": "2024-09-21T08:31:00+00:00",
       "bucketEnd": "2024-09-21T09:38:18+00:00",
       "positive": 27,
@@ -1936,10 +2367,13 @@
       "netSentiment": 0.5,
       "zScore": -0.153,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": 0.253,
+      "isVolumeBurst": false,
+      "durationSeconds": 4038.0
     },
     {
-      "elapsedSeconds": 81613.0,
+      "elapsedSeconds": 121223.0,
       "bucketStart": "2024-09-21T09:40:23+00:00",
       "bucketEnd": "2024-09-21T10:20:31+00:00",
       "positive": 22,
@@ -1948,10 +2382,13 @@
       "netSentiment": 0.475,
       "zScore": -0.323,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": 0.45,
+      "isVolumeBurst": false,
+      "durationSeconds": 2408.0
     },
     {
-      "elapsedSeconds": 84102.0,
+      "elapsedSeconds": 123712.0,
       "bucketStart": "2024-09-21T10:21:52+00:00",
       "bucketEnd": "2024-09-21T11:47:42+00:00",
       "positive": 28,
@@ -1960,10 +2397,13 @@
       "netSentiment": 0.6,
       "zScore": 0.524,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": 0.161,
+      "isVolumeBurst": false,
+      "durationSeconds": 5150.0
     },
     {
-      "elapsedSeconds": 89314.0,
+      "elapsedSeconds": 128924.0,
       "bucketStart": "2024-09-21T11:48:44+00:00",
       "bucketEnd": "2024-09-21T13:04:16+00:00",
       "positive": 34,
@@ -1973,6 +2413,9 @@
       "zScore": 1.878,
       "isBurst": true,
       "direction": "POSITIVE_SPIKE",
+      "volumeZScore": 0.209,
+      "isVolumeBurst": false,
+      "durationSeconds": 4532.0,
       "topComments": [
         {
           "text": "아기상혁이 꼭 니가 하고싶은 일을 하는 사람이 되어라",
@@ -2177,7 +2620,7 @@
       ]
     },
     {
-      "elapsedSeconds": 93993.0,
+      "elapsedSeconds": 133603.0,
       "bucketStart": "2024-09-21T13:06:43+00:00",
       "bucketEnd": "2024-09-21T14:45:46+00:00",
       "positive": 30,
@@ -2186,10 +2629,13 @@
       "netSentiment": 0.7,
       "zScore": 1.201,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": 0.106,
+      "isVolumeBurst": false,
+      "durationSeconds": 5943.0
     },
     {
-      "elapsedSeconds": 100142.0,
+      "elapsedSeconds": 139752.0,
       "bucketStart": "2024-09-21T14:49:12+00:00",
       "bucketEnd": "2024-09-21T16:06:37+00:00",
       "positive": 32,
@@ -2199,6 +2645,9 @@
       "zScore": 1.54,
       "isBurst": true,
       "direction": "POSITIVE_SPIKE",
+      "volumeZScore": 0.2,
+      "isVolumeBurst": false,
+      "durationSeconds": 4645.0,
       "topComments": [
         {
           "text": "페이커는 증명 해야 하는 선수는 아님 이젠 전세계 모든 선수중에서 유일하게 한계를 도전 하는 선수",
@@ -2403,7 +2852,7 @@
       ]
     },
     {
-      "elapsedSeconds": 105550.0,
+      "elapsedSeconds": 145160.0,
       "bucketStart": "2024-09-21T16:19:20+00:00",
       "bucketEnd": "2024-09-21T17:51:49+00:00",
       "positive": 26,
@@ -2412,10 +2861,13 @@
       "netSentiment": 0.5,
       "zScore": -0.153,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": 0.132,
+      "isVolumeBurst": false,
+      "durationSeconds": 5549.0
     },
     {
-      "elapsedSeconds": 111356.0,
+      "elapsedSeconds": 150966.0,
       "bucketStart": "2024-09-21T17:56:06+00:00",
       "bucketEnd": "2024-09-21T20:41:13+00:00",
       "positive": 26,
@@ -2424,10 +2876,13 @@
       "netSentiment": 0.45,
       "zScore": -0.492,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": -0.088,
+      "isVolumeBurst": false,
+      "durationSeconds": 9907.0
     },
     {
-      "elapsedSeconds": 121423.0,
+      "elapsedSeconds": 161033.0,
       "bucketStart": "2024-09-21T20:43:53+00:00",
       "bucketEnd": "2024-09-22T00:26:02+00:00",
       "positive": 29,
@@ -2436,10 +2891,13 @@
       "netSentiment": 0.55,
       "zScore": 0.185,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": -0.201,
+      "isVolumeBurst": false,
+      "durationSeconds": 13329.0
     },
     {
-      "elapsedSeconds": 134756.0,
+      "elapsedSeconds": 174366.0,
       "bucketStart": "2024-09-22T00:26:06+00:00",
       "bucketEnd": "2024-09-22T02:22:09+00:00",
       "positive": 28,
@@ -2448,10 +2906,13 @@
       "netSentiment": 0.475,
       "zScore": -0.323,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": 0.046,
+      "isVolumeBurst": false,
+      "durationSeconds": 6963.0
     },
     {
-      "elapsedSeconds": 141944.0,
+      "elapsedSeconds": 181554.0,
       "bucketStart": "2024-09-22T02:25:54+00:00",
       "bucketEnd": "2024-09-22T04:27:30+00:00",
       "positive": 27,
@@ -2460,10 +2921,13 @@
       "netSentiment": 0.575,
       "zScore": 0.355,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": 0.028,
+      "isVolumeBurst": false,
+      "durationSeconds": 7296.0
     },
     {
-      "elapsedSeconds": 149240.0,
+      "elapsedSeconds": 188850.0,
       "bucketStart": "2024-09-22T04:27:30+00:00",
       "bucketEnd": "2024-09-22T06:30:57+00:00",
       "positive": 30,
@@ -2472,10 +2936,13 @@
       "netSentiment": 0.7,
       "zScore": 1.201,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": 0.023,
+      "isVolumeBurst": false,
+      "durationSeconds": 7407.0
     },
     {
-      "elapsedSeconds": 156801.0,
+      "elapsedSeconds": 196411.0,
       "bucketStart": "2024-09-22T06:33:31+00:00",
       "bucketEnd": "2024-09-22T08:38:59+00:00",
       "positive": 19,
@@ -2485,6 +2952,9 @@
       "zScore": -2.185,
       "isBurst": true,
       "direction": "NEGATIVE_SPIKE",
+      "volumeZScore": 0.016,
+      "isVolumeBurst": false,
+      "durationSeconds": 7528.0,
       "topComments": [
         {
           "text": "4:59연출 고트",
@@ -2689,7 +3159,7 @@
       ]
     },
     {
-      "elapsedSeconds": 164396.0,
+      "elapsedSeconds": 204006.0,
       "bucketStart": "2024-09-22T08:40:06+00:00",
       "bucketEnd": "2024-09-22T10:33:32+00:00",
       "positive": 26,
@@ -2698,10 +3168,13 @@
       "netSentiment": 0.575,
       "zScore": 0.355,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": 0.055,
+      "isVolumeBurst": false,
+      "durationSeconds": 6806.0
     },
     {
-      "elapsedSeconds": 171845.0,
+      "elapsedSeconds": 211455.0,
       "bucketStart": "2024-09-22T10:44:15+00:00",
       "bucketEnd": "2024-09-22T13:09:24+00:00",
       "positive": 29,
@@ -2710,10 +3183,13 @@
       "netSentiment": 0.675,
       "zScore": 1.032,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": -0.039,
+      "isVolumeBurst": false,
+      "durationSeconds": 8709.0
     },
     {
-      "elapsedSeconds": 180815.0,
+      "elapsedSeconds": 220425.0,
       "bucketStart": "2024-09-22T13:13:45+00:00",
       "bucketEnd": "2024-09-22T15:38:05+00:00",
       "positive": 27,
@@ -2722,10 +3198,13 @@
       "netSentiment": 0.65,
       "zScore": 0.863,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": -0.037,
+      "isVolumeBurst": false,
+      "durationSeconds": 8660.0
     },
     {
-      "elapsedSeconds": 189572.0,
+      "elapsedSeconds": 229182.0,
       "bucketStart": "2024-09-22T15:39:42+00:00",
       "bucketEnd": "2024-09-22T19:47:14+00:00",
       "positive": 24,
@@ -2734,10 +3213,13 @@
       "netSentiment": 0.575,
       "zScore": 0.355,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": -0.242,
+      "isVolumeBurst": false,
+      "durationSeconds": 14852.0
     },
     {
-      "elapsedSeconds": 204796.0,
+      "elapsedSeconds": 244406.0,
       "bucketStart": "2024-09-22T19:53:26+00:00",
       "bucketEnd": "2024-09-23T00:05:47+00:00",
       "positive": 30,
@@ -2746,10 +3228,13 @@
       "netSentiment": 0.7,
       "zScore": 1.201,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": -0.249,
+      "isVolumeBurst": false,
+      "durationSeconds": 15141.0
     },
     {
-      "elapsedSeconds": 220499.0,
+      "elapsedSeconds": 260109.0,
       "bucketStart": "2024-09-23T00:15:09+00:00",
       "bucketEnd": "2024-09-23T04:11:59+00:00",
       "positive": 19,
@@ -2758,10 +3243,13 @@
       "netSentiment": 0.325,
       "zScore": -1.338,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": -0.225,
+      "isVolumeBurst": false,
+      "durationSeconds": 14210.0
     },
     {
-      "elapsedSeconds": 234986.0,
+      "elapsedSeconds": 274596.0,
       "bucketStart": "2024-09-23T04:16:36+00:00",
       "bucketEnd": "2024-09-23T06:59:31+00:00",
       "positive": 30,
@@ -2770,10 +3258,13 @@
       "netSentiment": 0.6,
       "zScore": 0.524,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": -0.083,
+      "isVolumeBurst": false,
+      "durationSeconds": 9775.0
     },
     {
-      "elapsedSeconds": 244850.0,
+      "elapsedSeconds": 284460.0,
       "bucketStart": "2024-09-23T07:01:00+00:00",
       "bucketEnd": "2024-09-23T11:18:46+00:00",
       "positive": 19,
@@ -2782,10 +3273,13 @@
       "netSentiment": 0.325,
       "zScore": -1.338,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": -0.257,
+      "isVolumeBurst": false,
+      "durationSeconds": 15466.0
     },
     {
-      "elapsedSeconds": 260886.0,
+      "elapsedSeconds": 300496.0,
       "bucketStart": "2024-09-23T11:28:16+00:00",
       "bucketEnd": "2024-09-23T14:55:03+00:00",
       "positive": 23,
@@ -2794,10 +3288,13 @@
       "netSentiment": 0.475,
       "zScore": -0.323,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": -0.173,
+      "isVolumeBurst": false,
+      "durationSeconds": 12407.0
     },
     {
-      "elapsedSeconds": 274155.0,
+      "elapsedSeconds": 313765.0,
       "bucketStart": "2024-09-23T15:09:25+00:00",
       "bucketEnd": "2024-09-23T17:27:26+00:00",
       "positive": 23,
@@ -2806,10 +3303,13 @@
       "netSentiment": 0.425,
       "zScore": -0.661,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": -0.02,
+      "isVolumeBurst": false,
+      "durationSeconds": 8281.0
     },
     {
-      "elapsedSeconds": 282885.0,
+      "elapsedSeconds": 322495.0,
       "bucketStart": "2024-09-23T17:34:55+00:00",
       "bucketEnd": "2024-09-23T21:56:02+00:00",
       "positive": 22,
@@ -2818,10 +3318,13 @@
       "netSentiment": 0.4,
       "zScore": -0.831,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": -0.262,
+      "isVolumeBurst": false,
+      "durationSeconds": 15667.0
     },
     {
-      "elapsedSeconds": 298971.0,
+      "elapsedSeconds": 338581.0,
       "bucketStart": "2024-09-23T22:03:01+00:00",
       "bucketEnd": "2024-09-24T03:11:04+00:00",
       "positive": 22,
@@ -2830,10 +3333,13 @@
       "netSentiment": 0.35,
       "zScore": -1.169,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": -0.325,
+      "isVolumeBurst": false,
+      "durationSeconds": 18483.0
     },
     {
-      "elapsedSeconds": 317459.0,
+      "elapsedSeconds": 357069.0,
       "bucketStart": "2024-09-24T03:11:09+00:00",
       "bucketEnd": "2024-09-24T07:20:20+00:00",
       "positive": 22,
@@ -2842,10 +3348,13 @@
       "netSentiment": 0.4,
       "zScore": -0.831,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": -0.244,
+      "isVolumeBurst": false,
+      "durationSeconds": 14951.0
     },
     {
-      "elapsedSeconds": 332523.0,
+      "elapsedSeconds": 372133.0,
       "bucketStart": "2024-09-24T07:22:13+00:00",
       "bucketEnd": "2024-09-24T11:20:38+00:00",
       "positive": 22,
@@ -2855,6 +3364,9 @@
       "zScore": -1.508,
       "isBurst": true,
       "direction": "NEGATIVE_SPIKE",
+      "volumeZScore": -0.228,
+      "isVolumeBurst": false,
+      "durationSeconds": 14305.0,
       "topComments": [
         {
           "text": "웨이보 만나기 직전 민석이가 \"또 4시드\" 작게 말하는게 너무 가슴 아프다...",
@@ -3059,7 +3571,7 @@
       ]
     },
     {
-      "elapsedSeconds": 347166.0,
+      "elapsedSeconds": 386776.0,
       "bucketStart": "2024-09-24T11:26:16+00:00",
       "bucketEnd": "2024-09-24T16:42:51+00:00",
       "positive": 19,
@@ -3069,6 +3581,9 @@
       "zScore": -2.354,
       "isBurst": true,
       "direction": "NEGATIVE_SPIKE",
+      "volumeZScore": -0.335,
+      "isVolumeBurst": false,
+      "durationSeconds": 18995.0,
       "topComments": [
         {
           "text": "티붕이들아 너네가 노래 다시 만들어줘 속상해",
@@ -3273,7 +3788,7 @@
       ]
     },
     {
-      "elapsedSeconds": 366174.0,
+      "elapsedSeconds": 405784.0,
       "bucketStart": "2024-09-24T16:43:04+00:00",
       "bucketEnd": "2024-09-24T21:17:38+00:00",
       "positive": 13,
@@ -3283,6 +3798,9 @@
       "zScore": -3.201,
       "isBurst": true,
       "direction": "NEGATIVE_SPIKE",
+      "volumeZScore": -0.281,
+      "isVolumeBurst": false,
+      "durationSeconds": 16474.0,
       "topComments": [
         {
           "text": "진짜.. 월즈 뮤비 너무 상처다..😢 7년을 기다려온 우승.. 그리고 1년을 또 기다린 뮤비였는데 이렇게 상처를 주네",
@@ -3487,7 +4005,7 @@
       ]
     },
     {
-      "elapsedSeconds": 382719.0,
+      "elapsedSeconds": 422329.0,
       "bucketStart": "2024-09-24T21:18:49+00:00",
       "bucketEnd": "2024-09-25T05:29:03+00:00",
       "positive": 24,
@@ -3496,10 +4014,13 @@
       "netSentiment": 0.45,
       "zScore": -0.492,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": -0.502,
+      "isVolumeBurst": false,
+      "durationSeconds": 29414.0
     },
     {
-      "elapsedSeconds": 413771.0,
+      "elapsedSeconds": 453381.0,
       "bucketStart": "2024-09-25T05:56:21+00:00",
       "bucketEnd": "2024-09-25T14:22:37+00:00",
       "positive": 19,
@@ -3509,6 +4030,9 @@
       "zScore": -2.016,
       "isBurst": true,
       "direction": "NEGATIVE_SPIKE",
+      "volumeZScore": -0.514,
+      "isVolumeBurst": false,
+      "durationSeconds": 30376.0,
       "topComments": [
         {
           "text": "레드불... 24년 월즈 뮤비도 만들어주실래요?",
@@ -3713,7 +4237,7 @@
       ]
     },
     {
-      "elapsedSeconds": 444314.0,
+      "elapsedSeconds": 483924.0,
       "bucketStart": "2024-09-25T14:25:24+00:00",
       "bucketEnd": "2024-09-26T03:04:23+00:00",
       "positive": 24,
@@ -3722,10 +4246,13 @@
       "netSentiment": 0.475,
       "zScore": -0.323,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": -0.668,
+      "isVolumeBurst": false,
+      "durationSeconds": 45539.0
     },
     {
-      "elapsedSeconds": 490533.0,
+      "elapsedSeconds": 530143.0,
       "bucketStart": "2024-09-26T03:15:43+00:00",
       "bucketEnd": "2024-09-26T22:31:26+00:00",
       "positive": 25,
@@ -3734,10 +4261,13 @@
       "netSentiment": 0.5,
       "zScore": -0.153,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": -0.828,
+      "isVolumeBurst": false,
+      "durationSeconds": 69343.0
     },
     {
-      "elapsedSeconds": 562709.0,
+      "elapsedSeconds": 602319.0,
       "bucketStart": "2024-09-26T23:18:39+00:00",
       "bucketEnd": "2024-09-27T12:16:48+00:00",
       "positive": 24,
@@ -3746,10 +4276,13 @@
       "netSentiment": 0.475,
       "zScore": -0.323,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": -0.677,
+      "isVolumeBurst": false,
+      "durationSeconds": 46689.0
     },
     {
-      "elapsedSeconds": 614895.0,
+      "elapsedSeconds": 654505.0,
       "bucketStart": "2024-09-27T13:48:25+00:00",
       "bucketEnd": "2024-09-29T02:52:38+00:00",
       "positive": 28,
@@ -3758,10 +4291,13 @@
       "netSentiment": 0.65,
       "zScore": 0.863,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": -1.077,
+      "isVolumeBurst": false,
+      "durationSeconds": 133453.0
     },
     {
-      "elapsedSeconds": 748348.0,
+      "elapsedSeconds": 787958.0,
       "bucketStart": "2024-09-29T02:52:38+00:00",
       "bucketEnd": "2024-09-30T15:50:07+00:00",
       "positive": 24,
@@ -3770,10 +4306,13 @@
       "netSentiment": 0.5,
       "zScore": -0.153,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": -1.075,
+      "isVolumeBurst": false,
+      "durationSeconds": 133049.0
     },
     {
-      "elapsedSeconds": 881745.0,
+      "elapsedSeconds": 921355.0,
       "bucketStart": "2024-09-30T15:55:55+00:00",
       "bucketEnd": "2024-10-02T10:59:29+00:00",
       "positive": 26,
@@ -3782,10 +4321,13 @@
       "netSentiment": 0.575,
       "zScore": 0.355,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": -1.133,
+      "isVolumeBurst": false,
+      "durationSeconds": 155014.0
     },
     {
-      "elapsedSeconds": 1037660.0,
+      "elapsedSeconds": 1077270.0,
       "bucketStart": "2024-10-02T11:14:30+00:00",
       "bucketEnd": "2024-10-08T15:38:25+00:00",
       "positive": 21,
@@ -3794,10 +4336,13 @@
       "netSentiment": 0.375,
       "zScore": -1.0,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": -1.604,
+      "isVolumeBurst": false,
+      "durationSeconds": 534235.0
     },
     {
-      "elapsedSeconds": 1572638.0,
+      "elapsedSeconds": 1612248.0,
       "bucketStart": "2024-10-08T15:50:48+00:00",
       "bucketEnd": "2024-10-15T14:39:04+00:00",
       "positive": 22,
@@ -3806,10 +4351,13 @@
       "netSentiment": 0.475,
       "zScore": -0.323,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": -1.648,
+      "isVolumeBurst": false,
+      "durationSeconds": 600496.0
     },
     {
-      "elapsedSeconds": 2194102.0,
+      "elapsedSeconds": 2233712.0,
       "bucketStart": "2024-10-15T20:28:32+00:00",
       "bucketEnd": "2024-10-21T15:03:56+00:00",
       "positive": 25,
@@ -3818,10 +4366,13 @@
       "netSentiment": 0.5,
       "zScore": -0.153,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": -1.578,
+      "isVolumeBurst": false,
+      "durationSeconds": 498924.0
     },
     {
-      "elapsedSeconds": 2755043.0,
+      "elapsedSeconds": 2794653.0,
       "bucketStart": "2024-10-22T08:17:33+00:00",
       "bucketEnd": "2024-10-25T12:23:05+00:00",
       "positive": 24,
@@ -3830,10 +4381,13 @@
       "netSentiment": 0.55,
       "zScore": 0.185,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": -1.35,
+      "isVolumeBurst": false,
+      "durationSeconds": 273932.0
     },
     {
-      "elapsedSeconds": 3032485.0,
+      "elapsedSeconds": 3072095.0,
       "bucketStart": "2024-10-25T13:21:35+00:00",
       "bucketEnd": "2024-10-29T14:06:15+00:00",
       "positive": 27,
@@ -3842,10 +4396,13 @@
       "netSentiment": 0.6,
       "zScore": 0.524,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": -1.441,
+      "isVolumeBurst": false,
+      "durationSeconds": 348280.0
     },
     {
-      "elapsedSeconds": 3381145.0,
+      "elapsedSeconds": 3420755.0,
       "bucketStart": "2024-10-29T14:12:35+00:00",
       "bucketEnd": "2024-11-01T09:20:51+00:00",
       "positive": 24,
@@ -3854,10 +4411,13 @@
       "netSentiment": 0.525,
       "zScore": 0.016,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": -1.302,
+      "isVolumeBurst": false,
+      "durationSeconds": 241696.0
     },
     {
-      "elapsedSeconds": 3635664.0,
+      "elapsedSeconds": 3675274.0,
       "bucketStart": "2024-11-01T12:54:34+00:00",
       "bucketEnd": "2024-11-03T14:06:56+00:00",
       "positive": 29,
@@ -3866,10 +4426,13 @@
       "netSentiment": 0.7,
       "zScore": 1.201,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": -1.184,
+      "isVolumeBurst": false,
+      "durationSeconds": 177142.0
     },
     {
-      "elapsedSeconds": 3814370.0,
+      "elapsedSeconds": 3853980.0,
       "bucketStart": "2024-11-03T14:33:00+00:00",
       "bucketEnd": "2024-11-05T19:50:39+00:00",
       "positive": 26,
@@ -3878,10 +4441,13 @@
       "netSentiment": 0.625,
       "zScore": 0.693,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": -1.214,
+      "isVolumeBurst": false,
+      "durationSeconds": 191859.0
     },
     {
-      "elapsedSeconds": 4007055.0,
+      "elapsedSeconds": 4046665.0,
       "bucketStart": "2024-11-05T20:04:25+00:00",
       "bucketEnd": "2024-11-11T05:42:49+00:00",
       "positive": 26,
@@ -3890,10 +4456,13 @@
       "netSentiment": 0.6,
       "zScore": 0.524,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": -1.552,
+      "isVolumeBurst": false,
+      "durationSeconds": 466704.0
     },
     {
-      "elapsedSeconds": 4480916.0,
+      "elapsedSeconds": 4520526.0,
       "bucketStart": "2024-11-11T07:42:06+00:00",
       "bucketEnd": "2024-12-03T12:08:59+00:00",
       "positive": 20,
@@ -3902,10 +4471,13 @@
       "netSentiment": 0.375,
       "zScore": -1.0,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": -2.089,
+      "isVolumeBurst": false,
+      "durationSeconds": 1916813.0
     },
     {
-      "elapsedSeconds": 6397732.0,
+      "elapsedSeconds": 6437342.0,
       "bucketStart": "2024-12-03T12:09:02+00:00",
       "bucketEnd": "2025-01-20T20:47:02+00:00",
       "positive": 22,
@@ -3914,10 +4486,13 @@
       "netSentiment": 0.5,
       "zScore": -0.153,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": -2.386,
+      "isVolumeBurst": false,
+      "durationSeconds": 4178280.0
     },
     {
-      "elapsedSeconds": 10576188.0,
+      "elapsedSeconds": 10615798.0,
       "bucketStart": "2025-01-20T20:49:58+00:00",
       "bucketEnd": "2025-04-25T17:35:16+00:00",
       "positive": 22,
@@ -3926,10 +4501,13 @@
       "netSentiment": 0.425,
       "zScore": -0.661,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": -2.642,
+      "isVolumeBurst": false,
+      "durationSeconds": 8196318.0
     },
     {
-      "elapsedSeconds": 18974585.0,
+      "elapsedSeconds": 19014195.0,
       "bucketStart": "2025-04-28T01:43:15+00:00",
       "bucketEnd": "2025-08-17T04:01:25+00:00",
       "positive": 19,
@@ -3938,10 +4516,13 @@
       "netSentiment": 0.375,
       "zScore": -1.0,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": -2.702,
+      "isVolumeBurst": false,
+      "durationSeconds": 9598690.0
     },
     {
-      "elapsedSeconds": 28573275.0,
+      "elapsedSeconds": 28612885.0,
       "bucketStart": "2025-08-17T04:01:25+00:00",
       "bucketEnd": "2025-11-04T05:38:00+00:00",
       "positive": 25,
@@ -3950,10 +4531,13 @@
       "netSentiment": 0.575,
       "zScore": 0.355,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": -2.573,
+      "isVolumeBurst": false,
+      "durationSeconds": 6831395.0
     },
     {
-      "elapsedSeconds": 35424393.0,
+      "elapsedSeconds": 35464003.0,
       "bucketStart": "2025-11-04T11:06:43+00:00",
       "bucketEnd": "2025-12-03T08:00:00+00:00",
       "positive": 16,
@@ -3963,6 +4547,9 @@
       "zScore": -2.693,
       "isBurst": true,
       "direction": "NEGATIVE_SPIKE",
+      "volumeZScore": -2.19,
+      "isVolumeBurst": false,
+      "durationSeconds": 2494397.0,
       "topComments": [
         {
           "text": "이때로 돌아갈수없는 찬란한 드라마였고 이제 2025년 도오페구케의 드라마도 끝났어\n2026년 우리는 어떻게 될까\n언제 어디에서도 응원할게 나의 티원♡",
@@ -4167,7 +4754,7 @@
       ]
     },
     {
-      "elapsedSeconds": 37978587.0,
+      "elapsedSeconds": 38018197.0,
       "bucketStart": "2025-12-04T00:36:37+00:00",
       "bucketEnd": "2026-06-28T13:44:40+00:00",
       "positive": 21,
@@ -4176,7 +4763,10 @@
       "netSentiment": 0.425,
       "zScore": -0.661,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": -2.938,
+      "isVolumeBurst": false,
+      "durationSeconds": 17845683.0
     }
   ],
   "keyInsights": [

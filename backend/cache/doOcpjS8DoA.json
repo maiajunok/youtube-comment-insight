@@ -1,0 +1,3972 @@
+{
+  "video": {
+    "videoId": "doOcpjS8DoA",
+    "title": "[𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭] 라고 썼지만 사실 직접 부른 슈퍼스타 도란의 플레이리스트♪ [KOR/ENG SUB]",
+    "channelTitle": "젠지 이스포츠 Gen.G Esports",
+    "thumbnailUrl": "https://i.ytimg.com/vi/doOcpjS8DoA/maxresdefault.jpg",
+    "publishedAt": "2022-12-01",
+    "viewCount": 760539,
+    "likeCount": 28304,
+    "analyzedComments": 1644,
+    "languageRatio": {
+      "ko": 56,
+      "en": 12,
+      "other": 32
+    },
+    "weightedSentiment": 63
+  },
+  "topics": [
+    {
+      "label": "노래와 춤",
+      "labelEn": "Singing and Dancing",
+      "labelZh": "唱歌和跳舞",
+      "labelJa": "歌とダンス",
+      "mentionCount": 537,
+      "sentiment": {
+        "positive": 66,
+        "neutral": 29,
+        "negative": 5
+      },
+      "confidence": {
+        "positive": {
+          "level": "HIGH",
+          "ciLow": 62.2,
+          "ciHigh": 70.2,
+          "sampleSize": 537
+        },
+        "negative": {
+          "level": "HIGH",
+          "ciLow": 3.3,
+          "ciHigh": 7.0,
+          "sampleSize": 537
+        }
+      }
+    },
+    {
+      "label": "팬들과의 소통",
+      "labelEn": "Communication with Fans",
+      "labelZh": "与粉丝的沟通",
+      "labelJa": "ファンとのコミュニケーション",
+      "mentionCount": 391,
+      "sentiment": {
+        "positive": 59,
+        "neutral": 37,
+        "negative": 4
+      },
+      "confidence": {
+        "positive": {
+          "level": "HIGH",
+          "ciLow": 54.4,
+          "ciHigh": 64.1,
+          "sampleSize": 391
+        },
+        "negative": {
+          "level": "HIGH",
+          "ciLow": 2.5,
+          "ciHigh": 6.5,
+          "sampleSize": 391
+        }
+      }
+    },
+    {
+      "label": "도란의 매력",
+      "labelEn": "Doran's Charm",
+      "labelZh": "多兰的魅力",
+      "labelJa": "ドランの魅力",
+      "mentionCount": 365,
+      "sentiment": {
+        "positive": 73,
+        "neutral": 24,
+        "negative": 4
+      },
+      "confidence": {
+        "positive": {
+          "level": "HIGH",
+          "ciLow": 68.1,
+          "ciHigh": 77.2,
+          "sampleSize": 365
+        },
+        "negative": {
+          "level": "HIGH",
+          "ciLow": 2.1,
+          "ciHigh": 6.0,
+          "sampleSize": 365
+        }
+      }
+    },
+    {
+      "label": "도란의 성과",
+      "labelEn": "Doran's Achievement",
+      "labelZh": "多兰的成就",
+      "labelJa": "ドランの成果",
+      "mentionCount": 219,
+      "sentiment": {
+        "positive": 67,
+        "neutral": 30,
+        "negative": 4
+      },
+      "confidence": {
+        "positive": {
+          "level": "HIGH",
+          "ciLow": 60.2,
+          "ciHigh": 72.6,
+          "sampleSize": 219
+        },
+        "negative": {
+          "level": "HIGH",
+          "ciLow": 1.9,
+          "ciHigh": 7.0,
+          "sampleSize": 219
+        }
+      }
+    },
+    {
+      "label": "공연 및 콘텐츠",
+      "labelEn": "Performance and Content",
+      "labelZh": "演出和内容",
+      "labelJa": "パフォーマンスとコンテンツ",
+      "mentionCount": 132,
+      "sentiment": {
+        "positive": 55,
+        "neutral": 42,
+        "negative": 3
+      },
+      "confidence": {
+        "positive": {
+          "level": "HIGH",
+          "ciLow": 46.0,
+          "ciHigh": 62.8,
+          "sampleSize": 132
+        },
+        "negative": {
+          "level": "HIGH",
+          "ciLow": 1.2,
+          "ciHigh": 7.5,
+          "sampleSize": 132
+        }
+      }
+    }
+  ],
+  "reactionTimeline": [
+    {
+      "elapsedSeconds": 36065.0,
+      "bucketStart": "2022-12-01T10:01:05+00:00",
+      "bucketEnd": "2022-12-01T10:33:01+00:00",
+      "positive": 35,
+      "neutral": 5,
+      "negative": 0,
+      "netSentiment": 0.875,
+      "zScore": 2.687,
+      "isBurst": true,
+      "direction": "POSITIVE_SPIKE",
+      "volumeZScore": 2.971,
+      "isVolumeBurst": true,
+      "durationSeconds": 1916.0,
+      "topComments": [
+        {
+          "text": "친절하게 자막까지 넣어준 영상팀에게 박수를",
+          "likeCount": 558,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "도란 미쳤다 진짜 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ 으르렁이 엄청웃김 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 476,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "고음 삑사리나도 안 빼고 목 쉴때까지 다 불러주고, 포인트잡은 안무에 앵콜까지...\n슈퍼스타란!! 너무 행복했읍니다",
+          "likeCount": 416,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "11:00 에오~~!",
+          "likeCount": 377,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "도란은 진짜 전설이다",
+          "likeCount": 260,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "아이도란 폼 미쳤다",
+          "likeCount": 146,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "프로게이머가 이르케 매력이 철철 넘쳐도 되는건가 싶구 막 그래..",
+          "likeCount": 136,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "GD (Gen.G Doran) 😎🤙🏻🫶🏻",
+          "likeCount": 129,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "도퍼스타 아이돌력 ㄷㄷㄷ",
+          "likeCount": 93,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "대 황 란 진짜 세상에 니가 해내지 못할일은 없다고 본다\n볼수록 멋진쉑히",
+          "likeCount": 65,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "본인 챔프폭처럼 다양한 장르 섭렵하는 대황란",
+          "likeCount": 49,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "최현준 폼 미쳤다",
+          "likeCount": 44,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "진짜 슈퍼스타다..",
+          "likeCount": 36,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "이걸올려주네ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ 최고다 도란!",
+          "likeCount": 27,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "킬링보이스에 이어 콘서트를 준비한 황란",
+          "likeCount": 24,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "지구가 흔들렸다!!! 도퍼스타!!!",
+          "likeCount": 21,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "도퍼스타 킹 란",
+          "likeCount": 19,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "이 남자 진짜 한계가 어디까지 일까.?",
+          "likeCount": 16,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "The GOAT toplaner",
+          "likeCount": 14,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "박재범&도퍼스타 콜라보 존버",
+          "likeCount": 13,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "도란나 진짜 ㅋㅋㅋㅋㅋ",
+          "likeCount": 11,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋ역시 도란 슈퍼스타",
+          "likeCount": 10,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ 이건 못참지",
+          "likeCount": 9,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "큰 거 왔다",
+          "likeCount": 9,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "1시간 도서트는 못참지",
+          "likeCount": 9,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "감사합니다 감사합니다 감사합니다 편집자님",
+          "likeCount": 9,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "잘한다 잘한다 잘한다~",
+          "likeCount": 7,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "자신감 ㅈㄴ 세다 ㅋㅋㅋ",
+          "likeCount": 7,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "왔구나 오늘 내 저녁",
+          "likeCount": 6,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "이거다..이거야...!!",
+          "likeCount": 6,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "젠지 감있네ㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 6,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "최현준 굉장하다",
+          "likeCount": 6,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "겁 처음에 박자 안맞는거 웃기네 ㅋㅋㅋㅋㅋ",
+          "likeCount": 4,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ한시간ㅋㅁㅣ쳤다ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ 성대가 비상하네요",
+          "likeCount": 4,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "이걸 다올리넼ㅋㅋㅋ",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "종신하자 현준아",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "캬",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "도이브 ㄷㄷ",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        }
+      ]
+    },
+    {
+      "elapsedSeconds": 37986.0,
+      "bucketStart": "2022-12-01T10:33:06+00:00",
+      "bucketEnd": "2022-12-01T11:43:09+00:00",
+      "positive": 31,
+      "neutral": 7,
+      "negative": 2,
+      "netSentiment": 0.725,
+      "zScore": 1.153,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": 2.59,
+      "isVolumeBurst": true,
+      "durationSeconds": 4203.0,
+      "topComments": [
+        {
+          "text": "맨정신이라는게 진짜 프로정신 최고다",
+          "likeCount": 1733,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "술마신거아닙니다 미션아닙니다 계약땜에한것도 아닙니다. 슈스끼를 주체못해 나온 명영상이라는게 ㄹㅈㄷ",
+          "likeCount": 1645,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "새벽에 이거보면서 미친듯이 웃었음ㅋㅋㅋㅋㅋ \n진짜 사랑스럽다 아이도란",
+          "likeCount": 437,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "28:12 도르렁 도르렁 도르렁 대ㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 293,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "음정을 가지고 노는 최현준 폼 미쳤다,,,,",
+          "likeCount": 268,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "팬들 위해서 이것저것 많은 모습 보여 줄려고 노력하는 모습이 너무 이뻐보임 ㅋㅋ",
+          "likeCount": 171,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "아니 이 양반 대체 몇 곡을 부른거야 ㅋㅋㅋㅋㅋ 플레이 리스트 보고 내 눈을 의심함 ㅋㅋ",
+          "likeCount": 142,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "대황란 ㄷㄷ 춤 추는 거 봐 포인트 진짜 야무지게 잘 잡는다…",
+          "likeCount": 100,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "팬들 위해서 열창하는모습 너무 멋있습니다. 도란선수 2023년도 도 잘부탁해요 신나는모습이 너무 보기 좋습니다",
+          "likeCount": 98,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "나 이제 도프터라이크 안본 사람이랑 상종 안함. 딴건 몰라도 이건 풀버전 꼭 봐야 한다.",
+          "likeCount": 71,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "우울할 때마다 한곡씩 들으러 올게요,,,",
+          "likeCount": 70,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "진정한 슈퍼스타다 도란..",
+          "likeCount": 62,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "진짜 할아버지 돼서도 지워지지 않을 것 같은 찐따미 존나 귀엽네",
+          "likeCount": 55,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "진짜 골 때리네 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ 아 너무 웃기다 ,, 데뷔해 최현준 ,,,,",
+          "likeCount": 52,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "도란 이 재능을 아이돌 안하고 프로하느라 썩히네..",
+          "likeCount": 51,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "Can't wait to hear content team use this on ending credits",
+          "likeCount": 44,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "도란 띵곡 많이부르네 ㄷㄷ",
+          "likeCount": 33,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "슈퍼스타 아이도란 최고다♥♥♥",
+          "likeCount": 22,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "와 이걸 풀로 올려주넼ㅋㅋㅋ감사합니닼ㅋㅋㅋㅋㅋ",
+          "likeCount": 21,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "The GOAT Toplaner - GenG.Doran",
+          "likeCount": 20,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "도프터라이크는 GOAT다",
+          "likeCount": 16,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "그래서 lck 다른 탑라이너들 이런거 할수있냐고~ ㅋㅋ 그저 유일무이란",
+          "likeCount": 10,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "genius",
+          "likeCount": 9,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "이렇게 도며드는건가요....도며들어",
+          "likeCount": 9,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "이러시는 이유가 있을 거 아니에요",
+          "likeCount": 9,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "도란사랑해!!!",
+          "likeCount": 8,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "이 플리 무덤까지 간직할게요",
+          "likeCount": 8,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "다시는 롤드컵4강 불평하지않을게...제발 멈춰..",
+          "likeCount": 8,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "출근길 잠깨는 최고의 선택...",
+          "likeCount": 6,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "왜 잘하냐고 ㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 5,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "근데 어째 그간 그렇게 불러대더니 좀 실력 오른거 같기도?",
+          "likeCount": 5,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ💛",
+          "likeCount": 4,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "개추 ㅋㅋㅋㅋ",
+          "likeCount": 4,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "퇴근길 버스안 최고의 선택...!",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "🤣🤣",
+          "likeCount": 3,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋ\n보고싶었다궁~~^^",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "It was a very good video, despite the fact that he sings out of tune (like me) it was great fun to listen to while working !!!! Thx Doran and GEN.G <3",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "미 폼 대황란쳤다",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        }
+      ]
+    },
+    {
+      "elapsedSeconds": 42447.0,
+      "bucketStart": "2022-12-01T11:47:27+00:00",
+      "bucketEnd": "2022-12-01T15:13:41+00:00",
+      "positive": 32,
+      "neutral": 6,
+      "negative": 2,
+      "netSentiment": 0.75,
+      "zScore": 1.409,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": 2.067,
+      "isVolumeBurst": true,
+      "durationSeconds": 12374.0,
+      "topComments": [
+        {
+          "text": "이걸 방송키고 부른 미친 자신감이 부럽다",
+          "likeCount": 1563,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "10:36 욕 안하는 무대매너 미쳤",
+          "likeCount": 1267,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "2022 MAMA 왜 안나왓노",
+          "likeCount": 1094,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "티원팬인데 1시간 안넘기고 다 봤음ㅋㅋ\n확실히 스타는 스타네요 도란\n보면 볼수록 존나 귀엽다..",
+          "likeCount": 853,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "젠지 스카우터의 라이벌은 구단들이 아니라…\n연예기획사들이다.",
+          "likeCount": 736,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "8:20 폼 미쳤다ㄷㄷㄷㄷㄷ",
+          "likeCount": 661,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "59:58 “워윅”",
+          "likeCount": 398,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "@름이성-m9o 이딴거라뇨 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 128,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "48:05 부터 코러스 올타임 레전드 ㄷㄷ",
+          "likeCount": 115,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "그러니까 이딴걸 몇번씩 다시보면서 자막넣고 씽크맞추고 했다는거지?  진짜 고생했네 ㄷㄷ",
+          "likeCount": 91,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "멜뮤 왜 봄 도란 방송에 빅뱅 엑소 아이유 다 있는데 ㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 72,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "썸머우승하면 노래 부른다고 한걸 이걸로 해준거라고본다👏👏",
+          "likeCount": 54,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "살다살다 프로게이머의 코노 매드무비를 보네ㅋㅋㅋ",
+          "likeCount": 31,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "그의 슈퍼스타력은 어디까지인 것인가…",
+          "likeCount": 18,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "생목으로 1시간 부르는데 목이안쉬네 대 황 란",
+          "likeCount": 15,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "내꺼 중에 최고~ 내가 가장 좋아 하는 선수~ 도란 선수 화이팅입니다",
+          "likeCount": 11,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "생방 볼 때 미치는 줄 알았음... 최현준 므시따악!!!@@",
+          "likeCount": 9,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "같이 노래방 가고 싶은 남자 대황란\n슈퍼스타 최현준 다음 콘서트 그래서 언제?ㅎㅎㅎㅎ",
+          "likeCount": 9,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "도며들었다....",
+          "likeCount": 8,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "아 으르렁 ㅅㅂ 존나웃겨진짜 망치질 뭔데 아 잡아먹힐것같음..",
+          "likeCount": 7,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "내가 듣는 투탑 노래방\n도란, 침착맨\n김범수, 나얼, 박효신, 도란, 침착맨 렛츠고",
+          "likeCount": 7,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "슈퍼스터 도란 \n저장하고 힘들 때마다 봐야지",
+          "likeCount": 6,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "슈 퍼 스 타",
+          "likeCount": 6,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "아이브에서 송치한다고 하는데요?",
+          "likeCount": 6,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "너무 귀욥다 ☺️",
+          "likeCount": 6,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "이게 어떻게 맨정신 텐션 ㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 5,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "우탑도 우탑도 우탑도!!!!!!!!!🤣🤣🤣🤣🤣🤣",
+          "likeCount": 5,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "아니 ㅋㅋㅋ 1시간 뭔데",
+          "likeCount": 4,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "대황란감동란",
+          "likeCount": 4,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "DORAN ARTIST OF THE YEAR FR",
+          "likeCount": 4,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "사랑한다 최현준",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "큰거왔다",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "모두가 기다렸던 영상",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "진짜 슈퍼스타다",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "진짜 슈퍼스타 ㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "이젠 감동란선생님 방송 킬 때마다 기대되요",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "이..이게 뭐노",
+          "likeCount": 2,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "I need to update my geng 22 *doran playlist ㅋㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "진짜 존나못부른다",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        }
+      ]
+    },
+    {
+      "elapsedSeconds": 55349.0,
+      "bucketStart": "2022-12-01T15:22:29+00:00",
+      "bucketEnd": "2022-12-03T16:40:12+00:00",
+      "positive": 25,
+      "neutral": 12,
+      "negative": 3,
+      "netSentiment": 0.55,
+      "zScore": -0.636,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": 0.778,
+      "isVolumeBurst": false,
+      "durationSeconds": 177463.0
+    },
+    {
+      "elapsedSeconds": 269035.0,
+      "bucketStart": "2022-12-04T02:43:55+00:00",
+      "bucketEnd": "2023-02-07T23:47:53+00:00",
+      "positive": 31,
+      "neutral": 9,
+      "negative": 0,
+      "netSentiment": 0.775,
+      "zScore": 1.665,
+      "isBurst": true,
+      "direction": "POSITIVE_SPIKE",
+      "volumeZScore": -0.901,
+      "isVolumeBurst": false,
+      "durationSeconds": 5691838.0,
+      "topComments": [
+        {
+          "text": "진정한 케이팝 스타.. 도란 사랑해요...",
+          "likeCount": 301,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "아 울프 방송보다가 울프가 이거 틀어놔서 도며듦",
+          "likeCount": 214,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "학교에서 매우 힘든 한 주를 보낸 후에 이 비디오는 내 에너지를 되찾게 해주었어요. 도란은 정말 재미있어요. 저는 웃고 노래하는 것을 멈출 수 없어요 ㅋㅋㅋㅋ 도란 항상 파이팅!!!! 멕시코에서 인사드립니당~",
+          "likeCount": 120,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "일하면서 들어도 행복지수를 올려주는 너란남자...",
+          "likeCount": 60,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "돌겠네...울프때문에 도란 유후가 귓가에서 사라지지않아....1일1영상이야...",
+          "likeCount": 23,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "팬들에게 웃음을 주는 진정한 프로다",
+          "likeCount": 23,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "울프형 고마워",
+          "likeCount": 20,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "선생님 감사합니다. 덕분에 으르렁 봤음..ㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 16,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "도란 진짜 호감임ㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 7,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "영원한 슈퍼스타 LCK 아이도루 최 \"Doran\" 현준",
+          "likeCount": 5,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "눈호강 귀호강 하다 갑니다. 😂🎉",
+          "likeCount": 5,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "저도 홀란, 음바페 뜨게해주세요",
+          "likeCount": 5,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "롤드컵 우승하면 콘서트 열자",
+          "likeCount": 4,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "그거 다이노소어 아니고 익룡이야….",
+          "likeCount": 3,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "잘생기면 단가 ,, 아이도란 ㄱㅇㅇ",
+          "likeCount": 3,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "진짜 볼때마다 웃네\n아껴봐야징",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "최현준이랑 노래방 마렵게 만드는 영상..",
+          "likeCount": 2,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "Doran so funny",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋ이렇게보니까 약간 승헌쓰닮았는디",
+          "likeCount": 2,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "도란의 겁 들으면서 주사위 모먼트 생각났다…. 도란의 노래에는 감동이 있다😢",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "도란이 부른 아이브 노래가 자꾸 생각나.....",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "와...뭘까?",
+          "likeCount": 2,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "이 남자 일류다…❤",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㅋㅋㅋ이게 맨정신이라니",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "오늘도 들으러 왔습니다. 왜 계속 생각나게 하는거죠 이 마성의 남자?",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "ㅋㅋㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "침착맨급 당당함 너무 멋지다 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "이 날 라이브때 반응 미쳤었지",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "저도 노래방에서 지디노래 심취해서 잘 부르는데 도란선수랑 한 번 불러보고 싶네요 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "감미롭다… 감미롭다… 진짜 감미롭다…",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "슈퍼스타다",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋㅋㅋ아진ㅁ자존나웃기네 최현준ㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "중간에 옷 바뀜 ㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "오늘도 승리기념으로 완곡 때리러 왔습니다",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "당신은 최고입니다",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Legend❤",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "도퍼스타..",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "와,...............",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "도드래곤 폼 미쳤다...",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "썸네일만보고 앰비션인줄 알았네..ㅋㅋ ㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        }
+      ]
+    },
+    {
+      "elapsedSeconds": 6140259.0,
+      "bucketStart": "2023-02-10T01:37:39+00:00",
+      "bucketEnd": "2023-04-15T02:09:23+00:00",
+      "positive": 27,
+      "neutral": 10,
+      "negative": 3,
+      "netSentiment": 0.6,
+      "zScore": -0.125,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": -0.887,
+      "isVolumeBurst": false,
+      "durationSeconds": 5531504.0
+    },
+    {
+      "elapsedSeconds": 11791131.0,
+      "bucketStart": "2023-04-16T11:18:51+00:00",
+      "bucketEnd": "2023-07-26T07:40:10+00:00",
+      "positive": 25,
+      "neutral": 13,
+      "negative": 2,
+      "netSentiment": 0.575,
+      "zScore": -0.38,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": -1.107,
+      "isVolumeBurst": false,
+      "durationSeconds": 8713279.0
+    },
+    {
+      "elapsedSeconds": 21096108.0,
+      "bucketStart": "2023-08-02T04:01:48+00:00",
+      "bucketEnd": "2023-12-10T10:20:51+00:00",
+      "positive": 28,
+      "neutral": 7,
+      "negative": 5,
+      "netSentiment": 0.575,
+      "zScore": -0.38,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": -1.231,
+      "isVolumeBurst": false,
+      "durationSeconds": 11254743.0
+    },
+    {
+      "elapsedSeconds": 32416806.0,
+      "bucketStart": "2023-12-11T04:40:06+00:00",
+      "bucketEnd": "2024-03-28T13:56:26+00:00",
+      "positive": 26,
+      "neutral": 14,
+      "negative": 0,
+      "netSentiment": 0.65,
+      "zScore": 0.387,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": -1.142,
+      "isVolumeBurst": false,
+      "durationSeconds": 9364580.0
+    },
+    {
+      "elapsedSeconds": 42029552.0,
+      "bucketStart": "2024-03-31T10:52:32+00:00",
+      "bucketEnd": "2024-07-08T22:00:17+00:00",
+      "positive": 30,
+      "neutral": 9,
+      "negative": 1,
+      "netSentiment": 0.725,
+      "zScore": 1.153,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": -1.101,
+      "isVolumeBurst": false,
+      "durationSeconds": 8593665.0
+    },
+    {
+      "elapsedSeconds": 50950854.0,
+      "bucketStart": "2024-07-12T17:00:54+00:00",
+      "bucketEnd": "2024-09-29T19:13:47+00:00",
+      "positive": 24,
+      "neutral": 15,
+      "negative": 1,
+      "netSentiment": 0.575,
+      "zScore": -0.38,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": -0.99,
+      "isVolumeBurst": false,
+      "durationSeconds": 6833573.0
+    },
+    {
+      "elapsedSeconds": 57915965.0,
+      "bucketStart": "2024-10-01T07:46:05+00:00",
+      "bucketEnd": "2024-11-20T11:24:32+00:00",
+      "positive": 24,
+      "neutral": 14,
+      "negative": 2,
+      "netSentiment": 0.55,
+      "zScore": -0.636,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": -0.769,
+      "isVolumeBurst": false,
+      "durationSeconds": 4333107.0
+    },
+    {
+      "elapsedSeconds": 62249892.0,
+      "bucketStart": "2024-11-20T11:38:12+00:00",
+      "bucketEnd": "2024-11-21T06:28:03+00:00",
+      "positive": 19,
+      "neutral": 19,
+      "negative": 2,
+      "netSentiment": 0.425,
+      "zScore": -1.914,
+      "isBurst": true,
+      "direction": "NEGATIVE_SPIKE",
+      "volumeZScore": 1.244,
+      "isVolumeBurst": false,
+      "durationSeconds": 67791.0,
+      "topComments": [
+        {
+          "text": "왜 젠지팬들만 이 좋은걸...",
+          "likeCount": 2038,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "티원 이참에 롤접고 아이돌그룹 하나 짜자\n\n메인보컬 오창섭\n래퍼 도란\n메인댄서 케리아\n리더 센터  페이커\n서브보컬 구마우시",
+          "likeCount": 242,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "올해 스토브는 삐딱하게",
+          "likeCount": 236,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "Welcome to T1🦖🦕🦖🦕🦖🦖🦖🦕🦖🦕🦕🦖🦕🦖🦕🦕🦕🦖🦖🦖🦖🦕🦕🦕",
+          "likeCount": 211,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "야이 (야이) • (야이..) • • • (야이...) • • • • (야이.....)",
+          "likeCount": 102,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "[T1粉絲補聽多蘭合輯簽到處]",
+          "likeCount": 81,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "티원 콘서트  기대 되다 도황 ㅎㅎ",
+          "likeCount": 42,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "너 좋다 너 최고 너 잘해",
+          "likeCount": 38,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "미치고 펄쩍 뛰게 하기는 하네",
+          "likeCount": 37,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "스타성 지린다 진짴ㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 36,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "hahahaha",
+          "likeCount": 15,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "靠夭哩 莫名其妙把整部影片聽完",
+          "likeCount": 12,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "ㅅㅂ 뒤지게 웃기네 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 12,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "낼 아침에 유산소 타면서 봐야겠다",
+          "likeCount": 11,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "*영원한건 절때 없어, 결국에 넌 변했지*\n*이별은 만남보다 참 쉬운 건가 봐, 차갑기만 한 사람*\n*아마 꿈만 같겠지만 분명 꿈이 아니야*\n*뒤돌아 봤을 때, 생각보다 멀리 와있었어. 난 혼자였고*\n*이제부터 웃음기 사라질거야, 가파른 이 길을 좀 봐* , *오랫동안 못 볼지 몰라*\n-Skkkk(r)t-\n\n(WINNER - 끼부리지마 부터)\n*오늘도 빌어 빌어 딴 사람이 널 채 가지 않게* , *한 번은 속아도 두 번은 안 속아*\n*달콤한데 슬픈 듯 아찔하게*\n\n*피가 안 통하는 이 기분*",
+          "likeCount": 11,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "케랴랑 합방 ㄱㄱ",
+          "likeCount": 11,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "세체탑 될 준비 하세요",
+          "likeCount": 10,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "와 진짜 노래방 같이 가고 싶다",
+          "likeCount": 9,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋㅋㅋㅋ진짜 민석이랑 왜 똑같냐곸ㅋㅋㅋㅋ",
+          "likeCount": 9,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "쓰밬ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 8,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "I bet every T1 fans has just seen this...",
+          "likeCount": 8,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ좋다",
+          "likeCount": 7,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋㅋㅋㅋ아 도며들었어",
+          "likeCount": 7,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "笑死 希望到t1能開始練歌",
+          "likeCount": 7,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "Sorry Doran but you are all just  offkey for the most of these songs 😂😂😂 it's okay tho, just ask the other Hyeonjun too and Sanghyuk hyung, they can also teach you vocalization",
+          "likeCount": 6,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "超愛多蘭的呆腦獸 神曲",
+          "likeCount": 5,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Danh ca Đỗ Lan trong huyền thoại sắp qua T đỏ đây hả 😂",
+          "likeCount": 5,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "welcome to t1 legend 😂💖",
+          "likeCount": 4,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "🦖🦕🦖🦕🦖🦕🦖🦕",
+          "likeCount": 4,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "티원팬 after like 보야되다",
+          "likeCount": 4,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "小K可以當主舞",
+          "likeCount": 3,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "Welcome to T1 XDDDDD",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "So this Geng vid will get tons of view just becos of T1 Doran 😂😂",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "if he aint performing well in the rift, he best be holding a mic to compensate..\n\n9:30 i'm dying he's spending a good second to just breath",
+          "likeCount": 3,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "the new t1 top laner LET'S GOOO 🔥",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "이번 스토브는 삐딱하게",
+          "likeCount": 2,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "S15全局BP T1多一隻上路死歌可以搖擺",
+          "likeCount": 2,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "而且不會只看一遍 我要瘋🆘🆘",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "저 둘을 동시에 품은 듀렉에는 무슨일이...",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "I agree haha you will feel happier when u hear him sing",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        }
+      ]
+    },
+    {
+      "elapsedSeconds": 62317760.0,
+      "bucketStart": "2024-11-21T06:29:20+00:00",
+      "bucketEnd": "2024-11-22T13:07:55+00:00",
+      "positive": 27,
+      "neutral": 13,
+      "negative": 0,
+      "netSentiment": 0.675,
+      "zScore": 0.642,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": 1.008,
+      "isVolumeBurst": false,
+      "durationSeconds": 110315.0
+    },
+    {
+      "elapsedSeconds": 62430663.0,
+      "bucketStart": "2024-11-22T13:51:03+00:00",
+      "bucketEnd": "2024-11-24T00:34:23+00:00",
+      "positive": 21,
+      "neutral": 18,
+      "negative": 1,
+      "netSentiment": 0.5,
+      "zScore": -1.147,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": 0.948,
+      "isVolumeBurst": false,
+      "durationSeconds": 125000.0
+    },
+    {
+      "elapsedSeconds": 62563753.0,
+      "bucketStart": "2024-11-24T02:49:13+00:00",
+      "bucketEnd": "2024-11-25T10:25:26+00:00",
+      "positive": 24,
+      "neutral": 12,
+      "negative": 4,
+      "netSentiment": 0.5,
+      "zScore": -1.147,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": 0.993,
+      "isVolumeBurst": false,
+      "durationSeconds": 113773.0
+    },
+    {
+      "elapsedSeconds": 62678023.0,
+      "bucketStart": "2024-11-25T10:33:43+00:00",
+      "bucketEnd": "2024-11-27T09:22:04+00:00",
+      "positive": 26,
+      "neutral": 12,
+      "negative": 2,
+      "netSentiment": 0.6,
+      "zScore": -0.125,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": 0.803,
+      "isVolumeBurst": false,
+      "durationSeconds": 168501.0
+    },
+    {
+      "elapsedSeconds": 62849917.0,
+      "bucketStart": "2024-11-27T10:18:37+00:00",
+      "bucketEnd": "2024-12-05T05:19:21+00:00",
+      "positive": 27,
+      "neutral": 12,
+      "negative": 1,
+      "netSentiment": 0.65,
+      "zScore": 0.387,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": 0.132,
+      "isVolumeBurst": false,
+      "durationSeconds": 673244.0
+    },
+    {
+      "elapsedSeconds": 63533157.0,
+      "bucketStart": "2024-12-05T08:05:57+00:00",
+      "bucketEnd": "2024-12-19T18:08:45+00:00",
+      "positive": 25,
+      "neutral": 14,
+      "negative": 1,
+      "netSentiment": 0.6,
+      "zScore": -0.125,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": -0.166,
+      "isVolumeBurst": false,
+      "durationSeconds": 1245768.0
+    },
+    {
+      "elapsedSeconds": 64800768.0,
+      "bucketStart": "2024-12-20T00:12:48+00:00",
+      "bucketEnd": "2024-12-31T14:08:37+00:00",
+      "positive": 23,
+      "neutral": 15,
+      "negative": 2,
+      "netSentiment": 0.525,
+      "zScore": -0.891,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": -0.059,
+      "isVolumeBurst": false,
+      "durationSeconds": 1000549.0
+    },
+    {
+      "elapsedSeconds": 65803356.0,
+      "bucketStart": "2024-12-31T14:42:36+00:00",
+      "bucketEnd": "2025-01-16T15:46:14+00:00",
+      "positive": 27,
+      "neutral": 12,
+      "negative": 1,
+      "netSentiment": 0.65,
+      "zScore": 0.387,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": -0.217,
+      "isVolumeBurst": false,
+      "durationSeconds": 1386218.0
+    },
+    {
+      "elapsedSeconds": 67260885.0,
+      "bucketStart": "2025-01-17T11:34:45+00:00",
+      "bucketEnd": "2025-02-08T20:36:57+00:00",
+      "positive": 25,
+      "neutral": 13,
+      "negative": 2,
+      "netSentiment": 0.575,
+      "zScore": -0.38,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": -0.378,
+      "isVolumeBurst": false,
+      "durationSeconds": 1933332.0
+    },
+    {
+      "elapsedSeconds": 69208519.0,
+      "bucketStart": "2025-02-09T00:35:19+00:00",
+      "bucketEnd": "2025-03-13T04:43:10+00:00",
+      "positive": 28,
+      "neutral": 11,
+      "negative": 1,
+      "netSentiment": 0.675,
+      "zScore": 0.642,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": -0.554,
+      "isVolumeBurst": false,
+      "durationSeconds": 2779671.0
+    },
+    {
+      "elapsedSeconds": 72089429.0,
+      "bucketStart": "2025-03-14T08:50:29+00:00",
+      "bucketEnd": "2025-05-16T07:16:38+00:00",
+      "positive": 30,
+      "neutral": 9,
+      "negative": 1,
+      "netSentiment": 0.725,
+      "zScore": 1.153,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": -0.879,
+      "isVolumeBurst": false,
+      "durationSeconds": 5437569.0
+    },
+    {
+      "elapsedSeconds": 77530588.0,
+      "bucketStart": "2025-05-16T08:16:28+00:00",
+      "bucketEnd": "2025-06-15T14:36:39+00:00",
+      "positive": 26,
+      "neutral": 13,
+      "negative": 1,
+      "netSentiment": 0.625,
+      "zScore": 0.131,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": -0.525,
+      "isVolumeBurst": false,
+      "durationSeconds": 2614811.0
+    },
+    {
+      "elapsedSeconds": 80202000.0,
+      "bucketStart": "2025-06-16T06:20:00+00:00",
+      "bucketEnd": "2025-06-26T03:02:39+00:00",
+      "positive": 19,
+      "neutral": 20,
+      "negative": 1,
+      "netSentiment": 0.45,
+      "zScore": -1.658,
+      "isBurst": true,
+      "direction": "NEGATIVE_SPIKE",
+      "volumeZScore": 0.018,
+      "isVolumeBurst": false,
+      "durationSeconds": 852159.0,
+      "topComments": [
+        {
+          "text": "하 진짜 내 우울증 치료 영상임 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 256,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "대황란 보려고 다시 왔습니다",
+          "likeCount": 73,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "나도 여기까지 왔다…",
+          "likeCount": 37,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "여기도 리딸하러 왔다...",
+          "likeCount": 33,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "젠지 인기동영상은 역시 폼이 다르네",
+          "likeCount": 33,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "도란 참 무해하고 귀엽다 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ아 겁이 진짜 너무 웃김 ㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠ",
+          "likeCount": 31,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "우울할 때 한번씩 보면 도파민 터진다 터져.. 내 도파민 도란ㅠㅠ 영상 하나로 너무 행복하고 웃기네 ㅠㅠ",
+          "likeCount": 29,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "어지간한 아이돌이나 가수들도 이렇게 긴 플레이리스트 잘 안올려주던데.. 대단해 란도..",
+          "likeCount": 29,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "삐딱하게 노래가....탑솔러에게 이렇게 딱인 노래일줄이야😂😂😂😂😂😂😂",
+          "likeCount": 28,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "멀쩡해 보이는데 조용히 훅 들어오는 광기도 있다는 걸 처음 알았다... 11:00 추천",
+          "likeCount": 21,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "저번주 토요일 일요일의 여운을 주체하지 못하고 결국 여기로 와버렸습니다 ㅋㅋㅋㅋ 하...\n진짜 대 황 란\n그는 컨텐츠의 축복마저 받았구나..",
+          "likeCount": 19,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "My Goat",
+          "likeCount": 14,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "우리 란이 보러 또 왔읍니다🐿❤️",
+          "likeCount": 14,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "진짜 노래가 폭력적이다",
+          "likeCount": 14,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "9:24 nice ass",
+          "likeCount": 9,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "역시 내 노동요",
+          "likeCount": 9,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "내 드라이브 플리에 저~ 장 ~",
+          "likeCount": 7,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "43:30 dinosaur\n1:00:35 fantastic baby",
+          "likeCount": 7,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "實在太可愛了☺️看&聽都超開心💗🦕🦖",
+          "likeCount": 7,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "대황란",
+          "likeCount": 6,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "🦖🦖🦖🦖🦖🦖🦖",
+          "likeCount": 6,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "티슬렁 티슬렁",
+          "likeCount": 6,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "젠지 선생님들 이런 귀한 영상 남겨주셔서 감사합니다❤",
+          "likeCount": 6,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "대황란",
+          "likeCount": 5,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "@hwanhee_ 여튼 열심히 사는거니까...",
+          "likeCount": 5,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "이렇게 도며드는거구나…",
+          "likeCount": 5,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "노래는 자기가 즐기면서 부를때 진짜 즐거운데, 도란은 진심으로 즐긴다 그래서 더 흥겹다!!",
+          "likeCount": 5,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㅋㅌㅋㅋㅋㅋㅌㅌㅋㅋㅌㅌㅌㅌㅌㅋㅋㅌㅌㅋㅋㅋㅋㅌㅌㅌㅋㅌㅌㅋㅋㅋㅋㅋㅋㅋㅋㅌㅋㅋㅋㅋㅋㅋㅌㅌㅋㅋㅋㅋㅋㅋㅋㅌㅋㅋㅋㅋㅋㅋㅋㅋㅌㅌㅋㅋㅋㅋㅋㅌㅋㅌㅋㅌㅋㅋㅌㅋㅋㅋㅋㅋㅋㅋㅋㅋㅌㅋㅌㅋㅌㅋㅌㅋㅌㅋㅋㅋㅋㅌㅋㅋㅌㅋㅌㅋㅋㅋㅌㅋㅋㅌㅋㅋㅋㅋㅋㅌㅋㅋㅋㅌㅋㅌㅋㅋㅋㅌㅋㅋㅋㅋㅋㅌㅌㅋㅋㅌㅌㅋㅋㅋㅌㅋㅋㅌㅋㅋㅌㅋㅋㅋ",
+          "likeCount": 5,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "I cant fall asleep without listening this gorgeous voice! 🥰🥰🥰🦖",
+          "likeCount": 4,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "이 노래 들으면서 롤을 하니 대 황 란이 된 느낌...",
+          "likeCount": 4,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "10:49",
+          "likeCount": 4,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "i didnt believe i was actually listening to this playlist at 2 a.m. on 2x speed",
+          "likeCount": 3,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "大皇蘭！！！我好多了🤣\n一天不聽不舒服",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "하 너무귀여워..",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "đỉnh vl mấy con gà biết gì",
+          "likeCount": 3,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "呆腦獸 555555555",
+          "likeCount": 2,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "좋네😊",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "hahaa",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "아 ㅋㅋㅋㅋㅋㅋ 타임스탬프 감사드립니다 ㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "아직도 듣는다...",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "elapsedSeconds": 81061109.0,
+      "bucketStart": "2025-06-26T04:58:29+00:00",
+      "bucketEnd": "2025-07-08T14:16:08+00:00",
+      "positive": 27,
+      "neutral": 12,
+      "negative": 1,
+      "netSentiment": 0.65,
+      "zScore": 0.387,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": -0.092,
+      "isVolumeBurst": false,
+      "durationSeconds": 1070259.0
+    },
+    {
+      "elapsedSeconds": 82131369.0,
+      "bucketStart": "2025-07-08T14:16:09+00:00",
+      "bucketEnd": "2025-07-27T16:53:12+00:00",
+      "positive": 20,
+      "neutral": 19,
+      "negative": 1,
+      "netSentiment": 0.475,
+      "zScore": -1.403,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": -0.302,
+      "isVolumeBurst": false,
+      "durationSeconds": 1651023.0
+    },
+    {
+      "elapsedSeconds": 83846386.0,
+      "bucketStart": "2025-07-28T10:39:46+00:00",
+      "bucketEnd": "2025-08-25T02:12:25+00:00",
+      "positive": 28,
+      "neutral": 10,
+      "negative": 2,
+      "netSentiment": 0.65,
+      "zScore": 0.387,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": -0.481,
+      "isVolumeBurst": false,
+      "durationSeconds": 2388759.0
+    },
+    {
+      "elapsedSeconds": 86245941.0,
+      "bucketStart": "2025-08-25T05:12:21+00:00",
+      "bucketEnd": "2025-10-31T13:10:38+00:00",
+      "positive": 31,
+      "neutral": 5,
+      "negative": 4,
+      "netSentiment": 0.675,
+      "zScore": 0.642,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": -0.912,
+      "isVolumeBurst": false,
+      "durationSeconds": 5817497.0
+    },
+    {
+      "elapsedSeconds": 92158435.0,
+      "bucketStart": "2025-11-01T15:33:55+00:00",
+      "bucketEnd": "2025-11-09T16:23:36+00:00",
+      "positive": 26,
+      "neutral": 10,
+      "negative": 4,
+      "netSentiment": 0.55,
+      "zScore": -0.636,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": 0.118,
+      "isVolumeBurst": false,
+      "durationSeconds": 694181.0
+    },
+    {
+      "elapsedSeconds": 92857272.0,
+      "bucketStart": "2025-11-09T17:41:12+00:00",
+      "bucketEnd": "2025-11-12T03:34:19+00:00",
+      "positive": 24,
+      "neutral": 15,
+      "negative": 1,
+      "netSentiment": 0.575,
+      "zScore": -0.38,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": 0.7,
+      "isVolumeBurst": false,
+      "durationSeconds": 208387.0
+    },
+    {
+      "elapsedSeconds": 93066740.0,
+      "bucketStart": "2025-11-12T03:52:20+00:00",
+      "bucketEnd": "2025-11-14T10:04:02+00:00",
+      "positive": 31,
+      "neutral": 9,
+      "negative": 0,
+      "netSentiment": 0.775,
+      "zScore": 1.665,
+      "isBurst": true,
+      "direction": "POSITIVE_SPIKE",
+      "volumeZScore": 0.732,
+      "isVolumeBurst": false,
+      "durationSeconds": 195102.0,
+      "topComments": [
+        {
+          "text": "多蘭拿冠軍後演算法讓我來朝聖🦖🦖",
+          "likeCount": 474,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Geng會不會根本沒想到，這都2022年的影片了，還可以繼續賺到流量😂？？？持續朝聖😊",
+          "likeCount": 161,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "一天不聽難受 聽了難受一天\n但我還是每天來聽",
+          "likeCount": 123,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "最喜歡聽你唱歌了 大皇蘭",
+          "likeCount": 52,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "多蘭好可愛😂🦖🦖🦖",
+          "likeCount": 38,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "After winning the championship, you must watch this =))",
+          "likeCount": 31,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "同事在問我耳機在放什麼歌 我不敢外播出來😀",
+          "likeCount": 29,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "謝謝geng讓我聽到",
+          "likeCount": 17,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "演算法讓我來朝聖",
+          "likeCount": 10,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "太帥了多蘭🦕🦕",
+          "likeCount": 9,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "居然22首嗎太強了哈哈哈",
+          "likeCount": 9,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "🦖🦕👑",
+          "likeCount": 8,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "anyone can explain why this exists ?",
+          "likeCount": 6,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "2025 Doran  Dinosaur  Champion !!!!!",
+          "likeCount": 6,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "This is true music 🎧🙂‍↕️",
+          "likeCount": 6,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "감사히보겠습니다ㅋㅋㅋ",
+          "likeCount": 6,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "What is this Doran hahahahah 😂",
+          "likeCount": 5,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "如果大皇蘭跟當年台灣LOL歌神西門合開演唱會，我一定去搶搖滾區的票送朋友!",
+          "likeCount": 5,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "좋아🦖♡좋아🦖♡",
+          "likeCount": 4,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "享受",
+          "likeCount": 4,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Doran must be psychologically strong !\n 😊😅",
+          "likeCount": 4,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "일본 팬입니다.\n유튜브 알고리즘과 Doran에게 감사드립니다.",
+          "likeCount": 4,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Dinosaurs! ~♪♪ Oh, woohoo, dinosaurs!",
+          "likeCount": 4,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "도란 씹호감이네",
+          "likeCount": 4,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "D-DRAGON",
+          "likeCount": 4,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "Omg sao nhà này lắm content vậy. Ok tui sẽ cày view cho anh",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "peak",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "내아들. 기특하다.",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "#7:50",
+          "likeCount": 2,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Same heree, watching Doran being so happy is my escape from the work hell 😩✨ I wish T1 can renew Doran's contact soon !",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "영원한건 절대없어🎉 결국에 넌 우승했지🎉",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "很有趣的人",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "쥐도란 공...  어찌 노래만 오셨소...",
+          "likeCount": 2,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "Vỗ tay cho đỉnh lưu của chúng ta nào👏",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "어흐 듣기좋아 ㅋㅋㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Gracias Doran",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Lại là tôi con nghẹo định kì :)))",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "지도란군",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "elapsedSeconds": 93277445.0,
+      "bucketStart": "2025-11-14T14:24:05+00:00",
+      "bucketEnd": "2025-11-19T13:17:25+00:00",
+      "positive": 25,
+      "neutral": 10,
+      "negative": 5,
+      "netSentiment": 0.5,
+      "zScore": -1.147,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": 0.352,
+      "isVolumeBurst": false,
+      "durationSeconds": 428000.0
+    },
+    {
+      "elapsedSeconds": 93720380.0,
+      "bucketStart": "2025-11-19T17:26:20+00:00",
+      "bucketEnd": "2025-11-27T16:52:51+00:00",
+      "positive": 28,
+      "neutral": 11,
+      "negative": 1,
+      "netSentiment": 0.675,
+      "zScore": 0.642,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": 0.121,
+      "isVolumeBurst": false,
+      "durationSeconds": 689191.0
+    },
+    {
+      "elapsedSeconds": 94465913.0,
+      "bucketStart": "2025-11-28T08:31:53+00:00",
+      "bucketEnd": "2025-12-06T17:36:12+00:00",
+      "positive": 26,
+      "neutral": 14,
+      "negative": 0,
+      "netSentiment": 0.65,
+      "zScore": 0.387,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": 0.097,
+      "isVolumeBurst": false,
+      "durationSeconds": 723859.0
+    },
+    {
+      "elapsedSeconds": 95216593.0,
+      "bucketStart": "2025-12-07T01:03:13+00:00",
+      "bucketEnd": "2025-12-19T07:35:56+00:00",
+      "positive": 25,
+      "neutral": 15,
+      "negative": 0,
+      "netSentiment": 0.625,
+      "zScore": 0.131,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": -0.088,
+      "isVolumeBurst": false,
+      "durationSeconds": 1060363.0
+    },
+    {
+      "elapsedSeconds": 96305199.0,
+      "bucketStart": "2025-12-19T15:26:39+00:00",
+      "bucketEnd": "2026-01-29T15:20:07+00:00",
+      "positive": 25,
+      "neutral": 14,
+      "negative": 1,
+      "netSentiment": 0.6,
+      "zScore": -0.125,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": -0.671,
+      "isVolumeBurst": false,
+      "durationSeconds": 3542008.0
+    },
+    {
+      "elapsedSeconds": 99847379.0,
+      "bucketStart": "2026-01-29T15:22:59+00:00",
+      "bucketEnd": "2026-03-08T15:24:58+00:00",
+      "positive": 26,
+      "neutral": 13,
+      "negative": 1,
+      "netSentiment": 0.625,
+      "zScore": 0.131,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": -0.635,
+      "isVolumeBurst": false,
+      "durationSeconds": 3283319.0
+    },
+    {
+      "elapsedSeconds": 103194235.0,
+      "bucketStart": "2026-03-09T09:03:55+00:00",
+      "bucketEnd": "2026-05-02T15:44:58+00:00",
+      "positive": 23,
+      "neutral": 15,
+      "negative": 2,
+      "netSentiment": 0.525,
+      "zScore": -0.891,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": -0.807,
+      "isVolumeBurst": false,
+      "durationSeconds": 4689663.0
+    },
+    {
+      "elapsedSeconds": 108025723.0,
+      "bucketStart": "2026-05-04T07:08:43+00:00",
+      "bucketEnd": "2026-06-24T10:57:42+00:00",
+      "positive": 21,
+      "neutral": 16,
+      "negative": 3,
+      "netSentiment": 0.45,
+      "zScore": -1.658,
+      "isBurst": true,
+      "direction": "NEGATIVE_SPIKE",
+      "volumeZScore": -0.779,
+      "isVolumeBurst": false,
+      "durationSeconds": 4420139.0,
+      "topComments": [
+        {
+          "text": "여심폭격기",
+          "likeCount": 5,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "I'm back here HAHAAHAHHAH",
+          "likeCount": 5,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "힘낼일 있을 때 들으러옴. 진짜 무해하다.",
+          "likeCount": 4,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "플레이리스트로 듣고있는 내가 진짜 광기같은데",
+          "likeCount": 3,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "응원이 필요할 때마다 와서 듣고있어 도란 고마워",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "只要贏關鍵比賽就要回來朝聖我是有什麼怪病",
+          "likeCount": 3,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "죽기전에 봐야할 영상 1순위",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "演算法，多藍唱歌",
+          "likeCount": 2,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "9:10 ㅋㅋㅋㅋㅋㅋㅋㅋ\n다들 열받는다는 귀넘기기 율동.  그담에 잘 보시면 골반 튕기기 있어여 ㅋㅋㅋㅋ",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "2026 😂",
+          "likeCount": 2,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "삶이 지치고 힘들어서 보러왔습니다",
+          "likeCount": 2,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "유튜브 뮤직에 왜 있는건데 ㅋㅋㅋㅋ\n들으면서 게임해야지",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "귀엽다",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "🦕🦕🦕🦕🦕🦕🦕🦕~o",
+          "likeCount": 2,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "This is my go-to playlist for studying. It's super effective. I usually tell myself I'll take a break after three loops. Because of that, I’ve reached the point where I’ve memorized every single song he sings=)) ㅋㅋㅋ 진짜 미쳤어",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Why so serious with G-Dogan",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "This is my favorite.",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "t1 ơi sao m ko vắt content này để giờ tcon phải đi cày view cho anh hàng xóm hả =)))))))",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "Mega superstar",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Thx you for helping me to find this that sound44:58",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "진짜 코노가서 한시간동안 배틀뜨고싶다",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "and there was Chovy eating while enjoy watching Doran playlist =))))",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "\\大皇蘭/超級可愛！！！！！！\n我們蘭啊希望世間的美好都降臨在你手心🫶",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "😂😂😂doran.. 33:20 一句其實還可以，下一句就不太行了，哈哈 45:10 ha chu~🤧 10:44 10:44 10:44",
+          "likeCount": 1,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "Nghe đi nghe lại là thấy hay",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Ơ lên 700N rồi vl=))) bây cày dữ vậy",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "❤❤❤",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "11:00",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "Di sản để lại cho GEN.G youtube",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": ".",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "tui nghe chắc được hơn 10 lần",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㅋㅋ댓글에 넘쳐나는 외국어 뭐야",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "Sời",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "AI 입니다",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "Đỉnh lưu doranie:)))",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Iu doran",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "🐿️🐿️🐿️",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ô hát dở quá doran, you sing so well",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "Cười chết bây ơi, anh ơi anh à, sao anh bá dữ vậy ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        }
+      ]
+    }
+  ],
+  "keyInsights": [
+    {
+      "type": "positive",
+      "topic": "팬들과의 소통",
+      "topicEn": "Communication with Fans",
+      "topicZh": "与粉丝的沟通",
+      "topicJa": "ファンとのコミュニケーション",
+      "comment": "티원을 응원할 팬들이 한번씩 봐줘야 하는 영상",
+      "commentLang": "ko",
+      "likes": 4628
+    },
+    {
+      "type": "negative",
+      "topic": "팬들과의 소통",
+      "topicEn": "Communication with Fans",
+      "topicZh": "与粉丝的沟通",
+      "topicJa": "ファンとのコミュニケーション",
+      "comment": "왜 젠지팬들만 이 좋은걸...",
+      "commentLang": "ko",
+      "likes": 2038
+    },
+    {
+      "type": "positive",
+      "topic": "공연 및 콘텐츠",
+      "topicEn": "Performance and Content",
+      "topicZh": "演出和内容",
+      "topicJa": "パフォーマンスとコンテンツ",
+      "comment": "오늘도 잘듣고갑니다",
+      "commentLang": "ko",
+      "likes": 3880
+    },
+    {
+      "type": "negative",
+      "topic": "노래와 춤",
+      "topicEn": "Singing and Dancing",
+      "topicZh": "唱歌和跳舞",
+      "topicJa": "歌とダンス",
+      "comment": "7:02 여기서 다시 잡는거 개킹받네",
+      "commentLang": "ko",
+      "likes": 137
+    }
+  ],
+  "analyzedAt": "2026-07-05T08:49:59.317108+00:00",
+  "analysisDuration": 74.8,
+  "tokenUsage": {
+    "input": 61495,
+    "output": 18473,
+    "embedding": 41449,
+    "total": 121417,
+    "estimatedCostUsd": 0.021137
+  },
+  "videoEmbedding": [
+    -0.005016326904296875,
+    -0.01020050048828125,
+    -0.053375244140625,
+    -0.0615234375,
+    0.050140380859375,
+    -0.0116119384765625,
+    0.021331787109375,
+    0.0312042236328125,
+    0.0087127685546875,
+    0.011322021484375,
+    -0.050750732421875,
+    -0.0009975433349609375,
+    0.0251312255859375,
+    -0.0125885009765625,
+    0.0015668869018554688,
+    0.0175018310546875,
+    -0.05621337890625,
+    -0.01953125,
+    0.0237274169921875,
+    0.0050201416015625,
+    0.0606689453125,
+    0.007396697998046875,
+    0.003353118896484375,
+    -0.04949951171875,
+    0.0014581680297851562,
+    -0.01824951171875,
+    -0.0017080307006835938,
+    0.003894805908203125,
+    -0.01073455810546875,
+    -0.019683837890625,
+    -0.047393798828125,
+    -0.03204345703125,
+    0.021759033203125,
+    -0.00417327880859375,
+    0.0159912109375,
+    -0.011322021484375,
+    0.0477294921875,
+    -0.02301025390625,
+    0.0081939697265625,
+    -0.006786346435546875,
+    0.0452880859375,
+    -0.0266876220703125,
+    -0.0164642333984375,
+    -0.004978179931640625,
+    0.07501220703125,
+    0.0237884521484375,
+    -0.06121826171875,
+    -0.01519775390625,
+    0.0218963623046875,
+    -0.0252838134765625,
+    -0.0460205078125,
+    0.050140380859375,
+    -0.0242767333984375,
+    0.0513916015625,
+    0.0199127197265625,
+    0.0014848709106445312,
+    0.0188140869140625,
+    0.035552978515625,
+    -0.034759521484375,
+    -0.025665283203125,
+    0.026519775390625,
+    0.020294189453125,
+    0.0237274169921875,
+    0.0272979736328125,
+    -0.027587890625,
+    -0.05938720703125,
+    -0.04779052734375,
+    0.02069091796875,
+    0.0018892288208007812,
+    0.048675537109375,
+    0.0601806640625,
+    0.00445556640625,
+    -0.028533935546875,
+    0.005275726318359375,
+    0.024505615234375,
+    -0.007297515869140625,
+    -0.0182037353515625,
+    3.898143768310547e-05,
+    0.0004875659942626953,
+    0.0034275054931640625,
+    0.038299560546875,
+    0.0035552978515625,
+    3.451108932495117e-05,
+    0.0007319450378417969,
+    -0.007450103759765625,
+    -0.04638671875,
+    -0.10626220703125,
+    -0.004032135009765625,
+    0.049530029296875,
+    0.018035888671875,
+    -0.0300750732421875,
+    -0.0167388916015625,
+    0.032135009765625,
+    0.027984619140625,
+    0.049713134765625,
+    -0.03564453125,
+    0.0145416259765625,
+    0.02838134765625,
+    0.0250244140625,
+    0.0262603759765625,
+    0.046295166015625,
+    -0.09112548828125,
+    -0.0294342041015625,
+    -0.0260467529296875,
+    0.0258636474609375,
+    0.01065826416015625,
+    -0.005519866943359375,
+    0.002384185791015625,
+    -0.057586669921875,
+    -0.027252197265625,
+    -0.055908203125,
+    0.021209716796875,
+    -0.004642486572265625,
+    -0.01560211181640625,
+    0.0081024169921875,
+    0.0185089111328125,
+    0.046661376953125,
+    -0.0276641845703125,
+    -0.02020263671875,
+    0.00142669677734375,
+    -0.034332275390625,
+    0.05645751953125,
+    0.0008945465087890625,
+    -0.00589752197265625,
+    -0.0465087890625,
+    0.0041046142578125,
+    -0.01242828369140625,
+    -0.004444122314453125,
+    -0.012542724609375,
+    -0.06756591796875,
+    0.0081939697265625,
+    -0.039794921875,
+    0.01328277587890625,
+    -0.042694091796875,
+    0.035919189453125,
+    -0.0261383056640625,
+    -0.0255126953125,
+    -0.0218353271484375,
+    0.00937652587890625,
+    0.0335693359375,
+    0.0266571044921875,
+    0.0027675628662109375,
+    0.01482391357421875,
+    0.00762176513671875,
+    -0.018829345703125,
+    -0.031494140625,
+    0.0106658935546875,
+    -0.0130157470703125,
+    -0.00675201416015625,
+    0.0174102783203125,
+    0.0264739990234375,
+    0.00928497314453125,
+    -0.0006866455078125,
+    -0.0230865478515625,
+    0.020782470703125,
+    -0.0261993408203125,
+    0.01374053955078125,
+    -0.00949859619140625,
+    0.00959014892578125,
+    -0.005283355712890625,
+    0.030120849609375,
+    -0.00530242919921875,
+    0.0092315673828125,
+    -0.0168914794921875,
+    0.0027942657470703125,
+    -0.0017805099487304688,
+    -0.0028667449951171875,
+    0.0328369140625,
+    -0.0217437744140625,
+    -0.003093719482421875,
+    0.01360321044921875,
+    -0.032196044921875,
+    0.0115814208984375,
+    0.01331329345703125,
+    0.0200653076171875,
+    -0.041717529296875,
+    0.037322998046875,
+    0.02215576171875,
+    -0.0222625732421875,
+    -0.0015583038330078125,
+    -0.020904541015625,
+    0.0140838623046875,
+    -0.0033588409423828125,
+    -0.00482940673828125,
+    0.01690673828125,
+    -0.0112152099609375,
+    -0.0307769775390625,
+    -0.006015777587890625,
+    0.0112152099609375,
+    -0.054107666015625,
+    0.004364013671875,
+    0.01128387451171875,
+    0.0255584716796875,
+    0.02325439453125,
+    -0.00909423828125,
+    -0.037078857421875,
+    0.022674560546875,
+    0.006191253662109375,
+    -0.028045654296875,
+    0.0261993408203125,
+    0.029449462890625,
+    0.06756591796875,
+    -0.0223236083984375,
+    -0.0008068084716796875,
+    -3.0338764190673828e-05,
+    -0.011505126953125,
+    -0.0122222900390625,
+    0.0302734375,
+    -0.00848388671875,
+    -0.0011663436889648438,
+    0.043304443359375,
+    0.036712646484375,
+    -0.01352691650390625,
+    -0.02703857421875,
+    0.006805419921875,
+    0.0509033203125,
+    0.011260986328125,
+    0.032135009765625,
+    -0.035430908203125,
+    -0.01113128662109375,
+    0.0221099853515625,
+    0.04290771484375,
+    0.06866455078125,
+    0.01331329345703125,
+    0.06024169921875,
+    0.0213165283203125,
+    -0.006679534912109375,
+    -0.031951904296875,
+    0.0013484954833984375,
+    -0.054107666015625,
+    0.01360321044921875,
+    0.0227203369140625,
+    -0.0092315673828125,
+    -0.050689697265625,
+    0.0599365234375,
+    0.0072174072265625,
+    -0.043212890625,
+    -0.048675537109375,
+    -0.023040771484375,
+    0.004261016845703125,
+    0.04071044921875,
+    0.02069091796875,
+    0.052825927734375,
+    0.047393798828125,
+    0.040435791015625,
+    -0.006893157958984375,
+    0.0313720703125,
+    -0.0107879638671875,
+    0.00899505615234375,
+    0.02203369140625,
+    0.10943603515625,
+    0.05645751953125,
+    0.0008263587951660156,
+    0.036651611328125,
+    0.005657196044921875,
+    0.00246429443359375,
+    -0.00879669189453125,
+    -0.0095062255859375,
+    -0.01187896728515625,
+    0.006618499755859375,
+    0.031890869140625,
+    -0.032684326171875,
+    0.01016998291015625,
+    -0.0013332366943359375,
+    -0.0160675048828125,
+    0.031036376953125,
+    -0.020477294921875,
+    0.058990478515625,
+    0.0341796875,
+    -0.0017261505126953125,
+    0.00885009765625,
+    -0.02362060546875,
+    -0.0222015380859375,
+    -0.003780364990234375,
+    -0.00012671947479248047,
+    0.015380859375,
+    0.0180206298828125,
+    0.03570556640625,
+    -0.01335906982421875,
+    -0.019287109375,
+    0.0182952880859375,
+    -0.0138397216796875,
+    0.00821685791015625,
+    0.01042938232421875,
+    0.0091705322265625,
+    -0.006866455078125,
+    -0.0264739990234375,
+    0.027740478515625,
+    -0.0146942138671875,
+    -0.00791168212890625,
+    -0.039276123046875,
+    -0.028900146484375,
+    0.0293731689453125,
+    -0.0195159912109375,
+    -0.020599365234375,
+    -0.03656005859375,
+    0.0248260498046875,
+    -0.03765869140625,
+    -0.0648193359375,
+    0.01332855224609375,
+    0.0221405029296875,
+    -0.012481689453125,
+    0.041473388671875,
+    0.06524658203125,
+    -0.0134735107421875,
+    0.0450439453125,
+    0.040435791015625,
+    -0.021728515625,
+    0.045501708984375,
+    -0.03515625,
+    -0.036407470703125,
+    0.01386260986328125,
+    0.0247955322265625,
+    0.01285552978515625,
+    -0.0125885009765625,
+    0.011260986328125,
+    0.0311279296875,
+    -0.0020904541015625,
+    0.00884246826171875,
+    -0.035919189453125,
+    -0.0277252197265625,
+    -0.013275146484375,
+    -0.033782958984375,
+    -0.029449462890625,
+    0.034515380859375,
+    -0.0001417398452758789,
+    0.047088623046875,
+    0.024688720703125,
+    0.0294036865234375,
+    -0.041656494140625,
+    0.0034027099609375,
+    -0.067138671875,
+    0.012451171875,
+    0.0277862548828125,
+    -0.027191162109375,
+    -0.043243408203125,
+    -0.0313720703125,
+    0.006916046142578125,
+    4.184246063232422e-05,
+    0.0192108154296875,
+    -0.0102081298828125,
+    0.007213592529296875,
+    -0.031463623046875,
+    -0.007781982421875,
+    -0.0273284912109375,
+    -0.035736083984375,
+    0.0113677978515625,
+    -0.0290679931640625,
+    -0.0667724609375,
+    0.0484619140625,
+    -0.0022258758544921875,
+    0.007549285888671875,
+    0.0281219482421875,
+    -0.0240631103515625,
+    -0.0045318603515625,
+    -0.048309326171875,
+    -0.022430419921875,
+    -0.02508544921875,
+    0.03759765625,
+    0.030517578125,
+    0.004749298095703125,
+    0.014007568359375,
+    -0.0138702392578125,
+    0.0171356201171875,
+    -0.003665924072265625,
+    0.0341796875,
+    -0.031280517578125,
+    0.060760498046875,
+    0.0618896484375,
+    -0.03363037109375,
+    -0.0301971435546875,
+    -0.00013208389282226562,
+    -0.036346435546875,
+    0.0022449493408203125,
+    -0.035919189453125,
+    0.02545166015625,
+    0.03607177734375,
+    0.0026340484619140625,
+    -0.034759521484375,
+    -0.004764556884765625,
+    0.004802703857421875,
+    0.023193359375,
+    0.00457763671875,
+    -0.043212890625,
+    0.00940704345703125,
+    -0.05194091796875,
+    0.025177001953125,
+    0.0201568603515625,
+    -0.0171051025390625,
+    0.01406097412109375,
+    0.0212860107421875,
+    -0.08074951171875,
+    0.0016460418701171875,
+    -0.05108642578125,
+    0.0175323486328125,
+    0.039825439453125,
+    0.0055999755859375,
+    -0.01580810546875,
+    -0.00458526611328125,
+    0.011505126953125,
+    0.00658416748046875,
+    0.0192413330078125,
+    -0.02630615234375,
+    -0.054412841796875,
+    0.016357421875,
+    0.0238494873046875,
+    -0.00848388671875,
+    -0.00838470458984375,
+    -0.0113067626953125,
+    0.0014400482177734375,
+    0.0174560546875,
+    -0.034149169921875,
+    -0.0034999847412109375,
+    -0.005939483642578125,
+    0.0214691162109375,
+    0.0146636962890625,
+    -0.0095367431640625,
+    -0.045501708984375,
+    -0.01062774658203125,
+    0.0296173095703125,
+    0.03900146484375,
+    0.02587890625,
+    -0.0120849609375,
+    -0.0057525634765625,
+    -0.0163421630859375,
+    0.055694580078125,
+    0.0193328857421875,
+    0.050689697265625,
+    -0.029052734375,
+    0.02032470703125,
+    -0.02716064453125,
+    -0.018829345703125,
+    -0.039642333984375,
+    0.07281494140625,
+    0.00960540771484375,
+    -0.031890869140625,
+    0.0057220458984375,
+    0.0782470703125,
+    0.001750946044921875,
+    0.003414154052734375,
+    0.0015096664428710938,
+    0.0017766952514648438,
+    -0.05462646484375,
+    0.009307861328125,
+    -0.016265869140625,
+    0.0022296905517578125,
+    0.0362548828125,
+    -0.04351806640625,
+    -0.009033203125,
+    -0.02679443359375,
+    0.0023937225341796875,
+    -0.0022487640380859375,
+    -0.027008056640625,
+    -0.036773681640625,
+    -0.060546875,
+    0.0206146240234375,
+    0.03466796875,
+    0.0268707275390625,
+    0.01788330078125,
+    -0.0225067138671875,
+    0.0030460357666015625,
+    0.0235443115234375,
+    -0.0305023193359375,
+    -0.055755615234375,
+    -0.01093292236328125,
+    -0.0065460205078125,
+    -0.01386260986328125,
+    0.00565338134765625,
+    0.04193115234375,
+    0.023834228515625,
+    0.0249786376953125,
+    0.03155517578125,
+    -0.06781005859375,
+    0.040802001953125,
+    -0.0316162109375,
+    -0.035186767578125,
+    0.00841522216796875,
+    0.0297698974609375,
+    -0.023223876953125,
+    -0.0394287109375,
+    0.0020008087158203125,
+    -0.0288543701171875,
+    -0.044952392578125,
+    -0.0006971359252929688,
+    0.0015172958374023438,
+    0.001995086669921875,
+    0.043365478515625,
+    -0.00925445556640625,
+    -0.0296173095703125,
+    -0.0260772705078125,
+    -0.00511932373046875,
+    -0.0251922607421875,
+    0.07025146484375,
+    -0.007762908935546875,
+    -0.02020263671875,
+    0.016082763671875,
+    -0.0043487548828125,
+    -0.005718231201171875,
+    0.024932861328125,
+    0.00206756591796875,
+    -0.0092620849609375,
+    -0.03314208984375,
+    -0.046600341796875,
+    0.06414794921875,
+    0.062103271484375,
+    0.011932373046875,
+    -0.0015764236450195312,
+    0.0372314453125,
+    0.02618408203125,
+    0.0272674560546875,
+    0.00669097900390625,
+    0.033294677734375,
+    -0.006256103515625,
+    0.0011157989501953125,
+    0.0155181884765625,
+    -0.01027679443359375,
+    -0.01320648193359375,
+    -0.06488037109375,
+    -0.054656982421875,
+    -0.03216552734375,
+    0.0019702911376953125,
+    0.00731658935546875,
+    0.0265045166015625,
+    0.00403594970703125,
+    0.0380859375,
+    0.0179595947265625,
+    0.022430419921875,
+    -0.06414794921875,
+    -0.020263671875,
+    0.006450653076171875,
+    -0.005924224853515625,
+    -0.00194549560546875,
+    0.01134490966796875,
+    0.0092315673828125,
+    -0.02117919921875,
+    -0.00021457672119140625,
+    0.026397705078125,
+    0.0225067138671875,
+    -0.0038604736328125,
+    -0.0144195556640625,
+    -0.0014238357543945312,
+    0.028656005859375,
+    0.0269317626953125,
+    -0.037933349609375,
+    0.00586700439453125,
+    -0.0267333984375,
+    0.022186279296875,
+    0.01171112060546875,
+    -0.00450897216796875,
+    -0.04388427734375,
+    0.00844573974609375,
+    0.0041961669921875,
+    0.01165771484375,
+    -0.03271484375,
+    0.007587432861328125,
+    0.01245880126953125,
+    -0.00982666015625,
+    -0.01500701904296875,
+    0.024810791015625,
+    -0.01023101806640625,
+    -0.014434814453125,
+    -0.0042572021484375,
+    0.00579833984375,
+    -0.0053863525390625,
+    0.0287017822265625,
+    0.016510009765625,
+    0.052459716796875,
+    -0.020416259765625,
+    0.00620269775390625,
+    -0.0234222412109375,
+    0.0026416778564453125,
+    0.0083160400390625,
+    -0.027313232421875,
+    -0.018798828125,
+    -0.002162933349609375,
+    -0.0010318756103515625,
+    0.006229400634765625,
+    -0.01898193359375,
+    -0.03094482421875,
+    0.0002465248107910156,
+    -0.00518035888671875,
+    -0.0301666259765625,
+    0.002536773681640625,
+    0.00681304931640625,
+    0.0029659271240234375,
+    -0.0059051513671875,
+    0.0279541015625,
+    -0.0218963623046875,
+    -0.01068115234375,
+    -0.004833221435546875,
+    0.0196685791015625,
+    0.004543304443359375,
+    -0.039794921875,
+    0.006984710693359375,
+    -0.0216827392578125,
+    -0.0333251953125,
+    -0.01126861572265625,
+    -0.02569580078125,
+    -0.01708984375,
+    -0.01031494140625,
+    0.005420684814453125,
+    -0.0283050537109375,
+    -0.023834228515625,
+    -0.037506103515625,
+    0.032867431640625,
+    0.0125885009765625,
+    0.0279083251953125,
+    -0.01727294921875,
+    -0.0023097991943359375,
+    -0.00736236572265625,
+    0.006519317626953125,
+    -0.00376129150390625,
+    0.0140533447265625,
+    -0.006969451904296875,
+    -0.03460693359375,
+    0.0185089111328125,
+    -0.053863525390625,
+    0.0023975372314453125,
+    0.0115509033203125,
+    -0.0228271484375,
+    -0.01611328125,
+    -0.01520538330078125,
+    0.0287933349609375,
+    0.0193939208984375,
+    -0.02777099609375,
+    0.0249176025390625,
+    0.011932373046875,
+    -0.0138397216796875,
+    -0.0221099853515625,
+    -0.00033020973205566406,
+    -0.0208282470703125,
+    0.004390716552734375,
+    0.032989501953125,
+    -0.0061492919921875,
+    -0.0310516357421875,
+    -0.01496124267578125,
+    -0.057525634765625,
+    -0.0380859375,
+    -0.014556884765625,
+    -0.0124359130859375,
+    0.0655517578125,
+    -0.05816650390625,
+    -0.009521484375,
+    -0.0186920166015625,
+    -0.0258026123046875,
+    -0.0008935928344726562,
+    -0.00916290283203125,
+    -0.0279083251953125,
+    -0.04046630859375,
+    -0.029541015625,
+    -0.0347900390625,
+    -0.0142059326171875,
+    0.0020046234130859375,
+    -0.01467132568359375,
+    -0.0227813720703125,
+    0.039764404296875,
+    -0.014373779296875,
+    0.01290130615234375,
+    -0.01235198974609375,
+    0.007320404052734375,
+    -0.051239013671875,
+    0.029266357421875,
+    -0.003143310546875,
+    -0.01641845703125,
+    0.0013904571533203125,
+    0.0204315185546875,
+    0.0248565673828125,
+    0.01055908203125,
+    -0.019195556640625,
+    0.00937652587890625,
+    -0.034027099609375,
+    -0.0352783203125,
+    0.0034942626953125,
+    0.007640838623046875,
+    0.055999755859375,
+    -0.0272979736328125,
+    -0.0010156631469726562,
+    0.005977630615234375,
+    0.01102447509765625,
+    0.0477294921875,
+    -0.013946533203125,
+    0.036163330078125,
+    -0.00629425048828125,
+    0.0428466796875,
+    0.025177001953125,
+    -0.0270843505859375,
+    0.0191192626953125,
+    -0.002437591552734375,
+    0.00047469139099121094,
+    0.015655517578125,
+    -0.05389404296875,
+    -0.0100555419921875,
+    0.005687713623046875,
+    -0.03094482421875,
+    0.03472900390625,
+    0.0155792236328125,
+    0.0242919921875,
+    0.003021240234375,
+    -0.005718231201171875,
+    -0.034210205078125,
+    -0.00611114501953125,
+    0.0254974365234375,
+    -0.030242919921875,
+    -0.026092529296875,
+    -0.040130615234375,
+    -0.0275115966796875,
+    -0.0005860328674316406,
+    -0.002407073974609375,
+    0.017181396484375,
+    0.003421783447265625,
+    -0.007720947265625,
+    0.03271484375,
+    -0.04376220703125,
+    0.006053924560546875,
+    -0.027435302734375,
+    0.00939178466796875,
+    0.00670623779296875,
+    0.03363037109375,
+    0.031402587890625,
+    -0.00873565673828125,
+    -0.0134429931640625,
+    0.030487060546875,
+    0.0076751708984375,
+    -0.0170745849609375,
+    -0.00046181678771972656,
+    0.0218353271484375,
+    -0.00960540771484375,
+    -0.006618499755859375,
+    -0.03973388671875,
+    0.049713134765625,
+    -0.0061798095703125,
+    0.033447265625,
+    0.006710052490234375,
+    0.0079803466796875,
+    -0.039154052734375,
+    -0.01514434814453125,
+    -0.01209259033203125,
+    0.0582275390625,
+    -0.0179443359375,
+    -0.05029296875,
+    0.006046295166015625,
+    -0.04095458984375,
+    0.023223876953125,
+    -0.034027099609375,
+    0.005512237548828125,
+    -0.007717132568359375,
+    -0.03765869140625,
+    0.0183258056640625,
+    -0.05303955078125,
+    0.04864501953125,
+    -0.057281494140625,
+    0.004268646240234375,
+    -0.0654296875,
+    -0.0031147003173828125,
+    0.0192108154296875,
+    -0.059539794921875,
+    0.00908660888671875,
+    -0.012481689453125,
+    0.031829833984375,
+    0.00652313232421875,
+    0.04705810546875,
+    0.0012226104736328125,
+    0.040191650390625,
+    0.01424407958984375,
+    0.0401611328125,
+    0.0290069580078125,
+    -0.019287109375,
+    0.0283355712890625,
+    -0.006069183349609375,
+    -0.00823974609375,
+    0.0543212890625,
+    0.0119781494140625,
+    0.0009713172912597656,
+    0.0179443359375,
+    0.00925445556640625,
+    -0.0145416259765625,
+    -0.042633056640625,
+    4.3451786041259766e-05,
+    0.0287322998046875,
+    -0.00928497314453125,
+    -0.0294952392578125,
+    -0.005748748779296875,
+    0.0355224609375,
+    0.038330078125,
+    0.0203399658203125,
+    -0.021148681640625,
+    0.0160064697265625,
+    -0.004116058349609375,
+    -0.01001739501953125,
+    -0.020233154296875,
+    -0.0174713134765625,
+    0.01174163818359375,
+    0.00705718994140625,
+    -0.04736328125,
+    -0.0094146728515625,
+    0.0038909912109375,
+    -0.0021820068359375,
+    0.02630615234375,
+    -0.041351318359375,
+    0.03564453125,
+    -0.00658416748046875,
+    0.0031585693359375,
+    -0.00235748291015625,
+    0.0447998046875,
+    0.0185699462890625,
+    -0.01708984375,
+    -0.0268402099609375,
+    0.0517578125,
+    -0.0091094970703125,
+    0.018829345703125,
+    -0.007068634033203125,
+    0.033782958984375,
+    -0.021148681640625,
+    0.0177459716796875,
+    0.043426513671875,
+    0.0247650146484375,
+    -0.00055694580078125,
+    -0.031951904296875,
+    0.00732421875,
+    -0.0419921875,
+    0.044097900390625,
+    0.006694793701171875,
+    0.0192718505859375,
+    -0.015625,
+    -0.0027618408203125,
+    -0.0106048583984375,
+    -0.050262451171875,
+    0.011810302734375,
+    0.01415252685546875,
+    -0.03277587890625,
+    -0.0011272430419921875,
+    -0.039581298828125,
+    0.0163726806640625,
+    0.0074920654296875,
+    -0.00627899169921875,
+    -0.015899658203125,
+    -0.01406097412109375,
+    0.0728759765625,
+    0.0012598037719726562,
+    -0.017059326171875,
+    -0.041229248046875,
+    0.0145416259765625,
+    0.0035381317138671875,
+    -0.07733154296875,
+    -0.01235198974609375,
+    0.01346588134765625,
+    0.01543426513671875,
+    0.0186004638671875,
+    0.006710052490234375,
+    0.0172119140625,
+    -0.01546478271484375,
+    -0.0257720947265625,
+    0.036285400390625,
+    0.01031494140625,
+    0.0239410400390625,
+    0.0008616447448730469,
+    -0.017486572265625,
+    0.01293182373046875,
+    -0.00484466552734375,
+    0.0179595947265625,
+    -0.014862060546875,
+    0.0084381103515625,
+    0.035247802734375,
+    0.018463134765625,
+    0.009307861328125,
+    -0.0004382133483886719,
+    0.014373779296875,
+    0.018951416015625,
+    0.028045654296875,
+    -0.00862884521484375,
+    -0.046722412109375,
+    -0.0091094970703125,
+    0.019256591796875,
+    -0.0175323486328125,
+    -0.004352569580078125,
+    0.007541656494140625,
+    -0.0037250518798828125,
+    0.01763916015625,
+    0.01480865478515625,
+    -0.006439208984375,
+    0.0100860595703125,
+    0.032989501953125,
+    -0.0242919921875,
+    -0.00452423095703125,
+    0.0288543701171875,
+    -0.01397705078125,
+    0.0227508544921875,
+    0.05206298828125,
+    -0.0491943359375,
+    0.017181396484375,
+    0.0109710693359375,
+    -0.0262451171875,
+    -0.03759765625,
+    -0.030059814453125,
+    -0.003032684326171875,
+    0.029754638671875,
+    0.00392913818359375,
+    0.027008056640625,
+    0.027435302734375,
+    -0.008056640625,
+    -0.0081939697265625,
+    -0.0197296142578125,
+    -0.0220794677734375,
+    0.0115966796875,
+    -0.0030422210693359375,
+    0.0175018310546875,
+    0.007080078125,
+    -0.0247039794921875,
+    0.0013780593872070312,
+    0.0251312255859375,
+    -0.0267333984375,
+    -0.0302886962890625,
+    0.011871337890625,
+    6.23464584350586e-05,
+    -0.01371002197265625,
+    -0.004730224609375,
+    0.0229949951171875,
+    0.0168914794921875,
+    0.02239990234375,
+    -0.0083465576171875,
+    0.004367828369140625,
+    0.0201263427734375,
+    0.0219879150390625,
+    -0.0272674560546875,
+    -0.0071868896484375,
+    -0.0268402099609375,
+    -0.01459503173828125,
+    -0.038299560546875,
+    0.0008587837219238281,
+    0.002044677734375,
+    -0.0174102783203125,
+    -0.003871917724609375,
+    0.069091796875,
+    -0.0150604248046875,
+    0.042755126953125,
+    0.005641937255859375,
+    0.01392364501953125,
+    0.00720977783203125,
+    0.007595062255859375,
+    -0.03289794921875,
+    0.0067596435546875,
+    -0.0055084228515625,
+    0.0170440673828125,
+    0.0075225830078125,
+    0.038665771484375,
+    -0.014984130859375,
+    0.0029087066650390625,
+    -0.004871368408203125,
+    -0.003116607666015625,
+    0.0245361328125,
+    -0.005870819091796875,
+    0.0250091552734375,
+    0.0144805908203125,
+    -0.03582763671875,
+    -0.00435638427734375,
+    -0.0187530517578125,
+    -0.0223541259765625,
+    0.0035247802734375,
+    0.02081298828125,
+    -0.01267242431640625,
+    -0.0322265625,
+    0.0185089111328125,
+    0.01448822021484375,
+    0.0276641845703125,
+    -0.032623291015625,
+    -0.04632568359375,
+    -0.051544189453125,
+    0.006267547607421875,
+    0.008148193359375,
+    0.017425537109375,
+    -0.004001617431640625,
+    -0.018524169921875,
+    0.0018310546875,
+    0.01104736328125,
+    0.018463134765625,
+    -0.02130126953125,
+    0.01053619384765625,
+    -0.01206207275390625,
+    -0.00612640380859375,
+    0.01056671142578125,
+    0.006069183349609375,
+    0.0139923095703125,
+    0.01030731201171875,
+    0.000843048095703125,
+    -0.02264404296875,
+    -0.037322998046875,
+    0.0103607177734375,
+    0.0263519287109375,
+    -0.009429931640625,
+    0.0024204254150390625,
+    -0.0220794677734375,
+    0.015960693359375,
+    -0.0107879638671875,
+    0.0274658203125,
+    -0.02679443359375,
+    0.0124053955078125,
+    0.0187530517578125,
+    0.0089569091796875,
+    -0.00452423095703125,
+    0.0231170654296875,
+    0.02459716796875,
+    -0.0263519287109375,
+    0.01438140869140625,
+    -0.0015439987182617188,
+    -0.012359619140625,
+    -0.01163482666015625,
+    0.016326904296875,
+    0.0215301513671875,
+    0.0214080810546875,
+    0.018768310546875,
+    0.0013141632080078125,
+    0.006427764892578125,
+    -0.0266876220703125,
+    0.028656005859375,
+    0.036651611328125,
+    -0.0161285400390625,
+    -0.0019273757934570312,
+    -0.036102294921875,
+    -0.03717041015625,
+    0.0022029876708984375,
+    -0.004486083984375,
+    0.0026569366455078125,
+    0.00850677490234375,
+    -0.00699615478515625,
+    0.00194549560546875,
+    -0.0011091232299804688,
+    0.0022430419921875,
+    -0.042083740234375,
+    0.00875091552734375,
+    0.01529693603515625,
+    0.007335662841796875,
+    0.036376953125,
+    -0.0110015869140625,
+    0.004421234130859375,
+    0.0221405029296875,
+    0.026824951171875,
+    -0.0377197265625,
+    -0.0268707275390625,
+    -0.002361297607421875,
+    -0.0007100105285644531,
+    -0.039031982421875,
+    0.043304443359375,
+    0.022796630859375,
+    0.024749755859375,
+    0.01123046875,
+    0.0137939453125,
+    0.0308074951171875,
+    -0.0029296875,
+    -0.024017333984375,
+    -0.01837158203125,
+    -0.01203155517578125,
+    0.004367828369140625,
+    0.061737060546875,
+    -0.0149383544921875,
+    -0.041168212890625,
+    0.01071929931640625,
+    -0.0060577392578125,
+    -0.0212249755859375,
+    0.0138397216796875,
+    0.016632080078125,
+    -0.053680419921875,
+    0.027618408203125,
+    -0.0020847320556640625,
+    0.01448822021484375,
+    0.003314971923828125,
+    0.005603790283203125,
+    -9.042024612426758e-05,
+    0.01389312744140625,
+    0.0204925537109375,
+    0.042449951171875,
+    0.020751953125,
+    -0.01338958740234375,
+    -0.01155853271484375,
+    0.0208282470703125,
+    -0.015655517578125,
+    -0.01062774658203125,
+    0.0204010009765625,
+    0.0122222900390625,
+    -0.0305633544921875,
+    0.0221405029296875,
+    0.02447509765625,
+    0.0172882080078125,
+    -0.00841522216796875,
+    -0.004756927490234375,
+    -0.01395416259765625,
+    0.00786590576171875,
+    -0.00970458984375,
+    -0.033294677734375,
+    0.0237884521484375,
+    -0.0002104043960571289,
+    -0.01207733154296875,
+    0.0262908935546875,
+    0.007396697998046875,
+    -0.007732391357421875,
+    0.005886077880859375,
+    0.024383544921875,
+    -0.01540374755859375,
+    0.0125885009765625,
+    0.005443572998046875,
+    0.0187835693359375,
+    0.01371002197265625,
+    0.0122222900390625,
+    -0.010772705078125,
+    0.00791168212890625,
+    -0.0014171600341796875,
+    -0.005687713623046875,
+    -0.023681640625,
+    -0.00429534912109375,
+    -0.0052947998046875,
+    -0.00457000732421875,
+    0.032440185546875,
+    -0.040740966796875,
+    0.0216064453125,
+    0.0037078857421875,
+    -0.0279388427734375,
+    0.00580596923828125,
+    0.0350341796875,
+    0.0004303455352783203,
+    -0.004375457763671875,
+    -0.007122039794921875,
+    0.00405120849609375,
+    -0.0029964447021484375,
+    0.01529693603515625,
+    0.00852203369140625,
+    -0.02679443359375,
+    0.02001953125,
+    0.007610321044921875,
+    0.006481170654296875,
+    -0.02008056640625,
+    -0.0124664306640625,
+    0.0254058837890625,
+    -0.04852294921875,
+    -0.037872314453125,
+    0.00995635986328125,
+    0.01091766357421875,
+    0.012847900390625,
+    0.030914306640625,
+    -0.00031185150146484375,
+    0.00927734375,
+    0.0207977294921875,
+    0.033355712890625,
+    0.027435302734375,
+    0.00487518310546875,
+    -0.01415252685546875,
+    -0.0002065896987915039,
+    -0.0167388916015625,
+    0.0160064697265625,
+    0.061676025390625,
+    0.028167724609375,
+    -0.003032684326171875,
+    -0.0172576904296875,
+    0.00894927978515625,
+    -0.001132965087890625,
+    -0.0247039794921875,
+    -0.0169677734375,
+    -0.005382537841796875,
+    0.026123046875,
+    0.03070068359375,
+    0.001800537109375,
+    0.0241851806640625,
+    -0.01181793212890625,
+    0.005802154541015625,
+    -0.0099334716796875,
+    0.005374908447265625,
+    -0.016082763671875,
+    -0.0197906494140625,
+    0.01654052734375,
+    -0.007457733154296875,
+    0.03802490234375,
+    0.0008449554443359375,
+    0.0003154277801513672,
+    0.0006303787231445312,
+    -0.00711822509765625,
+    -0.00785064697265625,
+    -0.021331787109375,
+    0.0159454345703125,
+    0.008819580078125,
+    0.0218353271484375,
+    -0.0197906494140625,
+    0.0106048583984375,
+    0.0215301513671875,
+    0.00043082237243652344,
+    0.03704833984375,
+    -0.0294036865234375,
+    0.00893402099609375,
+    -0.02569580078125,
+    -0.016998291015625,
+    0.024078369140625,
+    -0.0457763671875,
+    -0.0133056640625,
+    -0.029693603515625,
+    0.00821685791015625,
+    0.0435791015625,
+    0.006969451904296875,
+    -0.01160430908203125,
+    -0.007457733154296875,
+    -0.04638671875,
+    0.007965087890625,
+    0.037353515625,
+    0.0168914794921875,
+    0.016754150390625,
+    0.01541900634765625,
+    -0.04888916015625,
+    0.007610321044921875,
+    -0.041717529296875,
+    -0.01561737060546875,
+    0.0195465087890625,
+    -0.012359619140625,
+    -0.0151214599609375,
+    -0.0184173583984375,
+    -0.021759033203125,
+    0.0025424957275390625,
+    -0.011505126953125,
+    -0.02569580078125,
+    -0.0447998046875,
+    0.005031585693359375,
+    -0.0159149169921875,
+    -0.036865234375,
+    0.04522705078125,
+    -0.037384033203125,
+    -0.033447265625,
+    -0.004230499267578125,
+    0.039947509765625,
+    0.018463134765625,
+    -0.01560211181640625,
+    -0.006320953369140625,
+    0.006256103515625,
+    0.018035888671875,
+    0.00095367431640625,
+    -0.0180816650390625,
+    -0.007106781005859375,
+    0.0147705078125,
+    -0.00966644287109375,
+    0.004329681396484375,
+    0.00307464599609375,
+    -0.00975799560546875,
+    0.0013551712036132812,
+    0.028656005859375,
+    0.02880859375,
+    -0.01447296142578125,
+    -0.02215576171875,
+    -0.0005469322204589844,
+    0.01551055908203125,
+    0.008880615234375,
+    0.0013151168823242188,
+    -0.005321502685546875,
+    -0.02215576171875,
+    0.0014905929565429688,
+    0.01605224609375,
+    0.02825927734375,
+    -0.00991058349609375,
+    0.0160675048828125,
+    0.0255126953125,
+    0.0045013427734375,
+    0.0154571533203125,
+    -0.005146026611328125,
+    0.0084228515625,
+    0.010772705078125,
+    -0.0222930908203125,
+    -0.0006852149963378906,
+    0.003753662109375,
+    -0.00722503662109375,
+    -0.015228271484375,
+    -0.046417236328125,
+    -0.0178070068359375,
+    -0.01364898681640625,
+    0.00331878662109375,
+    0.0377197265625,
+    -0.017364501953125,
+    -0.006450653076171875,
+    -0.004962921142578125,
+    0.03485107421875,
+    -0.01293182373046875,
+    0.004241943359375,
+    -0.01513671875,
+    -0.0029163360595703125,
+    -0.0294342041015625,
+    0.0309295654296875,
+    -0.0181732177734375,
+    0.04443359375,
+    -0.021636962890625,
+    -0.01983642578125,
+    0.04290771484375,
+    0.004764556884765625,
+    -0.027191162109375,
+    0.00616455078125,
+    -0.0193634033203125,
+    -0.035797119140625,
+    0.036407470703125,
+    -0.03271484375,
+    0.035888671875,
+    0.0276336669921875,
+    -0.01410675048828125,
+    0.0084228515625,
+    -0.0037517547607421875,
+    -0.00997161865234375,
+    -0.0268402099609375,
+    0.028106689453125,
+    -0.0408935546875,
+    -0.0210418701171875,
+    0.0069580078125,
+    0.0023708343505859375,
+    -0.0117645263671875,
+    -0.0157470703125,
+    -0.01654052734375,
+    -0.020538330078125,
+    0.005825042724609375,
+    0.019439697265625,
+    -0.01213836669921875,
+    -0.0020313262939453125,
+    -0.0283355712890625,
+    0.01042938232421875,
+    0.01776123046875,
+    -0.019622802734375,
+    0.0122528076171875,
+    0.025665283203125,
+    0.04345703125,
+    -0.014862060546875,
+    -0.027008056640625,
+    -0.0188446044921875,
+    0.01207733154296875,
+    0.0151519775390625,
+    0.01128387451171875,
+    0.0031490325927734375,
+    0.020111083984375,
+    -0.050994873046875,
+    -0.004085540771484375,
+    -0.0226287841796875,
+    0.043304443359375,
+    -0.0187530517578125,
+    -0.04205322265625,
+    -0.01511383056640625,
+    0.032196044921875,
+    -0.0185394287109375,
+    -0.030303955078125,
+    0.0198822021484375,
+    0.0261993408203125,
+    -0.012115478515625,
+    0.0241851806640625,
+    0.018035888671875,
+    0.0239410400390625,
+    -0.001590728759765625,
+    -0.0144805908203125,
+    0.0024242401123046875,
+    0.0079803466796875,
+    0.024017333984375,
+    0.00685882568359375,
+    0.00621795654296875,
+    0.004848480224609375,
+    -0.050445556640625,
+    0.0121917724609375,
+    0.0648193359375,
+    -0.00386810302734375,
+    -0.00597381591796875,
+    0.018463134765625,
+    0.02960205078125,
+    -0.010894775390625,
+    0.01055908203125,
+    -0.006572723388671875,
+    0.0010709762573242188,
+    -0.03271484375,
+    0.0008039474487304688,
+    0.01082611083984375,
+    0.01386260986328125,
+    0.03662109375,
+    0.0098419189453125,
+    0.0272216796875,
+    0.0042877197265625,
+    0.003826141357421875,
+    -0.0264434814453125,
+    -0.0254058837890625,
+    0.01381683349609375,
+    0.01107025146484375,
+    -0.016876220703125,
+    0.016937255859375,
+    0.0012178421020507812,
+    -0.044586181640625,
+    0.05548095703125,
+    0.004840850830078125,
+    -0.0310211181640625,
+    -0.02679443359375,
+    0.0247039794921875,
+    -0.01528167724609375,
+    -0.00713348388671875,
+    -0.017669677734375,
+    -0.01171875,
+    -0.0038471221923828125,
+    0.003997802734375,
+    0.0250244140625,
+    0.00927734375,
+    0.0181121826171875,
+    -0.016265869140625,
+    0.006786346435546875,
+    -0.005710601806640625,
+    -0.0033092498779296875,
+    -0.004608154296875,
+    0.037445068359375,
+    0.007404327392578125,
+    -0.00807952880859375,
+    0.0250091552734375,
+    0.001190185546875,
+    0.0175933837890625,
+    0.006496429443359375,
+    0.035614013671875,
+    -0.0289764404296875,
+    -0.0221099853515625,
+    0.0003917217254638672,
+    -0.026092529296875,
+    0.007694244384765625,
+    0.027801513671875,
+    0.01177215576171875,
+    0.006694793701171875,
+    -0.00481414794921875,
+    -0.0269317626953125,
+    -0.0107421875,
+    -0.040924072265625,
+    -0.014984130859375,
+    0.00762939453125,
+    0.01238250732421875,
+    -0.004390716552734375,
+    0.00525665283203125,
+    0.0201873779296875,
+    -0.0146331787109375,
+    0.0079803466796875,
+    0.020965576171875,
+    -0.00737762451171875,
+    0.00772857666015625,
+    -0.039764404296875,
+    -0.0377197265625,
+    -0.0347900390625,
+    -0.00414276123046875,
+    0.0382080078125,
+    0.0117340087890625,
+    0.0001691579818725586,
+    0.04266357421875,
+    -0.0017995834350585938,
+    0.0097808837890625,
+    -0.0252227783203125,
+    0.02801513671875,
+    -0.00867462158203125,
+    -0.033294677734375,
+    -0.0090179443359375,
+    0.047698974609375,
+    0.0210418701171875,
+    0.01375579833984375,
+    0.0093231201171875,
+    0.03399658203125,
+    -0.017852783203125,
+    0.02178955078125,
+    -0.000995635986328125,
+    -0.0011453628540039062,
+    -0.042022705078125,
+    0.025909423828125,
+    0.0010852813720703125,
+    -0.0131683349609375,
+    -0.0104827880859375,
+    -0.001491546630859375,
+    -0.02197265625,
+    0.01004791259765625,
+    -0.01708984375,
+    0.0026493072509765625,
+    0.029083251953125,
+    -0.01104736328125,
+    0.010101318359375,
+    -0.005512237548828125,
+    -0.02972412109375,
+    0.0135955810546875,
+    0.0016345977783203125,
+    0.0174713134765625,
+    0.01064300537109375,
+    -0.00853729248046875,
+    0.039154052734375,
+    0.015899658203125,
+    -0.033172607421875,
+    0.022216796875,
+    -0.017059326171875,
+    0.0305938720703125,
+    0.00775909423828125,
+    0.036712646484375,
+    0.033599853515625,
+    0.036895751953125,
+    0.0014333724975585938,
+    0.004413604736328125,
+    -0.0020084381103515625,
+    0.036376953125,
+    -0.002040863037109375,
+    -0.022186279296875,
+    0.0021305084228515625,
+    0.0144500732421875,
+    0.047149658203125,
+    -0.0305938720703125,
+    -0.020111083984375,
+    -0.001712799072265625,
+    -0.005062103271484375,
+    -0.0312042236328125,
+    -0.0041351318359375,
+    0.025115966796875,
+    -0.0156402587890625,
+    0.003940582275390625,
+    -0.01519012451171875,
+    0.01338958740234375,
+    0.0025177001953125,
+    0.0198822021484375,
+    0.0125579833984375,
+    -0.0144500732421875,
+    -0.06585693359375,
+    -0.0035552978515625,
+    0.006816864013671875,
+    -0.02667236328125,
+    -0.033447265625,
+    -0.00791168212890625,
+    -0.0303955078125,
+    0.00894927978515625,
+    -0.014373779296875,
+    -0.023193359375,
+    -0.01361083984375,
+    0.00420379638671875,
+    0.00765228271484375,
+    -0.031829833984375,
+    -0.0124664306640625,
+    0.01102447509765625,
+    -0.0026607513427734375,
+    -0.001506805419921875,
+    0.0183868408203125,
+    0.0186767578125,
+    0.004436492919921875,
+    -0.0260162353515625,
+    -0.026153564453125,
+    0.0081634521484375,
+    -0.011932373046875,
+    0.0303955078125,
+    0.0162200927734375,
+    0.0087127685546875,
+    -0.0119171142578125,
+    0.01580810546875,
+    -0.0009088516235351562
+  ]
+}

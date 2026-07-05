@@ -1,0 +1,4798 @@
+{
+  "video": {
+    "videoId": "Je4Jno07eos",
+    "title": "롤 하다 갑자기 부모님 안부요…? 😶 | 롤 구단 매니저 | 한화생명e스포츠 | 워크맨 | 이준, 우즈",
+    "channelTitle": "워크맨-Workman",
+    "thumbnailUrl": "https://i.ytimg.com/vi/Je4Jno07eos/maxresdefault.jpg",
+    "publishedAt": "2026-03-06",
+    "viewCount": 1067355,
+    "likeCount": 16890,
+    "analyzedComments": 2239,
+    "languageRatio": {
+      "ko": 93,
+      "en": 3,
+      "other": 4
+    },
+    "weightedSentiment": 69
+  },
+  "topics": [
+    {
+      "label": "팀 응원",
+      "labelEn": "Team Support",
+      "labelZh": "团队支持",
+      "labelJa": "チームサポート",
+      "mentionCount": 1223,
+      "sentiment": {
+        "positive": 71,
+        "neutral": 23,
+        "negative": 7
+      },
+      "confidence": {
+        "positive": {
+          "level": "HIGH",
+          "ciLow": 68.3,
+          "ciHigh": 73.4,
+          "sampleSize": 1223
+        },
+        "negative": {
+          "level": "HIGH",
+          "ciLow": 5.3,
+          "ciHigh": 8.1,
+          "sampleSize": 1223
+        }
+      }
+    },
+    {
+      "label": "우즈의 공연",
+      "labelEn": "Woodz's Performance",
+      "labelZh": "乌兹的表演",
+      "labelJa": "ウズのパフォーマンス",
+      "mentionCount": 392,
+      "sentiment": {
+        "positive": 74,
+        "neutral": 23,
+        "negative": 4
+      },
+      "confidence": {
+        "positive": {
+          "level": "HIGH",
+          "ciLow": 69.2,
+          "ciHigh": 77.8,
+          "sampleSize": 392
+        },
+        "negative": {
+          "level": "HIGH",
+          "ciLow": 2.1,
+          "ciHigh": 5.9,
+          "sampleSize": 392
+        }
+      }
+    },
+    {
+      "label": "워크맨 이벤트",
+      "labelEn": "Workman Event",
+      "labelZh": "工作者活动",
+      "labelJa": "ワークマンイベント",
+      "mentionCount": 318,
+      "sentiment": {
+        "positive": 73,
+        "neutral": 23,
+        "negative": 5
+      },
+      "confidence": {
+        "positive": {
+          "level": "HIGH",
+          "ciLow": 67.5,
+          "ciHigh": 77.2,
+          "sampleSize": 318
+        },
+        "negative": {
+          "level": "HIGH",
+          "ciLow": 2.9,
+          "ciHigh": 7.6,
+          "sampleSize": 318
+        }
+      }
+    },
+    {
+      "label": "구마유시의 반응",
+      "labelEn": "Gumayusi's Reaction",
+      "labelZh": "古买尤西的反应",
+      "labelJa": "グマユシの反応",
+      "mentionCount": 245,
+      "sentiment": {
+        "positive": 78,
+        "neutral": 16,
+        "negative": 6
+      },
+      "confidence": {
+        "positive": {
+          "level": "HIGH",
+          "ciLow": 72.4,
+          "ciHigh": 82.7,
+          "sampleSize": 245
+        },
+        "negative": {
+          "level": "HIGH",
+          "ciLow": 3.4,
+          "ciHigh": 9.4,
+          "sampleSize": 245
+        }
+      }
+    },
+    {
+      "label": "헬스 관련 묘사",
+      "labelEn": "Fitness Descriptions",
+      "labelZh": "健身相关描述",
+      "labelJa": "フィットネスに関する描写",
+      "mentionCount": 61,
+      "sentiment": {
+        "positive": 49,
+        "neutral": 44,
+        "negative": 7
+      },
+      "confidence": {
+        "positive": {
+          "level": "HIGH",
+          "ciLow": 37.1,
+          "ciHigh": 61.4,
+          "sampleSize": 61
+        },
+        "negative": {
+          "level": "HIGH",
+          "ciLow": 2.6,
+          "ciHigh": 15.7,
+          "sampleSize": 61
+        }
+      }
+    }
+  ],
+  "reactionTimeline": [
+    {
+      "elapsedSeconds": 12662.0,
+      "bucketStart": "2026-03-06T03:31:02+00:00",
+      "bucketEnd": "2026-03-06T09:12:12+00:00",
+      "positive": 21,
+      "neutral": 14,
+      "negative": 5,
+      "netSentiment": 0.4,
+      "zScore": -1.989,
+      "isBurst": true,
+      "direction": "NEGATIVE_SPIKE",
+      "volumeZScore": -0.597,
+      "isVolumeBurst": false,
+      "durationSeconds": 20470.0,
+      "topComments": [
+        {
+          "text": "❤워크맨 특별 EVENT❤\r\n\r\n✅ 참여방법 \r\n1. 워크맨 ‘롤구단 매니저'편 영상 시청 \r\n2. 영상 ‘좋아요’ 클릭!\r\n3. 가장 재미있었던 장면 타임코드(00:00)와 그 이유를 댓글로 남겨주세요! \r\n\r\n✅ 이벤트 상품\r\n- 헤드셋 + HLE 키트 : 1명\r\n- 키보드 : 1명\r\n- 마우스 : 2명 \r\n\r\n✅ 이벤트 기간 및 발표\r\n- 이벤트 기간: 3월 6일 (금) ~ 3월12일 (목)\r\n- 당첨자 발표: 3월 13일 (금) 이후 발표 게시물 공지 예정",
+          "likeCount": 549,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "❤워크맨 특별 EVENT❤\r\n\r\n✅ 참여방법 \r\n1. 워크맨 ‘롤구단 매니저'편 영상 시청 \r\n2. 영상 ‘좋아요’ 클릭!\r\n3. 가장 재미있었던 장면 타임코드(00:00)와 그 이유를 댓글로 남겨주세요! \r\n\r\n✅ 이벤트 상품\r\n- 헤드셋 + HLE 키트 : 1명\r\n- 키보드 : 1명\r\n- 마우스 : 2명 \r\n\r\n✅ 이벤트 기간 및 발표\r\n- 이벤트 기간: 3월 6일 (금) ~ 3월12일 (목)\r\n- 당첨자 발표: 3월 13일 (금) 이후 발표 게시물 공지 예정",
+          "likeCount": 549,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "너 임마 청년을 만들어낸 전설의 게임",
+          "likeCount": 284,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "LEE JOON FIGHTING! 🧑🏻🥰🔥",
+          "likeCount": 26,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "(15:00) ㅋㅋㅋㅋㅋㅋ왕호선수 방송 열심히 하던데 한번 이모카세 드시러 오시져 ㅋㅋㅋ이모님 바이브진짜 좋으시다 월즈 우승 못했을때 우셨다니 마음이 아프네요 흑흑 한화생명 선수들 올해 시즌 화이팅!!",
+          "likeCount": 26,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "01:58 한쫀쿠 등장ㅋㅋ",
+          "likeCount": 24,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "온통 우즈 세상이다!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! \n물들어올때 노젓는구나! 매일 매일 폭탄으로 영상 뜨니까 행복해죽겠네 더더 흥해라 잘되라 더 잘되라 계속잘되라 응원한다!",
+          "likeCount": 22,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "23:23 아 ㅋㅋㅋㅋㅋㅋㅋ 이게 무슨 그림이야 승연앜ㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 11,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "경희대 축제때 급 섭외하더니 진짜 나왔네 !!!",
+          "likeCount": 9,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "7:58 뭔말인지는 모르고 선수들이랑 친해지려면 아는척은 해야겠곸ㅋㅋㅋ 준이형 여기 개웃기네",
+          "likeCount": 4,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "4:14 슬쩍 금을 주머니에 넣는게 재미있습니다 ㅋㅋㅋㅋ",
+          "likeCount": 4,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "💙🧡💙🧡",
+          "likeCount": 2,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "2:03 우즈님과 매니저는 왜 추시는지 ..ㅋㅋ 정말 잼있었어요 !! 우즈님 정규 1집 대박 나세유 !!!! ❤❤",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "10등딱하니깐 예능도 나오네...",
+          "likeCount": 2,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "진지하게 팀 옮기고 구마유슬 폼 떨어졌던데",
+          "likeCount": 2,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "땡큐❤❤❤❤",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "하...승연아  살려줘 요즘 분신술 쓰니? ❤ 몸이 몇개야 무즈들이야 감사하지만...❤",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "구마유시?! 제우스? 깜짝이야",
+          "likeCount": 2,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "no way my man woodz is here!!!!",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "없네?",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "챙단장님 모셔와유",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "6:20 갑분 실명 거론  김명진 ㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "상문박상 이채영 나와라!!!!",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "00:33 돈벌기 힘드니까 키보드 마우스 시원하게 하나줘라",
+          "likeCount": 1,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "6:23 챙이랑라보해줘요! 마우스이쁘다! 한화 우승고고",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "조승연 우파루파 같당 기여웡",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "이제 아이돌들 조공 안받는다고 했는데 이제 요쪽으로 조공 보내네 ... 부자들. 많네..",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "탈락 ㅋㅋㅋㅋㅋ 13:42",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "0:43 사이비 ㅋㅋㅋㅋㅋㅋㅋㅋ뭔지 알 거 같음 ㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "슈퍼팀을 꿈꾸고 선수들 개영입했는데 결과는 10등따리팀 ㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "구마유시다 대박",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "제2의 그라췌~ 에~~~~~야잌짜식아 ~~~~~~~~~",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "1:39 뭐야 나 눈 마주쳤는데요?",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "한화생명 이스포츠이 워크맨에 나오다니!! 한화생명 화이팅 워크맨 화이팅!!",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "타이밍이... 맞나?",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "13:10 한전드 이모님의 안성재 샤라웃 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "워크돌도 올려줘잉 !!!",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "1:26 환",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "13:59 제가 대신 한대 맞겠습니다! ㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "6:28 으으으ㅡ 느끼해",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        }
+      ]
+    },
+    {
+      "elapsedSeconds": 33139.0,
+      "bucketStart": "2026-03-06T09:12:19+00:00",
+      "bucketEnd": "2026-03-06T09:22:16+00:00",
+      "positive": 26,
+      "neutral": 11,
+      "negative": 3,
+      "netSentiment": 0.575,
+      "zScore": -0.657,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": 1.006,
+      "isVolumeBurst": false,
+      "durationSeconds": 597.0
+    },
+    {
+      "elapsedSeconds": 33754.0,
+      "bucketStart": "2026-03-06T09:22:34+00:00",
+      "bucketEnd": "2026-03-06T09:30:14+00:00",
+      "positive": 24,
+      "neutral": 13,
+      "negative": 3,
+      "netSentiment": 0.525,
+      "zScore": -1.038,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": 1.124,
+      "isVolumeBurst": false,
+      "durationSeconds": 460.0
+    },
+    {
+      "elapsedSeconds": 34215.0,
+      "bucketStart": "2026-03-06T09:30:15+00:00",
+      "bucketEnd": "2026-03-06T09:41:59+00:00",
+      "positive": 28,
+      "neutral": 10,
+      "negative": 2,
+      "netSentiment": 0.65,
+      "zScore": -0.086,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": 0.931,
+      "isVolumeBurst": false,
+      "durationSeconds": 704.0
+    },
+    {
+      "elapsedSeconds": 34924.0,
+      "bucketStart": "2026-03-06T09:42:04+00:00",
+      "bucketEnd": "2026-03-06T09:54:04+00:00",
+      "positive": 32,
+      "neutral": 5,
+      "negative": 3,
+      "netSentiment": 0.725,
+      "zScore": 0.484,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": 0.921,
+      "isVolumeBurst": false,
+      "durationSeconds": 720.0
+    },
+    {
+      "elapsedSeconds": 35656.0,
+      "bucketStart": "2026-03-06T09:54:16+00:00",
+      "bucketEnd": "2026-03-06T10:04:17+00:00",
+      "positive": 25,
+      "neutral": 13,
+      "negative": 2,
+      "netSentiment": 0.575,
+      "zScore": -0.657,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": 1.003,
+      "isVolumeBurst": false,
+      "durationSeconds": 601.0
+    },
+    {
+      "elapsedSeconds": 36267.0,
+      "bucketStart": "2026-03-06T10:04:27+00:00",
+      "bucketEnd": "2026-03-06T10:12:37+00:00",
+      "positive": 31,
+      "neutral": 8,
+      "negative": 1,
+      "netSentiment": 0.75,
+      "zScore": 0.675,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": 1.095,
+      "isVolumeBurst": false,
+      "durationSeconds": 490.0
+    },
+    {
+      "elapsedSeconds": 36764.0,
+      "bucketStart": "2026-03-06T10:12:44+00:00",
+      "bucketEnd": "2026-03-06T10:20:22+00:00",
+      "positive": 27,
+      "neutral": 11,
+      "negative": 2,
+      "netSentiment": 0.625,
+      "zScore": -0.277,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": 1.126,
+      "isVolumeBurst": false,
+      "durationSeconds": 458.0
+    },
+    {
+      "elapsedSeconds": 37239.0,
+      "bucketStart": "2026-03-06T10:20:39+00:00",
+      "bucketEnd": "2026-03-06T10:29:46+00:00",
+      "positive": 29,
+      "neutral": 11,
+      "negative": 0,
+      "netSentiment": 0.725,
+      "zScore": 0.484,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": 1.045,
+      "isVolumeBurst": false,
+      "durationSeconds": 547.0
+    },
+    {
+      "elapsedSeconds": 37803.0,
+      "bucketStart": "2026-03-06T10:30:03+00:00",
+      "bucketEnd": "2026-03-06T10:41:17+00:00",
+      "positive": 32,
+      "neutral": 7,
+      "negative": 1,
+      "netSentiment": 0.775,
+      "zScore": 0.865,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": 0.951,
+      "isVolumeBurst": false,
+      "durationSeconds": 674.0
+    },
+    {
+      "elapsedSeconds": 38496.0,
+      "bucketStart": "2026-03-06T10:41:36+00:00",
+      "bucketEnd": "2026-03-06T10:53:48+00:00",
+      "positive": 22,
+      "neutral": 16,
+      "negative": 2,
+      "netSentiment": 0.5,
+      "zScore": -1.228,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": 0.913,
+      "isVolumeBurst": false,
+      "durationSeconds": 732.0
+    },
+    {
+      "elapsedSeconds": 39242.0,
+      "bucketStart": "2026-03-06T10:54:02+00:00",
+      "bucketEnd": "2026-03-06T11:07:26+00:00",
+      "positive": 27,
+      "neutral": 9,
+      "negative": 4,
+      "netSentiment": 0.575,
+      "zScore": -0.657,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": 0.871,
+      "isVolumeBurst": false,
+      "durationSeconds": 804.0
+    },
+    {
+      "elapsedSeconds": 40046.0,
+      "bucketStart": "2026-03-06T11:07:26+00:00",
+      "bucketEnd": "2026-03-06T11:21:04+00:00",
+      "positive": 28,
+      "neutral": 10,
+      "negative": 2,
+      "netSentiment": 0.65,
+      "zScore": -0.086,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": 0.863,
+      "isVolumeBurst": false,
+      "durationSeconds": 818.0
+    },
+    {
+      "elapsedSeconds": 40906.0,
+      "bucketStart": "2026-03-06T11:21:46+00:00",
+      "bucketEnd": "2026-03-06T11:33:26+00:00",
+      "positive": 25,
+      "neutral": 15,
+      "negative": 0,
+      "netSentiment": 0.625,
+      "zScore": -0.277,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": 0.934,
+      "isVolumeBurst": false,
+      "durationSeconds": 700.0
+    },
+    {
+      "elapsedSeconds": 41607.0,
+      "bucketStart": "2026-03-06T11:33:27+00:00",
+      "bucketEnd": "2026-03-06T11:46:00+00:00",
+      "positive": 25,
+      "neutral": 9,
+      "negative": 6,
+      "netSentiment": 0.475,
+      "zScore": -1.418,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": 0.901,
+      "isVolumeBurst": false,
+      "durationSeconds": 753.0
+    },
+    {
+      "elapsedSeconds": 42394.0,
+      "bucketStart": "2026-03-06T11:46:34+00:00",
+      "bucketEnd": "2026-03-06T12:03:13+00:00",
+      "positive": 25,
+      "neutral": 11,
+      "negative": 4,
+      "netSentiment": 0.525,
+      "zScore": -1.038,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": 0.772,
+      "isVolumeBurst": false,
+      "durationSeconds": 999.0
+    },
+    {
+      "elapsedSeconds": 43408.0,
+      "bucketStart": "2026-03-06T12:03:28+00:00",
+      "bucketEnd": "2026-03-06T12:19:42+00:00",
+      "positive": 35,
+      "neutral": 5,
+      "negative": 0,
+      "netSentiment": 0.875,
+      "zScore": 1.626,
+      "isBurst": true,
+      "direction": "POSITIVE_SPIKE",
+      "volumeZScore": 0.784,
+      "isVolumeBurst": false,
+      "durationSeconds": 974.0,
+      "topComments": [
+        {
+          "text": "20:20 ㅋㅋㅋㅋㅋㅋㅋㅋ 너의 죄를 사하노라 ㅋㅋㅋㅋㅋㅋ\n23:24 ㅋㅋㅋㅋㅋㅋㅋㅋ 구마유시 수난시대 시작",
+          "likeCount": 55,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "이번주\n이준.우즈 케미 너무좋다\n이준은 무조건 열심히\n우즈 나대지않고\n다잘하는 모습 \n너무 좋앗어요\n내용이 좋아서\n자주 볼게될거같아요",
+          "likeCount": 38,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "13:15 안성재 셰프님 의문의 1패..ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ\n이모님 호탕하시네요",
+          "likeCount": 19,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "10",
+          "likeCount": 4,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "우리 우즈 역시 1등 신랑감 😍",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "14:55 구락스 샤라웃 해주는건 우리 이모님 밖에 없다ㅠㅠ 진짜 힘들때였는데",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "21:49 남캠 이준",
+          "likeCount": 2,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "23:35 이 정도면 웬만한 02년생 아이돌보다 예쁜나이25살 자주 추셨을 듯😂\n\n구마유시가 예쁜 나이 25살을 추는데 옆에서 우즈가 시네마를 부르고 앞에서 이준이 롤을 해 <<< 존재하는 문장이라는 게 믿기지 않음",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "한화이모님 최고❤❤",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "우즈 너무 귀엽잖아 🧡💙😝",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "18:07 매혹당한 이준",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "19:38 ㅋㅋㅋㅋㅋㅋ아 이사람 왜케 웃김 운동할때 눈이 돌아있음 ㅋㅋㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "5:59❤️‍🔥우즈맘 내 맘 한 세개 비면 우즈 범인은 뽀려가고 싶은 맘 가기전에 당첨 사켜주세됴",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "8:30 정글이...정글이 ㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "8:39 잼있네 이준이형 젠지팬인데 이거 보게됨 하하하하하 상품 받게되면 롤옵치 열심히해야지 만약에 ㅋㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "20:14 ㅋㅋㅋㅋ 왜캐열심히 가르쳐요 열정👍👍",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "우즈😍",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "20:16 운동 진짜 열정적으로 하는 모습이 너무 웃기다 ㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "10:34 아 우리 한전드 이모님 역시 그대로 예능감이 넘치시네 ㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "13:53 상견례 1등 실망감 멘트 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "왜 가도 10등팀을 ..ㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "19:20\n율리예스 형님을 여기서 보네ㅎㅎ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "8:30 주입식 교육 ㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "23:47 아 미쳣나 ㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "English subtitles please. Even auto translate is ok",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "6:10 역시 경품추첨시간이 제일 재밌죠 ㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "6:52 제시카라고 하다가 처음으로 제카라고 하는 장면 너무 웃겨요 ㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "23:24 ㅋㅋㅋㅋㅋㅋ 구도 개웃기네 ㅋㅋㅋㅋㅋㅋㅋㅋㅋ 한화 유쾌하네 ㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "23:40 구마 포커페이스 어케함ㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "23:27 하란다고 진짜 하네 ㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "8:37 받아주는 카나비 스윗해 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ\n\n13:57 여기도 개웃긴데 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "1:26 임요한은...",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "15:07 한전드 이모님 진짜 한화 구단에 애정을 가지고 일하시는구나..",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "구마유싴ㅋㅋㅌㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "우제야 첫마디가 안녕하세요 가 아니라 점령당했네 인게 맞냐?ㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "2:08 다른 티어 세계에 사는 외국사람이지... ㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "게임 하나도모르시는데 대화하려고 노력하시는 이준님...😂너무 웃겨요..... 8:46",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "23:48 진짜ㅜㅜㅜㅜㅜㅜ연아 연아 조승연아ㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "7:32 우제가 상급자같아서 개웃김ㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "19:36 방아깨비 ㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        }
+      ]
+    },
+    {
+      "elapsedSeconds": 44386.0,
+      "bucketStart": "2026-03-06T12:19:46+00:00",
+      "bucketEnd": "2026-03-06T12:40:01+00:00",
+      "positive": 31,
+      "neutral": 9,
+      "negative": 0,
+      "netSentiment": 0.775,
+      "zScore": 0.865,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": 0.684,
+      "isVolumeBurst": false,
+      "durationSeconds": 1215.0
+    },
+    {
+      "elapsedSeconds": 45602.0,
+      "bucketStart": "2026-03-06T12:40:02+00:00",
+      "bucketEnd": "2026-03-06T12:56:06+00:00",
+      "positive": 29,
+      "neutral": 9,
+      "negative": 2,
+      "netSentiment": 0.675,
+      "zScore": 0.104,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": 0.789,
+      "isVolumeBurst": false,
+      "durationSeconds": 964.0
+    },
+    {
+      "elapsedSeconds": 46578.0,
+      "bucketStart": "2026-03-06T12:56:18+00:00",
+      "bucketEnd": "2026-03-06T13:16:21+00:00",
+      "positive": 27,
+      "neutral": 13,
+      "negative": 0,
+      "netSentiment": 0.675,
+      "zScore": 0.104,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": 0.688,
+      "isVolumeBurst": false,
+      "durationSeconds": 1203.0
+    },
+    {
+      "elapsedSeconds": 47807.0,
+      "bucketStart": "2026-03-06T13:16:47+00:00",
+      "bucketEnd": "2026-03-06T13:35:50+00:00",
+      "positive": 29,
+      "neutral": 7,
+      "negative": 4,
+      "netSentiment": 0.625,
+      "zScore": -0.277,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": 0.711,
+      "isVolumeBurst": false,
+      "durationSeconds": 1143.0
+    },
+    {
+      "elapsedSeconds": 48953.0,
+      "bucketStart": "2026-03-06T13:35:53+00:00",
+      "bucketEnd": "2026-03-06T13:55:59+00:00",
+      "positive": 30,
+      "neutral": 8,
+      "negative": 2,
+      "netSentiment": 0.7,
+      "zScore": 0.294,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": 0.687,
+      "isVolumeBurst": false,
+      "durationSeconds": 1206.0
+    },
+    {
+      "elapsedSeconds": 50166.0,
+      "bucketStart": "2026-03-06T13:56:06+00:00",
+      "bucketEnd": "2026-03-06T14:21:55+00:00",
+      "positive": 26,
+      "neutral": 12,
+      "negative": 2,
+      "netSentiment": 0.6,
+      "zScore": -0.467,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": 0.574,
+      "isVolumeBurst": false,
+      "durationSeconds": 1549.0
+    },
+    {
+      "elapsedSeconds": 51737.0,
+      "bucketStart": "2026-03-06T14:22:17+00:00",
+      "bucketEnd": "2026-03-06T14:45:06+00:00",
+      "positive": 37,
+      "neutral": 1,
+      "negative": 2,
+      "netSentiment": 0.875,
+      "zScore": 1.626,
+      "isBurst": true,
+      "direction": "POSITIVE_SPIKE",
+      "volumeZScore": 0.63,
+      "isVolumeBurst": false,
+      "durationSeconds": 1369.0,
+      "topComments": [
+        {
+          "text": "13:05 여기 이모님 반응 개웃김ㅋㅋㅋ",
+          "likeCount": 55,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋ진짜 개웃기네ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ어케 참노",
+          "likeCount": 48,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "23:29 와 ㅋㅋㅋ 구마유시 부끄러워하는 거 너무 귀여워요! 이 역대급 명장면 100점 만점에 100점 드립니다 🍊💯",
+          "likeCount": 14,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "15:13 한모님 진짜 따수우신 분 ㅠㅠㅠㅠ 저도 보다가 울컥 . . 🥹 한생에서 꼭 계셔야할 분입니다 ㅠㅠㅠㅠ 홀로 우리 한쪽이들 잘 챙겨주셔서 감사해요 🧡🧡🧡",
+          "likeCount": 11,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "23:28 구도 ㄹㅇ 폭력적이네 진짜 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 10,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "24:00 저걸 보고 안웃으시는게 ㄹㅇ 대단하심..",
+          "likeCount": 4,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "11:42 우즈님 한테 버럭 하실때 \n욕 쟁 이  할머니 같기도 하고 넘 웃겨요 😂😂😂",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "우즈는 뭘해도 진심으로 열심히 하고 영혼 넘쳐서 보기좋음❤",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㅋㅋㅋㅋ시간순삭임 그리고한모님나오실때 나도모르게 배속한줄알고 설정들어가봄ㅋㅋㅋㅋ",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "23:23 여기서부터 개웆겨요 ㅋㅌㅌㅋㅋ",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "하.. 거의 5분마다 다 하이라이트였는데\n리얼워크맨(한화매니줠님)과 쭌워크맨과 일일 쯔워크맨의 수고와 노고와\n일 속에서 자연스레 피워낸 예능감. 23:37 너로 정했다",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "23:39 매니저님이 제일 웃김 ㅋㅋ",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "13:54 한모님이랑 티키타카 미쳣다;; 롤은 모르지만 목숨을 건 딜각은 정확하게 보시는",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "15:15 이모님🥹🥹 넘 따뜻하셔요❤",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "8:35 이부분 급하게 어린 프로게이머들과 친해지려고 하는데 안되는 부분이 넘 재밌네요",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "23:47 아 여기 진짜 미쳣냐 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅌㅌㅌㅋㅋㅌㅋㅋㅌㅌㅌㅌㅌㅌㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ울즈 ezr",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "8:13 ㅋㅋㅋㅋ여기부터 진짜 롤 몰라서 뇌절하는거 재밌네요 ㅋㅋㅋㅋㅋㅋ\n11:08 아니 윤두준 ㅋㅋㅋㅋㅋㅋ개웃기네",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "23:37 너무 폭룡적임 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "23:42 이 사람들도 이렇게 열심히 사는데..",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "20:15 여기 단체로 너의 죄를 사거라 이러니까 왤케 웃기냐ㅋㅋㅋㅋㅋㅋ이준 폼 미쳤네ㅋㅋㅋㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "임요한 죽는다 진짜",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "16:19 아니 ㅋㅋㅋㅋ 따뜻한말이요? ㅋㅋㅋ 긍정럭키비키",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "8:32 애쓰는거 개웃기네 ㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "궁 on 13:53\n솔킬 당한 이모님... 13:58\n\n23:02 잘 참고 민형이 25살 봤는데\n23:36 에서 못 참고 터져버렸습니다...",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "12:32 사오정 ㅁㅊ ㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "23:51\n현타 오는 장면이 웃김ㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ ㅠㅠ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "감사합니다",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "23:23 민형이 운동 많이 될 거야 ㅋㅋㅋㅋㅋㅠㅠㅠㅠ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "23:30 올해 우승 가즈아!!",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "24:07 ㅋㅋㅋㅋ아 표정ㅋㅋㅌㅌㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "16:50 제우스 귀여우시다",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "24:00 ㅋㅋㅋㅋㅋㅋㅋ 구마 집중력 vs 수치심 없는 3인방의 엉덩이털기",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "8:30 왜그러죠?ㅋㅋㅋㅋ진짜젤웃김ㅋㅋㅋㅋㅋ\n14:29 한머님 만담\n23:59 돌아와버린 광기\n워크맨에서 lck 한화를 보다니ㅜㅜㅋㅋㅋㅋ\n우즈씨 lck 많이 보는 거 같아서 내적친밀감 드네요..\n처음부터 끝까지 다 재밌었습니다!!",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "제카 잘생기게 나왔네",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "19:11 ㅋㅋㅋㅋㅋㅋㅋㅋ 운동에 진심인 제카",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "예? 구마유시여?! ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "7:32 잘생겼다 !!",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "13:42 상견례 실망감 1등 빵터졌어요. 이모님이 예능감이 상당했어요. 하는 말마다 속 시원하고 재밋😊",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "12:39 맑은 고추겠냐곸ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        }
+      ]
+    },
+    {
+      "elapsedSeconds": 53126.0,
+      "bucketStart": "2026-03-06T14:45:26+00:00",
+      "bucketEnd": "2026-03-06T15:23:04+00:00",
+      "positive": 25,
+      "neutral": 11,
+      "negative": 4,
+      "netSentiment": 0.525,
+      "zScore": -1.038,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": 0.403,
+      "isVolumeBurst": false,
+      "durationSeconds": 2258.0
+    },
+    {
+      "elapsedSeconds": 55423.0,
+      "bucketStart": "2026-03-06T15:23:43+00:00",
+      "bucketEnd": "2026-03-06T15:59:31+00:00",
+      "positive": 26,
+      "neutral": 8,
+      "negative": 6,
+      "netSentiment": 0.5,
+      "zScore": -1.228,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": 0.425,
+      "isVolumeBurst": false,
+      "durationSeconds": 2148.0
+    },
+    {
+      "elapsedSeconds": 57593.0,
+      "bucketStart": "2026-03-06T15:59:53+00:00",
+      "bucketEnd": "2026-03-06T16:54:42+00:00",
+      "positive": 25,
+      "neutral": 11,
+      "negative": 4,
+      "netSentiment": 0.525,
+      "zScore": -1.038,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": 0.232,
+      "isVolumeBurst": false,
+      "durationSeconds": 3289.0
+    },
+    {
+      "elapsedSeconds": 60913.0,
+      "bucketStart": "2026-03-06T16:55:13+00:00",
+      "bucketEnd": "2026-03-06T17:56:23+00:00",
+      "positive": 21,
+      "neutral": 16,
+      "negative": 3,
+      "netSentiment": 0.45,
+      "zScore": -1.608,
+      "isBurst": true,
+      "direction": "NEGATIVE_SPIKE",
+      "volumeZScore": 0.182,
+      "isVolumeBurst": false,
+      "durationSeconds": 3670.0,
+      "topComments": [
+        {
+          "text": "23:28 ㅋㅋㅋ 무슨조합이냐고 겜알못센터와 재능낭비우즈 춤꾼구마유시까지 봐도봐도 새롭다 ㅋㄱㅋ",
+          "likeCount": 202,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "17:25 이준님 열심히 얘기하는 와중 구마유시 먹방쇼",
+          "likeCount": 148,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "@ForJoyYTB 왜이러고 사냐",
+          "likeCount": 75,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "페이커 바드 사건 검색 ㄱㄱ",
+          "likeCount": 29,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "24:02 이 상황에서도 게임 플레이를 할 수 있으면 앞으로 못할게 없을듯",
+          "likeCount": 15,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "@낄낄-r5i왜그러고 사냐",
+          "likeCount": 5,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "23:24 구마유시 춤추는거 겁나웃기네",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "(11:08) 유2준 ㅋㅋㅋㅋ",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "17:35 한화생명 레전드 트리오 카제구 ㅋㅋㅋㅋㅋ 여기서도 나오네",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "이준 이마라인 개 이뻐서 스포츠컷 이나 올림 머리 일때 충분히 더 예쁘게 올릴수 있는데 헤어 쌤 누굴까 피드백 좀\n반깐 이나 덮머 헤어 또는 파마 펌은 예쁘게 잘함",
+          "likeCount": 2,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "15:05 피넛형 멸망전 하다가 이거 봐요. 멸망전 화이팅 피넛",
+          "likeCount": 2,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "이모님 너무 엄마같고...좋으시다...",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "16:36 ㅋㅋㅋㅋㅋ 줜나웃기네",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "17:00 우제 개귀엽네 ㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "광탈하니까 촬영할 시간이 있었나보구나 ㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "13:54 이모님 솔직한 반응에 스태프들도 같이 빵 터지는거 몇번씩 돌려봄 ㅋㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "15:05에서부터 15:30까지 같이 울었습니다 😢 락스의 마지막 ⭐️",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "13:04 부터 이모님 안성재셰프님 머라 하는거 ㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "8:33 카나비랑 제카 그냥 쭈뼛쭈뼛 서있는게 ㅋㅋㅋㅋ\n\n13:17 이건 따로 한생 컨텐츠에서 기대추 ㅋㅎㅋㅎ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "16:15 그냥 완전 공감멘트 ㅋㅋㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "8:54 나까지 헷갈릴 정도인 금붕어 기억력 소유자 이준,,, 한결같은 그의 기억력",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "헤어가 에러 저것도 이준이라 개 잘생김",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "열 등 감 니가 진짜 에바 라고 ㅋㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "난 이준 워크맨 뜰때마다 봤는데 이젠못보겠네 ㅠㅠ...",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "19:10 짱카 신음 귀하다",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "앗...",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "ㅠ",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "14:57 넛신",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "7:24 (?)점령당한 내 공간 복구하러온 우리 탑 우제🧡 기엽다기여워!!!!!!!!!",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "23:34 총체적 난국ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "6:27 응모했습니당❤️",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "우즈 수육 잘썰고 뭐든 열심히하네 😊",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "20:08 나에게 헤드셋을 선사하노라",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "13:57 역시 한화는 이모님 입담ㅋㅋ 줘패거싶댘ㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "율라예스 이정도로 커지다니 지리네",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "0:44 초반부터 강렬해서 재밌었어요 ㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "23:30 얼마나 성공하려는지 모르겠넹",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "23:30 \n공수치… \n시킨다고 하는 굼시 역시 프로👍🏻 내가 다 울고싶음",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "6:30 넵 응모할게요",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "너의 죄를 사하노라",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "elapsedSeconds": 64999.0,
+      "bucketStart": "2026-03-06T18:03:19+00:00",
+      "bucketEnd": "2026-03-06T20:24:08+00:00",
+      "positive": 28,
+      "neutral": 11,
+      "negative": 1,
+      "netSentiment": 0.675,
+      "zScore": 0.104,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": -0.196,
+      "isVolumeBurst": false,
+      "durationSeconds": 8449.0
+    },
+    {
+      "elapsedSeconds": 73590.0,
+      "bucketStart": "2026-03-06T20:26:30+00:00",
+      "bucketEnd": "2026-03-06T23:39:42+00:00",
+      "positive": 23,
+      "neutral": 12,
+      "negative": 5,
+      "netSentiment": 0.45,
+      "zScore": -1.608,
+      "isBurst": true,
+      "direction": "NEGATIVE_SPIKE",
+      "volumeZScore": -0.339,
+      "isVolumeBurst": false,
+      "durationSeconds": 11592.0,
+      "topComments": [
+        {
+          "text": "​@낄낄-r5i 싫어한다면서 매번 이렇게 쫓아다니면서 댓글 남기고 조회수 올려주는거 진짜 정성이다. 사실 넌 구마를 사랑하는게 아닐까? 팬보다 더 성실하잖아.",
+          "likeCount": 24,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "23:42 진짜 안웃는 구마가 대단해ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ 이준님 우즈님도 진짜 넘 웃겨요 웃음을 위해서 온몸을 불사지르는 워크맨 정신이 그대로 담겨있는 장면이라 생각합니다",
+          "likeCount": 19,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "7:24 우제등장  귀엽네",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "7:27 우제는 첫마디가 '점령당했네' ㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "I need this with english sub please!!!!",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "1:27 임요한 아니고 임요환이에요",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "구마유시 화이팅! 한화생명 화이팅!!🧡🪄✨️",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "6:46 이 장면이 특히 재미있었어요 ㅎㅎ 😄 설명 듣는데도 계속 이해 못 하는 표정이 너무 웃기더라고요 보는 내내 저도 같이 겜알못 모드로 보고 있어서 더 공감되면서 웃겼어요\n이번 편은 롤을 잘 몰라도 충분히 재미있게 볼 수 있는 구성이라 더 좋았어요 🎯 구단 분위기도 자연스럽게 보여주고 체험하는 과정도 신선해서 시간 가는 줄 모르고 봤네요 댓글 이벤트 열어주셔서 감사하고 워크맨 영상 항상 재미있게 보고 있습니다",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "아니 솔직히 19:10 여기부터 아 너무 웃기다ㅠㅠ 했는데 24:00 에바임 그림이 너무 폭룡적이야요ㅠㅠㅠ 하... 저도 매니저하고싶은데 ㄹㅇ TO가 없어서 슬프네요? 그냥 구단 아무데나 냅다 원서넣고 싶음요",
+          "likeCount": 1,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "롤 모르는 나는 쉐프님 분량이 제일 재미잇네요 ㅋㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "14:59 e스포츠는 이모님도 호탕하네요 오래 있어주셨으면 좋겠어요 ㅋㅋㅋ (4가지 없다는건 사실 농담인거 알아용)이준님이랑 게스트 우즈님이랑 둘 다 폭소파티로 만드심ㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "15:05 재밌게 보다가 왕호햄 롤드컵 얘기 나오니까 진짜 짠하네....",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "This video is insanely funny😂😂",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "16:19 가장 최근에 들어본 따뜻한 말 \"너 이미 청년\"",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "20:20 운동을 잘하고 있다가 갑자기 사이비신도가 된게 개웃김ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "근데 조승연 약간 쵸비 닮았네",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "우즈 오늘도 잘한다 이쁘다 귀욥다~~~",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "20:26 너의 죄를 사하노라~ 한화 화이팅~",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "🧡💙",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "이게 하필 이시기에..",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "6:28 김명진씨 나에게 오라",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "11:02 전참시에서 보신거 같으신데 바빠서 기억안나셨나봐요😅 한화생명 이모님 너무귀여우셔요 ㅋㅎㅋㅎㅋㅎㅋㅎㅋㅎ 아닌가? 윤두준인가? (윤2준)😂",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "우즈야....ㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "이준님이랑 우즈님, 울 T1도 가줘요!!!!!",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "우리 애들이 왜 여기…",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "15:08 감동... 한화 우승가즈아!!",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "준이는 성대 PT 받아야 쓰겄으요~",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "8:55  ㅋㅋㅋ찐짜 노력한다",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "아이돌이니까 촬영시켜야지",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "13:04 이모님 안성재한테 뭐라하는거 왜이리 웃기지 ㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "20:14 너의 죄를 사하노라 ㅋㅋㅋ 너무웃기네요",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "joonie 💪🏼🫠💜",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "한화생명팬인데 워크맨에서 와주셔서 넘 좋네요🧡 진짜 재밌게 봤어요 이준님 우즈님 최고!",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "24:00 이정도는 참아야 월즈 우승도 해보는구나... 확실히 어렵네;;",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "7:28 바로그냥 점령당했네? 부터 나오네 ㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "6:57 왜 우리 제카 기를 죽이고 그래욧!!!!!!",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "한화생명 돈 많네",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "23:39 ㅋㅋㅋㅋ 구도보소",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "23:37 충격적인 장면... 다른데서 볼 수 없는 것 같아요 😂😂😂😂",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "13:10 의문의 안성재 1패 ㅋㅋㅋㅋㅋ 마우스 받고싶어요!!",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        }
+      ]
+    },
+    {
+      "elapsedSeconds": 85920.0,
+      "bucketStart": "2026-03-06T23:52:00+00:00",
+      "bucketEnd": "2026-03-07T01:25:15+00:00",
+      "positive": 34,
+      "neutral": 2,
+      "negative": 4,
+      "netSentiment": 0.75,
+      "zScore": 0.675,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": -0.009,
+      "isVolumeBurst": false,
+      "durationSeconds": 5595.0
+    },
+    {
+      "elapsedSeconds": 91647.0,
+      "bucketStart": "2026-03-07T01:27:27+00:00",
+      "bucketEnd": "2026-03-07T02:43:27+00:00",
+      "positive": 30,
+      "neutral": 10,
+      "negative": 0,
+      "netSentiment": 0.75,
+      "zScore": 0.675,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": 0.084,
+      "isVolumeBurst": false,
+      "durationSeconds": 4560.0
+    },
+    {
+      "elapsedSeconds": 96410.0,
+      "bucketStart": "2026-03-07T02:46:50+00:00",
+      "bucketEnd": "2026-03-07T03:52:24+00:00",
+      "positive": 30,
+      "neutral": 8,
+      "negative": 2,
+      "netSentiment": 0.7,
+      "zScore": 0.294,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": 0.151,
+      "isVolumeBurst": false,
+      "durationSeconds": 3934.0
+    },
+    {
+      "elapsedSeconds": 100672.0,
+      "bucketStart": "2026-03-07T03:57:52+00:00",
+      "bucketEnd": "2026-03-07T05:14:55+00:00",
+      "positive": 31,
+      "neutral": 9,
+      "negative": 0,
+      "netSentiment": 0.775,
+      "zScore": 0.865,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": 0.078,
+      "isVolumeBurst": false,
+      "durationSeconds": 4623.0
+    },
+    {
+      "elapsedSeconds": 105296.0,
+      "bucketStart": "2026-03-07T05:14:56+00:00",
+      "bucketEnd": "2026-03-07T06:28:51+00:00",
+      "positive": 30,
+      "neutral": 9,
+      "negative": 1,
+      "netSentiment": 0.725,
+      "zScore": 0.484,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": 0.097,
+      "isVolumeBurst": false,
+      "durationSeconds": 4435.0
+    },
+    {
+      "elapsedSeconds": 109937.0,
+      "bucketStart": "2026-03-07T06:32:17+00:00",
+      "bucketEnd": "2026-03-07T08:18:02+00:00",
+      "positive": 26,
+      "neutral": 12,
+      "negative": 2,
+      "netSentiment": 0.6,
+      "zScore": -0.467,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": -0.066,
+      "isVolumeBurst": false,
+      "durationSeconds": 6345.0
+    },
+    {
+      "elapsedSeconds": 116598.0,
+      "bucketStart": "2026-03-07T08:23:18+00:00",
+      "bucketEnd": "2026-03-07T10:12:35+00:00",
+      "positive": 27,
+      "neutral": 7,
+      "negative": 6,
+      "netSentiment": 0.525,
+      "zScore": -1.038,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": -0.081,
+      "isVolumeBurst": false,
+      "durationSeconds": 6557.0
+    },
+    {
+      "elapsedSeconds": 124113.0,
+      "bucketStart": "2026-03-07T10:28:33+00:00",
+      "bucketEnd": "2026-03-07T12:49:38+00:00",
+      "positive": 33,
+      "neutral": 5,
+      "negative": 2,
+      "netSentiment": 0.775,
+      "zScore": 0.865,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": -0.196,
+      "isVolumeBurst": false,
+      "durationSeconds": 8465.0
+    },
+    {
+      "elapsedSeconds": 132656.0,
+      "bucketStart": "2026-03-07T12:50:56+00:00",
+      "bucketEnd": "2026-03-07T15:07:35+00:00",
+      "positive": 35,
+      "neutral": 3,
+      "negative": 2,
+      "netSentiment": 0.825,
+      "zScore": 1.245,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": -0.182,
+      "isVolumeBurst": false,
+      "durationSeconds": 8199.0
+    },
+    {
+      "elapsedSeconds": 140894.0,
+      "bucketStart": "2026-03-07T15:08:14+00:00",
+      "bucketEnd": "2026-03-07T23:01:03+00:00",
+      "positive": 25,
+      "neutral": 7,
+      "negative": 8,
+      "netSentiment": 0.425,
+      "zScore": -1.799,
+      "isBurst": true,
+      "direction": "NEGATIVE_SPIKE",
+      "volumeZScore": -0.745,
+      "isVolumeBurst": false,
+      "durationSeconds": 28369.0,
+      "topComments": [
+        {
+          "text": "23:41 이게 대체 무슨 장면이야ㅋㅋㅋㅋㅋㅋㅋㅋ 열심히 사는 4명.. 가슴이 웅장해진다",
+          "likeCount": 34,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "​@ForJoyYTB뒷담 까는것보다 낫네",
+          "likeCount": 8,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "23:49 아 개웃겨 ㅠㅋㅋㅋㅋㅋㅋㅋㅋ구마유시가 힐끗 보는거랑 뒤에서 춤추는거 너무 웃겨서 5번은 돌려본듯요😂 한화 화이팅!!🧡🧡",
+          "likeCount": 4,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "타팀팬인데 이모님 감동이다",
+          "likeCount": 4,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "23:37 아니 매니저님은 왜 자연스럽게 제로투 추고 계시는냐구욬ㅋㅋㅋㅋㅋㅋㅋ큐ㅋ큐ㅠㅠㅠㅠㅠㅠ",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "임요한이 뭐냐진짜 기본적인것도 모르고 찍으러갔네",
+          "likeCount": 2,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "13:13 한모님 ㅋㅋㅋㅋㅋㅋ 경력 30년이면 인정이죠",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "15:44 여기가 젤 웃기네요.. 이모님ㅠㅠ감동의 눈물 장전하고있었는데 급 노선변경당함…이모님 내 감동 돌려내줘요..",
+          "likeCount": 1,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "이준되고 처음봤는데 생각보다 좀 너무 경박스럽고 재미없음 ,, 한생때매억지로 봤네,,,,",
+          "likeCount": 1,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "7:23 너무 뽀짝하고 귀여워요 😍\n9:03  구마유시다ㅏㅏ❤ \n13:59  ㅋㅋㅋㅋ 이모님 정성이느껴지고 귀여우세요\n20:08 앜ㅋㅋㅋㅋㅋㅋㅋ\n23:26 ㅋㅋㅋㅋ귀여워ㅓ❤",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "7:27 점령 당했네 ㅋㅋㅋㅋㅋㅋ 그냥 뻘하게 웃김",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "역시 한전드 ... 대단하심미다",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "19:33\n좀 많이 당황스럽노…😅😅",
+          "likeCount": 1,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "13:13 이모님의 사이다가 너무 시원해요ㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "비하인드 오고있죠 노피디님^^ 믿어요",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "23:24 두배속으로 돌려보니까 넘웃기곸ㅋㅋ \n23:48 여기 진짜 뒤집어지게 웃었는데 앞에서 안웃고 계신거보고 한번 더터짐 ㅋㅋ 😂",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "07:23 사유 :  귀여움. 제우스가 귀여움. 그냥 숨쉬며 띨룽 화면에 등장하는게 귀여움.",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "23:36 매니저님은 왜 춤추시는지 ㅋㅋㅋ 전혀 생각지도 못해서 웃기네요 ㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "8:14 반대로 말하는게 너무 웃겨요ㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "7:28 점령당했네? ❤ 역시 롤언어 ❤ 기대를 저버리지 않는군❤ 한화생명 화이팅🎉 올해도 끝까지 가즈아~~!!😊",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "23:36 매니저님은 왜 춤추시는지 ㅋㅋㅋ 전혀 생각지도 못해서 웃기네요 ㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "이상한거 시키지말고 순위내놔라",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "6:30 명진이 여기있었구나 이리와",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "광기어린 눈인데 완전 20:13 ㅋㅋㅋㅋㅋㅋ 너의 죄를 사하노라 ㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "우제 찾아왔습니다 감사합니다",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "7:00 타임라인 안걸어 봤는데 이게 맞는지 모르곘지만...응모 하면서.! 여기 연패부분 재밌네요.",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "23:55 표정이 집중.!",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "24:01 다양한 시선들 집중ㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "21:54 눈빛진짴ㅋㅋㅋㅋㅋㅋ미치겠닼ㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Это было интересно.\nНадеюсь появятся анг. субтитры.\nХотелось бы знать о чем они говорили.\nWoodz 🧡💙🔥🔥🔥",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "20:20 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ아니 광신도모드머냐곸ㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "8:34 아무리봐도 이 부분을 이길 장면이 없는거같다",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "19:44 카나비 운동 많이된다.",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "3강은 무슨ㅋㅋㅋ누가 그딴소리를",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "8:34 ㅋㅋㅋㅋㅋㅋㅋㅋ이게되네",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "분초는 모르겠고 제우스 귀여워",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "어느정도로 열 등 감에 돌아 있으면 \n오늘도 새벽에 이러고 있었을까 ㅋㅋㅋㅋㅋㅋㅋ너와  니가 팬인 배우들 자기소개 하면서 뭐든지 다  반대로 까내리려는데 이준은 인품 적으로도 여러 미담들 부터 다재다능 함에 칭찬 극찬 쏟아지고  저건 더 한 처먹게 되네 ㅋㅋㅋㅋㅋ 업 보 조금씩 돌려 받는 정신병자 ㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "19:07 운동유튜버 제카 ㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "언제부터 꼴등 10등팀이 3강이였죠? ㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "23:39 구마 넘 귀여워 ㅋ ㅋ ㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        }
+      ]
+    },
+    {
+      "elapsedSeconds": 169452.0,
+      "bucketStart": "2026-03-07T23:04:12+00:00",
+      "bucketEnd": "2026-03-08T04:07:18+00:00",
+      "positive": 32,
+      "neutral": 6,
+      "negative": 2,
+      "netSentiment": 0.75,
+      "zScore": 0.675,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": -0.543,
+      "isVolumeBurst": false,
+      "durationSeconds": 18186.0
+    },
+    {
+      "elapsedSeconds": 187695.0,
+      "bucketStart": "2026-03-08T04:08:15+00:00",
+      "bucketEnd": "2026-03-08T07:35:53+00:00",
+      "positive": 33,
+      "neutral": 5,
+      "negative": 2,
+      "netSentiment": 0.775,
+      "zScore": 0.865,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": -0.372,
+      "isVolumeBurst": false,
+      "durationSeconds": 12458.0
+    },
+    {
+      "elapsedSeconds": 200271.0,
+      "bucketStart": "2026-03-08T07:37:51+00:00",
+      "bucketEnd": "2026-03-08T11:38:39+00:00",
+      "positive": 30,
+      "neutral": 9,
+      "negative": 1,
+      "netSentiment": 0.725,
+      "zScore": 0.484,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": -0.439,
+      "isVolumeBurst": false,
+      "durationSeconds": 14448.0
+    },
+    {
+      "elapsedSeconds": 215227.0,
+      "bucketStart": "2026-03-08T11:47:07+00:00",
+      "bucketEnd": "2026-03-08T23:26:55+00:00",
+      "positive": 36,
+      "neutral": 3,
+      "negative": 1,
+      "netSentiment": 0.875,
+      "zScore": 1.626,
+      "isBurst": true,
+      "direction": "POSITIVE_SPIKE",
+      "volumeZScore": -0.923,
+      "isVolumeBurst": false,
+      "durationSeconds": 41988.0,
+      "topComments": [
+        {
+          "text": "24:01 박장대소 어떻게 안 하는건뎈ㅋㅋ기",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "구마유시 개웃기넼ㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "23:26 아니 여기부터 뭐예요 ㅋㅋㅋㄱㅋㅅㅋㅅㅋㅅㅋㅋㅅㅋㅅ 상상도 못한 그림인데",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "13:59 ㅋㅋㅋㅋㅋㅋ너무 현실적이야",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "8:49 앜ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ 제 웃음포인트 ㅋㅋㅋ 속도가 불만이에용 ㅋㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "진심을 다해서 일하시는 모습이 너무 멋있네요 15:26",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "23:55 그냥 자기 안해서 웃겨서 좋다고 했다가 킬각 잡힘ㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "12:07 이모님 워크맨 아신다면서ㅋㅋㅋㅋㅋ일일알밬ㅋㅋㅋ아시는거 맞냐구~빵터졌네요",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "23:45 구마유시한테 극한의 상황에서도 웃음 참는 법 강의 배우러 가실 파티원 모집합니다 🎟️",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "23:23 여기서 굼시의 춤을 보다니 너무 행복하다❤",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "13:56 이모님 당황하시는 거 귀여우셔요",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "13:06 한모님 넘 쿨해 ㅜㅠㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ 아 웃갸",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "06:20 김명진 ㅋㅋㅋㅋㅋㅋㅋㅋㅋ제품이름이 어렵긴해요ㅠㅠㅠ",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "15:08 ㅠㅠㅠㅠㅠㅠ 저도 그때 울었는데....  야채까지 직접 키우시고, 노력과 정성으로 한끼 한끼 차려주시는 모습 너무 멋지고 사랑스러우십니다 한모님 ..💕",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "23:37 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ매니저님까지 제로투 \n먹고살기 힘드네요 역시 워크맨 ㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "7:27 와악 우제야!!!!\n9:03 와아아 미뇽아ㅏㅏㅏㅏ\n🧡",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "4:14 이준 자연스럽게 주머니로 손이 가는게 개웃기네ㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "08:18 이준 멍청이 마냥 반대로 말하는게 킥ㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "08:18 이준 멍청이 마냥 반대로 말하는게 킥ㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "내가 볼려고 만든 한생 워크맨 짤 타임라인 \r\n2:27\r\n6:58\r\n7:46\r\n8:36 \r\n10:46\r\n11:41\r\n13:42\r\n16:37\r\n17:03\r\n17:12  \r\n19:15\r\n19:21\r\n19:23\r\n19:49\r\n20:11    \r\n23:04\r\n23:30\r\n24:01\r\n한생팬으로써 이번 화 레전드임 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "5:10 잘생긴 제카 화이팅! 한화생명 올해 lck 먹자😎",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "24:00 장면 진짜 웃겼습니다\n멜라토닌 먹고 꿈속처럼 게임하는 구마유시 뒤에서 이준 우즈가 춤추는 모습이 최고네요 ㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "16:36 제우스 말하는거 개웃김ㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "23:43 폭력적인 구도 ㅋㅎㅎ\nlck 애청자로써 한화생명 응원 중인데 워크맨에서 볼 수 있어서 행복합니다 ❤❤ 2026 한화생명 화이팅!!",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "8:52 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ 멈춰~~~ 롤 한지 얼마 안된 병아리인데 예전의 저같아서 웃겼네요 ㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "13:53 ㅌㅋㅋㅋㅋㅋㅋㅋㅋ 식당 아주머니 vs 안성재 아주머니 승 ㅋㅋㅋ 어리둥절 안성재..",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "21:49 ㅋㅋㅋㅋㅋㅋㅋㅋㅋ 왜그래여… 10개 별풍 쏩니다~",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "23:38 ????? ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ 보는 제가 현타와요 ㅜㅜㅜㅜㅜㅜㅜ ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "6:59 너무웃기다",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "24:00 ㅋㅋㅋㅋㅋ 이걸 참는 구마유시",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "매니저님 카와이 ♥",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "‘세팅박’",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "23:24 마구유시가 왜이리 무리해 미치겠닼ㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "19:20 영상 곳곳에 있는 롤 용어들 다 재밌는데 장로용 잡고 왔다는 표현이 제일 재밌었던거 같아요 ㅎㅎ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "23:23 현재까지 유일한 시네마 댄스챌린지..(?) 😅",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "시냅스4 버그나 잡아주세요ㅠ",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "11:01  저 아닐껄요 라고 대답하는게 웃기네 ㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "20:11 너의 죄를 사하노라 너무 재밌엇어요 ㅋㅋㅋㅋㅋㅋ\n오늘 운동 많이될끄야!",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "20:11 너의 죄를 사하노라 너무 재밌엇어요 ㅋㅋㅋㅋㅋㅋ\n오늘 운동 많이될끄야!",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "18:15 이준 둥절 ㅋㅋㅋㅋ 그걸 니가 왜해 ㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        }
+      ]
+    },
+    {
+      "elapsedSeconds": 257215.0,
+      "bucketStart": "2026-03-08T23:26:55+00:00",
+      "bucketEnd": "2026-03-09T08:13:55+00:00",
+      "positive": 32,
+      "neutral": 5,
+      "negative": 3,
+      "netSentiment": 0.725,
+      "zScore": 0.484,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": -0.794,
+      "isVolumeBurst": false,
+      "durationSeconds": 31620.0
+    },
+    {
+      "elapsedSeconds": 290231.0,
+      "bucketStart": "2026-03-09T08:37:11+00:00",
+      "bucketEnd": "2026-03-10T00:29:24+00:00",
+      "positive": 30,
+      "neutral": 7,
+      "negative": 3,
+      "netSentiment": 0.675,
+      "zScore": 0.104,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": -1.062,
+      "isVolumeBurst": false,
+      "durationSeconds": 57133.0
+    },
+    {
+      "elapsedSeconds": 347548.0,
+      "bucketStart": "2026-03-10T00:32:28+00:00",
+      "bucketEnd": "2026-03-10T09:41:41+00:00",
+      "positive": 32,
+      "neutral": 7,
+      "negative": 1,
+      "netSentiment": 0.775,
+      "zScore": 0.865,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": -0.813,
+      "isVolumeBurst": false,
+      "durationSeconds": 32953.0
+    },
+    {
+      "elapsedSeconds": 381299.0,
+      "bucketStart": "2026-03-10T09:54:59+00:00",
+      "bucketEnd": "2026-03-11T01:01:08+00:00",
+      "positive": 30,
+      "neutral": 7,
+      "negative": 3,
+      "netSentiment": 0.675,
+      "zScore": 0.104,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": -1.04,
+      "isVolumeBurst": false,
+      "durationSeconds": 54369.0
+    },
+    {
+      "elapsedSeconds": 436125.0,
+      "bucketStart": "2026-03-11T01:08:45+00:00",
+      "bucketEnd": "2026-03-11T09:45:31+00:00",
+      "positive": 26,
+      "neutral": 13,
+      "negative": 1,
+      "netSentiment": 0.625,
+      "zScore": -0.277,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": -0.785,
+      "isVolumeBurst": false,
+      "durationSeconds": 31006.0
+    },
+    {
+      "elapsedSeconds": 468788.0,
+      "bucketStart": "2026-03-11T10:13:08+00:00",
+      "bucketEnd": "2026-03-12T04:18:12+00:00",
+      "positive": 29,
+      "neutral": 10,
+      "negative": 1,
+      "netSentiment": 0.7,
+      "zScore": 0.294,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": -1.121,
+      "isVolumeBurst": false,
+      "durationSeconds": 65104.0
+    },
+    {
+      "elapsedSeconds": 534013.0,
+      "bucketStart": "2026-03-12T04:20:13+00:00",
+      "bucketEnd": "2026-03-12T08:40:33+00:00",
+      "positive": 37,
+      "neutral": 3,
+      "negative": 0,
+      "netSentiment": 0.925,
+      "zScore": 2.006,
+      "isBurst": true,
+      "direction": "POSITIVE_SPIKE",
+      "volumeZScore": -0.474,
+      "isVolumeBurst": false,
+      "durationSeconds": 15620.0,
+      "topComments": [
+        {
+          "text": "13:03 여기 이모님 말씀이 개웃기네요 ㅋㅋ",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "8:34 이준 연기하는게 너무 웃김",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "16:36 제우스가 “이모님 이득봤네” 한마디 툭 던지는 장면. 담담하게 말하는데 너무 웃겼어요.",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "24:02 카메라 구도가 진짜 너무 폭력적으로 웃겨요 ㅋㅋㅋ 이준, 우즈, 구마유시 세 명이 한 프레임에 잡히는데 이건 뭐 장르가 SF인지 코미디인지 모르겠습니다. 롤알못 이준의 근거 없는 자신감과 그걸 견뎌내는 프로 게이머들의 인내심... 영상 내내 광기가 흘러넘쳐서 1분 1초가 아까울 정도로 꽉 찬 재미였습니다. 역시 워크맨 클래스!",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "26:06 준라우닝 커버 숨참고 기다리겠습니다 캬캬캬",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "woodz is always so fun to watch! I enjoyed this ep",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "21:52 ㅋㅋㅋㅋ 진짜 개웃겨요 ㅠ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "20:27 아 진짜 너무 웃깁니다 ㅋㅋㅋㅋㅋ운동하다 너의 죄를 왜 사해야되냐고요ㅋㅋㅋㅋ 너는 또 누구길랰ㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "24:02 그래도 구마 뒤에 궁금한가 보네ㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "18:50 그전까지 잘 몰라서 조용하다가 운동하니까 신나하는 모습이 너무 웃겼어요 ㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "23:20 이거 월즈우승하면 틀어줘야함ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "있냐가아니라 없냐ㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "7:42 우제의 드라우닝을 박제해준 우리 한화생명팀 덕분에 가장 재미있었습니다 ㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "12:28   우즈님 신곡홍보에 대한 광기가 느껴지네요 ㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "13:03 이모님 예능감 진짜 무엇? ㅋㅋㅋ 워크맨 안다고 하셔서 반가워했더니 프로그램 이름 물어보니까 \"일일알바\"라고 당당하게 말씀하시는 거 보고 빵 터졌습니다. 이준 씨 당황해서 눈 동그래지는 거랑 옆에서 틈새시장 노리고 앨범 홍보하는 우즈까지, 삼박자가 아주 완벽하네요. 이 구내식당 가면 저도 이모님 입담에 밥 세 공기 뚝딱할 것 같아요.",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㅋㅋ 준이형 아직도 비스트와의 관계가... 한모님 입에서 윤두준이 나올 줄이야~ 글고보니 윤두준은 롤 매니아이지 않나? 만난 적 있을지도?",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "24:00 구마유시 뒤에서 이준이랑 우즈 춤추는 장면… 구마는 진지하게 게임하는데 뒤는 완전 난장판이라 대비가 너무 웃겼어요.",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "23:47 구마유시가 웃음 참는 표정이 진짜 킬포인트. 저 상황에서 안 터지는 게 더 웃김.",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "23:39 구마유시 앞에서 이준이랑 우즈 춤추는 조합이 진짜 환장 파티. 구도가 너무 웃겨서 계속 돌려봤어요",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "19:42 이준이 갑자기 PT하듯이 운동 가르치는 장면. 진짜 헬스장 트레이너 알바 느낌이라 빵 터졌습니다.",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "7:27 “점령당했네” 하는 장면. 당황한 분위기가 그대로 느껴져서 너무 웃겼어요.",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "23:24 구마유시가 시키는 거 다 하는 모습이 의외라서 더 웃겼어요.",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "23:24 구마유시 집중 게임 중 뒤에서 제로투 추는 이준·우즈·매니저 환장 조합에 빵 터짐ㅋㅋㅋ \n재능+웃음 폭발! 🎮😂",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "( 23:37 )\n아니 한생 매니저님은 왜 춤 추고 계신거예요ㅋㅋㅋㅋㅋ\n너무 뜬금없어서 빵 터졌네요ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "13:55 이준이랑 이모님 티키타카가 자연스럽고 예능감 넘쳐서 재밌었습니다.",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "17:00 제우스가 킬각 잡는 듯한 분위기에서 이준, 우즈 반응이 너무 웃겼어요.",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "7:46 제우스의 당황한 말이 너무웃겨요",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "13:01 이모님 진짜 말씀도 잘하시고 센스가 있으시네요 너무 웃기세요",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "11:27 사람이 무슨 일을 하든 먹는게 제일 중요하다고 생각하는데, 매 끼니마다 재료 하나하나에 정성이랑 노력이 엄청나네요...",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "19:37 급 댄스 구애 하는 모습이 웃겨요!!!",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "14:56 이모님 정말 센스가 남다르네요!! 오늘 업무 실수해서 하루종일 기분이 좋지 않았는데 마음 편하게 웃었습니다! \n진짜 이모님 같은 분 가족이 옆에 있으면 우울증 1도 없을듯ㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "23:48 우즈 정말 우는거 아니지 ㅋㅋㅋㅋ 이준님 우즈님 너무 귀여움",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "23:39 이준님이 제로투 춤 추는 장면이 가장 웃겼어요. 갑자기 시작된 춤인데 분위기가 완전 환장 파티가 돼서 빵 터졌습니다 😂",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "13:09 이모님 반응이 너무 시원하고 솔직해서 정말 웃겼어요. 예상 못한 타이밍에 터져서 더 재미있었습니다.",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "8:34 이준님이 롤 아는 척하면서 대화하려고 노력하는 장면이 너무 웃겼어요. 서로 이해 못 해서 웃는 모습이 더 재미있었습니다.",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "20:20 너의 죄를 사하노라 하는 장면이 진짜 웃음 포인트였어요. 진지한 분위기인데 말투가 너무 웃겨서 계속 생각납니다.",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "16:37 이모님 이득 봤네 말하는 장면이 게임 대사처럼 들려서 너무 웃겼습니다. 현실에서 게임 말투 쓰는 게 킬포였어요.",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "19:42 갑자기 PT 트레이너처럼 운동 시키는 장면이 가장 웃겼습니다. 진짜 헬스장 일일 알바하는 느낌이라 계속 웃으면서 봤어요.",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "7:27 점령당했네 ㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "23:36 왜 매니저님도 같이ㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "elapsedSeconds": 549815.0,
+      "bucketStart": "2026-03-12T08:43:35+00:00",
+      "bucketEnd": "2026-03-12T12:40:58+00:00",
+      "positive": 35,
+      "neutral": 5,
+      "negative": 0,
+      "netSentiment": 0.875,
+      "zScore": 1.626,
+      "isBurst": true,
+      "direction": "POSITIVE_SPIKE",
+      "volumeZScore": -0.432,
+      "isVolumeBurst": false,
+      "durationSeconds": 14243.0,
+      "topComments": [
+        {
+          "text": "20:14 이준 진짜 헬스장 일일 알바 한 번 시켜야 할 듯...\n완전 헬스 광인 피티쌤 빙의해서 제카 굴리는데 제카 얼굴 뻘개져서 사 하노라 하는 거 너무 웃겨요 ㅋㅋ",
+          "likeCount": 48,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "0:24 게스트 타잔씨 나오면 감사 표시로 자기 워크맨 한회 출연료를 줄수 있다는것도 대박 ㅋㅋ 진짜 플렉스 하면 통이 큰거같음 ⭐️",
+          "likeCount": 4,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "이준 진짜 대단해 매번 발전하네ㅋㅋㅋㅋ 워크맨 최고다",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "8:34 이 장면 진짜 웃겼어요 ㅋㅋ\r\n이준님이 롤 아는 척하면서 어떻게든 대화 끼어보려고 노력하는데 뭔가 미묘하게 엇나가는 느낌이라 더 웃기더라고요 ㅎㅎ\r\n서로 말은 하는데 서로 완벽하게 이해 못 해서 계속 웃는 분위기 되는 게 포인트였던 것 같아요 괜히 저도 보면서 같이 웃었습니다 😆",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "4:06 요즘 제가 워크맨 보는 이유: 이준 그냥 재밌어서😂",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "07:22 롤알못 이준님이 어떻게든 대화에 끼어보려고 아는 척 시도하다가 서로 이해 못 해서 버퍼링 걸리는 장면이 진짜 웃겨서 쓰러지는 줄 알았어요ㅋㅋㅋ 모르는데 열심히 하려는 그 모습이 짠하면서도 워크맨 감성 제대로 살린 것 같아요.",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "23:37 이준이 갑자기 제로투 춤 추는 장면이 제일 웃겼습니다. 진지하게 게임하고 있는 뒤에서 갑자기 춤추는 분위기가 너무 뜬금없어서 계속 웃게 되더라고요.",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "16:37 제우스가 게임하듯이 말하는 장면에서 진짜 빵 터졌습니다. 현실인데도 롤 상황처럼 설명하는 게 너무 자연스러워서 계속 돌려보게 되네요.",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "19:39 이준 형님 워크맨 중이신거 맞죠??? 눈뜨세요",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "1:24 쌈장 이기석ㅋㅋㅋㅋ 진짜 추억돋네... 초등학교 때 스타크래프트 친구들이랑 맨날 쌈장 아이디 따라 만들고 놀았거든요. 잊고 지냈었는데 기억하는 사람이 있다는 게 신기해요. 20년도 더 된 추억이 되살아나는 기분이라 내내 즐겁게 시청했어용 ❤",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "우즈 정규앨범 홍보 야무지게 하네 탐난다ㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "19:51 폼 미쳤다 형아야ㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "24:00 아니 웃음 어떻게 참으셨어요ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "23:36 매니저님 감다살ㅋㅋ 역시 뭐든 같이 해야지 암!!",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "23:48 누가 구마 입에 본드 바른줄ㅋㅋㅋ 웃음 진짜 잘 참았네",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "15:10 진짜 피넛이 우승 못하고 은퇴한다고 했을때 진짜 개인적으로 저도 많이 울었었는데.... 이모님도 많이 우셨다고 하니 또 울컥 하네요ㅠㅠ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "13:42 요리 이모님이 우즈에게는 결혼하면 좋은 남편이 될 것 같다고 칭찬하면서도 이준에게는 바로 넌 탈락이라고 단호하게 말해버리는 모습 🤣 여기 어디 홈그라운드지 알죠?!",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "24:00 구마유시가 웃음을 참는 장면이 가장 재미있었어요, 뒤에서 춤추는 상황이 너무 황당해서 계속 웃겼습니다",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "23:48 우즈도 이렇게 열심히 사는데...",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "우즈 살림ㅈㄴ 잘하는 듯",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "16:37 이모님 ㅋㅋㅋㅋ 이득보셨넼ㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "15:44 ㅇㅅㄴㅅ ㅋㅋㅋㅋㅋㅋ 일관된 진술 진짜 ㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "23:48 제로투에 이은 시네마 수치플 ㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "12:00 내가 윙크맨인가 워크맨인가 봤어   이거 무슨 프로그램인지 아세요  알어 일일 알바 틀리신게 너무 웃기셔요  촬영하시느라 고생하셨습니다",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "20:12 너의 죄를 사하노라ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ 아니 재활 치료 받다가 왜 갑자기 분위기 종교로 바뀌냐고요ㅠㅠ 이준이랑 우즈 케미 진짜 미쳤다ㅋㅋㅋㅋ 이번 워크맨 역대급으로 배 찢어지게 웃었네요!!",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "13:03 와 이모님 예능감 진짜 뭐죠 ㅋㅋ\r\n워크맨 안다고 하셔서 오 반가운데 했는데 프로그램 이름 물어보니까 당당하게 일일알바라고 말하시는 순간 바로 빵 터졌어요 ㅎㅎ\r\n그때 이준 씨 당황해서 눈 동그래지는 표정도 너무 웃기고 옆에서 틈새시장 노려서 슬쩍 앨범 홍보하는 우즈까지 합쳐지니까 장면이 완전 레전드네요\r\n이 구내식당 실제로 가면 밥 먹으러 갔다가 이모님 입담 때문에 웃다가 밥 세 공기 뚝딱할 것 같은 느낌입니다 ㅋㅋ 😆🍚",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "8:35 얼렁뚱땅 개웃김 ㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "14:00 한화는 역시 이모님이 나와야지요 한화 밥먹어보고싶어요 👍",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "23:37 구마유시 뒤에서 이준이랑 우즈가 갑자기 제로투 춤 추는 장면 진짜 빵 터졌어요ㅋㅋㅋㅋ 집중해서 게임하는 구마유시랑 뒤에서 환장 파티 벌이는 두 사람 대비가 너무 웃겨서 몇 번이나 돌려봤네요 워크맨답게 예상 못 한 웃음 포인트라 더 재밌었습니다!!",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "23:39 구마유시 뒤에서 이준이랑 우즈 춤추는 장면이 진짜 킬포였어요 ㅋㅋ\n게임은 진지하게 하고 뒤에서는 갑자기 춤판 벌어지는 상황이 너무 웃겼습니다\n워크맨 특유의 정신없는 케미 제대로 터진 순간이네요",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "20:12 “너의 죄를 사하노라” 하는 장면에서 빵 터졌습니다 ㅋㅋ\n롤 구단 매니저 콘텐츠인데 갑자기 분위기 종교 되는 전개가 너무 웃겼어요\n이준이랑 우즈 케미 덕분에 이번 편 진짜 재밌게 봤습니다",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "24:02 이영상에 하이라이트 바로요깁니다 환장속에서 구마유시 프로다운모습👍🏻🔥",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "19:37 급 구애의 댄스  헬스인만 알아보는 경지  PT하듯이 운동 가르치는  장면 헬스장 알바 하는듯한 웃음 포인트 신나하는 모습 너무 웃겼어요",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "24:00 진짜 이 장면은 전설로 남을 듯요ㅋㅋㅋ 집중해서 겜하는 구마유시 뒤에서 이준이랑 우즈가 제로투 추는 거 보고 멜라토닌 먹고 꾸는 꿈인 줄 알았어요. 이 기괴한 조합이 왜 이렇게 웃긴 건지ㅋㅋㅋ 구마유시 웃음 참는 게 진짜 프로의 광기네요.",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "16:36 제우스가 잼민이처럼 툭툭 내뱉는 말들이 진짜 타율이 높아요ㅋㅋㅋ 점령당했다는 표현도 너무 귀엽고 우제어(?) 들을 때마다 빵 터지네요. 거기다 원곡자 우즈 앞에서 드라우닝 부르는 거까지 완벽한 서사였습니다.",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "23:37 아니 이준 제로투도 골 때리는데 매니저님까지 합세해서 같이 추시는 거 보고 기절하는 줄ㅋㅋㅋ 매니저님 왜 저렇게 잘 추시는 건데요? 한화생명은 매니저님도 체급이 남다르시네요",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "20:14 제카 얼굴 벌개져서 \"사하노라\" 하는 거 보고 진짜 숨 넘어갈 뻔했어요ㅋㅋㅋ 이준님은 무슨 헬스장 광인 트레이너 같고, 그 옆에서 우즈는 본업 천재인데 여기선 같이 망가지는 게 너무 매력적이네요. 둘이 얼굴 합도 좋은데 케미도 찰떡입니다",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "23:59\n웃참 광기 😂",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "8:35 아 그 정글이 옛날엔.... 왜 글케 안 좋아졌는뎅...\n우즈가 그렇게 알려줬는데 버벅거리는 준님....\n그래도 귀엽습니다..\n우즈와 준님의 마지막 드라우닝 열창도 멋졌어요.",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "16:36  한 마디씩 툭툭 던지는게 잼민이마냥 귀엽게 읏김요 ㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        }
+      ]
+    },
+    {
+      "elapsedSeconds": 564616.0,
+      "bucketStart": "2026-03-12T12:50:16+00:00",
+      "bucketEnd": "2026-03-16T01:27:16+00:00",
+      "positive": 35,
+      "neutral": 5,
+      "negative": 0,
+      "netSentiment": 0.875,
+      "zScore": 1.626,
+      "isBurst": true,
+      "direction": "POSITIVE_SPIKE",
+      "volumeZScore": -1.821,
+      "isVolumeBurst": false,
+      "durationSeconds": 304620.0,
+      "topComments": [
+        {
+          "text": "09:49 ㅋㅋㅋㅋ구마 왤케 부었어 이얼굴로 첵스초코 이러네",
+          "likeCount": 9,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "이준 왤케귀여워\n제로투 행님들하는거 넘웃기다 귀여워❤",
+          "likeCount": 5,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "안녕하세요 저는 도덕 숙제로 선플 달기를 하는 중학교 3학년 이현입니다. 이러한 영상은 저에게 진로을 결정하는데 큰 힘이 됩니다! 앞으로도 더 많은 직업 체험을 해주셨으면 좋겠습니다! 고맙습니다!! (선생님으로 체험을 해주신다면 감사하겠습니다!)",
+          "likeCount": 4,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "넘좋아우즈 ❤❤❤ 게임도잘하나봥",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "23:23 이게 무슨 대환장이죸ㅋㅋㅋㅋㅋ",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "21:55 ㅋㅋㅋ 끝까지 제로투 욕심 개웃김 이준 형님",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "13:35 she is right woodz is top husband material - i volunteer",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "12:32 LMAO the cut",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "조승연이다❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Crying laughing at them dancing and singing behind guma playing 😂😂😂 so funny",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "26:02 예능인가??? \n26:05 여윽시😮😮😮😮😮😮😮❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤\n준라우닝 존버1일차 시작!!!!!!!!!!",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "23:48 우즈 열심히 사네요",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "19:42 이준님 PT 하는 거 진짜 헬스장 트레이너인 줄 알았음ㅋㅋ\n\n땀 흘리며 열일하는 모습 보기 좋네요! 한화생명 이번 시즌 우승 가즈아!!",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "머해요 ?? ㅋㅋㅋㅋㅋㅋㅋ우리 승연이 데려다 머하심요~~~ㅋㅋㅋㅋㅋㅋ23:20 23:50....\n시네마....ㅋㅋㅋㅋ삼행시 잘했다~~~",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "07:22 우제둥절하며 점령당했다는 표현 쓴 게 너무 킬포였네용? ㅠㅠ 잼민이미 낭낭해서 보호 본능 자극해여!!",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "08:34 ㅋㅋㅋㅋ 이준님이 아는 척하려고 계속 시도하시는데 서로 이해 안 가서 웃는 거 진짜 웃겨요!! 롤 구단 밥이 그렇게 맛있다던데 비주얼 대박이네용 ㅎㅎ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "w",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "23:40 아니 ㅋㅋㅋ 든든하네요 3인 시강제대로",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "역시 넛신",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "props to the workman editors!! the editing is always so funny :):)",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "Please listen to CINEMA a lot, everyone ❤",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㅋㅋㅋ왕호씨도 이거 봤더라구요",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "아 이번꺼 진짜 개처웃김 진짜로 아 너무 행복해요",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "13:43 이준님과 우즈님이 요리하시는 모습을 보며 우즈님께는 신랑감이라 하시고 이준님께는 단호하게 탈락이라고 하신 이모님의 솔직하고 재치 있는 입담에 정말 빵 터졌네요 ㅋㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "03:59 구마적은 킹정이지~",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "구마유시 ❤❤",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "24:00 구마유시 ㅋㅋㅋㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "16:37 이모님 이득 봤네 ㅋㅋㅋ 제우스 말투가 너무 중독성 있는데 이거 유료 강의 안 되나융?? ㅠㅠ\n\n이준님이 입으신 저 매니저 조끼도 굿즈인가융?? 탐나융 ㅋㅋㅋ 다음엔 야구단 매니저 가서 구마적 댄스 보여주시면 안 될까융??",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "oh my god the crossover i never expected",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "12:01 워크맨을 윙크맨이라고 잘못 말씀하시는 백종순 선생님의 말씀을 듣고 빵 터졌습니다. 정말 귀여우세요❤",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "13:13 안성제 셰프님이 여기서 언급될 줄은 상상도 못 했는데ㅋㅋㅋ 이모님 손맛이면 아마 미슐랭 별도 몇 개는 그냥 받으실 것 같아요. 요리가 정말 맛있어 보이네요.",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "23:36 매니저님까지 같이 추는게 너무 웃기는걸요~",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "23:40 아니 ㅋㅋㅋ 든든하네요 3인 시강제대로",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "23:40 아니 ㅋㅋㅋ 든든하네요 3인 시강제대로",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "머냐 율리예스 한화 피티쌤이었노",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "1:30 당신 얼굴이 가장 재밌어요.. ❤️🥰👽",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "한화 컵 성적을 아는 사람:ㄱ-",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "17:04 이모님이 터치 안하신거 아니나면서 눈치 보는 장면이 좀 웃겼어요.",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "12:34 요리하는 내내 티키타카가 개웃겨요 초면이신 거 맞죠..?",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": ":\"",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "elapsedSeconds": 870052.0,
+      "bucketStart": "2026-03-16T01:40:52+00:00",
+      "bucketEnd": "2026-04-11T06:53:04+00:00",
+      "positive": 28,
+      "neutral": 8,
+      "negative": 4,
+      "netSentiment": 0.6,
+      "zScore": -0.467,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": -2.731,
+      "isVolumeBurst": false,
+      "durationSeconds": 2265132.0
+    },
+    {
+      "elapsedSeconds": 3185064.0,
+      "bucketStart": "2026-04-11T20:44:24+00:00",
+      "bucketEnd": "2026-05-18T03:13:33+00:00",
+      "positive": 23,
+      "neutral": 17,
+      "negative": 0,
+      "netSentiment": 0.575,
+      "zScore": -0.657,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": -2.878,
+      "isVolumeBurst": false,
+      "durationSeconds": 3133749.0
+    },
+    {
+      "elapsedSeconds": 6330407.0,
+      "bucketStart": "2026-05-18T06:26:47+00:00",
+      "bucketEnd": "2026-07-05T08:01:52+00:00",
+      "positive": 20,
+      "neutral": 16,
+      "negative": 3,
+      "netSentiment": 0.436,
+      "zScore": -1.716,
+      "isBurst": true,
+      "direction": "NEGATIVE_SPIKE",
+      "volumeZScore": -3.017,
+      "isVolumeBurst": false,
+      "durationSeconds": 4152905.0,
+      "topComments": [
+        {
+          "text": "그거시 탑이니까",
+          "likeCount": 6,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "13:10 이모님의 혜안...",
+          "likeCount": 4,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "13:08 미래를 예견한 백선생님",
+          "likeCount": 3,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "내 최애들 우즈랑 구마유시 한프레임라니ㅠㅠㅠ",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "탑은 혼자 있는거야",
+          "likeCount": 3,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "음음 그래그래 므시 1시드도 아닌 것들이 음음 그래그래 짖어봐라",
+          "likeCount": 3,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "이준 최저점 매수 성공한 한화면 개추",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "한전드 이모님이 진짜 재밌으시네 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "msi 진출해서 또 보러 왓서요 우승까지 가보자~ 한화생명 화이팅~~~~~~~~~",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "운동 잘가르치는게 개웃기네 ㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "모수저격까지 완벽하다ㅋㅋ",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "승연이 보러 왔다가 이준씨한테 입덕하겠네요. ㅎㅎ\n왤케 웃기셔용. \n잘 하신다~",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "20:21 너의 죄를 사하노라!! ㅋㅋ 진짜 미치겠다",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "05:07 제시카 개웃겨유 ㅠㅠㅠ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "한화 복지 좋노 ㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "이준 내 이상형",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "이준 제대로 보는거 처음 봤는데 완전 도른자 100프로넼ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㅅㅍ",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "zㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "12:33 신곡 홍보하려고 하는데 못하게 하는 거 웃기네 ㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "도서관 사서도 함 해보면 좋겠다 ㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "@o3o-v7h13:08",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "13:08 ㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "윤두(2)준 웃겼다.",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "제우스 원래T1에 있었는데?",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "ㅈ 떼",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "😂😂😂",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "ㅈ 떼",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "왜용?",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "이걸 한화따리를 갔네",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "필굿이준",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "승여나....",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "우즈 확실히 짧고 단정한 머리가 잘어울린다 ㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㅇㅈ이 너무 올드해서 재미도없고 센스도 😅..",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "워크맨 ㅂsin",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "Lee Joonさんは番組だからとふざけたりせず初対面の人には礼儀正しいところが良い。",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "니인생패배ㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "니인생ㅍㅐ배❤❤❤",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "BRING TARZZAN TO THIS SHOW",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        }
+      ]
+    }
+  ],
+  "keyInsights": [
+    {
+      "type": "positive",
+      "topic": "워크맨 이벤트",
+      "topicEn": "Workman Event",
+      "topicZh": "工作者活动",
+      "topicJa": "ワークマンイベント",
+      "comment": "촬영하신다고 하루종일 고생 정말 많으셨습니다! 🍊\n우즈님 정규 1집 많이 사랑해주시고, 워크맨도 올해 대박나세요~!",
+      "commentLang": "ko",
+      "likes": 4093
+    },
+    {
+      "type": "negative",
+      "topic": "팀 응원",
+      "topicEn": "Team Support",
+      "topicZh": "团队支持",
+      "topicJa": "チームサポート",
+      "comment": "@낄낄-r5i 가입 13년 전이면서 왜 이러고 다니세요",
+      "commentLang": "ko",
+      "likes": 139
+    },
+    {
+      "type": "positive",
+      "topic": "구마유시의 반응",
+      "topicEn": "Gumayusi's Reaction",
+      "topicZh": "古买尤西的反应",
+      "topicJa": "グマユシの反応",
+      "comment": "24:00 저 상황에서 안 웃는 구마유시가 진짜 광기",
+      "commentLang": "ko",
+      "likes": 1707
+    },
+    {
+      "type": "negative",
+      "topic": "구마유시의 반응",
+      "topicEn": "Gumayusi's Reaction",
+      "topicZh": "古买尤西的反应",
+      "topicJa": "グマユシの反応",
+      "comment": "@낄낄-r5i 님이 나가세요 구마유시 싫어하면서 왜 옴",
+      "commentLang": "ko",
+      "likes": 49
+    }
+  ],
+  "analyzedAt": "2026-07-05T08:22:55.303678+00:00",
+  "analysisDuration": 93.5,
+  "tokenUsage": {
+    "input": 96383,
+    "output": 25739,
+    "embedding": 86662,
+    "total": 208784,
+    "estimatedCostUsd": 0.031634
+  },
+  "videoEmbedding": [
+    -0.02099609375,
+    0.06787109375,
+    -0.0270843505859375,
+    0.0247802734375,
+    0.019744873046875,
+    -0.055450439453125,
+    -0.0014276504516601562,
+    0.0074005126953125,
+    -0.0294036865234375,
+    0.01235198974609375,
+    -0.0103759765625,
+    -0.00965118408203125,
+    0.01788330078125,
+    -0.01312255859375,
+    -0.03619384765625,
+    -0.0196075439453125,
+    -0.044036865234375,
+    -0.062286376953125,
+    -0.0288238525390625,
+    0.0038890838623046875,
+    0.0037784576416015625,
+    0.0283050537109375,
+    0.0080413818359375,
+    -0.00676727294921875,
+    0.0012178421020507812,
+    -0.053680419921875,
+    0.0010976791381835938,
+    -0.05523681640625,
+    0.0283203125,
+    0.0313720703125,
+    0.059844970703125,
+    -0.016143798828125,
+    0.047271728515625,
+    -0.018096923828125,
+    -0.0439453125,
+    0.01122283935546875,
+    0.0275726318359375,
+    -0.01332855224609375,
+    0.01557159423828125,
+    0.02557373046875,
+    -0.0207366943359375,
+    0.005889892578125,
+    0.0091705322265625,
+    -0.01708984375,
+    0.030792236328125,
+    0.05810546875,
+    -0.00635528564453125,
+    0.062225341796875,
+    0.06591796875,
+    0.0186920166015625,
+    0.00970458984375,
+    0.07061767578125,
+    0.016204833984375,
+    0.053955078125,
+    -0.053985595703125,
+    -0.0177154541015625,
+    0.032196044921875,
+    0.0084991455078125,
+    -0.01043701171875,
+    -0.033782958984375,
+    0.036895751953125,
+    -0.009490966796875,
+    -0.0189361572265625,
+    0.00614166259765625,
+    -0.0225067138671875,
+    -0.0369873046875,
+    0.0389404296875,
+    -0.03631591796875,
+    -0.0213623046875,
+    0.0285797119140625,
+    0.01067352294921875,
+    0.004505157470703125,
+    -0.03228759765625,
+    0.00411224365234375,
+    0.0004410743713378906,
+    0.0236358642578125,
+    0.056182861328125,
+    -0.00417327880859375,
+    -0.0623779296875,
+    -0.01080322265625,
+    0.036529541015625,
+    -0.027435302734375,
+    -0.019439697265625,
+    -0.0211029052734375,
+    0.004322052001953125,
+    0.0010118484497070312,
+    -0.1044921875,
+    -0.01593017578125,
+    0.031982421875,
+    0.0086517333984375,
+    0.0191650390625,
+    0.0139923095703125,
+    -0.0099945068359375,
+    0.01385498046875,
+    0.037109375,
+    -0.040985107421875,
+    0.006198883056640625,
+    0.024383544921875,
+    0.019134521484375,
+    0.015838623046875,
+    0.08935546875,
+    -0.08465576171875,
+    -0.03033447265625,
+    -0.0127410888671875,
+    0.03790283203125,
+    0.0016002655029296875,
+    -0.01248931884765625,
+    -0.04193115234375,
+    -0.06591796875,
+    -0.0028076171875,
+    -0.043975830078125,
+    0.007236480712890625,
+    -0.044403076171875,
+    0.04547119140625,
+    0.005764007568359375,
+    -0.02886962890625,
+    0.001316070556640625,
+    -0.01557159423828125,
+    -0.0195770263671875,
+    -0.0087127685546875,
+    -0.0004222393035888672,
+    0.00920867919921875,
+    0.0233306884765625,
+    -0.04345703125,
+    -0.00330352783203125,
+    0.0100250244140625,
+    0.0191497802734375,
+    0.0277252197265625,
+    -0.06683349609375,
+    -0.0037860870361328125,
+    0.007720947265625,
+    -0.01251220703125,
+    -0.006622314453125,
+    -0.030517578125,
+    -0.02667236328125,
+    0.05718994140625,
+    0.021514892578125,
+    -0.00420379638671875,
+    -0.0125274658203125,
+    -0.0194091796875,
+    0.0313720703125,
+    0.023468017578125,
+    0.0018262863159179688,
+    -0.04205322265625,
+    0.028778076171875,
+    0.059814453125,
+    0.025604248046875,
+    0.0120086669921875,
+    -0.0235137939453125,
+    0.036773681640625,
+    -0.02105712890625,
+    -0.019012451171875,
+    -0.01006317138671875,
+    -0.0172576904296875,
+    -0.004688262939453125,
+    -0.00136566162109375,
+    0.0161285400390625,
+    0.017608642578125,
+    -0.003849029541015625,
+    -0.042938232421875,
+    0.010589599609375,
+    0.01519012451171875,
+    -0.0302734375,
+    0.011749267578125,
+    0.0172271728515625,
+    0.01212310791015625,
+    0.01161956787109375,
+    0.020751953125,
+    -0.032318115234375,
+    -0.0179901123046875,
+    -0.0081634521484375,
+    0.01885986328125,
+    -0.07080078125,
+    0.01605224609375,
+    0.057159423828125,
+    0.0021266937255859375,
+    0.051300048828125,
+    0.030059814453125,
+    -0.0021266937255859375,
+    0.007732391357421875,
+    0.02557373046875,
+    0.05908203125,
+    0.0045166015625,
+    0.006988525390625,
+    -0.06597900390625,
+    0.005062103271484375,
+    -0.01275634765625,
+    0.01018524169921875,
+    0.0198211669921875,
+    -0.01113128662109375,
+    -0.0263824462890625,
+    0.04400634765625,
+    0.0268096923828125,
+    0.01241302490234375,
+    0.01806640625,
+    -0.040069580078125,
+    0.0152130126953125,
+    -0.016998291015625,
+    -0.06072998046875,
+    -0.007160186767578125,
+    -0.023101806640625,
+    0.046905517578125,
+    0.0599365234375,
+    -0.04510498046875,
+    -0.00335693359375,
+    0.05157470703125,
+    -0.0275726318359375,
+    -0.00392913818359375,
+    -0.005481719970703125,
+    0.010406494140625,
+    0.056915283203125,
+    -0.013702392578125,
+    -0.02008056640625,
+    -0.007282257080078125,
+    -0.035003662109375,
+    0.00965118408203125,
+    0.01074981689453125,
+    0.014495849609375,
+    0.0025043487548828125,
+    -4.291534423828125e-05,
+    0.018798828125,
+    0.06121826171875,
+    0.03546142578125,
+    0.0194854736328125,
+    0.001953125,
+    0.01500701904296875,
+    0.01079559326171875,
+    -0.0232391357421875,
+    -0.02880859375,
+    -0.01209259033203125,
+    -0.004276275634765625,
+    0.0283660888671875,
+    -0.026123046875,
+    -0.02587890625,
+    0.046112060546875,
+    -0.0220184326171875,
+    -0.001495361328125,
+    -0.044189453125,
+    0.0195159912109375,
+    -0.005031585693359375,
+    0.036956787109375,
+    0.0191192626953125,
+    0.000942230224609375,
+    -0.0198974609375,
+    0.056610107421875,
+    0.044921875,
+    0.019775390625,
+    -0.014404296875,
+    0.03668212890625,
+    0.01042938232421875,
+    0.060089111328125,
+    -0.0153961181640625,
+    -0.028594970703125,
+    -0.0183258056640625,
+    -0.0197906494140625,
+    0.037628173828125,
+    0.07183837890625,
+    0.020904541015625,
+    0.0168609619140625,
+    -0.03680419921875,
+    -0.007625579833984375,
+    0.01291656494140625,
+    -0.003955841064453125,
+    -0.050201416015625,
+    5.59687614440918e-05,
+    0.0027942657470703125,
+    0.0408935546875,
+    0.004962921142578125,
+    -0.01055908203125,
+    0.05157470703125,
+    -0.0002765655517578125,
+    0.0188140869140625,
+    -0.01392364501953125,
+    -0.0295562744140625,
+    -0.0308685302734375,
+    0.007228851318359375,
+    0.01438140869140625,
+    -0.043487548828125,
+    -0.046112060546875,
+    0.01061248779296875,
+    -0.0027637481689453125,
+    -0.0175628662109375,
+    -0.053497314453125,
+    -0.06689453125,
+    -0.008544921875,
+    0.01189422607421875,
+    -0.049835205078125,
+    0.0031280517578125,
+    -0.02734375,
+    0.0772705078125,
+    -0.033447265625,
+    -0.00612640380859375,
+    0.019073486328125,
+    0.00463104248046875,
+    -0.004558563232421875,
+    -0.0036373138427734375,
+    0.031646728515625,
+    -0.01416015625,
+    -0.0550537109375,
+    0.042266845703125,
+    -0.0023784637451171875,
+    -0.00495147705078125,
+    -0.019439697265625,
+    0.040283203125,
+    0.03631591796875,
+    -0.005084991455078125,
+    -0.014129638671875,
+    0.0115203857421875,
+    0.01873779296875,
+    0.040374755859375,
+    -0.076416015625,
+    0.0301513671875,
+    -0.022705078125,
+    0.002483367919921875,
+    -0.01308441162109375,
+    -0.017425537109375,
+    0.01253509521484375,
+    0.06787109375,
+    0.025238037109375,
+    0.02813720703125,
+    0.0086822509765625,
+    -0.005466461181640625,
+    -0.0777587890625,
+    -0.0293121337890625,
+    0.00948333740234375,
+    -0.023590087890625,
+    0.0146636962890625,
+    -0.040130615234375,
+    0.01323699951171875,
+    -0.00399017333984375,
+    -0.049224853515625,
+    -0.0318603515625,
+    0.0165557861328125,
+    -0.00696563720703125,
+    0.002292633056640625,
+    -0.006015777587890625,
+    0.05908203125,
+    0.05572509765625,
+    0.0229644775390625,
+    0.00018537044525146484,
+    -0.06549072265625,
+    0.03338623046875,
+    -0.0180206298828125,
+    -0.052947998046875,
+    -0.04840087890625,
+    -0.01050567626953125,
+    0.078857421875,
+    0.006378173828125,
+    -0.00946044921875,
+    0.0540771484375,
+    0.044921875,
+    -0.0189208984375,
+    -0.0249786376953125,
+    -0.0751953125,
+    -0.025970458984375,
+    -0.0189361572265625,
+    -0.0165252685546875,
+    -0.0026340484619140625,
+    0.005748748779296875,
+    0.019195556640625,
+    -0.0142059326171875,
+    -0.01432037353515625,
+    0.0115966796875,
+    -0.0098876953125,
+    -0.033477783203125,
+    0.047760009765625,
+    -0.0125732421875,
+    0.01367950439453125,
+    0.03033447265625,
+    -0.0008459091186523438,
+    -0.018951416015625,
+    0.0027103424072265625,
+    0.0158538818359375,
+    0.0009679794311523438,
+    -0.0438232421875,
+    -0.016693115234375,
+    0.0196990966796875,
+    0.0172882080078125,
+    -0.039031982421875,
+    -0.021270751953125,
+    -0.01010894775390625,
+    -0.035125732421875,
+    0.0205841064453125,
+    5.537271499633789e-05,
+    -0.02423095703125,
+    -0.006252288818359375,
+    -0.0078277587890625,
+    0.006622314453125,
+    0.0174407958984375,
+    0.005992889404296875,
+    0.01212310791015625,
+    0.03375244140625,
+    0.042327880859375,
+    -0.043914794921875,
+    -0.009033203125,
+    -0.028076171875,
+    0.034393310546875,
+    0.041534423828125,
+    -0.031707763671875,
+    0.00580596923828125,
+    0.04730224609375,
+    -0.0169525146484375,
+    -0.0819091796875,
+    0.0188751220703125,
+    0.0350341796875,
+    -0.01593017578125,
+    -0.02752685546875,
+    0.030426025390625,
+    0.00879669189453125,
+    -0.0733642578125,
+    0.01442718505859375,
+    0.00942230224609375,
+    0.013519287109375,
+    0.0036373138427734375,
+    0.006256103515625,
+    -0.0445556640625,
+    0.0149078369140625,
+    0.00540924072265625,
+    -0.031829833984375,
+    0.042083740234375,
+    0.035858154296875,
+    0.0278472900390625,
+    -0.028350830078125,
+    0.046417236328125,
+    -0.005466461181640625,
+    0.0269775390625,
+    0.036773681640625,
+    -0.01129913330078125,
+    0.033111572265625,
+    -0.0251922607421875,
+    -0.02392578125,
+    -0.0178680419921875,
+    -0.04656982421875,
+    0.008575439453125,
+    -0.0011568069458007812,
+    -0.0203857421875,
+    -0.0275726318359375,
+    0.05999755859375,
+    -0.0001304149627685547,
+    -0.0298309326171875,
+    0.05780029296875,
+    0.01088714599609375,
+    0.021026611328125,
+    0.049041748046875,
+    -0.01157379150390625,
+    0.01546478271484375,
+    0.03985595703125,
+    -0.0280914306640625,
+    -0.08355712890625,
+    -0.03594970703125,
+    -0.02459716796875,
+    -0.0160064697265625,
+    0.04229736328125,
+    0.0283203125,
+    -0.0595703125,
+    -0.006389617919921875,
+    0.007511138916015625,
+    0.037322998046875,
+    0.046905517578125,
+    -0.0252838134765625,
+    0.032196044921875,
+    -0.0182647705078125,
+    0.005489349365234375,
+    0.007709503173828125,
+    -0.0447998046875,
+    0.0012769699096679688,
+    0.0364990234375,
+    -0.026214599609375,
+    0.006290435791015625,
+    0.025115966796875,
+    -0.005809783935546875,
+    -0.0262603759765625,
+    0.01227569580078125,
+    0.0309295654296875,
+    0.0030231475830078125,
+    -0.003734588623046875,
+    -0.036529541015625,
+    0.00971221923828125,
+    0.00030684471130371094,
+    -0.034027099609375,
+    0.032958984375,
+    -0.041412353515625,
+    -0.003871917724609375,
+    -0.061309814453125,
+    0.00011718273162841797,
+    0.0244293212890625,
+    0.014495849609375,
+    0.017730712890625,
+    0.0006961822509765625,
+    -0.0247039794921875,
+    -0.01093292236328125,
+    0.00983428955078125,
+    0.08587646484375,
+    -0.00962066650390625,
+    -0.032745361328125,
+    -0.006805419921875,
+    -0.0221099853515625,
+    -0.01464080810546875,
+    -0.0007181167602539062,
+    -0.021392822265625,
+    -0.056610107421875,
+    -0.024566650390625,
+    0.0087127685546875,
+    -0.00667572021484375,
+    0.0068817138671875,
+    -0.0364990234375,
+    0.0225067138671875,
+    -0.0201873779296875,
+    -0.006366729736328125,
+    -0.00821685791015625,
+    -0.025390625,
+    0.0262451171875,
+    0.0235595703125,
+    0.01419830322265625,
+    -0.0175628662109375,
+    -0.0200958251953125,
+    -0.01496124267578125,
+    -0.03607177734375,
+    -0.02862548828125,
+    -0.003620147705078125,
+    -0.0272064208984375,
+    0.00841522216796875,
+    0.008331298828125,
+    -0.0008907318115234375,
+    0.002925872802734375,
+    -0.0030689239501953125,
+    0.0112762451171875,
+    0.019317626953125,
+    -0.0204010009765625,
+    0.037200927734375,
+    0.021026611328125,
+    -0.0052490234375,
+    0.00444793701171875,
+    -0.0152130126953125,
+    -0.0172271728515625,
+    0.0181732177734375,
+    0.037506103515625,
+    -0.03253173828125,
+    0.0169219970703125,
+    0.00937652587890625,
+    -0.0184478759765625,
+    0.018218994140625,
+    -0.0303802490234375,
+    -0.03759765625,
+    0.0029125213623046875,
+    0.01065826416015625,
+    0.02276611328125,
+    0.02667236328125,
+    -0.0057830810546875,
+    0.014495849609375,
+    0.029693603515625,
+    -0.0226593017578125,
+    -0.00124359130859375,
+    0.006561279296875,
+    0.039154052734375,
+    0.01259613037109375,
+    -0.00186920166015625,
+    -0.041534423828125,
+    0.03155517578125,
+    0.00704193115234375,
+    0.0148162841796875,
+    0.056793212890625,
+    -0.005039215087890625,
+    -0.0166473388671875,
+    -0.06439208984375,
+    -0.0003781318664550781,
+    -0.0194854736328125,
+    -0.0217742919921875,
+    -0.00603485107421875,
+    -0.020263671875,
+    -0.0285797119140625,
+    0.01824951171875,
+    -0.0193939208984375,
+    0.01537322998046875,
+    0.0307464599609375,
+    -0.0226898193359375,
+    0.01800537109375,
+    -0.0325927734375,
+    0.004703521728515625,
+    -0.0123748779296875,
+    -0.0147705078125,
+    -0.023681640625,
+    -0.037353515625,
+    -0.0199127197265625,
+    0.0142059326171875,
+    0.0174102783203125,
+    0.0053253173828125,
+    0.00015473365783691406,
+    0.0173797607421875,
+    -0.00272369384765625,
+    0.0052947998046875,
+    -0.057891845703125,
+    0.006206512451171875,
+    0.030242919921875,
+    -0.004711151123046875,
+    -0.025482177734375,
+    -0.05059814453125,
+    0.0007433891296386719,
+    -0.037109375,
+    -0.05096435546875,
+    0.00836944580078125,
+    0.01500701904296875,
+    -0.0094451904296875,
+    -0.08319091796875,
+    0.0028362274169921875,
+    0.00444793701171875,
+    0.0218353271484375,
+    -0.057830810546875,
+    0.0023345947265625,
+    -0.004207611083984375,
+    0.0018463134765625,
+    0.00724029541015625,
+    -0.03009033203125,
+    -0.0330810546875,
+    0.0191650390625,
+    -0.01207733154296875,
+    0.0032596588134765625,
+    0.0224761962890625,
+    0.04473876953125,
+    -0.0198516845703125,
+    0.03826904296875,
+    0.00433349609375,
+    0.0286407470703125,
+    -0.00106048583984375,
+    -0.01050567626953125,
+    0.036407470703125,
+    -0.00035762786865234375,
+    0.0218048095703125,
+    -0.0152130126953125,
+    0.036102294921875,
+    -0.022552490234375,
+    -0.01593017578125,
+    0.0189361572265625,
+    0.033294677734375,
+    -0.01166534423828125,
+    -0.011444091796875,
+    -0.007030487060546875,
+    0.002223968505859375,
+    -0.0232391357421875,
+    0.0011005401611328125,
+    0.004138946533203125,
+    0.0174713134765625,
+    -0.00885772705078125,
+    -0.0277252197265625,
+    -0.014801025390625,
+    0.0232391357421875,
+    -0.0020618438720703125,
+    0.005878448486328125,
+    -0.0031909942626953125,
+    -0.01885986328125,
+    0.007640838623046875,
+    -0.048126220703125,
+    -0.02703857421875,
+    -0.0177001953125,
+    -0.00228118896484375,
+    -0.01044464111328125,
+    -0.0018949508666992188,
+    0.01812744140625,
+    -0.00510406494140625,
+    0.004634857177734375,
+    -0.03668212890625,
+    0.0283966064453125,
+    -0.0080108642578125,
+    0.00023758411407470703,
+    -0.0227813720703125,
+    0.031829833984375,
+    0.0244293212890625,
+    0.00504302978515625,
+    -0.0089874267578125,
+    0.02520751953125,
+    0.024871826171875,
+    0.00550079345703125,
+    0.00751495361328125,
+    -0.05517578125,
+    0.03192138671875,
+    0.0222930908203125,
+    0.006137847900390625,
+    0.0067596435546875,
+    -0.007511138916015625,
+    0.0307769775390625,
+    -0.0115966796875,
+    0.01029205322265625,
+    0.0161895751953125,
+    0.0189666748046875,
+    0.056976318359375,
+    0.0159149169921875,
+    0.01259613037109375,
+    -0.011444091796875,
+    0.0308837890625,
+    -0.01702880859375,
+    -0.0207672119140625,
+    0.0265350341796875,
+    0.0030193328857421875,
+    -0.003780364990234375,
+    0.0017690658569335938,
+    0.0124359130859375,
+    0.037078857421875,
+    0.03350830078125,
+    0.0013980865478515625,
+    -0.0068359375,
+    -0.00901031494140625,
+    -0.01268768310546875,
+    0.0204925537109375,
+    0.0305023193359375,
+    -0.0374755859375,
+    -0.026214599609375,
+    0.0113677978515625,
+    0.0299224853515625,
+    0.0555419921875,
+    -0.008026123046875,
+    0.00605010986328125,
+    0.013336181640625,
+    -0.05645751953125,
+    -0.0306396484375,
+    -0.0034084320068359375,
+    -0.0142669677734375,
+    0.0182647705078125,
+    0.01531982421875,
+    0.0282135009765625,
+    -0.00408172607421875,
+    -0.01184844970703125,
+    -0.00585174560546875,
+    -0.0148162841796875,
+    -0.049835205078125,
+    0.012420654296875,
+    -0.0102691650390625,
+    0.01139068603515625,
+    0.023040771484375,
+    -0.0038127899169921875,
+    0.039581298828125,
+    -0.0035457611083984375,
+    0.050933837890625,
+    0.00832366943359375,
+    -0.007137298583984375,
+    -0.050567626953125,
+    0.029052734375,
+    -0.024932861328125,
+    0.010772705078125,
+    -0.03546142578125,
+    -0.052581787109375,
+    0.016204833984375,
+    -0.056915283203125,
+    0.016448974609375,
+    -0.004802703857421875,
+    -0.0015888214111328125,
+    0.037811279296875,
+    -0.0016069412231445312,
+    0.0262908935546875,
+    -0.034820556640625,
+    0.004680633544921875,
+    -0.004756927490234375,
+    0.0064849853515625,
+    -0.01177978515625,
+    0.01044464111328125,
+    -0.013702392578125,
+    -0.045166015625,
+    -0.01427459716796875,
+    -0.026123046875,
+    0.036773681640625,
+    0.01059722900390625,
+    0.03448486328125,
+    0.0308380126953125,
+    -0.0254669189453125,
+    -0.0258331298828125,
+    0.00449371337890625,
+    0.00031447410583496094,
+    -0.030792236328125,
+    0.020599365234375,
+    -0.00908660888671875,
+    -0.01018524169921875,
+    0.021820068359375,
+    -0.01354217529296875,
+    0.0266571044921875,
+    0.0235595703125,
+    -0.010406494140625,
+    -0.01145172119140625,
+    0.018035888671875,
+    0.01493072509765625,
+    -0.0122833251953125,
+    -0.01268768310546875,
+    0.006381988525390625,
+    -0.005748748779296875,
+    0.011871337890625,
+    0.0215911865234375,
+    -0.02264404296875,
+    -0.00272369384765625,
+    -0.02740478515625,
+    0.0278167724609375,
+    -0.0460205078125,
+    0.0257568359375,
+    -0.0295867919921875,
+    -0.002864837646484375,
+    -0.00011563301086425781,
+    -0.025787353515625,
+    -0.001140594482421875,
+    0.060394287109375,
+    0.00603485107421875,
+    -0.00731658935546875,
+    -0.0084075927734375,
+    -0.004650115966796875,
+    0.0032138824462890625,
+    -0.017730712890625,
+    0.0104827880859375,
+    -0.0251922607421875,
+    0.00896453857421875,
+    -0.006221771240234375,
+    0.009002685546875,
+    0.027862548828125,
+    -0.01515960693359375,
+    -0.0103759765625,
+    -0.033233642578125,
+    0.05322265625,
+    0.037994384765625,
+    0.0029850006103515625,
+    0.0283966064453125,
+    -0.0016832351684570312,
+    -0.01313018798828125,
+    -0.054229736328125,
+    0.0016469955444335938,
+    -0.035003662109375,
+    0.007068634033203125,
+    0.039886474609375,
+    0.03448486328125,
+    -0.00791168212890625,
+    0.01399993896484375,
+    -0.0250091552734375,
+    -0.007640838623046875,
+    0.034912109375,
+    -0.005420684814453125,
+    0.01214599609375,
+    0.01155853271484375,
+    -0.027313232421875,
+    0.01268768310546875,
+    -0.01052093505859375,
+    -0.004390716552734375,
+    -0.005123138427734375,
+    -0.022857666015625,
+    0.0008449554443359375,
+    0.035125732421875,
+    -0.005222320556640625,
+    -0.037506103515625,
+    0.008209228515625,
+    0.00952911376953125,
+    -0.020263671875,
+    -0.019989013671875,
+    0.00951385498046875,
+    -0.03173828125,
+    -0.011077880859375,
+    -0.0254364013671875,
+    0.02081298828125,
+    -0.0269012451171875,
+    -0.041778564453125,
+    0.040802001953125,
+    0.01496124267578125,
+    0.0091400146484375,
+    0.0193023681640625,
+    0.002063751220703125,
+    -0.0153656005859375,
+    -0.0244293212890625,
+    -0.01171112060546875,
+    -0.0188140869140625,
+    -0.035491943359375,
+    0.00836944580078125,
+    -0.0224456787109375,
+    -0.005077362060546875,
+    -0.0088958740234375,
+    0.037322998046875,
+    0.00859832763671875,
+    -0.01482391357421875,
+    0.0283203125,
+    0.01093292236328125,
+    0.0262603759765625,
+    -0.0183868408203125,
+    -0.04107666015625,
+    0.00901031494140625,
+    -0.0049591064453125,
+    -0.042999267578125,
+    0.01248931884765625,
+    -0.006267547607421875,
+    0.02410888671875,
+    0.0175018310546875,
+    -0.0231170654296875,
+    -0.006954193115234375,
+    0.0265655517578125,
+    0.0092315673828125,
+    0.0193939208984375,
+    0.01308441162109375,
+    -0.00603485107421875,
+    -0.007114410400390625,
+    0.001743316650390625,
+    0.01090240478515625,
+    -0.0029144287109375,
+    0.0171661376953125,
+    -0.003971099853515625,
+    -0.040435791015625,
+    0.0294036865234375,
+    0.005649566650390625,
+    -0.00965118408203125,
+    -0.03668212890625,
+    0.03167724609375,
+    -0.01390838623046875,
+    0.024200439453125,
+    -0.0261688232421875,
+    0.03302001953125,
+    -0.005680084228515625,
+    -0.0005931854248046875,
+    -0.006816864013671875,
+    0.00974273681640625,
+    -0.0019321441650390625,
+    -0.03204345703125,
+    0.0145721435546875,
+    0.0026988983154296875,
+    0.004894256591796875,
+    -0.0148162841796875,
+    0.01264190673828125,
+    0.039794921875,
+    -0.0020656585693359375,
+    0.01331329345703125,
+    0.006572723388671875,
+    0.036407470703125,
+    0.0028705596923828125,
+    0.03363037109375,
+    0.04071044921875,
+    -0.00013959407806396484,
+    0.01287841796875,
+    0.0009336471557617188,
+    0.01525115966796875,
+    -0.0214385986328125,
+    0.0184173583984375,
+    -0.0036754608154296875,
+    -0.039794921875,
+    -0.0044708251953125,
+    0.0325927734375,
+    -0.0101318359375,
+    0.0303192138671875,
+    0.05560302734375,
+    -0.0011644363403320312,
+    0.0247955322265625,
+    -0.007476806640625,
+    0.004718780517578125,
+    0.0265350341796875,
+    -0.0367431640625,
+    0.0246124267578125,
+    0.0013093948364257812,
+    0.041839599609375,
+    -0.0323486328125,
+    0.0187530517578125,
+    -0.0178680419921875,
+    0.0035552978515625,
+    0.01010894775390625,
+    0.01367950439453125,
+    0.021270751953125,
+    0.0020008087158203125,
+    0.0026397705078125,
+    -0.02154541015625,
+    -0.004253387451171875,
+    -0.007595062255859375,
+    -0.01551055908203125,
+    -0.0121002197265625,
+    0.0089874267578125,
+    -0.0147705078125,
+    0.0165252685546875,
+    0.0301971435546875,
+    -0.040283203125,
+    -0.0166778564453125,
+    0.013702392578125,
+    -0.0125579833984375,
+    0.006496429443359375,
+    0.0007476806640625,
+    0.03875732421875,
+    -0.0164947509765625,
+    0.03070068359375,
+    0.045013427734375,
+    -0.0177459716796875,
+    0.0166778564453125,
+    -0.0160675048828125,
+    0.04022216796875,
+    -0.01227569580078125,
+    0.031402587890625,
+    0.01267242431640625,
+    0.01396942138671875,
+    0.05645751953125,
+    0.00714874267578125,
+    -0.0009946823120117188,
+    0.0032176971435546875,
+    0.032196044921875,
+    0.01132965087890625,
+    0.01169586181640625,
+    -0.0184173583984375,
+    0.0134429931640625,
+    -0.01561737060546875,
+    0.005401611328125,
+    -0.0182952880859375,
+    -0.001861572265625,
+    -0.004245758056640625,
+    -0.0088958740234375,
+    -0.0145416259765625,
+    -0.007648468017578125,
+    -0.00653076171875,
+    -0.0189971923828125,
+    -0.01143646240234375,
+    0.0014944076538085938,
+    -0.01509857177734375,
+    -0.0032711029052734375,
+    -0.0026340484619140625,
+    0.003322601318359375,
+    0.057647705078125,
+    0.00830841064453125,
+    0.01381683349609375,
+    -0.0634765625,
+    0.00907135009765625,
+    -0.003391265869140625,
+    -0.0175323486328125,
+    0.004207611083984375,
+    -0.019622802734375,
+    0.045989990234375,
+    -0.0148162841796875,
+    -0.05572509765625,
+    0.00945281982421875,
+    0.04913330078125,
+    0.0093536376953125,
+    0.006744384765625,
+    0.0213470458984375,
+    -0.0206451416015625,
+    0.006549835205078125,
+    -0.0013341903686523438,
+    0.0026073455810546875,
+    -0.023956298828125,
+    0.035308837890625,
+    0.0002372264862060547,
+    -0.015625,
+    0.007442474365234375,
+    0.033355712890625,
+    0.008331298828125,
+    -0.00025391578674316406,
+    -0.0293731689453125,
+    -0.0152740478515625,
+    0.012939453125,
+    0.01107025146484375,
+    0.008392333984375,
+    0.017608642578125,
+    0.00791168212890625,
+    -0.0184326171875,
+    0.041534423828125,
+    0.0160980224609375,
+    -0.011688232421875,
+    0.01116180419921875,
+    0.0240936279296875,
+    -0.00689697265625,
+    0.0180816650390625,
+    -0.01806640625,
+    -0.02423095703125,
+    0.0222625732421875,
+    -0.00855255126953125,
+    0.01317596435546875,
+    -0.026947021484375,
+    0.0012865066528320312,
+    -0.005031585693359375,
+    0.007236480712890625,
+    -0.0380859375,
+    -0.0543212890625,
+    0.003475189208984375,
+    0.03082275390625,
+    0.015777587890625,
+    0.019195556640625,
+    0.038116455078125,
+    -0.055816650390625,
+    0.0038299560546875,
+    0.01776123046875,
+    0.00782012939453125,
+    0.02423095703125,
+    -0.01314544677734375,
+    0.004085540771484375,
+    0.0266265869140625,
+    -0.005725860595703125,
+    0.004688262939453125,
+    -0.002338409423828125,
+    0.003757476806640625,
+    -0.0264739990234375,
+    -0.005191802978515625,
+    0.039154052734375,
+    0.0026149749755859375,
+    0.0058441162109375,
+    0.0204315185546875,
+    0.0021190643310546875,
+    0.0222015380859375,
+    0.0303802490234375,
+    -0.0089874267578125,
+    0.024658203125,
+    -0.0127410888671875,
+    -0.0038661956787109375,
+    0.05615234375,
+    0.009674072265625,
+    0.010406494140625,
+    -0.01123046875,
+    -0.037322998046875,
+    -0.025238037109375,
+    0.016571044921875,
+    0.04327392578125,
+    0.02008056640625,
+    -0.053680419921875,
+    -0.0484619140625,
+    -0.020721435546875,
+    -0.0128326416015625,
+    0.0249176025390625,
+    -0.0015869140625,
+    0.01513671875,
+    -0.0261688232421875,
+    0.068603515625,
+    0.005767822265625,
+    0.020904541015625,
+    0.0121612548828125,
+    -0.012481689453125,
+    0.0309600830078125,
+    0.005535125732421875,
+    0.00032138824462890625,
+    -0.003726959228515625,
+    -0.0201873779296875,
+    0.034454345703125,
+    0.02081298828125,
+    -0.005558013916015625,
+    0.0006918907165527344,
+    0.0133514404296875,
+    -0.0191650390625,
+    -0.0335693359375,
+    -0.042633056640625,
+    -0.0220947265625,
+    0.00032806396484375,
+    0.002613067626953125,
+    -0.0016298294067382812,
+    -0.0301971435546875,
+    -0.0235443115234375,
+    -0.0223846435546875,
+    -0.01358795166015625,
+    0.021514892578125,
+    -0.01123046875,
+    0.01244354248046875,
+    0.0221099853515625,
+    0.047088623046875,
+    0.0064697265625,
+    0.032562255859375,
+    0.021087646484375,
+    0.0091400146484375,
+    -0.0245513916015625,
+    -0.042449951171875,
+    0.00017011165618896484,
+    -0.01953125,
+    0.08013916015625,
+    -0.01314544677734375,
+    -0.0211944580078125,
+    -0.04095458984375,
+    0.0034656524658203125,
+    -0.0283660888671875,
+    -0.0194854736328125,
+    -0.00901031494140625,
+    -0.00789642333984375,
+    -0.0036640167236328125,
+    -0.01340484619140625,
+    -0.006366729736328125,
+    -0.0186614990234375,
+    -0.004547119140625,
+    -0.01084136962890625,
+    -0.005828857421875,
+    -0.00812530517578125,
+    -0.00997161865234375,
+    -0.0240631103515625,
+    0.0151824951171875,
+    -0.0030002593994140625,
+    0.01296234130859375,
+    -0.0053253173828125,
+    0.0034198760986328125,
+    0.01244354248046875,
+    -0.0255279541015625,
+    0.04034423828125,
+    -0.021270751953125,
+    0.02239990234375,
+    0.00421142578125,
+    0.016204833984375,
+    0.0047454833984375,
+    -0.034759521484375,
+    -0.050689697265625,
+    -0.0266571044921875,
+    0.0264739990234375,
+    -0.0177459716796875,
+    0.01849365234375,
+    0.005615234375,
+    0.0015897750854492188,
+    0.001300811767578125,
+    0.01030731201171875,
+    -0.00608062744140625,
+    0.0215911865234375,
+    0.0191497802734375,
+    0.027984619140625,
+    -0.03778076171875,
+    -0.0166778564453125,
+    0.028076171875,
+    -0.0107269287109375,
+    0.02960205078125,
+    0.00446319580078125,
+    0.0275421142578125,
+    0.0032596588134765625,
+    -0.006343841552734375,
+    -0.0147552490234375,
+    -0.0511474609375,
+    -0.00971221923828125,
+    -0.0165557861328125,
+    -0.010589599609375,
+    0.016265869140625,
+    -0.0028896331787109375,
+    0.00887298583984375,
+    0.0115966796875,
+    -0.002086639404296875,
+    -0.046173095703125,
+    -0.002223968505859375,
+    0.00804901123046875,
+    -0.02667236328125,
+    -0.015777587890625,
+    0.00307464599609375,
+    0.007526397705078125,
+    -0.01148223876953125,
+    -0.00018537044525146484,
+    -0.0025272369384765625,
+    0.0114593505859375,
+    -0.0295867919921875,
+    -0.0282745361328125,
+    0.02191162109375,
+    -0.01049041748046875,
+    0.0049896240234375,
+    0.00922393798828125,
+    0.0002028942108154297,
+    0.016998291015625,
+    0.059906005859375,
+    -0.0079345703125,
+    0.01065826416015625,
+    -0.0289154052734375,
+    -0.0248260498046875,
+    -0.038970947265625,
+    -0.0022640228271484375,
+    0.0306854248046875,
+    -0.01953125,
+    0.0028476715087890625,
+    -0.0030918121337890625,
+    -0.024688720703125,
+    0.01035308837890625,
+    -0.01023101806640625,
+    -0.0010023117065429688,
+    0.0228424072265625,
+    0.0101318359375,
+    -0.03192138671875,
+    -0.02960205078125,
+    -0.00682830810546875,
+    0.032867431640625,
+    -0.004596710205078125,
+    0.01314544677734375,
+    -0.0298614501953125,
+    -0.0244598388671875,
+    0.02020263671875,
+    0.0111236572265625,
+    -0.007167816162109375,
+    0.007396697998046875,
+    -0.01092529296875,
+    -0.0034542083740234375,
+    -0.005031585693359375,
+    0.033660888671875,
+    -0.027130126953125,
+    0.01058197021484375,
+    0.0067901611328125,
+    0.013946533203125,
+    -0.01035308837890625,
+    0.00466156005859375,
+    -0.00919342041015625,
+    0.01557159423828125,
+    -2.6404857635498047e-05,
+    -0.0262908935546875,
+    0.0116119384765625,
+    0.0005693435668945312,
+    -0.00909423828125,
+    -0.015869140625,
+    0.0267486572265625,
+    -0.006195068359375,
+    -0.034912109375,
+    0.002178192138671875,
+    0.0234527587890625,
+    -0.00025010108947753906,
+    -0.0014715194702148438,
+    -0.01044464111328125,
+    -0.04693603515625,
+    -0.01023101806640625,
+    0.04290771484375,
+    -0.02813720703125,
+    0.03350830078125,
+    -0.010406494140625,
+    0.032623291015625,
+    0.031829833984375,
+    0.0092010498046875,
+    0.00830078125,
+    0.0192413330078125,
+    0.0060577392578125,
+    0.0080413818359375,
+    -0.00832366943359375,
+    -0.030792236328125,
+    0.01617431640625,
+    0.004077911376953125,
+    0.0379638671875,
+    -0.0135345458984375,
+    -0.002117156982421875,
+    0.00531768798828125,
+    -0.006103515625,
+    -0.039154052734375,
+    -0.01386260986328125,
+    0.0255584716796875,
+    0.034759521484375,
+    0.01061248779296875,
+    0.024139404296875,
+    0.022186279296875,
+    0.01605224609375,
+    -0.00786590576171875,
+    0.0218963623046875,
+    0.03814697265625,
+    -0.03704833984375,
+    -0.00408172607421875,
+    -0.01885986328125,
+    0.006641387939453125,
+    -0.0009622573852539062,
+    0.006679534912109375,
+    0.00274658203125,
+    0.029815673828125,
+    -0.01324462890625,
+    0.00942230224609375,
+    0.00505828857421875,
+    -0.016143798828125,
+    -0.0182647705078125,
+    0.0041046142578125,
+    -0.0209197998046875,
+    -0.0238189697265625,
+    0.031829833984375,
+    0.016326904296875,
+    -0.011322021484375,
+    -0.0304718017578125,
+    0.0096435546875,
+    0.006847381591796875,
+    0.0282135009765625,
+    -0.0245513916015625,
+    -0.03179931640625,
+    -0.005626678466796875,
+    0.0079193115234375,
+    -0.001926422119140625,
+    0.03131103515625,
+    -0.044921875,
+    -0.0171966552734375,
+    -0.0006413459777832031,
+    0.01093292236328125,
+    0.0021953582763671875,
+    -0.010101318359375,
+    0.0278167724609375,
+    -0.0224151611328125,
+    -0.0085601806640625,
+    -0.01184844970703125,
+    0.0218505859375,
+    -0.01552581787109375,
+    -0.0282135009765625,
+    -0.0086669921875,
+    0.03814697265625,
+    0.02978515625,
+    0.0203857421875,
+    -0.03326416015625,
+    0.005687713623046875,
+    0.0019207000732421875,
+    -0.0058135986328125,
+    -0.010772705078125,
+    0.01123046875,
+    0.0220184326171875,
+    -0.0138092041015625,
+    -0.003894805908203125,
+    0.02276611328125,
+    0.01427459716796875,
+    -0.0131988525390625,
+    0.020172119140625,
+    -0.0249176025390625,
+    0.0025730133056640625,
+    -0.01123046875,
+    0.0087890625,
+    0.01026153564453125,
+    -0.0216217041015625,
+    -0.044281005859375,
+    -0.01067352294921875,
+    0.0010251998901367188,
+    0.0157012939453125,
+    0.022857666015625,
+    0.01308441162109375,
+    0.01160430908203125,
+    -0.0024776458740234375,
+    -0.0218658447265625,
+    0.01776123046875,
+    -0.0146636962890625,
+    -0.0123443603515625,
+    0.0399169921875,
+    -0.0200347900390625,
+    -0.0232391357421875,
+    0.005992889404296875,
+    0.00260162353515625,
+    0.003143310546875,
+    0.01300811767578125,
+    0.02752685546875,
+    -0.03961181640625,
+    -0.01312255859375,
+    0.02105712890625,
+    -0.0008692741394042969,
+    -0.0024662017822265625,
+    0.037872314453125,
+    0.0491943359375,
+    -0.0155029296875,
+    -0.00528717041015625,
+    0.01230621337890625,
+    -0.0004532337188720703,
+    0.00672149658203125,
+    0.02740478515625,
+    -0.0021228790283203125,
+    -0.0193328857421875,
+    0.03668212890625,
+    -0.02154541015625,
+    0.0191192626953125,
+    -0.0203704833984375,
+    -0.00524139404296875,
+    0.040435791015625,
+    -0.0162506103515625,
+    -0.00433349609375,
+    -0.054779052734375,
+    -0.00991058349609375,
+    -0.00519561767578125,
+    0.0080108642578125,
+    0.00014066696166992188,
+    0.011322021484375,
+    -0.031646728515625,
+    0.0271759033203125,
+    -0.01340484619140625,
+    -0.018798828125,
+    0.007640838623046875,
+    0.037933349609375,
+    0.0007038116455078125,
+    0.0025272369384765625,
+    5.78761100769043e-05,
+    0.032257080078125,
+    0.0141754150390625,
+    -0.0379638671875,
+    0.0094146728515625,
+    -0.0106353759765625,
+    -0.0193023681640625,
+    -0.016143798828125,
+    -0.006313323974609375,
+    0.0290985107421875,
+    -0.04095458984375,
+    0.018280029296875,
+    -0.0032978057861328125,
+    0.045135498046875,
+    0.005031585693359375,
+    0.0164337158203125,
+    -0.00429534912109375,
+    -0.00298309326171875,
+    0.0097503662109375,
+    -0.0294647216796875,
+    0.0004608631134033203,
+    -0.00136566162109375,
+    0.01377105712890625,
+    -0.035919189453125,
+    0.0289459228515625,
+    0.0124359130859375,
+    0.01220703125,
+    -0.0222320556640625,
+    -0.0240936279296875,
+    0.0277557373046875,
+    -0.00994873046875,
+    0.00021004676818847656,
+    0.01922607421875,
+    0.00896453857421875,
+    -0.01474761962890625,
+    0.032745361328125,
+    -0.007568359375,
+    -0.0172882080078125,
+    0.01033782958984375,
+    0.0033740997314453125,
+    -0.01090240478515625,
+    -0.0161590576171875,
+    0.00476837158203125,
+    -0.026153564453125,
+    -0.00435638427734375,
+    -0.019287109375,
+    0.006221771240234375,
+    -0.0192413330078125,
+    0.0301055908203125,
+    -0.0078277587890625,
+    0.004150390625,
+    0.01396942138671875,
+    -0.032440185546875,
+    -0.0007615089416503906,
+    0.0105438232421875,
+    0.0310516357421875,
+    0.0093994140625,
+    0.010101318359375,
+    -0.03173828125,
+    -0.0006809234619140625,
+    -0.0259246826171875,
+    0.04632568359375,
+    -0.00798797607421875,
+    -0.0106658935546875,
+    -0.01207733154296875,
+    -0.004241943359375,
+    -0.015228271484375,
+    0.0095062255859375,
+    -0.0035381317138671875,
+    -0.0025787353515625,
+    -0.00506591796875,
+    0.0005230903625488281,
+    -0.004772186279296875,
+    -0.01181793212890625,
+    -0.0113525390625,
+    0.0152587890625,
+    0.007671356201171875,
+    -0.005847930908203125,
+    -0.03277587890625,
+    -0.0115814208984375,
+    -0.032470703125,
+    -0.03558349609375,
+    0.00562286376953125,
+    0.005672454833984375,
+    0.003940582275390625,
+    -0.019256591796875,
+    -0.0234222412109375,
+    -0.0273590087890625,
+    -0.0026760101318359375,
+    -9.149312973022461e-05,
+    -0.0013322830200195312,
+    0.00827789306640625,
+    0.01154327392578125,
+    -0.0007371902465820312,
+    -0.01611328125
+  ]
+}

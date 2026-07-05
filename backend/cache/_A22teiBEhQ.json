@@ -26,6 +26,20 @@
         "positive": 22,
         "neutral": 19,
         "negative": 59
+      },
+      "confidence": {
+        "positive": {
+          "level": "HIGH",
+          "ciLow": 17.2,
+          "ciHigh": 28.2,
+          "sampleSize": 216
+        },
+        "negative": {
+          "level": "HIGH",
+          "ciLow": 52.1,
+          "ciHigh": 65.2,
+          "sampleSize": 216
+        }
       }
     },
     {
@@ -38,6 +52,20 @@
         "positive": 25,
         "neutral": 26,
         "negative": 49
+      },
+      "confidence": {
+        "positive": {
+          "level": "HIGH",
+          "ciLow": 19.9,
+          "ciHigh": 31.5,
+          "sampleSize": 214
+        },
+        "negative": {
+          "level": "HIGH",
+          "ciLow": 42.0,
+          "ciHigh": 55.3,
+          "sampleSize": 214
+        }
       }
     },
     {
@@ -50,6 +78,20 @@
         "positive": 30,
         "neutral": 26,
         "negative": 45
+      },
+      "confidence": {
+        "positive": {
+          "level": "HIGH",
+          "ciLow": 22.8,
+          "ciHigh": 37.3,
+          "sampleSize": 149
+        },
+        "negative": {
+          "level": "HIGH",
+          "ciLow": 37.2,
+          "ciHigh": 53.0,
+          "sampleSize": 149
+        }
       }
     },
     {
@@ -62,6 +104,20 @@
         "positive": 21,
         "neutral": 28,
         "negative": 51
+      },
+      "confidence": {
+        "positive": {
+          "level": "HIGH",
+          "ciLow": 13.2,
+          "ciHigh": 32.0,
+          "sampleSize": 71
+        },
+        "negative": {
+          "level": "HIGH",
+          "ciLow": 39.3,
+          "ciHigh": 62.0,
+          "sampleSize": 71
+        }
       }
     },
     {
@@ -74,12 +130,26 @@
         "positive": 30,
         "neutral": 35,
         "negative": 35
+      },
+      "confidence": {
+        "positive": {
+          "level": "HIGH",
+          "ciLow": 20.2,
+          "ciHigh": 41.0,
+          "sampleSize": 71
+        },
+        "negative": {
+          "level": "HIGH",
+          "ciLow": 25.1,
+          "ciHigh": 46.8,
+          "sampleSize": 71
+        }
       }
     }
   ],
   "reactionTimeline": [
     {
-      "elapsedSeconds": 25.0,
+      "elapsedSeconds": 40800.0,
       "bucketStart": "2026-07-04T11:20:00+00:00",
       "bucketEnd": "2026-07-04T11:22:19+00:00",
       "positive": 12,
@@ -88,10 +158,13 @@
       "netSentiment": -0.1,
       "zScore": 0.818,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": 1.297,
+      "isVolumeBurst": false,
+      "durationSeconds": 139.0
     },
     {
-      "elapsedSeconds": 171.0,
+      "elapsedSeconds": 40946.0,
       "bucketStart": "2026-07-04T11:22:26+00:00",
       "bucketEnd": "2026-07-04T11:25:20+00:00",
       "positive": 13,
@@ -100,10 +173,13 @@
       "netSentiment": -0.1,
       "zScore": 0.818,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": 1.008,
+      "isVolumeBurst": false,
+      "durationSeconds": 174.0
     },
     {
-      "elapsedSeconds": 348.0,
+      "elapsedSeconds": 41123.0,
       "bucketStart": "2026-07-04T11:25:23+00:00",
       "bucketEnd": "2026-07-04T11:28:02+00:00",
       "positive": 10,
@@ -112,10 +188,13 @@
       "netSentiment": -0.275,
       "zScore": -0.173,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": 1.124,
+      "isVolumeBurst": false,
+      "durationSeconds": 159.0
     },
     {
-      "elapsedSeconds": 509.0,
+      "elapsedSeconds": 41284.0,
       "bucketStart": "2026-07-04T11:28:04+00:00",
       "bucketEnd": "2026-07-04T11:30:10+00:00",
       "positive": 12,
@@ -124,10 +203,13 @@
       "netSentiment": -0.125,
       "zScore": 0.676,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": 1.423,
+      "isVolumeBurst": false,
+      "durationSeconds": 126.0
     },
     {
-      "elapsedSeconds": 635.0,
+      "elapsedSeconds": 41410.0,
       "bucketStart": "2026-07-04T11:30:10+00:00",
       "bucketEnd": "2026-07-04T11:32:44+00:00",
       "positive": 3,
@@ -137,6 +219,9 @@
       "zScore": -2.154,
       "isBurst": true,
       "direction": "NEGATIVE_SPIKE",
+      "volumeZScore": 1.165,
+      "isVolumeBurst": false,
+      "durationSeconds": 154.0,
       "topComments": [
         {
           "text": "구립습니다...😢",
@@ -259,9 +344,9 @@
           "sentiment": "POSITIVE"
         },
         {
-          "text": "아니 왜 제목들을 경기 결과를 유추할 수 있게끔 전부 지어놨냐;;",
+          "text": "밴픽은 다 무난했는데 그냥 실력차 난거지",
           "likeCount": 0,
-          "sentiment": "NEGATIVE"
+          "sentiment": "NEUTRAL"
         },
         {
           "text": "어차피 우승은T1",
@@ -274,9 +359,9 @@
           "sentiment": "NEGATIVE"
         },
         {
-          "text": "밴픽은 다 무난했는데 그냥 실력차 난거지",
+          "text": "아니 왜 제목들을 경기 결과를 유추할 수 있게끔 전부 지어놨냐;;",
           "likeCount": 0,
-          "sentiment": "NEUTRAL"
+          "sentiment": "NEGATIVE"
         },
         {
           "text": "5경기는 정글차이가 계속벌려져서 심하네 밴픽이 계속 밀려",
@@ -341,7 +426,7 @@
       ]
     },
     {
-      "elapsedSeconds": 792.0,
+      "elapsedSeconds": 41567.0,
       "bucketStart": "2026-07-04T11:32:47+00:00",
       "bucketEnd": "2026-07-04T11:37:15+00:00",
       "positive": 14,
@@ -350,10 +435,13 @@
       "netSentiment": -0.15,
       "zScore": 0.535,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": 0.452,
+      "isVolumeBurst": false,
+      "durationSeconds": 268.0
     },
     {
-      "elapsedSeconds": 1071.0,
+      "elapsedSeconds": 41846.0,
       "bucketStart": "2026-07-04T11:37:26+00:00",
       "bucketEnd": "2026-07-04T11:40:52+00:00",
       "positive": 6,
@@ -362,10 +450,13 @@
       "netSentiment": -0.45,
       "zScore": -1.163,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": 0.791,
+      "isVolumeBurst": false,
+      "durationSeconds": 206.0
     },
     {
-      "elapsedSeconds": 1287.0,
+      "elapsedSeconds": 42062.0,
       "bucketStart": "2026-07-04T11:41:02+00:00",
       "bucketEnd": "2026-07-04T11:46:27+00:00",
       "positive": 10,
@@ -374,10 +465,13 @@
       "netSentiment": -0.275,
       "zScore": -0.173,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": 0.204,
+      "isVolumeBurst": false,
+      "durationSeconds": 325.0
     },
     {
-      "elapsedSeconds": 1615.0,
+      "elapsedSeconds": 42390.0,
       "bucketStart": "2026-07-04T11:46:30+00:00",
       "bucketEnd": "2026-07-04T11:54:20+00:00",
       "positive": 9,
@@ -386,10 +480,13 @@
       "netSentiment": -0.35,
       "zScore": -0.597,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": -0.271,
+      "isVolumeBurst": false,
+      "durationSeconds": 470.0
     },
     {
-      "elapsedSeconds": 2108.0,
+      "elapsedSeconds": 42883.0,
       "bucketStart": "2026-07-04T11:54:43+00:00",
       "bucketEnd": "2026-07-04T12:03:46+00:00",
       "positive": 5,
@@ -399,6 +496,9 @@
       "zScore": -1.729,
       "isBurst": true,
       "direction": "NEGATIVE_SPIKE",
+      "volumeZScore": -0.457,
+      "isVolumeBurst": false,
+      "durationSeconds": 543.0,
       "topComments": [
         {
           "text": "@mmmj7놀랍게도 그 팀의 수장도 자기 떨어지니까 다른 lck팀들 내 알빠 아니다 말했던분임 ㅋㅋㅋㅋ",
@@ -603,7 +703,7 @@
       ]
     },
     {
-      "elapsedSeconds": 2656.0,
+      "elapsedSeconds": 43431.0,
       "bucketStart": "2026-07-04T12:03:51+00:00",
       "bucketEnd": "2026-07-04T12:13:36+00:00",
       "positive": 10,
@@ -612,10 +712,13 @@
       "netSentiment": -0.25,
       "zScore": -0.031,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": -0.552,
+      "isVolumeBurst": false,
+      "durationSeconds": 585.0
     },
     {
-      "elapsedSeconds": 3265.0,
+      "elapsedSeconds": 44040.0,
       "bucketStart": "2026-07-04T12:14:00+00:00",
       "bucketEnd": "2026-07-04T12:22:14+00:00",
       "positive": 12,
@@ -624,10 +727,13 @@
       "netSentiment": -0.1,
       "zScore": 0.818,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": -0.335,
+      "isVolumeBurst": false,
+      "durationSeconds": 494.0
     },
     {
-      "elapsedSeconds": 3787.0,
+      "elapsedSeconds": 44562.0,
       "bucketStart": "2026-07-04T12:22:42+00:00",
       "bucketEnd": "2026-07-04T12:30:24+00:00",
       "positive": 12,
@@ -636,10 +742,13 @@
       "netSentiment": -0.05,
       "zScore": 1.101,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": -0.249,
+      "isVolumeBurst": false,
+      "durationSeconds": 462.0
     },
     {
-      "elapsedSeconds": 4263.0,
+      "elapsedSeconds": 45038.0,
       "bucketStart": "2026-07-04T12:30:38+00:00",
       "bucketEnd": "2026-07-04T12:37:35+00:00",
       "positive": 16,
@@ -649,6 +758,9 @@
       "zScore": 1.667,
       "isBurst": true,
       "direction": "POSITIVE_SPIKE",
+      "volumeZScore": -0.117,
+      "isVolumeBurst": false,
+      "durationSeconds": 417.0,
       "topComments": [
         {
           "text": "@blueberry1-t2q뭐 5명 다 책임이 있겠죠 근데 쵸비가 왜나옴 여기서..?",
@@ -661,13 +773,18 @@
           "sentiment": "POSITIVE"
         },
         {
+          "text": "명장병 걸린 명장\n유일한 변수가 선수본인 숙련도이슈 터지는거고 그게 버돌 탑아지르였는데 슌 킨드야 원래 시그니처고 바이퍼는 비원딜 전문가라 벨코즈해도 문제없고 ㅋㅋㅋ",
+          "likeCount": 6,
+          "sentiment": "NEGATIVE"
+        },
+        {
           "text": "@으우으우으우으우으아최근댓글목록 봐바여 평범한 슼갈임 그냥",
           "likeCount": 6,
           "sentiment": "NEUTRAL"
         },
         {
-          "text": "명장병 걸린 명장\n유일한 변수가 선수본인 숙련도이슈 터지는거고 그게 버돌 탑아지르였는데 슌 킨드야 원래 시그니처고 바이퍼는 비원딜 전문가라 벨코즈해도 문제없고 ㅋㅋㅋ",
-          "likeCount": 6,
+          "text": "밴픽도 문제긴한데 걍 순수기량 딸리는게 젤 큰것 같은데 이악물고 밴픽탓 하는건 좀 웃기네ㅋㅋ 욕받이했던 선수 떠나니까 차마 선수 욕은 못하고 감코탓으로 돌리는거라고 솔직하게 말해",
+          "likeCount": 4,
           "sentiment": "NEGATIVE"
         },
         {
@@ -676,9 +793,9 @@
           "sentiment": "POSITIVE"
         },
         {
-          "text": "밴픽도 문제긴한데 걍 순수기량 딸리는게 젤 큰것 같은데 이악물고 밴픽탓 하는건 좀 웃기네ㅋㅋ 욕받이했던 선수 떠나니까 차마 선수 욕은 못하고 감코탓으로 돌리는거라고 솔직하게 말해",
-          "likeCount": 4,
-          "sentiment": "NEGATIVE"
+          "text": "@blueberry1-t2q티원은 lpl한테 지지않아 엌ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅌㅋㅋㅌㅋㅌㅋㅌㅌㅌㅌㅌㅌㅋㅋㅋ",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
         },
         {
           "text": "명장은 명장이다 대대대",
@@ -686,17 +803,12 @@
           "sentiment": "POSITIVE"
         },
         {
-          "text": "@blueberry1-t2q티원은 lpl한테 지지않아 엌ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅌㅋㅋㅌㅋㅌㅋㅌㅌㅌㅌㅌㅌㅋㅋㅋ",
-          "likeCount": 3,
-          "sentiment": "POSITIVE"
-        },
-        {
-          "text": "@어우BLG 정글 플빼줘도 가서 대주는데 이걸 미드탓하면 누구를 대체 써야되노? ㅋㅋㅋㅋㅋ",
+          "text": "미드흥민은 죄가 없다!! 톰명보 아웃",
           "likeCount": 2,
           "sentiment": "POSITIVE"
         },
         {
-          "text": "미드흥민은 죄가 없다!! 톰명보 아웃",
+          "text": "@어우BLG 정글 플빼줘도 가서 대주는데 이걸 미드탓하면 누구를 대체 써야되노? ㅋㅋㅋㅋㅋ",
           "likeCount": 2,
           "sentiment": "POSITIVE"
         },
@@ -706,9 +818,9 @@
           "sentiment": "NEUTRAL"
         },
         {
-          "text": "그건 월즈인데? 아는척은좀 ..",
+          "text": "도란 종신기원🎉🎉🎉",
           "likeCount": 1,
-          "sentiment": "NEUTRAL"
+          "sentiment": "POSITIVE"
         },
         {
           "text": "@엉클러프진지하게 1셋 반반 2345셋 다 짐",
@@ -726,9 +838,9 @@
           "sentiment": "NEGATIVE"
         },
         {
-          "text": "근데 과연 밴픽을 져서 진걸까 다른 팀이 지면 선수 비하하던 놈들이. 지는데 과연 너네 팀 선수 잘못은 없을까?",
+          "text": "그건 월즈인데? 아는척은좀 ..",
           "likeCount": 1,
-          "sentiment": "NEGATIVE"
+          "sentiment": "NEUTRAL"
         },
         {
           "text": "또또 밴픽탓 ㅋㅋ\n레전드 미드탑차이.. 5세트싸지 온게 기적\nㅋㅋㅋㅋ",
@@ -736,14 +848,19 @@
           "sentiment": "POSITIVE"
         },
         {
-          "text": "도란 종신기원🎉🎉🎉",
+          "text": "근데 과연 밴픽을 져서 진걸까 다른 팀이 지면 선수 비하하던 놈들이. 지는데 과연 너네 팀 선수 잘못은 없을까?",
           "likeCount": 1,
-          "sentiment": "POSITIVE"
+          "sentiment": "NEGATIVE"
         },
         {
           "text": "그럼 역체폿이 누군데? ㅋㅋ",
           "likeCount": 1,
           "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "그립습니다 향러",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
         },
         {
           "text": "톰명보",
@@ -764,11 +881,6 @@
           "text": "자헨 쥐어주고 잭스 상대 \n암베사 쥐어주고 레넥 상대\n이걸 주도권 잡는게 이상한거지ㅋㅋㅋㅋ",
           "likeCount": 0,
           "sentiment": "NEGATIVE"
-        },
-        {
-          "text": "양 대 인 티 원 의 원 수",
-          "likeCount": 0,
-          "sentiment": "NEUTRAL"
         },
         {
           "text": "채팅창 진짜 ㅋㅋ 첫판이길땐 대상혁 대황란 대티원 다음판지자마자 국가망신 ㅋㅋㅋ",
@@ -796,9 +908,9 @@
           "sentiment": "POSITIVE"
         },
         {
-          "text": "그립습니다 향러",
+          "text": "양 대 인 티 원 의 원 수",
           "likeCount": 0,
-          "sentiment": "NEGATIVE"
+          "sentiment": "NEUTRAL"
         },
         {
           "text": "저런걸 3년계약한 티런트의 안목이 절망스러움",
@@ -853,7 +965,7 @@
       ]
     },
     {
-      "elapsedSeconds": 4700.0,
+      "elapsedSeconds": 45475.0,
       "bucketStart": "2026-07-04T12:37:55+00:00",
       "bucketEnd": "2026-07-04T12:52:27+00:00",
       "positive": 14,
@@ -862,10 +974,13 @@
       "netSentiment": -0.15,
       "zScore": 0.535,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": -1.066,
+      "isVolumeBurst": false,
+      "durationSeconds": 872.0
     },
     {
-      "elapsedSeconds": 5577.0,
+      "elapsedSeconds": 46352.0,
       "bucketStart": "2026-07-04T12:52:32+00:00",
       "bucketEnd": "2026-07-04T13:06:15+00:00",
       "positive": 9,
@@ -874,10 +989,13 @@
       "netSentiment": -0.25,
       "zScore": -0.031,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": -0.992,
+      "isVolumeBurst": false,
+      "durationSeconds": 823.0
     },
     {
-      "elapsedSeconds": 6428.0,
+      "elapsedSeconds": 47203.0,
       "bucketStart": "2026-07-04T13:06:43+00:00",
       "bucketEnd": "2026-07-04T13:32:57+00:00",
       "positive": 7,
@@ -886,10 +1004,13 @@
       "netSentiment": -0.375,
       "zScore": -0.739,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": -1.826,
+      "isVolumeBurst": false,
+      "durationSeconds": 1574.0
     },
     {
-      "elapsedSeconds": 8007.0,
+      "elapsedSeconds": 48782.0,
       "bucketStart": "2026-07-04T13:33:02+00:00",
       "bucketEnd": "2026-07-04T13:55:02+00:00",
       "positive": 8,
@@ -898,7 +1019,10 @@
       "netSentiment": -0.275,
       "zScore": -0.173,
       "isBurst": false,
-      "direction": null
+      "direction": null,
+      "volumeZScore": -1.599,
+      "isVolumeBurst": false,
+      "durationSeconds": 1320.0
     }
   ],
   "keyInsights": [

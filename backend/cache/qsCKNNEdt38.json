@@ -1,0 +1,5746 @@
+{
+  "video": {
+    "videoId": "qsCKNNEdt38",
+    "title": "구마유시의 실버 체험기",
+    "channelTitle": "T1 Esports",
+    "thumbnailUrl": "https://i.ytimg.com/vi/qsCKNNEdt38/maxresdefault.jpg",
+    "publishedAt": "2022-09-07",
+    "viewCount": 9381527,
+    "likeCount": 139206,
+    "analyzedComments": 2608,
+    "languageRatio": {
+      "ko": 95,
+      "en": 1,
+      "other": 4
+    },
+    "weightedSentiment": 9
+  },
+  "topics": [
+    {
+      "label": "구마유시의 실력",
+      "labelEn": "Kumayushi's Skill",
+      "labelZh": "구마유시的技能",
+      "labelJa": "クマユシのスキル",
+      "mentionCount": 660,
+      "sentiment": {
+        "positive": 47,
+        "neutral": 28,
+        "negative": 25
+      },
+      "confidence": {
+        "positive": {
+          "level": "HIGH",
+          "ciLow": 42.9,
+          "ciHigh": 50.5,
+          "sampleSize": 660
+        },
+        "negative": {
+          "level": "HIGH",
+          "ciLow": 22.1,
+          "ciHigh": 28.8,
+          "sampleSize": 660
+        }
+      }
+    },
+    {
+      "label": "비난과 응징",
+      "labelEn": "Criticism and Retaliation",
+      "labelZh": "批评与报复",
+      "labelJa": "批判と報復",
+      "mentionCount": 572,
+      "sentiment": {
+        "positive": 29,
+        "neutral": 39,
+        "negative": 31
+      },
+      "confidence": {
+        "positive": {
+          "level": "HIGH",
+          "ciLow": 25.6,
+          "ciHigh": 33.1,
+          "sampleSize": 572
+        },
+        "negative": {
+          "level": "HIGH",
+          "ciLow": 27.8,
+          "ciHigh": 35.4,
+          "sampleSize": 572
+        }
+      }
+    },
+    {
+      "label": "실버의 특성",
+      "labelEn": "Characteristics of Silver",
+      "labelZh": "银段特征",
+      "labelJa": "シルバーの特徴",
+      "mentionCount": 548,
+      "sentiment": {
+        "positive": 32,
+        "neutral": 32,
+        "negative": 36
+      },
+      "confidence": {
+        "positive": {
+          "level": "HIGH",
+          "ciLow": 28.5,
+          "ciHigh": 36.3,
+          "sampleSize": 548
+        },
+        "negative": {
+          "level": "HIGH",
+          "ciLow": 32.0,
+          "ciHigh": 40.1,
+          "sampleSize": 548
+        }
+      }
+    },
+    {
+      "label": "게임 내 대화",
+      "labelEn": "In-Game Communication",
+      "labelZh": "游戏中的沟通",
+      "labelJa": "ゲーム内のコミュニケーション",
+      "mentionCount": 531,
+      "sentiment": {
+        "positive": 38,
+        "neutral": 36,
+        "negative": 26
+      },
+      "confidence": {
+        "positive": {
+          "level": "HIGH",
+          "ciLow": 34.0,
+          "ciHigh": 42.2,
+          "sampleSize": 531
+        },
+        "negative": {
+          "level": "HIGH",
+          "ciLow": 22.1,
+          "ciHigh": 29.5,
+          "sampleSize": 531
+        }
+      }
+    },
+    {
+      "label": "야생동물 비유",
+      "labelEn": "Wild Animal Metaphor",
+      "labelZh": "野生动物比喻",
+      "labelJa": "野生動物の比喩",
+      "mentionCount": 297,
+      "sentiment": {
+        "positive": 51,
+        "neutral": 21,
+        "negative": 28
+      },
+      "confidence": {
+        "positive": {
+          "level": "HIGH",
+          "ciLow": 45.2,
+          "ciHigh": 56.5,
+          "sampleSize": 297
+        },
+        "negative": {
+          "level": "HIGH",
+          "ciLow": 23.1,
+          "ciHigh": 33.3,
+          "sampleSize": 297
+        }
+      }
+    }
+  ],
+  "reactionTimeline": [
+    {
+      "elapsedSeconds": 10937.0,
+      "bucketStart": "2022-09-07T03:02:17+00:00",
+      "bucketEnd": "2022-09-07T06:09:26+00:00",
+      "positive": 24,
+      "neutral": 13,
+      "negative": 3,
+      "netSentiment": 0.525,
+      "zScore": 2.916,
+      "isBurst": true,
+      "direction": "POSITIVE_SPIKE",
+      "volumeZScore": 1.889,
+      "isVolumeBurst": true,
+      "durationSeconds": 11229.0,
+      "topComments": [
+        {
+          "text": "인생 최고업적:구마유시 혼내기 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 29127,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "마지막 대사까지 완벽ㅋㅋ\n레오나는 구마유시인걸 알면 얼마나 부끄러울까",
+          "likeCount": 11720,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "아직이라니 형...저런인간들은 안사라져...",
+          "likeCount": 7919,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "???: 야생동물한테 손 하니까 손 내밀어준 느낌",
+          "likeCount": 7812,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "구마유시인줄 상상도 못했겠지 ㅋㅋㅋㅋ",
+          "likeCount": 6913,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "자신이 게이,성소수자,비응신이면 댓이랑 좋아요달아라",
+          "likeCount": 5757,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "레오나가 이 영상 꼭 봤으면 좋겠다",
+          "likeCount": 4308,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "아 저 원딜이 구마유시 였다고 가서 알려주고싶다 ㅋㅌㅌㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 4186,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "심해 채팅의 아득함",
+          "likeCount": 605,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "ㅋㅋㅋㅋ방송 진짜 잘하네 멘트 하나하나 거를 타선이 없네 ㅋㅋㅋㅋ 비유 미쳤고 나도 구마유시 만나보고싶다ㅠㅠ",
+          "likeCount": 561,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "그래도 저정도면 착하게말한듯요ㅋㅋㅋㅋㅋㅋㅋ 망나니들이얼마나많은데ㅋㅋㅋ저정도는약과",
+          "likeCount": 547,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "야생동물 ㅠㅠㅋㅋㅋㅋㅋ 개웃겨 나는 야생동물 입니다",
+          "likeCount": 37,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ 제가 이래서 칼바람만합니다",
+          "likeCount": 5,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "아이디가 플레2랑 실버4랑 두개인데\n플2랑 실버4랑\n애들하는게 완전 수준이 다른던데\n실버가면 너무쉽던데",
+          "likeCount": 5,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ삘하게 웃기네",
+          "likeCount": 5,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "@SDH269 진짜 제 수준은 최고가 플1이지만..\n실버 3~4에서 게임하면 애들이 게임 보는 눈과 맵리 분당씨에쓰 등등 그냥 달라요\n챔피언 숙련도나 모든것이 대부분ㅎㅎ\n플레는 자전거 경주하는 느낌이면,\n실버는 오늘 심심한데 자전거타고 마실이나 가볼까?\n하는 느낌..",
+          "likeCount": 4,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "프로 입장에서는 아브실이나 마스터나 생각 없이 한다고 생각하지 않을까",
+          "likeCount": 4,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "ㅋㅋㅋ아 레오나 ㅅㅂ",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "일단 아브실은 뇌빼고 플레이해서 골드가려면 정신 단디 차려야해 ㅋㅋ",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "내가 레오나였으면 굼시인거 알아도 구마유시 만났다고 자랑 못함 ㅋㅋㅋㅋㅋㅋ 내가 다 부끄럽넹",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "형 제발 내팀으로 만나주라..",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "야생동물 ㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "이거보다 그 유미 영상을 올려줘야지",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "근데 레오나 입장이 이해되긴함.ㅋㅋㅋ\n구마유시가 너무빡세니까 상대가 쫄아서 뒷무빙치거나 포탑허그하면 인파이터류 서폿입장에선 들어가기도 애매해서 할게없어지긴함ㅋㅋㅋㅋ\n고티어였으면 그 주도권으로 로밍이나 옵잭등 정글합류라도할텐데 멀뚱멀뚱 원딜탓만하고있지ㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "야생동물 ㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "님골드나 플레죠ㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "레오나 ㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "On one part you can get red buff, on the other your support blames you for everything 😂",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "@다이즈낭 ㅇㄱㄹㅇ",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "레오나 현타안오나...?? ㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "리신ㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "아직...? 360렙 만년실딱이는 저런판은 일상이져 ㅎㅎㅎ",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "구마유시한테 훈수두는 실버란... 갓버",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "' 실버는 야생동물이다 ' \n이거 논란이 되겠는걸?",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "@다이즈낭 플래가 적당합니다 다이아는 인생에 무쓸모ㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "저번 유미가 떠오르네.. ㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "야생동물 손 ㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "챌린저도 최상위 프로한텐 똑같다",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "쓰레기 소굴 맛이 어때?",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        }
+      ]
+    },
+    {
+      "elapsedSeconds": 22269.0,
+      "bucketStart": "2022-09-07T06:11:09+00:00",
+      "bucketEnd": "2022-09-07T08:55:45+00:00",
+      "positive": 13,
+      "neutral": 9,
+      "negative": 18,
+      "netSentiment": -0.125,
+      "zScore": -1.461,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": 1.955,
+      "isVolumeBurst": true,
+      "durationSeconds": 9876.0,
+      "topComments": [
+        {
+          "text": "???:내가 구마유시 알려주니까 15킬을 했더라니까\n(좋아요 달지 마세요 계속 알림뜨네)",
+          "likeCount": 6932,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "상대 하체한테는 얼마나 자연재해같을까 지들상대가 현직 프로ㅋㅋㅋㅋ",
+          "likeCount": 5939,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "예상답변:실버에서는 이렇게하는게 맞아",
+          "likeCount": 3875,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "저런 애들은 페이커한테도 훈수두는 애들이라 신경도 안 쓸듯...",
+          "likeCount": 3282,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "@itume 구마유시 예상답변:그러니까 실버야",
+          "likeCount": 2623,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "실버의 롤도사 만들기 ㄷㄷㄷ",
+          "likeCount": 1673,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "ㅅㅂㅋㅋㅋㅋㅋ",
+          "likeCount": 568,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "저정도면 귀엽게 장난식으로 말한 수준ㅋㅋㅋ",
+          "likeCount": 413,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "속보) 케리아도 챌린저까진 미드로 올린다.",
+          "likeCount": 190,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "날 것의 느낌 야생동물ㅋㅋㅋㅋ",
+          "likeCount": 94,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "레오나는 알면 얼마나 충격일까ㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 67,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "심지어 원챔이네ㄷㄷ",
+          "likeCount": 43,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "현지인인 내가 다 아찔하다ㅋㅋㄱㄱㄱㅋㄱㅋㅋ",
+          "likeCount": 36,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "심해는 채팅이 곧 롤이고 컨텐츠임 라이엇이 전챗을 막은건 이길수있는 수단중 하나를 막은거임 ㄹㅇ",
+          "likeCount": 25,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "??? : 아 내가 레오나로 구마유시 키워줬다고 ㅋㅋ",
+          "likeCount": 13,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "?",
+          "likeCount": 8,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "저런 애들이 너무 많음 ㅋㅋ 오함마로 골통 분쇄 마려움",
+          "likeCount": 2,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "@chzhzpdlzm190 플래 - 게임 좀 알면 찍을 수 있는 티어\n다이아-인생 갈아넣어도 더 위로는 못 올라가는 티어\n인싸티어가 괜히 생긴 말이 아니죠ㅋ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "자기도그러면서 왜",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "마지막멘트 ㅋㅋㅋㅋㅋ 역시 삼국지의 구민형",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "이런 애들이 영상 속 레오나 같은 친구 ㅇㅇ",
+          "likeCount": 1,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "우리 서포터가 미포한다고 트롤하는 원딜것들도 있습디다",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "레오나잡고 왜 안들어가냐 ㅋㅋ 나는 근질 근질 하던데 막",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "구마요시 한테 훈수두는 갓버 서폿",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "@심승우-k3y 게임하면서 인생은 무슨...ㅋ 플레는 뭐 쓸모 있어요 ?",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "야생의 날 것 느낌",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "레오나 사실 알면 얼마나 부끄러울까",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "형 왜 거기서 양학하고있어요...ㅠ",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "아직이라니.. 천상계에만 계셔서 지하세계를 모르시네.. ㅠㅠ",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "아직 이런사람들이 있구나?? ㅋㅋㅋ 여긴 저런새끼들밖에 없어 ㅅㅂㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "난 k-갓버 나올줄알았는데",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "역시 티어 낮아질수록 채팅이 많아지는게 맞구나...",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋ저거 레오나한테 그럼 먼저들어가덩가 저채팅한번치면 게임끝날때까지 들어감ㅋㅋㅋㅋ저런애들 건들면 톡하고터짐",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "저러고 넥서스 터지기 전에 \"님 구마유시 알아요? 지금 아프리카 켜보세요. 내가 규마유시임 ㅋㅋ\"하면 궁금함 반 지랄ㄴ 반으로 들어와서 깜짝 놀라기 마련",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "레오나 싸다구 마렵네 진짜 ㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "아 실버에는 실버만의 플레이가 있는 법이라고ㅋㅋ\n얘네가 챌린저 플레이를 어케알아",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "생방에서 뒤지게 맞고\n계정버린 그분이네",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "도구가 말이 많네 ㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "지가 더 잘하는줄 알고 입터는데 실버 ㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "더 아래층은 지옥임...",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        }
+      ]
+    },
+    {
+      "elapsedSeconds": 32378.0,
+      "bucketStart": "2022-09-07T08:59:38+00:00",
+      "bucketEnd": "2022-09-07T16:08:26+00:00",
+      "positive": 11,
+      "neutral": 13,
+      "negative": 16,
+      "netSentiment": -0.125,
+      "zScore": -1.461,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": 1.465,
+      "isVolumeBurst": false,
+      "durationSeconds": 25728.0
+    },
+    {
+      "elapsedSeconds": 58952.0,
+      "bucketStart": "2022-09-07T16:22:32+00:00",
+      "bucketEnd": "2022-09-08T04:40:48+00:00",
+      "positive": 16,
+      "neutral": 13,
+      "negative": 11,
+      "netSentiment": 0.125,
+      "zScore": 0.223,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": 1.187,
+      "isVolumeBurst": false,
+      "durationSeconds": 44296.0
+    },
+    {
+      "elapsedSeconds": 106255.0,
+      "bucketStart": "2022-09-08T05:30:55+00:00",
+      "bucketEnd": "2022-09-09T01:26:30+00:00",
+      "positive": 19,
+      "neutral": 7,
+      "negative": 14,
+      "netSentiment": 0.125,
+      "zScore": 0.223,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": 0.941,
+      "isVolumeBurst": false,
+      "durationSeconds": 71735.0
+    },
+    {
+      "elapsedSeconds": 180254.0,
+      "bucketStart": "2022-09-09T02:04:14+00:00",
+      "bucketEnd": "2022-09-09T08:42:34+00:00",
+      "positive": 13,
+      "neutral": 17,
+      "negative": 10,
+      "netSentiment": 0.075,
+      "zScore": -0.114,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": 1.503,
+      "isVolumeBurst": true,
+      "durationSeconds": 23900.0,
+      "topComments": [
+        {
+          "text": "@갓실버-j7h 진짜 실버다!!!",
+          "likeCount": 95,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "채팅치는 도구만큼 버러지가 없음 ㅋㅋ",
+          "likeCount": 28,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "이거 완전 팍센세네",
+          "likeCount": 6,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "@tessera_wwe 실버 애들은 그런 거 생각 못함. 그냥 좀 치는 사람인줄로만 암..",
+          "likeCount": 6,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "야생짐승",
+          "likeCount": 4,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "@itume 로마에선 로마법을 따라야지",
+          "likeCount": 3,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "저런애들은 챌 원딜 모시고도 지는 애들임",
+          "likeCount": 2,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "실버가 원래 저럼..",
+          "likeCount": 2,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "이것이 갓버 !  ㅋㅋ",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "1데스를 했다는게 놀랍네 ㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "@wigskgskbxjdkgairalfjvkvjfktaj 그거지ㅋㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "@noname77388 페이커한테는 훈수두는건 맞는행동인뎅",
+          "likeCount": 1,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "서포터는 훈수두려고 하는 라인이라 어쩔 수 없음",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "레오나 닉넴:직쓰마1",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "저능아라서 신경안쓸껄",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "이 분 프로게이머임?",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "이름부터 t1 구마유시 되어있는데 눈치를 못 채는게 난 더 신기한거 같은데 아닌가..?",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "레오나 닉 직쓰마1",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "진짜 브실골특 다 담긴 영상이노 ㅈㄴ 역겹다",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "브실골플에서 닉에 T1, GEN 들어가면 과학입니다.",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "풀버전 기원",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "레오나 이 영상 꼭 봐라 진짜",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "귀여워 ㅜㅜ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "이게 일상입니다 실버는^^",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "레오나: ㅋㄹ ㅅㅍㅊㅇ",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "레오나 닉네임 직쓰마1",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "??? : 실버는 야생동물",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "브실골아이언 통합시키고 플레부턴 티어당 점수를 1만점으로 늘려야한다",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋㅋㅋㅌ레오나 존나웃기네 ㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㅇㅈ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "근데 높은 티어 분들이 낮은 티어에서 게임해도 문제되는거 없나요?\n제가 저번에 게임하는데 팀원 분들이 부계정이니 뭐니 하면서 막 싸우길래요...\n저는 상관없다고 생각하는데 말이에요",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "채팅 안하는게 낫다 ㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "너무 저티어는 건들지말앗으면 좋겟다 롤시스템 최악",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "그니까 실버이하는 야생동물이라는거죠? 맞습니다..손가락이 3개밖에 없는 동물들이라서 롤을 못하죠..",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "아래는 챌린저, 다이아, 마스터보다 힘든구간이있음",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "와.. 이 영상에서 배울점이라면.. 저런애들 만나도 이길놈들은 이긴다.. 걍 내 실력이였나봐..",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋㅋㅋ 구마유시한테 훈수하는 서폿이라 ㅋㅋㅋㅋㅋ 귀하네 ㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "? 구마유시였음?ㅡ..",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "레오나 이름은 가려주네",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "elapsedSeconds": 204158.0,
+      "bucketStart": "2022-09-09T08:42:38+00:00",
+      "bucketEnd": "2022-09-09T10:49:15+00:00",
+      "positive": 14,
+      "neutral": 16,
+      "negative": 10,
+      "netSentiment": 0.1,
+      "zScore": 0.054,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": 2.089,
+      "isVolumeBurst": true,
+      "durationSeconds": 7597.0,
+      "topComments": [
+        {
+          "text": "그곳엔 그들만의 룰이 있어..",
+          "likeCount": 567,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "이러고 끝날때 “ㅅㅍㅊㅇ “ 하겠지 ㅎㅎ",
+          "likeCount": 328,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "구마유시 혼낸거면 인최업 맞지 ㅋㅋㅋㅋ",
+          "likeCount": 290,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "레오나가 봤어도 쥐 죽은듯이 가만히 있어서 다들 모를듯 ㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 160,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "들짐승과의 교감",
+          "likeCount": 102,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "순수하긴..그냥 역겨움",
+          "likeCount": 102,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "이거에서 ㅈㄴ 빵터짐 ㅋㅋㅋㅋ",
+          "likeCount": 17,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "???:내가 다 키워준거지 그판",
+          "likeCount": 8,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "근데 부끄러울건 또뭐임 ㅋㅋ 구마유시인줄 모르면 저렇게 말할수도있지",
+          "likeCount": 6,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "쥰내 많지요...",
+          "likeCount": 4,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "제발 풀영상 링크 같이 올려줘..ㅠㅠ",
+          "likeCount": 4,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "근데 구마유시인거거르고 스레쉬잇는데 앞으로 e쓰면서 들어가면 서폿이 식겁할만 하지않음?",
+          "likeCount": 3,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "그냥 롤하면 무지성 까는애들 많아서 뭐 ㅋㅋㅋㅋ",
+          "likeCount": 2,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "실버 = 야생 동물 그 자체",
+          "likeCount": 1,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "부잣집 도련님이 뒷골목 야생 체험하는거 보는 느낌이네",
+          "likeCount": 1,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "나라도 첨보면 자리 잘잡고 잘하는 원딜로만 볼듯...",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "채팅창 진짜 더러움 경기날 보면",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "구마유시 한테 훈수 주는 레오나 ㄷㄷ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "프로 눈에야 나나 실버나 똑같겠지만 그래도 역시 갓버는 갓버임ㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "구마유시한테 훈수두는거 개웃기네 ㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "엥... 쉬운데...",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "레오나같은 애들특:구마유시인걸 알면 부끄러워하는게 아니라 본인이 구마유시 오더해서 잘키운거라고 떵떵거림",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "진짜 역겹다 ㅋㅋㅋ 구마유시한테 마저 욕하네 알면 개쪽팔릴듯",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "문도",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "이제 생전 고인의 개쩌는 업적을 보시겠습니다\n레오나:아니\n레오나:뭐함?",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "또다른 백성을 여기서 보게되다니..",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "구마유시 아니였으면 망했을팀",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "양학이자넠ㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "레오나 닉네임:직쓰마1",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "실버는 이게 맞아",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "@30정세철서울시강남구 승급전 3승 2패 했는데 팀이 \"님 승급전이네?\"이러고 던지더라",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "@user55235-u 그렇군용",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "@30정세철서울시강남구 2승2패 말하는건가 뭐지 ㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "구마유시니까 웃으면서 캐리할 수 있지 현지인들은 항상 진심이라고..",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "실제 저런원딜만난 서폿으로서 난 도저히 실력부족으로 원딜님 페이스못맞추겠어요 라니까 듀오신청오던뎈ㅋㅋㅋㅋㅋㅋㅋㅋㅋㄱㅋ 당황",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "@이렘눈치콘 승급전3승2패면 승급전 끝난거 아닌가요?",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "ㅈㄴ깝치네",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "실버나 처 때리고 있으니 결승에서 질질싸지ㅠㅠ",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "ㅋㅋㅋㅋ개꿀",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "레오나ㅋㅋㅋㅋㅋㅋ훈수 재밌넹",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        }
+      ]
+    },
+    {
+      "elapsedSeconds": 211947.0,
+      "bucketStart": "2022-09-09T10:52:27+00:00",
+      "bucketEnd": "2022-09-09T17:06:10+00:00",
+      "positive": 18,
+      "neutral": 9,
+      "negative": 13,
+      "netSentiment": 0.125,
+      "zScore": 0.223,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": 1.536,
+      "isVolumeBurst": true,
+      "durationSeconds": 22423.0,
+      "topComments": [
+        {
+          "text": "형.. 저 세계에사 살아남으려면 말빨과 채팅이 강해지는수밖에 없어 거긴 진정한 강자생존이야 압도적인 실력이 아니면 채팅으로 승부가 결정남",
+          "likeCount": 426,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "비유가 아니라 사실입니다.",
+          "likeCount": 41,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "@닭면불볶음 사람 취급을 해야 화가나지 ㅋㅋ",
+          "likeCount": 16,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "@Hyeon_0527 상대비전빠진 이즈라서 쓰레쉬Q로 끌리고들어가도 레오나가 같이 E쓰면서 이즈물면 역으로따지 저건레오나반응이 존나늦은거 애초에 비전으로빠지는거보자마자 레오나가 앞무빙쳐줘야지",
+          "likeCount": 9,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "왜 구마유시 얼굴에서 문재인 느낌이 나지..",
+          "likeCount": 7,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "@나의모습-l4w 개소리좀 그럴듯한척 말하지말자..",
+          "likeCount": 7,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "예상 답변 : 구마유시라고 항상 잘하냐 ? 저 타이밍엔 내 플레이가 맞아",
+          "likeCount": 6,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "근데 진짜 암흑속 티어는 그 티어 애들 말이 맞음\n급이 달라서..\n구마유시가 존나 잘해서지\n진짜 다이아 플레면 아브실에서 아무것도 못함..",
+          "likeCount": 3,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "비유가 씨 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "레오나같은 애들은 어디가서 분명히 라인같이 서봤는데 생각보다 존나 못한다고 할 애들임",
+          "likeCount": 2,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "그래 잘하면 니네가 프로하지 그랬냐ㅋㅋㅋㅋ 어휴",
+          "likeCount": 2,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋㅋ 원딜러 친구가 진짜 브실구간은 원딜로 올라가기 팀원들 때문에 너무 힘들어 라고 하던데 구마유시도 쩔쩔매는 실버구간팀원들ㅋㅋㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㄹㅇ 가감없이 정확한 비유 ㅋㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "@tessera_wwe 아니 쟤들이 현지인인데 그걸 어케 느끼냐고 ㅋㅋㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "이런 사람들이 아직 있는게 아니라 우리한테는 매판있음 ㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "같은 심해로서 부끄럽다 저 자식 어딜..",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "이상하다...원래 골드보다 실버애들이 더 잘 했는데...\n시즌 바뀌면서 또 달라졌나",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "모르는건 부끄러운게아닙니다",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "여기서 레오나욕하면 안됌 \n다이아 찍어도 구마유시 플레이 못따라감",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "레오나 저런 서폿 때문에 바텀이 망하는거야 ㅉㅉ",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "여기 레오나 욕하는 애들 중 90%가 돌 던질 자격 없는 애들일거 같은데ㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "@닭면불볶음 어차피 부캐인데 화 안낼듯ㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "레오나 누구한테ㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "구마유시 : 야생동물한테 손 했더니 손 준 느낌\n\n정글 : 아 왜뺐냐 시",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "???: 실버는 들짐승이다",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "ㅋㅋ 프로한테 훈수두는 레오나..그는 대체..",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "이건 실버에서 훈수두는 놈들은 걸러야한다는 자료 영상으로 사용되어야 한다 ㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "야생동물ㅋㅋㅋㅋㅋ 구마유시한텐 사람 새기들이 아닌거임",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "실버년들은 본인이 보는각이 정확한줄알음. 구마유시가 보는각도 지들 눈엔 틀린각임 ㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "프로 한테이기도함",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "이걸 본 레오나는 무슨 반응일까",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "구마유시선수 넘 스윗하네.. 목솔 뉘앙스가 있어서 더하네,..^^",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "@Hyeon_0527 쓰레쉬가 큐 쓴다해도 앞에 미니언에 숨을 수 있고 플 e 하는 거 아닌 이상 충분히 딜교 이기는 상황인데 ㅋㅋ 구마유시님이 그거도 생각 못하고 들어갔을거라 생각하나봐요",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "부끄러울필요는 없죠 자기판단에 아닌거라 한거니",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "레오나가 이영상을 보고 쪽팔려서 롤 아이디 삭제 하면 좋겠당ㅎㅎ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "그래서 제가 실3에서 못이기고 있습니다..ㅠㅠ",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "@noname77388 ㄴㄴ 저런애들보고 존나 창피해함ㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "카이팅할때 키보드 ㅈㄴ 누르는데 뭘 누르는거임?",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "실버바텀 특 : 서폿이 이니시 안걸면 뒤져도 안싸움 ㄹㅇㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "걍 실버평균채팅임 ㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        }
+      ]
+    },
+    {
+      "elapsedSeconds": 234797.0,
+      "bucketStart": "2022-09-09T17:13:17+00:00",
+      "bucketEnd": "2022-09-10T00:31:58+00:00",
+      "positive": 10,
+      "neutral": 8,
+      "negative": 22,
+      "netSentiment": -0.3,
+      "zScore": -2.639,
+      "isBurst": true,
+      "direction": "NEGATIVE_SPIKE",
+      "volumeZScore": 1.454,
+      "isVolumeBurst": false,
+      "durationSeconds": 26321.0,
+      "topComments": [
+        {
+          "text": "이즈: 아 카이사 개못하는데 레오나가 다하네ㅋㅋ\n\n이게 빠졋네ㅋㅋ",
+          "likeCount": 779,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "저런애들은 지들이 팀운이 안좋아서 챌린저못간다고 생각하는 솔랭 판수 800판 실버들임 ㅋㅋ",
+          "likeCount": 221,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "이영상 봐도 자기가 구마유시보다 잘한다고 믿음 ㅇㅇ 자아가 너무나도 강하기 때문에 그냥 이세상 정신세계가 아님",
+          "likeCount": 168,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "@자칼-v4u ㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 7,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "@살무사-t3o 파카식 조리돌림 ㄹㅇㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "꼭 도구들이 저럼",
+          "likeCount": 2,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "야생동물에게 손 하는 기분 = 실버 = 야생동물",
+          "likeCount": 1,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "솔랭트롤러 구마유시",
+          "likeCount": 1,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "ㅋㅋ야생동물드립ㅋㅋㅋ진짜ㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "구마유시가 아니라 부처님이와도 자기말이 맞음 저사람들은",
+          "likeCount": 1,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "핏블리 문석기?",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "대놓고 양학해도 논란이없는 게임",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "엄마 지켰으면 된 거지... 하하하",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "@aa-kp8dy ㄹㅇ..",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "존나 궁금한데 저 1데스는 어디서 나온거냐?",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "레오나 : 서폿캐리",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "야생동물...???\n한때는 인간이었다....\n나이가 들어서 그만",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "내가 늘 말하는데 참고로 난 전 마스터고 현재 다플실브 계정 보유. 실브는 듀오용이라 티어 유지계정인데 부캐에선 실버가 제일 어렵다. 이기기 어렵다 그런게 아니고 결국 캐리는 가능한데 그 과정이 너무 험난함. 무조건 이길라 할때는 채팅창 끄고 하는데 나한테 선시비로 짖는 애들있으면 정글몹이랑 라인 다 빼먹어서 강제로 지게해버리는데 진짜 양핟하고 팀 코끼리 똥에 지면 그 킬 처먹고도 못하면 져야지 이러면서 조롱하는 티어다.. ㅈㄴ역겨움. 먹여준 것도 아니고 다 메이킹해서 만든건데.\n레오나처럼 꼭 짖는 애들이 있어.\n\n말을 해도 좀 이쁘게 하던가",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "??? : 실버=야생동물",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "본캐 다이아2밖에 안되지만 골드 부캐돌리면 저런상황 엄청 자주나옴 제발 남탓좀 그만합시다",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "온라인에선 누구보다 지적이고 논리적이고 객관적이고 이성적인데요??\n\n한문철영상보고 욕하는 운전자들도 지들도 도로나가면 ㄱㅅㄲ마냥 운전하는것들 천지임",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "마지막 부분에서 S키누르고 넥서스 딱 1초만 늦게부수고 레오나 죽여버렸으면 완벽한엔딩이였을텐데 ㄲㅂㅇ",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "솔직히 천상계는 저러는 사람 거의 없잖아",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "ㅋㅋ 이게 우리가 아는 롤이지",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "?? : 아니 구마유신가 구마유슬인가가 누군데",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "실버가 야생동물 ㅋㅋㅋㅋㅋ눈물나네요ㅠㅠㅋㅋㅋㅋ 실버도 레드 준다구(?)",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "레오나는 자기 실력에 자부심이 가득 차있노 ㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "진짜 롤이란.. 마성의 게임이다 현프로 원딜한테 저런말 할 정도면 얼마나 플리이를 못보는 걸까",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "진짜 속으로 얼마나 같잖았을까 ㅋㅋ..",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "실버를 약자로 리신을 야생짐승으로..",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "ㄹㅇ 도구새기들",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "맞음.. 오히려 저티어에서는 그냥 솔로캐리 되는거 해야됨..",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "이런 사람들이 아직 있구나(미포로 템 다 팔고 탈주를 하며)",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "레오나 이 영상보면 ㅈㄴ 쪽팔릴거 같다ㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "와 실버들 ㅈㄴ 역겹긴 하다....",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "도구들은 채팅칠때 원딜한테 허락받고 쳐라.",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "실버 = 야생동물",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "채팅치는 서폿만큼 꼴보기싫은게 없어",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "실버 무시하지마세요.",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "끝나고 레오나가 원딜 욕하면 완벽인데",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        }
+      ]
+    },
+    {
+      "elapsedSeconds": 262457.0,
+      "bucketStart": "2022-09-10T00:54:17+00:00",
+      "bucketEnd": "2022-09-10T04:47:06+00:00",
+      "positive": 16,
+      "neutral": 13,
+      "negative": 11,
+      "netSentiment": 0.125,
+      "zScore": 0.223,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": 1.778,
+      "isVolumeBurst": true,
+      "durationSeconds": 13969.0,
+      "topComments": [
+        {
+          "text": "실버 서폿에게 인정받지 못한 구마유시..",
+          "likeCount": 4670,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "훈수질하는 레오낰ㅋㅋㅋㅋ",
+          "likeCount": 191,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "@진돗개-k3k ㄹㅇ개못하는애들은 멍청한데 고집까지 셈",
+          "likeCount": 40,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "@하진짜-p9n 재영아 뭐하냐 3-9  ㅋ",
+          "likeCount": 13,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "비유가  찰덕이라고??구마유시  인성 알겠다",
+          "likeCount": 9,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "실버는 짐승이지ㅋㅋㅋ",
+          "likeCount": 7,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㅋㅋ 어질~어질 하죠잉? ㅋㅋ",
+          "likeCount": 5,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "구마유시한테도 훈수질하는 브실골...제발 너네가 알지도 못하니까 그 티어인 걸 생각하고 채팅 봉인하자",
+          "likeCount": 2,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "약자를 상대로 힘을 함부로 쓴 것은 칭찬받아 마땅한 일이 아니오란 드립이 개 멋있다 ㄷㄷ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "물로켓은 훈수둘만 하지 ㅋㅋㅋㅋㅋㅋ 쵸비 쇼메도 아니고",
+          "likeCount": 1,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "이런사람이 아직 있구나가 아니라\n브실골은 다그런데...",
+          "likeCount": 1,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "아좀 내가들어가고 들이대 ㅋㅋㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "@김민수-z5i8t 레오나 등장",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "짐승이긴 하지...",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "저 레오나 꼭 이 숏트영상 보고 개쪽팔리길",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "하여간 저기티어들은 인정을할줄몰라요",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "직쓰마1 ㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "트롤하는 야생동물 vs 주제파악 못하는 야생동물",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "레오나:야 내가 구마유시한테 원딜 알려준사람이야",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "표현력 뭐냐 ㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "손!",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "아찔하다.. 우리구간에 프로게이머 있을 생각 하니까",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "리신 세컨쟁이네 현지인이면 바로 강타박고 인장 띄웠다.",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "실버=야생동물.. 메모",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "ㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "이런사람들이 있어서 내가 골드를 못가",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "마지막에 리신이나 레오나가 전챗으로 캐리쳐야 완벽한데",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "???:야 나는 구마유시한테 훈수둔사람이여ㅎㅎ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "레오나 봐바 ㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "저런 서폿특\n내 실력은 최소 골드이상인데 팀차이 때문에 아브실",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "형 아직 있는게 아니라 그게 현지의 현실이야",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "갈!",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "@배그망겜-k4k 롤하는 사람 99퍼는 다 자기가 정답이라생각핳갈",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "@noname77388 아무리 구마유시여도 저 레오나 말이 맞을 수있긴하지",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "저 레오나도 난 골드실력인데 팀잘못만나 실버라 생각하겠지 ㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ비유보소 ㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "정보) 레오나는 플레티넘이다",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "ㅋ",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "저거 언제 한 거여? 오십육개 저 계정 키아나만 하는 계정이던데",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "elapsedSeconds": 276844.0,
+      "bucketStart": "2022-09-10T04:54:04+00:00",
+      "bucketEnd": "2022-09-10T12:55:37+00:00",
+      "positive": 13,
+      "neutral": 12,
+      "negative": 15,
+      "netSentiment": -0.05,
+      "zScore": -0.956,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": 1.406,
+      "isVolumeBurst": false,
+      "durationSeconds": 28893.0
+    },
+    {
+      "elapsedSeconds": 306676.0,
+      "bucketStart": "2022-09-10T13:11:16+00:00",
+      "bucketEnd": "2022-09-10T23:33:16+00:00",
+      "positive": 16,
+      "neutral": 9,
+      "negative": 15,
+      "netSentiment": 0.025,
+      "zScore": -0.451,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": 1.275,
+      "isVolumeBurst": false,
+      "durationSeconds": 37320.0
+    },
+    {
+      "elapsedSeconds": 345915.0,
+      "bucketStart": "2022-09-11T00:05:15+00:00",
+      "bucketEnd": "2022-09-11T06:38:37+00:00",
+      "positive": 15,
+      "neutral": 12,
+      "negative": 13,
+      "netSentiment": 0.05,
+      "zScore": -0.282,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": 1.509,
+      "isVolumeBurst": true,
+      "durationSeconds": 23602.0,
+      "topComments": [
+        {
+          "text": "브실골들이 프로들 까는 게 다 이런 거지. 자기 수준으로밖에 못 보니까 이해가 안 되는 거 ㅋㅋ 얼마나 잘하는지 감도 안 잡힐 정도로 수준차이가 나니까.\n그래서 티어가 높아질수록 프로들 쉽게 못 까게 됨. 걔네가 얼마나 잘하는지 체감이 되니까.",
+          "likeCount": 1083,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "헐 저 워윅인데 구마유시님한테 죽어서 영광이었습니다 ...ㅜ",
+          "likeCount": 239,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "@평범-j5u 한바가지있을듯",
+          "likeCount": 142,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "@박한자성자 ㅋㅋㅋㅋ님이 댓글다는 모양새가 저런애들 채팅으로 싸울때랑 별 다르지 않아보이는데",
+          "likeCount": 95,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "@박한자성자 넌 저 세계에서 살아남았구나...",
+          "likeCount": 59,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "@박한자성자 ..",
+          "likeCount": 50,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "@고구마감자-s2y 비유법을 이해를 못하는 국평오ㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 30,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "@박한자성자 진짜 실버계 최강자의 면모",
+          "likeCount": 17,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "야생동물드립 존나웃기넼ㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 15,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "@박한자성자 딱 실버군",
+          "likeCount": 13,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "평생 술안주 아니냐 ㅋㅋ",
+          "likeCount": 10,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋㅋ티어를 못올라가는건 실력탓도 있겠지만 마음가짐부터 틀렸기 때문이지 손해를 봤거나 아다리 안맞았을때 어떻게 풀어가지 다음엔 확실히 포커싱하자 이런게 아니라 아 니탓 내탓아님 걍 지자 이딴 마인드가 노답 ㅋㅋㅋㅋㅋ",
+          "likeCount": 8,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "레오나 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ 개웃기네 ㅋㅋㅋㅋㅋ 귀엽다 그냥",
+          "likeCount": 7,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "레오나진짜ㅋㅋㅋㅋ 근데 아무리 피지컬이좋아도 실버눈에는 그정도 수준밖에 안보임 S스탑무빙따위는 눈에 들어오지도않고 센스도 그냥 오 스킬잘맞추네 이정도임ㅋㅋㅋ",
+          "likeCount": 6,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "@벚꽃근처에사는밤비 ㄹㅇ 팀운 안좋아서 못 올라간다 이러는데, 팀운 안 좋아도 그 티어대 실력 아니면 금방 올라감",
+          "likeCount": 5,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "@바지는인사하면하의 그래서 님은 운없어서 플레 못가고있는거라고요? ㅋㅋㅋㅋ",
+          "likeCount": 5,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㅋㅋㅋㅋ 역시그라인 그라인은 잘하는거 못하는거 구분조차하지못함.",
+          "likeCount": 5,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "실버에서 원딜 혼자 들이대고 딜교하고 킬따내면 서폿들 ㄹㅇ 애완견으로 빙의하고 말 개잘듣는데",
+          "likeCount": 2,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "@user-th4os8ei9vㅇㅇ 경험담이라 얘기했잖슴 나도 전형적인 판수로 가야하는 사람임 전시즌까지 플레였고 항상 몇백판 박아야 갔음 딥롤도 플4 골1 항상 이렇게 예상티어 뜨더라",
+          "likeCount": 2,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "진짜 올뮤트가 답이다 이게임은",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "1댓이나 했네 똥 쌋네",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "그런사람이,아직 있는게 아니고 그런사람들만 남았어 거긴ㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "아직 이런사람이 있구나 하시는걸보니 구마유시님 구간에는 만나기 힘들거나 거의 없나보네요.\n다이아까지만해도 상당히 갑질트롤링이 많다는데 ㄷㄷ",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "허허허 웃으면서 보살이네",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "레오나아 뭔가 부럽다",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "머리가 좋아야 게임도 잘하는게 맞제\n이 친구 가족들이 학벌이 좋다며\n나 아는 사람도 고대 나왔는데\n롤 잘하드라 어쩌다가 하루에 한 두시간 하는데 골드 찍더라",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "실버 정글 : 야생동물 ㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "저런애들맨날만남ㅋㅋㅋㅋㅋㅋ\n내가실버라서 ㅠ",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "올 뮤트 박고 겜해야 하는 이유",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "이거 풀버전 있노ㅋㅋㅋㅋ 개재밋네",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "실버애들은~ 어쩌구 하는거 다 아는 이유:\n여기 우리 대부분은 실버 이하기 때문",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "레오나는 이걸 보고 눈물이 나옴니다",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "여전하구나 롤은",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "???: 구마유스여도 못한건 못한거라고 해야지 어? 방금각은 진짜 들가면안돼는가..... 다잡았네..?",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "키보드를 계속 누르는거같은데 뭔지아시는분있나요??",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "@Yobak1014 ㄹㅇ 원래는 딜서폿 나와야된다고 아 ㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "서폿 존나역하네 ㅋㅋ 저러니 도구취급받지",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "서포터가 훈수?",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "야생동물 비하하면 혼나요 구마유시!",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "구마유시한테 훈수둔썰 푼다ㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        }
+      ]
+    },
+    {
+      "elapsedSeconds": 369683.0,
+      "bucketStart": "2022-09-11T06:41:23+00:00",
+      "bucketEnd": "2022-09-11T14:59:55+00:00",
+      "positive": 19,
+      "neutral": 13,
+      "negative": 8,
+      "netSentiment": 0.275,
+      "zScore": 1.233,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": 1.388,
+      "isVolumeBurst": false,
+      "durationSeconds": 29912.0
+    },
+    {
+      "elapsedSeconds": 400441.0,
+      "bucketStart": "2022-09-11T15:14:01+00:00",
+      "bucketEnd": "2022-09-12T09:04:56+00:00",
+      "positive": 21,
+      "neutral": 7,
+      "negative": 12,
+      "netSentiment": 0.225,
+      "zScore": 0.896,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": 0.997,
+      "isVolumeBurst": false,
+      "durationSeconds": 64255.0
+    },
+    {
+      "elapsedSeconds": 464946.0,
+      "bucketStart": "2022-09-12T09:09:06+00:00",
+      "bucketEnd": "2022-09-13T04:26:05+00:00",
+      "positive": 12,
+      "neutral": 17,
+      "negative": 11,
+      "netSentiment": 0.025,
+      "zScore": -0.451,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": 0.958,
+      "isVolumeBurst": false,
+      "durationSeconds": 69419.0
+    },
+    {
+      "elapsedSeconds": 534720.0,
+      "bucketStart": "2022-09-13T04:32:00+00:00",
+      "bucketEnd": "2022-09-14T14:13:45+00:00",
+      "positive": 10,
+      "neutral": 23,
+      "negative": 7,
+      "netSentiment": 0.075,
+      "zScore": -0.114,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": 0.672,
+      "isVolumeBurst": false,
+      "durationSeconds": 121305.0
+    },
+    {
+      "elapsedSeconds": 659431.0,
+      "bucketStart": "2022-09-14T15:10:31+00:00",
+      "bucketEnd": "2022-09-17T00:51:51+00:00",
+      "positive": 21,
+      "neutral": 11,
+      "negative": 8,
+      "netSentiment": 0.325,
+      "zScore": 1.57,
+      "isBurst": true,
+      "direction": "POSITIVE_SPIKE",
+      "volumeZScore": 0.397,
+      "isVolumeBurst": false,
+      "durationSeconds": 207680.0,
+      "topComments": [
+        {
+          "text": "아 모르면 그냥 맞으라고 ㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 541,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "직쓰마1 전적 검색해보니깐 2개월 전에 접음 대충 플레 승급전 1승2패 박고 석 나가서 접은듯",
+          "likeCount": 14,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "??? : 너 구마유시랑 듀오하면서 훈수둬봤냐?ㅋㅋ",
+          "likeCount": 7,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "브실골들 여기서 한탄하지만 분명 본인들도 그런적 있을 듯 ㅋㅋ",
+          "likeCount": 5,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "미친ㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 4,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "문장력 좋네요~ㅎㅎ",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "???: 야 나 구마유시한테 정치해본적 있다",
+          "likeCount": 3,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "실버가 짐승이지 사람이냐?ㅋㅋ맞는말햇고만",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "구마유시에게 훈수를 두다니 ㅋㅋㅋㅋㅋㅋㅋㅋ저사람 이 영상 보면 뇌정지 올 듯",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "@YongDdang 안녕하세요 ! 동지여 ! 잘지내봅시다 !",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "내가 롤접은 이유다ㅋㅋ..",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "@영혼자유로운-k5z 안녕하세요 아메바입니다!",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "구마유시한테 훈수? ㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "레오나 저런 벌레같은 현지인들 부캐하면 아갈질 개쳐함 ㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "비유 개찰떡 ㅋㅋ 야생동물 (아이언~다이아4)",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "률러나 프린스도아니고 구마유시?",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "롤하는애들 평균인성",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "???: 실버에선 이게 일상이야!!",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "15킬로 캐리가 되는 실버구간이 아닌데.. 채팅에 비해 팀운이 상대 팀운보다 좋았단 소리네",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "야생 동물이긴해 브실은 ㄹㅇㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "야생동물 그이하...?",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "아 어쨋든 일상이라고 아 ㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "애초에 마땅하다고 한게 더문제죠... 형평성 상관없이 나만패고 나만 희열 느끼면되 ~~~ 이거니까요 ㅋㅋㅋㅋㅋ 오히려 저 드립이 멋부이는 말임 ㄹㅇㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "아 일상이라고 ㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "멘트가 실버이하는 동물로봄 ㅋㅋㅋㅋㅋㅋ\n난 나무늘보 한다",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "구마유시가 말하길 : 실버는 동물이다.  그것도 손하면 손을 내줄정도로 지능이 있는",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "@Hein_o ㄹㅇㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "역시 아뭐하냐고충은 사라지질 않아. 너무 빡대가리들임.",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "저게 일반이엿어요...? 랭인줄",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "@영혼자유로운-k5z 같은팀이면 고맙고 상대팀이면 서렌쳐야지 뭐 ㅠㅠ",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "아 이건일상이라고 아 ㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "우리 아브실을 괴롭히지 말아주세요 ㅠㅠ 안그래도 실력대가 비슷해도 이기기 빡센 구간이라고 아 ㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㄹㅇㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ아좀",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "플레인데 구마유시랑 비교하면 나도 야생동물 포함인가..",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "실버아니었냐??",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "구마유시 만나도 저 지랄이면 실버 원딜들한테는 얼마나 개지랄을 할까ㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "굼화유시에게 실버 = 야생동물",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "방금 구마유시 상대로만나고왔는데 잘하긴하더라 애쉬서폿데리고",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "실버이하 티어는 서폿들 지들 스타일따라줘야지 안그럼 시비졸라걸고 바텀버림ㅋㅋㅋ 다는아니어도 많이당해봐서 나는 라인을바꿔버렸다..",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        }
+      ]
+    },
+    {
+      "elapsedSeconds": 878851.0,
+      "bucketStart": "2022-09-17T04:07:31+00:00",
+      "bucketEnd": "2022-09-24T03:10:34+00:00",
+      "positive": 14,
+      "neutral": 19,
+      "negative": 7,
+      "netSentiment": 0.175,
+      "zScore": 0.559,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": -0.146,
+      "isVolumeBurst": false,
+      "durationSeconds": 601383.0
+    },
+    {
+      "elapsedSeconds": 1481128.0,
+      "bucketStart": "2022-09-24T03:25:28+00:00",
+      "bucketEnd": "2022-10-05T20:08:39+00:00",
+      "positive": 20,
+      "neutral": 10,
+      "negative": 10,
+      "netSentiment": 0.25,
+      "zScore": 1.064,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": -0.412,
+      "isVolumeBurst": false,
+      "durationSeconds": 1010591.0
+    },
+    {
+      "elapsedSeconds": 2514415.0,
+      "bucketStart": "2022-10-06T02:26:55+00:00",
+      "bucketEnd": "2022-10-20T13:16:45+00:00",
+      "positive": 21,
+      "neutral": 11,
+      "negative": 8,
+      "netSentiment": 0.325,
+      "zScore": 1.57,
+      "isBurst": true,
+      "direction": "POSITIVE_SPIKE",
+      "volumeZScore": -0.52,
+      "isVolumeBurst": false,
+      "durationSeconds": 1248590.0,
+      "topComments": [
+        {
+          "text": "웃자고한소리를 겜창들 신나서 달려드는게 애완동물들이 꽁냥꽁냥 거리는 것 같네요 기여워",
+          "likeCount": 9,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "이래서 채팅이 필요없음 옳고 그름이 아니라 지 맘에 드냐 안드냐 라서",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "와 실버에서 이기네... 프로ㅇㅈ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "양학당하는 실딱이 발작버튼 눌렸노 ㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "아 마지막 멘트 레전드 기독보이 같음",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "실제로 구마유시보면 팬이라고 난리침 ㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "레오나: 아 진짜 원딜 키워주기 힘드네",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "저런 애들이 하여간 실버 원딜 답없네 이소리함 ㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "이야…브론즈10년차인데…브실골 이기기 힘든데…15킬 해버리네…ㄷㄷ 잘하긴 한다잉….",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "구마유시라곤 생각 안했겠지?  구마유시이였던거 알았으면 레오나 그런 말 안했을걸?",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "얘가 누군데 씹덕들아",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "백수들의 티어",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "와 구마유시 한번잡은 실버 부럽네 ㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "@pqppqpqppalplapla3730 막 화나? ㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "실버=야생동물",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "다이아가해도 브실골 캐리함 ㅋㅋ 팀운 개쓰레기면 질수도 있지만 10판하면 8-9승은 캐리",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "야생동물 ㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "갓버는 날것 그 자체지",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "10년해도 브론즈면 그냥 다른겜 하는게 좋을텐데..",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "불쌍하노",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "안녕하세요 레오나입니다...이거 뭔가요..?",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋ18ㅋㅋㅋㅋ프로선수들 골구간와서 겜하면 이기... 나?... \n진짜 4:1싸움이 되나싶네",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "@azhy2500 당장 리신도 레오나보다 먼저 입털엇는디ㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "야생동물 ㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "너무 쉽게 이기네",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "@kim_jihoon ^슼갈^로 살아남기\n\"메시지보다는 메신저를 공격해라\"\n\n그저 ^슼갈^답노ㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "어서와 실버는 처음이지? 브론즈도 섞여있어...",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "저 실버 올라간지 얼마 안됐는데 아직 야생동물이라니 맘이 아프네요 ㅠ",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "@itume ??: 실버는 이게 맞아~",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "구마유시에게 실버란? 야생동물, 약자, 날 것",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "말하는거 존나 웃기노 ㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "저 1데스를 만든 사람은 자랑거리 생겼네",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "ㄷㄷ",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "시원하게 욕박고 싶은데 방송때매 꾹꾹 참는게 눈에 보이네 ㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "댓글 다는 애들 다 남탓에 패드립 치면서 지들은 아닌척 오지네 ㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "얘도 많이 유해졌네 ㅋㅋ 트할사건이 엊그제같은데",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "@Flash-qi7ve 롤은 꾸준히 하지만 대회 안보는 아싸인데 구마유시 이름만 들어봤지 생긴거랑 목소리 첨 들어봄 인싸들은 모를만 한듯",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "@rhk9162 거기는 롤드컵 얘기 안함? 시즌만되면 애들 롤드컵이야기 엄청 하는데\n어쨋든 저사람은 누군지도 모른다고 해서 그런거에요",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "ㅋㅋ 레오나 사실을 알고나면 현타오겠는데",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "이런사람들이 아직있구나-과거의 구마유시",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "elapsedSeconds": 3876839.0,
+      "bucketStart": "2022-10-21T20:53:59+00:00",
+      "bucketEnd": "2022-10-31T09:02:14+00:00",
+      "positive": 16,
+      "neutral": 12,
+      "negative": 12,
+      "netSentiment": 0.1,
+      "zScore": 0.054,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": -0.306,
+      "isVolumeBurst": false,
+      "durationSeconds": 821295.0
+    },
+    {
+      "elapsedSeconds": 4715091.0,
+      "bucketStart": "2022-10-31T13:44:51+00:00",
+      "bucketEnd": "2022-11-04T08:47:40+00:00",
+      "positive": 19,
+      "neutral": 7,
+      "negative": 14,
+      "netSentiment": 0.125,
+      "zScore": 0.223,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": 0.164,
+      "isVolumeBurst": false,
+      "durationSeconds": 327769.0
+    },
+    {
+      "elapsedSeconds": 5048647.0,
+      "bucketStart": "2022-11-04T10:24:07+00:00",
+      "bucketEnd": "2022-11-07T16:44:21+00:00",
+      "positive": 14,
+      "neutral": 12,
+      "negative": 14,
+      "netSentiment": 0.0,
+      "zScore": -0.619,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": 0.241,
+      "isVolumeBurst": false,
+      "durationSeconds": 282014.0
+    },
+    {
+      "elapsedSeconds": 5332946.0,
+      "bucketStart": "2022-11-07T17:22:26+00:00",
+      "bucketEnd": "2022-11-10T03:51:00+00:00",
+      "positive": 11,
+      "neutral": 13,
+      "negative": 16,
+      "netSentiment": -0.125,
+      "zScore": -1.461,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": 0.39,
+      "isVolumeBurst": false,
+      "durationSeconds": 210514.0
+    },
+    {
+      "elapsedSeconds": 5543578.0,
+      "bucketStart": "2022-11-10T03:52:58+00:00",
+      "bucketEnd": "2022-11-17T00:37:06+00:00",
+      "positive": 16,
+      "neutral": 12,
+      "negative": 12,
+      "netSentiment": 0.1,
+      "zScore": 0.054,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": -0.139,
+      "isVolumeBurst": false,
+      "durationSeconds": 593048.0
+    },
+    {
+      "elapsedSeconds": 6145242.0,
+      "bucketStart": "2022-11-17T03:00:42+00:00",
+      "bucketEnd": "2022-12-22T15:35:50+00:00",
+      "positive": 15,
+      "neutral": 11,
+      "negative": 14,
+      "netSentiment": 0.025,
+      "zScore": -0.451,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": -0.98,
+      "isVolumeBurst": false,
+      "durationSeconds": 3069308.0
+    },
+    {
+      "elapsedSeconds": 9269009.0,
+      "bucketStart": "2022-12-23T06:43:29+00:00",
+      "bucketEnd": "2023-01-20T06:33:41+00:00",
+      "positive": 24,
+      "neutral": 6,
+      "negative": 10,
+      "netSentiment": 0.35,
+      "zScore": 1.738,
+      "isBurst": true,
+      "direction": "POSITIVE_SPIKE",
+      "volumeZScore": -0.858,
+      "isVolumeBurst": false,
+      "durationSeconds": 2418612.0,
+      "topComments": [
+        {
+          "text": "ㅋㅋㅋㅋ 구마유시가 레오나 귀여워 하는거 \n개웃기네 ㅋㅋㅋㅋㅋ",
+          "likeCount": 13,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "저정도면 양호 나는 펜타해도 킬딸충 소리들어서 발로란트로 전직함...(어시도 없으면서 킬딸...실화냐고..)",
+          "likeCount": 3,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "인간x 짐승o",
+          "likeCount": 2,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "보잘것 없는 저희를 심해동물이 아닌 야생동물로 높게 평가해주신 인품에 깊은 감사를 표하는 바 입니다",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "비유 개 웃기네ㅋㅋㅋ 야생동물이 손 한 느낌",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "저런 인간들이 리그오브레전드의 흥행 주역임ㅇㅇ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "상대팀:아 시x부계양학;;;;",
+          "likeCount": 1,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "“이로써 도파가 틀렸다는것이 증명됐다”",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "이거풀버전없나요ㅋㅋㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "이제 알겠지 나 포함 얼마나 자기가 롤에서 개억지부리며 게임했는지 ㅋㅋㅋㅋㅋ구마유시한테도 훈수마려운데 같은애들끼린 지옥맛 그자체지 ㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "전적보니까 레오나 원챔 플딱 벌레네 ㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "야생동물 비유 미쳤네ㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "바텀은잘하는데 상체가 하..",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "???:레씨 벽돌이나 날라",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "구마유시한테 훈수 ㅋㅋㅋ 닉만 달라졌는데 프로게이머보다 잘한다고 착각하는 거 엄청나네",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "레오나 졸귀넼ㅋㅋ 탱커가 지부터 살려고 하냐",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "​@uss138 레오나 하는 꼬라지랑 입터는거보면 당연히 사람으로 안보일듯ㅋㅋ 쌍욕안박은것만해도 인성합격수준임",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "​@이주형-e6m 댓글도 다 읽었으면 좋겠네 ㄹㅇ ㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "진짜 비유가 빠꾸없음 ㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "뭐하냐고 이 말 존나 귀엽네 ㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "훈수 두기 ㄹㅇㅋㅋㅋㅋ 모르니 망정이지 ㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "실버 어때 어질어질 하지?? ㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "구마유시도 정치당하는 갓버 ㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "저런사람들은 한판에 한명씩 꼭있으니…ㅠㅠㅠㅠ",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "일단 처음부터 맨탈을 털어버리는 팀을 만나면 게임이 안됩니다",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "브실골플 원래 그럼 자기 실력 관계 없이 남탓에 훈수두기 바쁨 ㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "그렇다 난 야생동물이다 :)",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "아직있구나? 라니 ... 다아 심해에서 있어서 못본거야",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "구마유시 개잘참네",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "@자칼-v4u ㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "오 마지막 멘트 멋있는데~~",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "진짴ㅋㅋㅋㅋ 다이아이상부터 저런애들 별로없는데 그이하는 저런거좀 없애야해 ㅠㅠ 입털거나 지면됨 ㅇㅈㄹ 하는 애들 너무많음",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "실버가 짐승이지 그럼 머임 ㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "이런사람들이 아직있어요..아주많이",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "발언 하나하나가 진짜 외국인이나 야생동물 보는 기분으로 말하는거 같음 ㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "이런사람이 아직 있구나가 아니라 아직 그런 사람들밖에없어 ㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "쥰나웃기젴ㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "실버 정글 = 야생동물",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "@자칼-v4uㅁㅊㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "구마유시 어이 그 앞은 지옥이다.",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        }
+      ]
+    },
+    {
+      "elapsedSeconds": 11769807.0,
+      "bucketStart": "2023-01-21T05:23:27+00:00",
+      "bucketEnd": "2023-01-30T08:25:04+00:00",
+      "positive": 18,
+      "neutral": 13,
+      "negative": 9,
+      "netSentiment": 0.225,
+      "zScore": 0.896,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": -0.285,
+      "isVolumeBurst": false,
+      "durationSeconds": 788497.0
+    },
+    {
+      "elapsedSeconds": 12558343.0,
+      "bucketStart": "2023-01-30T08:25:43+00:00",
+      "bucketEnd": "2023-02-07T03:07:54+00:00",
+      "positive": 12,
+      "neutral": 14,
+      "negative": 14,
+      "netSentiment": -0.05,
+      "zScore": -0.956,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": -0.203,
+      "isVolumeBurst": false,
+      "durationSeconds": 672131.0
+    },
+    {
+      "elapsedSeconds": 13264565.0,
+      "bucketStart": "2023-02-07T12:36:05+00:00",
+      "bucketEnd": "2023-02-25T11:13:08+00:00",
+      "positive": 13,
+      "neutral": 12,
+      "negative": 15,
+      "netSentiment": -0.05,
+      "zScore": -0.956,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": -0.631,
+      "isVolumeBurst": false,
+      "durationSeconds": 1550223.0
+    },
+    {
+      "elapsedSeconds": 15697186.0,
+      "bucketStart": "2023-03-07T16:19:46+00:00",
+      "bucketEnd": "2023-03-26T14:20:37+00:00",
+      "positive": 14,
+      "neutral": 12,
+      "negative": 14,
+      "netSentiment": 0.0,
+      "zScore": -0.619,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": -0.658,
+      "isVolumeBurst": false,
+      "durationSeconds": 1634451.0
+    },
+    {
+      "elapsedSeconds": 17408862.0,
+      "bucketStart": "2023-03-27T11:47:42+00:00",
+      "bucketEnd": "2023-04-14T09:04:36+00:00",
+      "positive": 17,
+      "neutral": 12,
+      "negative": 11,
+      "netSentiment": 0.15,
+      "zScore": 0.391,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": -0.629,
+      "isVolumeBurst": false,
+      "durationSeconds": 1545414.0
+    },
+    {
+      "elapsedSeconds": 18954287.0,
+      "bucketStart": "2023-04-14T09:04:47+00:00",
+      "bucketEnd": "2023-05-18T08:18:45+00:00",
+      "positive": 11,
+      "neutral": 18,
+      "negative": 11,
+      "netSentiment": 0.0,
+      "zScore": -0.619,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": -0.957,
+      "isVolumeBurst": false,
+      "durationSeconds": 2934838.0
+    },
+    {
+      "elapsedSeconds": 21897997.0,
+      "bucketStart": "2023-05-18T10:46:37+00:00",
+      "bucketEnd": "2023-05-22T20:29:11+00:00",
+      "positive": 17,
+      "neutral": 13,
+      "negative": 10,
+      "netSentiment": 0.175,
+      "zScore": 0.559,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": 0.088,
+      "isVolumeBurst": false,
+      "durationSeconds": 380554.0
+    },
+    {
+      "elapsedSeconds": 22281421.0,
+      "bucketStart": "2023-05-22T21:17:01+00:00",
+      "bucketEnd": "2023-05-27T08:04:00+00:00",
+      "positive": 12,
+      "neutral": 16,
+      "negative": 12,
+      "netSentiment": 0.0,
+      "zScore": -0.619,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": 0.082,
+      "isVolumeBurst": false,
+      "durationSeconds": 384419.0
+    },
+    {
+      "elapsedSeconds": 22669913.0,
+      "bucketStart": "2023-05-27T09:11:53+00:00",
+      "bucketEnd": "2023-07-04T11:43:35+00:00",
+      "positive": 14,
+      "neutral": 11,
+      "negative": 15,
+      "netSentiment": -0.025,
+      "zScore": -0.787,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": -1.016,
+      "isVolumeBurst": false,
+      "durationSeconds": 3292302.0
+    },
+    {
+      "elapsedSeconds": 26496048.0,
+      "bucketStart": "2023-07-10T16:00:48+00:00",
+      "bucketEnd": "2023-08-07T07:25:24+00:00",
+      "positive": 16,
+      "neutral": 11,
+      "negative": 13,
+      "netSentiment": 0.075,
+      "zScore": -0.114,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": -0.852,
+      "isVolumeBurst": false,
+      "durationSeconds": 2388276.0
+    },
+    {
+      "elapsedSeconds": 28899422.0,
+      "bucketStart": "2023-08-07T11:37:02+00:00",
+      "bucketEnd": "2023-08-17T10:06:47+00:00",
+      "positive": 17,
+      "neutral": 13,
+      "negative": 10,
+      "netSentiment": 0.175,
+      "zScore": 0.559,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": -0.328,
+      "isVolumeBurst": false,
+      "durationSeconds": 858585.0
+    },
+    {
+      "elapsedSeconds": 29768192.0,
+      "bucketStart": "2023-08-17T12:56:32+00:00",
+      "bucketEnd": "2023-09-13T12:19:57+00:00",
+      "positive": 15,
+      "neutral": 12,
+      "negative": 13,
+      "netSentiment": 0.05,
+      "zScore": -0.282,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": -0.839,
+      "isVolumeBurst": false,
+      "durationSeconds": 2330605.0
+    },
+    {
+      "elapsedSeconds": 32101242.0,
+      "bucketStart": "2023-09-13T13:00:42+00:00",
+      "bucketEnd": "2023-10-11T00:05:57+00:00",
+      "positive": 19,
+      "neutral": 9,
+      "negative": 12,
+      "netSentiment": 0.175,
+      "zScore": 0.559,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": -0.848,
+      "isVolumeBurst": false,
+      "durationSeconds": 2372715.0
+    },
+    {
+      "elapsedSeconds": 34496574.0,
+      "bucketStart": "2023-10-11T06:22:54+00:00",
+      "bucketEnd": "2023-11-01T07:08:05+00:00",
+      "positive": 15,
+      "neutral": 15,
+      "negative": 10,
+      "netSentiment": 0.125,
+      "zScore": 0.223,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": -0.712,
+      "isVolumeBurst": false,
+      "durationSeconds": 1817111.0
+    },
+    {
+      "elapsedSeconds": 36313800.0,
+      "bucketStart": "2023-11-01T07:10:00+00:00",
+      "bucketEnd": "2023-11-14T08:20:24+00:00",
+      "positive": 15,
+      "neutral": 12,
+      "negative": 13,
+      "netSentiment": 0.05,
+      "zScore": -0.282,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": -0.468,
+      "isVolumeBurst": false,
+      "durationSeconds": 1127424.0
+    },
+    {
+      "elapsedSeconds": 37444210.0,
+      "bucketStart": "2023-11-14T09:10:10+00:00",
+      "bucketEnd": "2023-11-18T02:28:43+00:00",
+      "positive": 20,
+      "neutral": 13,
+      "negative": 7,
+      "netSentiment": 0.325,
+      "zScore": 1.57,
+      "isBurst": true,
+      "direction": "POSITIVE_SPIKE",
+      "volumeZScore": 0.174,
+      "isVolumeBurst": false,
+      "durationSeconds": 321513.0,
+      "topComments": [
+        {
+          "text": "이야 기껏해야 악질 제라스 정도 생각한 내 상상력이 초라하게 느껴지네 ㅋㅋㅋ 아우솔 마이 ㅋㅋㅋ 어질어질하다",
+          "likeCount": 162,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "원래 이기고 있을땐 채팅안침 ㅋㅋ",
+          "likeCount": 117,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "​@yjjung5786부캐가 아니라 랭 초기화되서 다시 올린적 있어요 물론 말도 안되는 속도로 몇판 안했는데도 쭉 올라갔어요",
+          "likeCount": 48,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "@onB-1004 ㅋㅋ 맞는말이긴 하지만, 저나 댓글다신분은 브실골에 감정이입했으니, 진짜 구마유시가 구마유신지 모른다 확정하고, 구마유시급이라 하는거 같아욤ㅋㅋㅋ",
+          "likeCount": 12,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋㅋㅋ 어지럽네 정말",
+          "likeCount": 7,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "마지막 넥서스 치다가 이즈 궁 날라올 때 멈춰서 레오나 죽이고 넥서스 쳐서 끝내면 진짜 웃겼을 듯ㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "@onB-1004구라 ㄴㄴ 페이커는 부캐한적없다",
+          "likeCount": 3,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "이제 저런 놈들 밖에 안남은 듯",
+          "likeCount": 1,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "나는 다딱이 인데 실4딱이 친구가 같이 할때마다 훈수둠 팩트 말하면 혼자 삐짐 ㅋㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "대리 양학충들이 이거듣고 반성좀 했으면 좋겠어요",
+          "likeCount": 1,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "ㄹㅇ 지 실수로 망쳐놓고 ㄱㅊ 지면됨 이러는거랑 어 그래 나 못해 어쩌라고 하는 쿨찐 ㅈㄴ 많음",
+          "likeCount": 1,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "저런 사람들은 오히려 더 날뛸 것 같음",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "실버훈수매콤하제",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "케리아 긴장해아",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "15킬을 하며",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "구마유시한테 꼽주는 실버? 쉽지않거든요ㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "지면 됨 할 때 찔린 구마유시면 개추",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "브실골플은 구마유시한테도 남탓 하는 구간이다.. ㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "서포터니까.. 후..",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "내가 실버에서 자꾸 강등하는 이유가 구마유시때문이었다니...",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "그냥 하던데로 이렐이나 하던지",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "저 레오나는 이영상 첨 보고 기분이 어땠을까",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "구마유시피셜:: 실버는 야생동물이다.",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "프로들은 어뷰징이나 입꾹닫 트롤은 만나도 저렇게 입털면서 던지는 놈들은 좀 덜 만나서 실버탐방이 더 신기하겟네 ㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "구마유시 많이컷네 실딱이랑 겸상도 하고 ㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "아직있구나? 언제나 일상이었구만...",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "한국말 웰케 잘함?",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "브실골은 저런게 일상입니다..구마유시좌..ㅠㅠ",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "게임끝나고 레오나:카이사 브론즈임",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "안녕 구마야 야생동물왔다",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "여기 그 레오나 안오나?ㅋ\n레오나르도디카로프리딜 마렵네",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "유미한테 버림 받고 짐 ㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "말 한번 잘못 꺼냈다가 숨도 못쉬고 몇개월동안 쳐맞노 ㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "뭔말이누",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋ야생동물 손 ㅋㅋㅋㅋ 아예 사람으로 안보는구나 ㅋㅋㅋ 그게 맞긴 해",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "저런애들이 롤갤하면서 프로 훈수두면서 존나 까는거임 ㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "야생동물 ㅅㅂㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "이거 유미만난판이 제일레전드인데",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "마지막말 멋있당",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "드립 ㅅㅂ ㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        }
+      ]
+    },
+    {
+      "elapsedSeconds": 37769668.0,
+      "bucketStart": "2023-11-18T03:34:28+00:00",
+      "bucketEnd": "2023-11-20T07:25:22+00:00",
+      "positive": 13,
+      "neutral": 14,
+      "negative": 13,
+      "netSentiment": 0.0,
+      "zScore": -0.619,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": 0.452,
+      "isVolumeBurst": false,
+      "durationSeconds": 186654.0
+    },
+    {
+      "elapsedSeconds": 37960909.0,
+      "bucketStart": "2023-11-20T08:41:49+00:00",
+      "bucketEnd": "2023-11-22T09:45:41+00:00",
+      "positive": 12,
+      "neutral": 11,
+      "negative": 17,
+      "netSentiment": -0.125,
+      "zScore": -1.461,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": 0.48,
+      "isVolumeBurst": false,
+      "durationSeconds": 176632.0
+    },
+    {
+      "elapsedSeconds": 38139571.0,
+      "bucketStart": "2023-11-22T10:19:31+00:00",
+      "bucketEnd": "2023-11-24T13:54:52+00:00",
+      "positive": 11,
+      "neutral": 17,
+      "negative": 12,
+      "netSentiment": -0.025,
+      "zScore": -0.787,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": 0.454,
+      "isVolumeBurst": false,
+      "durationSeconds": 185721.0
+    },
+    {
+      "elapsedSeconds": 38327581.0,
+      "bucketStart": "2023-11-24T14:33:01+00:00",
+      "bucketEnd": "2023-11-28T15:33:52+00:00",
+      "positive": 17,
+      "neutral": 13,
+      "negative": 10,
+      "netSentiment": 0.175,
+      "zScore": 0.559,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": 0.132,
+      "isVolumeBurst": false,
+      "durationSeconds": 349251.0
+    },
+    {
+      "elapsedSeconds": 38682738.0,
+      "bucketStart": "2023-11-28T17:12:18+00:00",
+      "bucketEnd": "2023-12-17T16:25:57+00:00",
+      "positive": 17,
+      "neutral": 13,
+      "negative": 10,
+      "netSentiment": 0.175,
+      "zScore": 0.559,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": -0.659,
+      "isVolumeBurst": false,
+      "durationSeconds": 1638819.0
+    },
+    {
+      "elapsedSeconds": 40325253.0,
+      "bucketStart": "2023-12-17T17:27:33+00:00",
+      "bucketEnd": "2024-01-18T05:07:21+00:00",
+      "positive": 12,
+      "neutral": 15,
+      "negative": 13,
+      "netSentiment": -0.025,
+      "zScore": -0.787,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": -0.918,
+      "isVolumeBurst": false,
+      "durationSeconds": 2720388.0
+    },
+    {
+      "elapsedSeconds": 43053004.0,
+      "bucketStart": "2024-01-18T07:10:04+00:00",
+      "bucketEnd": "2024-02-01T23:51:45+00:00",
+      "positive": 11,
+      "neutral": 6,
+      "negative": 23,
+      "netSentiment": -0.3,
+      "zScore": -2.639,
+      "isBurst": true,
+      "direction": "NEGATIVE_SPIKE",
+      "volumeZScore": -0.529,
+      "isVolumeBurst": false,
+      "durationSeconds": 1269701.0,
+      "topComments": [
+        {
+          "text": "이기적인 생각임\n팀의 노력을 갉아서 지 던지면서 즐겜하는 놈은 참을수없음 님이 그렇단건 아니고",
+          "likeCount": 336,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "패배자 마인드 ㅋㅋ",
+          "likeCount": 52,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "아직도 존나 많음",
+          "likeCount": 37,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "저기는 페이커가 닉가리고 해도 욕먹음 ㅋㅋㅋㅋ",
+          "likeCount": 22,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "​@solstice2902 아ㅅㅂㅋㅋㅋㅋ",
+          "likeCount": 15,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "​@겜생-h5m 아예 ㅋㅋ",
+          "likeCount": 13,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "랭에서만 쳐 안그러면 다행이지 오늘도 랭하는데 ㅅㅂ 미드탑 다터져서 원딜한테\"이거맞음?\"했는데 원딜이 \"ㄱㅊ 지면됨\" 이지랄보고 심장 철렁함​@_stjy1367",
+          "likeCount": 11,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "뭐가 잘한거고 못한건지 모르니까 그 구간이지 ㅋㅋ 걔넨 평생 해도 지들이 맞다고 생각함",
+          "likeCount": 5,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "경쟁에서만 즐겜안하면되지ㅇㅇ​@jh535199",
+          "likeCount": 4,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "져야 우물에서 채팅치는거아님? ㅋㅋㅋ",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "@swk-l1sㅅㅂ 원딜 감수성",
+          "likeCount": 2,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "케넨도 봄. 제발 처음하는 챔 서폿 들고오지 말라고 ㅋㅋ",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "@jh535199 니 마인드는 일겜마인드",
+          "likeCount": 1,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "구마유시 발언:실버는 야생동물이다😊",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "당신이 롤을 하다 욕을 먹는 이유\n1. 진짜 못해서\n2. 팀원 기분이 나빠서\n3. 게임 지고있어서\n4. 저티어 구간이어서",
+          "likeCount": 1,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "구마유시왈\n약자를 상대로 강한힘을 쓰면 안된다\n\n(15킬1어시를 찍으며)",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "너냐?ㅋㅋㅋㅋ​@jh535199",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "아니 ㅈㄴ웃기넼ㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "구마유시한테 뭐라하는 사람있넼",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "넌 그 키보드 딸깍도 못해서 쥐꼬리만한 돈받으면서 살고있음?ㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "@jh535199롤 안해본티 ㅈㄴ난다\n\n\n\n\n하지마세요",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "​@jh535199몰입의 중요성을 모르고 남의 몰입과 노력을 깨는것이 쓰레기죠",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "@jh535199본인 쿨하고 착한 것 같고 열려 있는 것 같죠? 그거 배경지식 부족해서 그런 거에요 ㅋㅋㅋ 롤이 왜 경쟁 시스템을 만들었을까요? 게임도 게임마다 경쟁 없이 즐기는 겜이 있고 경쟁을 해서 즐기는 게임이 있는겁니다 ㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "방금 루시안서폿이랑 겜하고옴. 탑이즈 미드 코르키 서폿 루시안ㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㅇㄷ",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "부캐충",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "??? : 구마유시 나한테 킬 따임 ㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "​@jh535199ㅇㅈㄹ 그럴거면 티어가 왜 있냐\n경쟁구도는 왜 만드냐 재미만 원하면 일겜해야지\nㅂㅅ아",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "​@jh535199님이 겜을 해보세요;;",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "@jh535199 그럼 왜 경쟁게임을 쳐하세요 ㅋㅋㅋ 애니팡같은 혼자하는 게임을 하던가 ㅋㅋㅋ 개념 처말아먹었나",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "@jh535199지 일 아니니까 대충대충 하는 마인드 ㅋㅋㅋ 딱 사회에서 버림받기 좋은 마인드노",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "다소 의역) 실버는 야생동물이다",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "도구가 자아를 가져도 되는 라인이었음??",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "​@jh535199 게임에 최선을 다함>>>>>게임을 재미로 함>>>>>>>>>>>>>게임에 최선을 다하던 재미로 하던 채팅을 ㅈ같이 침",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "풀버전 올려주세요 ㅠㅠ",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "레오나같은 부류는 구마유시인거 알아도 지가 구미유시 플레이에 지장을 안줄만큼 잘했다고 자뻑하거나 구마유시 플레이에 지적해서 도움줬다고 생각할걸",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "표현력이 참 좋아 ㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "이때의 경험으로 롤드컵우승을 한거구나",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "장난으로 던진돌에 개구리는 맞아죽는다 도대체 정상급 프로선수가 양학하는게 뭐가 즐겁다는건지 상대바텀 욕먹는거 생각해봤으면 그게 즐거운지",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "나도 이제 구마유시의 야생동물이라는 칭호를 받았다고 ㅠㅠㅠㅠㅠ",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        }
+      ]
+    },
+    {
+      "elapsedSeconds": 44390214.0,
+      "bucketStart": "2024-02-02T18:36:54+00:00",
+      "bucketEnd": "2024-02-21T21:23:36+00:00",
+      "positive": 17,
+      "neutral": 12,
+      "negative": 11,
+      "netSentiment": 0.15,
+      "zScore": 0.391,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": -0.663,
+      "isVolumeBurst": false,
+      "durationSeconds": 1651602.0
+    },
+    {
+      "elapsedSeconds": 46091268.0,
+      "bucketStart": "2024-02-22T11:07:48+00:00",
+      "bucketEnd": "2024-04-03T17:26:29+00:00",
+      "positive": 12,
+      "neutral": 17,
+      "negative": 11,
+      "netSentiment": 0.025,
+      "zScore": -0.451,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": -1.057,
+      "isVolumeBurst": false,
+      "durationSeconds": 3565121.0
+    },
+    {
+      "elapsedSeconds": 49657026.0,
+      "bucketStart": "2024-04-03T17:37:06+00:00",
+      "bucketEnd": "2024-06-14T00:00:34+00:00",
+      "positive": 15,
+      "neutral": 13,
+      "negative": 12,
+      "netSentiment": 0.075,
+      "zScore": -0.114,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": -1.336,
+      "isVolumeBurst": false,
+      "durationSeconds": 6157408.0
+    },
+    {
+      "elapsedSeconds": 55902636.0,
+      "bucketStart": "2024-06-15T00:30:36+00:00",
+      "bucketEnd": "2024-07-09T21:49:21+00:00",
+      "positive": 15,
+      "neutral": 9,
+      "negative": 16,
+      "netSentiment": -0.025,
+      "zScore": -0.787,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": -0.798,
+      "isVolumeBurst": false,
+      "durationSeconds": 2150325.0
+    },
+    {
+      "elapsedSeconds": 58127180.0,
+      "bucketStart": "2024-07-10T18:26:20+00:00",
+      "bucketEnd": "2024-08-06T05:38:28+00:00",
+      "positive": 17,
+      "neutral": 11,
+      "negative": 12,
+      "netSentiment": 0.125,
+      "zScore": 0.223,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": -0.829,
+      "isVolumeBurst": false,
+      "durationSeconds": 2286728.0
+    },
+    {
+      "elapsedSeconds": 60419223.0,
+      "bucketStart": "2024-08-06T07:07:03+00:00",
+      "bucketEnd": "2024-09-04T03:37:43+00:00",
+      "positive": 20,
+      "neutral": 13,
+      "negative": 7,
+      "netSentiment": 0.325,
+      "zScore": 1.57,
+      "isBurst": true,
+      "direction": "POSITIVE_SPIKE",
+      "volumeZScore": -0.874,
+      "isVolumeBurst": false,
+      "durationSeconds": 2493040.0,
+      "topComments": [
+        {
+          "text": "ㄱㅊ 지면됨은 몇년전부터 늘 있었지만 ㄱㅊ 지면됨 시전 하는사람들은 속 마음은 이기고싶다임 ㅋㅋㅋ",
+          "likeCount": 4,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "그 느낌보다는 동네 똥개가 손 달라고 했는데 손 준 것 같은 기분에 가깝지 않나.......",
+          "likeCount": 3,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "야생동물비유가 개웃김ㅋㅋㅋㅋ",
+          "likeCount": 3,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "마구유시야. 실버엔 실버법을 따라라",
+          "likeCount": 2,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "애들은 다 착함ㅋㅋㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "저 정글 착하네 다른 실붕이었으면 레드 먹히는순간 미드 달렸다 ㄷㄷㄷ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "@swk-l1s킬뎃드립으로 맞받아치면 1ㄷ1하자고함 ㅋㅋㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "저기서 누구한명 그냥 탈주해버리면 챌린저원딜이여도 지는판인데",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "요즘 baccara 첫매 안주는곳 많은데 여기는 오퍼나준다는데 대박",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "레오나 고아 ㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "저 1데스 맥인 사람은 평생의 안줏거리다",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "앙",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "​@자칼-v4u 알빠노ㅋ",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "처음에 노래랑 키보드 소리 박자 맞음 ㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "레오나 이제 단체 두루치기 당하고 부계로 롤 돌리고 있겠지 ㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "050하고 본캐그마드립친 판도 올려주시길 ❤❤",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "실버에서 골드 가는구간이 젤 빡셈 ㄹㅇ \n천상계는 모르겠고 ㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "ㄱㅊ 지면됨이 개웃기네",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "구마유시:정글은 야생동물이다",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": ".",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "아직 이런사람들이 있는게아니고\n그게 우리야 형..",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "야생 동물한테 손 ㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "본인 아이언부터 플레까지 찍어본 사람으로써 항상 골드 찍을 실력은 된다고 자부했는데 실버라는 미친구간은 진짜 멘탈 약한사람은 컴터부시거나 살인저지른다 ㅋㅋㅋㅋㅋㅋㅋ 진짜 야생이다 승급전있을때는 진짜 첫판부터 던지고 시작한다...",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "그렇지 보통 야생동물한테 손내밀면 물리지 그래도 저 정글은 눈치빠른 원숭이 정도는 되는듯",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "에메달고 가슴이 뛰는 댓글들이다...",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "챌그마마:괴물\n플에다:짐승\n아브실골:금수",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "구마유시한테 똥브론즈 서폿이… ㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "걍 이제 귀여움 ㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "걍 ㅈㄴ 귀ㅇ움",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "마치 복면쓴 손흥민이 동호회축구에서 돌진하는 느낌이려나",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "뭐만 하면 지면 됨 넌 져라 이러고있는 지적장애들 진짜 이해가 안됨. 분위기 말아먹고 분탕치는건 그렇다 쳐도 깎이는건 지 점순데 매판 마음에 안들때마다 지점수 깎는 저능아짓을 하니까 실버지ㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "야생동물인가?",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "@gkrlskgo6183 됌 이러고있노 ㅋㅋㅋㅋㅋ ㅈㄴ 못배웠네",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "됌",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "브실골 구간애들 종특 자기합리화에 신념까지 장착되어있어 무서움...",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "브실골은 확실히 팀운이 진짜 나를 조지기위한 팀인 경우가 꽤 많긴 합니다만,\n그래도 매판마다 나라도 정신 바짝차리고하면 무조건 질판은 지게되더라도 애매하게 처던지는 애들 커버쳐서 일단 패배방어, 무난한 판은 승리, 모두 잘해주는 꿀판 도 승리 하게되면서 결국 승이 조금씩 많아져서 올라가게 되긴 합디다... 아1에 처박힌 계정 플래까지 올리면서 깨달은검니다...그냥 나라도 매판 성적 유지합시다.",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "아마 페이즈가 구마유시 보는 느낌이겠지",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "@우리그래도경찰이잖아현 마스터1층인데 실버탐방후기 솔랭으로 올라올 구조가 아님 ㅋㅋㅋㅋㅋ 한명이 잘해도 다른 한명이 -3명급으로 뇌빼고 게임함",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "@자칼-v4u달아버리기",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "@정하눌ㅋㅋ 저 레오나도 본인은 케리아급인줄 암",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        }
+      ]
+    },
+    {
+      "elapsedSeconds": 62984347.0,
+      "bucketStart": "2024-09-04T23:39:07+00:00",
+      "bucketEnd": "2024-10-08T02:13:40+00:00",
+      "positive": 18,
+      "neutral": 10,
+      "negative": 12,
+      "netSentiment": 0.15,
+      "zScore": 0.391,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": -0.944,
+      "isVolumeBurst": false,
+      "durationSeconds": 2860473.0
+    },
+    {
+      "elapsedSeconds": 65865433.0,
+      "bucketStart": "2024-10-08T07:57:13+00:00",
+      "bucketEnd": "2024-11-04T06:00:52+00:00",
+      "positive": 19,
+      "neutral": 15,
+      "negative": 6,
+      "netSentiment": 0.325,
+      "zScore": 1.57,
+      "isBurst": true,
+      "direction": "POSITIVE_SPIKE",
+      "volumeZScore": -0.838,
+      "isVolumeBurst": false,
+      "durationSeconds": 2325819.0,
+      "topComments": [
+        {
+          "text": "ㄹㅇ 원딜차이라고 네명한테 혼났을 상대 원딜이 불쌍하다",
+          "likeCount": 10,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "+2024",
+          "likeCount": 5,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "저티어는 자기객관화가 심각하게안되있음 구마유시도 욕을쳐먹는데 브실골에서 좀 잘한다해봐야 애들이 말을 듣겠냐고 ㅋㅋ",
+          "likeCount": 4,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "근데 저티어는 저티어만의 규칙이 있음 이건 구마가 잘못한거임  ㅋㅋㅋㅋ",
+          "likeCount": 2,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "페이커도 욕하는데 구마유시정도야 ㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "날것의 느낌 ㅋㅋㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "질수없는 몸이 되어버린 레오나",
+          "likeCount": 1,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "Lo adoro grande gumayusi GG❤",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "아... 저정도 상황은 아니지만... 레벨 갓 25이던 롤린이 시절 일반게임 돌리다 에메랄드 만남ㅋㅋㅋ 그런데 다른 애들은 잘 컸고 나 때문에 짐... 온갖 욕이란 욕은 다 처먹음. 근데 알고보니 상대팀 에메 제외하고 다 아이언이었음ㅋㅋㅋ",
+          "likeCount": 1,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "정글은 착해..",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "롤초반에는선2렙찍으려노력해도 밀지말라고욕먹던시절에는뭘해도욕먹음ᆢᆢ최고의시절",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "바로 앞에서 플레이를 봐도 천상계 부캐라 생각 안하거 실버가 한게임 잘풀렸다 생각할거임 ㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "진짜보고느끼는게있을까ㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "구마유시 : 실버유저는 야생동물들이다",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "안녕하세요 지나가던 야생동물입니다",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "오피셜>> 구마유시 : 실버는 야생동물이다",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "얼마전에 스오-일라,이렐-아크샨 본 실버입니다..",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "개웃기노 ㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "1렙 때 레드 준다니까 안먹어서 훈육시킴 대포다 뺏어먹음",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "​@겜생-h5m서폿 10킬은 개트롤인데",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "​@dae_choo_c나 아이언인데 야스오서폿과 리신서폿과 렝가 서폿과 워윅서폿이랑 제드서폿만난적있음",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "구마유시 인걸 아는순간..무슨반응나올까",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "@뿌요96ㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "진짜 레드 준건 야생동물 그 이상의 감동임 보통은 \"저 블루 언제줘요?\" \"어 다음 정글이\" \"???\" 이게 정상인데 저정도면 범죄자 라포형성 급이다 ㄷㄷ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "야생동물한테 손했는데 손주는 느낌보다는 야생동물이 와서 이거 맛있겠다 나줘 한느낌같은데 ㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "실버가 월즈 우승자한테 남탓 ㅋㅋㅋㅋㅋㅋㅌ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "4강에서 케리아 막 들어가다 죽을때 이 영상이 생각났음. 날 것의 느낌",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "앞으로는 이것이 대세가 될 것이다 그것은 바로 롤지노 롤지노",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "@Noble.6 매우 인정하는 부분.",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "저 구간 존나 역겹긴 함\n애들 뭣도 모르는데 억까부터 하고 봄\n서로가 벌레인걸 알아서 팀 플레이를 전혀 하질않음",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "이게 진짜 당신 팀원은 제오페케가 아닙니다지",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "풀버전 보고싶네ㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "-롤지노- 궁금하시죠 요즘 아이들은 이곳을 숭배합니다",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "이거 언제 방송인가요? ㅠ",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        },
+        {
+          "text": "프로게이머 방송에서 익숙한 채팅 방식 보이니까 진짜 개설레네ㅋㅋㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "하지말라고한거 더 해버리기~​@자칼-v4u",
+          "likeCount": 0,
+          "sentiment": "POSITIVE"
+        },
+        {
+          "text": "부캐 양학을 뭐 자랑스럽게 올리네",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "\"ㄱㅊ 지면 됨\" 은 진짜 패배자 마인드네 ㅋㅋㅋㅋ",
+          "likeCount": 0,
+          "sentiment": "NEGATIVE"
+        },
+        {
+          "text": "모데서폿",
+          "likeCount": 0,
+          "sentiment": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "elapsedSeconds": 68197934.0,
+      "bucketStart": "2024-11-04T07:52:14+00:00",
+      "bucketEnd": "2024-11-10T15:23:12+00:00",
+      "positive": 8,
+      "neutral": 20,
+      "negative": 12,
+      "netSentiment": -0.1,
+      "zScore": -1.292,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": -0.096,
+      "isVolumeBurst": false,
+      "durationSeconds": 545458.0
+    },
+    {
+      "elapsedSeconds": 68744325.0,
+      "bucketStart": "2024-11-10T15:38:45+00:00",
+      "bucketEnd": "2024-11-14T17:32:35+00:00",
+      "positive": 14,
+      "neutral": 19,
+      "negative": 7,
+      "netSentiment": 0.175,
+      "zScore": 0.559,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": 0.127,
+      "isVolumeBurst": false,
+      "durationSeconds": 352430.0
+    },
+    {
+      "elapsedSeconds": 69096760.0,
+      "bucketStart": "2024-11-14T17:32:40+00:00",
+      "bucketEnd": "2024-12-03T04:35:55+00:00",
+      "positive": 13,
+      "neutral": 20,
+      "negative": 7,
+      "netSentiment": 0.15,
+      "zScore": 0.391,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": -0.645,
+      "isVolumeBurst": false,
+      "durationSeconds": 1594995.0
+    },
+    {
+      "elapsedSeconds": 71941246.0,
+      "bucketStart": "2024-12-17T15:40:46+00:00",
+      "bucketEnd": "2025-05-13T14:04:29+00:00",
+      "positive": 13,
+      "neutral": 18,
+      "negative": 9,
+      "netSentiment": 0.1,
+      "zScore": 0.054,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": -1.706,
+      "isVolumeBurst": false,
+      "durationSeconds": 12695023.0
+    },
+    {
+      "elapsedSeconds": 84649690.0,
+      "bucketStart": "2025-05-13T17:48:10+00:00",
+      "bucketEnd": "2025-11-16T06:52:55+00:00",
+      "positive": 19,
+      "neutral": 7,
+      "negative": 14,
+      "netSentiment": 0.125,
+      "zScore": 0.223,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": -1.828,
+      "isVolumeBurst": false,
+      "durationSeconds": 16117485.0
+    },
+    {
+      "elapsedSeconds": 100891798.0,
+      "bucketStart": "2025-11-17T17:29:58+00:00",
+      "bucketEnd": "2026-04-06T01:04:56+00:00",
+      "positive": 13,
+      "neutral": 21,
+      "negative": 6,
+      "netSentiment": 0.175,
+      "zScore": 0.559,
+      "isBurst": false,
+      "direction": null,
+      "volumeZScore": -1.679,
+      "isVolumeBurst": false,
+      "durationSeconds": 12036898.0
+    }
+  ],
+  "keyInsights": [
+    {
+      "type": "positive",
+      "topic": "구마유시의 실력",
+      "topicEn": "Kumayushi's Skill",
+      "topicZh": "구마유시的技能",
+      "topicJa": "クマユシのスキル",
+      "comment": "인생 최고업적:구마유시 혼내기 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+      "commentLang": "ko",
+      "likes": 29127
+    },
+    {
+      "type": "negative",
+      "topic": "비난과 응징",
+      "topicEn": "Criticism and Retaliation",
+      "topicZh": "批评与报复",
+      "topicJa": "批判と報復",
+      "comment": "아직이라니 형...저런인간들은 안사라져...",
+      "commentLang": "ko",
+      "likes": 7919
+    },
+    {
+      "type": "positive",
+      "topic": "야생동물 비유",
+      "topicEn": "Wild Animal Metaphor",
+      "topicZh": "野生动物比喻",
+      "topicJa": "野生動物の比喩",
+      "comment": "야생동물 드립은 진짜 엄청난 감격을 표현한 것이다...\n도대체 어느 야생동물이 손달라고 해서 손을 주겠는가 이말이다",
+      "commentLang": "ko",
+      "likes": 12279
+    },
+    {
+      "type": "negative",
+      "topic": "야생동물 비유",
+      "topicEn": "Wild Animal Metaphor",
+      "topicZh": "野生动物比喻",
+      "topicJa": "野生動物の比喩",
+      "comment": "상대 하체한테는 얼마나 자연재해같을까 지들상대가 현직 프로ㅋㅋㅋㅋ",
+      "commentLang": "ko",
+      "likes": 5939
+    }
+  ],
+  "analyzedAt": "2026-07-05T09:02:18.558837+00:00",
+  "analysisDuration": 130.7,
+  "tokenUsage": {
+    "input": 109690,
+    "output": 31736,
+    "embedding": 98684,
+    "total": 240110,
+    "estimatedCostUsd": 0.037469
+  },
+  "videoEmbedding": [
+    0.0386962890625,
+    0.05181884765625,
+    0.0078582763671875,
+    0.02911376953125,
+    0.00043511390686035156,
+    0.00812530517578125,
+    0.0099945068359375,
+    0.0189056396484375,
+    0.08087158203125,
+    0.01483917236328125,
+    0.03155517578125,
+    -0.030487060546875,
+    0.01241302490234375,
+    -0.02996826171875,
+    0.00148773193359375,
+    -0.020111083984375,
+    -0.0416259765625,
+    -0.0288848876953125,
+    0.0228118896484375,
+    -0.00931549072265625,
+    0.032867431640625,
+    -0.0032596588134765625,
+    -0.0062408447265625,
+    0.00586700439453125,
+    0.0237579345703125,
+    -0.041595458984375,
+    0.0296478271484375,
+    0.004360198974609375,
+    -0.03564453125,
+    -0.050445556640625,
+    -0.0158233642578125,
+    -0.039794921875,
+    0.057769775390625,
+    -0.034332275390625,
+    -0.0129547119140625,
+    -0.0101165771484375,
+    0.0153656005859375,
+    -0.0240325927734375,
+    -0.0029468536376953125,
+    -0.003238677978515625,
+    0.019012451171875,
+    0.0085601806640625,
+    -0.043731689453125,
+    0.0108489990234375,
+    0.042938232421875,
+    0.06854248046875,
+    0.0013666152954101562,
+    0.005023956298828125,
+    -0.00914764404296875,
+    0.031463623046875,
+    -0.02996826171875,
+    0.099365234375,
+    0.0199127197265625,
+    0.046722412109375,
+    0.0328369140625,
+    0.018829345703125,
+    -0.007480621337890625,
+    0.003772735595703125,
+    -0.0253143310546875,
+    -0.022491455078125,
+    0.00695037841796875,
+    0.011627197265625,
+    0.0223541259765625,
+    -0.004238128662109375,
+    -0.0029296875,
+    -0.09124755859375,
+    -0.0307464599609375,
+    0.0184326171875,
+    -0.03717041015625,
+    0.006496429443359375,
+    0.09027099609375,
+    -0.0179290771484375,
+    -0.0277557373046875,
+    0.040496826171875,
+    0.0193023681640625,
+    0.020477294921875,
+    0.0131683349609375,
+    0.01290130615234375,
+    -0.040435791015625,
+    -0.0008745193481445312,
+    0.0006551742553710938,
+    0.0282745361328125,
+    -0.0092620849609375,
+    -0.007904052734375,
+    -0.039031982421875,
+    -0.04364013671875,
+    -0.0340576171875,
+    -0.057342529296875,
+    0.00548553466796875,
+    0.01190948486328125,
+    -0.0311279296875,
+    -0.0223388671875,
+    -0.036773681640625,
+    0.01210784912109375,
+    0.06903076171875,
+    -0.0325927734375,
+    0.028778076171875,
+    -0.04302978515625,
+    -0.021881103515625,
+    0.05267333984375,
+    0.039642333984375,
+    -0.00039124488830566406,
+    0.0025463104248046875,
+    -0.006389617919921875,
+    0.0592041015625,
+    -0.0195465087890625,
+    -0.0176239013671875,
+    -0.0069732666015625,
+    -0.1033935546875,
+    0.0008158683776855469,
+    -0.01837158203125,
+    0.0269927978515625,
+    -0.053253173828125,
+    0.004108428955078125,
+    -0.0023784637451171875,
+    0.0260772705078125,
+    0.060638427734375,
+    -0.04229736328125,
+    0.016448974609375,
+    -0.05145263671875,
+    -0.034088134765625,
+    0.0150146484375,
+    0.004901885986328125,
+    -0.09271240234375,
+    -0.00714111328125,
+    -0.0295867919921875,
+    -0.01288604736328125,
+    -0.019378662109375,
+    -0.049530029296875,
+    -0.01059722900390625,
+    -0.0175018310546875,
+    -0.0158843994140625,
+    0.0022335052490234375,
+    -0.027435302734375,
+    0.02716064453125,
+    0.0276336669921875,
+    -0.025421142578125,
+    0.02001953125,
+    -0.035064697265625,
+    0.002643585205078125,
+    -0.0360107421875,
+    0.034423828125,
+    -0.0289154052734375,
+    0.0211944580078125,
+    0.0080718994140625,
+    0.011688232421875,
+    0.00583648681640625,
+    0.0197296142578125,
+    -0.01390838623046875,
+    0.0107574462890625,
+    -0.0272674560546875,
+    0.0084686279296875,
+    -0.0592041015625,
+    -0.04644775390625,
+    -0.0266265869140625,
+    0.019134521484375,
+    -0.00702667236328125,
+    0.0111846923828125,
+    -0.05877685546875,
+    -0.01052093505859375,
+    0.016845703125,
+    -0.0134124755859375,
+    -0.00030231475830078125,
+    -0.0240631103515625,
+    0.0005612373352050781,
+    -0.0201416015625,
+    -0.0574951171875,
+    0.06317138671875,
+    -0.032928466796875,
+    -0.0009722709655761719,
+    0.022216796875,
+    0.00019729137420654297,
+    -0.027099609375,
+    -0.004337310791015625,
+    0.01325225830078125,
+    -0.036865234375,
+    -0.00848388671875,
+    -0.031402587890625,
+    -0.050201416015625,
+    -0.043731689453125,
+    -0.007152557373046875,
+    0.0251312255859375,
+    -0.0081939697265625,
+    0.01346588134765625,
+    -0.0199737548828125,
+    -0.0284423828125,
+    0.0001404285430908203,
+    -0.0035037994384765625,
+    0.0232086181640625,
+    -0.0335693359375,
+    0.003597259521484375,
+    0.018310546875,
+    0.00836944580078125,
+    -0.0118255615234375,
+    0.02264404296875,
+    -0.04974365234375,
+    0.027587890625,
+    -0.0416259765625,
+    -0.040557861328125,
+    0.036285400390625,
+    0.0137176513671875,
+    0.028839111328125,
+    0.060638427734375,
+    -0.0262451171875,
+    -0.00970458984375,
+    -0.0087127685546875,
+    0.036041259765625,
+    0.0338134765625,
+    -0.07708740234375,
+    -0.00380706787109375,
+    0.060821533203125,
+    0.039947509765625,
+    0.00775146484375,
+    -0.0382080078125,
+    -0.0281524658203125,
+    0.0458984375,
+    0.0276031494140625,
+    0.00270843505859375,
+    -0.018157958984375,
+    0.013885498046875,
+    -0.0295867919921875,
+    0.04376220703125,
+    0.026885986328125,
+    -0.0175323486328125,
+    -0.03424072265625,
+    0.02593994140625,
+    0.0501708984375,
+    -0.0211334228515625,
+    -0.01277923583984375,
+    -0.0521240234375,
+    -0.0290069580078125,
+    0.0205078125,
+    0.002216339111328125,
+    -0.03521728515625,
+    0.0278472900390625,
+    0.0096893310546875,
+    -0.0184173583984375,
+    0.058502197265625,
+    0.024627685546875,
+    0.05059814453125,
+    0.0186004638671875,
+    0.048095703125,
+    0.015716552734375,
+    -0.0005035400390625,
+    0.0134124755859375,
+    0.0299224853515625,
+    -0.03594970703125,
+    0.00040793418884277344,
+    0.03753662109375,
+    0.00887298583984375,
+    0.04302978515625,
+    0.0280609130859375,
+    -0.006984710693359375,
+    0.036956787109375,
+    -0.0013341903686523438,
+    -0.025421142578125,
+    -0.04534912109375,
+    0.013397216796875,
+    -0.02105712890625,
+    -0.019683837890625,
+    0.0044708251953125,
+    0.0280609130859375,
+    -0.0003809928894042969,
+    -0.035400390625,
+    -0.05706787109375,
+    0.033477783203125,
+    0.012786865234375,
+    0.0193023681640625,
+    0.0025730133056640625,
+    0.00278472900390625,
+    0.00920867919921875,
+    -0.0279693603515625,
+    0.0009851455688476562,
+    0.0085601806640625,
+    -0.04266357421875,
+    0.03607177734375,
+    0.0301513671875,
+    0.033477783203125,
+    -0.0377197265625,
+    -0.008636474609375,
+    -0.0004100799560546875,
+    0.01251983642578125,
+    0.00519561767578125,
+    -0.030609130859375,
+    -0.002956390380859375,
+    0.017181396484375,
+    0.0338134765625,
+    0.0013666152954101562,
+    0.022979736328125,
+    0.0216064453125,
+    -0.006977081298828125,
+    -0.01016998291015625,
+    0.0557861328125,
+    0.0292205810546875,
+    0.041168212890625,
+    0.004863739013671875,
+    -0.004241943359375,
+    0.0166015625,
+    -0.0401611328125,
+    0.0018768310546875,
+    0.01678466796875,
+    -0.01195526123046875,
+    0.000637054443359375,
+    0.02850341796875,
+    -0.0219879150390625,
+    -0.0038280487060546875,
+    0.0188140869140625,
+    -0.01959228515625,
+    0.005218505859375,
+    -0.035552978515625,
+    -0.0235748291015625,
+    -0.0245361328125,
+    0.0216217041015625,
+    0.0003008842468261719,
+    -0.0236053466796875,
+    -0.0011272430419921875,
+    0.006717681884765625,
+    0.0235137939453125,
+    0.03912353515625,
+    0.00385284423828125,
+    0.01207733154296875,
+    0.02191162109375,
+    -0.032867431640625,
+    -0.0021266937255859375,
+    -0.040557861328125,
+    -0.042816162109375,
+    -0.0006847381591796875,
+    -0.0190887451171875,
+    0.03466796875,
+    -0.004306793212890625,
+    -0.0017518997192382812,
+    -0.00775909423828125,
+    -0.0345458984375,
+    -0.007152557373046875,
+    -0.04779052734375,
+    -0.00647735595703125,
+    -0.0206298828125,
+    0.05908203125,
+    0.0254669189453125,
+    0.0024509429931640625,
+    -0.08587646484375,
+    -0.00276947021484375,
+    -0.020416259765625,
+    0.007465362548828125,
+    -0.000339508056640625,
+    0.003986358642578125,
+    0.05792236328125,
+    0.031768798828125,
+    -0.034820556640625,
+    0.0092010498046875,
+    0.044769287109375,
+    -0.0086822509765625,
+    0.015625,
+    0.03173828125,
+    -0.04205322265625,
+    -0.06878662109375,
+    -0.0291748046875,
+    0.007427215576171875,
+    0.016265869140625,
+    0.047882080078125,
+    0.006984710693359375,
+    0.0012540817260742188,
+    0.033935546875,
+    0.039337158203125,
+    0.02789306640625,
+    0.0484619140625,
+    -0.053497314453125,
+    0.00844573974609375,
+    0.03436279296875,
+    -0.0216522216796875,
+    -0.031158447265625,
+    0.031402587890625,
+    -0.027252197265625,
+    0.0150146484375,
+    -0.005725860595703125,
+    0.01214599609375,
+    0.0076446533203125,
+    0.025482177734375,
+    -0.03271484375,
+    0.02093505859375,
+    -0.001628875732421875,
+    0.04058837890625,
+    0.031890869140625,
+    -0.035430908203125,
+    -0.03485107421875,
+    0.006977081298828125,
+    0.00348663330078125,
+    0.004581451416015625,
+    -0.054107666015625,
+    0.0068817138671875,
+    0.0203704833984375,
+    -0.044647216796875,
+    0.0160369873046875,
+    -0.061920166015625,
+    0.00931549072265625,
+    -0.01027679443359375,
+    0.0294189453125,
+    -0.005718231201171875,
+    0.00020432472229003906,
+    0.002288818359375,
+    -0.053558349609375,
+    0.01033782958984375,
+    -0.055633544921875,
+    0.007259368896484375,
+    -0.0037479400634765625,
+    0.0207672119140625,
+    0.0455322265625,
+    0.0017070770263671875,
+    -0.002750396728515625,
+    0.0166168212890625,
+    0.0538330078125,
+    -0.05267333984375,
+    -0.005252838134765625,
+    -0.0233154296875,
+    0.011993408203125,
+    -0.036865234375,
+    -0.007366180419921875,
+    0.00707244873046875,
+    0.0272064208984375,
+    0.031036376953125,
+    0.034149169921875,
+    -0.0030574798583984375,
+    -0.01517486572265625,
+    0.0295867919921875,
+    -0.00634002685546875,
+    0.013763427734375,
+    -0.030517578125,
+    0.0099029541015625,
+    0.037811279296875,
+    0.0151519775390625,
+    -0.0158843994140625,
+    0.026611328125,
+    0.004001617431640625,
+    0.00995635986328125,
+    -0.01428985595703125,
+    -0.034820556640625,
+    -0.01316070556640625,
+    0.03594970703125,
+    -0.0789794921875,
+    0.0208587646484375,
+    -0.0229644775390625,
+    -0.0248260498046875,
+    0.0233612060546875,
+    0.033905029296875,
+    -0.029266357421875,
+    0.004634857177734375,
+    0.0226287841796875,
+    -0.03662109375,
+    -0.0005774497985839844,
+    -0.059600830078125,
+    0.0066680908203125,
+    0.0165863037109375,
+    -0.01122283935546875,
+    0.0271759033203125,
+    -0.023162841796875,
+    0.002887725830078125,
+    0.05950927734375,
+    0.0382080078125,
+    0.0242156982421875,
+    -0.052886962890625,
+    0.0213623046875,
+    0.00484466552734375,
+    0.007038116455078125,
+    0.0025730133056640625,
+    -0.014007568359375,
+    0.0084686279296875,
+    -0.004383087158203125,
+    0.0011396408081054688,
+    -0.002838134765625,
+    0.0183258056640625,
+    0.0264892578125,
+    -0.003360748291015625,
+    -0.01116180419921875,
+    -0.0052490234375,
+    -0.00991058349609375,
+    -0.008453369140625,
+    -0.0246734619140625,
+    0.01444244384765625,
+    -0.0261077880859375,
+    0.0265350341796875,
+    -0.0130767822265625,
+    -0.03790283203125,
+    0.0006351470947265625,
+    0.01114654541015625,
+    0.01105499267578125,
+    0.06451416015625,
+    0.038909912109375,
+    -0.021514892578125,
+    -0.044281005859375,
+    -0.008331298828125,
+    -0.02056884765625,
+    -0.0009469985961914062,
+    0.08612060546875,
+    -0.0107574462890625,
+    0.05059814453125,
+    0.0218963623046875,
+    0.063232421875,
+    -0.04156494140625,
+    0.020751953125,
+    0.02178955078125,
+    -0.007015228271484375,
+    0.002773284912109375,
+    -0.036407470703125,
+    0.0721435546875,
+    0.0182342529296875,
+    -0.0418701171875,
+    0.0023670196533203125,
+    -0.0175933837890625,
+    0.01702880859375,
+    0.0574951171875,
+    -0.004222869873046875,
+    -0.00223541259765625,
+    0.002521514892578125,
+    0.0272979736328125,
+    0.0237884521484375,
+    -0.01788330078125,
+    0.01043701171875,
+    0.006977081298828125,
+    0.01511383056640625,
+    -0.0036773681640625,
+    0.0176544189453125,
+    0.00811767578125,
+    0.0240020751953125,
+    -0.0236053466796875,
+    -0.0126495361328125,
+    -0.0499267578125,
+    -0.0017862319946289062,
+    -0.04815673828125,
+    -0.02215576171875,
+    0.0007605552673339844,
+    -0.0148162841796875,
+    0.0096588134765625,
+    0.01479339599609375,
+    -0.01430511474609375,
+    -0.04266357421875,
+    0.00597381591796875,
+    -0.006168365478515625,
+    -0.0012388229370117188,
+    0.006252288818359375,
+    0.0192413330078125,
+    0.001964569091796875,
+    -0.01457977294921875,
+    0.0247650146484375,
+    -0.006336212158203125,
+    0.024749755859375,
+    -0.005859375,
+    0.01314544677734375,
+    0.00592803955078125,
+    -0.005588531494140625,
+    -0.0301055908203125,
+    0.0233612060546875,
+    -0.05078125,
+    0.024169921875,
+    0.0016193389892578125,
+    0.02862548828125,
+    0.03570556640625,
+    -0.06121826171875,
+    -0.04522705078125,
+    0.004291534423828125,
+    -0.0215301513671875,
+    -0.00213623046875,
+    -0.0188446044921875,
+    -0.013824462890625,
+    -0.01021575927734375,
+    -0.0242462158203125,
+    -0.0154571533203125,
+    0.04364013671875,
+    -0.0172271728515625,
+    0.0260772705078125,
+    0.01052093505859375,
+    0.00566864013671875,
+    0.01381683349609375,
+    -0.026153564453125,
+    0.00678253173828125,
+    0.027801513671875,
+    -0.0209503173828125,
+    0.0190277099609375,
+    -0.01690673828125,
+    -0.038787841796875,
+    -0.004390716552734375,
+    -0.0018701553344726562,
+    -0.04193115234375,
+    -0.017791748046875,
+    0.0136566162109375,
+    -0.041717529296875,
+    -0.004058837890625,
+    0.0003972053527832031,
+    -0.0167388916015625,
+    0.032745361328125,
+    0.0172271728515625,
+    -0.0012044906616210938,
+    -0.0309906005859375,
+    0.005741119384765625,
+    -0.02227783203125,
+    0.013458251953125,
+    0.0016241073608398438,
+    -0.0198516845703125,
+    -0.007633209228515625,
+    -0.017059326171875,
+    -0.025726318359375,
+    0.020263671875,
+    -0.016510009765625,
+    0.00994110107421875,
+    -0.0005240440368652344,
+    0.00731658935546875,
+    -0.02130126953125,
+    -0.006557464599609375,
+    -0.0169830322265625,
+    0.0255126953125,
+    -0.004657745361328125,
+    0.01392364501953125,
+    0.043243408203125,
+    -0.0369873046875,
+    -0.027252197265625,
+    -0.03570556640625,
+    -0.01172637939453125,
+    -0.043212890625,
+    0.006313323974609375,
+    0.00897216796875,
+    -0.033172607421875,
+    -0.00905609130859375,
+    -0.0018815994262695312,
+    0.04278564453125,
+    -0.01004791259765625,
+    0.00562286376953125,
+    0.00658416748046875,
+    -0.0201873779296875,
+    0.0095367431640625,
+    -0.02764892578125,
+    -0.004291534423828125,
+    -0.07025146484375,
+    -0.0155792236328125,
+    -0.007293701171875,
+    -0.003032684326171875,
+    0.04498291015625,
+    0.012786865234375,
+    -0.045196533203125,
+    -0.0020847320556640625,
+    -0.0220489501953125,
+    -0.010650634765625,
+    0.02813720703125,
+    -0.0061492919921875,
+    -0.006221771240234375,
+    -0.0308380126953125,
+    0.02105712890625,
+    0.00030303001403808594,
+    -0.01515960693359375,
+    -0.00545501708984375,
+    -0.0014905929565429688,
+    -0.040191650390625,
+    -0.005870819091796875,
+    -0.022979736328125,
+    0.0156097412109375,
+    -0.05084228515625,
+    -0.007843017578125,
+    0.004467010498046875,
+    -0.031524658203125,
+    -0.045806884765625,
+    -0.01922607421875,
+    -0.039093017578125,
+    -0.01708984375,
+    0.02020263671875,
+    0.0023651123046875,
+    -0.02996826171875,
+    -0.013336181640625,
+    0.04034423828125,
+    0.00385284423828125,
+    0.0177154541015625,
+    0.0006232261657714844,
+    0.0227813720703125,
+    -0.01493072509765625,
+    -0.0037784576416015625,
+    -0.0249786376953125,
+    -0.0168914794921875,
+    0.0104827880859375,
+    -0.01305389404296875,
+    0.019317626953125,
+    -0.02142333984375,
+    0.046417236328125,
+    0.055023193359375,
+    -0.0023937225341796875,
+    0.047210693359375,
+    -0.0283660888671875,
+    -0.0106964111328125,
+    0.0242767333984375,
+    -0.0035400390625,
+    0.00934600830078125,
+    -0.052459716796875,
+    -0.021026611328125,
+    -0.0291595458984375,
+    0.00012105703353881836,
+    0.0003123283386230469,
+    -0.007396697998046875,
+    -0.006038665771484375,
+    -0.025909423828125,
+    0.039520263671875,
+    0.032135009765625,
+    0.00014281272888183594,
+    0.0163421630859375,
+    -0.036834716796875,
+    -0.03216552734375,
+    -0.01021575927734375,
+    0.00021660327911376953,
+    -0.0234832763671875,
+    -0.0704345703125,
+    -0.05450439453125,
+    0.0113372802734375,
+    0.005214691162109375,
+    -0.0272674560546875,
+    -0.03094482421875,
+    -0.0231781005859375,
+    0.031158447265625,
+    -0.0296478271484375,
+    0.041717529296875,
+    -0.005710601806640625,
+    -0.00720977783203125,
+    -0.0199432373046875,
+    -0.00643157958984375,
+    0.016387939453125,
+    0.0087890625,
+    -0.0079803466796875,
+    0.036773681640625,
+    0.02276611328125,
+    -0.019134521484375,
+    -0.014434814453125,
+    0.005634307861328125,
+    0.01226806640625,
+    0.004199981689453125,
+    -0.03216552734375,
+    -0.00754547119140625,
+    0.003307342529296875,
+    -0.0126800537109375,
+    -0.0250396728515625,
+    0.007526397705078125,
+    0.006656646728515625,
+    0.01666259765625,
+    -0.0118255615234375,
+    0.01235198974609375,
+    0.0009036064147949219,
+    -0.01042938232421875,
+    0.0079345703125,
+    -0.021392822265625,
+    -0.0030670166015625,
+    -0.031768798828125,
+    -0.0374755859375,
+    0.0041046142578125,
+    -0.02874755859375,
+    0.024444580078125,
+    0.0188751220703125,
+    0.02850341796875,
+    -0.0076446533203125,
+    0.00762176513671875,
+    -0.0599365234375,
+    0.00489044189453125,
+    0.01678466796875,
+    -0.03900146484375,
+    -0.04388427734375,
+    -0.0109405517578125,
+    -0.0027313232421875,
+    0.05645751953125,
+    0.048553466796875,
+    0.00547027587890625,
+    0.040771484375,
+    0.035186767578125,
+    0.01953125,
+    -0.01235198974609375,
+    0.038543701171875,
+    0.0004963874816894531,
+    0.0228729248046875,
+    -0.0279693603515625,
+    0.028564453125,
+    -0.05181884765625,
+    0.0068817138671875,
+    0.017669677734375,
+    0.03082275390625,
+    -0.036895751953125,
+    0.01555633544921875,
+    -0.0179595947265625,
+    0.01007080078125,
+    0.01222991943359375,
+    -0.0225372314453125,
+    0.01462554931640625,
+    -0.0003685951232910156,
+    0.00313568115234375,
+    -0.051483154296875,
+    -0.005878448486328125,
+    0.03094482421875,
+    0.00653076171875,
+    -0.0182037353515625,
+    -0.0085601806640625,
+    -0.01441192626953125,
+    -0.0068359375,
+    -0.01549530029296875,
+    -0.015289306640625,
+    -0.01091766357421875,
+    -0.010101318359375,
+    -0.0119171142578125,
+    -0.032379150390625,
+    -0.01186370849609375,
+    0.00913238525390625,
+    -0.038909912109375,
+    -0.0225677490234375,
+    0.0283660888671875,
+    -0.0018224716186523438,
+    0.0166015625,
+    -0.037109375,
+    0.01348114013671875,
+    0.04547119140625,
+    -0.035003662109375,
+    0.030242919921875,
+    -0.03411865234375,
+    0.043548583984375,
+    -0.024383544921875,
+    0.00730133056640625,
+    0.01447296142578125,
+    0.01715087890625,
+    -0.004375457763671875,
+    -0.00807952880859375,
+    -0.0263214111328125,
+    -0.03094482421875,
+    0.01556396484375,
+    -0.020050048828125,
+    0.010467529296875,
+    -0.00826263427734375,
+    0.01031494140625,
+    -0.031982421875,
+    -0.0234832763671875,
+    -0.004924774169921875,
+    -0.0187530517578125,
+    0.0009579658508300781,
+    0.052734375,
+    0.00215911865234375,
+    0.02056884765625,
+    0.0017223358154296875,
+    0.014862060546875,
+    -0.00881195068359375,
+    -0.030059814453125,
+    0.02301025390625,
+    -0.016448974609375,
+    0.03173828125,
+    -0.01861572265625,
+    0.03167724609375,
+    -0.037384033203125,
+    -0.028778076171875,
+    -0.0093231201171875,
+    -0.0210418701171875,
+    0.01343536376953125,
+    -0.01105499267578125,
+    0.00411224365234375,
+    0.00701904296875,
+    -0.01023101806640625,
+    -0.005268096923828125,
+    0.041229248046875,
+    0.0224456787109375,
+    0.0255584716796875,
+    -0.01212310791015625,
+    0.0191192626953125,
+    -0.00677490234375,
+    -0.0215301513671875,
+    0.009246826171875,
+    -0.020233154296875,
+    -0.01045989990234375,
+    0.019561767578125,
+    0.025726318359375,
+    -0.0165557861328125,
+    -0.005527496337890625,
+    0.00913238525390625,
+    -0.0213470458984375,
+    -0.0270843505859375,
+    -0.005382537841796875,
+    -0.0181427001953125,
+    0.0239410400390625,
+    0.051116943359375,
+    -0.0009484291076660156,
+    -0.010589599609375,
+    -0.01424407958984375,
+    -0.00948333740234375,
+    -0.00699615478515625,
+    0.024871826171875,
+    0.0179901123046875,
+    0.0095367431640625,
+    -0.0197906494140625,
+    0.00030541419982910156,
+    0.0189056396484375,
+    0.0191192626953125,
+    -0.0039520263671875,
+    0.016754150390625,
+    0.030609130859375,
+    -0.0260162353515625,
+    -0.0016870498657226562,
+    0.004180908203125,
+    -0.0465087890625,
+    -0.047027587890625,
+    0.012786865234375,
+    -0.0211181640625,
+    0.011077880859375,
+    -0.024078369140625,
+    -0.033477783203125,
+    0.0171051025390625,
+    -0.037811279296875,
+    -0.031341552734375,
+    0.00684356689453125,
+    -0.03662109375,
+    0.045989990234375,
+    0.0323486328125,
+    -0.006145477294921875,
+    0.0206451416015625,
+    0.010345458984375,
+    0.0224151611328125,
+    -0.0168609619140625,
+    0.0038280487060546875,
+    0.0239715576171875,
+    -0.0156097412109375,
+    -0.015655517578125,
+    0.0245361328125,
+    -0.01605224609375,
+    -0.01102447509765625,
+    0.022552490234375,
+    0.033294677734375,
+    -0.0411376953125,
+    -0.0003542900085449219,
+    0.01084136962890625,
+    0.03863525390625,
+    -0.007671356201171875,
+    0.012359619140625,
+    0.0025119781494140625,
+    0.01003265380859375,
+    -0.00653839111328125,
+    0.0122528076171875,
+    -0.00039196014404296875,
+    -0.0723876953125,
+    -0.0213623046875,
+    0.037628173828125,
+    -0.002742767333984375,
+    -0.0203857421875,
+    0.0255279541015625,
+    -0.0022449493408203125,
+    -0.005985260009765625,
+    0.038482666015625,
+    -0.0130767822265625,
+    0.010833740234375,
+    -0.036590576171875,
+    0.00223541259765625,
+    0.036285400390625,
+    0.01322174072265625,
+    -0.005649566650390625,
+    0.019378662109375,
+    0.0115814208984375,
+    -0.0191802978515625,
+    0.00458526611328125,
+    -0.0272216796875,
+    0.036163330078125,
+    -0.01035308837890625,
+    -0.0014934539794921875,
+    -0.0261077880859375,
+    -0.0267181396484375,
+    0.0250091552734375,
+    0.03900146484375,
+    -0.0104217529296875,
+    -0.006175994873046875,
+    -0.019500732421875,
+    -0.0229339599609375,
+    0.0003590583801269531,
+    -0.0302276611328125,
+    -0.040924072265625,
+    -0.01123046875,
+    0.000438690185546875,
+    -0.046112060546875,
+    0.018646240234375,
+    0.03631591796875,
+    -0.001445770263671875,
+    0.0266265869140625,
+    0.08453369140625,
+    0.004032135009765625,
+    0.028076171875,
+    -0.03717041015625,
+    0.005344390869140625,
+    0.012786865234375,
+    -0.0184173583984375,
+    -0.0024585723876953125,
+    0.00933837890625,
+    0.0287322998046875,
+    0.0089569091796875,
+    0.009918212890625,
+    -0.024139404296875,
+    -0.00534820556640625,
+    0.032073974609375,
+    0.0023975372314453125,
+    -0.01435089111328125,
+    0.02459716796875,
+    -0.006549835205078125,
+    -0.03173828125,
+    -0.00921630859375,
+    -0.01305389404296875,
+    0.0002956390380859375,
+    -0.007537841796875,
+    -0.032562255859375,
+    0.020599365234375,
+    -0.05401611328125,
+    0.0006427764892578125,
+    0.02496337890625,
+    0.01238250732421875,
+    0.0118255615234375,
+    0.006977081298828125,
+    0.0182037353515625,
+    0.016021728515625,
+    0.02435302734375,
+    -0.01021575927734375,
+    0.0121612548828125,
+    -6.496906280517578e-05,
+    -0.004779815673828125,
+    -0.0328369140625,
+    0.0469970703125,
+    0.0465087890625,
+    -0.013519287109375,
+    -0.01666259765625,
+    -0.02362060546875,
+    -0.01016998291015625,
+    -0.043792724609375,
+    -0.01462554931640625,
+    -0.005504608154296875,
+    0.0006551742553710938,
+    0.0025577545166015625,
+    -0.02264404296875,
+    0.00658416748046875,
+    -0.0013933181762695312,
+    0.023345947265625,
+    -0.054840087890625,
+    0.0667724609375,
+    -0.0550537109375,
+    -0.006717681884765625,
+    0.0177154541015625,
+    0.0088348388671875,
+    0.01611328125,
+    -0.005329132080078125,
+    0.025146484375,
+    -0.042388916015625,
+    0.00997161865234375,
+    -0.0034332275390625,
+    -0.012786865234375,
+    -0.028564453125,
+    0.027008056640625,
+    0.00959014892578125,
+    0.0341796875,
+    0.0226593017578125,
+    0.01064300537109375,
+    -0.03863525390625,
+    -0.0054931640625,
+    -0.01482391357421875,
+    0.011138916015625,
+    -0.035003662109375,
+    -0.0088043212890625,
+    0.003459930419921875,
+    -0.01331329345703125,
+    0.00502777099609375,
+    -0.0025577545166015625,
+    -0.02166748046875,
+    -0.0201568603515625,
+    -0.0143890380859375,
+    0.001476287841796875,
+    -0.055389404296875,
+    0.0069732666015625,
+    0.0141754150390625,
+    -0.01016998291015625,
+    0.038330078125,
+    0.0264434814453125,
+    -0.03277587890625,
+    0.028289794921875,
+    0.034027099609375,
+    0.00392913818359375,
+    0.029205322265625,
+    -0.037200927734375,
+    0.01195526123046875,
+    -0.01312255859375,
+    -0.0418701171875,
+    -0.024169921875,
+    0.006244659423828125,
+    -0.01140594482421875,
+    -0.030181884765625,
+    -0.0009369850158691406,
+    -0.01500701904296875,
+    -0.01042938232421875,
+    -0.024871826171875,
+    0.01180267333984375,
+    -0.00801849365234375,
+    0.0258636474609375,
+    0.01390838623046875,
+    0.008697509765625,
+    0.021148681640625,
+    0.01019287109375,
+    -0.0416259765625,
+    0.0458984375,
+    0.007389068603515625,
+    0.02386474609375,
+    0.0196075439453125,
+    0.0214080810546875,
+    -0.006134033203125,
+    -0.01309967041015625,
+    -0.01111602783203125,
+    -0.0014123916625976562,
+    -0.00865936279296875,
+    0.0013723373413085938,
+    0.01189422607421875,
+    0.0190582275390625,
+    0.00252532958984375,
+    -0.002407073974609375,
+    0.008941650390625,
+    -0.03326416015625,
+    0.0028858184814453125,
+    0.016693115234375,
+    0.02606201171875,
+    -0.0069122314453125,
+    -0.00902557373046875,
+    0.03594970703125,
+    0.0007843971252441406,
+    0.0076446533203125,
+    -0.01213836669921875,
+    -0.0211639404296875,
+    -0.024627685546875,
+    -0.02203369140625,
+    0.0037250518798828125,
+    0.030059814453125,
+    0.0004279613494873047,
+    0.01091766357421875,
+    -0.0224456787109375,
+    0.01430511474609375,
+    0.0016908645629882812,
+    0.0033702850341796875,
+    -0.005756378173828125,
+    0.0022430419921875,
+    -0.047698974609375,
+    -0.0325927734375,
+    0.02679443359375,
+    -0.03326416015625,
+    0.0052642822265625,
+    -0.021453857421875,
+    0.018768310546875,
+    0.0267791748046875,
+    0.01555633544921875,
+    0.0244598388671875,
+    0.0078277587890625,
+    0.001873016357421875,
+    0.027984619140625,
+    -0.0250396728515625,
+    -0.031005859375,
+    9.399652481079102e-05,
+    0.005214691162109375,
+    0.0791015625,
+    0.026397705078125,
+    -0.00948333740234375,
+    -0.048828125,
+    -0.0286102294921875,
+    -0.01012420654296875,
+    0.01125335693359375,
+    -0.0077056884765625,
+    -0.022735595703125,
+    0.031341552734375,
+    0.0036296844482421875,
+    0.0059051513671875,
+    0.0110626220703125,
+    -0.0157623291015625,
+    -0.0166778564453125,
+    -0.016143798828125,
+    0.003662109375,
+    -0.00513458251953125,
+    -0.001575469970703125,
+    -0.0214996337890625,
+    -0.0080413818359375,
+    0.04052734375,
+    0.036163330078125,
+    5.0961971282958984e-05,
+    -0.01104736328125,
+    -0.023101806640625,
+    0.0218963623046875,
+    -0.0088043212890625,
+    0.018463134765625,
+    0.023223876953125,
+    0.013763427734375,
+    -0.03802490234375,
+    0.004009246826171875,
+    0.0036525726318359375,
+    -0.01197052001953125,
+    0.01824951171875,
+    -0.0091094970703125,
+    0.005840301513671875,
+    -0.0014410018920898438,
+    -0.00926971435546875,
+    0.02850341796875,
+    0.0002522468566894531,
+    0.01456451416015625,
+    0.0013189315795898438,
+    0.0189666748046875,
+    0.01007080078125,
+    -0.0041046142578125,
+    -0.0157623291015625,
+    -0.0165252685546875,
+    -0.0199127197265625,
+    0.0256805419921875,
+    0.016143798828125,
+    -0.019866943359375,
+    0.00182342529296875,
+    0.037933349609375,
+    -0.02947998046875,
+    -0.02093505859375,
+    0.0018978118896484375,
+    -0.00946807861328125,
+    -0.0013895034790039062,
+    -0.0039825439453125,
+    0.00315093994140625,
+    -0.0164337158203125,
+    -0.01493072509765625,
+    0.00518798828125,
+    -0.0010967254638671875,
+    -0.026458740234375,
+    -0.02166748046875,
+    0.037384033203125,
+    0.01403045654296875,
+    -0.04949951171875,
+    0.037200927734375,
+    0.007778167724609375,
+    -0.0199127197265625,
+    0.0030422210693359375,
+    0.00567626953125,
+    -0.01352691650390625,
+    -0.0247650146484375,
+    -0.005084991455078125,
+    0.003692626953125,
+    -0.0153656005859375,
+    -0.0112457275390625,
+    -0.0023956298828125,
+    -0.04461669921875,
+    0.0211029052734375,
+    0.052978515625,
+    -0.01335906982421875,
+    0.005828857421875,
+    -0.0384521484375,
+    -0.01520538330078125,
+    -0.00457000732421875,
+    -0.0202178955078125,
+    -0.0119781494140625,
+    0.021942138671875,
+    0.0063934326171875,
+    0.004852294921875,
+    0.03753662109375,
+    0.0136566162109375,
+    0.002544403076171875,
+    -0.017974853515625,
+    0.0200653076171875,
+    -0.0156402587890625,
+    0.01194000244140625,
+    0.03997802734375,
+    -0.0215606689453125,
+    -0.031707763671875,
+    0.0205535888671875,
+    0.0047149658203125,
+    0.0194549560546875,
+    0.0196075439453125,
+    0.03302001953125,
+    0.035858154296875,
+    0.0106048583984375,
+    0.005809783935546875,
+    0.01143646240234375,
+    0.04010009765625,
+    -0.0041046142578125,
+    -0.01727294921875,
+    -0.0026416778564453125,
+    0.0171051025390625,
+    0.0243377685546875,
+    0.004528045654296875,
+    0.0256500244140625,
+    0.0023899078369140625,
+    0.00833892822265625,
+    0.0286712646484375,
+    -0.0201263427734375,
+    -0.005580902099609375,
+    -0.0274200439453125,
+    -0.0295867919921875,
+    -0.033599853515625,
+    -0.01534271240234375,
+    0.02752685546875,
+    -0.015655517578125,
+    -0.03302001953125,
+    0.00958251953125,
+    0.0013990402221679688,
+    -0.040435791015625,
+    -0.0178070068359375,
+    0.00847625732421875,
+    0.0084228515625,
+    -0.016815185546875,
+    -0.01020050048828125,
+    -0.0248870849609375,
+    -0.006664276123046875,
+    -0.0616455078125,
+    0.015777587890625,
+    -0.025909423828125,
+    0.002735137939453125,
+    0.01096343994140625,
+    0.040435791015625,
+    -0.0151214599609375,
+    -0.0119476318359375,
+    -0.006679534912109375,
+    0.00978851318359375,
+    0.0183258056640625,
+    0.00885772705078125,
+    0.045196533203125,
+    -0.034881591796875,
+    -0.0214385986328125,
+    0.01488494873046875,
+    -0.0272216796875,
+    -0.00356292724609375,
+    0.02972412109375,
+    -0.01134490966796875,
+    -0.006603240966796875,
+    -0.00653839111328125,
+    0.0184173583984375,
+    0.01776123046875,
+    0.01776123046875,
+    -0.007724761962890625,
+    -0.0263671875,
+    0.0022945404052734375,
+    0.0167694091796875,
+    -0.0026302337646484375,
+    -0.03704833984375,
+    0.043792724609375,
+    0.043914794921875,
+    -0.0253143310546875,
+    0.004344940185546875,
+    0.04339599609375,
+    0.016693115234375,
+    -0.0067291259765625,
+    -0.0210418701171875,
+    -0.0278167724609375,
+    -0.01084136962890625,
+    0.02496337890625,
+    0.006801605224609375,
+    0.046600341796875,
+    -0.0225067138671875,
+    0.005680084228515625,
+    -0.038116455078125,
+    0.0033321380615234375,
+    0.04833984375,
+    0.01275634765625,
+    0.017547607421875,
+    -0.019012451171875,
+    -0.020355224609375,
+    0.007175445556640625,
+    0.00327301025390625,
+    -0.01311492919921875,
+    -0.0306243896484375,
+    -0.0209503173828125,
+    0.029510498046875,
+    -0.006954193115234375,
+    0.030487060546875,
+    1.0609626770019531e-05,
+    0.035614013671875,
+    -0.0236968994140625,
+    0.004932403564453125,
+    0.0200653076171875,
+    0.02099609375,
+    0.0033740997314453125,
+    0.0219573974609375,
+    0.0063018798828125,
+    -0.01222991943359375,
+    0.00931549072265625,
+    -0.013031005859375,
+    -0.0200958251953125,
+    0.04742431640625,
+    0.038482666015625,
+    -0.0086822509765625,
+    0.01611328125,
+    -0.0309906005859375,
+    0.0269927978515625,
+    0.0159759521484375,
+    0.01244354248046875,
+    0.003200531005859375,
+    -0.0158538818359375,
+    -0.028778076171875,
+    0.0233612060546875,
+    0.01910400390625,
+    -0.00019371509552001953,
+    -0.017059326171875,
+    0.01435089111328125,
+    0.03387451171875,
+    -0.00635528564453125,
+    -0.02056884765625,
+    -0.006710052490234375,
+    0.00868988037109375,
+    0.0078582763671875,
+    0.006378173828125,
+    0.027252197265625,
+    0.019256591796875,
+    0.01424407958984375,
+    0.00209808349609375,
+    0.0015277862548828125,
+    -0.039154052734375,
+    -0.003509521484375,
+    -0.0006222724914550781,
+    0.027130126953125,
+    0.04412841796875,
+    0.00865936279296875,
+    0.007167816162109375,
+    0.014251708984375,
+    -0.0102386474609375,
+    0.004344940185546875,
+    -0.0335693359375,
+    -0.01137542724609375,
+    -0.03466796875,
+    -0.03546142578125,
+    -0.010406494140625,
+    0.0252685546875,
+    -0.0199737548828125,
+    0.019073486328125,
+    0.0233612060546875,
+    -0.041717529296875,
+    -0.01666259765625,
+    -0.0173187255859375,
+    -0.0009164810180664062,
+    0.00262451171875,
+    -0.014251708984375,
+    0.0069732666015625,
+    -0.016815185546875,
+    -0.00628662109375,
+    -0.01290130615234375,
+    0.01287078857421875,
+    0.041961669921875,
+    -0.0095367431640625,
+    -0.037841796875,
+    0.00859832763671875,
+    -0.0430908203125,
+    0.0111541748046875,
+    0.017333984375,
+    0.015716552734375,
+    0.00321197509765625,
+    -0.0318603515625,
+    0.0009284019470214844,
+    0.029052734375,
+    0.0136260986328125,
+    0.0029125213623046875,
+    -0.0016689300537109375,
+    -0.0111083984375,
+    -0.0030574798583984375,
+    -0.0311737060546875,
+    0.02276611328125,
+    -0.0041656494140625,
+    0.0008635520935058594,
+    -0.0153961181640625,
+    0.0070343017578125,
+    0.004528045654296875,
+    -0.040863037109375,
+    0.00653839111328125,
+    -0.0100555419921875,
+    0.0008745193481445312,
+    0.0240936279296875,
+    0.028076171875,
+    0.0211334228515625,
+    -0.0036296844482421875,
+    0.033935546875,
+    -0.0078277587890625,
+    -0.006603240966796875,
+    -0.01488494873046875,
+    -0.00626373291015625,
+    0.01134490966796875,
+    0.006580352783203125,
+    0.0146636962890625,
+    0.00487518310546875,
+    0.00388336181640625,
+    0.006420135498046875,
+    -0.0007867813110351562,
+    0.01549530029296875,
+    -0.00258636474609375,
+    0.024383544921875,
+    0.033355712890625,
+    0.0184783935546875,
+    -0.005741119384765625,
+    -0.010711669921875,
+    -0.0231781005859375,
+    0.04010009765625,
+    0.006198883056640625,
+    0.000385284423828125,
+    0.01224517822265625,
+    -0.004230499267578125,
+    -0.026123046875,
+    -0.020538330078125,
+    -0.0161285400390625,
+    0.0121612548828125,
+    -0.016082763671875,
+    -0.00957489013671875,
+    -0.012176513671875,
+    0.01120758056640625,
+    -0.0096435546875,
+    -0.01409912109375,
+    -0.025054931640625,
+    -0.0267181396484375,
+    0.0185394287109375,
+    0.002166748046875,
+    -0.016021728515625,
+    0.01788330078125,
+    -0.033294677734375,
+    0.00475311279296875,
+    0.0242767333984375,
+    0.0011920928955078125,
+    -0.01275634765625,
+    -0.029754638671875,
+    0.01220703125,
+    -0.0050811767578125,
+    -0.0122222900390625,
+    -0.009002685546875,
+    -0.03778076171875,
+    -0.0116119384765625,
+    -0.00733184814453125,
+    0.01335906982421875,
+    0.0022296905517578125,
+    0.0665283203125,
+    -0.01299285888671875,
+    -0.01088714599609375,
+    0.0200347900390625,
+    -0.0130767822265625,
+    -0.0082855224609375,
+    -0.0218505859375,
+    -0.01277923583984375,
+    -0.00109100341796875,
+    -0.0288848876953125,
+    -0.0230865478515625,
+    -0.00762176513671875,
+    -0.0175933837890625,
+    0.006191253662109375,
+    0.0002963542938232422,
+    -0.011749267578125,
+    -0.0142059326171875,
+    -0.0004055500030517578,
+    0.008148193359375,
+    -0.013885498046875,
+    -0.0067596435546875,
+    -0.004116058349609375,
+    -0.010711669921875,
+    0.02142333984375
+  ]
+}
