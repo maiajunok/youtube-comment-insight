@@ -290,7 +290,7 @@ const reportInsightComment = (ins: { comment: string; commentEn?: string; commen
           <polyline points="14 2 14 8 20 8"/>
           <path d="M12 18v-6M9.5 14.5 12 17l2.5-2.5"/>
         </svg>
-        {{ M.exportJsonBtn }}
+        {{ messages[settings.lang].exportJsonBtn }}
       </button>
 
       <!-- 분석기록에서 열었을 때만 PDF 내보내기 표시 (다시 분석하기는 VideoInfoCard의 분석일자 옆에) -->
