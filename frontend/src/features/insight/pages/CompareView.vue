@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, onMounted, watch, computed } from 'vue'
+import { ref, onMounted, onBeforeUnmount, watch, computed } from 'vue'
 import { useRouter, useRoute } from 'vue-router'
 import { insightApi } from '@/features/insight/api/insightApi'
 import type { HistoryItem, InsightData } from '@/features/insight/types/insight'
@@ -11,6 +11,24 @@ const router = useRouter()
 const route = useRoute()
 const settings = useSettingsStore()
 const M = computed(() => messages[settings.lang])
+
+const SORT_OPTIONS = computed(() => [
+  { key: 'date'      as SortKey, label: M.value.sortDate },
+  { key: 'positive'  as SortKey, label: M.value.sortPos  },
+  { key: 'negative'  as SortKey, label: M.value.sortNeg  },
+  { key: 'published' as SortKey, label: M.value.sortPub  },
+])
+
+// HistoryView.vue의 정렬 드롭다운과 같은 패턴 — 이 화면에서만 쓰므로 그대로 복사해둠
+type SortKey = 'date' | 'positive' | 'negative' | 'published'
+const sortKey = ref<SortKey>('date')
+const dropdownOpen = ref(false)
+function onClickOutside(e: MouseEvent) {
+  const el = document.querySelector('.sort-dropdown')
+  if (el && !el.contains(e.target as Node)) dropdownOpen.value = false
+}
+onMounted(() => document.addEventListener('mousedown', onClickOutside))
+onBeforeUnmount(() => document.removeEventListener('mousedown', onClickOutside))
 
 const history = ref<HistoryItem[]>([])
 const isLoadingHistory = ref(true)
@@ -48,6 +66,14 @@ watch(() => route.query.ids, (idsParam) => {
   } else if (phase.value === 'compare') {
     reset()
   }
+})
+
+const sortedHistory = computed(() => {
+  const arr = [...history.value]
+  if (sortKey.value === 'positive')  return arr.sort((a, b) => b.overallSentiment.positive  - a.overallSentiment.positive)
+  if (sortKey.value === 'negative')  return arr.sort((a, b) => b.overallSentiment.negative  - a.overallSentiment.negative)
+  if (sortKey.value === 'published') return arr.sort((a, b) => b.publishedAt.localeCompare(a.publishedAt))
+  return arr.sort((a, b) => b.analyzedAt.localeCompare(a.analyzedAt))
 })
 
 const toggle = (id: string) => {
@@ -200,9 +226,33 @@ const cControversyScore = (d: InsightData) => {
         <p>{{ M.compareNone }}</p>
       </div>
 
-      <div v-else class="sel-grid">
+      <div v-if="history.length" class="sel-toolbar">
+        <div class="sort-dropdown">
+          <button class="sort-trigger" @click="dropdownOpen = !dropdownOpen">
+            {{ SORT_OPTIONS.find(o => o.key === sortKey)?.label }}
+            <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+              :style="{ transform: dropdownOpen ? 'rotate(180deg)' : 'none', transition: 'transform .18s' }">
+              <polyline points="6 9 12 15 18 9"/>
+            </svg>
+          </button>
+          <div v-if="dropdownOpen" class="sort-menu">
+            <button
+              v-for="opt in SORT_OPTIONS"
+              :key="opt.key"
+              class="sort-option"
+              :class="{ active: sortKey === opt.key }"
+              @click="sortKey = opt.key; dropdownOpen = false"
+            >
+              <span class="sort-option-dot" v-if="sortKey === opt.key" />
+              {{ opt.label }}
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div v-if="history.length" class="sel-grid">
         <div
-          v-for="item in history"
+          v-for="item in sortedHistory"
           :key="item.videoId"
           class="sel-card"
           :class="{
@@ -479,6 +529,82 @@ const cControversyScore = (d: InsightData) => {
   align-items: center; justify-content: center;
   gap: 12px; padding: 80px 0;
   font-size: 13px; color: var(--subtext); text-align: center;
+}
+
+/* ── 정렬 드롭다운 — HistoryView.vue와 같은 패턴, 이 화면에서만 쓰므로 그대로 복사해둠 ── */
+.sel-toolbar {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 12px;
+}
+.sort-dropdown {
+  position: relative;
+  flex-shrink: 0;
+}
+.sort-trigger {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: var(--font-family);
+  padding: 6px 12px;
+  border-radius: 8px;
+  border: 0.5px solid var(--border);
+  background: transparent;
+  color: var(--subtext);
+  cursor: pointer;
+  transition: border-color .15s, color .15s, background .15s;
+  white-space: nowrap;
+}
+.sort-trigger:hover {
+  color: var(--text);
+  background: var(--card-hover);
+  border-color: rgb(from var(--accent) r g b / 0.4);
+}
+.sort-menu {
+  position: absolute;
+  top: calc(100% + 6px);
+  right: 0;
+  min-width: 130px;
+  background: var(--card);
+  border: 0.5px solid var(--border);
+  border-radius: 10px;
+  padding: 4px;
+  z-index: 50;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+}
+.sort-option {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  padding: 7px 10px;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: var(--font-family);
+  color: var(--subtext);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  transition: background .12s, color .12s;
+}
+.sort-option:hover {
+  background: rgb(from var(--accent) r g b / 0.07);
+  color: var(--text);
+}
+.sort-option.active {
+  color: var(--accent);
+  font-weight: 600;
+}
+.sort-option-dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--accent);
+  flex-shrink: 0;
 }
 
 /* ── 선택 그리드 ── */
