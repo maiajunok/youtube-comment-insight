@@ -7,14 +7,64 @@ import { useSettingsStore } from '@/features/settings/stores/settings'
 import type { HistoryItem } from '@/features/insight/types/insight'
 import { messages } from '@/locales/messages'
 import { fillTopicLabels, displayLabel } from '@/features/insight/composables/useLabelTranslation'
+import { useHistory, type HistoryEntry } from '@/features/insight/composables/useHistory'
+import { parseBackup } from '@/features/insight/composables/useJsonBackup'
 
 const router        = useRouter()
 const analysisStore = useAnalysisStore()
 const settings      = useSettingsStore()
 
+type DisplayItem = HistoryItem & { importedOnly?: boolean }
+
 const items = ref<HistoryItem[]>([])
 const isLoading = ref(true)
 const error = ref('')
+
+// 백엔드 분석 기록과 별개로, 사용자가 JSON으로 업로드해 이 브라우저에만 저장된 항목 —
+// 같은 videoId가 백엔드에도 이미 있으면 굳이 중복으로 보여줄 필요 없어서 그 경우엔 숨김
+const localEntries = ref<HistoryEntry[]>(useHistory().getAll())
+function entryToDisplayItem(e: HistoryEntry): DisplayItem {
+  const topics = e.data.topics
+  const total = topics.reduce((sum, t) => sum + t.mentionCount, 0) || 1
+  const positive = Math.round(topics.reduce((sum, t) => sum + t.sentiment.positive * t.mentionCount, 0) / total)
+  const negative = Math.round(topics.reduce((sum, t) => sum + t.sentiment.negative * t.mentionCount, 0) / total)
+  return {
+    videoId: e.videoId,
+    title: e.data.video.title,
+    channelTitle: e.data.video.channelTitle,
+    thumbnailUrl: e.data.video.thumbnailUrl,
+    publishedAt: e.data.video.publishedAt,
+    analyzedComments: e.data.video.analyzedComments,
+    analyzedAt: e.data.analyzedAt ?? e.savedAt,
+    topTopics: topics.slice(0, 3),
+    overallSentiment: { positive, negative },
+    importedOnly: true,
+  }
+}
+const localOnlyItems = computed<DisplayItem[]>(() => {
+  const backendIds = new Set(items.value.map(i => i.videoId))
+  return localEntries.value.filter(e => e.importedOnly && !backendIds.has(e.videoId)).map(entryToDisplayItem)
+})
+const allItems = computed<DisplayItem[]>(() => [...items.value, ...localOnlyItems.value])
+
+const importInput = ref<HTMLInputElement | null>(null)
+function triggerImport() { importInput.value?.click() }
+
+async function onImportFiles(e: Event) {
+  const files = (e.target as HTMLInputElement).files
+  if (!files?.length) return
+  for (const file of Array.from(files)) {
+    try {
+      const backup = parseBackup(await file.text())
+      if (!backup) { error.value = M.value.importJsonError; continue }
+      useHistory().save(backup.videoId, backup.data, backup.graph, true)
+    } catch {
+      error.value = M.value.importJsonError
+    }
+  }
+  localEntries.value = useHistory().getAll()
+  ;(e.target as HTMLInputElement).value = '' // 같은 파일을 다시 선택해도 change가 또 발생하게
+}
 
 type SortKey = 'date' | 'positive' | 'negative' | 'published'
 const sortKey = ref<SortKey>('date')
@@ -46,7 +96,7 @@ onMounted(() => document.addEventListener('mousedown', onClickOutside))
 onBeforeUnmount(() => document.removeEventListener('mousedown', onClickOutside))
 
 const sortedItems = computed(() => {
-  const arr = [...items.value]
+  const arr = [...allItems.value]
   if (sortKey.value === 'positive')  return arr.sort((a, b) => b.overallSentiment.positive  - a.overallSentiment.positive)
   if (sortKey.value === 'negative')  return arr.sort((a, b) => b.overallSentiment.negative  - a.overallSentiment.negative)
   if (sortKey.value === 'published') return arr.sort((a, b) => b.publishedAt.localeCompare(a.publishedAt))
@@ -56,7 +106,7 @@ const sortedItems = computed(() => {
 onMounted(async () => {
   try {
     items.value = await insightApi.getHistory()
-    fillTopicLabels(items.value.flatMap(i => i.topTopics), settings.lang)
+    fillTopicLabels(allItems.value.flatMap(i => i.topTopics), settings.lang)
   } catch {
     error.value = '기록을 불러오지 못했습니다. 백엔드 서버가 실행 중인지 확인해주세요.'
   } finally {
@@ -65,7 +115,7 @@ onMounted(async () => {
 })
 
 watch(() => settings.lang, (lang) => {
-  fillTopicLabels(items.value.flatMap(i => i.topTopics), lang)
+  fillTopicLabels(allItems.value.flatMap(i => i.topTopics), lang)
 })
 
 const fmtDate = (iso: string) => {
@@ -79,7 +129,17 @@ const fmtNum = (n: number) =>
   n >= 1_000     ? (n / 1_000).toFixed(1) + 'K'     :
   String(n)
 
-const onView = async (item: HistoryItem) => {
+const onView = async (item: DisplayItem) => {
+  // 로컬로 가져온 항목은 서버에 실제로 존재하지 않으므로 재요청하지 않고 저장된 데이터를 그대로 씀
+  if (item.importedOnly) {
+    const entry = localEntries.value.find(e => e.videoId === item.videoId)
+    if (entry) {
+      analysisStore.setResult(entry.data)
+      // id를 남겨둬야 새로고침 시 HomeView가 로컬 저장소에서 같은 항목을 다시 찾을 수 있음
+      await router.push({ name: 'history-view', query: { id: item.videoId } })
+    }
+    return
+  }
   try {
     const data = await insightApi.getByVideoId(item.videoId)
     analysisStore.setResult(data)
@@ -101,6 +161,12 @@ async function confirmDelete() {
   const videoId = pendingDeleteId.value
   if (!videoId) return
   pendingDeleteId.value = null
+  const localItem = localOnlyItems.value.find(i => i.videoId === videoId)
+  if (localItem) {
+    useHistory().remove(videoId)
+    localEntries.value = useHistory().getAll()
+    return
+  }
   try {
     await insightApi.deleteCache(videoId)
     items.value = items.value.filter(i => i.videoId !== videoId)
@@ -122,26 +188,40 @@ async function confirmDelete() {
         </p>
       </div>
 
-      <!-- 정렬 드롭다운 -->
-      <div class="sort-dropdown">
-        <button class="sort-trigger" @click="dropdownOpen = !dropdownOpen">
-          {{ SORT_OPTIONS.find(o => o.key === sortKey)?.label }}
-          <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
-            :style="{ transform: dropdownOpen ? 'rotate(180deg)' : 'none', transition: 'transform .18s' }">
-            <polyline points="6 9 12 15 18 9"/>
+      <div style="display:flex; align-items:center; gap:8px;">
+        <!-- JSON 불러오기 — 서버 호출 없이 이 브라우저(localStorage)에만 저장됨.
+             여러 파일을 한 번에 선택할 수 있음 -->
+        <input ref="importInput" type="file" accept=".json,application/json" multiple hidden @change="onImportFiles" />
+        <button class="sort-trigger" @click="triggerImport">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+            <polyline points="14 2 14 8 20 8"/>
+            <path d="M12 11v6M9.5 14.5 12 17l2.5-2.5"/>
           </svg>
+          {{ M.importJsonBtn }}
         </button>
-        <div v-if="dropdownOpen" class="sort-menu">
-          <button
-            v-for="opt in SORT_OPTIONS"
-            :key="opt.key"
-            class="sort-option"
-            :class="{ active: sortKey === opt.key }"
-            @click="sortKey = opt.key; dropdownOpen = false"
-          >
-            <span class="sort-option-dot" v-if="sortKey === opt.key" />
-            {{ opt.label }}
+
+        <!-- 정렬 드롭다운 -->
+        <div class="sort-dropdown">
+          <button class="sort-trigger" @click="dropdownOpen = !dropdownOpen">
+            {{ SORT_OPTIONS.find(o => o.key === sortKey)?.label }}
+            <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+              :style="{ transform: dropdownOpen ? 'rotate(180deg)' : 'none', transition: 'transform .18s' }">
+              <polyline points="6 9 12 15 18 9"/>
+            </svg>
           </button>
+          <div v-if="dropdownOpen" class="sort-menu">
+            <button
+              v-for="opt in SORT_OPTIONS"
+              :key="opt.key"
+              class="sort-option"
+              :class="{ active: sortKey === opt.key }"
+              @click="sortKey = opt.key; dropdownOpen = false"
+            >
+              <span class="sort-option-dot" v-if="sortKey === opt.key" />
+              {{ opt.label }}
+            </button>
+          </div>
         </div>
       </div>
     </div>
@@ -156,7 +236,7 @@ async function confirmDelete() {
     </div>
 
     <!-- 빈 상태 -->
-    <div v-else-if="!items.length" class="flex flex-col items-center justify-center py-32 gap-3">
+    <div v-else-if="!allItems.length" class="flex flex-col items-center justify-center py-32 gap-3">
       <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
         style="color: var(--subtext)">
         <circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>
@@ -178,13 +258,15 @@ async function confirmDelete() {
         style="background: var(--card); border-color: var(--border)"
       >
         <!-- 썸네일 -->
-        <div class="aspect-video bg-slate-800/60 overflow-hidden shrink-0">
+        <div class="aspect-video bg-slate-800/60 overflow-hidden shrink-0" style="position:relative;">
           <img
             :src="item.thumbnailUrl"
             :alt="item.title"
             class="w-full h-full object-cover"
             @error="($event.target as HTMLImageElement).style.opacity = '0'"
           />
+          <!-- 백엔드에 없고 이 브라우저에 업로드해서만 있는 항목임을 표시 -->
+          <span v-if="item.importedOnly" class="imported-badge">{{ M.importedBadge }}</span>
         </div>
 
         <div class="flex flex-col gap-3 flex-1" style="padding: 18px 20px 16px;">
@@ -367,6 +449,20 @@ async function confirmDelete() {
   border: 0.5px solid rgb(from var(--accent) r g b / 0.22);
   white-space: nowrap;
   letter-spacing: 0.01em;
+}
+
+.imported-badge {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.55);
+  color: #fff;
+  backdrop-filter: blur(4px);
 }
 
 .delete-btn {

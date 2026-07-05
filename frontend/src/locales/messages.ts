@@ -65,6 +65,10 @@ export interface UIMessages {
   sortPos: string
   sortNeg: string
   sortPub: string
+  exportJsonBtn: string
+  importJsonBtn: string
+  importedBadge: string
+  importJsonError: string
   // 분석 지표
   sentimentScore: string
   sentimentScoreDesc: string
@@ -272,6 +276,10 @@ export const messages: Record<Lang, UIMessages> = {
     goAnalyze: '지금 분석하러 가기',
     viewBtn: '보기',
     deleteBtn: '삭제',
+    exportJsonBtn: 'JSON 다운로드',
+    importJsonBtn: 'JSON 불러오기',
+    importedBadge: '로컬',
+    importJsonError: '올바른 분석 결과 JSON 파일이 아닙니다.',
     sortDate: '분석 최신순',
     sortPos: '긍정 높은순',
     sortNeg: '부정 높은순',
@@ -469,6 +477,10 @@ export const messages: Record<Lang, UIMessages> = {
     goAnalyze: 'Start Analyzing',
     viewBtn: 'View',
     deleteBtn: 'Delete',
+    exportJsonBtn: 'Download JSON',
+    importJsonBtn: 'Import JSON',
+    importedBadge: 'Local',
+    importJsonError: 'Not a valid analysis JSON file.',
     sortDate: 'Newest Analysis',
     sortPos: 'Most Positive',
     sortNeg: 'Most Negative',
@@ -666,6 +678,10 @@ export const messages: Record<Lang, UIMessages> = {
     goAnalyze: '开始分析',
     viewBtn: '查看',
     deleteBtn: '删除',
+    exportJsonBtn: '下载 JSON',
+    importJsonBtn: '导入 JSON',
+    importedBadge: '本地',
+    importJsonError: '不是有效的分析结果 JSON 文件。',
     sortDate: '最新分析',
     sortPos: '正面最高',
     sortNeg: '负面最高',
@@ -863,6 +879,10 @@ export const messages: Record<Lang, UIMessages> = {
     goAnalyze: '今すぐ分析する',
     viewBtn: '表示',
     deleteBtn: '削除',
+    exportJsonBtn: 'JSONをダウンロード',
+    importJsonBtn: 'JSONを読み込む',
+    importedBadge: 'ローカル',
+    importJsonError: '正しい分析結果のJSONファイルではありません。',
     sortDate: '最新の分析',
     sortPos: 'ポジティブ高順',
     sortNeg: 'ネガティブ高順',

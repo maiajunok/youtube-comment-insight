@@ -78,7 +78,7 @@ Paste any YouTube URL and instantly get a structured breakdown of what the audie
 ### 6. History & Compare
 - All analyzed videos are cached and accessible from the History tab
 - Compare up to **3 videos side-by-side**
-- Export analysis as PDF
+- Export analysis as PDF or as a JSON backup (video info, topics, timeline, key insights, reaction map). Import one or more JSON backups back in — no server call, no re-analysis, restored straight from the file into the History list
 
 ### 7. Stats Dashboard
 - Total analyses, comments processed, tokens used
@@ -365,7 +365,7 @@ YouTube URL을 붙여넣으면 AI가 댓글을 수집하고 감정 분석 · 토
 ### 6. 히스토리 & 비교
 - 분석된 영상은 모두 캐시로 저장되어 히스토리 탭에서 확인 가능
 - 최대 **3개 영상 나란히 비교**
-- 분석 결과 PDF 내보내기
+- 분석 결과를 PDF 또는 JSON(영상 정보·토픽·타임라인·핵심 인사이트·반응 지도)으로 내보내기. JSON은 서버 호출·재분석 없이 파일에서 바로 히스토리 목록으로 복원(여러 개 한 번에 업로드 가능)
 
 ### 7. 통계 대시보드
 - 전체 분석 수, 처리 댓글 수, 사용 토큰 수

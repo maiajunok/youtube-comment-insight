@@ -4,10 +4,12 @@ import { messages } from '@/locales/messages'
 import { storeToRefs } from 'pinia'
 import { useHistory } from '@/features/insight/composables/useHistory'
 import { fillTopicLabels, displayLabel } from '@/features/insight/composables/useLabelTranslation'
+import { buildBackup, downloadBackup } from '@/features/insight/composables/useJsonBackup'
 import { useSettingsStore } from '@/features/settings/stores/settings'
 import { useAnalysisStore } from '@/features/insight/stores/analysis'
 import { useRouter, useRoute } from 'vue-router'
 import { insightApi } from '@/features/insight/api/insightApi'
+import type { CommentGraphData } from '@/features/insight/types/insight'
 import VideoInfoCard     from '@/features/insight/components/VideoInfoCard.vue'
 import TopReactionTopics from '@/features/insight/components/TopReactionTopics.vue'
 import ReactionTimeline  from '@/features/insight/components/ReactionTimeline.vue'
@@ -53,7 +55,9 @@ function goToHistory() {
   router.push({ name: 'history' })
 }
 
-// 새로고침해도 히스토리에서 보던 영상이 유지되도록 URL의 id로 다시 불러옴
+// 새로고침해도 히스토리에서 보던 영상이 유지되도록 URL의 id로 다시 불러옴.
+// JSON으로 가져온(로컬 전용) 영상은 백엔드에 실제로 없어서 이 요청이 404가 나는데,
+// 그때는 바로 목록으로 돌려보내지 않고 로컬 저장소에도 있는지 한 번 더 확인함
 onMounted(async () => {
   const id = route.query.id
   if (route.name === 'history-view' && typeof id === 'string' && !data.value) {
@@ -61,7 +65,9 @@ onMounted(async () => {
       const result = await insightApi.getByVideoId(id)
       analysisStore.setResult(result)
     } catch {
-      router.push({ name: 'history' })
+      const local = useHistory().getAll().find(e => e.videoId === id)
+      if (local) analysisStore.setResult(local.data)
+      else router.push({ name: 'history' })
     }
   }
 })
@@ -123,6 +129,24 @@ const backLabel = computed(() =>
 )
 
 function exportPDF() { window.print() }
+
+// JSON 백업 — 서버에는 아무것도 보내지 않고 지금 화면에 있는 분석 결과(+ 있으면 반응 지도)를
+// 그대로 파일로 내려받게 함. 반응 지도는 아직 생성 안 됐거나 실패했을 수 있어서(백그라운드
+// 생성) 조회에 실패해도 조용히 무시하고 나머지 데이터만으로 내려받음
+const isExportingJson = ref(false)
+async function exportJSON() {
+  if (!data.value || isExportingJson.value) return
+  isExportingJson.value = true
+  try {
+    let graph: CommentGraphData | null = null
+    try {
+      graph = await insightApi.getGraph(data.value.video.videoId)
+    } catch { /* 반응 지도가 없어도 나머지 데이터는 그대로 내려받음 */ }
+    downloadBackup(buildBackup(data.value, graph))
+  } finally {
+    isExportingJson.value = false
+  }
+}
 
 // 다시 분석하기 — 캐시 삭제 후 같은 URL로 재분석. 다른 영상이 이미 분석 중이면
 // 대기열에 들어갔다가 순서가 오면 자동 실행됨(analysisStore.submit 참고)
@@ -256,6 +280,17 @@ const reportInsightComment = (ins: { comment: string; commentEn?: string; commen
           <polyline points="15 18 9 12 15 6"/>
         </svg>
         {{ backLabel }}
+      </button>
+
+      <!-- JSON 백업은 분석 직후든 기록에서 열었든 항상 내려받을 수 있게 함 — 서버에는
+           아무것도 안 보내고 지금 화면의 데이터를 그대로 파일로 저장 -->
+      <button class="export-btn" :disabled="isExportingJson" @click="exportJSON">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+          <polyline points="14 2 14 8 20 8"/>
+          <path d="M12 18v-6M9.5 14.5 12 17l2.5-2.5"/>
+        </svg>
+        {{ M.exportJsonBtn }}
       </button>
 
       <!-- 분석기록에서 열었을 때만 PDF 내보내기 표시 (다시 분석하기는 VideoInfoCard의 분석일자 옆에) -->
