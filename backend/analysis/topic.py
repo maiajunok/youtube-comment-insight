@@ -5,6 +5,7 @@ from dotenv import load_dotenv
 from openai import OpenAI
 
 from analysis.embedding import cosine_sim, embed
+from analysis.stats import rate_confidence
 
 load_dotenv(override=True)
 
@@ -142,6 +143,12 @@ JSON만 반환:
                 "positive": round(pos / total * 100),
                 "neutral": round(neu / total * 100),
                 "negative": round(neg / total * 100),
+            },
+            # 긍정/부정 %가 이 토픽 댓글 수(len(tc)) 기준으로 얼마나 믿을 만한지 —
+            # 표본이 적은 토픽에서 "80% 긍정" 같은 값이 과신되는 걸 막기 위한 신뢰도 배지용
+            "confidence": {
+                "positive": rate_confidence(pos, len(tc)),
+                "negative": rate_confidence(neg, len(tc)),
             },
             "topPositiveComment": {"text": top_pos["text"], "likes": top_pos["likeCount"]} if top_pos else None,
             "topNegativeComment": {"text": top_neg["text"], "likes": top_neg["likeCount"]} if top_neg else None,

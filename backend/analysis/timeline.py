@@ -3,12 +3,16 @@
 
 import math
 
+import numpy as np
 import pandas as pd
 
 # 등빈도 구간화 기준 버킷 크기 + z-score 이상치 임계값
 _TIMELINE_BUCKET_SIZE = 40
 _TIMELINE_Z_THRESHOLD = 1.5
 _TIMELINE_MIN_COMMENTS = 20  # 이보다 적으면 구간화 없이 통짜 1개 구간으로 반환
+# 댓글량(volume) 급증 이상치 임계값 — 감정 z-score와 같은 값을 쓰되 별도 상수로 분리해
+# 나중에 독립적으로 튜닝할 수 있게 함
+_VOLUME_Z_THRESHOLD = 1.5
 
 
 def language_ratio(comments: list[dict]) -> dict:
@@ -102,6 +106,23 @@ def reaction_timeline(comments: list[dict], video_published_at: str) -> list[dic
         grouped["z_score"] = 0.0
     grouped["is_burst"] = grouped["z_score"].abs() >= _TIMELINE_Z_THRESHOLD
 
+    # 댓글량(volume) 급증 — 등빈도 버킷이라 버킷당 댓글 수(total)는 이미 거의 일정하게
+    # 고정돼 있어서, "개수 자체가 늘었다"로는 절대 못 잡는다. 대신 그 일정한 개수가 "얼마나
+    # 짧은 시간 동안 몰렸는지"(초당 댓글 속도)를 봐야 함 — 버킷이 커버하는 시간 구간이
+    # 비정상적으로 짧을수록 화제성이 순간적으로 폭발했다는 뜻. 속도는 오른쪽 꼬리가 긴
+    # 분포라(weighted_sentiment의 log1p와 같은 이유로) log를 취한 뒤 z-score 계산.
+    # 뜸한 구간(속도가 느림)은 그냥 조용한 것이지 "버스트"가 아니므로 한쪽(단측)만 이상치로 봄
+    duration_seconds = (grouped["bucket_end"] - grouped["bucket_start"]).dt.total_seconds().clip(lower=1.0)
+    comment_rate = grouped["total"] / duration_seconds
+    log_rate = np.log(comment_rate)
+    rate_mean, rate_std = log_rate.mean(), log_rate.std()
+    if rate_std and not pd.isna(rate_std):
+        grouped["volume_z_score"] = (log_rate - rate_mean) / rate_std
+    else:
+        grouped["volume_z_score"] = 0.0
+    grouped["is_volume_burst"] = grouped["volume_z_score"] >= _VOLUME_Z_THRESHOLD
+    grouped["duration_seconds"] = duration_seconds
+
     timeline = []
     for bucket_id, row in grouped.iterrows():
         elapsed_seconds = (
@@ -121,9 +142,12 @@ def reaction_timeline(comments: list[dict], video_published_at: str) -> list[dic
             "zScore": round(float(row["z_score"]), 3),
             "isBurst": bool(row["is_burst"]),
             "direction": ("POSITIVE_SPIKE" if row["z_score"] > 0 else "NEGATIVE_SPIKE") if row["is_burst"] else None,
+            "volumeZScore": round(float(row["volume_z_score"]), 3),
+            "isVolumeBurst": bool(row["is_volume_burst"]),
+            "durationSeconds": round(float(row["duration_seconds"]), 1),
         }
 
-        if row["is_burst"]:
+        if row["is_burst"] or row["is_volume_burst"]:
             # 버킷 전체(등빈도라 ~40개 수준)를 다 보냄 — 드로어에서 감정별 필터링하려면 전체가 있어야 함
             window = df[
                 (df["bucket_id"] == bucket_id)

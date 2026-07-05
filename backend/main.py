@@ -99,6 +99,7 @@ def _build_response(video_id: str, video: dict, comments: list[dict], topics: li
             **({"labelJa": t["labelJa"]} if t.get("labelJa") else {}),
             "mentionCount": t["mentionCount"],
             "sentiment": t["sentiment"],
+            **({"confidence": t["confidence"]} if t.get("confidence") else {}),
         }
         for t in topics
     ]
