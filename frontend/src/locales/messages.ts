@@ -156,6 +156,7 @@ export interface UIMessages {
   networkSortNegative: string
   networkSortNewest: string
   networkBack: string
+  networkResetView: string
   networkLegendOverview: string
   networkLegendDetail: string
   networkPanelSimilarVideos: string
@@ -359,6 +360,7 @@ export const messages: Record<Lang, UIMessages> = {
     networkSortNegative: '부정률 높은 순',
     networkSortNewest: '최신순',
     networkBack: '전체 지도로',
+    networkResetView: '보기 초기화',
     networkLegendOverview: '원 = 영상 · 크기 = 댓글 수 · 색 = 비슷한 반응 그룹 · 선 = 비슷한 반응',
     networkLegendDetail: '원 = 댓글 · 크기 = 좋아요 수 · 색 = 토픽 · 선 = 의미 유사도',
     networkPanelSimilarVideos: '비슷한 반응의 영상',
@@ -555,6 +557,7 @@ export const messages: Record<Lang, UIMessages> = {
     networkSortNegative: 'Highest negative %',
     networkSortNewest: 'Newest',
     networkBack: 'Back to overview',
+    networkResetView: 'Reset view',
     networkLegendOverview: 'circle = video · size = comment count · color = similar-reaction group · line = similar reaction',
     networkLegendDetail: 'circle = comment · size = like count · color = topic · line = semantic similarity',
     networkPanelSimilarVideos: 'Similar-reaction videos',
@@ -751,6 +754,7 @@ export const messages: Record<Lang, UIMessages> = {
     networkSortNegative: '消极率最高',
     networkSortNewest: '最新',
     networkBack: '返回总览',
+    networkResetView: '重置视图',
     networkLegendOverview: '圆圈 = 视频 · 大小 = 评论数 · 颜色 = 反应相似分组 · 连线 = 反应相似',
     networkLegendDetail: '圆圈 = 评论 · 大小 = 点赞数 · 颜色 = 话题 · 连线 = 语义相似度',
     networkPanelSimilarVideos: '反应相似的视频',
@@ -947,6 +951,7 @@ export const messages: Record<Lang, UIMessages> = {
     networkSortNegative: 'ネガティブ率が高い順',
     networkSortNewest: '新しい順',
     networkBack: '全体マップへ',
+    networkResetView: '表示をリセット',
     networkLegendOverview: '円 = 動画 · 大きさ = コメント数 · 色 = 反応が似たグループ · 線 = 反応の類似度',
     networkLegendDetail: '円 = コメント · 大きさ = 高評価数 · 色 = トピック · 線 = 意味的類似度',
     networkPanelSimilarVideos: '反応が似ている動画',

@@ -322,7 +322,7 @@ const STEPS = computed(() => [
   font-size: 13px;
   color: var(--text);
   outline: none;
-  font-family: 'Inter', sans-serif;
+  font-family: var(--font-family);
   transition: border-color .2s;
 }
 .add-input:focus { border-color: rgb(from var(--accent) r g b / 0.5); }
@@ -337,7 +337,7 @@ const STEPS = computed(() => [
   padding: 10px 20px;
   border-radius: var(--radius);
   cursor: pointer;
-  font-family: 'Inter', sans-serif;
+  font-family: var(--font-family);
   transition: opacity .15s;
 }
 .add-submit:hover:not(:disabled) { opacity: 0.88; }
@@ -358,7 +358,7 @@ const STEPS = computed(() => [
   font-size: 12px;
   font-weight: 600;
   cursor: pointer;
-  font-family: 'Inter', sans-serif;
+  font-family: var(--font-family);
   transition: color .15s, border-color .15s;
 }
 .queue-more-btn:hover { color: var(--accent); border-color: rgb(from var(--accent) r g b / 0.4); }
@@ -433,7 +433,7 @@ const STEPS = computed(() => [
   background: transparent;
   border: none;
   cursor: pointer;
-  font-family: 'Inter', sans-serif;
+  font-family: var(--font-family);
 }
 .queue-more-cancel:hover { opacity: 0.75; }
 

@@ -283,7 +283,7 @@ async function confirmDelete() {
   gap: 7px;
   font-size: 12px;
   font-weight: 500;
-  font-family: 'Inter', sans-serif;
+  font-family: var(--font-family);
   padding: 6px 12px;
   border-radius: 8px;
   border: 0.5px solid var(--border);
@@ -327,7 +327,7 @@ async function confirmDelete() {
   border-radius: 6px;
   font-size: 12px;
   font-weight: 500;
-  font-family: 'Inter', sans-serif;
+  font-family: var(--font-family);
   color: var(--subtext);
   background: transparent;
   border: none;
@@ -377,7 +377,7 @@ async function confirmDelete() {
   border-radius: 8px;
   font-size: 12px;
   font-weight: 500;
-  font-family: 'Inter', sans-serif;
+  font-family: var(--font-family);
   cursor: pointer;
   border: 0.5px solid rgba(239, 68, 68, 0.3);
   background: rgba(239, 68, 68, 0.06);
@@ -433,7 +433,7 @@ async function confirmDelete() {
   font-size: 13px; font-weight: 600;
   padding: 11px 16px; border-radius: 10px;
   border: 0.5px solid var(--border);
-  cursor: pointer; font-family: 'Inter', sans-serif;
+  cursor: pointer; font-family: var(--font-family);
   transition: transform 0.15s, box-shadow 0.15s;
 }
 .confirm-btn:hover { transform: translateY(-1px); }

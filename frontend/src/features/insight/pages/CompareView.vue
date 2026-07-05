@@ -450,7 +450,7 @@ const cControversyScore = (d: InsightData) => {
   border-radius: 8px;
   padding: 7px 12px;
   cursor: pointer;
-  font-family: 'Inter', sans-serif;
+  font-family: var(--font-family);
   white-space: nowrap;
   transition: color .15s, border-color .15s, background .15s;
 }
@@ -461,7 +461,7 @@ const cControversyScore = (d: InsightData) => {
 .do-compare-btn {
   display: flex; align-items: center; gap: 6px;
   padding: 9px 20px; border-radius: 8px;
-  font-size: 13px; font-weight: 600; font-family: 'Inter', sans-serif;
+  font-size: 13px; font-weight: 600; font-family: var(--font-family);
   cursor: pointer;
   background: var(--accent);
   color: var(--cta-text); border: none;
@@ -537,7 +537,7 @@ const cControversyScore = (d: InsightData) => {
   font-size: 12px; color: var(--dim);
   background: var(--card); border: 0.5px solid var(--border);
   border-radius: 8px; padding: 7px 14px;
-  cursor: pointer; font-family: 'Inter', sans-serif;
+  cursor: pointer; font-family: var(--font-family);
   transition: color 0.15s, border-color 0.15s;
 }
 .back-btn:hover { color: var(--accent); border-color: rgb(from var(--accent) r g b / 0.35); }

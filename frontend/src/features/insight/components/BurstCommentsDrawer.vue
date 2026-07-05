@@ -274,7 +274,7 @@ const sentimentLabel = (s: string) => {
   border-radius: 999px;
   font-size: 12px;
   font-weight: 500;
-  font-family: 'Inter', sans-serif;
+  font-family: var(--font-family);
   white-space: nowrap;
   cursor: pointer;
   border: 0.5px solid var(--border);
@@ -307,7 +307,7 @@ const sentimentLabel = (s: string) => {
   border-radius: 8px;
   font-size: 12px;
   font-weight: 500;
-  font-family: 'Inter', sans-serif;
+  font-family: var(--font-family);
   cursor: pointer;
   border: 0.5px solid var(--border);
   background: transparent;

@@ -252,7 +252,7 @@ function deleteYoutube() {
   padding: 10px $space-md;
   font-size: 13px;
   color: var(--text);
-  font-family: 'Inter', sans-serif;
+  font-family: var(--font-family);
   outline: none;
 
   &:focus { border-color: rgb(from var(--accent) r g b / 0.5); }

@@ -18,18 +18,26 @@ const counts = ref({ POSITIVE: 0, NEUTRAL: 0, NEGATIVE: 0 })
 const total = ref(0)
 const filter = ref<Filter>('all')
 const isLoading = ref(false)
-const error = ref('')
+// 백엔드 detail 메시지(있으면 그대로 표시)와 일반 실패를 구분해서 저장 — 일반 실패 쪽을
+// 처음부터 M.value로 문자열을 구워서 저장하면, 이후 언어를 바꿔도 이미 뜬 에러 문구는
+// 옛날 언어 그대로 남는다. computed로 매 렌더마다 현재 언어 기준으로 다시 계산함
+const errorDetail = ref('')
+const errorGeneric = ref(false)
+const error = computed(() => errorDetail.value || (errorGeneric.value ? M.value.commentsLoadFailed : ''))
 
 const load = async (sentiment: Filter) => {
   isLoading.value = true
-  error.value = ''
+  errorDetail.value = ''
+  errorGeneric.value = false
   try {
     const res = await insightApi.getTopicComments(props.videoId, props.topic, sentiment)
     comments.value = res.comments
     total.value = res.total
     if (sentiment === 'all') counts.value = res.counts as any
   } catch (e: any) {
-    error.value = e?.response?.data?.detail ?? M.value.commentsLoadFailed
+    const detail = e?.response?.data?.detail
+    if (detail) errorDetail.value = detail
+    else errorGeneric.value = true
     comments.value = []
   } finally {
     isLoading.value = false
@@ -328,7 +336,7 @@ const sentimentLabel = (s: string) => {
   border-radius: 8px;
   font-size: 12px;
   font-weight: 500;
-  font-family: 'Inter', sans-serif;
+  font-family: var(--font-family);
   cursor: pointer;
   border: 0.5px solid var(--border);
   background: transparent;

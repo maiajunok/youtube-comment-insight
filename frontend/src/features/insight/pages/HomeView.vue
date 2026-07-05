@@ -475,7 +475,7 @@ const reportInsightComment = (ins: { comment: string; commentEn?: string; commen
 
 .rpt-page {
   position: relative;
-  font-family: 'Inter', 'Apple SD Gothic Neo', sans-serif;
+  font-family: var(--font-family);
   color: #1a1a2e;
   background: #ffffff;
   padding: 12mm 16mm 14mm;
@@ -741,7 +741,7 @@ const reportInsightComment = (ins: { comment: string; commentEn?: string; commen
   outline: none;
   font-size: 13px;
   color: var(--text);
-  font-family: 'Inter', sans-serif;
+  font-family: var(--font-family);
 }
 .url-input::placeholder { color: var(--dim); }
 
@@ -756,7 +756,7 @@ const reportInsightComment = (ins: { comment: string; commentEn?: string; commen
   padding: 13px 26px;
   border-radius: var(--radius);
   cursor: pointer;
-  font-family: 'Inter', sans-serif;
+  font-family: var(--font-family);
   white-space: nowrap;
   transition: opacity .15s;
 }
@@ -805,7 +805,7 @@ const reportInsightComment = (ins: { comment: string; commentEn?: string; commen
   border-radius: 8px;
   padding: 5px 12px;
   cursor: pointer;
-  font-family: 'Inter', sans-serif;
+  font-family: var(--font-family);
   transition: color .15s;
 }
 .back-btn:hover { color: var(--subtext); }
@@ -818,7 +818,7 @@ const reportInsightComment = (ins: { comment: string; commentEn?: string; commen
   border-radius: 8px;
   padding: 5px 12px;
   cursor: pointer;
-  font-family: 'Inter', sans-serif;
+  font-family: var(--font-family);
   transition: background .15s, border-color .15s;
   margin-left: auto;
 }
@@ -934,7 +934,7 @@ const reportInsightComment = (ins: { comment: string; commentEn?: string; commen
   background: var(--card-hover);
   color: var(--subtext);
   padding: 11px 16px; border-radius: 10px;
-  cursor: pointer; font-family: 'Inter', sans-serif;
+  cursor: pointer; font-family: var(--font-family);
   transition: transform 0.15s, border-color 0.15s, background 0.15s, box-shadow 0.15s;
 }
 .key-modal-btn:hover { transform: translateY(-1px); border-color: rgba(192,171,126,0.45); }
@@ -949,7 +949,7 @@ const reportInsightComment = (ins: { comment: string; commentEn?: string; commen
   margin-top: 16px;
   font-size: 12px; color: var(--dim);
   background: transparent; border: none;
-  cursor: pointer; font-family: 'Inter', sans-serif;
+  cursor: pointer; font-family: var(--font-family);
   align-self: center;
   width: 100%;
   text-align: center;

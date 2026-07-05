@@ -75,6 +75,26 @@
   --door-bg:         #efece8;
 }
 
+/* ── 언어별 폰트 스택 ──
+   'Inter'는 라틴/숫자 글리프만 있어서 한글·한자·가나는 원래 브라우저가 알아서 다음
+   폴백으로 넘어가는데, 그 "다음 폴백"이 html lang/데이터가 없으면 브라우저마다,
+   심지어 같은 페이지 안에서도 글자에 따라 다른 시스템 폰트로 갈릴 수 있음(두께가
+   미묘하게 달라 보이는 원인). data-locale로 언어별 CJK 폰트를 명시해서 이 지점을
+   고정하고, 어디서든 font-family는 이 변수 하나만 참조하게 함 — 컴포넌트마다 폰트를
+   따로 선언하면 그중 하나만 안 바꿔도 다시 섞여 보이는 문제가 재발함 */
+:root, [data-locale="ko"] {
+  --font-family: 'Inter', 'Pretendard', 'Malgun Gothic', 'Apple SD Gothic Neo', system-ui, sans-serif;
+}
+[data-locale="zh"] {
+  --font-family: 'Inter', 'Noto Sans SC', 'Microsoft YaHei', 'PingFang SC', 'Source Han Sans SC', system-ui, sans-serif;
+}
+[data-locale="ja"] {
+  --font-family: 'Inter', 'Noto Sans JP', 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', system-ui, sans-serif;
+}
+[data-locale="en"] {
+  --font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
 html { scrollbar-gutter: stable; }
 
 /* 0.5px hairline borders — override Tailwind's 1px default */
