@@ -48,6 +48,13 @@ export function parseBackup(raw: string): ReactionAnalysisBackup | null {
   const data = obj?.data
   if (!data || typeof data !== 'object') return null
   if (!data.video?.videoId || !Array.isArray(data.topics)) return null
+  // 토픽 배열 자체는 있어도 각 항목이 기대하는 필드(mentionCount, sentiment)를 안 갖췄으면
+  // 히스토리 목록 렌더링(감정 비율 계산)에서 죽을 수 있으므로 여기서 미리 걸러냄
+  const topicsValid = data.topics.every(t =>
+    t && typeof t.mentionCount === 'number' &&
+    t.sentiment && typeof t.sentiment.positive === 'number' && typeof t.sentiment.negative === 'number',
+  )
+  if (!topicsValid) return null
 
   return {
     schemaVersion: 1,

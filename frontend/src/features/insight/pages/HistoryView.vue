@@ -23,27 +23,38 @@ const error = ref('')
 // 백엔드 분석 기록과 별개로, 사용자가 JSON으로 업로드해 이 브라우저에만 저장된 항목 —
 // 같은 videoId가 백엔드에도 이미 있으면 굳이 중복으로 보여줄 필요 없어서 그 경우엔 숨김
 const localEntries = ref<HistoryEntry[]>(useHistory().getAll())
-function entryToDisplayItem(e: HistoryEntry): DisplayItem {
-  const topics = e.data.topics
-  const total = topics.reduce((sum, t) => sum + t.mentionCount, 0) || 1
-  const positive = Math.round(topics.reduce((sum, t) => sum + t.sentiment.positive * t.mentionCount, 0) / total)
-  const negative = Math.round(topics.reduce((sum, t) => sum + t.sentiment.negative * t.mentionCount, 0) / total)
-  return {
-    videoId: e.videoId,
-    title: e.data.video.title,
-    channelTitle: e.data.video.channelTitle,
-    thumbnailUrl: e.data.video.thumbnailUrl,
-    publishedAt: e.data.video.publishedAt,
-    analyzedComments: e.data.video.analyzedComments,
-    analyzedAt: e.data.analyzedAt ?? e.savedAt,
-    topTopics: topics.slice(0, 3),
-    overallSentiment: { positive, negative },
-    importedOnly: true,
+// 이 함수가 던지면 computed 전체가 깨져서 히스토리 화면이 통째로 안 보이게 됨 — 손상되거나
+// 형식이 안 맞는 로컬 항목 하나 때문에 나머지 정상 항목까지 다 안 보이면 안 되므로,
+// 문제 있는 항목은 null을 반환해 조용히 건너뛰고 나머지는 그대로 보여줌
+function entryToDisplayItem(e: HistoryEntry): DisplayItem | null {
+  try {
+    const topics = e.data.topics ?? []
+    const total = topics.reduce((sum, t) => sum + (t.mentionCount ?? 0), 0) || 1
+    const positive = Math.round(topics.reduce((sum, t) => sum + (t.sentiment?.positive ?? 0) * (t.mentionCount ?? 0), 0) / total)
+    const negative = Math.round(topics.reduce((sum, t) => sum + (t.sentiment?.negative ?? 0) * (t.mentionCount ?? 0), 0) / total)
+    if (!e.data.video?.videoId) return null
+    return {
+      videoId: e.videoId,
+      title: e.data.video.title ?? e.videoId,
+      channelTitle: e.data.video.channelTitle ?? '',
+      thumbnailUrl: e.data.video.thumbnailUrl ?? '',
+      publishedAt: e.data.video.publishedAt ?? '',
+      analyzedComments: e.data.video.analyzedComments ?? 0,
+      analyzedAt: e.data.analyzedAt ?? e.savedAt,
+      topTopics: topics.slice(0, 3),
+      overallSentiment: { positive, negative },
+      importedOnly: true,
+    }
+  } catch {
+    return null
   }
 }
 const localOnlyItems = computed<DisplayItem[]>(() => {
   const backendIds = new Set(items.value.map(i => i.videoId))
-  return localEntries.value.filter(e => e.importedOnly && !backendIds.has(e.videoId)).map(entryToDisplayItem)
+  return localEntries.value
+    .filter(e => e.importedOnly && !backendIds.has(e.videoId))
+    .map(entryToDisplayItem)
+    .filter((i): i is DisplayItem => i !== null)
 })
 const allItems = computed<DisplayItem[]>(() => [...items.value, ...localOnlyItems.value])
 
