@@ -55,7 +55,7 @@ Paste any YouTube URL and instantly get a structured breakdown of what the audie
 - Click any topic to view the full list of comments (drawer)
 - Supports Korean ↔ English label translation
 
-> **Methodology note:** Topics are extracted by GPT-4o-mini from only the top 300 most-liked comments, keeping API cost bounded regardless of comment volume. Every remaining comment is then assigned to the closest topic by cosine similarity between its embedding and the topic label's embedding (`text-embedding-3-small`). This is a cost-aware trade-off, not full unsupervised clustering — it can miss topics that are common but not highly liked, and forces every comment into one of the 5 predefined topics even when the fit is weak. A separate experiment applying K-means/DBSCAN clustering to the full comment set (`analysis/cluster_comments.py`) confirmed unsupervised clustering doesn't outperform this approach for these short, slang-heavy comments — it mostly grouped by surface lexical/punctuation patterns rather than meaning, so the GPT + embedding approach was kept.
+> **Methodology note:** Topics are extracted by GPT-4o-mini from only the top 300 most-liked comments, keeping API cost bounded regardless of comment volume. Every remaining comment is then assigned to the closest topic by cosine similarity between its embedding and the topic label's embedding (`text-embedding-3-small`). This is a cost-aware trade-off, not full unsupervised clustering — it can miss topics that are common but not highly liked, and forces every comment into one of the 5 predefined topics even when the fit is weak. A separate experiment applying K-means/DBSCAN clustering to the full comment set (`research/cluster_comments.py`) confirmed unsupervised clustering doesn't outperform this approach for these short, slang-heavy comments — it mostly grouped by surface lexical/punctuation patterns rather than meaning, so the GPT + embedding approach was kept.
 
 ### 3. Reaction Timeline
 - Visualizes sentiment changes over time after video upload
@@ -90,7 +90,7 @@ Two-tier 2D SVG map (not a 3D force-graph — 2D scatter/network layouts are the
 - **Overview tier** — every analyzed video is a node, sized by comment count and colored by **similarity cluster** (connected component in the k-NN graph) instead of sentiment, since the point of this map is "which videos react alike," not a sentiment ranking (sentiment is a small secondary dot on each node, and shown in full in the side list/detail panel). Isolated videos render in neutral gray. The side list sorts by cluster group by default (with a divider between groups), or by comment count / positive % / negative % / newest via a dropdown. Videos whose comment-level map hasn't been generated yet are listed separately with an inline re-analyze action.
 - **Detail tier** — clicking a video drills into its comment-level map: nodes are its top-liked comments per topic (capped at 30/topic to bound embedding cost — sentiment/topic analysis elsewhere still covers every comment), colored by topic. Edges are hidden by default here (too many nodes to show cleanly) and appear only for the hovered/selected comment. The side list browses by topic group first (with a mini distribution bar per topic), then drills into that topic's comments.
 - Clicking a node dims everything except it and its direct neighbors; clicking an edge shows a compact "connection analysis" card (similarity %, shared topics, one-line reason) stacked above the still-visible list.
-- Nodes can be dragged and spring back to their real UMAP position on release, with directly-connected neighbors following slightly and whole clusters drifting together very slowly — bounded enough that it never distorts the actual embedding-based layout.
+- Nodes are static (drag one and it springs back to its real UMAP position, with direct neighbors following slightly) — no ambient motion, so positions stay trustworthy. Drag empty space to pan the whole map, scroll to zoom.
 - A persistent side panel always lists every node currently on screen — hovering a node highlights its entry and vice versa — so the panel never resizes the graph canvas the way a hover-triggered popup would.
 - Reaction-map generation runs as a background task after analysis completes, so it never adds to the visible analysis wait time.
 
@@ -193,15 +193,17 @@ youtube-comment-insight/
 │   │   ├── aliases.py           # normalize_aliases() — applies aliases_data.py before embedding
 │   │   ├── similarity_graph.py  # Mutual k-NN graph construction (cosine + Jensen-Shannon)
 │   │   ├── projection.py        # UMAP projection to 2D (centers + rescales to a fixed extent)
-│   │   └── graph.py             # Builds Reaction Map node/link data for both map tiers
+│   │   ├── graph.py             # Builds Reaction Map node/link data for both map tiers
+│   │   └── timeline.py          # Language ratio, like-weighted sentiment, reaction timeline (pandas-only, no OpenAI calls)
 │   ├── youtube.py           # YouTube Data API integration
 │   ├── requirements.txt
 │   └── cache/               # Analysis result cache (JSON) — shipped with the repo as seed data
 │       ├── comments/        # Per-topic comment cache
 │       └── graph/           # Cached per-video Reaction Map graphs
 │
-├── analysis/                # NOT the same as backend/analysis/ above — standalone offline
-│   │                        #   research scripts, not part of the running app
+├── research/                 # Standalone offline data-science experiments — not part of the
+│   │                         #   running app, no API calls (separate from backend/analysis/ above,
+│   │                         #   which is the live pipeline the deployed app actually runs)
 │   ├── algorithms.py        # Pure statistical logic — equal-frequency bucketing, z-score
 │   │                        #   anomaly detection, clustering (no I/O, no plotting)
 │   ├── data_loader.py       # Loads cached comments/videos into DataFrames
@@ -267,7 +269,7 @@ Returns filtered comments by topic and sentiment. No key required.
 Returns the cached comment-level Reaction Map (`{ nodes, links }`) for one video. 404 if the video was analyzed before this feature existed or graph generation failed — re-analyze to generate it. No key required (reads cache only).
 
 ### `GET /api/graph/videos`
-Builds the overview-tier Reaction Map across every analyzed video (embeds each video's top topics on the fly, so this one does need `X-OpenAI-Key`). Not cached to a file since it depends on the full analyzed-video set.
+Builds the overview-tier Reaction Map across every analyzed video. The graph layout itself is always recomputed (cheap, local), but each video's embedding is cached and only recomputed if missing — so `X-OpenAI-Key` is only needed when a video hasn't been embedded yet.
 
 ### `POST /api/refresh/{video_id}`
 Clears cache and forces re-analysis.
@@ -282,10 +284,10 @@ Translates topic labels to English. Accepts the same `X-OpenAI-Key` header; sile
 
 ## Offline Analysis Scripts
 
-`analysis/` holds standalone data-science experiments that run against the cached comments in `backend/cache/` — separate from the running app, no API calls required. `algorithms.py` contains only the actual statistical/ML logic (pure functions, no I/O or plotting); `data_loader.py` and `visualize.py` handle loading and presentation.
+`research/` holds standalone data-science experiments that run against the cached comments in `backend/cache/` — separate from the running app, no API calls required. `algorithms.py` contains only the actual statistical/ML logic (pure functions, no I/O or plotting); `data_loader.py` and `visualize.py` handle loading and presentation.
 
 ```bash
-cd analysis
+cd research
 pip install -r requirements.txt
 python burst_detection.py [video_id]      # z-score anomaly detection over equal-frequency buckets
 python reaction_trend.py [video_id]       # diverging sentiment trend chart with anomalies starred
@@ -340,7 +342,7 @@ YouTube URL을 붙여넣으면 AI가 댓글을 수집하고 감정 분석 · 토
 - 토픽 클릭 시 해당 댓글 전체 보기 (드로어)
 - 한국어 ↔ 영어 레이블 번역 지원
 
-> **방법론 노트:** 토픽은 좋아요 상위 300개 댓글만 GPT-4o-mini에 전달해 추출하며, 이는 댓글 수와 무관하게 API 비용을 일정하게 유지하기 위함입니다. 나머지 댓글은 각각 임베딩(`text-embedding-3-small`)한 뒤, 토픽 이름 임베딩과의 코사인 유사도가 가장 높은 토픽에 배정됩니다. 이는 완전한 비지도 클러스터링이 아니라 비용을 고려한 절충안입니다 — 좋아요는 적지만 흔한 주제를 놓칠 수 있고, 잘 맞지 않아도 5개 토픽 중 하나에는 강제로 배정됩니다. 전체 댓글에 K-means/DBSCAN 클러스터링을 적용해본 별도 실험(`analysis/cluster_comments.py`)에서도, 짧고 축약어가 많은 이런 댓글에는 비지도 클러스터링이 의미 있는 분리를 만들어내지 못했고(어휘·문장부호 패턴 위주로 묶임) 이 방식보다 나은 결과를 보이지 않아 현재의 GPT+임베딩 방식을 유지하기로 했습니다.
+> **방법론 노트:** 토픽은 좋아요 상위 300개 댓글만 GPT-4o-mini에 전달해 추출하며, 이는 댓글 수와 무관하게 API 비용을 일정하게 유지하기 위함입니다. 나머지 댓글은 각각 임베딩(`text-embedding-3-small`)한 뒤, 토픽 이름 임베딩과의 코사인 유사도가 가장 높은 토픽에 배정됩니다. 이는 완전한 비지도 클러스터링이 아니라 비용을 고려한 절충안입니다 — 좋아요는 적지만 흔한 주제를 놓칠 수 있고, 잘 맞지 않아도 5개 토픽 중 하나에는 강제로 배정됩니다. 전체 댓글에 K-means/DBSCAN 클러스터링을 적용해본 별도 실험(`research/cluster_comments.py`)에서도, 짧고 축약어가 많은 이런 댓글에는 비지도 클러스터링이 의미 있는 분리를 만들어내지 못했고(어휘·문장부호 패턴 위주로 묶임) 이 방식보다 나은 결과를 보이지 않아 현재의 GPT+임베딩 방식을 유지하기로 했습니다.
 
 ### 3. 반응 타임라인
 - 영상 업로드 이후 시간대별 감정 변화 시각화
@@ -375,7 +377,7 @@ YouTube URL을 붙여넣으면 AI가 댓글을 수집하고 감정 분석 · 토
 - **개요 계층** — 분석된 모든 영상이 노드가 되고, 댓글 수에 따라 크기가, **유사도 그룹(k-NN 그래프의 연결 요소)**에 따라 색이 정해집니다(감정 그라데이션이 아님 — 이 지도의 핵심은 "어떤 영상들이 비슷하게 반응했는가"이지 감정 랭킹이 아니라서, 감정은 각 노드의 작은 보조 점과 옆 목록/상세 패널에서 보여줍니다). 어느 그룹에도 안 묶인 고립 영상은 무채색으로 표시됩니다. 옆 목록은 기본적으로 그룹 순(그룹 경계마다 구분선 표시)으로 정렬되고, 댓글 많은 순/긍정률/부정률/최신순으로도 정렬할 수 있습니다. 아직 댓글 지도가 생성되지 않은 영상은 목록에서 따로 분리되어 그 자리에서 바로 다시 분석할 수 있습니다.
 - **상세 계층** — 영상을 클릭하면 그 영상의 댓글 지도로 들어갑니다: 토픽별 좋아요 상위 댓글(임베딩 비용을 위해 토픽당 최대 30개로 제한 — 감정·토픽 분석 자체는 전체 댓글 기준으로 이미 처리됨)이 노드가 되고 토픽별로 색이 정해집니다. 노드 수가 많아 간선은 기본적으로 숨겨져 있고, 호버·선택된 댓글의 연결만 또렷하게 나타납니다. 옆 목록은 먼저 토픽 그룹(그룹별 비중 막대 포함)으로 보여주고, 하나를 고르면 그 토픽의 댓글만 필터링해서 보여줍니다.
 - 노드를 클릭하면 그 노드와 직접 연결된 이웃만 남기고 나머지는 흐려집니다("focus mode"). 선(엣지)을 클릭하면 목록 위에 "연결 분석" 카드(유사도 %, 공통 토픽, 한 줄 이유)가 얹힙니다.
-- 노드를 잡아당기면 놓는 순간 UMAP이 계산한 실제 위치로 튕겨 돌아오고, 직접 연결된 이웃도 살짝 딸려오며, 같은 그룹끼리는 아주 느리게 함께 떠다닙니다 — 실제 임베딩 기반 배치를 왜곡하지 않을 만큼 진폭을 작게 제한한 연출입니다.
+- 노드는 평소 고정돼 있고(드래그하면 놓는 순간 UMAP 실제 위치로 튕겨 돌아오며 직접 연결된 이웃도 살짝 딸려옴), 저절로 움직이는 연출은 없어 위치를 계속 신뢰할 수 있습니다. 빈 공간 드래그로 지도 전체 이동, 휠로 확대/축소.
 - 옆에는 지금 화면에 있는 모든 노드를 나열하는 목록 패널이 항상 떠 있습니다 — 노드에 커서를 올리면 목록에서 해당 항목이 강조되고 그 반대도 마찬가지입니다. 팝업이 열고 닫힐 때마다 그래프 캔버스 크기가 바뀌는 문제가 없습니다.
 - 반응 지도 생성은 분석 완료 후 백그라운드에서 처리되어, 체감 분석 시간에는 영향을 주지 않습니다.
 
@@ -465,10 +467,10 @@ npm run dev
 
 ## 오프라인 분석 스크립트
 
-`analysis/` 폴더에는 실제 서비스와는 별개로, `backend/cache/`에 캐시된 댓글 데이터를 대상으로 돌려보는 독립적인 데이터 분석 실험들이 들어있습니다 (API 호출 없음). `algorithms.py`는 실제 통계/ML 로직만 순수 함수로 담고 있고(I/O·플로팅 없음), `data_loader.py`와 `visualize.py`가 각각 데이터 로딩과 결과 표시를 담당합니다.
+`research/` 폴더에는 실제 서비스와는 별개로, `backend/cache/`에 캐시된 댓글 데이터를 대상으로 돌려보는 독립적인 데이터 분석 실험들이 들어있습니다 (API 호출 없음, `backend/analysis/`—실제 배포된 앱이 쓰는 라이브 파이프라인—와는 다른 폴더입니다). `algorithms.py`는 실제 통계/ML 로직만 순수 함수로 담고 있고(I/O·플로팅 없음), `data_loader.py`와 `visualize.py`가 각각 데이터 로딩과 결과 표시를 담당합니다.
 
 ```bash
-cd analysis
+cd research
 pip install -r requirements.txt
 python burst_detection.py [video_id]      # 등빈도 구간 기반 z-score 이상치 탐지
 python reaction_trend.py [video_id]       # 이상치가 표시된 다이버징 감정 트렌드 차트
