@@ -17,7 +17,14 @@ const M = computed(() => messages[settings.lang])
 // ── 1단계: 분석된 영상 전체를 감정 기준으로 클러스터링한 개요 지도 ──
 const overviewData = ref<VideoGraphData | null>(null)
 const isLoadingOverview = ref(true)
-const overviewError = ref('')
+// 백엔드가 준 구체적 에러 메시지(있으면 그대로 노출 — 백엔드 응답이라 지금은 항상 한국어)와
+// 응답 자체가 없는 일반 연결 실패를 구분해서 저장 — 후자를 처음부터 M.value로 문자열을
+// "구워서" 저장하면 나중에 언어를 바꿔도 이미 표시된 에러 문구는 그대로 남아 화면 전체가
+// 다른 언어인데 이 메시지만 예전 언어로 보이는 문제가 생김. computed로 매 렌더마다
+// 현재 언어 기준으로 다시 계산해야 graphError(아래)처럼 언어 전환에 즉시 반응함
+const overviewErrorDetail = ref('')
+const overviewErrorGeneric = ref(false)
+const overviewError = computed(() => overviewErrorDetail.value || (overviewErrorGeneric.value ? M.value.backendError : ''))
 
 // ── 2단계: 영상 하나를 골랐을 때 그 안의 댓글 반응 지도 ──
 // route.query.videoId를 유일한 출처로 둠 — selectVideo/backToOverview가 각자 로컬 상태를
@@ -269,25 +276,19 @@ const dragNode = ref<{ id: string; x: number; y: number } | null>(null)
 // 놓으면 이것도 비워지고, 이웃 노드는 (드래그 중이 아니므로) 기본 트랜지션을 타고 같이 튕겨 돌아감
 const dragNeighborOffsets = ref<Map<string, { x: number; y: number }>>(new Map())
 
-// 서로 연결된 노드들이 한 덩어리로 같이 아주 느리게 떠다니는 느낌 — 화면이 "바닥에 박힌
-// 정적인 차트"가 아니라 "떠다니는 공간"처럼 보이게 함. 값을 정확히 읽어야 하는 막대/선
-// 그래프였다면 이런 움직임은 피해야 하지만(위치=값이라 비교가 흐트러짐), 여기선 위치가
-// 나타내는 건 "이웃 관계/군집"뿐이고 진폭이 작아 그 관계 자체는 절대 안 흐트러지므로
-// (Obsidian 그래프 뷰, Gephi 라이브 레이아웃 같은 네트워크 탐색 도구들이 흔히 쓰는 방식) 안전함.
-// 클러스터(연결된 묶음) 단위로 좌표 원점을 함께 흔들어서, 같은 묶음은 늘 같이 움직이고
-// (내부 간선 길이가 안 변하니 "한 덩어리"로 보임), 묶이지 않은 고립 노드는 자기 자신만의
-// seed로 따로 흔들림 — 그래서 화면 전체가 고르게 "먼지처럼" 떠다니는 느낌을 줌
-const driftT = ref(0)
-let driftRaf = 0
-function tickDrift(now: number) {
-  driftT.value = now / 1000
-  driftRaf = requestAnimationFrame(tickDrift)
-}
-
-function hashSeed(s: string): number {
-  let h = 0
-  for (let i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) | 0
-  return Math.abs(h % 1000)
+// 전체 지도를 옮기고(pan) 확대/축소(zoom)하는 카메라 상태 — 노드/엣지는 이 값 하나로 묶인
+// <g transform>을 통해서만 화면에 그려지므로, 배경을 드래그하면 노드와 선이 항상 "한 덩어리"로
+// 같이 움직인다(따로 노는 것처럼 보이는 문제가 여기서 생기지 않음). 노드 위 pointerdown은
+// .stop으로 이 배경 pan 핸들러까지 전파되지 않게 막아서 "노드 드래그"와 "지도 이동"이 항상
+// 분리됨 — 노드를 잡으면 그 노드만, 빈 공간을 잡으면 지도 전체가 움직임
+const panX = ref(0)
+const panY = ref(0)
+const zoom = ref(1)
+const sceneTransform = computed(() => `translate(${panX.value} ${panY.value}) scale(${zoom.value})`)
+function resetView() {
+  panX.value = 0
+  panY.value = 0
+  zoom.value = 1
 }
 
 function find(parent: Map<string, string>, x: string): string {
@@ -354,25 +355,15 @@ function clusterColor(id: string): string {
   return TOPIC_PALETTE.value[r % TOPIC_PALETTE.value.length] ?? '#888'
 }
 
-const DRIFT_AMPLITUDE = 7
-function driftOffset(id: string): { x: number; y: number } {
-  const root = clusterRoots.value.get(id) ?? id
-  const seed = hashSeed(root)
-  const t = driftT.value * 0.2 + seed
-  return { x: Math.sin(t) * DRIFT_AMPLITUDE, y: Math.cos(t * 0.8) * DRIFT_AMPLITUDE }
-}
-
+// 대시보드는 값을 정확히 읽을 수 있어야 하므로, 드래그/스냅백 중이 아닌 노드는 항상
+// UMAP이 확정한 좌표 그대로를 반환 — 좌표가 저절로 계속 움직이면 "지금 이 위치가 뭘
+// 뜻하는지" 매 순간 달라 보여서 지도를 안정적인 공간으로 신뢰하기 어려워짐
 function effectivePos(n: { id: string; x2d?: number; y2d?: number }): { x: number; y: number } | null {
   if (dragNode.value && dragNode.value.id === n.id) return { x: dragNode.value.x, y: dragNode.value.y }
   if (n.x2d == null || n.y2d == null) return null
   const off = dragNeighborOffsets.value.get(n.id)
   if (off) return { x: n.x2d + off.x, y: n.y2d + off.y }
-  // 스냅백 트랜지션이 도는 동안(놓은 직후 0.5초)엔 드리프트를 끄고 정확히 원위치 하나만
-  // 목표로 삼음 — 안 그러면 매 프레임 바뀌는 드리프트 목표를 스프링 트랜지션이 계속
-  // 다시 쫓아가면서 원과 거기 붙은 선이 서로 어긋나 보이는 버그가 생김
-  if (snappingIds.value.has(n.id)) return { x: n.x2d, y: n.y2d }
-  const drift = driftOffset(n.id)
-  return { x: n.x2d + drift.x, y: n.y2d + drift.y }
+  return { x: n.x2d, y: n.y2d }
 }
 
 // 화면 픽셀 좌표를 SVG 내부 좌표(viewBox 기준)로 정확히 변환 — viewBox와 실제 렌더 크기의
@@ -432,9 +423,9 @@ function onNodeDragMove(event: PointerEvent) {
   dragNeighborOffsets.value = offsets
 }
 
-// 드래그가 끝난 직후 짧게만 cx/cy 트랜지션을 걸어 원위치로 "튕겨" 돌아가 보이게 함.
-// 평소(먼지 드리프트 중)엔 이 트랜지션을 꺼둬야 함 — rAF가 매 프레임 좌표를 바꾸는데
-// 스프링 트랜지션까지 겹치면 부드러운 글라이드가 아니라 미세하게 출렁이는 잡음처럼 보임
+// 드래그가 끝난 직후 짧게만 cx/cy(및 대응하는 선의 x1/y1/x2/y2) 트랜지션을 걸어
+// 원위치로 "튕겨" 돌아가 보이게 함 — 평소엔 이 트랜지션이 없어야 드래그 중 좌표 변경이
+// 지연 없이 그대로 반영됨
 const snappingIds = ref<Set<string>>(new Set())
 
 function endNodeDrag() {
@@ -449,6 +440,63 @@ function endNodeDrag() {
   dragNeighborOffsets.value = new Map()
   dragStartPointer = null
   dragOrigin = null
+}
+
+// ── 배경(빈 공간) 드래그 = 지도 전체 이동(pan) ──
+// 노드 위 pointerdown은 @pointerdown.stop으로 여기까지 전파되지 않으므로, 이 핸들러는
+// 항상 "노드가 아닌 곳"을 잡았을 때만 실행된다 — Explore 모드(지도 이동)와 노드 드래그
+// 모드가 이벤트 전파만으로 자연스럽게 분리됨
+const isPanning = ref(false)
+let panStartPointer: { x: number; y: number } | null = null
+let panOrigin: { x: number; y: number } | null = null
+let panMoved = false
+
+function startBackgroundPan(event: PointerEvent) {
+  const p = toSvgPoint(event.clientX, event.clientY)
+  if (!p) return
+  panStartPointer = p
+  panOrigin = { x: panX.value, y: panY.value }
+  panMoved = false
+  isPanning.value = true
+  window.addEventListener('pointermove', onBackgroundPanMove)
+  window.addEventListener('pointerup', endBackgroundPan)
+}
+
+function onBackgroundPanMove(event: PointerEvent) {
+  if (!panStartPointer || !panOrigin) return
+  const p = toSvgPoint(event.clientX, event.clientY)
+  if (!p) return
+  const dx = p.x - panStartPointer.x
+  const dy = p.y - panStartPointer.y
+  if (Math.abs(dx) > 2 || Math.abs(dy) > 2) panMoved = true
+  panX.value = panOrigin.x + dx
+  panY.value = panOrigin.y + dy
+}
+
+function endBackgroundPan() {
+  window.removeEventListener('pointermove', onBackgroundPanMove)
+  window.removeEventListener('pointerup', endBackgroundPan)
+  // 실제로 지도를 옮겼다면 뒤이어 오는 click(=closePanel)을 한 번 무시 —
+  // 안 그러면 패널을 보며 지도를 옮기려 할 때마다 패널이 닫혀버림
+  if (panMoved) suppressNextClick = true
+  isPanning.value = false
+  panStartPointer = null
+  panOrigin = null
+}
+
+// 휠 확대/축소 — 커서 아래의 "월드" 좌표가 확대 후에도 같은 화면 위치에 남도록 pan을 보정
+// (transform이 translate(pan) scale(zoom) 순서라 world*zoom+pan = 화면좌표라는 관계를 이용)
+function onWheelZoom(event: WheelEvent) {
+  event.preventDefault()
+  const p = toSvgPoint(event.clientX, event.clientY)
+  if (!p) return
+  const factor = event.deltaY < 0 ? 1.15 : 1 / 1.15
+  const nextZoom = Math.min(4, Math.max(0.5, zoom.value * factor))
+  const worldX = (p.x - panX.value) / zoom.value
+  const worldY = (p.y - panY.value) / zoom.value
+  panX.value = p.x - worldX * nextZoom
+  panY.value = p.y - worldY * nextZoom
+  zoom.value = nextZoom
 }
 
 // 색은 항상 그대로 유지 — 강조는 색을 바꾸는 대신 크기(15%)와 테두리(템플릿에서
@@ -815,13 +863,16 @@ const pipelineSteps = computed(() => [
 
 async function loadOverview() {
   isLoadingOverview.value = true
-  overviewError.value = ''
+  overviewErrorDetail.value = ''
+  overviewErrorGeneric.value = false
   try {
     // 2D는 overviewData가 바뀌면 템플릿의 computed(overviewNodePositions 등)가 알아서
     // 다시 그리므로, 3D 때와 달리 별도의 명령형 렌더 호출이 필요 없음
     overviewData.value = await insightApi.getVideoGraph()
   } catch (e: any) {
-    overviewError.value = e?.response?.data?.detail ?? M.value.backendError
+    const detail = e?.response?.data?.detail
+    if (detail) overviewErrorDetail.value = detail
+    else overviewErrorGeneric.value = true
   } finally {
     isLoadingOverview.value = false
   }
@@ -879,6 +930,7 @@ function backToOverview() {
 // selectVideo/backToOverview는 라우터만 바꾸고, 이 watch가 유일하게 반응하게 해서
 // "클릭해도 상태가 이미 같아서 아무 일도 안 일어나는" 경쟁 상태를 없앰
 watch(selectedVideoId, (videoId) => {
+  resetView()
   if (videoId) {
     loadVideoGraph(videoId)
   } else {
@@ -891,7 +943,6 @@ let containerResizeObserver: ResizeObserver | null = null
 onMounted(async () => {
   await loadOverview()
   document.addEventListener('mousedown', onSortClickOutside)
-  driftRaf = requestAnimationFrame(tickDrift)
   if (graphContainer.value) {
     containerResizeObserver = new ResizeObserver((entries) => {
       const entry = entries[0]
@@ -906,8 +957,9 @@ onMounted(async () => {
 onBeforeUnmount(() => {
   window.removeEventListener('pointermove', onNodeDragMove)
   window.removeEventListener('pointerup', endNodeDrag)
+  window.removeEventListener('pointermove', onBackgroundPanMove)
+  window.removeEventListener('pointerup', endBackgroundPan)
   document.removeEventListener('mousedown', onSortClickOutside)
-  cancelAnimationFrame(driftRaf)
   containerResizeObserver?.disconnect()
 })
 
@@ -964,10 +1016,17 @@ async function reanalyze(videoId: string) {
             <svg
               ref="svgEl"
               class="net-graph-canvas net-graph-svg"
+              :class="{ 'net-graph-svg--panning': isPanning }"
               :viewBox="selectedVideoId ? commentViewBox : overviewViewBox"
               preserveAspectRatio="xMidYMid meet"
               @click="closePanel"
+              @pointerdown="startBackgroundPan"
+              @wheel="onWheelZoom"
             >
+              <!-- 노드/엣지를 전부 이 <g> 하나로 묶어서 pan/zoom(sceneTransform) 값 하나만
+                   바뀌면 지도 전체가 항상 한 덩어리로 같이 움직인다 — 배경을 드래그해도
+                   노드와 선이 따로 노는 문제가 구조적으로 생기지 않음 -->
+              <g :transform="sceneTransform">
               <template v-if="!selectedVideoId">
                 <g
                   v-for="l in overviewLinkPositions" :key="l.key" class="net-svg-link"
@@ -1049,7 +1108,18 @@ async function reanalyze(videoId: string) {
                   class="net-svg-label" :style="{ fill: topicColor(c.topic) }"
                 >{{ c.topic }}</text>
               </template>
+              </g>
             </svg>
+
+            <!-- 지도를 옮기거나 확대/축소한 뒤에만 노출 — 원래 자동으로 맞춰진 상태(pan=0, zoom=1)로
+                 되돌리는 용도라, 평소(건드리지 않았을 때)엔 화면을 어지럽히지 않게 숨김 -->
+            <button v-if="panX !== 0 || panY !== 0 || zoom !== 1" class="net-reset-view-btn" @click="resetView">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="1 4 1 10 7 10"/>
+                <path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"/>
+              </svg>
+              {{ M.networkResetView }}
+            </button>
 
             <!-- 범례 — 항상 보이는 고정 박스. 댓글 지도에선 토픽↔색 매핑도 같이 보여줌 -->
             <div class="net-legend-wrap">
@@ -1344,7 +1414,7 @@ async function reanalyze(videoId: string) {
   border-radius: 8px;
   padding: 8px 14px;
   cursor: pointer;
-  font-family: 'Inter', sans-serif;
+  font-family: var(--font-family);
   transition: color .15s, border-color .15s, background .15s;
 }
 .back-btn:hover { color: var(--text); background: var(--card-hover); }
@@ -1415,8 +1485,10 @@ async function reanalyze(videoId: string) {
   width: 100%;
   height: 100%;
   display: block;
-  cursor: default;
+  cursor: grab;
+  touch-action: none;
 }
+.net-graph-svg--panning { cursor: grabbing; }
 .net-svg-node {
   cursor: grab;
   /* 아주 얇은 흰 테두리 — 무채색 배경 위에서 노드 하나하나의 경계를 또렷하게 잡아줘서
@@ -1427,8 +1499,7 @@ async function reanalyze(videoId: string) {
 }
 .net-svg-node--dragging { cursor: grabbing; }
 /* 드래그를 놓은 직후에만 짧게 cx/cy에 스프링 트랜지션을 걸어 원위치로 튕겨 돌아가 보이게 함.
-   평소(먼지 드리프트 중)엔 이 트랜지션이 없어야 rAF가 매 프레임 바꾸는 좌표가 잡음 없이
-   매끈하게 흘러감(스프링 이징까지 겹치면 미세하게 출렁이는 것처럼 보임) */
+   평소엔 이 트랜지션이 없어야 드래그 중 좌표 변경이 지연 없이 그대로 반영됨 */
 .net-svg-node--snapping {
   transition: r .15s ease, fill .15s ease, stroke .15s ease, stroke-width .15s ease, opacity .2s ease,
               cx .5s cubic-bezier(.34, 1.56, .64, 1), cy .5s cubic-bezier(.34, 1.56, .64, 1);
@@ -1447,7 +1518,7 @@ async function reanalyze(videoId: string) {
 .net-svg-label {
   font-size: 10px;
   font-weight: 600;
-  font-family: 'Inter', sans-serif;
+  font-family: var(--font-family);
   paint-order: stroke;
   stroke: var(--bg);
   stroke-width: 6px;
@@ -1481,6 +1552,27 @@ async function reanalyze(videoId: string) {
   white-space: nowrap;
 }
 .net-legend-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+
+/* 지도를 옮기거나 확대/축소했을 때만 나타나는 초기화 버튼 — 범례 반대편(우상단)에 둬서
+   겹치지 않게 함 */
+.net-reset-view-btn {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background: var(--search-bg);
+  border: 0.5px solid var(--border);
+  border-radius: 10px;
+  padding: 6px 10px;
+  font-size: 11.5px;
+  color: var(--subtext);
+  cursor: pointer;
+  transition: color .15s, border-color .15s;
+}
+.net-reset-view-btn:hover { color: var(--text); border-color: var(--text); }
 
 /* ── 옆 패널 — 목록/상세 공용. 항상 마운트되어 있어서 열고 닫혀도 그래프 폭이 안 변함 ── */
 .net-panel {
@@ -1516,7 +1608,7 @@ async function reanalyze(videoId: string) {
   padding: 0;
   cursor: pointer;
   text-align: left;
-  font-family: 'Inter', sans-serif;
+  font-family: var(--font-family);
 }
 .net-panel-header-btn:hover .net-panel-title { color: var(--accent); }
 /* 유튜브로 넘어갈 때(VideoInfoCard의 "유튜브에서 보기")와 같은 시각 언어 —
@@ -1593,7 +1685,7 @@ async function reanalyze(videoId: string) {
   gap: 6px;
   font-size: 11px;
   font-weight: 500;
-  font-family: 'Inter', sans-serif;
+  font-family: var(--font-family);
   padding: 5px 10px;
   border-radius: 8px;
   border: 0.5px solid var(--border);
@@ -1625,7 +1717,7 @@ async function reanalyze(videoId: string) {
   border-radius: 6px;
   font-size: 12px;
   font-weight: 500;
-  font-family: 'Inter', sans-serif;
+  font-family: var(--font-family);
   color: var(--subtext);
   background: transparent;
   border: none;
@@ -1686,7 +1778,7 @@ async function reanalyze(videoId: string) {
   border: none;
   text-align: left;
   cursor: pointer;
-  font-family: 'Inter', sans-serif;
+  font-family: var(--font-family);
   line-height: 1.5;
   transition: background .12s, color .12s;
 }
@@ -1723,7 +1815,7 @@ async function reanalyze(videoId: string) {
   background: var(--card);
   color: var(--subtext);
   cursor: pointer;
-  font-family: 'Inter', sans-serif;
+  font-family: var(--font-family);
   transition: color .15s, border-color .15s, background .15s;
 }
 .net-list-reanalyze:hover { color: var(--accent); border-color: rgb(from var(--accent) r g b / 0.4); background: rgb(from var(--accent) r g b / 0.08); }
@@ -1792,7 +1884,7 @@ async function reanalyze(videoId: string) {
   border-radius: 8px;
   background: transparent;
   border: none;
-  font-family: 'Inter', sans-serif;
+  font-family: var(--font-family);
   text-align: left;
   cursor: pointer;
   transition: background .12s;
@@ -1935,5 +2027,46 @@ button.net-panel-neighbor:hover { background: var(--card-hover); }
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   }
   .cpage-body { padding: 18px 16px 32px; }
+
+  /* 데스크톱은 "지도+목록을 한 화면에 맞추기"가 목표라 flex:1로 뷰포트 높이를 나눠 쓰지만,
+     모바일 폭에서는 그 둘을 나란히 두면 둘 다 못 쓸 만큼 좁아짐 — 세로로 쌓고(지도 먼저,
+     목록 아래) 페이지 전체가 자연스럽게 스크롤되게 함. 목록 내부의 자체 스크롤(overflow-y:auto)도
+     같이 켜져 있으면 "페이지 스크롤 vs 목록 안 스크롤"이 손가락 위치에 따라 헷갈리므로,
+     모바일에서는 목록 스크롤을 꺼서 스크롤 표면을 페이지 하나로 통일함 */
+  .net-graph-canvas-wrap { flex: none; gap: 14px; }
+  .net-main-row {
+    flex: none;
+    flex-direction: column;
+    min-height: 0;
+    gap: 14px;
+  }
+  .net-graph-canvas-inner {
+    flex: none;
+    width: 100%;
+    height: min(56vh, 400px);
+    min-height: 260px;
+  }
+  .net-panel {
+    width: 100%;
+    flex: none;
+    max-height: none;
+    overflow: visible;
+  }
+  .net-panel-scroll, .net-list-scroll {
+    flex: none;
+    overflow-y: visible;
+  }
+
+  /* 좁은 지도 위에서 범례가 노드를 가리지 않도록 훨씬 작고 압축된 캡션으로 */
+  .net-legend-wrap { top: 8px; left: 8px; }
+  .net-legend-panel { padding: 5px 8px; gap: 2px; }
+  .net-legend-text { font-size: 9px; }
+  .net-reset-view-btn { top: 8px; right: 8px; padding: 5px 8px; font-size: 10.5px; gap: 4px; }
+
+  /* 파이프라인 바 — 라벨을 줄이고 여백을 좁혀서 좁은 화면에서 답답해 보이지 않게 함.
+     가로 스텝 목록 자체는 이미 overflow-x:auto라 페이지 세로 스크롤과 안 부딪힘 */
+  .net-pipeline { padding: 6px 10px; gap: 8px; }
+  .net-pipeline-title { font-size: 8.5px; }
+  .net-pipeline-step { font-size: 10px; }
 }
 </style>

@@ -12,7 +12,7 @@ import AppLayout from '@/layouts/AppLayout.vue'
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: var(--font-family);
   height: 100vh;
 }
 
@@ -142,7 +142,9 @@ body {
 
 .orb-1 {
   width: 620px; height: 520px;
-  background: rgb(from var(--accent) r g b / 0.12);
+  /* 사이드바 active 메뉴 배경과 같은 강도(accent 8%)로 맞춤 — 이 orb가 상단 헤더
+     영역까지 번져 보이는 유일한 orb라, 둘의 톤 차이가 가장 먼저 눈에 띔 */
+  background: rgb(from var(--accent) r g b / 0.08);
   top: -100px; right: 3%;
   animation: orb-drift-1 8s ease-in-out infinite;
 }
@@ -161,7 +163,7 @@ body {
   animation: orb-drift-3 12s ease-in-out infinite;
 }
 
-[data-theme="light"] .orb-1 { background: rgb(from var(--accent) r g b / 0.06); }
+[data-theme="light"] .orb-1 { background: rgb(from var(--accent) r g b / 0.08); }
 [data-theme="light"] .orb-2 { background: rgb(from var(--accent) r g b / 0.05); }
 [data-theme="light"] .orb-3 { background: rgb(from var(--accent) r g b / 0.03); }
 
@@ -214,7 +216,7 @@ body {
   background: transparent;
   color: var(--subtext); cursor: pointer;
   display: flex; align-items: center; gap: 5px;
-  font-family: 'Inter', sans-serif;
+  font-family: var(--font-family);
   transition: color .15s, border-color .15s, background .15s;
 }
 .tb-btn:hover { color: var(--text); }
@@ -230,7 +232,7 @@ body {
   gap: 7px;
   font-size: 12px;
   font-weight: 500;
-  font-family: 'Inter', sans-serif;
+  font-family: var(--font-family);
   padding: 6px 12px;
   border-radius: 8px;
   border: 0.5px solid var(--border);
@@ -263,7 +265,7 @@ body {
   border-radius: 6px;
   font-size: 12px;
   font-weight: 500;
-  font-family: 'Inter', sans-serif;
+  font-family: var(--font-family);
   color: var(--subtext);
   background: transparent;
   border: none;
@@ -320,12 +322,19 @@ body {
   .shell { flex-direction: column; }
 
   .sidebar {
-    position: absolute;
+    /* absolute는 .shell의 overflow:hidden에 걸려 페이지 콘텐츠(반응 지도, 파이프라인 바
+       등)에 가려지거나 잘릴 수 있음 — fixed는 뷰포트 기준으로 그리기 때문에 어떤 조상의
+       overflow에도 영향받지 않고 항상 페이지 전체 위에 뜬다. z-index도 NetworkView.vue의
+       sticky 헤더(z-index:100) 같은 개별 페이지 요소보다 확실히 높게(1000) 잡아서
+       "어느 화면에서 열어도 드로어가 최상단"을 보장함 */
+    position: fixed;
     top: 60px; left: 0;
     width: 100%;
     max-height: calc(100vh - 60px);
+    max-height: calc(100dvh - 60px); /* 모바일 브라우저 주소창 등으로 뷰포트가 바뀌어도 정확한 높이 */
     overflow-y: auto;
-    z-index: 30;
+    padding-bottom: env(safe-area-inset-bottom);
+    z-index: 1000;
     border-right: none;
     border-bottom: 0.5px solid var(--sidebar-border);
     box-shadow: 0 16px 32px rgba(0, 0, 0, 0.28);
@@ -341,10 +350,12 @@ body {
   }
 
   .mobile-nav-backdrop {
+    /* 헤더(60px) 아래 전체를 덮음 — 헤더 자체는 일부러 덮지 않아서 닫기 역할을 하는
+       햄버거(X) 버튼과 언어/테마 버튼이 계속 보이고 눌림 */
     position: fixed;
     inset: 60px 0 0 0;
     background: rgba(0, 0, 0, 0.35);
-    z-index: 20;
+    z-index: 999;
   }
 
   .topbar { padding: 0 16px; }

@@ -170,6 +170,14 @@ const mobileNavOpen = ref(false)
 const sidebarRef = ref<HTMLElement | null>(null)
 const hamburgerRef = ref<HTMLElement | null>(null)
 
+// 드로어가 열려 있는 동안 그 뒤의 페이지(반응 지도 등)가 같이 스크롤되면 드로어 위에서
+// 스크롤하려 했는데 배경이 움직이는 것처럼 느껴짐 — 열려 있을 때만 body 스크롤을 잠그고,
+// 드로어 내부(overflow-y: auto)는 그대로 자체 스크롤되게 둠
+watch(mobileNavOpen, (open) => {
+  document.body.style.overflow = open ? 'hidden' : ''
+})
+onBeforeUnmount(() => { document.body.style.overflow = '' })
+
 function toggleMobileNav() { mobileNavOpen.value = !mobileNavOpen.value }
 function closeMobileNav() { mobileNavOpen.value = false }
 
