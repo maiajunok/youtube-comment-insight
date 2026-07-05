@@ -3,17 +3,23 @@ import { computed, ref, watch } from 'vue'
 import type { TimelinePoint, Lang } from '@/features/insight/types/insight'
 import { messages } from '@/locales/messages'
 
-type SiblingTime = { index: number; direction: TimelinePoint['direction']; timeLabel: string }
+// 등빈도 버킷 단위(원본)가 아니라 30분 창 단위로 이미 묶인 시간 그룹 — 댓글이 몰리는 구간엔
+// 원본 버킷이 몇 초~몇 분 간격으로 수십 개씩 쏟아져서, 버킷 그대로 칩을 만들면 "같은 시간"처럼
+// 보이는 칩이 수십 개 생긴다(ReactionTimeline.vue의 burstDayGroups.windows 참고)
+type SiblingWindow = {
+  key: string; direction: TimelinePoint['direction']; timeLabel: string
+  kind: 'SENTIMENT' | 'VOLUME' | 'BOTH'
+}
 
 const props = defineProps<{
   point: TimelinePoint
   label: string
   lang: Lang
-  siblingTimes?: SiblingTime[]
-  activeIndex?: number | null
+  siblingWindows?: SiblingWindow[]
+  activeWindowKey?: string | null
   showAll?: boolean
 }>()
-const emit = defineEmits<{ (e: 'close'): void; (e: 'select-time', index: number): void; (e: 'select-all'): void }>()
+const emit = defineEmits<{ (e: 'close'): void; (e: 'select-time', key: string): void; (e: 'select-all'): void }>()
 
 const M = computed(() => messages[props.lang])
 
@@ -61,6 +67,22 @@ const daysSinceUploadLabel = computed(() => {
   return DAYS_SINCE_UPLOAD_LABEL[props.lang](days)
 })
 
+// 감정 급변(POSITIVE_SPIKE/NEGATIVE_SPIKE)과 댓글량 급증(volume-only, direction 없음)을
+// 구분해서 보여줌 — "전체" 병합 뷰는 그 날 가장 극단적인 포인트를 대표로 쓰므로 감정/볼륨
+// 어느 쪽이든 대표가 될 수 있음(ReactionTimeline.vue의 severity 비교 참고)
+const burstEyebrow = computed(() => {
+  if (props.point.direction === 'POSITIVE_SPIKE') return M.value.positiveSpike
+  if (props.point.direction === 'NEGATIVE_SPIKE') return M.value.negativeSpike
+  if (props.point.isVolumeBurst) return M.value.volumeSpike
+  return ''
+})
+const burstZScore = computed(() => props.point.isBurst ? props.point.zScore : props.point.volumeZScore)
+// 색상 의미 고정: 감정 급변=주황(anomaly), 댓글량 급증(단독)=보라(volume-burst) — 감정 급변이
+// 같이 있으면(direction 존재) 그쪽을 우선해서 amber로 표시(라벨 우선순위와 동일하게 맞춤)
+const burstEyebrowColor = computed(() =>
+  props.point.direction ? 'var(--anomaly)' : props.point.isVolumeBurst ? 'var(--volume-burst)' : 'var(--anomaly)'
+)
+
 const sentimentColor = (s: string) => {
   if (s === 'POSITIVE') return 'var(--positive)'
   if (s === 'NEGATIVE') return 'var(--negative)'
@@ -79,9 +101,9 @@ const sentimentLabel = (s: string) => {
   <div class="drawer">
     <div class="drawer-header">
       <div class="header-text">
-        <p class="header-eyebrow">
-          {{ point.direction === 'POSITIVE_SPIKE' ? M.positiveSpike : M.negativeSpike }}
-          <span class="z-badge">z={{ point.zScore?.toFixed(2) }}</span>
+        <p class="header-eyebrow" :style="{ color: burstEyebrowColor }">
+          {{ burstEyebrow }}
+          <span class="z-badge">z={{ burstZScore?.toFixed(2) }}</span>
         </p>
         <h3 class="header-title">{{ absoluteDate || label }}<span v-if="dateRangeEnd" class="header-range"> ~ {{ dateRangeEnd }}</span></h3>
         <p class="header-days">{{ daysSinceUploadLabel }}</p>
@@ -98,20 +120,21 @@ const sentimentLabel = (s: string) => {
       </button>
     </div>
 
-    <!-- 같은 날 이상치가 여러 번이면, 창을 닫지 않고 바로 다른 시간대로(또는 전체 합쳐서) 전환 -->
-    <div v-if="siblingTimes && siblingTimes.length > 1" class="time-row">
+    <!-- 같은 날 이상치가 여러 번이면, 창을 닫지 않고 바로 다른 시간대(30분 단위)로(또는 전체
+         합쳐서) 전환 -->
+    <div v-if="siblingWindows && siblingWindows.length > 1" class="time-row">
       <button class="time-pill" :class="{ active: showAll }" @click="emit('select-all')">
         {{ M.filterAll }}
       </button>
       <button
-        v-for="t in siblingTimes"
-        :key="t.index"
+        v-for="w in siblingWindows"
+        :key="w.key"
         class="time-pill"
-        :class="{ active: !showAll && t.index === activeIndex }"
-        @click="emit('select-time', t.index)"
+        :class="{ active: !showAll && w.key === activeWindowKey }"
+        @click="emit('select-time', w.key)"
       >
-        <i class="dot" :style="{ background: t.direction === 'NEGATIVE_SPIKE' ? 'var(--negative)' : 'var(--positive)' }" />
-        {{ t.timeLabel }}
+        <i class="dot" :style="{ background: w.direction === 'NEGATIVE_SPIKE' ? 'var(--negative)' : w.direction === 'POSITIVE_SPIKE' ? 'var(--positive)' : 'var(--volume-burst)' }" />
+        {{ w.timeLabel }}
       </button>
     </div>
 
@@ -212,7 +235,7 @@ const sentimentLabel = (s: string) => {
   gap: 8px;
   font-size: 11px;
   font-weight: 700;
-  color: var(--anomaly);
+  /* color는 burstEyebrowColor로 인라인 바인딩(감정 급변=주황 / 댓글량 급증=보라) */
   margin-bottom: 6px;
 }
 .z-badge {

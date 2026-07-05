@@ -6,6 +6,14 @@ export type SentimentRatio = {
   negative: number
 }
 
+// Wilson score interval 기반 비율 신뢰도 — ciLow/ciHigh는 0~100 스케일의 95% 신뢰구간
+export type RateConfidence = {
+  level: 'LOW' | 'MEDIUM' | 'HIGH'
+  ciLow: number
+  ciHigh: number
+  sampleSize: number
+}
+
 export type Topic = {
   label: string
   labelEn?: string
@@ -13,6 +21,8 @@ export type Topic = {
   labelJa?: string
   mentionCount: number
   sentiment: SentimentRatio
+  // 옛 캐시(신뢰도 계산 도입 이전에 분석된 영상)에는 없을 수 있어 optional
+  confidence?: { positive: RateConfidence; negative: RateConfidence }
 }
 
 export type TopicLabel = {
@@ -34,6 +44,10 @@ export type TimelinePoint = {
   zScore?: number
   isBurst?: boolean
   direction?: 'POSITIVE_SPIKE' | 'NEGATIVE_SPIKE' | null
+  // 감정 급변과 별개인 "댓글량 급증" — 같은 등빈도 버킷이 평소보다 훨씬 짧은 시간에 몰렸을 때
+  volumeZScore?: number
+  isVolumeBurst?: boolean
+  durationSeconds?: number
   topComments?: { text: string; likeCount: number; sentiment: string }[]
 }
 

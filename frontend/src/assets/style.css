@@ -20,6 +20,9 @@
   --negative:        #f43f5e;
   --anomaly:         #ff9900;
   --net-line:        #3b82f6;
+  /* 댓글량(volume) 급증 전용 색 — 감정 급변(anomaly=주황)이나 부정(negative=빨강)과 겹쳐
+     보이지 않도록 보라 계열로 분리(반응 타임라인 전용) */
+  --volume-burst:    #7C3AED;
   --card-padding:    22px;
   --gap:             16px;
   --radius:          12px;
@@ -59,6 +62,7 @@
   --negative:        #dc2626;
   --anomaly:         #ff9900;
   --net-line:        #3b82f6;
+  --volume-burst:    #7C3AED;
   /* ui helpers */
   --sidebar-border:  rgba(0, 0, 0, 0.16);
   --topbar-border:   rgba(0, 0, 0, 0.16);

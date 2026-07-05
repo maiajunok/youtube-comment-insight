@@ -25,6 +25,11 @@ export interface UIMessages {
   neutral: string
   negative: string
   clickHint: string
+  // 비율 신뢰도 배지(Wilson score interval 기반)
+  confidenceLow: string
+  confidenceMedium: string
+  confidenceHigh: string
+  confidenceTooltip: string
   // ReactionTimeline
   sentimentTrend: string
   reactionSub: string
@@ -33,6 +38,26 @@ export interface UIMessages {
   anomalyDetected: string
   positiveSpike: string
   negativeSpike: string
+  volumeSpike: string
+  sentimentBurstLabel: string
+  burstShowMore: string
+  burstShowLess: string
+  // 이상치 이벤트 해석 블록
+  burstEventsHeading: string
+  burstEventTypeBoth: string
+  burstEventTypeEarly: string
+  burstEarlyCaveat: string
+  burstEarlyVolumeNote: string
+  burstPositiveInterpretation: string
+  burstNegativeInterpretation: string
+  burstNegativeLateNote: string
+  burstVolumeInterpretation: string
+  burstBothInterpretation: string
+  burstSummarySentimentOnly: string
+  burstSummaryVolumeOnly: string
+  burstSummaryBoth: string
+  burstViewCommentsBtn: string
+  burstUploadElapsedPrefix: string
   netSentimentLabel: string
   normalRangeLabel: string
   netSentimentTrend: string
@@ -166,7 +191,6 @@ export interface UIMessages {
   networkPanelSimilarVideos: string
   networkPanelSimilarComments: string
   networkPanelViewCommentsBtn: string
-  networkBackToList: string
   networkListVideos: string
   networkTopicSampleNote: string
   networkListUnavailable: string
@@ -244,6 +268,10 @@ export const messages: Record<Lang, UIMessages> = {
     neutral: '중립',
     negative: '부정',
     clickHint: '클릭하면 댓글 보기',
+    confidenceLow: '해석 주의',
+    confidenceMedium: '표본 적음',
+    confidenceHigh: '신뢰도 높음',
+    confidenceTooltip: '표본 {n}개 기준 95% 신뢰구간 · 긍정 {posLow}~{posHigh}% · 부정 {negLow}~{negHigh}%',
     sentimentTrend: '감정 반응 트렌드',
     reactionSub: '업로드 후 시간대별 댓글 반응',
     byHour: '시간별',
@@ -251,6 +279,25 @@ export const messages: Record<Lang, UIMessages> = {
     anomalyDetected: '이상치 감지',
     positiveSpike: '긍정 급상승',
     negativeSpike: '부정 급상승',
+    volumeSpike: '댓글량 급증',
+    sentimentBurstLabel: '감정 급변',
+    burstShowMore: '+ {n}개 더보기',
+    burstShowLess: '접기',
+    burstEventsHeading: '이상치 이벤트',
+    burstEventTypeBoth: '감정 급변 · 댓글량 급증 동시 발생',
+    burstEventTypeEarly: '업로드 직후 감정 요동',
+    burstEarlyCaveat: '초기 댓글 표본이 적어 순감정 점수가 크게 흔들린 구간입니다. 해석에 주의하세요.',
+    burstEarlyVolumeNote: '댓글 수도 함께 급증했습니다.',
+    burstPositiveInterpretation: '정상 범위보다 긍정 반응이 뚜렷하게 높아진 구간입니다.',
+    burstNegativeInterpretation: '정상 범위보다 부정 반응이 뚜렷하게 높아진 구간입니다.',
+    burstNegativeLateNote: '관련 이슈나 재조명 가능성이 있어 댓글을 확인해보는 걸 권장합니다.',
+    burstVolumeInterpretation: '댓글이 평소보다 훨씬 짧은 시간에 몰린 구간입니다.',
+    burstBothInterpretation: '댓글이 몰리면서 반응 논조도 함께 크게 바뀐 구간입니다.',
+    burstSummarySentimentOnly: '댓글량 급증은 없었지만, 댓글 논조가 평소와 다르게 바뀐 구간이 {n}번 감지되었습니다.',
+    burstSummaryVolumeOnly: '댓글이 짧은 시간에 몰린 구간이 {n}번 감지되었습니다.',
+    burstSummaryBoth: '댓글이 짧은 시간에 몰린 구간 {v}개와, 감정이 급변한 구간 {s}개가 감지되었습니다.',
+    burstViewCommentsBtn: '댓글 보기',
+    burstUploadElapsedPrefix: '업로드 후 {t}',
     netSentimentLabel: '순 감정 점수',
     normalRangeLabel: '정상 범위',
     netSentimentTrend: '순감정 지수',
@@ -374,7 +421,6 @@ export const messages: Record<Lang, UIMessages> = {
     networkPanelSimilarVideos: '비슷한 반응의 영상',
     networkPanelSimilarComments: '비슷한 댓글',
     networkPanelViewCommentsBtn: '댓글 반응 지도 보기',
-    networkBackToList: '목록으로',
     networkListVideos: '분석된 영상',
     networkTopicSampleNote: '그래프 가독성과 임베딩 비용 때문에 토픽당 좋아요 상위 30개 댓글만 표시돼요(감정·토픽 분석 자체는 전체 댓글 기준)',
     networkListUnavailable: '댓글 반응 지도 없음',
@@ -445,6 +491,10 @@ export const messages: Record<Lang, UIMessages> = {
     neutral: 'Neutral',
     negative: 'Negative',
     clickHint: 'Click to view comments',
+    confidenceLow: 'Use caution',
+    confidenceMedium: 'Small sample',
+    confidenceHigh: 'High confidence',
+    confidenceTooltip: '95% CI based on {n} comments · Positive {posLow}~{posHigh}% · Negative {negLow}~{negHigh}%',
     sentimentTrend: 'Sentiment Trend',
     reactionSub: 'Based on comment publish time after upload',
     byHour: 'By Hour',
@@ -452,6 +502,25 @@ export const messages: Record<Lang, UIMessages> = {
     anomalyDetected: 'Anomaly Detected',
     positiveSpike: 'Positive Spike',
     negativeSpike: 'Negative Spike',
+    volumeSpike: 'Comment Volume Spike',
+    sentimentBurstLabel: 'Sentiment Shift',
+    burstShowMore: '+ {n} more',
+    burstShowLess: 'Show less',
+    burstEventsHeading: 'Anomaly Events',
+    burstEventTypeBoth: 'Sentiment shift + volume spike',
+    burstEventTypeEarly: 'Early post-upload volatility',
+    burstEarlyCaveat: 'The early comment sample was small, so the net sentiment score swung sharply. Interpret with caution.',
+    burstEarlyVolumeNote: 'Comment volume also spiked during this period.',
+    burstPositiveInterpretation: 'Positive reactions rose noticeably above the normal range here.',
+    burstNegativeInterpretation: 'Negative reactions rose noticeably above the normal range here.',
+    burstNegativeLateNote: 'This may be tied to a related issue or renewed attention — worth checking the comments.',
+    burstVolumeInterpretation: 'Comments arrived far faster than usual during this window.',
+    burstBothInterpretation: 'Comments surged while the tone of reactions also shifted sharply.',
+    burstSummarySentimentOnly: 'No volume spikes, but the comment tone shifted unusually {n} time(s).',
+    burstSummaryVolumeOnly: 'Comments piled up in a short window {n} time(s).',
+    burstSummaryBoth: 'Detected {v} volume spike(s) and {s} sentiment shift(s).',
+    burstViewCommentsBtn: 'View comments',
+    burstUploadElapsedPrefix: '{t} after upload',
     netSentimentLabel: 'Net Sentiment',
     normalRangeLabel: 'Normal Range',
     netSentimentTrend: 'Net Sentiment Index',
@@ -575,7 +644,6 @@ export const messages: Record<Lang, UIMessages> = {
     networkPanelSimilarVideos: 'Similar-reaction videos',
     networkPanelSimilarComments: 'Similar comments',
     networkPanelViewCommentsBtn: 'View Comment Reaction Map',
-    networkBackToList: 'Back to list',
     networkListVideos: 'Analyzed videos',
     networkTopicSampleNote: 'Only the top 30 most-liked comments per topic are shown here for graph readability and embedding cost (sentiment/topic analysis itself still covers all comments)',
     networkListUnavailable: 'No comment map yet',
@@ -646,6 +714,10 @@ export const messages: Record<Lang, UIMessages> = {
     neutral: '中立',
     negative: '负面',
     clickHint: '点击查看评论',
+    confidenceLow: '谨慎解读',
+    confidenceMedium: '样本较少',
+    confidenceHigh: '置信度高',
+    confidenceTooltip: '基于{n}条评论的95%置信区间 · 正面 {posLow}~{posHigh}% · 负面 {negLow}~{negHigh}%',
     sentimentTrend: '情感反应趋势',
     reactionSub: '按上传后时间段的评论反应',
     byHour: '按小时',
@@ -653,6 +725,25 @@ export const messages: Record<Lang, UIMessages> = {
     anomalyDetected: '检测到异常',
     positiveSpike: '正面反应激增',
     negativeSpike: '负面反应激增',
+    volumeSpike: '评论量激增',
+    sentimentBurstLabel: '情绪剧变',
+    burstShowMore: '+ 还有{n}个',
+    burstShowLess: '收起',
+    burstEventsHeading: '异常事件',
+    burstEventTypeBoth: '情绪剧变 · 评论量激增同时发生',
+    burstEventTypeEarly: '上传初期情绪波动',
+    burstEarlyCaveat: '上传初期评论样本较少，净情绪分数波动较大，解读时请谨慎。',
+    burstEarlyVolumeNote: '同期评论量也有激增。',
+    burstPositiveInterpretation: '此区间正面反应明显高于正常范围。',
+    burstNegativeInterpretation: '此区间负面反应明显高于正常范围。',
+    burstNegativeLateNote: '可能与相关话题或重新关注有关，建议查看评论内容。',
+    burstVolumeInterpretation: '此区间评论比平时更快地涌入。',
+    burstBothInterpretation: '评论涌入的同时，反应基调也发生了明显变化。',
+    burstSummarySentimentOnly: '虽然没有评论量激增，但评论基调异常变化的区间被检测到{n}次。',
+    burstSummaryVolumeOnly: '检测到评论在短时间内涌入的区间{n}次。',
+    burstSummaryBoth: '检测到评论量激增{v}次，情绪剧变{s}次。',
+    burstViewCommentsBtn: '查看评论',
+    burstUploadElapsedPrefix: '上传后{t}',
     netSentimentLabel: '净情感分数',
     normalRangeLabel: '正常范围',
     netSentimentTrend: '净情感指数',
@@ -776,7 +867,6 @@ export const messages: Record<Lang, UIMessages> = {
     networkPanelSimilarVideos: '反应相似的视频',
     networkPanelSimilarComments: '相似评论',
     networkPanelViewCommentsBtn: '查看评论反应地图',
-    networkBackToList: '返回列表',
     networkListVideos: '已分析视频',
     networkTopicSampleNote: '出于图表可读性和嵌入成本考虑，每个话题只显示点赞数最高的30条评论（情感·话题分析本身仍基于全部评论）',
     networkListUnavailable: '尚未生成评论地图',
@@ -847,6 +937,10 @@ export const messages: Record<Lang, UIMessages> = {
     neutral: 'ニュートラル',
     negative: 'ネガティブ',
     clickHint: 'クリックしてコメントを表示',
+    confidenceLow: '解釈注意',
+    confidenceMedium: 'サンプル少',
+    confidenceHigh: '信頼度高い',
+    confidenceTooltip: '{n}件のコメントに基づく95%信頼区間 · ポジティブ {posLow}~{posHigh}% · ネガティブ {negLow}~{negHigh}%',
     sentimentTrend: '感情反応トレンド',
     reactionSub: 'アップロード後の時間帯別コメント反応',
     byHour: '時間別',
@@ -854,6 +948,25 @@ export const messages: Record<Lang, UIMessages> = {
     anomalyDetected: '異常検知',
     positiveSpike: 'ポジティブ急増',
     negativeSpike: 'ネガティブ急増',
+    volumeSpike: 'コメント量急増',
+    sentimentBurstLabel: '感情急変',
+    burstShowMore: '+ 他{n}件',
+    burstShowLess: '折りたたむ',
+    burstEventsHeading: '異常イベント',
+    burstEventTypeBoth: '感情急変・コメント量急増の同時発生',
+    burstEventTypeEarly: 'アップロード直後の感情変動',
+    burstEarlyCaveat: '初期のコメント数が少なく、純感情スコアが大きく揺れた区間です。解釈には注意してください。',
+    burstEarlyVolumeNote: 'コメント数も同時に急増しました。',
+    burstPositiveInterpretation: '正常範囲よりポジティブな反応がはっきり高まった区間です。',
+    burstNegativeInterpretation: '正常範囲よりネガティブな反応がはっきり高まった区間です。',
+    burstNegativeLateNote: '関連する話題や再注目の可能性があるため、コメントを確認することをおすすめします。',
+    burstVolumeInterpretation: 'コメントが普段よりずっと短い時間に集中した区間です。',
+    burstBothInterpretation: 'コメントが集中すると同時に、反応のトーンも大きく変わった区間です。',
+    burstSummarySentimentOnly: 'コメント量の急増はありませんでしたが、コメントの論調がいつもと違う形で変化した区間が{n}回検出されました。',
+    burstSummaryVolumeOnly: 'コメントが短時間に集中した区間が{n}回検出されました。',
+    burstSummaryBoth: 'コメントが集中した区間{v}件と、感情が急変した区間{s}件が検出されました。',
+    burstViewCommentsBtn: 'コメントを見る',
+    burstUploadElapsedPrefix: 'アップロード後{t}',
     netSentimentLabel: '純感情スコア',
     normalRangeLabel: '通常範囲',
     netSentimentTrend: '純感情指数',
@@ -977,7 +1090,6 @@ export const messages: Record<Lang, UIMessages> = {
     networkPanelSimilarVideos: '反応が似ている動画',
     networkPanelSimilarComments: '似ているコメント',
     networkPanelViewCommentsBtn: 'コメント反応マップを見る',
-    networkBackToList: 'リストに戻る',
     networkListVideos: '分析済み動画',
     networkTopicSampleNote: 'グラフの見やすさと埋め込みコストのため、トピックごとに高評価上位30件のコメントのみ表示しています（感情・トピック分析自体は全コメントが対象）',
     networkListUnavailable: 'コメントマップ未生成',
