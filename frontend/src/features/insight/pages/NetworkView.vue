@@ -93,12 +93,6 @@ function topicColor(topic: string): string {
   const idx = commentTopics.value.indexOf(topic)
   return TOPIC_PALETTE.value[idx % TOPIC_PALETTE.value.length] ?? '#888'
 }
-// 댓글 상세 패널의 토픽 pill — 그 토픽이 배정된 구체 색을 작은 점 + 테두리로만 보여주고
-// 글자색은 항상 var(--text)로 고정해서 팔레트 색상별 명도 차이로 가독성이 떨어지지 않게 함
-function topicPillStyle(topic: string) {
-  const c = topicColor(topic)
-  return { borderColor: `color-mix(in srgb, ${c} 45%, transparent)` }
-}
 
 // ── 옆 패널 — 기본은 지금 지도에 있는 노드 목록, 노드를 클릭하면 그 노드의 상세로 전환됨.
 // (호버로 뜨는 방식은 그래프 폭이 바뀌면서 화면이 밀리는 문제가 있어 패널은 항상 마운트해두고
@@ -141,6 +135,10 @@ const filteredComments = computed<CommentGraphNode[]>(() =>
   graphData.value && selectedTopicFilter.value
     ? graphData.value.nodes.filter(n => n.topic === selectedTopicFilter.value)
     : []
+)
+// 댓글 상세 헤더의 카운트 뱃지 — topicGroups와 동일한 값(캡핑 안 된 실제 분류 개수)을 재사용
+const panelCommentTopicCount = computed(() =>
+  panelComment.value ? topicGroups.value.find(g => g.topic === panelComment.value!.topic)?.count ?? 0 : 0
 )
 
 const listItemEls = new Map<string, HTMLElement>()
@@ -795,7 +793,7 @@ const unavailableVideos = computed(() => (overviewData.value?.nodes ?? []).filte
 
 // 정렬 — 이 화면의 핵심은 감정 랭킹이 아니라 반응 네트워크라서, 기본값은 지도에서 같이
 // 묶이는 유사도 그룹 순서로 둠(리스트가 지도 구조를 그대로 따라가게). 그룹은 큰 순서,
-// 그룹 안에서는 연결 수(중심성) 많은 순 → 댓글 수 많은 순으로 동률을 가름
+// 그룹 안에서는 댓글 수(반응 규모) 많은 순 → 연결 수(중심성) 많은 순으로 동률을 가름
 type SortMode = 'cluster' | 'comments' | 'positive' | 'negative' | 'newest'
 const sortMode = ref<SortMode>('cluster')
 const sortDropdownOpen = ref(false)
@@ -825,9 +823,9 @@ const sortedAvailableVideos = computed(() => {
     if (sizeDiff !== 0) return sizeDiff
     // 같은 크기의 서로 다른 그룹은 root id로 묶어서 서로 섞이지 않고 인접 배치되게 함
     if (ra !== rb) return ra.localeCompare(rb)
-    const degDiff = (degree.get(b.id) ?? 0) - (degree.get(a.id) ?? 0)
-    if (degDiff !== 0) return degDiff
-    return (b.commentCount ?? 0) - (a.commentCount ?? 0)
+    const commentDiff = (b.commentCount ?? 0) - (a.commentCount ?? 0)
+    if (commentDiff !== 0) return commentDiff
+    return (degree.get(b.id) ?? 0) - (degree.get(a.id) ?? 0)
   })
 })
 
@@ -1231,7 +1229,7 @@ async function reanalyze(videoId: string) {
                       @mouseleave="hoveredNodeId = null"
                       @click="selectNode(n, false)"
                     >
-                      <span class="net-list-item-dot" :style="{ background: sentimentColor(n.sentiment) }" />
+                      <span class="net-list-item-dot" :style="{ background: clusterColor(n.id) }" />
                       <span class="net-list-item-body">
                         <span class="net-list-item-label">{{ listLabel(n) }}</span>
                         <span class="net-list-item-meta">{{ fmtComments(n.commentCount) }} · {{ M.positive }} {{ Math.round(n.sentiment.positive) }}%</span>
@@ -1301,20 +1299,18 @@ async function reanalyze(videoId: string) {
             </template>
 
             <template v-else-if="panelComment">
-              <!-- 댓글 지도는 노드가 빽빽해서 빈 공간을 찾아 클릭하기 어려울 수 있으니
-                   (영상 지도와 달리) 여기는 뒤로가기 버튼을 남겨둠 -->
-              <button class="back-btn net-panel-back" @click="closePanel">
-                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                  <polyline points="15 18 9 12 15 6"/>
-                </svg>
-                {{ M.networkBackToList }}
-              </button>
+              <!-- 댓글 지도는 노드가 빽빽해서 빈 공간을 찾아 클릭하기 어려울 수 있으니(영상 지도와
+                   달리) 여기는 뒤로가기를 남겨둠 — 목록 화면(.net-list-title)과 동일한 헤더 구조로 맞춰서
+                   "목록으로 가는 버튼"이 아니라 "지금 보고 있는 토픽 제목"처럼 보이게 함 -->
+              <p class="net-list-title">
+                <button class="net-list-title-back" @click="closePanel">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"/></svg>
+                </button>
+                {{ panelComment.topic }}
+                <span class="net-list-count">{{ panelCommentTopicCount }}</span>
+              </p>
 
               <div class="net-panel-scroll">
-                <span class="topic-pill topic-pill--sphere" :style="topicPillStyle(panelComment.topic)">
-                  <span class="topic-pill-dot" :style="{ background: topicColor(panelComment.topic) }" />
-                  {{ panelComment.topic }}
-                </span>
                 <p class="net-panel-comment-text">{{ panelComment.text }}</p>
                 <div class="net-panel-stats">
                   <span>{{ M.likesLabel }}</span>
@@ -1586,11 +1582,6 @@ async function reanalyze(videoId: string) {
   border: 0.5px solid var(--border);
   background: var(--card);
   overflow: hidden;
-}
-.net-panel-back {
-  flex-shrink: 0;
-  margin: 14px 14px 0;
-  align-self: flex-start;
 }
 .net-panel-scroll {
   flex: 1;
@@ -1928,17 +1919,6 @@ button.net-panel-neighbor:hover { background: var(--card-hover); }
   white-space: nowrap;
   letter-spacing: 0.01em;
 }
-/* 댓글 상세 패널의 토픽 pill — 구체 색은 점으로만, 글자는 항상 var(--text)로 가독성 유지 */
-.topic-pill--sphere {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  background: var(--card-hover);
-  color: var(--text);
-  align-self: flex-start;
-}
-.topic-pill-dot { width: 7px; height: 7px; border-radius: 50%; flex-shrink: 0; }
-
 /* ── 카드 5개짜리 "과제 발표 슬라이드" 느낌을 없애고, 번호 붙은 얇은 한 줄 프로세스 바로 —
    설명은 항상 보이지 않고 title 속성(네이티브 툴팁)으로만 필요할 때 확인하게 함.
    그래프/선택 분석 다음으로 낮은 우선순위라 서체도 legend와 비슷한 caption 톤으로 낮춤 ── */
