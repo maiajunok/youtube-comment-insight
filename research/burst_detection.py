@@ -7,7 +7,7 @@ This is the "early warning" layer a data scientist adds on top of one-time AI
 labeling — pure pandas/numpy under the hood, zero extra API cost after the
 initial labeling. See algorithms.py for the actual detection logic.
 
-Run: python analysis/burst_detection.py [video_id]
+Run: python research/burst_detection.py [video_id]
 """
 import sys
 

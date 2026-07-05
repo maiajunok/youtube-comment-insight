@@ -11,9 +11,9 @@ What it does:
 4. Reduces to 2D with PCA for visualization
 5. Compares the unsupervised clusters against the existing GPT sentiment labels
    (Adjusted Rand Index — how much the two groupings agree)
-6. Saves plots + a text summary to analysis/output/
+6. Saves plots + a text summary to research/output/
 
-Run: python analysis/cluster_comments.py
+Run: python research/cluster_comments.py
 """
 import os
 import sys

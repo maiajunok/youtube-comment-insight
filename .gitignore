@@ -7,8 +7,8 @@ __pycache__/
 .env
 backend/.env
 
-# Analysis scripts — regenerable output artifacts, not source
-analysis/output/
+# Research scripts — regenerable output artifacts, not source
+research/output/
 
 # Node
 node_modules/

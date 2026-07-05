@@ -5,7 +5,7 @@ line and flagged anomalies starred. Wires data_loader (I/O) -> algorithms
 (bucketing + z-score) -> visualize (plotting) together — see algorithms.py
 for the actual bucketing/detection logic.
 
-Run: python analysis/reaction_trend.py <video_id> [bucket_size]
+Run: python research/reaction_trend.py <video_id> [bucket_size]
 """
 import sys
 
